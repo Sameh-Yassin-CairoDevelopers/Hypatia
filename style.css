@@ -1,0 +1,487 @@
+/* =========================================================================
+   Hypatia Project - Serverless Client-Side Edition
+   Master Stylesheet (style.css)
+   ========================================================================= */
+
+/* تعريف المتغيرات اللونية للسمات الثلاثة */
+:root[data-theme="papyrus"] {
+    --bg-color: #f6ecd0;
+    --text-color: #2c2512;
+    --accent-color: #8c6239;
+    --card-bg: #eddcb9;
+    --border-color: #dac7a3;
+    --muted-text: #6d5b3d;
+}
+:root[data-theme="light"] {
+    --bg-color: #fdfdfd;
+    --text-color: #1a1a1a;
+    --accent-color: #3182ce;
+    --card-bg: #f7fafc;
+    --border-color: #e2e8f0;
+    --muted-text: #718096;
+}
+:root[data-theme="dark"] {
+    --bg-color: #121212;
+    --text-color: #e2e8f0;
+    --accent-color: #63b3ed;
+    --card-bg: #1d1d1d;
+    --border-color: #2d3748;
+    --muted-text: #a0aec0;
+}
+
+* {
+    box-sizing: border-box;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    direction: rtl;
+}
+
+/* القائمة الجانبية المرنة للقصص الـ 500 */
+.sidebar {
+    width: 280px;
+    min-width: 150px;
+    max-width: 450px;
+    background-color: var(--card-bg);
+    border-left: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    overflow-y: auto;
+    position: relative;
+    flex: none; /* إلغاء التمدد للسماح بتحجيم السحب بالماوس */
+}
+
+.sidebar.collapsed {
+    width: 0 !important;
+    min-width: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
+    border-left: none;
+}
+
+.sidebar h2 {
+    font-family: 'Amiri', serif;
+    margin-top: 0;
+    font-size: 1.4rem;
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 10px;
+}
+
+.story-link {
+    padding: 10px;
+    margin: 4px 0;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    font-family: 'Amiri', serif;
+    font-size: 1.05rem;
+}
+
+.story-link:hover {
+    background-color: var(--border-color);
+}
+
+.story-link.active {
+    background-color: var(--accent-color);
+    color: #fff;
+    font-weight: bold;
+}
+
+/* فواصل تحجيم القوائم التفاعلية بالجر والسحب بالماوس */
+.resize-splitter {
+    width: 6px;
+    background-color: var(--border-color);
+    cursor: col-resize;
+    transition: background-color 0.15s;
+    z-index: 50;
+}
+.resize-splitter:hover {
+    background-color: var(--accent-color);
+}
+
+.reader-pane {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* الشريط العلوي النحيف المطور */
+.control-bar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--card-bg);
+    padding: 6px 20px;
+    border-bottom: 2px solid var(--border-color);
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+}
+
+.control-bar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.active-story-title {
+    font-family: 'Amiri', serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.about-story-btn {
+    background-color: var(--border-color);
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+    border-radius: 4px;
+    padding: 3px 8px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-family: 'Amiri', serif;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.about-story-btn:hover, .export-story-btn:hover {
+    background-color: var(--accent-color);
+    color: #fff;
+}
+
+.export-story-btn {
+    background-color: var(--border-color);
+    border: 1px solid var(--border-color);
+    color: var(--accent-color);
+    border-radius: 4px;
+    padding: 3px 8px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-family: 'Amiri', serif;
+    font-weight: bold;
+}
+
+/* زر طي 75% من الهيدر */
+.header-toggle-btn {
+    background: none;
+    border: none;
+    color: var(--accent-color);
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 4px;
+}
+
+.control-bar-settings {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    border-top: 1px dashed var(--border-color);
+    padding-top: 8px;
+}
+
+.control-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.display-filters {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: var(--bg-color);
+    padding: 5px 12px;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+}
+
+.filter-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.scrollable-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.font-sizer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.85rem;
+}
+
+/* كروت الجمل المصغرة والمعززة */
+.sentence-card {
+    background-color: var(--card-bg);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 25px;
+    border: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.glyphs-display {
+    font-size: 2.2rem;
+    margin-bottom: 12px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: var(--text-color);
+}
+
+.arabic-display {
+    font-family: 'Amiri', serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.4;
+    color: var(--text-color);
+    margin-bottom: 15px;
+}
+
+/* الأشرطة الملونة لتحديد لغة المصدر الأصلية للترجمة */
+.source-badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    padding: 1px 6px;
+    border-radius: 3px;
+    font-weight: bold;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+.source-badge.german { background-color: #ecc94b; color: #2c2512; }
+.source-badge.english { background-color: #3182ce; color: #fff; }
+.source-badge.french { background-color: #319795; color: #fff; }
+
+.details-section {
+    border-top: 1px dashed var(--border-color);
+    padding-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.detail-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 0.88rem;
+    line-height: 1.35;
+}
+
+.detail-row strong {
+    min-width: 90px;
+    color: var(--text-color);
+    display: inline-block;
+}
+
+.detail-row span {
+    color: var(--muted-text);
+    flex: 1;
+}
+
+.word-token {
+    display: inline-block;
+    background-color: var(--border-color);
+    padding: 1px 6px;
+    border-radius: 4px;
+    margin: 1px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.word-token:hover {
+    background-color: var(--accent-color);
+    color: #fff;
+}
+
+.word-token.active-token {
+    background-color: var(--accent-color) !important;
+    color: #fff !important;
+    box-shadow: 0 0 3px var(--accent-color);
+    transform: scale(1.05);
+    font-weight: bold;
+}
+
+/* لوحة القاموس الجانبية القابلة للطي والتحجيم */
+.dictionary-drawer {
+    width: 320px;
+    min-width: 150px;
+    max-width: 450px;
+    background-color: var(--card-bg);
+    border-right: 1px solid var(--border-color);
+    padding: 15px;
+    display: none;
+    flex-direction: column;
+    overflow-y: auto;
+    flex: none; /* إلغاء التمدد للسماح بالسحب بالسحب */
+}
+
+.dictionary-drawer h3 {
+    font-family: 'Amiri', serif;
+    margin-top: 0;
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 8px;
+}
+
+.drawer-close {
+    background: none;
+    border: none;
+    color: var(--accent-color);
+    cursor: pointer;
+    float: left;
+    font-weight: bold;
+}
+
+.drawer-row {
+    margin-bottom: 10px;
+    line-height: 1.35;
+}
+.drawer-row strong {
+    display: block;
+    font-size: 0.88rem;
+    color: var(--text-color);
+    margin-bottom: 2px;
+}
+.drawer-row span {
+    color: var(--muted-text);
+}
+
+.accordion-header {
+    background-color: var(--border-color);
+    padding: 10px 14px;
+    border-radius: 6px;
+    margin-top: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Amiri', serif;
+    font-size: 1rem;
+    border: 1px solid var(--border-color);
+}
+
+.accordion-header:hover {
+    background-color: var(--accent-color);
+    color: #fff;
+}
+
+.accordion-body {
+    display: none;
+    padding: 12px;
+    border: 1px solid var(--border-color);
+    border-top: none;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: var(--bg-color);
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.accordion-body.open {
+    display: block;
+}
+
+.card-container {
+    border: 1px solid var(--border-color);
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    background-color: var(--bg-color);
+    position: relative;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    direction: rtl;
+}
+
+.modal-content {
+    background-color: var(--card-bg);
+    padding: 20px;
+    border: 1px solid var(--border-color);
+    width: 90%;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    color: var(--text-color);
+    position: relative;
+    max-height: 90vh;
+    overflow-y: auto;
+    direction: rtl;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+
+.modal-header h3 {
+    margin: 0;
+    font-family: 'Amiri', serif;
+    font-size: 1.3rem;
+}
+
+.modal-close {
+    background: none;
+    border: none;
+    color: var(--text-color);
+    font-size: 1.3rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* جراف المعرفة وعلاقات المصاحبة */
+.insight-section {
+    margin-top: 12px;
+    border-top: 1px dashed var(--border-color);
+    padding-top: 8px;
+}
+.colloc-badge {
+    display: inline-block;
+    font-size: 0.8rem;
+    background-color: var(--border-color);
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin: 2px;
+}
