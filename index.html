@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>مستودع هيباتيا للأدب المصري القديم</title>
+    <!-- تحميل الخطوط الأكاديمية المريحة للقراءة الطويلة -->
     <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <style>
+        /* تعريف الألوان لكل سِمة بصريّة */
         :root[data-theme="papyrus"] {
             --bg-color: #f6ecd0;
             --text-color: #2c2512;
@@ -238,7 +240,7 @@
             font-size: 0.85rem;
         }
 
-        /* كروت الجمل المصغرة */
+        /* بطاقة الجملة الغامرة المحدثة */
         .sentence-card {
             background-color: var(--card-bg);
             border-radius: 8px;
@@ -250,7 +252,7 @@
         }
 
         .glyphs-display {
-            font-size: 2rem;
+            font-size: 2.2rem;
             margin-bottom: 12px;
             line-height: 1.5;
             letter-spacing: 1px;
@@ -261,31 +263,9 @@
             font-family: 'Amiri', serif;
             font-size: 1.8rem;
             font-weight: 700;
-            line-height: 1.4;
+            line-height: 1.5;
             color: var(--text-color);
-            margin-bottom: 12px;
-        }
-
-        /* التنسيق المعدل لزر التعديل المجرّد لليسار */
-        .suggest-btn {
-            align-self: flex-start;
-            background-color: var(--border-color);
-            border: 1px solid var(--border-color);
-            color: var(--accent-color);
-            padding: 4px 10px;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 0.8rem;
-            font-family: 'Inter', sans-serif;
-            font-weight: 500;
-            margin-bottom: 10px;
-            float: left; /* جعل الزر يطفو ناحية الشمال برقة */
-        }
-
-        .suggest-btn:hover {
-            background-color: var(--accent-color);
-            color: #fff;
-            border-color: var(--accent-color);
+            margin-bottom: 15px;
         }
 
         /* الأشرطة الملونة لتحديد لغة المصدر الأصلية للترجمة */
@@ -308,7 +288,6 @@
             display: flex;
             flex-direction: column;
             gap: 6px;
-            clear: both; /* إلغاء الطفو لضمان استقرار الأسطر */
         }
 
         .detail-row {
@@ -320,7 +299,7 @@
         }
 
         .detail-row strong {
-            min-width: 80px;
+            min-width: 90px;
             color: var(--text-color);
             display: inline-block;
         }
@@ -339,6 +318,7 @@
             cursor: pointer;
             font-size: 0.8rem;
             font-weight: 500;
+            transition: transform 0.2s, background-color 0.2s;
         }
 
         .word-token:hover {
@@ -496,46 +476,6 @@
             font-weight: bold;
         }
 
-        .form-group {
-            margin-bottom: 12px;
-        }
-
-        .form-group label {
-            display: block;
-            margin-bottom: 4px;
-            font-weight: 600;
-            font-size: 0.88rem;
-        }
-
-        .form-group input, .form-group textarea, .form-group select {
-            width: 100%;
-            padding: 8px;
-            border: 1px solid var(--border-color);
-            border-radius: 4px;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            font-family: inherit;
-            font-size: 0.88rem;
-        }
-
-        .form-group textarea {
-            resize: vertical;
-            height: 70px;
-        }
-
-        .submit-btn {
-            background-color: var(--accent-color);
-            color: #fff;
-            border: none;
-            padding: 10px 15px;
-            border-radius: 4px;
-            cursor: pointer;
-            font-weight: bold;
-            width: 100%;
-            font-size: 0.95rem;
-            font-family: 'Amiri', serif;
-        }
-
         /* أيقونات الأكورديون لطبقة المعرفة */
         .insight-section {
             margin-top: 12px;
@@ -634,52 +574,6 @@
         </div>
     </div>
 
-    <!-- 4. نافذة مراجعة وتعديل التراجم المنبثقة (Modal) -->
-    <div id="suggestionModal" class="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h3>تقديم اقتراح مراجعة لغوية (للأثريين والعلماء)</h3>
-                <button class="modal-close" onclick="closeModal()">✕</button>
-            </div>
-            <form id="suggestionForm" onsubmit="submitSuggestion(event)">
-                <input type="hidden" id="modalTargetId">
-                <input type="hidden" id="modalTargetType">
-
-                <div class="form-group">
-                    <label for="fieldModified">الحقل المستهدف بالتصحيح:</label>
-                    <select id="fieldModified"></select>
-                </div>
-
-                <div class="form-group">
-                    <label for="currentValue">الصياغة الحالية المسجلة بالموقع:</label>
-                    <textarea id="currentValue" readonly style="opacity: 0.7; background-color: var(--border-color);"></textarea>
-                </div>
-
-                <div class="form-group">
-                    <label for="proposedValue">الصياغة الأكاديمية الجديدة المقترحة:</label>
-                    <textarea id="proposedValue" required placeholder="يرجى كتابة الترجمة أو الصياغة الأصح علمياً..."></textarea>
-                </div>
-
-                <div class="form-group">
-                    <label for="academicJustification">المستند العلمي والمبرر الأكاديمي للتعديل:</label>
-                    <textarea id="academicJustification" required placeholder="مثال: بناءً على قاموس هايدلبرغ أو مبررات نحوية للسطر..."></textarea>
-                </div>
-
-                <div class="form-group">
-                    <label for="researcherName">الاسم الأكاديمي للباحث (المراجع):</label>
-                    <input type="text" id="researcherName" required placeholder="الاسم ثلاثي...">
-                </div>
-
-                <div class="form-group">
-                    <label for="researcherInstitution">المؤسسة أو الجامعة التابع لها الباحث:</label>
-                    <input type="text" id="researcherInstitution" required placeholder="جامعة أو معهد الآثار التابع له الباحث..."></input>
-                </div>
-
-                <button type="submit" id="modalSubmitBtn" class="submit-btn">إرسال الاقتراح للتدقيق والمراجعة البشرية</button>
-            </form>
-        </div>
-    </div>
-
     <!-- 5. نافذة تفاصيل البردية والمخطوط الكلية (About Story Modal) -->
     <div id="aboutStoryModal" class="modal">
         <div class="modal-content" style="font-family: 'Amiri', serif; font-size: 1.25rem;">
@@ -697,8 +591,8 @@
         let currentFontSize = 26; // تقليص الخط درجتين معياريتين لرفع التماسك البصري
         let activeStoryData = null; // تخزين معلومات المخطوط النشط بالكامل لخدمة زر التفاصيل لمرة واحدة فقط
 
-        // 100% معمارية سحابية سيرفرلس بالكامل (100% Client-Side In-Memory Indexer) لتعمل على جيت هاب هاب بايجز للأبد وبالمجان
-        const activeStories = [
+        // قائمة المخطوطات والقصص المعتمدة والآمنة للتراجع التلقائي محلياً (Fallback)
+        const fallbackStories = [
             { id: "EGY-010", title_ar: "EGY-010: الملك نيفركارع والقائد ساسينيت", file_path: "corpus/stories/EGY-010.json" },
             { id: "EGY-011", title_ar: "EGY-011: قصة الراعي والجميلة", file_path: "corpus/stories/EGY-011.json" },
             { id: "EGY-013", title_ar: "EGY-013: متع صيد الأسماك والطيور", file_path: "corpus/stories/EGY-013.json" },
@@ -714,6 +608,8 @@
             { id: "EGY-501", title_ar: "EGY-501: برديات برلين الرياضية (المسألة الأولى - معادلة الدرجة الثانية)", file_path: "corpus/stories/EGY-501.json" }
         ];
 
+        let activeStories = [];
+
         // قواميس طبقة المعرفة العميقة المحسوبة محلياً في الذاكرة (Browser memory)
         let STORY_INDEX = {};
         let CONTEXT_INDEX = {};
@@ -723,7 +619,7 @@
 
         function normalize_translit_js(text) {
             if (!text) return "";
-            text = text.trim().toLowerCase();
+            text = text.strip ? text.strip().toLowerCase() : text.trim().toLowerCase();
             if (text.includes("=")) {
                 text = text.split("=")[0];
             }
@@ -761,7 +657,7 @@
         // بناء طبقة المعرفة العميقة في أجزاء من الثانية تلقائياً داخل متصفح الباحث (In-Memory Processing)
         async function buildClientSideKnowledgeIndex() {
             try {
-                // 1. جلب وحل الجذور والأعلام الاستنادية أونلاين
+                // 1. جلب وحل الجذور والأعلام الاستنادية من مجلد resolvers المعتمد
                 const res1 = await fetch('resolvers/lemma_resolver.json');
                 LEMMA_RESOLVER = await res1.json();
                 const res2 = await fetch('resolvers/entity_resolver.json');
@@ -799,7 +695,7 @@
                                 const raw_translit = tok.transliteration || '';
                                 const clean_tok = normalize_translit_js(raw_translit);
                                 
-                                // مطابقة وحل المعرّفات المجرّدة
+                                // مطابقة وحل المعرّفات المجرّدة للأعلام والجذور
                                 let card_id = ENTITY_RESOLVER[clean_tok];
                                 if (!card_id) {
                                     const resolved_word = LEMMA_RESOLVER[clean_tok] || clean_tok;
@@ -916,7 +812,7 @@
                         target.style.width = newWidth + 'px';
                         target.style.minWidth = newWidth + 'px';
                         target.style.maxWidth = newWidth + 'px';
-                        target.style.flex = 'none'; // إلغاء الـ flex للتأكد من مواءمة العرض بالسحب
+                        target.style.flex = 'none'; // إلغاء الـ flex لتجنب تمدد العمود في الـ flexbox
                     }
                 };
                 document.onmouseup = function() {
@@ -1106,9 +1002,7 @@
                         <span class="arrow">▲</span>
                     </div>
                     <div class="accordion-body open">
-                        <!-- زر مراجعة التراجم أونلاين على سوبابيز -->
-                        <button class="suggest-btn" onclick="openSuggestionModal('${id}', '${isEntity ? 'dictionary_card_ne' : 'dictionary_card'}', this)">📝 اقترح تعديلاً</button>
-                        <div class="drawer-row" style="font-size:0.85rem; color: var(--muted-text); margin-top:35px;"><strong>البطاقة المعجمية:</strong> <span>${id}</span></div>
+                        <div class="drawer-row" style="font-size:0.85rem; color: var(--muted-text); margin-top:15px;"><strong>البطاقة المعجمية:</strong> <span>${id}</span></div>
                         <div class="drawer-row"><strong>المفردة بالنقل الصوتي:</strong> <span style="color:var(--accent-color); font-weight:bold;">${translit}</span></div>
                         <div class="drawer-row"><strong>الرسم المقترح:</strong> <span style="font-size: 1.9rem; letter-spacing: 1px; display:block; margin-top:5px;">${glyphs !== 'unknown' ? glyphs : '𓏃'}</span></div>
                         
@@ -1135,32 +1029,68 @@
             }
         }
 
+        // دالة جلب قائمة القصص المتاحة ديناميكياً وتلقائياً بالكامل من جيت هاب (GitHub Contents API)
         async function fetchStoriesList() {
             const listContainer = document.getElementById('storiesList');
+            listContainer.innerHTML = "<p style='font-size: 0.85rem; color: var(--muted-text);'>جاري فحص مجلد المخطوطات سحابياً...</p>";
+            
             try {
-                // بناء روابط القصص الـ 13 محلياً وسحابياً دون حظر
-                listContainer.innerHTML = ""; 
+                // استعلام واجهة جيت هاب لاستخراج الملفات من مجلد corpus/stories تلقائياً لتكون أوتوماتيكية 100%
+                const response = await fetch('https://api.github.com/repos/Sameh-Yassin-CairoDevelopers/Hypatia/contents/corpus/stories');
+                if (!response.ok) throw new Error("CORS / Offline / Rate Limit");
                 
-                activeStories.forEach((story, index) => {
-                    const link = document.createElement('div');
-                    link.className = `story-link ${index === 0 ? 'active' : ''}`;
-                    link.id = `link-${story.id}`;
-                    link.innerText = story.title_ar;
-                    link.onclick = () => {
-                        document.querySelectorAll('.story-link').forEach(el => el.classList.remove('active'));
-                        link.classList.add('active');
-                        loadStory(story.file_path);
-                    };
-                    listContainer.appendChild(link);
-                });
-
-                // تحميل أول قصة وبناء الفهرس المعرفي محلياً فور الإقلاع
-                await buildClientSideKnowledgeIndex();
-                loadStory(activeStories[0].file_path);
-
+                const files = await response.json();
+                activeStories = [];
+                
+                // تدوير وفحص كافة الملفات داخل المجلد وتصفيتها برمجياً
+                for (let file of files) {
+                    if (file.name.endsWith('.json')) {
+                        // جلب محتويات الملف الفعلي لقراءة معطيات العنوان العربي للمخطوط
+                        const res = await fetch(file.download_url);
+                        if (res.ok) {
+                            const data = await res.json();
+                            activeStories.push({
+                                id: data.text_id || file.name.replace('.json', ''),
+                                title_ar: `${data.text_id || file.name.replace('.json', '')}: ${data.metadata ? data.metadata.title_ar : 'نص بدون عنوان'}`,
+                                file_path: file.download_url
+                            });
+                        }
+                    }
+                }
+                
+                // ترتيب المخطوطات والقصص تصاعدياً
+                activeStories.sort((a, b) => a.id.localeCompare(b.id));
+                console.log("[+] تم بنجاح فحص وجلب " + activeStories.length + " مخطوط تلقائياً من جيت هاب!");
+                
             } catch (err) {
-                listContainer.innerHTML = `<p style="color:red; font-size:0.85rem;">فشل فحص المخطوطات: ${err.message}</p>`;
+                // حالة تراجع تلقائية (Fallback) لضمان التشغيل المحلي أوفلاين في جهازك بسلام
+                console.log("[-] تفعيل خيار التراجع التلقائي وقراءة قائمة المخطوطات المثبتة محلياً: " + err.message);
+                activeStories = fallbackStories;
             }
+
+            // رسم وبناء القائمة الجانبية للنصوص والقصص المكتشفة تلقائياً
+            listContainer.innerHTML = "";
+            if (activeStories.length === 0) {
+                listContainer.innerHTML = `<p style="font-size: 0.9rem; color: red;">لم يتم العثور على أي ملفات قصص.</p>`;
+                return;
+            }
+
+            activeStories.forEach((story, index) => {
+                const link = document.createElement('div');
+                link.className = `story-link ${index === 0 ? 'active' : ''}`;
+                link.id = `link-${story.id}`;
+                link.innerText = story.title_ar;
+                link.onclick = () => {
+                    document.querySelectorAll('.story-link').forEach(el => el.classList.remove('active'));
+                    link.classList.add('active');
+                    loadStory(story.file_path);
+                };
+                listContainer.appendChild(link);
+            });
+
+            // بناء طبقة المعرفة العميقة في الذاكرة لجميع القصص، ثم تحميل أول قصة تلقائياً
+            await buildClientSideKnowledgeIndex();
+            loadStory(activeStories[0].file_path);
         }
 
         async function loadStory(filePath) {
@@ -1172,7 +1102,7 @@
                 if (!response.ok) throw new Error("فشل قراءة ملف المخطوط.");
                 
                 const data = await response.json();
-                activeStoryData = data; 
+                activeStoryData = data; // تخزين معلومات المخطوط النشط بالكامل لخدمة زر التفاصيل
                 container.innerHTML = ""; 
 
                 // تحديث عنوان المخطوط النشط في الهيدر الثابت ديناميكياً
@@ -1215,8 +1145,7 @@
                     }
 
                     card.innerHTML = `
-                        <button class="suggest-btn" onclick="openSuggestionModal('${sentence.metadata.id}', 'sentence', this)">📝 اقترح تعديلاً</button>
-                        <div class="glyphs-display" style="font-size: ${currentFontSize}px; margin-top:20px;">${sentence.layer1_core.hieroglyph}</div>
+                        <div class="glyphs-display" style="font-size: ${currentFontSize}px; margin-top:10px;">${sentence.layer1_core.hieroglyph}</div>
                         <div class="arabic-display" style="font-size: ${currentFontSize - 6}px">${sentence.layer2_languages.arabic}</div>
                         
                         <div class="details-section">
