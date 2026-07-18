@@ -72,7 +72,7 @@ function flat_ascii_normalize_js(text) {
 // بناء طبقة المعرفة العميقة في أجزاء من الثانية تلقائياً داخل متصفح الباحث (In-Memory Processing)
 async function buildClientSideKnowledgeIndex() {
     try {
-        // 1. جلب وحل الجذور والأعلام الاستنادية أونلاين من مجلد resolvers المعتمد
+        // 1. جلب وحل الجذور والأعلام الاستنادية من مجلد resolvers المعتمد
         const res1 = await fetch('resolvers/lemma_resolver.json');
         LEMMA_RESOLVER = await res1.json();
         const res2 = await fetch('resolvers/entity_resolver.json');
@@ -668,5 +668,3 @@ window.onload = () => {
     initResize('splitter2', 'dictionaryDrawer', true);
 };
 </script>
-</body>
-</html>
