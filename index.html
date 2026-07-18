@@ -253,7 +253,7 @@
 
         .glyphs-display {
             font-size: 2.2rem;
-            margin-bottom: 12px;
+            margin-bottom: 15px;
             line-height: 1.5;
             letter-spacing: 1px;
             color: var(--text-color);
@@ -266,28 +266,6 @@
             line-height: 1.4;
             color: var(--text-color);
             margin-bottom: 12px;
-        }
-
-        /* التنسيق المعدل لزر التعديل المجرّد لليسار */
-        .suggest-btn {
-            align-self: flex-start;
-            background-color: var(--border-color);
-            border: 1px solid var(--border-color);
-            color: var(--accent-color);
-            padding: 4px 10px;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 0.8rem;
-            font-family: 'Inter', sans-serif;
-            font-weight: 500;
-            margin-bottom: 10px;
-            float: left; /* جعل الزر يطفو ناحية الشمال برقة */
-        }
-
-        .suggest-btn:hover {
-            background-color: var(--accent-color);
-            color: #fff;
-            border-color: var(--accent-color);
         }
 
         /* الأشرطة الملونة لتحديد لغة المصدر الأصلية للترجمة */
@@ -310,7 +288,6 @@
             display: flex;
             flex-direction: column;
             gap: 6px;
-            clear: both; /* إلغاء الطفو لضمان استقرار الأسطر */
         }
 
         .detail-row {
@@ -464,7 +441,7 @@
             padding: 20px;
             border: 1px solid var(--border-color);
             width: 90%;
-            max-width: 550px;
+            max-width: 500px;
             border-radius: 8px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
             color: var(--text-color);
@@ -496,46 +473,6 @@
             font-size: 1.3rem;
             cursor: pointer;
             font-weight: bold;
-        }
-
-        .form-group {
-            margin-bottom: 12px;
-        }
-
-        .form-group label {
-            display: block;
-            margin-bottom: 4px;
-            font-weight: 600;
-            font-size: 0.88rem;
-        }
-
-        .form-group input, .form-group textarea, .form-group select {
-            width: 100%;
-            padding: 8px;
-            border: 1px solid var(--border-color);
-            border-radius: 4px;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            font-family: inherit;
-            font-size: 0.88rem;
-        }
-
-        .form-group textarea {
-            resize: vertical;
-            height: 70px;
-        }
-
-        .submit-btn {
-            background-color: var(--accent-color);
-            color: #fff;
-            border: none;
-            padding: 10px 15px;
-            border-radius: 4px;
-            cursor: pointer;
-            font-weight: bold;
-            width: 100%;
-            font-size: 0.95rem;
-            font-family: 'Amiri', serif;
         }
 
         /* أيقونات الأكورديون لطبقة المعرفة */
@@ -654,7 +591,7 @@
         let activeStoryData = null; // تخزين معلومات المخطوط النشط بالكامل لخدمة زر التفاصيل لمرة واحدة فقط
 
         // 100% معمارية سحابية سيرفرلس بالكامل (100% Client-Side In-Memory Indexer) لتعمل على جيت هاب هاب بايجز للأبد وبالمجان
-        const activeStories = [
+        const fallbackStories = [
             { id: "EGY-010", title_ar: "EGY-010: الملك نيفركارع والقائد ساسينيت", file_path: "corpus/stories/EGY-010.json" },
             { id: "EGY-011", title_ar: "EGY-011: قصة الراعي والجميلة", file_path: "corpus/stories/EGY-011.json" },
             { id: "EGY-013", title_ar: "EGY-013: متع صيد الأسماك والطيور", file_path: "corpus/stories/EGY-013.json" },
@@ -669,6 +606,8 @@
             { id: "EGY-159", title_ar: "EGY-159: تعويذة حورس الذهبي (كتاب الموتى - الفصل 77)", file_path: "corpus/stories/EGY-159.json" },
             { id: "EGY-501", title_ar: "EGY-501: برديات برلين الرياضية (المسألة الأولى - معادلة الدرجة الثانية)", file_path: "corpus/stories/EGY-501.json" }
         ];
+
+        let activeStories = []; // تم تعديلها برمجياً لـ let لتقبل التبادل والتراجع السليم دون حظر أو أخطاء
 
         // قواميس طبقة المعرفة العميقة المحسوبة محلياً في الذاكرة (Browser memory)
         let STORY_INDEX = {};
@@ -1205,7 +1144,6 @@
                     }
 
                     card.innerHTML = `
-                        <button class="suggest-btn" onclick="openSuggestionModal('${sentence.metadata.id}', 'sentence', this)">📝 اقترح تعديلاً</button>
                         <div class="glyphs-display" style="font-size: ${currentFontSize}px; margin-top:20px;">${sentence.layer1_core.hieroglyph}</div>
                         <div class="arabic-display" style="font-size: ${currentFontSize - 6}px">${sentence.layer2_languages.arabic}</div>
                         
