@@ -1,0 +1,2457 @@
+{
+    "text_id": "EGY-008",
+    "metadata": {
+        "title_ar": "قصة الحقيقة والبهتان",
+        "title_en": "The Dispute Between Truth and Falsehood",
+        "museum_catalog_no": "Papyrus Chester Beatty II (BM EA 10682)",
+        "stable_tla_id": "text-truth-and-falsehood"
+    },
+    "sentences": [
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-008-0001",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:25:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 1,
+                "transliteration": "wn.in nṯr.w ḥr-tp tꜣ m-r-ˁ sn.wj",
+                "hieroglyph": "𓅱𓈖𓇋𓈖𓊹𓏥𓁷𓏤𓇾𓏤𓐝𓂋𓂝𓊃𓏤𓏭",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "كان هناك أخوان على وجه الأرض عندما كانت الآلهة تعيش عليها",
+                "english": "Once upon a time, the gods were upon the earth, and there were two brothers",
+                "german": "Es waren einst zwei Brüder auf Erden, als die Götter auf ihr lebten",
+                "french": "Une fois, les dieux étaient sur la terre, et il y avait deux frères",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "wn.in_with_prepositional_adverbial"
+            },
+            "layer4_writing": {
+                "mdc_code": "wn.in nTr.w Hr-tp t3 m-r-a sn.wj"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "wn.in", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "nṯr.w", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "sn.wj", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الصيغة التقليدية الكلاسيكية لبداية القصص الخرافية في عصر الدولة الحديثة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-008-0002",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:25:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 2,
+                "transliteration": "sn.wj n mwt wˁ.t jt wˁ",
+                "hieroglyph": "𓊃𓏤𓏭𓈖𓅨𓏏𓏤𓎛𓂝𓏤𓇋𓏠𓈖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "أخوان من أم واحدة وأب واحد",
+                "english": "Two brothers of one mother and one father.",
+                "german": "zwei Brüder von einer Mutter und einem Vater",
+                "french": "deux frères d'une seule mère et d'un seul père",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "coordination_with_genitive"
+            },
+            "layer4_writing": {
+                "mdc_code": "sn.wj n mwt wca.t jt wa"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "sn.wj", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mwt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "jt", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "توكيد صلة الرحم لبيان فداحة الخيانة اللاحقة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-008-0003",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:25:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 3,
+                "transliteration": "rn n wr pꜣ-mꜣˁt rn n nḏs pꜣ-ger",
+                "hieroglyph": "𓋴𓂋𓈖𓅨𓂋𓊪𓄿𓐙𓂝𓏏𓋴𓂋𓈖𓈖𓆓𓋴𓊪𓄿𓎼𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "اسم الأكبر الحقيقة، واسم الأصغر البهتان",
+                "english": "The name of the elder was Truth, and the name of the younger was Falsehood.",
+                "german": "Der Name des Älteren war Wahrheit, der Name des Jüngeren war Lüge",
+                "french": "Le nom de l'aîné était Vérité, et le nom du cadet était Mensonge",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "noun_subject_with_apposition"
+            },
+            "layer4_writing": {
+                "mdc_code": "rn n wr p3-ma_at rn n nDs p3-ger"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "rn", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mꜣˁt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ger", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "تسمية رمزية تعبر عن تجسيد القيم الأخلاقية في شخصيات روائية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000008-S04",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:25:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 4,
+                "transliteration": "ỉst p3-ger dỉ.n-f šmt pꜣ-mꜣˁt",
+                "hieroglyph": "𓇋𓋴𓏏𓊪𓄿𓎼𓂋𓂞𓈖𓆑𓋴𓍯𓏤𓊪𓄿𓐙𓂝𓏏",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وقد استعار البهتان خنجراً من الحقيقة",
+                "english": "Now Falsehood borrowed a dagger from Truth",
+                "german": "Lüge lieh sich einen Dolch von Wahrheit aus",
+                "french": "Or Mensonge emprunta un poignard à Vérité",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_with_indirect_object"
+            },
+            "layer4_writing": {
+                "mdc_code": "ist p3-ger di.n-f Smt p3-ma_at"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ỉst", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ger", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "šmt", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ شمت يعني الخنجر أو السكين الطويل المقوس."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000008-S05",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:25:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 5,
+                "transliteration": "ỉst wr.t n.t pꜣ-šsr n r-dr=f",
+                "hieroglyph": "𓇋𓋴𓏏𓅨𓂋𓏏𓈖𓏏𓊪𓄿𓋴𓋴𓂋𓈖𓂋𓂧𓂋𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وكان الخنجر في غاية الضخامة بلا حدود",
+                "english": "The dagger was of extraordinary size",
+                "german": "Der Dolch war von außerordentlicher Größe",
+                "french": "Le poignard était d'une taille extraordinaire",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "adjectival_predicate_with_genitive"
+            },
+            "layer4_writing": {
+                "mdc_code": "ist wr.t n.t p3-Ssr n r-dr=f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "wr.t", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "šsr", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "r-dr=f", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التركيب 'إر-ديرف' يفيد النهاية أو الشمول المطلق."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000008-S06",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:25:50.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 6,
+                "transliteration": "ỉst ḥm-f ḥr ỉry.t sḫr.w m ḥm.t nwb",
+                "hieroglyph": "𓇋𓋴𓏏𓍛𓏤𓆑𓁷𓏤𓁹𓋴𓐍𓂋𓅱𓐝𓎛𓅓𓏏𓋨",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وكان نصله وهيكله مصنوعاً من النحاس والذهب",
+                "english": "Its body was made of bronze and gold.",
+                "german": "sein Körper war aus Bronze und Gold gemacht",
+                "french": "son corps était fait de bronze et d'or",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "noun_subject_with_passive_participle_materials"
+            },
+            "layer4_writing": {
+                "mdc_code": "ist Hm-f Hr iry.t sxr.w m Hm.t nwb"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḥm", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥm.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "nwb", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الذهب والبرونز إشارة للمكانة الرمزية الكبرى للخنجر المفقود."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000008-S07",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:26:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 7,
+                "transliteration": "m-ẖt r-f sw m-a p3-ger r ꜣbd 2",
+                "hieroglyph": "𓐝𓄡𓈖𓏤𓂋𓆑𓆑𓐝𓂝𓊪𓄿𓎼𓂋𓂋𓇹𓏤𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وبعد أن ظل الخنجر بحوزة البهتان لمدّة شهرين",
+                "english": "After it had been with Falsehood for two months,",
+                "german": "Nachdem es zwei Monate lang bei Lüge gewesen war,",
+                "french": "Après qu'il fut resté en possession de Mensonge pendant deux mois,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "prepositional_phrase",
+                "syntax_structure": "m-Xt_temporal_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "m-Xt r-f sw m-a p3-ger r Abd 2"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "m-ẖt", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ger", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ꜣbd", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الالتزام بالتوقيت الزمني الدقيق للرواية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000008-S08",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:26:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 8,
+                "transliteration": "ỉst pꜣ-mꜣˁt ḥر dbn mdt r-s",
+                "hieroglyph": "𓇋𓋴𓏏𓊪𓄿𓐙𓂝𓏏𓁷𓏤𓂧𓃀𓈖𓌃𓏏𓂋𓋴",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "طلب الحقيقة إرجاع خنجره وممتلكاته",
+                "english": "Truth demanded his dagger back.",
+                "german": "forderte Wahrheit seinen Dolch zurück",
+                "french": "Vérité réclama la restitution de son poignard.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_transitive_demand"
+            },
+            "layer4_writing": {
+                "mdc_code": "ist p3-ma_at Hr dbn mdt r-s"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ỉst", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mꜣˁt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "dbn", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ دبن يعني الالتجاء بطلب معلن ومستمر."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000008-S09",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:26:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 9,
+                "transliteration": "ḏd.n p3-ger: n rḫ.n=j st r-f m dmj",
+                "hieroglyph": "𓂧𓂧𓈖𓊪𓄿𓎼𓂋𓈖𓂋𓐍𓈖𓇋𓏠𓈖𓋴𓏏𓂋𓆑𓐝𓂧𓏠𓏭",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فقال البهتان: لا أعلم أين هو، لقد فُقد في المدينة",
+                "english": "Falsehood said: I do not know where it is, it is lost in the town.",
+                "german": "Lüge sagte: Ich weiß nicht, wo es ist, es ist in der Stadt verloren gegangen",
+                "french": "Mensonge dit: Je ne sais pas où il est, il s'est perdu dans la ville.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "direct_speech_with_negated_rX_and_locative"
+            },
+            "layer4_writing": {
+                "mdc_code": "Dd.n p3-ger: n rx.n=j st r-f m dmj"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-01",
+                        "name": "Papyrus Berlin P. 3022",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḏd.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "rḫ.n", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "dmj", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الادعاء الكاذب بفقد السلاح الموكل إليه."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000002-S10",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:26:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 10,
+                "transliteration": "ḏd.n p3-mꜣˁt: sḏm r-f n=j",
+                "hieroglyph": "𓂧𓂧𓈖𓊪𓄿𓐙𓂝𓏏𓄔𓏠𓂋𓆑𓈖𓇋𓏠𓈖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فقال الحقيقة: استمع إليّ وردّ خنجري",
+                "english": "Truth said: Listen to me and return my dagger.",
+                "german": "Wahrheit sagte: Höre auf mich und gib mir meinen Dolch zurück",
+                "french": "Vérité dit: Écoute-moi et rends-moi mon poignard.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n_subject_noun_with_imperative"
+            },
+            "layer4_writing": {
+                "mdc_code": "Dd.n p3-ma_at: sDm r-f n=j"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḏd.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sḏm", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ سدم يفيد طلب الانصياع للحق."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000008-S11",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:26:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 11,
+                "transliteration": "šmt.n p3-ger r-f r dmj n nṯr.w",
+                "hieroglyph": "𓋴𓍯𓏤𓈖𓊪𓄿𓎼𓂋𓂋𓆑𓂋𓂧𓏠𓏭𓈖𓊹𓏥",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فذهب البهتان إلى محكمة الآلهة الكبرى للشكاية",
+                "english": "Falsehood went to the court of the gods,",
+                "german": "Lüge ging vor das Gericht der Götter",
+                "french": "Mensonge se rendit au tribunal des dieux,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_motion_to_locative"
+            },
+            "layer4_writing": {
+                "mdc_code": "Smt.n p3-ger r-f r dmj n nTr.w"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "šmt.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ger", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "nṯr.w", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الالتجاء للآلهة 'نثرو' بصفتهن القضاة في هذه القصة الرمزية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000008-S12",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:26:50.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 12,
+                "transliteration": "ḏd.n-f r-f n nṯr.w: sḏm r-f",
+                "hieroglyph": "𓂧𓂧𓈖𓆑𓂋𓆑𓈖𓊹𓏥𓄔𓏠𓂋𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وقال وتحدث للآلهة: استمعوا إلى قولي وبلاغي",
+                "english": "and he said to the gods: Listen to me!",
+                "german": "und er sagte zu den Göttern: Hört auf mich!",
+                "french": "et il dit aux dieux: Écoutez-moi !",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_with_direct_speech_imperative"
+            },
+            "layer4_writing": {
+                "mdc_code": "Dd.n-f r-f n nTr.w: sDm r-f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḏd.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sḏm", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الافتراء وبدء عرض القضية كذباً."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000008-S13",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:27:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 13,
+                "transliteration": "pꜣ-sn=j wr.t-ẖt ỉt.n-f m dnj.t=j",
+                "hieroglyph": "𓊪𓄿𓋴𓈖𓇋𓏠𓈖𓅨𓂋𓏏𓄡𓏏𓇋𓏏𓈖𓆑𓐝𓂧𓈖𓇋𓏏𓇋𓏠𓈖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "إن أخي يتهمني كذباً بسرقة خنجره العظيم الثقيل",
+                "english": "My brother has accused me of stealing his heavy dagger.",
+                "german": "Mein Bruder hat mich beschuldigt, seinen schweren Dolch gestohlen zu haben",
+                "french": "Mon frère m'accuse d'avoir volé son lourd poignard.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "topicalized_noun_subject_with_perfective_action"
+            },
+            "layer4_writing": {
+                "mdc_code": "p3-sn=j wr.t-Xt it.n-f m dnj.t=j"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "sn", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "wr.t-ẖt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "dnj.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ ور-خت يعني الشيء العظيم والضخم في معناه المادي."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000008-S14",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:27:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 14,
+                "transliteration": "aḥa.n nṯr.w ḥr nD m sS",
+                "hieroglyph": "𓊢𓂝𓈖𓊹𓏥𓁷𓏤𓈖𓂧𓂋𓝂𓐝𓏟",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فتشاورت وتباحثت الآلهة بالاستناد إلى السجلات المكتوبة",
+                "english": "Then the gods consulted together in writing.",
+                "german": "Da berieten sich die Götter schriftlich",
+                "french": "Alors les dieux délibérèrent par écrit.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "consecutive_aha.n_with_noun_plural_and_infinitive"
+            },
+            "layer4_writing": {
+                "mdc_code": "aHa.n nTr.w Hr nD m sS"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "aḥa.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "nD", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "sŠ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ ند يعني المشاورة القضائية الرسمية، وسش يعني السجلات والبرديات المكتوبة للقوانين."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000008-S15",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:27:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 15,
+                "transliteration": "rdj.n-sn Hm.w r sm3.t sw r-f",
+                "hieroglyph": "𓂞𓈖𓋴𓈖𓍛𓅱𓂋𓋴𓌳𓄿𓏏𓆑𓂋𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وأمروا الخدم برأب الصدع ومعاقبته وإيقاع الجزاء عليه",
+                "english": "They ordered the servants to punish him indeed.",
+                "german": "Sie befahlen den Dienern, ihn wahrlich zu bestrafen",
+                "french": "Ils ordonnèrent aux serviteurs de le châtier assurément.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_with_direct_infinitive_purpose"
+            },
+            "layer4_writing": {
+                "mdc_code": "rdj.n-sn Hm.w r sm3.t sw r-f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "rdj.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "Hm.w", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "sm3.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "سماة تعني هنا فرض العقوبة الجسدية أو التعزير للمحكوم عليه."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000008-S16",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:27:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 16,
+                "transliteration": "rdj.n-sn r-f pꜣ-mꜣˁt m sAw-sb3",
+                "hieroglyph": "𓂞𓈖𓋴𓈖𓂋𓆑𓊪𓄿𓐙𓂝𓏏𓐝𓋴𓄿𓅱𓋴𓃀𓄿𓉐",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وأمروا وقرروا بأن يُجعل 'الحقيقة' حارساً وبواباً بعد فقء عينيه",
+                "english": "They ordered that Truth be made a gatekeeper.",
+                "german": "Sie befahlen, dass Wahrheit ein Torhüter werde",
+                "french": "Ils ordonnèrent que Vérité fût établi comme portier.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_passive_predicate_status"
+            },
+            "layer4_writing": {
+                "mdc_code": "rdj.n-sn r-f p3-ma_at m sAw-sb3"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "rdj.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mꜣˁt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "sAw-sb3", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "ساو-سبأ تعني حارس البوابة الكبرى، وهي وظيفة متدنية بالمقارنة بمكانته القديمة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000008-S17",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:27:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 17,
+                "transliteration": "ỉst sw m-ẖnw n pꜣ-pr r sAw",
+                "hieroglyph": "𓇋𓋴𓏏𓆑𓐝𓄡𓈖𓏤𓈖𓊪𓄿𓉐𓏤𓂋𓋴𓄿𓅱",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وجُعل مستقراً ومكلفاً بحراسة بوابات القصر الملكي",
+                "english": "And he was made to guard the gates of the palace.",
+                "german": "Und er wurde eingesetzt, um die Tore des Palastes zu bewachen",
+                "french": "Et il fut chargé de garder les portes du palais.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "ist_subject_with_locative_and_infinitive_purpose"
+            },
+            "layer4_writing": {
+                "mdc_code": "ist sw m-Xnw n p3-pr r sAw"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ỉst", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "pr", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "sAw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "ساو تعني الحراسة أو المراقبة البصرية اللإرادية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000008-S18",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:27:50.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 18,
+                "transliteration": "m-Xt r-f sw m sAw-sb3 m r-a nb",
+                "hieroglyph": "𓐝𓄡𓈖𓏤𓂋𓆑𓆑𓐝𓋴𓄿𓅱𓋴𓃀𓄿𓉐𓐝𓂋𓂝𓎆",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وقضى أيامه كلها حارساً وبواباً للمدخل في كل يوم",
+                "english": "He spent his days as a gatekeeper every day.",
+                "german": "Er verbrachte seine Tage jeden Tag als Torhüter",
+                "french": "Il passa ses journées comme portier chaque jour.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "m-Xt_temporal_clause_with_status_adverbial"
+            },
+            "layer4_writing": {
+                "mdc_code": "m-Xt r-f sw m sAw-sb3 m r-a nb"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "m-Xt", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sAw-sb3", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "r-a", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التركيب 'إم را-عا نب' يعني حرفياً 'بصورة يومية مستقرة'."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000008-S19",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:28:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 19,
+                "transliteration": "ms.n ḥm.t-f s3 nfr nn m-mỉ-t.t jry",
+                "hieroglyph": "𓅓𓋴𓈖𓈟𓏏𓆑𓅭𓏤𓄤𓈖𓈖𓐝𓏠𓏏𓏏𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "ثم وضعت وأنجبت زوجته ابناً جميلاً لا يماثله أحد في الحسن والجمال",
+                "english": "Then his wife gave birth to a beautiful son, there was none like him.",
+                "german": "Da gebar seine Frau einen schönen Sohn, seinesgleichen gab es nicht",
+                "french": "Puis sa femme mit au monde un beau fils, sans aucun pareil.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n_subject_noun_with_limiting_noun_adjective"
+            },
+            "layer4_writing": {
+                "mdc_code": "ms.n Hm.t-f s3 nfr nn m-mi-t.t jry"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ms.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥm.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "nfr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ مس-إن يعبر عن الولادة الطبيعية الناجحة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000008-S20",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:28:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 20,
+                "transliteration": "rdj.n-sn rn=f m pꜣ-mꜣˁt-wr",
+                "hieroglyph": "𓂞𓈖𓋴𓈖𓂋𓆑𓐝𓊪𓄿𓐙𓂝𓏏𓅨𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وأسموه واختاروا اسمه ليكون 'الحقيقة العظيم'",
+                "english": "They named him 'The Great Truth'.",
+                "german": "Sie nannten ihn 'Die Große Wahrheit'",
+                "french": "Ils lui donnèrent pour nom 'Le Grand-Vérité'.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_with_appellative_object_and_title"
+            },
+            "layer4_writing": {
+                "mdc_code": "rdj.n-sn rn=f m p3-ma_at-wr"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "rdj.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "rn", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "mꜣˁt-wr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الاسم يحمل رتبة التوريث الأخلاقي والشرعي للمطالبة بحق والده لاحقاً."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000008-S21",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:28:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 21,
+                "transliteration": "ỉst sw m-ẖnw n mS_a n pꜣ-pr",
+                "hieroglyph": "𓇋𓋴𓏏𓆑𓐝𓄡𓈖𓏤𓈖𓌯𓏥𓈖𓊪𓄿𓉐𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "ونشأ وكبر ليكون الأقوى والأشجع وسط جنود وخدم القصر الداخلي",
+                "english": "He grew up to be the strongest among the servants of the palace.",
+                "german": "Er wuchs heran, um der Stärkste unter den Dienern des Palastes zu sein",
+                "french": "Il grandit pour être le plus fort parmi les serviteurs du palais.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "ist_subject_with_locative_comparison"
+            },
+            "layer4_writing": {
+                "mdc_code": "ist sw m-Xnw n mS_a n p3-pr"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ỉst", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mšˁ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "pr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ مشع يعني الجنود أو فرقة الخدم العضلية الشاقة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000008-S22",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:28:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 22,
+                "transliteration": "n rḫ.n-f r-f pꜣ-jt=f m dmj",
+                "hieroglyph": "𓈖𓂋𓐍𓈖𓆑𓂋𓆑𓊪𓄿𓇋𓏏𓆑𓐝𓂧𓏠𓏭",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "ولم يكن يعلم أو يدرك من هو والده في داخل المدينة وموطنه",
+                "english": "He did not know who his father was in the town.",
+                "german": "Er wusste nicht, wer sein Vater in der Stadt war",
+                "french": "Il ne savait pas qui était son père dans la ville.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "n_rX.n.f_with_nominal_object_and_locative"
+            },
+            "layer4_writing": {
+                "mdc_code": "n rx.n-f r-f p3-jt=f m dmj"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "rḫ.n-f", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "jt", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "dmj", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "إخفاء الحقيقة عنه في البداية لتجنيبه الحزن أو الرغبة الطائشة بالانتقام في طفولته."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000008-S23",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:28:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 23,
+                "transliteration": "ḏd.n-f n mwt-f: ỉn-م pꜣ-jt=j?",
+                "hieroglyph": "𓂧𓂧𓈖𓆑𓈖𓅨𓏏𓆑𓇋𓈖𓐝𓊪𓄿𓇋𓏏𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فقال وسأل والدته يوماً ما: من هو والدي الحقيقي؟",
+                "english": "He said to his mother: 'Who is my father?'",
+                "german": "Er sagte zu seiner Mutter: 'Wer ist mein Vater?'",
+                "french": "Il dit à sa mère : 'Qui est mon père ?'",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_with_direct_speech_interrogative"
+            },
+            "layer4_writing": {
+                "mdc_code": "Dd.n-f n mwt-f: in-m p3-jt=j"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḏd.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mwt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "jt", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الاستفهام 'إن-م' يفيد الطلب والبحث عن الهوية الشخصية والنسب."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000008-S24",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:28:50.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 24,
+                "transliteration": "ḏd.n n=f mwt-f: m-k p3-jt=f m sAw-sb3",
+                "hieroglyph": "𓂧𓂧𓈖𓈖𓆑𓅨𓏏𓆑𓐝𓎡𓊪𓄿𓇋𓏏𓆑𓐝𓋴𓄿𓅱𓋴𓃀𓄿𓉐",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فقالت وأجابته والدته: انظر، إن والدك الحقيقي هو ذلك الحارس البواب عند المدخل",
+                "english": "His mother said to him: 'See, your father is the gatekeeper at the gate.'",
+                "german": "Seine Mutter sagte zu ihm: 'Siehe, dein Vater ist der Torwächter am Tor.'",
+                "french": "Sa mère lui dit : 'Vois, ton père est le gardien de la porte.'",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n_with_indirect_speech_presentation"
+            },
+            "layer4_writing": {
+                "mdc_code": "Dd.n n=f mwt-f: m-k p3-jt=f m sAw-sb3"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḏd.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mwt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "sAw-sb3", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الاعتراف بالحقيقة وربط الابن بمأساة والده."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000008-S25",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:29:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 25,
+                "transliteration": "šmt.n-f r-f r dmj ḥp.n-f sw",
+                "hieroglyph": "𓋴𓍯𓏤𓈖𓆑𓂋𓆑𓂋𓂧𓏠𓏭𓎛𓂪𓈖𓆑𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فذهب وتوجه إليه على الفور وعانقه بمحبة واحترام شديد",
+                "english": "He went to him and embraced him with affection.",
+                "german": "Er ging zu ihm und umarmte ihn voller Liebe.",
+                "french": "Il alla vers lui et l'embrassa avec affection.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_motion_with_reflexive_embrace"
+            },
+            "layer4_writing": {
+                "mdc_code": "Smt.n-f r-f r dmj Hp.n-f sw"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "šmt.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥp", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "sw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ حَب يعني العناق العائلي الحار للتعبير عن الحب والولاء والاتحاد الجسدي."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-008-0026",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:35:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 26,
+                "transliteration": "m-Xt r-f sw m-a s3-f p3-m3at-wr",
+                "hieroglyph": "𓐝𓄡𓈖𓏤𓂋𓆑𓆑𓐝𓂝𓅭𓏤𓆑𓊪𓄿𓐙𓂝𓏏𓅨𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وبعد مرور الزمن، كبر ونشأ ابنه 'الحقيقة العظيم'",
+                "english": "After some time, his son 'The Great Truth' grew up",
+                "german": "Nach einiger Zeit wuchs sein Sohn 'Die Große Wahrheit' heran",
+                "french": "Après un certain temps, son son 'La Grande Vérité' grandit",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "m-Xt_temporal_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "m-Xt r-f sw m-a s3-n-f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "m-Xt", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "msw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التركيب 'إم-خت' يفيد مرور فترة من الزمن."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-008-0027",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:35:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 27,
+                "transliteration": "m-k grt tA=j hd.n-f",
+                "hieroglyph": "𓐝𓎡𓎼𓂋𓏏𓇾𓏤𓇋𓏠𓈖𓄔𓈖𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وانظر، لقد وُلد وشبّ ليكون بطلاً قوياً",
+                "english": "And see, he became a strong champion",
+                "german": "Und siehe, er wurde ein starker Kämpfer",
+                "french": "Et vois, il devint un vaillant champion",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "presentation_m-k_with_stative"
+            },
+            "layer4_writing": {
+                "mdc_code": "m-k grt t3=j hd.n-f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "m-k", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "hd.n", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "النمو البدني والقوة للابن البار."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-008-0028",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:35:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 28,
+                "transliteration": "it.n-f mnmnt n p3-ger",
+                "hieroglyph": "𓇋𓏏𓈖𓆑𓏠𓏠𓏏𓈖𓊪𓄿𓎼𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "واستولى على مواشي وماشية لـ 'البهتان'",
+                "english": "He seized the cattle of Falsehood",
+                "german": "Er erbeutete das Vieh von Lüge",
+                "french": "Il saisit le bétail de Mensonge",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_transitive_plunder"
+            },
+            "layer4_writing": {
+                "mdc_code": "it.n-f mnmnt n p3-ger"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "it.n-f", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mnmnt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ger", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "إت تعني الاستيلاء أو المصادرة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-008-0029",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:35:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 29,
+                "transliteration": "r-gsw nty wd=sn",
+                "hieroglyph": "𓂋𓎼𓋴𓅱𓈖𓏏𓏭𓎘𓏏𓋴𓈖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "بينما كانت ترعى في الحقول والمراعي الكبرى",
+                "english": "while they were grazing in the fields",
+                "german": "während sie auf den Weiden grasten",
+                "french": "alors qu'ils paissaient dans les champs",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "r-gsw_with_relative_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "r-gsw nty wd=sn"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "r-gsw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "nty", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "wd", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "ود تعني الرعي أو الماشية السارحة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-008-0030",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:35:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 30,
+                "transliteration": "Dd.n p3-ger: m-k s3-n-p3-mAat it.n-f mnmnt=j",
+                "hieroglyph": "𓂧𓂧𓈖𓊪𓄿𓎼𓂋𓐝𓎡𓅭𓏤𓊪𓄿𓐙𓂝𓏏𓇋𓏏𓈖𓆑𓏠𓏠𓏏𓇋𓏠𓈖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فقال البهتان: انظر، لقد سرق واستولى ابن 'الحقيقة' على مواشيّ",
+                "english": "Falsehood said: See, the son of Truth has seized my cattle",
+                "german": "Lüge sagte: Siehe, der Sohn von Wahrheit hat meine Herden geraubt",
+                "french": "Mensonge dit: Vois, le fils de Vérité a pillé mon bétail",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n_subject_noun_with_presentation"
+            },
+            "layer4_writing": {
+                "mdc_code": "Dd.n p3-ger: m-k s3-n-p3-mAat it.n-f mnmnt=j"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḏd.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "m-k", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "mnmnt", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "بدء تقديم الشكوى المضادة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-008-0031",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:35:50.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 31,
+                "transliteration": "Dd.n p3-s3: n iry.n=j n=k m-grg",
+                "hieroglyph": "𓂧𓂧𓈖𓅭𓏤𓈖𓁹𓈖𓇋𓏠𓈖𓈖𓎡𓐝𓎼𓂋𓎼",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فقال الولد: لم أصنع لك كذباً وسوءاً وافتراءً يوماً",
+                "english": "The boy said: I have not done any wrong to you",
+                "german": "Der Junge sagte: Ich habe dir kein Unrecht getan",
+                "french": "Le garçon dit: Je ne t'ai fait aucun tort",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n_subject_noun_with_negated_action"
+            },
+            "layer4_writing": {
+                "mdc_code": "Dd.n p3-s3: n iry.n=j n=k m-grg"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "Dd.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "n", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "grg", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "غرج تعني الكذب أو الافتراء المتعمد."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-008-0032",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:36:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 32,
+                "transliteration": "ist p3-ger Hr Smt r dmj n nTr.w",
+                "hieroglyph": "𓇋𓋴𓏏𓊪𓄿𓎼𓂋𓁷𓏤𓋴𓍯𓏤𓂋𓂧𓏠𓏭𓈖𓊹𓏥",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فذهب البهتان مجدداً إلى محكمة الآلهة الكبرى للشكوى والتقاضي",
+                "english": "Then Falsehood went again to the court of the gods",
+                "german": "Da ging Lüge wieder vor das Gericht der Götter",
+                "french": "Alors Mensonge alla de nouveau au tribunal des dieux",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "ist_subject_with_Hr_infinitive"
+            },
+            "layer4_writing": {
+                "mdc_code": "ist p3-ger Hr Smt r dmj n nTr.w"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ist", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "Smt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "nTr.w", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الالتجاء المتكرر للقضاء."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-008-0033",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:36:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 33,
+                "transliteration": "Dd.n-f n nTr.w: s3 n p3-m3at t_n",
+                "hieroglyph": "𓂧𓂧𓈖𓆑𓈖𓊹𓏥𓅭𓏤𓈖𓊪𓄿𓐙𓂝𓏏𓏏𓈖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وقال للآلهة: إن ابن 'الحقيقة' هذا",
+                "english": "and he said to the gods: This son of Truth",
+                "german": "und er sagte zu den Göttern: Dieser Sohn von Wahrheit",
+                "french": "et il dit aux dieux: Ce fils de Vérité",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_with_direct_speech"
+            },
+            "layer4_writing": {
+                "mdc_code": "Dd.n-f n nTr.w: s3 n p3-m3at t_n"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "Dd.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "s3", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "m3at", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ تن تفيد الإشارة والالتفات للغائب المستصغر."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-008-0034",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:36:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 34,
+                "transliteration": "it.n-f mnmnt=j m Smt n mS_a",
+                "hieroglyph": "𓇋𓏏𓈖𓆑𓏠𓏠𓏏𓇋𓏠𓈖𓐝𓋴𓍯𓏤𓈖𓌯𓏥",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "قد استولى وغصب مواشيّ بحملة وهجوم من جنوده وخدمه",
+                "english": "has seized my cattle with a force of servants",
+                "german": "hat meine Herden mit einer Schar von Dienern geraubt",
+                "french": "a pillé mon bétail avec une troupe de serviteurs",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.f_with_possessive_noun_and_instrumental"
+            },
+            "layer4_writing": {
+                "mdc_code": "it.n-f mnmnt=j m Smt n mS_a"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "it.n-f", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mnmnt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "mšˁ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "تكرار اتهام الغصب العنيف."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-008-0035",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:36:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 35,
+                "transliteration": "aHa.n nTr.w Hr wd.t-r-a",
+                "hieroglyph": "𓊢𓂝𓈖𓊹𓏥𓁷𓏤𓅱𓂧𓏏𓂋𓂝",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فتشاورت وتباحثت الآلهة للفصل والحكم في هذه الأزمة",
+                "english": "Then the gods consulted to judge the matter",
+                "german": "Da berieten sich die Götter, um die Sache zu richten",
+                "french": "Alors les dieux délibérèrent pour juger l'affaire",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "consecutive_aha.n_with_noun_plural"
+            },
+            "layer4_writing": {
+                "mdc_code": "aHa.n nTr.w Hr wd.t-r-a"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "aH_a.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "nTr.w", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "wd.t-r-a", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ ودت-إر-عا يعني إصدار الحكم القضائي الفاصل."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-008-0036",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:36:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 36,
+                "transliteration": "aHa.n p3-s3 Hr ir.t mdt",
+                "hieroglyph": "𓊢𓂝𓈖𓅭𓏤𓁷𓏤𓁹𓏏𓌃𓏏𓏥",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فتقدم ووقف الولد الشجاع وألقى حواره وحجته القانونية:",
+                "english": "Then the boy stood and made his speech",
+                "german": "Da trat der Junge vor und hielt seine Rede",
+                "french": "Alors le garçon se leva et fit son discours",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "consecutive_aha.n_with_noun_subject_and_infinitive"
+            },
+            "layer4_writing": {
+                "mdc_code": "aHa.n p3-s3 Hr ir.t mdt"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "s3", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ir.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "mdt", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "البلاغة القانونية للابن لاستعادة حق والده المغتصب."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-008-0037",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:36:50.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 37,
+                "transliteration": "in-m rdi.w mnmnt wr.t r p3-ger",
+                "hieroglyph": "𓇋𓈖𓐝𓂞𓏏𓅱𓏠𓏠𓏏𓅨𓂋𓏏𓂋𓊪𓄿𓎼𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "هل وُهب للبهتان ثور عظيم في حجمه لا نهاية له؟",
+                "english": "Was there ever given to Falsehood a cattle of limitless size?",
+                "german": "Wurde Lüge jemals ein Vieh von grenzenloser Größe gegeben?",
+                "french": "A-t-on jamais donné à Mensonge un bétail de taille illimitée?",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "interrogative_in-m_with_passive_rdi_and_indirect_object"
+            },
+            "layer4_writing": {
+                "mdc_code": "in-m rdi.w mnmnt wr.t r p3-ger"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "in-m", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "rdi.w", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "mnmnt", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "استدلال منطقي عبقري مبني على الاستحالة المادية للثور رداً على استحالة حجم الخنجر."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-008-0038",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:37:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 38,
+                "transliteration": "in-ib ka wr.t r p3-Ssr",
+                "hieroglyph": "𓇋𓈖𓄣𓏤𓎡𓄿𓅨𓂋𓏏𓂋𓊪𓄿𓋴𓋴𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "هل يوجد ثور يضاهي ويساوي الخنجر العظيم المفقود؟",
+                "english": "Is there any ox equal to the great lost dagger?",
+                "german": "Gibt es irgendeinen Stier, der dem großen verlorenen Dolch gleicht?",
+                "french": "Y a-t-il un bœuf égal au grand poignard perdu ?",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "interrogative_in-ib_with_comparative_nouns"
+            },
+            "layer4_writing": {
+                "mdc_code": "in-ib ka wr.t r p3-Ssr"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "in-ib", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ka", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "Ssr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الربط المنطقي لإظهار كذب البهتان؛ فكما لا يوجد ثور عملاق، لم يكن هناك خنجر عملاق تافه سُرق."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-008-0039",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:37:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 39,
+                "transliteration": "nty Hm-f Hr ir.t sxr.w m Hm.t nwb",
+                "hieroglyph": "𓈖𓏏𓏭𓍛𓏤𓆑𓁷𓏤𓁹𓏏𓋴𓐍𓂋𓅱𓐝𓎛𓅓𓏏𓋨",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "الذي نصله مصنوع من النحاس والذهب؟",
+                "english": "whose body was made of bronze and gold?",
+                "german": "dessen Körper aus Bronze und Gold gemacht war?",
+                "french": "dont le corps était fait de bronze et d'or ?",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "relative_clause",
+                "syntax_structure": "relative_nty_with_passive_participle"
+            },
+            "layer4_writing": {
+                "mdc_code": "nty Hm-f Hr ir.t sxr.w m Hm.t nwb"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "nty", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sxr.w", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "nwb", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الالتزام بالتوصيف الحرفي المكرر للمادة الأثرية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-008-0040",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:37:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 40,
+                "transliteration": "aHa.n nTr.w Hr nD m-Xnw",
+                "hieroglyph": "𓊢𓂝𓈖𓊹𓏥𓁷𓏤𓈖𓂧𓐝𓄡𓈖𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فعندها تشاورت وتباحثت الآلهة في قاعة القصر الداخلية",
+                "english": "Then the gods consulted together within the inner chamber.",
+                "german": "Da berieten sich die Götter in der inneren Kammer",
+                "french": "Alors les dieux délibérèrent à l'intérieur de la salle.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "consecutive_aha.n_with_infinitive_locative"
+            },
+            "layer4_writing": {
+                "mdc_code": "aHa.n nTr.w Hr nD m-Xnw"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "aH_a.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "nTr.w", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "m-Xnw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التباحث السري الداخلي للوصول للحكم النهائي."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-008-0041",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:37:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 41,
+                "transliteration": "rdj.n-sn p3-ger r Hm.w m-r-a",
+                "hieroglyph": "𓂞𓈖𓋴𓈖𓊪𓄿𓎼𓂋𓂋𓍛𓅱𓐝𓂋𓂝",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وأمروا وقرروا فوراً بمعاقبة 'البهتان' وتخفيض رتبته ليكون خادماً",
+                "english": "They ordered indeed that Falsehood be punished and made a servant",
+                "german": "Sie befahlen wahrlich, dass Lüge bestraft und zum Diener gemacht werde",
+                "french": "Ils ordonnèrent assurément que Mensonge fût châtié et établi comme serviteur",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_passive_predicate_status"
+            },
+            "layer4_writing": {
+                "mdc_code": "rdj.n-sn p3-ger r Hm.w m-r-a"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "rdj.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ger", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "Hm.w", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "القصاص العادل وعكس الأدوار الاجتماعية عقاباً على كذبه."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-008-0042",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:37:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 42,
+                "transliteration": "m-sA sm3.t jrt.t=f m-r-a",
+                "hieroglyph": "𓐝𓋴𓄿𓋴𓌳𓄿𓏏𓁹𓏤𓏭𓆑𓐝𓂋𓂝",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "بعد إعماء وفقء عينيه عقاباً وجزاءً له على كذبه الصريح وافترائه",
+                "english": "after blinding his eyes as a punishment for his lies",
+                "german": "nachdem seine Augen als Strafe für seine Lügen geblendet worden waren",
+                "french": "après que ses yeux eussent été aveuglés en punition de ses mensonges",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "prepositional_phrase",
+                "syntax_structure": "m-sA_with_infinitive_specification"
+            },
+            "layer4_writing": {
+                "mdc_code": "m-sA sm3.t jrt.t=f m-r-a"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "m-sA", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sm3.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "jrt.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ سمات-إيرت يعني التخريب البصري أو فقء الأعين."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-008-0043",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:37:50.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 43,
+                "transliteration": "rdj.n-sn mꜣˁt r pꜣ-mꜣˁt m st=f",
+                "hieroglyph": "𓂞𓈖𓋴𓈖𓐙𓂝𓏏𓂋𓊪𓄿𓐙𓂝𓏏𓐝𓊃𓏏𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وأعادوا وأرجعوا الحق لـ 'الحقيقة' في منصبه ومكانه الأصلي النبيل",
+                "english": "And they restored Truth to his rightful place.",
+                "german": "Und sie setzten Wahrheit wieder in sein rechtmäßiges Amt ein.",
+                "french": "Et ils rétablirent Vérité dans sa charge légitime.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_with_indirect_object_and_locative"
+            },
+            "layer4_writing": {
+                "mdc_code": "rdj.n-sn mAat r p3-ma_at m st=f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "rdj.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mꜣˁt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "st", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ ست-إف يعني المقر أو الرتبة الإدارية المستحقة للعدل."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-008-0044",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:38:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 44,
+                "transliteration": "ist r-f sw m Hz.t n nTr",
+                "hieroglyph": "𓇋𓋴𓏏𓇋𓅱𓆑𓐝𓎛𓋴𓏏𓈖𓊹",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وكان هو في رضا ونعمة وفضل كامل من الإله المعبود",
+                "english": "And he was in favor and grace of the god,",
+                "german": "Und er war in Gunst und Gnade des Gottes,",
+                "french": "Et il était en faveur et grâce du dieu,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "ist_subject_with_locative_possessive_noun"
+            },
+            "layer4_writing": {
+                "mdc_code": "ist r-f sw m Hz.t n nTr"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ist", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "Hz.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "حزت تعني الفضل والرضا الإلهي."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-008-0045",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:38:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 45,
+                "transliteration": "snm.w m Dt.i nbt Spst",
+                "hieroglyph": "𓋴𓈖𓐝𓅱𓐝𓍿𓏏𓇋𓏠𓈖𓎆𓋴𓄿𓪪𓋴𓏏𓎆",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "ومكافأً ومعطىً من كل السلع والخدم والنفائس المشرقة",
+                "english": "and rewarded with all kinds of precious goods and servants,",
+                "german": "und belohnt mit allerlei kostbaren Gütern und Dienern,",
+                "french": "et récompensé de toutes sortes de biens précieux et de serviteurs,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "passive_stative_snm_with_possessive_objects"
+            },
+            "layer4_writing": {
+                "mdc_code": "snm.w m Dt.i nbt Spst"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "snm.w", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "Dt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "Spst", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "سِبست تعني المقتنيات الفاخرة المضيئة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-008-0046",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:38:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 46,
+                "transliteration": "r-gsw nty wd=sn m Htp",
+                "hieroglyph": "𓂋𓎼𓋴𓅱𓈖𓏏𓏭𓎘𓏏𓋴𓈖𓐝𓊵𓏏𓊪",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "حيث استقرت وهدأت أمورهم بسلام وأمان كامل",
+                "english": "where their affairs settled in peace,",
+                "german": "wo ihre Angelegenheiten in Frieden geregelt waren,",
+                "french": "où leurs affaires se réglèrent en paix,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "r-gsw_with_relative_clause_and_adverbial"
+            },
+            "layer4_writing": {
+                "mdc_code": "r-gsw nty wd=sn m Htp"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "r-gsw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "wd", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "Htp", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "حتب تعني السلام والسكينة والاستقرار النفسي والاجتماعي."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-008-0047",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:38:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 47,
+                "transliteration": "iw iry.n-f rnp.wt aSa.wt Hz.w",
+                "hieroglyph": "𓇋𓅱𓁹𓈖𓆑𓆳𓏤𓏥𓄳𓏥𓎛𓋴𓏏",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وعاش وقضى سنوات عديدة موفور الرضا والفضل الإلهي",
+                "english": "and he spent many years in favor and grace,",
+                "german": "und er verbrachte viele Jahre in Gunst und Gnade,",
+                "french": "et il passa de nombreuses années en faveur et grâce,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_with_durative_temporal"
+            },
+            "layer4_writing": {
+                "mdc_code": "iw iry.n-f rnp.wt aSa.wt Hz.w"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "iry.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "rnp.wt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "Hz.w", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الالتزام بالخاتمة السردية الكلاسيكية للدولة الحديثة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000001-S048",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:38:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-008",
+                "sequence_no": 48,
+                "transliteration": "iw.f pw m Htp mi gm.t m sS",
+                "hieroglyph": "𓇋𓅱𓆑𓊪𓅱𓐝𓊵𓏏𓊪𓐝𓏟𓏏",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "لقد تم النص وانتهى بسلام كامل، كما وُجد مكتوباً ومسطراً في المخطوط الأصلي للبردية.",
+                "english": "It has come to an end in peace, as it was found in writing.",
+                "german": "Es ist in Frieden zu Ende gegangen, so wie es geschrieben gefunden wurde.",
+                "french": "Cela s'est terminé en paix, comme cela a été trouvé par écrit.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "traditional_egyptian_scribal_colophon_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "iw.f pw m Htp mi gm.t m sS"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-08",
+                        "name": "Papyrus Chester Beatty II",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "iw.f-pw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "Htp", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "gm.t", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "sS", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الخاتمة القياسية لنسخ البرديات من الكَتَبة المصريين لتوكيد الدقة والمطابقة للأصل."
+            }
+        }
+    ]
+}

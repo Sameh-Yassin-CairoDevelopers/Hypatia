@@ -1,0 +1,587 @@
+وأعتقد أننا الآن نكتب **أهم وثيقة فى المشروع كله**.
+
+ليست لأنها أطول.
+
+بل لأنها أول وثيقة تصف **الحياة الكاملة للمعرفة داخل هيباتيا**.
+
+هذه الوثيقة هى التى تربط كل ما كتبناه حتى الآن.
+
+ولهذا سأعتبرها دستور حركة المعرفة.
+
+---
+
+# HYP-SPEC-030000
+
+# Knowledge Pipeline Overview
+
+**Project:** Hypatia Knowledge Platform
+
+**Document ID:** HYP-SPEC-030000
+
+**Version:** 1.0 Founder Edition
+
+**Status:** Official
+
+**Classification:** Core Infrastructure
+
+---
+
+# Purpose
+
+This document defines the complete lifecycle of knowledge inside the Hypatia Platform.
+
+It describes how knowledge is born, validated, enriched, interconnected, published, learned by AI, improved by researchers, and continuously evolved.
+
+Every future pipeline must conform to this architecture.
+
+---
+
+# Philosophy
+
+Knowledge is never static.
+
+It is born.
+
+It grows.
+
+It is reviewed.
+
+It evolves.
+
+It teaches.
+
+It returns stronger.
+
+Hypatia therefore treats knowledge as a living system.
+
+---
+
+# Fundamental Principle
+
+Every piece of knowledge follows exactly one lifecycle.
+
+Regardless of whether it is
+
+* Story
+* Lexical Card
+* Entity
+* Grammar
+* Relation
+* Source
+* Domain
+* Meta Card
+
+Everything follows the same pipeline.
+
+---
+
+# Global Knowledge Flow
+
+```text
+External Sources
+        │
+        ▼
+Import Pipeline
+        │
+        ▼
+Normalization Pipeline
+        │
+        ▼
+Cleaning Pipeline
+        │
+        ▼
+Knowledge Object Builder
+        │
+        ▼
+Resolver Layer
+        │
+        ▼
+Knowledge Graph Builder
+        │
+        ▼
+Repository
+       ┌┴─────────────┐
+       ▼              ▼
+Website        AI Training Dataset
+       ▲              ▲
+       └──────┬───────┘
+              ▼
+Community Feedback
+              ▼
+Continuous Improvement
+              ▼
+Repository
+```
+
+---
+
+# Stage 1
+
+## Knowledge Acquisition
+
+Goal
+
+Acquire knowledge from external scientific sources.
+
+Examples
+
+* Dictionaries
+* Academic papers
+* Museums
+* Corpora
+* Excavation reports
+* Researchers
+* Founder
+
+Output
+
+Raw Data
+
+---
+
+# Stage 2
+
+## Import Pipeline
+
+Goal
+
+Read external files.
+
+Supported formats
+
+```text
+JSON
+
+CSV
+
+XML
+
+Markdown
+
+TXT
+
+TEI
+
+Future Formats
+```
+
+Output
+
+Imported Records
+
+---
+
+# Stage 3
+
+## Normalization Pipeline
+
+Goal
+
+Transform imported data into Hypatia standards.
+
+Operations
+
+* Normalize IDs
+* Normalize field names
+* Normalize encodings
+* Normalize language codes
+* Normalize dates
+* Normalize references
+* Normalize metadata
+
+Output
+
+Normalized Objects
+
+---
+
+# Stage 4
+
+## Cleaning Pipeline
+
+Goal
+
+Improve data quality.
+
+Operations
+
+* Remove duplicates
+* Fix formatting
+* Remove invalid records
+* Validate mandatory fields
+* Resolve malformed references
+* Correct structural inconsistencies
+
+Output
+
+Clean Objects
+
+---
+
+# Stage 5
+
+## Knowledge Object Builder
+
+Goal
+
+Transform normalized data into official Knowledge Objects.
+
+Generated Objects
+
+* Meta Cards
+* Lexical Cards
+* Entity Cards
+* Story Cards
+* Grammar Cards
+* Relation Cards
+* Source Cards
+* Domain Cards
+
+Output
+
+Knowledge Repository Objects
+
+---
+
+# Stage 6
+
+## Resolver Layer
+
+Goal
+
+Discover relationships.
+
+Operations
+
+* Resolve entities
+* Resolve lemmas
+* Resolve domains
+* Resolve grammar
+* Resolve chronology
+* Resolve ambiguity
+* Resolve semantic context
+
+Output
+
+Resolved Knowledge
+
+---
+
+# Stage 7
+
+## Knowledge Graph Builder
+
+Goal
+
+Generate the Knowledge Graph.
+
+Operations
+
+* Create edges
+* Calculate weights
+* Discover clusters
+* Build navigation paths
+* Calculate graph statistics
+
+Output
+
+Knowledge Graph
+
+---
+
+# Stage 8
+
+## Repository
+
+Goal
+
+Store validated knowledge.
+
+Characteristics
+
+* Immutable IDs
+* Version controlled
+* Fully referenced
+* Scientifically traceable
+
+Repository is the single source of truth.
+
+---
+
+# Stage 9A
+
+## Website Dataset Builder
+
+Goal
+
+Generate optimized datasets for
+
+* Search
+* Dictionary
+* Stories
+* Knowledge Explorer
+* API
+
+Characteristics
+
+Fast
+
+Compact
+
+Read-only
+
+---
+
+# Stage 9B
+
+## AI Training Dataset Builder
+
+Goal
+
+Generate machine learning datasets.
+
+Examples
+
+* Translation
+* Entity Recognition
+* Grammar Learning
+* Reasoning
+* Retrieval
+* Alignment
+
+Characteristics
+
+Structured
+
+Balanced
+
+Traceable
+
+Versioned
+
+---
+
+# Stage 10
+
+## Community Feedback
+
+Knowledge returns.
+
+Researchers may
+
+* Suggest corrections
+* Add references
+* Improve translations
+* Add examples
+* Report mistakes
+* Link missing entities
+
+No proposal modifies the Repository directly.
+
+---
+
+# Stage 11
+
+## Scientific Review
+
+Every proposal is reviewed.
+
+Possible decisions
+
+* Accept
+* Reject
+* Merge
+* Postpone
+
+Accepted proposals create new revisions.
+
+---
+
+# Stage 12
+
+## Continuous Improvement
+
+Every accepted revision restarts the pipeline.
+
+```text
+Repository
+
+↓
+
+Resolvers
+
+↓
+
+Graph
+
+↓
+
+Datasets
+
+↓
+
+Website
+
+↓
+
+AI
+```
+
+Knowledge continually improves.
+
+---
+
+# Pipeline Independence
+
+Every pipeline is independent.
+
+Each pipeline has
+
+* Version
+* Metrics
+* Logs
+* Validation
+* Recovery
+
+Failure of one pipeline never corrupts another.
+
+---
+
+# Pipeline Rules
+
+No pipeline may
+
+* Change immutable IDs.
+* Modify historical evidence.
+* Delete scientific provenance.
+* Create orphan Knowledge Objects.
+* Break repository integrity.
+
+---
+
+# Pipeline Metrics
+
+Each stage reports
+
+```text
+Input Records
+
+Output Records
+
+Execution Time
+
+Errors
+
+Warnings
+
+Confidence
+
+Revision
+```
+
+Metrics become part of the scientific history.
+
+---
+
+# AI Position
+
+Artificial Intelligence never modifies the Repository.
+
+AI learns from the Repository.
+
+AI proposes improvements.
+
+Researchers approve them.
+
+The Repository remains authoritative.
+
+---
+
+# Repository Position
+
+The Repository is permanent.
+
+Pipelines are replaceable.
+
+Resolvers are replaceable.
+
+AI models are replaceable.
+
+Knowledge survives.
+
+---
+
+# Scientific Law
+
+Knowledge flows forward.
+
+Never backward.
+
+Corrections create revisions.
+
+Never overwrite history.
+
+---
+
+# Knowledge Motto
+
+> **Knowledge Never Stops Moving.**
+
+---
+
+# Founder Statement
+
+Hypatia is not merely a repository of documents.
+
+It is a living scientific ecosystem.
+
+Knowledge enters through evidence.
+
+It is refined through structure.
+
+Connected through reasoning.
+
+Published through exploration.
+
+Learned by artificial intelligence.
+
+Reviewed by scholars.
+
+And continuously reborn through scientific collaboration.
+
+Every future component of Hypatia must respect this lifecycle.
+
+Because preserving the movement of knowledge is as important as preserving knowledge itself.
+
+---
+
+# Academic Notes
+
+The Knowledge Pipeline is intentionally separated into independent stages to ensure:
+
+* reproducibility,
+* explainability,
+* traceability,
+* scientific integrity,
+* long-term maintainability.
+
+This architecture allows any stage to evolve independently while guaranteeing that every published result remains traceable to its original evidence.
+
+---
+
+# Founder Insight (Architectural Principle)
+
+هذه الوثيقة تكشف لأول مرة أن **هيباتيا ليست مشروع موقع إلكتروني، وليست نموذج ذكاء اصطناعي، وليست قاعدة بيانات**.
+
+بل تتكون من **ثلاثة منتجات مستقلة** تشترك في مستودع معرفة واحد:
+
+```text
+                 Hypatia Repository
+                        │
+        ┌───────────────┼───────────────┐
+        │               │               │
+        ▼               ▼               ▼
+  Website         AI Training      Research Platform
+```
+
+وهذا القرار المعماري هو ما سيضمن أن أي تطوير مستقبلي - سواء للموقع أو للنموذج أو للأدوات البحثية - لن يفرض إعادة بناء المشروع، بل سيستفيد دائمًا من نفس المستودع العلمي الموحد. وأرى أن هذه ستكون واحدة من أقوى نقاط هيباتيا على المدى الطويل.

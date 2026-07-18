@@ -1,0 +1,214 @@
+{
+    "text_id": "EGY-323",
+    "metadata": {
+        "title_ar": "نقوش مقياس النيل بجزيرة أسوان (النسخة النهائية المصححة)",
+        "title_en": "The Elephantine Nilometer Inscriptions (Corrected & Complete)",
+        "museum_catalog_no": "Nilometer of Elephantine Island, Aswan (Lines 1-4)",
+        "stable_tla_id": "unknown"
+    },
+    "sentences": [
+        {
+            "metadata": {
+                "id": "HYP-TXT-000323-S01",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:05:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-323",
+                "sequence_no": 1,
+                "transliteration": "ḥˁp ˁꜢ r-mtr m ꜣb.w",
+                "hieroglyph": "𓈡𓅨𓂋𓂋𓌳𓏏𓂋𓐝𓃎𓏤𓊖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 1: هذا رصد لمنسوب فيضان النيل (حابي) العظيم والدقيق عند جزيرة الفنتين بأسوان (أبو)،",
+                "english": "Line 1: The great and precise Inundation of Hapy at Elephantine Island (Abu),",
+                "german": "Zeile 1: Die große und genaue Nilüberschwemmung bei der Insel Elephantine (Abu),",
+                "french": "Ligne 1: La grande et précise inondation de Hâpy à l'île d'Éléphantine (Abou),",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "locative_noun_phrase_with_adjectival_modifier"
+            },
+            "layer4_writing": {
+                "mdc_code": "Hap a3 r-mtr m 3b.w"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "NILOMETER-ELEPHANTINE-1",
+                        "name": "Nilometer Inscriptions, Ludwig Borchardt (1906)",
+                        "type": "nilometer_carving",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḥˁp", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ˁꜢ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ꜣb.w", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الاسم الجغرافي العتيق لأسوان 'أبو' (ꜣb.w) ويعني جزيرة الفيلة لخصوصيتها التجارية كميناء حدودي جنوبي [3.2.3]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000323-S02",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:06:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-323",
+                "sequence_no": 2,
+                "transliteration": "ḥsb mḥ 28 m šmˁ.w r-mtr",
+                "hieroglyph": "𓎛𓋴𓃀𓐝𓂾𓏤𓎆𓎆𓏮𓏯𓐝𓆰𓏥𓏲𓂋𓌳𓏏𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 2: حيث سُجل وقُدر المنسوب بثمانية وعشرين (28) ذراعاً بمقاييس مصر العليا بيقين،",
+                "english": "Line 2: recording exactly twenty-eight (28) cubits of Upper Egypt,",
+                "german": "Zeile 2: Erfassen von genau achtundzwanzig (28) Ellen von Oberägypten,",
+                "french": "Ligne 2: enregistrant exactement vingt-huit (28) coudées de Haute-Égypte,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "passive_participle_hsb_with_numerical_cubit_and_locative_limiters"
+            },
+            "layer4_writing": {
+                "mdc_code": "Hsb mH 28 m Sm_a.w r-mtr"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "NILOMETER-ELEPHANTINE-1",
+                        "name": "Nilometer Inscriptions, Ludwig Borchardt (1906)",
+                        "type": "nilometer_carving",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḥsb", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mḥ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "šmˁ.w", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "المقياس 28 ذراعاً 'مَح' (mḥ) بالفنتين يمثل المنسوب التاريخي المثالي للفيضان بالجنوب؛ حيث تبدأ الصخور في تهدئة سرعة تدفق المياه وتوزيعها عبر القنوات [3.2.1، 3.2.3]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000323-S03",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:07:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-323",
+                "sequence_no": 3,
+                "transliteration": "r rḏj.t wdꜣ šmˁ.w ẖr ḥm nsw-bỉty dỉ ˁnḫ",
+                "hieroglyph": "𓂋𓂞𓏏𓎘𓄿𓆰𓏥𓏲𓌨𓍛𓏤𓇓𓏏𓆤𓏏𓂞𓋹",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 3: لكي يعم السلام والهدوء الزراعي ربوع مصر العليا تحت جلالة الملك الحاكم، المعطى الحياة،",
+                "english": "Line 3: to ensure that Upper Egypt is peaceful under the majesty of the King, given life,",
+                "german": "Zeile 3: um sicherzustellen, dass Oberägypten unter der Majestät des Königs, dem Leben gegeben ist, friedlich gestimmt ist,",
+                "french": "Ligne 3: pour s'assurer que la Haute-Égypte soit paisible sous la majesté du Roi, doué de vie,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "infinitive_r_purpose_with_royal_titulary_agent"
+            },
+            "layer4_writing": {
+                "mdc_code": "r rdj.t wda Sm_a.w Xr Hm nsw-bity di anx"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "NILOMETER-ELEPHANTINE-1",
+                        "name": "Nilometer Inscriptions, Ludwig Borchardt (1906)",
+                        "type": "nilometer_carving",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "r\u1e0fj", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "wd\ua725", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "nsw-b\u1e31ty", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الربط المباشر بين انضباط منسوب مياه النيل المسجل بالفنتين وسلام واستقرار 'ودا' (wdꜣ) البلاد الزراعي والضريبي."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000323-S04",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:08:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-323",
+                "sequence_no": 4,
+                "transliteration": "jw.f pw m ḥtp",
+                "hieroglyph": "𓇋𓅱𓆑𓊪𓅱𓐝𓊵𓏏𓊪",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 4: وقد تم وانتهى الجرد والقياس بسلام تام.",
+                "english": "Line 4: It has come to an end in peace.",
+                "german": "Zeile 4: Es ist in Frieden zu Ende gegangen.",
+                "french": "Ligne 4: Cela s'est terminé en paix.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "traditional_egyptian_scribal_colophon_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "jw.f pw m Htp"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "NILOMETER-ELEPHANTINE-1",
+                        "name": "Nilometer Inscriptions, Ludwig Borchardt (1906)",
+                        "type": "nilometer_carving",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jw.f-pw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "\u1e25tp", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الخاتمة الحسابية لإنهاء جرد منسوب المياه."
+            }
+        }
+    ]
+}

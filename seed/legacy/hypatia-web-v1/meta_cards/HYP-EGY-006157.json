@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-006157",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:41.153237Z"
+    },
+    "layer1_core": {
+        "transliteration": "Tbt",
+        "hieroglyph": "𓋸𓏏𓏤𓏏𓃀𓏏𓋸",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "صندل، نعل",
+        "english": "Sandal, role",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+132F8",
+        "gardiner_code": "S33",
+        "gardiner_description": "Sandal\tIdeo. in ṯbt “sandal,” ṯbw “sandal maker.”",
+        "gardiner_details": "S34"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

@@ -1,0 +1,274 @@
+{
+    "text_id": "EGY-137",
+    "metadata": {
+        "title_ar": "نقوش قاعدة تمثال حم-إيونو",
+        "title_en": "Inscription on the Base of the Seated Statue of Hemiunu",
+        "museum_catalog_no": "Roemer- und Pelizaeus-Museum Hildesheim 1962",
+        "stable_tla_id": "unknown"
+    },
+    "sentences": [
+        {
+            "metadata": {
+                "id": "HYP-TXT-000137-S01",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-10T12:00:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-137",
+                "sequence_no": 1,
+                "transliteration": "jrj-pꜥ.t ḥꜣty-ꜥ xtmw-bjtj smr wˁ.ty",
+                "hieroglyph": "𓄽𓂝𓏏𓄂𓏏𓀀𓋨𓆤𓏏𓊃𓅓𓂋𓌡𓏏𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "الأمير الوراثي، وعمدة الإقليم، وحامل ختم ملك مصر السفلى، والسمير الأوحد،",
+                "english": "The hereditary prince, count, sealer of the King of Lower Egypt, sole companion,",
+                "german": "Der Erbprinz, Graf, Siegelbewahrer des Königs von Unterägypten, der einzige Freund,",
+                "french": "Le prince héréditaire, comte, chancelier du roi de Basse-Égypte, compagnon unique,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "honorific_royal_titles_sequence"
+            },
+            "layer4_writing": {
+                "mdc_code": "jrj-pa.t HAty-a xtmw-bjtj smr wa.ty"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-HILDESHEIM-1962",
+                        "name": "Seated Statue of Hemiunu Base, Roemer- und Pelizaeus-Museum",
+                        "type": "limestone_base",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jrj-pꜥ.t", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥꜣty-ꜥ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "xtmw-bjtj", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "smr-wˁ.ty", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "المجموعة الأولى لرموز الألقاب النبيلية والإدارية التقليدية العليا في بلاط الأسرة الرابعة للملك خوفو."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000137-S02",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-10T12:01:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-137",
+                "sequence_no": 2,
+                "transliteration": "ḥm-nṯr bꜣst.t ḥm-nṯr šsm.t.t ḥm-nṯr bꜣ-n-ḏd.t",
+                "hieroglyph": "𓍛𓏤𓊹𓃮𓏏𓏏𓍛𓏤𓊹𓎛𓎿𓏏𓏏𓍛𓏤𓊹𓃝𓈖𓊽𓂋𓏏",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "كاهن الإلهة باستت، وكاهن الإلهة شسمتت، وكاهن كبش منديس الإلهي،",
+                "english": "Priest of Bastet, priest of Shesmetet, priest of the Ram of Mendes,",
+                "german": "Priester der Bastet, Priester der Shesmetet, Priester des Widders von Mendes,",
+                "french": "Prêtre de Bastet, prêtre de Shesmetet, prêtre du Bélier de Mendès,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "multiple_priestly_genitive_titles"
+            },
+            "layer4_writing": {
+                "mdc_code": "Hm-nTr bAst.t Hm-nTr Ssm.t.t Hm-nTr bA-n-Dd.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-HILDESHEIM-1962",
+                        "name": "Seated Statue of Hemiunu Base, Roemer- und Pelizaeus-Museum",
+                        "type": "limestone_base",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḥm-nṯr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "bꜣst.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "šsm.t.t", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "bꜣ-n-ḏd.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "المجموعة الثانية المخصصة لكهنوت معبودات الدلتا الشهيرة (الآلهة القطط واللبؤات) وحامي معبود كبش منديس."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000137-S03",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-10T12:02:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-137",
+                "sequence_no": 3,
+                "transliteration": "ḥry-sštꜣ n ꜣp.t ḥry-sštꜣ n wr-ḥḏ ḥry-sštꜣ n ṯn-jb",
+                "hieroglyph": "𓁷𓏤𓁛𓈖𓃎𓏏𓁷𓏤𓁛𓈖𓅨𓎛𓆓𓁷𓏤𓁛𓈖𓍿𓈖𓄣𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "المشرف على أسرار العجل أبيس، والمشرف على أسرار الإله (ور-حدج)، والمشرف على أسرار الإله (ثن-إيب)،",
+                "english": "Keeper of the secrets of the Apis Bull, keeper of the secrets of the Great White Bull (Ur-hedj), keeper of the secrets of the White Bull (Tjen-ib),",
+                "german": "Hüter der Geheimnisse des Apis-Stieres, Hüter der Geheimnisse des großen Weißen Stieres (Ur-hedj), Hüter der Geheimnisse des weißen Stieres (Tjen-ib),",
+                "french": "Gardien des secrets du Taureau Apis, gardien des secrets du Grand Taureau Blanc (Our-hedj), gardien des secrets du Taureau Blanc (Tjen-ib),",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "multiple_hry-sStA_genitive_titles"
+            },
+            "layer4_writing": {
+                "mdc_code": "Hry-sSt3 n 3p.t Hry-sSt3 n wr-HD Hry-sSt3 n Tn-jb"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-HILDESHEIM-1962",
+                        "name": "Seated Statue of Hemiunu Base, Roemer- und Pelizaeus-Museum",
+                        "type": "limestone_base",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḥry-sštꜣ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ꜣp.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "wr-ḥḏ", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "ṯn-jb", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللقب النادر 'حري-سشتا' (ḥry-sštꜣ) يعني هنا المشرف على الطقوس والرعاية السرية للثيران المقدسة ومنها عجل منف الحامي 'أبيس'."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000137-S04",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-10T12:03:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-137",
+                "sequence_no": 4,
+                "transliteration": "tꜣyty sꜣb ṯꜣty wr djw pr-ḏḥwty smꜣ-ḏḥwty",
+                "hieroglyph": "𓋲𓋳𓊃𓄿𓃀𓍿𓄿𓏏𓏭𓅨𓏤𓏮𓏮𓏤𓉐𓅡𓄿𓏏𓏭𓋳𓅡𓄿𓏏𓏭",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "قاضي القضاة والوزير الأعظم، وأكبر الخمسة في معبد تحوت، وكاهن الإله تحوت،",
+                "english": "Chief Justice and Vizier, greatest of the five of the House of Thoth, priest of Thoth,",
+                "german": "Oberrichter und Wesir, der Größte der Fünf im Hause des Thot, Priester des Thot,",
+                "french": "Chef de la justice et vizir, le plus grand des cinq de la Maison de Thot, prêtre de Thot,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "supreme_judicial_and_temple_administrator_titles"
+            },
+            "layer4_writing": {
+                "mdc_code": "t3yty s3b TAty wr djw pr-dHwty sm3-dHwty"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-HILDESHEIM-1962",
+                        "name": "Seated Statue of Hemiunu Base, Roemer- und Pelizaeus-Museum",
+                        "type": "limestone_base",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "tꜣyty", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sꜣb", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ṯꜣty", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "wr-djw", "lemma_ref": null},
+                    {"token_no": 5, "transliteration": "pr-ḏḥwty", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الوزير الأعظم وقاضي القضاة 'تايتي ساب ثاتي' (tꜣyty sꜣb ṯꜣty) هو أعلى منصب قضائي وإداري وتنفيذي بالدولة القديمة بعد الملك مباشرة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000137-S05",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-10T12:04:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-137",
+                "sequence_no": 5,
+                "transliteration": "ḥry-sštꜣ n p.t tꜣ-pẖr ḥry-sštꜣ n mr.t=f sꜣ nsw n ẖt=f jmy-r kꜣ.t nb.t n.t nsw.t ḥm-jwnw",
+                "hieroglyph": "𓁷𓏤𓁛𓈖𓇯𓇾𓄡𓂋𓆑𓁷𓏤𓁛𓈖𓌻𓂋𓏏𓆑𓅭𓏤𓇓𓏏𓈖𓄡𓏏𓆑𓅓𓋴𓍛𓏤𓂓𓏏𓏥𓎟𓏏𓈖𓇓𓏏𓍛𓏤𓋴𓇛𓈖𓏲",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "المشرف على أسرار السماء وكل ما يدور حول الأرض، والمشرف على أسرار ما يحبه سيده، وابن الملك من جسده، والمشرف على جميع أعمال التشييد والبناء التابعة للملك: حم-إيونو.",
+                "english": "Overseer of the secrets of heaven and all that revolves around the earth, overseer of the secrets of what his lord desires, the King's son of his body, the overseer of all construction works of the King: Hemiunu.",
+                "german": "Vorsteher der Geheimnisse des Himmels und alles dessen, was sich um die Erde dreht, Vorsteher der Geheimnisse dessen, was sein Herr liebt, der leibliche Königssohn, Vorsteher aller Bauarbeiten des Königs: Hemiunu.",
+                "french": "Directeur des secrets du ciel et de tout ce qui tourne autour de la terre, directeur des secrets de ce que son seigneur désire, le fils du roi de son corps, le directeur de tous les travaux de construction du Roi : Hémiounou.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "master_architect_and_genealogy_with_proper_name"
+            },
+            "layer4_writing": {
+                "mdc_code": "Hry-sSt3 n p.t t3-pxr Hry-sSt3 n mr.t=f s3 nsw n Xt=f jmy-r k3.t nb.t n.t nsw.t Hm-jwnw"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-HILDESHEIM-1962",
+                        "name": "Seated Statue of Hemiunu Base, Roemer- und Pelizaeus-Museum",
+                        "type": "limestone_base",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḥry-sštꜣ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "p.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "tꜣ-pẖr", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "sꜣ-nsw", "lemma_ref": null},
+                    {"token_no": 5, "transliteration": "jmy-r-kꜣ.t", "lemma_ref": null},
+                    {"token_no": 6, "transliteration": "ḥm-jwnw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللقب الأبرز لـ 'حم-إيونو' بصفته مخطط ومعماري الهرم الأكبر للملك خوفو هو: 'إيمي-ر كات نبت نت نسوت' (jmy-r kꜣ.t nb.t n.t nsw.t) وتعني مدير/مشرف جميع مشاريع البناء والتشييد التابعة للملك الحاكم."
+            }
+        }
+    ]
+}

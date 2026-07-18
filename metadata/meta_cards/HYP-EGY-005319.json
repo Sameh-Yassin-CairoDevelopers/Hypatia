@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-005319",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:39.847555Z"
+    },
+    "layer1_core": {
+        "transliteration": "sDm-aS",
+        "hieroglyph": "𓄔𓅓𓂝𓈙𓀁𓄔𓀞",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "خادم",
+        "english": "servant",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+13114",
+        "gardiner_code": "F21",
+        "gardiner_description": "Ear of ox\tPhono. sḏm, idn. Det. or Ideo. in msḏr “ear. Ideo. sḏm, “hear.”",
+        "gardiner_details": "F22"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

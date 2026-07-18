@@ -1,0 +1,780 @@
+{
+    "text_id": "EGY-443",
+    "metadata": {
+        "title_ar": "بردية إدوين سميث للجراحة العسكرية (الحالتان الأولى والثانية)",
+        "title_en": "The Edwin Smith Surgical Papyrus (Case 1 & 2)",
+        "museum_catalog_no": "New York Academy of Medicine, Inv. Edwin Smith (Page 1, Lines 1-15)",
+        "stable_tla_id": "unknown"
+    },
+    "sentences": [
+        {
+            "metadata": {
+                "id": "HYP-TXT-000443-L01",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T23:00:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-443",
+                "sequence_no": 1,
+                "transliteration": "tp-ḥsb n wbnw m tp=f",
+                "hieroglyph": "𓁷𓏤𓏃𓈖𓅱𓃀𓈖𓏲𓐝𓁷𓏤𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L01: (الحالة الأولى) - المنهج والأسلوب الجراحي المتبع لعلاج جرح مفتوح في رأس المريض،",
+                "english": "Line L01: (Case 1) - Instructions concerning a wound in his head,",
+                "german": "Zeile L01: (Fall 1) - Anweisungen bezüglich einer Wunde in seinem Kopf,",
+                "french": "Ligne L01: (Cas 1) - Instructions concernant une blessure à la tête,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "tp-hsb_heading_introducing_surgical_case_with_objective_wound"
+            },
+            "layer4_writing": {
+                "mdc_code": "tp-Hsb n wbnw m tp=f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-NYAM-SMYTH",
+                        "name": "Edwin Smith Surgical Papyrus, New York Academy of Medicine",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "tp-ḥsb", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "wbnw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "tp", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الافتتاحية الجراحية القياسية 'تب-حسب' (tp-ḥsb)؛ واللفظ 'وبنو' (wbnw) يعني الجرح المفتوح أو الشق الناجم عن الصدمات الحربية [1.2.7]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000443-L02",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T23:01:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-443",
+                "sequence_no": 2,
+                "transliteration": "jr gmy.n=k s m wbnw m tp=f",
+                "hieroglyph": "𓇋𓂋𓂓𓏠𓈖𓎡𓊃𓏤𓐝𓅱𓃀𓈖𓏲𓐝𓁷𓏤𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L02: إذا قمت بفحص جراحي ومادي لرجل مصاب بجرح مفتوح في رأسه،",
+                "english": "Line L02: If you examine a man with a wound in his head,",
+                "german": "Zeile L02: Wenn du einen Mann mit einer Wunde in seinem Kopf untersuchst,",
+                "french": "Ligne L02: Si tu examines un homme présentant une blessure à la tête,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "conditional_jr_with_first_person_perfective_active_gmy.n_and_objective_patient"
+            },
+            "layer4_writing": {
+                "mdc_code": "jr gmy.n=k s m wbnw m tp=f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-NYAM-SMYTH",
+                        "name": "Edwin Smith Surgical Papyrus, New York Academy of Medicine",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "gmy.n", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "s", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "wbnw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "صيغة الفحص والتشخيص السريري المادي الفعلي والملموس 'جمي-ن-ك س' (gmy.n=k s) دون استخدام التعاويذ."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000443-L03",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T23:02:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-443",
+                "sequence_no": 3,
+                "transliteration": "jw sṯ-n r s-ẖ.n-f mḏꜣ.t n.t tp=f",
+                "hieroglyph": "𓇋𓅱𓋴𓍿𓈖𓂋𓋴𓄡𓈖𓆑𓋨𓏤𓈖𓏏𓁷𓏤𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L03: وكان الجرح غائراً ونافذاً ومخترقاً للأنسجة حتى وصل لعظام جمجمته،",
+                "english": "Line L03: penetrating to the bone of his skull,",
+                "german": "Zeile L03: eindringend bis zum Knochen seines Schädels,",
+                "french": "Ligne L03: pénétrant jusqu'à l'os de son crâne,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "iw_subject_active_participle_penetrating_with_directional_skull_genitive"
+            },
+            "layer4_writing": {
+                "mdc_code": "jw sT-n r s-X.n-f mD3.t n.t tp=f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-NYAM-SMYTH",
+                        "name": "Edwin Smith Surgical Papyrus, New York Academy of Medicine",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sṯ-n", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "s-ẖ", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "mḏꜣ.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ 'مجات نت تب' (mḏꜣ.t n.t tp=f) يعني حرفياً 'عظم أو لوح غلاف الجمجمة'؛ وهو أقدم تشريح فيزيائي دقيق لرأس الإنسان [1.2.7]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000443-L04",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T23:03:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-443",
+                "sequence_no": 4,
+                "transliteration": "jw nn gmy.n=k sd.t jm n pẖr",
+                "hieroglyph": "𓇋𓅱𓈖𓈖𓂓𓏠𓈖𓎡𓋴𓂧𓏏𓐝𓆑𓈖𓄡𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L04: ولكنك لم تجد ولم تعثر على أي كسر أو شرخ أو فجوة مادية بالجمجمة،",
+                "english": "Line L04: but without any fracture (gash) in his skull,",
+                "german": "Zeile L04: aber ohne irgendeinen Bruch (Spalt) in seinem Schädel,",
+                "french": "Ligne L04: mais sans aucune fracture dans son crâne,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "iw_circumstantial_with_negated_gmy.n_and_objective_fracture_noun"
+            },
+            "layer4_writing": {
+                "mdc_code": "jw nn gmy.n=k sd.t jm n pXr"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-NYAM-SMYTH",
+                        "name": "Edwin Smith Surgical Papyrus, New York Academy of Medicine",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "nn", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "gmy.n", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "sd.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ 'سِدت' (sd.t) يعني كسر أو شرخ عظمي؛ ويبرز السطر كفاءة التشخيص بالفصل بين الجرح الجلدي والشرخ العظمي للجمجمة [1.2.7]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000443-L05",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T23:04:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-443",
+                "sequence_no": 5,
+                "transliteration": "ḏd.ḫr=k r-f: wbnw m tp=f pw",
+                "hieroglyph": "𓂧𓂧𓐍𓂋𓎡𓂋𓆑𓅱𓃀𓈖𓏲𓐝𓁷𓏤𓆑𓊪𓅱",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L05: فيجب عليك حينها أن تقرر وتقول عنه: 'إنها حالة جرح مفتوح في الرأس'،",
+                "english": "Line L05: You should say of him: 'He has a wound in his head',",
+                "german": "Zeile L05: Du sollst über ihn sagen: 'Er hat eine Wunde in seinem Kopf',",
+                "french": "Ligne L05: Tu diras de lui : 'Il présente une blessure à la tête',",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "Dd.xr=k_injunctive_diagnostic_formula_with_nominal_pw_predicate"
+            },
+            "layer4_writing": {
+                "mdc_code": "Dd.xr=k r-f: wbnw m tp=f pw"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-NYAM-SMYTH",
+                        "name": "Edwin Smith Surgical Papyrus, New York Academy of Medicine",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḏd.ḫr=k", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "wbnw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "pw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الصيغة الإلزامية الطبية 'دج-خر-ك' (ḏd.ḫr=k) لوضع القرار والتشخيص النهائي للمريض."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000443-L06",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T23:05:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-443",
+                "sequence_no": 6,
+                "transliteration": "smꜣ.n s jm m s-sSw nb",
+                "hieroglyph": "𓋴𓌳𓄿𓈖𓊃𓏤𓐝𓆑𓐝𓋴𓆄𓏲𓎟",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L06: وتعلن قرار الإنذار الطبي: 'هذا داء ومرض سوف أعالجه وأتعامل معه'،",
+                "english": "Line L06: and make the verdict: 'An ailment I will treat',",
+                "german": "Zeile L06: und das Urteil fällen: 'Ein Leiden, das ich behandeln werde',",
+                "french": "Ligne L06: et prononceras le verdict : 'Une affection que je traiterai',",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n_subject_noun_with_medical_prognosis_verdict_formula"
+            },
+            "layer4_writing": {
+                "mdc_code": "sm3.n s jm m s-sSw nb"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-NYAM-SMYTH",
+                        "name": "Edwin Smith Surgical Papyrus, New York Academy of Medicine",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "smꜣ.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "s-sSw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "nb", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الإنذار الطبي الإيجابي الأول 'سما-ن س إم س-سشو نب' (smꜣ.n s jm m s-sSw nb) ويعني حرفياً 'مرض سأتحد معه وأقضي عليه بالعلاج' لثقة الطبيب بنجاح التدخل الجراحي [1.2.7]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000443-L07",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T23:06:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-443",
+                "sequence_no": 7,
+                "transliteration": "jr.ḫr=k n=f: s-wꜣḥ s m jf.t ḥr jnr-ḥḏ",
+                "hieroglyph": "𓁹𓐍𓂋𓎡𓈖𓆑𓋴𓍯𓄿𓎛𓋴𓐝𓇋𓆑𓏏𓁷𓏤𓊛𓂋𓄤𓈖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L07: فيجب عليك حينها أن تعالجه: ضع عليه قطعة قماش وضمادة من اللحم الطازج باليوم الأول بسلام،",
+                "english": "Line L07: You should treat him: bind it with fresh meat on the first day,",
+                "german": "Zeile L07: Du sollst ihn behandeln: binde am ersten Tag frisches Fleisch darauf,",
+                "french": "Ligne L07: Tu le traiteras : applique de la viande fraîche le premier jour,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "jr.xr=k_injunctive_treatment_with_organic_recipe_and_temporal_limit"
+            },
+            "layer4_writing": {
+                "mdc_code": "jr.xr=k n=f: s-wAH s m jf.t Hr jnr-HD"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-NYAM-SMYTH",
+                        "name": "Edwin Smith Surgical Papyrus, New York Academy of Medicine",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jr.ḫr=k", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "s-wꜣḥ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "jf.t", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "jnr-ḥḏ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "استخدام اللحم الطازج 'إفت' (jf.t) في اليوم الأول يمثل لغوياً وطبياً أقدم توثيق لاستخدام اللحم كعامل قابض للأوعية وموقف للنزيف النسيجي الشديد."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000443-L08",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T23:07:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-443",
+                "sequence_no": 8,
+                "transliteration": "s-wꜣḥ s m ḥtp",
+                "hieroglyph": "𓋴𓍯𓄿𓎛𓋴𓐝𓊵𓏏𓊪",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L08: وسوف تلتئم جراحه وتستقر حالته بسلام تام وتستمر حياته.",
+                "english": "Line L08: and his health will be restored (he will recover) in peace.",
+                "german": "Zeile L08: und seine Gesundheit wird in Frieden wiederhergestellt werden.",
+                "french": "Ligne L08: et sa santé sera rétablie en paix.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "traditional_egyptian_medical_recovery_colophon_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "s-wAH s m Htp"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-NYAM-SMYTH",
+                        "name": "Edwin Smith Surgical Papyrus, New York Academy of Medicine",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "s-wꜣḥ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥtp", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الخاتمة الطبية الجراحية لإقرار شفاء المريض بسلام وعودته لحياته."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000443-L09",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T23:08:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-443",
+                "sequence_no": 9,
+                "transliteration": "tp-ḥsb n wbnw m tp=f sd mḏꜣ.t n.t tp=f",
+                "hieroglyph": "𓁷𓏤𓏃𓈖𓅱𓃀𓈖𓏲𓐝𓁷𓏤𓆑𓋴𓂧𓏏𓋨𓏤𓈖𓏏𓁷𓏤𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L09: (الحالة الثانية) - المنهج الجراحي المتبع لعلاج جرح مفتوح في الرأس تسبب في شرخ وكسر عظام الجمجمة،",
+                "english": "Line L09: (Case 2) - Instructions concerning a wound in his head, splitting his skull,",
+                "german": "Zeile L09: (Fall 2) - Anweisungen bezüglich einer Wunde in seinem Kopf, die seinen Schädel spaltet,",
+                "french": "Ligne L09: (Cas 2) - Instructions concernant une blessure à la tête, fendant son crâne,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "tp-hsb_heading_introducing_surgical_case_with_compound_fracture"
+            },
+            "layer4_writing": {
+                "mdc_code": "tp-Hsb n wbnw m tp=f sd mD3.t n.t tp=f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-NYAM-SMYTH",
+                        "name": "Edwin Smith Surgical Papyrus, New York Academy of Medicine",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "tp-ḥsb", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sd", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "mḏꜣ.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الحالة الثانية تصف إصابة أكثر تعقيداً وعمقاً بالجمجمة؛ واللفظ 'سد' (sd) يعني كسر أو انقسام عظمي نسيجي [1.2.7]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000443-L10",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T23:09:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-443",
+                "sequence_no": 10,
+                "transliteration": "jr gmy.n=k s m wbnw m tp=f",
+                "hieroglyph": "𓇋𓂋𓂓𓏠𓈖𓎡𓊃𓏤𓐝𓅱𓃀𓈖𓏲𓐝𓁷𓏤𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L10: إذا قمت بفحص مادي وجراحي لرجل مصاب بجرح مفتوح في رأسه،",
+                "english": "Line L10: If you examine a man with a wound in his head,",
+                "german": "Zeile L10: Wenn du einen Männ mit einer Wunde in seinem Kopf untersuchst,",
+                "french": "Ligne L10: Si tu examines un homme présentant une blessure à la tête,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "conditional_jr_with_first_person_perfective_active_gmy.n_and_objective_patient"
+            },
+            "layer4_writing": {
+                "mdc_code": "jr gmy.n=k s m wbnw m tp=f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-NYAM-SMYTH",
+                        "name": "Edwin Smith Surgical Papyrus, New York Academy of Medicine",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "gmy.n", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "wbnw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "تكرار صيغة الفحص السريري لإقرار الالتزام بالمنهج الطبي العلمي المادي الموحد."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000443-L11",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T23:10:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-443",
+                "sequence_no": 11,
+                "transliteration": "jw sṯ-n r s-ẖ.n-f sd.t jm n pẖr",
+                "hieroglyph": "𓇋𓅱𓋴𓍿𓈖𓂋𓋴𓄡𓈖𓆑𓋴𓂧𓏏𓐝𓆑𓈖𓄡𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L11: وكان الجرح غائراً ونافذاً ومخترقاً للأنسجة حتى وصل لعظام جمجمته وتسبب في كسر وشرخ مادي بها،",
+                "english": "Line L11: penetrating to the bone of his skull, splitting his skull,",
+                "german": "Zeile L11: eindringend bis zum Knochen seines Schädels, seinen Schädel spaltend,",
+                "french": "Ligne L11: pénétrant jusqu'à l'os de son crâne, fendant son crâne,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "iw_subject_active_participle_with_directional_bone_and_coordinated_fracture"
+            },
+            "layer4_writing": {
+                "mdc_code": "jw sT-n r s-X.n-f sd.t jm n pXr"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-NYAM-SMYTH",
+                        "name": "Edwin Smith Surgical Papyrus, New York Academy of Medicine",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "s-ẖ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "sd.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التحقيق المادي للاختراق العظمي؛ والجمع بين 'سخ' (s-ẖ) و'سدت' (sd.t) يؤكد ملامسة المشرط للكسر الفعلي بالجمجمة [1.2.7]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000443-L12",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T23:11:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-443",
+                "sequence_no": 12,
+                "transliteration": "ḏd.ḫr=k r-f: wbnw m tp=f sd mḏꜣ.t n.t tp=f pw",
+                "hieroglyph": "𓂧𓂧𓐍𓂋𓎡𓂋𓆑𓅱𓃀𓈖𓏲𓐝𓁷𓏤𓆑𓋴𓂧𓏏𓋨𓏤𓈖𓏏𓁷𓏤𓆑𓊪𓅱",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L12: فيجب عليك حينها أن تقرر وتقول عنه: 'إنها حالة جرح مفتوح في الرأس مع انقسام وشرخ بالجمجمة'،",
+                "english": "Line L12: You should say of him: 'A wound in his head, splitting his skull',",
+                "german": "Zeile L12: Du sollst über ihn sagen: 'Eine Wunde in seinem Kopf, die seinen Schädel spaltet',",
+                "french": "Ligne L12: Tu diras de lui : 'Une blessure à la tête, fendant son crâne',",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "Dd.xr=k_injunctive_diagnostic_formula_with_compound_nominal_pw_predicate"
+            },
+            "layer4_writing": {
+                "mdc_code": "Dd.xr=k r-f: wbnw m tp=f sd mD3.t n.t tp=f pw"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-NYAM-SMYTH",
+                        "name": "Edwin Smith Surgical Papyrus, New York Academy of Medicine",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḏd.ḫr=k", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sd", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "mḏꜣ.t", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "pw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "وضع التشخيص الطبي الثاني بضم المظاهر التشريحية للشرخ العظمي لتعيين الفئة العلاجية بدقة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000443-L13",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T23:12:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-443",
+                "sequence_no": 13,
+                "transliteration": "smꜣ.n s jm m s-sSw nb",
+                "hieroglyph": "𓋴𓌳𓄿𓈖𓊃𓏤𓐝𓆑𓐝𓋴𓆄𓏲𓎟",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L13: وتعلن قرار الإنذار الطبي الثاني: 'هذا داء ومرض سأصبر عليه وأحاربه وأتعامل معه'،",
+                "english": "Line L13: and make the verdict: 'An ailment I will contend with',",
+                "german": "Zeile L13: und das Urteil fällen: 'Ein Leiden, mit dem ich ringen werde',",
+                "french": "Ligne L13: et prononceras le verdict : 'Une affection avec laquelle je lutterai',",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n_subject_noun_with_medical_prognosis_contend_verdict_formula"
+            },
+            "layer4_writing": {
+                "mdc_code": "sm3.n s jm m s-sSw nb"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-NYAM-SMYTH",
+                        "name": "Edwin Smith Surgical Papyrus, New York Academy of Medicine",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "smꜣ.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "s-sSw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "nb", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الإنذار الطبي الثاني والفريد 'سما-ن س إم س-سشو نب' (smꜣ.n s jm m s-sSw nb)؛ وهو مخصص للحالات الجراحية المتوسطة والصعبة التي تحتاج مراقبة مستمرة ومجاهدة سريرية وتجريب للعلاج دون ضمان مطلق للشفاء [1.2.7]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000443-L14",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T23:13:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-443",
+                "sequence_no": 14,
+                "transliteration": "jr.ḫr=k n=f: s-kꜣp s m sntr ḥnˁ ˁḏ wꜣḏ",
+                "hieroglyph": "𓁹𓐍𓂋𓎡𓈖𓆑𓋴𓎡𓄿𓊪𓋴𓐝𓊹𓎛𓎿𓏏𓏏𓎛𓈖𓂝𓂝𓂧𓍯𓄿𓍑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L14: فيجب عليك حينها أن تعالجه: قم بالتبخير والتطهير بمزيج البخور ودهن الحيوان والسنط وتثبيتها بضمادة،",
+                "english": "Line L14: You should treat him: fumigate (cleanse) him with incense, fresh grease and honey,",
+                "german": "Zeile L14: Du sollst ihn behandeln: räuchere (reinige) ihn mit Weihrauch, frischem Fett und Honig,",
+                "french": "Ligne L14: Tu le traiteras : purifie-le par fumigation avec de l'encens, de la graisse fraîche et du miel,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "jr.xr=k_injunctive_treatment_with_complex_chemical_pastes"
+            },
+            "layer4_writing": {
+                "mdc_code": "jr.xr=k n=f: s-kAp s m sntr Hna aD wAD"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-NYAM-SMYTH",
+                        "name": "Edwin Smith Surgical Papyrus, New York Academy of Medicine",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jr.ḫr=k", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "s-kꜣp", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "sntr", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "ˁḏ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التبخير الحراري والتطهير الموضعي 'س-كاب' (s-kꜣp) بالدهون 'عدج' (ˁḏ) والراتنجات النباتية يهدف علمياً لتعقيم الجرح المفتوح ومنع الإنتان البكتيري الخطير بعظم الجمجمة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000443-L15",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T23:14:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-443",
+                "sequence_no": 15,
+                "transliteration": "s-wꜣḥ s m ḥtp",
+                "hieroglyph": "𓋴𓍯𓄿𓎛𓋴𓐝𓊵𓏏𓊪",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L15: وسوف يعود وينبض وتستقر حياته وعافيته بسلام تامات.",
+                "english": "Line L15: and his health will be restored (he will recover) in peace.",
+                "german": "Zeile L15: und seine Gesundheit wird in Frieden wiederhergestellt werden.",
+                "french": "Ligne L15: et sa santé sera rétablie en paix.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "traditional_egyptian_medical_recovery_colophon_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "s-wAH s m Htp"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-NYAM-SMYTH",
+                        "name": "Edwin Smith Surgical Papyrus, New York Academy of Medicine",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "s-wꜣḥ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥtp", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الخاتمة الطبية الجراحية المعتمدة لإنهاء علاج حالات الكسور بسلام."
+            }
+        }
+    ]
+}

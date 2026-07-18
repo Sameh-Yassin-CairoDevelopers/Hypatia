@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-003100",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:36.650190Z"
+    },
+    "layer1_core": {
+        "transliteration": "nHmn",
+        "hieroglyph": "𓈖𓈞𓅓𓂝𓈖",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "بالتأكيد، لابد (اداة غير اسنادية)",
+        "english": "surely, assuredly (non-encl. part.)",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+13216",
+        "gardiner_code": "N35",
+        "gardiner_description": "Water ripple\tPhono. n.",
+        "gardiner_details": "N35a"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

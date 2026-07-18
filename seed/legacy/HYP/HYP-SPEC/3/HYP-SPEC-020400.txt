@@ -1,0 +1,615 @@
+ممتاز.
+
+وأعتقد أن هذه البطاقة هى التى ستميز هيباتيا عن أى مشروع لغوى موجود.
+
+لأن أغلب القواميس تحفظ **الكلمة**...
+
+لكن هيباتيا تحفظ **الحياة التى عاشت فيها الكلمة**.
+
+وهذا هو دور الـ **Story Card**.
+
+---
+
+# HYP-SPEC-020400
+
+# Story Card Specification
+
+**Project:** Hypatia Knowledge Platform
+
+**Document ID:** HYP-SPEC-020400
+
+**Version:** 1.0 Founder Edition
+
+**Status:** Official
+
+**Classification:** Core Knowledge Model
+
+**Inherits:** HYP-SPEC-020000 — Knowledge Object
+
+---
+
+# Purpose
+
+The Story Card represents a complete historical document preserved inside the Hypatia Repository.
+
+A Story may be:
+
+* Papyrus
+* Inscription
+* Stela
+* Ostracon
+* Temple Text
+* Tomb Biography
+* Administrative Record
+* Letter
+* Medical Text
+* Mathematical Text
+* Literary Work
+* Legal Decree
+* Religious Composition
+* Scientific Treatise
+
+or any future textual source.
+
+---
+
+# Philosophy
+
+The Story is not merely text.
+
+It is the historical environment in which knowledge exists.
+
+Lexical Cards live inside Stories.
+
+Entities appear inside Stories.
+
+Grammar is observed inside Stories.
+
+Meaning emerges inside Stories.
+
+---
+
+# Definition
+
+A Story Card represents one historical textual artifact.
+
+It preserves the document as a scientific object rather than merely storing its translation.
+
+---
+
+# Universal Structure
+
+The Story Card inherits every field defined in
+
+**HYP-SPEC-020000**
+
+and defines the following specialized sections.
+
+---
+
+# Section 1
+
+## Story Identity
+
+Contains
+
+```text
+story_title
+
+story_type
+
+canonical_title
+
+story_status
+```
+
+---
+
+### story_type
+
+Referenced through Meta Cards.
+
+Examples
+
+```text
+Papyrus
+
+Stela
+
+Inscription
+
+Letter
+
+Biography
+
+Medical Text
+
+Mathematical Text
+
+Administrative Record
+
+Temple Text
+
+Royal Decree
+
+Literary Tale
+```
+
+---
+
+# Section 2
+
+## Historical Context
+
+Contains
+
+```text
+historical_period
+
+dynasty
+
+king
+
+author
+
+scribe
+
+date_from
+
+date_to
+```
+
+Referenced through Entity Cards and Meta Cards.
+
+---
+
+# Section 3
+
+## Provenance
+
+Contains
+
+```text
+discovery_site
+
+current_location
+
+museum
+
+collection
+
+inventory_number
+```
+
+Referenced through Entity Cards.
+
+---
+
+# Section 4
+
+## Physical Description
+
+Contains
+
+```text
+material
+
+writing_system
+
+writing_direction
+
+condition
+
+dimensions
+
+fragment_count
+```
+
+Referenced through Meta Cards.
+
+---
+
+# Section 5
+
+## Text Structure
+
+Contains
+
+```text
+sections
+
+paragraphs
+
+sentences
+
+lines
+
+tokens
+```
+
+The Story is hierarchical.
+
+Not merely plain text.
+
+---
+
+Recommended hierarchy
+
+```text
+Story
+
+↓
+
+Section
+
+↓
+
+Paragraph
+
+↓
+
+Sentence
+
+↓
+
+Token
+```
+
+---
+
+# Section 6
+
+## Lexical References
+
+Contains
+
+```text
+lemma_ids
+
+occurrence_ids
+
+frequency_statistics
+```
+
+Every occurrence belongs to one Story.
+
+---
+
+# Section 7
+
+## Entity References
+
+Contains
+
+```text
+entity_ids
+
+entity_roles
+
+entity_occurrences
+```
+
+Entities are referenced.
+
+Never duplicated.
+
+---
+
+# Section 8
+
+## Grammar References
+
+Contains
+
+```text
+grammar_ids
+
+grammar_statistics
+```
+
+Grammar is observed inside the Story.
+
+Not stored independently.
+
+---
+
+# Section 9
+
+## Semantic Topics
+
+Contains
+
+```text
+domain_ids
+
+topic_ids
+
+keywords
+```
+
+Referenced through Domain Cards.
+
+---
+
+# Section 10
+
+## Translation Layer
+
+Contains
+
+```text
+hieroglyphic_text
+
+transliteration
+
+translation_ar
+
+translation_en
+
+translation_de
+```
+
+Each translation remains independently revisable.
+
+---
+
+# Section 11
+
+## Narrative Metadata
+
+Contains
+
+```text
+summary
+
+abstract
+
+scientific_notes
+
+editorial_notes
+```
+
+---
+
+# Section 12
+
+## Relationships
+
+Contains
+
+```text
+related_stories
+
+parallel_versions
+
+quoted_by
+
+continues
+
+references
+```
+
+Referenced through Story IDs.
+
+---
+
+# Section 13
+
+## Sources
+
+Contains
+
+```text
+publications
+
+editions
+
+museum_sources
+
+research_articles
+```
+
+Referenced through Source Cards.
+
+---
+
+# Section 14
+
+## Statistics
+
+Automatically generated.
+
+Contains
+
+```text
+word_count
+
+lemma_count
+
+entity_count
+
+grammar_count
+
+relation_count
+```
+
+---
+
+# Section 15
+
+## Confidence
+
+Contains
+
+```text
+text_confidence
+
+translation_confidence
+
+annotation_confidence
+
+overall_confidence
+```
+
+---
+
+# Scientific Rule
+
+A Story never owns lexical knowledge.
+
+It references Lexical Cards.
+
+A Story never owns entities.
+
+It references Entity Cards.
+
+A Story never owns grammar.
+
+It references Grammar Cards.
+
+---
+
+# Repository Location
+
+```text
+repository/
+
+stories/
+```
+
+Each Story occupies one independent file.
+
+---
+
+# Identity Example
+
+```text
+HYP-STR-000021
+```
+
+---
+
+# Community Evolution
+
+Researchers may propose
+
+Improved translation
+
+Better segmentation
+
+New lexical annotations
+
+Additional entity annotations
+
+Grammar corrections
+
+Historical notes
+
+Every accepted proposal creates a new revision.
+
+---
+
+# AI Usage
+
+Story Cards become
+
+Training Corpus
+
+Context Windows
+
+Alignment Material
+
+Translation Evaluation
+
+Reasoning Context
+
+Narrative Knowledge
+
+---
+
+# Long-Term Objective
+
+The Story Layer becomes the complete documentary memory of Hypatia.
+
+Every future linguistic analysis begins with Stories.
+
+Every future AI model learns from Stories.
+
+Every future researcher explores Stories.
+
+---
+
+# Scientific Law
+
+One Historical Document.
+
+One Story Card.
+
+Infinite Interpretations.
+
+---
+
+# Story Motto
+
+> **Texts Preserve History.
+> Stories Preserve Context.**
+
+---
+
+# Founder Statement
+
+A civilization is remembered not by isolated words,
+
+but by the stories through which those words acquired meaning.
+
+The Story Card therefore preserves not merely text,
+
+but the historical environment in which language lived.
+
+By treating every historical document as an independent Knowledge Object,
+
+Hypatia preserves the documentary memory of ancient civilizations while allowing every lexical, grammatical, and semantic layer to evolve without ever altering the original source.
+
+---
+
+# Academic Notes
+
+Unlike traditional corpora where a document is often treated as plain text, the Story Card models a document as a **structured historical knowledge object**.
+
+Its primary role is to serve as the central meeting point between:
+
+* Lexical Cards,
+* Entity Cards,
+* Grammar Cards,
+* Source Cards,
+* Domain Cards,
+* Knowledge Graph,
+* and AI Training.
+
+This architecture ensures that every linguistic observation remains permanently traceable to its documentary evidence.
+
+---
+
+## ✦ اقتراح أكاديمي أراه من أهم ما يمكن إضافته
+
+أقترح إضافة حقل جديد لا يوجد -حسب علمي- في معظم مشاريع اللغات القديمة:
+
+```text
+story_signature
+```
+
+وهى **البصمة العلمية للنص**.
+
+لا تعتمد على العنوان، بل على خصائصه الثابتة، مثل:
+
+* نوع الوثيقة.
+* الفترة التاريخية.
+* نظام الكتابة.
+* المصدر الأثري.
+* عدد الأسطر.
+* توزيع المفردات.
+* الكيانات الرئيسية.
+* المجالات العلمية.
+* الأسلوب اللغوي.
+
+هذه البصمة ستسمح مستقبلاً بأن يكتشف هيباتيا تلقائيًا أن برديتين أو نقشين قد يكونان من نفس المدرسة الكتابية أو الكاتب أو التقليد النصي، حتى قبل أن يلاحظ الباحث ذلك. وأرى أنها ستكون إحدى أقوى ميزات المنصة في الدراسات المقارنة والتدريب الدلالي للنموذج.

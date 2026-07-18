@@ -1,0 +1,40 @@
+{
+    "metadata": {
+        "id": "HYP-NE-000003",
+        "schema_version": "1.0",
+        "status": "authority_file",
+        "created_by": "Hypatia Builder"
+    },
+    "layer1_core": {
+        "transliteration": "nfr-k3-ra",
+        "hieroglyph": "𓊹𓏏𓂋𓏏𓂀",
+        "entity_type": "authority_named_entity"
+    },
+    "layer2_languages": {
+        "arabic": "الملك نيفركارع",
+        "english": "King Neferkare",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "entity_class": "ملك فرعوني (King)",
+        "dynasty_association": "الأسرة السادسة",
+        "chronological_period": "الدولة القديمة (Old Kingdom)"
+    },
+    "layer4_writing": {
+        "standard_titles": "ملك مصر العليا والسفلى (نيفركارع)",
+        "alternative_spellings": [
+            "nfr-k3-ra",
+            "neferkare"
+        ]
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "HYP-AUTH-001",
+                "name": "Hypatia Historical Registry",
+                "type": "registry"
+            }
+        ]
+    }
+}

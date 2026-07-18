@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-000515",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:33.652572Z"
+    },
+    "layer1_core": {
+        "transliteration": "ipwty",
+        "hieroglyph": "𓄋𓊪𓅱𓏏𓏭𓂻𓀀𓄋𓊪𓏏𓏭𓂻𓀀𓄋𓊪𓏏𓏭𓏴𓄋𓊪𓏏𓀀𓇋𓊪𓄋𓅱𓍘𓅆𓇋𓄋𓊪𓏏𓏝𓅆𓇋𓊪𓄋𓅱𓍘𓄋𓊪𓅱𓏏𓏭",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "رسول، وكيل، مُفوض، شخص عابر",
+        "english": "messenger, agent, commissioner, bystander",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+1310B",
+        "gardiner_code": "F13",
+        "gardiner_description": "Horns of ox\tPhon. wp. Ideo. in wpt “brow, beginning.”",
+        "gardiner_details": "F14"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

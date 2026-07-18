@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-000843",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:34.016610Z"
+    },
+    "layer1_core": {
+        "transliteration": "isw",
+        "hieroglyph": "𓇋𓇩𓋴𓄯𓅱𓄯𓅱𓇋𓋴𓅱𓄯𓏛𓏥𓇋𓇩𓋴𓅱𓆰𓏛𓏥𓇋𓇩𓋴𓅱𓏛𓏥",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "مكافأة، أجر",
+        "english": "reward, payment",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+131CB",
+        "gardiner_code": "M17",
+        "gardiner_description": "Reed leaf\tPhono. i. Phono. y, when doubled.",
+        "gardiner_details": "M18"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

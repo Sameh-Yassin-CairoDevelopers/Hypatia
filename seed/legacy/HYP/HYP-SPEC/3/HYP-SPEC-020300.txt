@@ -1,0 +1,670 @@
+ممتاز.
+
+وهذه الوثيقة فى رأيي هى **ثانى أهم بطاقة بعد Lexical Card**.
+
+لأن الكلمة تصف اللغة...
+
+أما الـ **Entity** فيصف العالم الذى تتحرك فيه اللغة.
+
+ولهذا يجب ألا نعتبره "اسم علم" فقط.
+
+بل **كيان معرفى كامل**.
+
+---
+
+# HYP-SPEC-020300
+
+# Entity Card Specification
+
+**Project:** Hypatia Knowledge Platform
+
+**Document ID:** HYP-SPEC-020300
+
+**Version:** 1.0 Founder Edition
+
+**Status:** Official
+
+**Classification:** Core Knowledge Model
+
+**Inherits:** HYP-SPEC-020000 — Knowledge Object
+
+---
+
+# Purpose
+
+The Entity Card represents a uniquely identifiable real-world or conceptual entity referenced within the Hypatia Repository.
+
+An Entity exists independently from language.
+
+Texts describe it.
+
+Lexical Cards refer to it.
+
+Stories mention it.
+
+Knowledge Graph connects it.
+
+---
+
+# Philosophy
+
+Words describe reality.
+
+Entities represent reality.
+
+One Entity
+
+↓
+
+Many Names
+
+Many Spellings
+
+Many Stories
+
+Many Languages
+
+One Identity
+
+---
+
+# Definition
+
+An Entity is any identifiable object that exists as a distinct concept within the historical, geographical, cultural, linguistic, or archaeological world.
+
+It may represent
+
+* a person
+* a deity
+* a king
+* a queen
+* a city
+* a temple
+* a monument
+* an object
+* a festival
+* a dynasty
+* a people
+* a tribe
+* a river
+* an institution
+
+or any future knowledge category.
+
+---
+
+# Universal Structure
+
+The Entity Card inherits every field defined in
+
+**HYP-SPEC-020000**
+
+and defines the following specialized sections.
+
+---
+
+# Section 1
+
+## Entity Identity
+
+```text
+entity_name
+
+canonical_name
+
+entity_type
+
+entity_class
+
+```
+
+---
+
+### entity_name
+
+Preferred scholarly name.
+
+---
+
+### canonical_name
+
+Official normalized form.
+
+---
+
+### entity_type
+
+Examples
+
+```text
+King
+
+Queen
+
+Person
+
+God
+
+Temple
+
+City
+
+Country
+
+Dynasty
+
+River
+
+Mountain
+
+Festival
+
+Object
+
+Papyrus
+
+Institution
+
+```
+
+Referenced through Meta Cards.
+
+---
+
+### entity_class
+
+Higher-level grouping.
+
+Examples
+
+```text
+Person
+
+Place
+
+Object
+
+Event
+
+Concept
+
+Organization
+
+```
+
+---
+
+# Section 2
+
+## Names
+
+Every historical name.
+
+Contains
+
+```text
+primary_name
+
+alternative_names
+
+ancient_names
+
+modern_names
+
+translations
+
+aliases
+
+abbreviations
+
+```
+
+---
+
+One Entity
+
+↓
+
+Many Names
+
+---
+
+Example
+
+Alexander
+
+↓
+
+Alexandros
+
+↓
+
+الإسكندر
+
+↓
+
+𓇳...
+
+---
+
+# Section 3
+
+## Historical Information
+
+Contains
+
+```text
+historical_period
+
+dynasty
+
+kingdom
+
+date_from
+
+date_to
+
+chronology_notes
+
+```
+
+Referenced through Meta Cards.
+
+---
+
+# Section 4
+
+## Geography
+
+Contains
+
+```text
+location
+
+country
+
+region
+
+nome
+
+coordinates
+
+archaeological_site
+
+```
+
+Referenced through Entity Cards and Meta Cards.
+
+---
+
+# Section 5
+
+## Description
+
+Contains
+
+```text
+short_description
+
+scientific_description
+
+historical_notes
+
+```
+
+This section explains the entity.
+
+---
+
+# Section 6
+
+## Relationships
+
+Entity relationships.
+
+Examples
+
+```text
+father_of
+
+mother_of
+
+child_of
+
+married_to
+
+rules
+
+located_in
+
+built_by
+
+belongs_to
+
+member_of
+
+enemy_of
+
+ally_of
+
+successor_of
+
+predecessor_of
+
+```
+
+All relations reference Entity IDs.
+
+---
+
+# Section 7
+
+## Lexical References
+
+Stores all Lexical Cards referring to this Entity.
+
+```text
+lexical_ids
+```
+
+One Entity
+
+↓
+
+Many Lemmas
+
+---
+
+Example
+
+Ramesses II
+
+↓
+
+rꜥ-ms-sw
+
+↓
+
+Usermaatre
+
+↓
+
+Ozymandias
+
+---
+
+# Section 8
+
+## Story References
+
+Contains
+
+```text
+story_ids
+
+occurrence_count
+
+```
+
+The Entity never stores texts.
+
+Stories reference Entities.
+
+---
+
+# Section 9
+
+## Sources
+
+Scientific references.
+
+Contains
+
+```text
+museum_sources
+
+publications
+
+corpus_sources
+
+dictionary_sources
+
+bibliography
+
+```
+
+---
+
+# Section 10
+
+## Media
+
+Optional.
+
+Contains
+
+```text
+images
+
+maps
+
+plans
+
+drawings
+
+models
+
+```
+
+Media are referenced.
+
+Never embedded.
+
+---
+
+# Section 11
+
+## Statistics
+
+Automatically generated.
+
+Contains
+
+```text
+story_count
+
+lemma_count
+
+relation_count
+
+citation_count
+
+```
+
+---
+
+# Section 12
+
+## Confidence
+
+Contains
+
+```text
+historical_confidence
+
+identification_confidence
+
+overall_confidence
+
+```
+
+Continuously improved through review.
+
+---
+
+# Scientific Rule
+
+One historical object
+
+↓
+
+One Entity Card
+
+Regardless of
+
+language
+
+spelling
+
+transliteration
+
+translation
+
+---
+
+# Repository Location
+
+```text
+repository/
+
+entities/
+```
+
+Each Entity occupies one independent file.
+
+---
+
+# Identity Example
+
+```text
+HYP-ENT-000015
+```
+
+---
+
+# Community Evolution
+
+Researchers may propose
+
+Additional names
+
+Improved chronology
+
+New archaeological evidence
+
+Relationship corrections
+
+New bibliography
+
+Geographical updates
+
+Every accepted proposal creates a new revision.
+
+---
+
+# AI Usage
+
+Entity Cards become
+
+Named Entity Database
+
+Knowledge Graph Nodes
+
+Historical Anchors
+
+Context Providers
+
+Disambiguation References
+
+Reasoning Objects
+
+---
+
+# Long-Term Objective
+
+The Entity Layer becomes the universal historical memory of Hypatia.
+
+Independent from language.
+
+Independent from writing system.
+
+Independent from translation.
+
+---
+
+# Scientific Law
+
+One Entity.
+
+One Identity.
+
+Many Historical Expressions.
+
+---
+
+# Entity Motto
+
+> **History Changes Its Words.
+> The Entity Remains.**
+
+---
+
+# Founder Statement
+
+The Entity Card separates reality from language.
+
+Languages describe.
+
+Texts mention.
+
+Researchers interpret.
+
+But the Entity remains the stable historical object around which every linguistic expression revolves.
+
+By preserving Entities independently from Lexical Cards, Hypatia builds a knowledge system capable of connecting multiple civilizations, multiple scripts, and multiple scholarly traditions without losing historical identity.
+
+---
+
+# Academic Notes
+
+Unlike traditional dictionaries or corpora, the Entity Card is **not a named-entity list**.
+
+It is a **historical knowledge object**.
+
+Its purpose is to provide a stable semantic anchor shared by:
+
+* Lexical Cards,
+* Story Cards,
+* Knowledge Graph,
+* Resolvers,
+* AI models,
+* and future multilingual corpora.
+
+This architecture allows one king, one city, or one deity to be recognized as the **same entity**, even when referenced by dozens of spellings, languages, or historical traditions.
+
+---
+
+## ✦ اقتراح مهم قبل أن نكمل
+
+أقترح أن يكون لكل **Entity Card** حقل إضافي سيكون من أقوى ما في هيباتيا مستقبلاً:
+
+```text
+entity_signature
+```
+
+وهو **بصمة الكيان** (Entity Signature).
+
+ليست مجرد أسماء، بل مجموعة الخصائص الثابتة التي تجعل النظام يستطيع أن يقول:
+
+> "وسكي" في هذا النص هو نفس "وسكي" في نص آخر، حتى لو اختلفت الكتابة أو الترجمة.
+
+قد تتكون البصمة من:
+
+* النوع (King, City, Temple...)
+* الفترة الزمنية
+* الأسرة الحاكمة
+* الموقع الجغرافي
+* العلاقات الأساسية
+* أول وآخر ظهور موثق
+
+وهذه البصمة ستكون لاحقًا سلاحًا قويًا جدًا في **Resolver** وفي تدريب نموذج هيباتيا على إزالة الغموض (Entity Disambiguation). أرى أنها تستحق أن تصبح جزءًا أساسيًا من تصميم البطاقة منذ الإصدار الأول، حتى لو بقيت بعض حقولها فارغة في البداية.

@@ -1,0 +1,165 @@
+{
+    "text_id": "EGY-101",
+    "metadata": {
+        "title_ar": "الأختام الطينية الملكية للحارسة مِحيت (النسخة النهائية المعتمدة)",
+        "title_en": "Early Dynastic Sealings of Mehit (Final Certified Version)",
+        "museum_catalog_no": "Abydos & Saqqara Clay Sealings (Petrie & Kaplony)",
+        "stable_tla_id": "unknown"
+    },
+    "sentences": [
+        {
+            "metadata": {
+                "id": "HYP-TXT-000101-S01",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:00:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-101",
+                "sequence_no": 1,
+                "transliteration": "ḥr nˁr-mr mḥj.t",
+                "hieroglyph": "𓅃𓈖𓂝𓂋𓌳𓂋𓃮𓏏𓏏𓍱𓍱𓍱",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 1: تحت سلطة وحماية حورس نعرمر، واللبؤة الحامية مِحيت،",
+                "english": "Line 1: Under the Horus Narmer, and the guardian lioness Mehit,",
+                "german": "Zeile 1: Unter dem Horus Narmer, und der schützenden Löwin Mehit,",
+                "french": "Sous l'Horus Narmer, et la lionne gardienne Méhit,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "royal_serekh_with_divine_guardian_name"
+            },
+            "layer4_writing": {
+                "mdc_code": "Hr nar-mr mHj.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "PETRIE-ROYAL-TOMBS-PL13",
+                        "name": "Cylinder Sealing of Narmer, Petrie Royal Tombs of the First Dynasty, Part II, Pl. XIII",
+                        "type": "clay_sealing",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḥr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "nˁr-mr", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "mḥj.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التمثيل اللغوي الأقدم في بداية الأسرة الأولى؛ حيث تظهر اللبؤة مِحيت (يعلوها الصواري الثلاثة المنحنية المميزة) بجوار خرطوش السيرخ الخاص بالملك نعرمر لتأمين حرز مقتنياته الرسمية بأبيدوس [1.1.2]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000101-S02",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:01:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-101",
+                "sequence_no": 2,
+                "transliteration": "mḥj.t pr-wr ḥz.t-mḥj.t",
+                "hieroglyph": "𓃮𓏏𓏏𓍱𓍱𓍱𓉐𓅨𓎛𓋴𓏏𓏏",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 2: اللبؤة مِحيت، ومقصورة الجنوب المقدسة (بر-ور)، والمُقرب كاهن الإلهة مِحيت.",
+                "english": "Line 2: The lioness Mehit, the Pr-Wer shrine, she who is praised of Mehit.",
+                "german": "Die Löwin Mehit, das Pr-Wer Heiligtum, die Gelobte der Mehit.",
+                "french": "La lionne Méhit, le sanctuaire Pr-Wer, celle qui est louée de Méhit.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "temple_and_priestly_protective_titles"
+            },
+            "layer4_writing": {
+                "mdc_code": "mHj.t pr-wr Hz.t-mHj.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "PETRIE-ROYAL-TOMBS-116",
+                        "name": "Cylinder Sealing No. 116 of King Djer, Petrie Royal Tombs of the Earliest Dynasties, Part II, Pl. XVI",
+                        "type": "clay_sealing",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "mḥj.t", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "pr-wr", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḥz.t-mḥj.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الختم الشهير رقم 116 بعهد الملك 'جر' بأبيدوس؛ ويوضح دور محيت في حماية وتأمين مقصورة الجنوب العتيقة 'بر-ور' (pr-wr) وظهور اللقب الكهني 'حزت-محيت' كمسؤول إداري عن الختم [1.1.1، 1.2.2]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000101-S03",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:02:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-101",
+                "sequence_no": 3,
+                "transliteration": "ḥr sḫm-jb-pr-n-mꜣˁ.t ḥry-sštꜣ mḥj.t",
+                "hieroglyph": "𓅃𓌂𓄣𓉐𓈖𓌳𓂝𓏏𓁷𓏤𓁛𓃮𓏏𓏏𓍱𓍱𓍱",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 3: تحت حماية حورس سخم-إيب-بر-إن-ماعت، وصانع/حِرَفي مِحيت.",
+                "english": "Line 3: Under the Horus Sekhemib-Perenmaaten, craftsman of Mehit.",
+                "german": "Zeile 3: Unter dem Horus Sekhemib-Perenmaaten, Handwerker der Mehit.",
+                "french": "Ligne 3: Sous l'Horus Sekhemib-Perenmaaten, artisan de Méhit.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "royal_serekh_with_cultic_artisan_title"
+            },
+            "layer4_writing": {
+                "mdc_code": "Hr sxm-jb-pr-n-ma_at Hry-sSt3 mHj.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "KAPLONY-ABB-163",
+                        "name": "Cylinder Sealing of Sekhemib, Kaplony Inschriften der ägyptischen Frühzeit, Abb. 163",
+                        "type": "clay_sealing",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḥr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sḫm-jb-pr-n-mꜣˁ.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḥry-sštꜣ", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "mḥj.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللقب 'حري-سشتا محيت' (ḥry-sštꜣ mḥj.t) في عهد الأسرة الثانية لا يشير وظيفياً إلى حراسة السجلات أو الأرشيف؛ بل تفيد القراءة النحوية والأثرية المعتمدة لـ (سميث 1963، وهيلك وأوتو 1982) أنه منصب ديني وعملي يعني 'صانع/حِرَفي مِحيت' وهو المنوط به تسيير وصناعة وتهيئة تمثال ورمز اللبؤة اللاهوتي 'مِحيت' داخل هيكل المعبد بأسوان وسقارة [1.1.2]."
+            }
+        }
+    ]
+}

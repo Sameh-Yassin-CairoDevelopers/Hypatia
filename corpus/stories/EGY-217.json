@@ -1,0 +1,629 @@
+{
+    "text_id": "EGY-217",
+    "metadata": {
+        "title_ar": "سيرة رئيس الشرطة ماهو بتل العمارنة",
+        "title_en": "The Autobiography of Mahu, Chief of Police at Akhetaten",
+        "museum_catalog_no": "Amarna Tomb No. 9 (South Wall Inscription)",
+        "stable_tla_id": "unknown"
+    },
+    "sentences": [
+        {
+            "metadata": {
+                "id": "HYP-TXT-000217-S01",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-10T14:00:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-217",
+                "sequence_no": 1,
+                "transliteration": "ḥry-sštꜣ n nsw.t ḥr mḏꜣ.wy m Ꜣḫt-jtn mꜣ-ḫrw mꜣ-ḥw",
+                "hieroglyph": "𓁷𓏤𓁛𓈖𓇓𓏏𓁷𓏤𓌙𓏪𓐝𓐍𓏏𓇳𓏤𓇋𓏏𓈖𓐙𓊤𓌳𓎛𓅱",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "المشرف على أسرار الملك في قوات الشرطة (المزجاي) في تل العمارنة (أخت-إيتن)، صادق الصوت: ماهو.",
+                "english": "Keeper of the secrets of the King in the police force (Medjay) of Akhetaten, true of voice: Mahu.",
+                "german": "Hüter der Geheimnisse des Königs bei den Polizeitruppen (Medjay) von Achet-Aton, gerechtfertigt: Mahu.",
+                "french": "Gardien des secrets du roi dans la force de police (Medjay) d'Akhetaton, juste de voix : Mahou.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "honorific_police_titles_with_proper_name"
+            },
+            "layer4_writing": {
+                "mdc_code": "Hry-sSt3 n nsw.t Hr mDA.wy m Axt-jtn ma-xrw ma-Hw"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "AMARNA-TOMB-9-SOUTH",
+                        "name": "Tomb of Mahu TA 9, South Wall Inscription",
+                        "type": "tomb_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḥry-sštꜣ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mḏꜣ.wy", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "Ꜣḫt-jtn", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "mꜣ-ḥw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "العمود الأول يعلن الهوية العسكرية والشرطية لـ 'ماهو' كقائد لقوات 'المزجاي' (mḏꜣ.wy) وهي فرق حرس الحدود والشرطة العسكرية التاريخية بمصر القديمة [1.2.1، 1.2.8]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000217-S02",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-10T14:01:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-217",
+                "sequence_no": 2,
+                "transliteration": "smr wˁ.ty mrr.w jty m r-ˁ nb smr nfr n nb-tꜣwy",
+                "hieroglyph": "𓊃𓅓𓂋𓌡𓏏𓏤𓌻𓂋𓏲𓇋𓏏𓏭𓐝𓂋𓂝𓎆𓊃𓅓𓂋𓄤𓈖𓎟𓇾𓏤𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السمير الأوحد، ومحبوب جلالة الملك في كل يوم، والرفيق الصالح لسيد الأرضين.",
+                "english": "Sole companion, beloved of the sovereign every day, the good companion of the Lord of the Two Lands.",
+                "german": "Einziger Freund, Geliebter des Herrschers jeden Tag, der gute Gefährte des Herrn der Beiden Länder.",
+                "french": "Compagnon unique, aimé du souverain chaque jour, le bon compagnon du Seigneur des Deux Terres.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "honorific_royal_relationship_titles"
+            },
+            "layer4_writing": {
+                "mdc_code": "smr wa.ty mrr.w jty m r-a nb smr nfr n nb-t3wy"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "AMARNA-TOMB-9-SOUTH",
+                        "name": "Tomb of Mahu TA 9, South Wall Inscription",
+                        "type": "tomb_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "smr-wˁ.ty", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mrr.w", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "jty", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "smr-nfr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "العمود الثاني يعبر عن المكانة الودية والمقربة لـ 'ماهو' في البلاط الملكي للفرعون."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000217-S03",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-10T14:02:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-217",
+                "sequence_no": 3,
+                "transliteration": "jmy-r wr.w n sꜣw ḥr Ꜣḫt-jtn s-ˁnḫ tꜣ-mrỉ",
+                "hieroglyph": "𓅓𓂋𓅨𓏥𓈖𓋴𓄿𓏲𓁷𓏤𓐍𓏏𓇳𓏤𓇋𓏏𓈖𓋴𓋹𓇾𓌻𓂋𓇋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "المشرف على حرس ودوريات العاصمة أخت-إيتن، معمر ومحيي الأرض المحبوبة (مصر).",
+                "english": "Overseer of the guards of Akhetaten, who keeps the beloved land alive.",
+                "german": "Vorsteher der Wachen von Achet-Aton, der das geliebte Land am Leben erhält.",
+                "french": "Directeur des gardes d'Akhetaton, qui maintient en vie la terre bien-aimée.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "administrative_security_title_with_epithet"
+            },
+            "layer4_writing": {
+                "mdc_code": "jmy-r wr.w n s3w Hr Axt-jtn s-anx t3-mri"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "AMARNA-TOMB-9-SOUTH",
+                        "name": "Tomb of Mahu TA 9, South Wall Inscription",
+                        "type": "tomb_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jmy-r", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "wr.w", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "sꜣw", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "s-ˁnḫ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "العمود الثالث يربط بين حماية أمن العاصمة العمارنة وحفظ واستقرار اقتصاد وحياة البلاد ككل."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000217-S04",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-10T14:03:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-217",
+                "sequence_no": 4,
+                "transliteration": "ḏd.f r-f: j-mỉ r-f m ḥtp nsw.t-bỉty wˁ-n-rˁ dỉ ˁnḫ",
+                "hieroglyph": "𓂧𓂧𓆑𓂋𓆑𓇋𓐝𓂋𓆑𓐝𓊵𓏏𓊪𓇓𓏏𓆤𓏏𓌡𓈖𓇳𓂞𓋹",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "هو يقول: تعال بسلام يا ملك مصر العليا والسفلى (وع-إن-رع)، المعطى الحياة.",
+                "english": "He says: Come in peace, King of Upper and Lower Egypt: Waenre, given life.",
+                "german": "Er sagt: Komm in Frieden, König von Ober- und Unterägypten: Waenre, dem Leben gegeben ist.",
+                "french": "Il dit : Viens en paix, Roi de Haute et Basse-Égypte : Ouaenré, doué de vie.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.f_with_direct_speech_and_royal_titulary"
+            },
+            "layer4_writing": {
+                "mdc_code": "Dd.f r-f: j-mi r-f m Htp nsw.t-bity wa-n-ra di anx"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "AMARNA-TOMB-9-SOUTH",
+                        "name": "Tomb of Mahu TA 9, South Wall Inscription",
+                        "type": "tomb_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḏd", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥtp", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "wa-n-ra", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "العمود الرابع يعتمد على صيغة الخضوع والترحيب بجلالة الملك بمصطلح 'وع-إن-رع' وهو اسم التتويج التاريخي لإخناتون."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000217-S05",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-10T14:04:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-217",
+                "sequence_no": 5,
+                "transliteration": "wdꜣ=j r-ḥꜣ.t m ẖrt-hrw r-gsw ḫꜣs.t jꜣb.t n.t Ꜣḫt-jtn",
+                "hieroglyph": "𓎘𓄿𓇋𓏠𓈖𓂋𓄂𓏤𓐝𓄡𓂋𓇳𓏤𓂋𓎼𓋴𓅱𓈉𓇋𓄿𓃀𓏏𓈖𓐍𓏏𓇳𓏤𓇋𓏏𓈖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "إنني أنطلق فجراً في طريقي اليومي بمحاذاة التلال والبراري الشرقية لمدينة أخت-إيتن،",
+                "english": "I set out early on my daily path beside the eastern hills of Akhetaten,",
+                "german": "Ich breche früh auf meinem täglichen Weg neben den östlichen Hügeln von Achet-Aton auf,",
+                "french": "Je pars tôt sur mon chemin quotidien à côté des collines orientales d'Akhetaton,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.f_first_person_active_with_locative_adverbial"
+            },
+            "layer4_writing": {
+                "mdc_code": "wda=j r-HA.t m Xrt-hrw r-gsw xAs.t j3b.t n.t Axt-jtn"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "AMARNA-TOMB-9-SOUTH",
+                        "name": "Tomb of Mahu TA 9, South Wall Inscription",
+                        "type": "tomb_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "wdꜣ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ẖrt-hrw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḫꜣs.t", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "jꜣb.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "العمود الخامس يوضح المجهود الميداني اليومي للشرطة بتأمين الجهة الشرقية المفتوحة للصحراء حيث ممرات التسلل الجبلية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000217-S06",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-10T14:05:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-217",
+                "sequence_no": 6,
+                "transliteration": "ḥr sꜣw s.wt jtn m tsm.w pr-wr",
+                "hieroglyph": "𓁷𓏤𓋴𓄿𓏲𓊨𓏏𓏥𓇋𓏏𓈖𓐝𓍿𓋴𓅓𓏥𓉐𓅨",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "حارساً وحامياً مقاصير وبقاع الإله آتون رفقة كلاب الحراسة الباسلة لقصر الملك،",
+                "english": "guarding the sanctuaries of Aten with the guard dogs of the palace,",
+                "german": "die Heiligtümer des Aton mit den Wachhunden des Palastes bewachend,",
+                "french": "gardant les sanctuaires d'Aton avec les chiens de garde du palais,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "adverbial_phrase",
+                "syntax_structure": "progressive_Hr_infinitive_with_instrumental"
+            },
+            "layer4_writing": {
+                "mdc_code": "Hr s3w s.wt jtn m tsm.w pr-wr"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "AMARNA-TOMB-9-SOUTH",
+                        "name": "Tomb of Mahu TA 9, South Wall Inscription",
+                        "type": "tomb_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "sꜣw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "tsm.w", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "pr-wr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "العمود السادس يسجل استخدام كلاب الحراسة 'تسمو' (tsm.w) في الأجهزة الأمنية لمصاحبة الدوريات وتتبع الأثر بالصحراء."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000217-S07",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-10T14:06:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-217",
+                "sequence_no": 7,
+                "transliteration": "ḥr pẖr tꜣwy r dỉ.t rḫ=sn ṯꜣ-wꜣ.t m-bꜣḥ jty",
+                "hieroglyph": "𓁷𓏤𓄡𓂋𓇾𓇾𓂋𓂞𓏏𓂋𓐍𓋴𓈖𓍿𓄿𓍯𓏤𓐝𓄂𓏤𓇋𓏏𓏭𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "ومطوفاً حول حدود الأرضين لرصد وتأمين مسالك المتسللين أمام جلالة الملك.",
+                "english": "patrolling the two lands to establish borders and secure the paths of intruders before the sovereign.",
+                "german": "die beiden Länder patrouillierend, um Grenzen zu setzen und die Wege der Eindringlinge vor dem Herrscher zu sichern.",
+                "french": "patrouillant les deux terres pour établir des frontières et sécuriser les chemins des intrus devant le souverain.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "adverbial_phrase",
+                "syntax_structure": "progressive_Hr_infinitive_with_purpose_infinitive_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "Hr pxr t3wy r di.t rX=sn t3-wa.t m-bAH jty"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "AMARNA-TOMB-9-SOUTH",
+                        "name": "Tomb of Mahu TA 9, South Wall Inscription",
+                        "type": "tomb_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "pẖr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "tꜣwy", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "rḫ", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "jty", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "العمود السابع يبرز دور الطواف والشرطة الراكبة 'بخر' (pẖr) لرصد مسالك الطرق الحدودية بالصحراء."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000217-S08",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-10T14:07:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-217",
+                "sequence_no": 8,
+                "transliteration": "ỉṯt.n=j ntyw ḥr tꜣ-wꜣ.t ḫꜣs.t nb.t nn pr.w jm",
+                "hieroglyph": "𓇋𓏏𓇋𓈖𓇋𓏠𓈖𓈖𓏏𓏭𓏥𓁷𓏤𓇾𓍯𓏤𓈉𓎟𓏏𓈖𓈖𓉐𓂋𓏲𓐝𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "لقد ألقيت القبض واحتجزتُ الذين كانوا يتسللون عبر ممرات جبال الصحراء دون أن يفلت أحد منهم،",
+                "english": "I apprehended those who were trespassing on the mountain paths of the desert, none escaping.",
+                "german": "Ich nahm diejenigen fest, die die Bergpfade der Wüste betraten, ohne dass einer entkam.",
+                "french": "J'ai appréhendé ceux qui s'introduisaient sur les sentiers montagneux du désert, sans que nul ne s'échappe.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n=f_transitive_clause_with_negative_circumstantial"
+            },
+            "layer4_writing": {
+                "mdc_code": "jTt.n=j ntyw Hr t3-wa.t xAs.t nb.t nn pr.w jm"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "AMARNA-TOMB-9-SOUTH",
+                        "name": "Tomb of Mahu TA 9, South Wall Inscription",
+                        "type": "tomb_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ỉṯt", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "tꜣ-wꜣ.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "nn", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "pr.w", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "العمود الثامن يبرز الكفاءة الأمنية لجهاز الشرطة في القبض 'إثت' على المخربين والخارجين عن القانون دون فرار."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000217-S09",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-10T14:08:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-217",
+                "sequence_no": 9,
+                "transliteration": "ḥr jr.t dmj.t ḥnˁ=sn r-ḥꜣ.t sꜣb-ṯꜣty nsw.t",
+                "hieroglyph": "𓁷𓏤𓁹𓏏𓂧𓏠𓏭𓏏𓎛𓈖𓂝𓋴𓈖𓂋𓄂𓏤𓊃𓄿𓃀𓍿𓄿𓏏𓏭𓇓𓏏",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وسيرتهم مقيدين معي لعرضهم فوراً أمام قاضي القضاة والوزير الملكي لاستجوابهم والتحقيق معهم.",
+                "english": "taking them bound with me before the chief justice and the royal vizier for judgment.",
+                "german": "ich brachte sie gefesselt mit mir vor den Oberrichter und den königlichen Wesir zum Urteil.",
+                "french": "les emmenant ligotés avec moi devant le chef de la justice et le vizir royal pour être jugés.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "adverbial_phrase",
+                "syntax_structure": "progressive_Hr_infinitive_with_prepositional_objects"
+            },
+            "layer4_writing": {
+                "mdc_code": "Hr jr.t dmj.t Hna=sn r-HA.t sAb-TAty nsw.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "AMARNA-TOMB-9-SOUTH",
+                        "name": "Tomb of Mahu TA 9, South Wall Inscription",
+                        "type": "tomb_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jr.t", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "dmj.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "sꜣb-ṯꜣty", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "العمود التاسع يوضح تسلسل السلطة الإجرائية؛ حيث يسلم رئيس الشرطة الجناة إلى القضاء والوزير 'ساب-ثاتي' لاستكمال المحاكمة الجنائية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000217-S10",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-10T14:09:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-217",
+                "sequence_no": 10,
+                "transliteration": "wdꜣ.n sꜣb-ṯꜣty ḥr sḏr r-ḥꜣ.t pꜣ-ˁḫ n nsw.t",
+                "hieroglyph": "𓎘𓄿𓈖𓊃𓄿𓃀𓍿𓄿𓏏𓏭𓁷𓏤𓋴𓂧𓂋𓂋𓄂𓏤𓊪𓄿𓉐𓄡𓈖𓏤𓈖𓇓𓏏",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وقدمتُ تقريري للوزير، والذي توجه ليلاً لإعلام القصر الملكي الحاكم بالأحداث وتأمينها.",
+                "english": "The vizier went to report during the night before the royal palace of the King.",
+                "german": "Der Wesir ging, um in der Nacht vor dem königlichen Palast des Königs Bericht zu erstatten.",
+                "french": "Le vizir est allé faire son rapport pendant la nuit devant le palais royal du Roi.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n_subject_noun_with_progressive_adverbial"
+            },
+            "layer4_writing": {
+                "mdc_code": "wda.n sAb-TAty Hr sDr r-HA.t pA-ax n nsw.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "AMARNA-TOMB-9-SOUTH",
+                        "name": "Tomb of Mahu TA 9, South Wall Inscription",
+                        "type": "tomb_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "wdꜣ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sꜣb-ṯꜣty", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "pꜣ-ˁḫ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "العمود العاشر يسجل إبلاغ القصر الملكي 'بخ' بالأحداث الطارئة ليلاً تأكيداً على حالة الاستنفار الأمني المستمر بالعاصمة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000217-S11",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-10T14:10:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-217",
+                "sequence_no": 11,
+                "transliteration": "ḥr s-ḥtp jb n nsw.t-bỉty wˁ-n-rˁ",
+                "hieroglyph": "𓁷𓏤𓋴𓊵𓏪𓄣𓏤𓈖𓇓𓏏𓆤𓏏𓌡𓈖𓇳",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "مما يبعث دائماً على هدوء وطمأنينة فؤاد ملك مصر العليا والسفلى (وع-إن-رع).",
+                "english": "comforting the heart of the King of Upper and Lower Egypt: Waenre.",
+                "german": "beruhigend das Herz des Königs von Ober- und Unterägypten: Waenre.",
+                "french": "réconfortant le cœur du roi de Haute et Basse-Égypte : Ouaenré.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "adverbial_phrase",
+                "syntax_structure": "progressive_Hr_causative_infinitive_with_royal_noun"
+            },
+            "layer4_writing": {
+                "mdc_code": "Hr s-Htp jb n nsw.t-bity wa-n-ra"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "AMARNA-TOMB-9-SOUTH",
+                        "name": "Tomb of Mahu TA 9, South Wall Inscription",
+                        "type": "tomb_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "s-ḥtp", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "jb", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "wa-n-ra", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "العمود الحادي عشر يوضح الغاية الكبرى للنشاط الشرطي: إرضاء وطمأنة الملك الحاكم وتثبيت هدوء القصر."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000217-S12",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-10T14:11:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-217",
+                "sequence_no": 12,
+                "transliteration": "mꜣ-ḥw mꜣˁ-ḫrw jmy-r sꜣw m Ꜣḫt-jtn",
+                "hieroglyph": "𓌳𓎛𓅱𓐙𓊤𓅓𓋴𓄿𓏲𓐝𓐍𓏏𓇳𓏤𓇋𓏏𓈖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "ماهو، صادق الصوت، والمشرف الحامي للحرس والأمن في عاصمتنا المشرقة أخت-إيتن.",
+                "english": "Mahu, true of voice, overseer of the guards in Akhetaten.",
+                "german": "Mahu, gerechtfertigt, Vorsteher der Wachen in Achet-Aton.",
+                "french": "Mahou, juste de voix, directeur des gardes à Akhetaton.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "proper_name_with_epithets_and_final_titles"
+            },
+            "layer4_writing": {
+                "mdc_code": "ma-Hw ma_a-xrw jmy-r s3w m Axt-jtn"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "AMARNA-TOMB-9-SOUTH",
+                        "name": "Tomb of Mahu TA 9, South Wall Inscription",
+                        "type": "tomb_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "mꜣ-ḥw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mꜣˁ-ḫrw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "jmy-r-sꜣw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الخاتمة القياسية للنقش الجداري تؤكد الاسم واللقب والوظيفة الأمنية لـ 'ماهو' في عاصمة التوحيد الجديدة."
+            }
+        }
+    ]
+}

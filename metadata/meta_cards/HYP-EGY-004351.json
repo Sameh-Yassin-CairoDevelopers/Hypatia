@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-004351",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:38.455517Z"
+    },
+    "layer1_core": {
+        "transliteration": "Xnm",
+        "hieroglyph": "𓎸𓅓𓏛𓎸",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "ينضم، يتحد مع، طوق، أحاط، حضن، دافع عن، يستلم، خصب، زخرف، منح، وهب، مرتبط، تَمَوَن، موهوب",
+        "english": "Join, unite with, enclose, enfold, protect, receive, enrich, endue, associated, be provided, endowed",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+133B8",
+        "gardiner_code": "W9",
+        "gardiner_description": "Stone jug\tPhono. ẖnm.",
+        "gardiner_details": "W10"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

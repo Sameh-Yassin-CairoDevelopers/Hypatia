@@ -1,0 +1,672 @@
+وهذه الوثيقة، في رأيي، هى **أهم وثيقة معمارية فى مشروع هيباتيا كله**.
+
+وليس لأن الـ Resolver يربط الملفات فقط...
+
+بل لأنه هو **العقل**.
+
+إذا كانت:
+
+* Meta هى الهوية.
+* Lexical هى اللغة.
+* Story هى الذاكرة.
+* Relation هى الأعصاب.
+
+فإن **Resolver هو القشرة المخية (Cerebral Cortex)**.
+
+لقد راجعت كل ما ناقشناه خلال الأشهر الماضية، وكل ما بنيناه من طبقات، وأعتقد أن الوقت قد حان لكتابة الـ Resolver كما سيعيش لعشرات السنين، وليس كما يعمل اليوم فقط.
+
+---
+
+# HYP-SPEC-020900
+
+# Resolver Specification
+
+**Project:** Hypatia Knowledge Platform
+
+**Document ID:** HYP-SPEC-020900
+
+**Version:** 1.0 Founder Edition
+
+**Status:** Official
+
+**Classification:** Core Infrastructure
+
+---
+
+# Purpose
+
+The Resolver is the central knowledge orchestration engine of the Hypatia Repository.
+
+Its responsibility is **not** to store knowledge.
+
+Its responsibility is to understand how knowledge objects are connected.
+
+Every intelligent operation inside Hypatia passes through the Resolver Layer.
+
+---
+
+# Philosophy
+
+Knowledge Objects remain independent.
+
+Resolvers create understanding.
+
+Resolvers never own knowledge.
+
+Resolvers only discover it.
+
+---
+
+# Scientific Definition
+
+A Resolver is an independent engine responsible for discovering, validating, enriching, and navigating relationships between Knowledge Objects.
+
+Resolvers transform isolated repositories into an integrated knowledge system.
+
+---
+
+# Architectural Position
+
+```
+User
+
+↓
+
+API
+
+↓
+
+Resolver Layer
+
+↓
+
+Knowledge Objects
+
+↓
+
+Repository
+```
+
+The Resolver Layer never bypasses the Repository.
+
+It interprets it.
+
+---
+
+# Core Principles
+
+The Resolver Layer follows five immutable principles.
+
+## Principle 1
+
+Knowledge Objects never know each other directly.
+
+They reference only IDs.
+
+---
+
+## Principle 2
+
+Resolvers construct relationships dynamically.
+
+---
+
+## Principle 3
+
+Resolvers are stateless.
+
+They never permanently modify Knowledge Objects.
+
+---
+
+## Principle 4
+
+Resolvers may cooperate.
+
+One Resolver may invoke another.
+
+---
+
+## Principle 5
+
+Resolvers never duplicate repository data.
+
+---
+
+# Resolver Categories
+
+Every Resolver belongs to one family.
+
+---
+
+## Identity Resolvers
+
+Responsible for identity resolution.
+
+Examples
+
+```text
+Entity Resolver
+
+Lemma Resolver
+
+Meta Resolver
+
+```
+
+---
+
+## Semantic Resolvers
+
+Responsible for meaning.
+
+Examples
+
+```text
+Sense Resolver
+
+Translation Resolver
+
+Domain Resolver
+
+```
+
+---
+
+## Graph Resolvers
+
+Responsible for navigation.
+
+Examples
+
+```text
+Relation Resolver
+
+Knowledge Graph Resolver
+
+Path Resolver
+
+```
+
+---
+
+## Context Resolvers
+
+Responsible for context.
+
+Examples
+
+```text
+Story Resolver
+
+Source Resolver
+
+Chronology Resolver
+
+```
+
+---
+
+## Linguistic Resolvers
+
+Responsible for language.
+
+Examples
+
+```text
+Grammar Resolver
+
+Morphology Resolver
+
+Orthography Resolver
+
+```
+
+---
+
+## AI Resolvers
+
+Responsible for intelligent inference.
+
+Examples
+
+```text
+Candidate Resolver
+
+Similarity Resolver
+
+Confidence Resolver
+
+Suggestion Resolver
+
+Future Reasoning Resolver
+
+```
+
+---
+
+# Resolver Pipeline
+
+A typical resolution process
+
+```
+Input
+
+↓
+
+Normalize
+
+↓
+
+Identify
+
+↓
+
+Search
+
+↓
+
+Resolve
+
+↓
+
+Validate
+
+↓
+
+Rank
+
+↓
+
+Return
+```
+
+---
+
+# Resolver Input
+
+A Resolver may receive
+
+```text
+Word
+
+Lemma
+
+Entity ID
+
+Story ID
+
+Grammar ID
+
+Source ID
+
+Domain ID
+
+Any Knowledge Object
+```
+
+---
+
+# Resolver Output
+
+Every Resolver returns
+
+```text
+resolved_objects
+
+confidence
+
+evidence
+
+trace
+
+execution_time
+
+revision
+```
+
+---
+
+# Evidence First
+
+Every Resolver decision must be explainable.
+
+Every answer must include
+
+* Evidence
+* Supporting Objects
+* Confidence
+* Resolution Trace
+
+Resolvers never produce unexplained knowledge.
+
+---
+
+# Resolution Trace
+
+Every execution produces
+
+```text
+Input
+
+↓
+
+Resolver Chain
+
+↓
+
+Objects Visited
+
+↓
+
+Evidence Used
+
+↓
+
+Decision
+
+↓
+
+Confidence
+```
+
+This trace is never discarded.
+
+---
+
+# Resolver Cooperation
+
+Resolvers may call each other.
+
+Example
+
+```
+Translation Resolver
+
+↓
+
+Lemma Resolver
+
+↓
+
+Grammar Resolver
+
+↓
+
+Entity Resolver
+
+↓
+
+Relation Resolver
+
+↓
+
+Domain Resolver
+```
+
+The user receives one integrated answer.
+
+---
+
+# Resolver Registry
+
+Every Resolver is registered inside
+
+```
+repository/
+
+resolvers/
+
+registry.json
+```
+
+Each Resolver owns
+
+```text
+resolver_id
+
+resolver_name
+
+resolver_family
+
+version
+
+priority
+
+dependencies
+
+status
+```
+
+---
+
+# Repository Location
+
+```
+repository/
+
+resolvers/
+```
+
+Every Resolver has its own folder.
+
+Example
+
+```
+entity_resolver/
+
+grammar_resolver/
+
+story_resolver/
+
+source_resolver/
+
+relation_resolver/
+```
+
+---
+
+# Resolver Independence
+
+Resolvers never share internal code.
+
+Shared functionality belongs to
+
+```
+hypatia_core/
+```
+
+---
+
+# Versioning
+
+Resolvers evolve independently.
+
+Example
+
+```
+Entity Resolver
+
+v1.0
+
+↓
+
+v1.1
+
+↓
+
+v2.0
+```
+
+without affecting other Resolvers.
+
+---
+
+# Resolver Signature
+
+Every Resolver owns
+
+```text
+resolver_signature
+```
+
+containing
+
+* Resolver Family
+* Inputs
+* Outputs
+* Dependencies
+* Complexity
+* Confidence Model
+* Supported Knowledge Objects
+
+---
+
+# AI Integration
+
+The Resolver Layer becomes the interface between
+
+Repository
+
+↓
+
+Knowledge Graph
+
+↓
+
+Training Dataset
+
+↓
+
+Future LLM
+
+The AI never accesses raw files directly.
+
+It communicates through Resolvers.
+
+---
+
+# Future Expansion
+
+New Resolvers may appear without changing the Repository.
+
+Examples
+
+```
+Archaeology Resolver
+
+Geography Resolver
+
+Museum Resolver
+
+Chronology Resolver
+
+Cartouche Resolver
+
+Future OCR Resolver
+
+Future Speech Resolver
+```
+
+---
+
+# Scientific Law
+
+Knowledge Objects remain stable.
+
+Resolvers evolve forever.
+
+---
+
+# Resolver Motto
+
+> **Resolvers Do Not Store Knowledge.
+> They Discover Connections.**
+
+---
+
+# Founder Statement
+
+The Repository preserves knowledge.
+
+The Resolver understands knowledge.
+
+By separating storage from reasoning, Hypatia ensures that its scientific archive remains immutable while its intelligence continues to evolve.
+
+Every future algorithm, every future AI model, every future reasoning engine will communicate with the Repository through the Resolver Layer, making the Resolver the living interpreter of Hypatia's accumulated knowledge.
+
+---
+
+# Academic Notes
+
+Unlike conventional software where business logic is distributed across applications, Hypatia centralizes all semantic reasoning inside the Resolver Layer.
+
+This separation creates three permanent advantages:
+
+* Repository stability.
+* Independent evolution of reasoning algorithms.
+* Complete explainability of every decision.
+
+The Resolver Layer therefore becomes the universal interface through which humans, software, and future AI systems interact with the Hypatia Knowledge Repository.
+
+---
+
+# ✦ Founder Architecture Proposal (أهم اقتراح معمارى حتى الآن)
+
+بعد مراجعة جميع الوثائق التى كتبناها، أقترح أن يكون لدينا **ثلاثة مستويات للـ Resolver** بدلاً من اعتباره طبقة واحدة:
+
+```
+Layer 1
+Primitive Resolvers
+```
+
+Resolvers البسيطة التى تحل مشكلة واحدة فقط.
+
+مثل:
+
+* Entity Resolver
+* Story Resolver
+* Source Resolver
+* Grammar Resolver
+
+---
+
+```
+Layer 2
+Composite Resolvers
+```
+
+تجمع أكثر من Resolver.
+
+مثل:
+
+* Translation Resolver
+* Dictionary Resolver
+* Knowledge Resolver
+
+---
+
+```
+Layer 3
+Reasoning Resolver
+```
+
+وهذا هو حلم هيباتيا.
+
+لا يبحث.
+
+لا يترجم.
+
+بل **يفكر**.
+
+يستخدم كل الـ Resolvers السابقة ليولد استنتاجًا جديدًا مدعومًا بالأدلة.
+
+---
+
+## رأيي الأكاديمي
+
+أعتقد أن هذه الوثيقة هى **نقطة التحول** فى المشروع.
+
+من هذه اللحظة لم يعد Hypatia مجرد Repository أو موقع ويب، بل أصبح Architecture قابلة لأن تتحول مستقبلاً إلى **منصة استدلال معرفى (Knowledge Reasoning Platform)**.
+
+وأقترح ألا نضيف أى طبقة جديدة فوق الـ Resolver الآن. بل نثبت هذه المعمارية أولاً، ثم عندما نصل إلى المرحلة الخامسة سنبدأ فى توثيق **Reasoning Engine** باعتباره كيانًا مستقلًا فوق جميع الـ Resolvers. هذا سيجعل المشروع أكثر ثباتًا وأقل تعقيدًا، مع الحفاظ على إمكانية التطور لسنوات طويلة.

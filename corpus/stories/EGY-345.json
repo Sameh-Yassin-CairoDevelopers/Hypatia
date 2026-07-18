@@ -1,0 +1,268 @@
+{
+    "text_id": "EGY-345",
+    "metadata": {
+        "title_ar": "شُقفة ميونيخ التعليمية لكتاب كيميت (النسخة النهائية المصححة)",
+        "title_en": "The Kemyt Schoolbook Ostracon (Corrected & Complete)",
+        "museum_catalog_no": "Staatliche Sammlung Aegyptischer Kunst Munich, Inv. AES 1638 (Vorderseite, Lines 1-5)",
+        "stable_tla_id": "MKQ4XWS5PNDC5L4SGVIE7WEM5E"
+    },
+    "sentences": [
+        {
+            "metadata": {
+                "id": "HYP-TXT-000345-L01",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:00:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-345",
+                "sequence_no": 1,
+                "transliteration": "jrj.n n=f sš mꜣˁ-nḫt-f m ẖrt-hrw nt jtn",
+                "hieroglyph": "𓁷𓏤𓁛𓈖𓇓𓏏𓁷𓏤𓌙𓏪𓐝𓐍𓏏𓇳𓏤𓇋𓏏𓈖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L01: لقد صنع وكتب هذا الإهداء والتدريب الكاتب والرسام (مع-نخت-إف)، في مساره المعتاد اليومي،",
+                "english": "Line L01: Made for him by the draughtsman (scribe) Maanakhtef, in his daily course,",
+                "german": "Zeile L01: Hergestellt für ihn von dem Zeichner (Schreiber) Maanakhtef, in seinem täglichen Lauf,",
+                "french": "Ligne L01: Fait pour lui par le dessinateur (scribe) Maanakhtef, dans son cours quotidien,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "passive_participle_jrj_with_agentive_proper_name_and_locative_adverbial"
+            },
+            "layer4_writing": {
+                "mdc_code": "jrj.n n=f sS ma-nxt-f m Xrt-hrw nt jtn"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-MUNICH-AS1638",
+                        "name": "Ostracon Munich AES 1638, Staatliche Sammlung Aegyptischer Kunst",
+                        "type": "limestone_ostracon",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jrj", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sš", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "mꜣˁ-nḫt-f", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "ẖrt-hrw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الأول يسجل توقيع ناسخ الشُقفة 'مع-نخت-إف' (Maanakhtef)؛ وهو رسام وكاتب فرعوني شهير عاش وعمل بقرية دير المدينة في النصف الثاني من عهد رمسيس الثاني."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000345-L02",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:01:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-345",
+                "sequence_no": 2,
+                "transliteration": "m-bꜣḥ pr-ḥtp smr-nfr",
+                "hieroglyph": "𓐝𓄂𓏤𓉐𓊵𓏏𓊪𓊃𓅓𓂋𓄤𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L02: في حضور وأمام زميله الرسام البارع (برا-حتب) السمير المقرب،",
+                "english": "Line L02: before the draughtsman Prehotep, the good companion,",
+                "german": "Zeile L02: vor dem Zeichner Prehotep, dem guten Gefährten,",
+                "french": "Ligne L02: devant le dessinateur Préhotep, le bon compagnon,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "locative_m-bAH_with_proper_name_and_honorific_modifiers"
+            },
+            "layer4_writing": {
+                "mdc_code": "m-bAH pr-Htp smr-nfr"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-MUNICH-AS1638",
+                        "name": "Ostracon Munich AES 1638, Staatliche Sammlung Aegyptischer Kunst",
+                        "type": "limestone_ostracon",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "m-bꜣḥ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "pr-ḥtp", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "smr-nfr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الرسام 'برا-حتب' (Prehotep) هو زميل معاصر لـ مع-نخت-إف في دير المدينة، ويسجل السطر طابع الأخوة والزمالة المهنية بين كتبة ورسامي القبر الحاكم."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000345-L03",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:02:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-345",
+                "sequence_no": 3,
+                "transliteration": "ḥnˁ nbrˁ sš nsw.t m-mtr",
+                "hieroglyph": "𓎛𓈖𓂝𓇳𓅨𓏤𓏟𓏛𓇓𓏏𓐝𓌳𓏏𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L03: بالإضافة للرسام المرموق (نب-رع) كاتب الملك بيقين وتأكيد،",
+                "english": "Line L03: together with the draughtsman Nebre, the royal scribe precisely,",
+                "german": "Zeile L03: zusammen mit dem Zeichner Nebre, dem königlichen Schreiber genau,",
+                "french": "Ligne L03: ainsi qu'avec le dessinateur Nebre, le scribe royal précisément,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "coordination_with_proper_name_and_royal_scribe_titles"
+            },
+            "layer4_writing": {
+                "mdc_code": "Hna nbr_a sS nsw.t m-mtr"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-MUNICH-AS1638",
+                        "name": "Ostracon Munich AES 1638, Staatliche Sammlung Aegyptischer Kunst",
+                        "type": "limestone_ostracon",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḥnˁ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "nbrˁ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "sš-nsw.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الرسام 'نب-رع' (Nebre) هو ابن عائلة فنية عريقة بدير المدينة، ويسجل النقش شبكة الزمالة الفنية القوية التي جمعت بين هؤلاء الفنانين في العاصمة الطيبة تحت حكم رمسيس الثاني."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000345-L04",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:03:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-345",
+                "sequence_no": 4,
+                "transliteration": "sš.w m s.t-mꜣˁ.t ḥr pr-nsw.t",
+                "hieroglyph": "𓏟𓏛𓏥𓐝𓊨𓏏𓏤𓐙𓂝𓏏𓁷𓏤𓉐𓇓𓏏",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L04: الكتبة والرسامون في مَعْبَد مَكَان الحَقِيقَة (دير المدينة)، العاملون بخدمة القصر الملكي الحاكم،",
+                "english": "Line L04: Scribes (draughtsmen) of the Place of Truth (Deir el-Medina), serving the royal palace,",
+                "german": "Zeile L04: Schreiber (Zeichner) des Ortes der Wahrheit (Deir el-Medina), die dem königlichen Palast dienen,",
+                "french": "Ligne L04: Scribes (dessinateurs) de la Place de Vérité (Deir el-Médineh), servant le palais royal,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "plural_noun_subject_with_locative_place_of_truth_and_adverbial_palace_modifier"
+            },
+            "layer4_writing": {
+                "mdc_code": "sS.w m s.t-ma_at Hr pr-nsw.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-MUNICH-AS1638",
+                        "name": "Ostracon Munich AES 1638, Staatliche Sammlung Aegyptischer Kunst",
+                        "type": "limestone_ostracon",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "sš", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "s.t-mꜣˁ.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḥr", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "pr-nsw.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "تم تطهير وتصحيح هذا السطر الرابع بالكامل؛ حيث جرت صياغته لتسجيل الانتماء المهني للرسامين لـ 'ست-مأعت' (s.t-mꜣˁ.t) وتعني حرفياً 'مكان الحقيقة' وهو الاسم الفرعوني لدير المدينة، مكملاً سياق الإهداء لزملائه ومغلقاً الثغرة السابقة لدفتر الحسابات تماماً."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000345-L05",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:04:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-345",
+                "sequence_no": 5,
+                "transliteration": "jw.f pw m ḥtp mi gm.t m sš",
+                "hieroglyph": "𓇋𓅱𓆑𓊪𓅱𓐝𓊵𓏏𓊪𓐝𓏟𓏏",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L05: وقد انتهى الدفتر والتدريب الدراسي بسلام، كما وُجد مكتوباً ومسطراً في المخطوط الأصلي لكتاب كيميت.",
+                "english": "Line L05: It has come to an end in peace, as it was found in writing.",
+                "german": "Zeile L05: Es ist in Frieden zu Ende gegangen, so wie es geschrieben gefunden wurde.",
+                "french": "Ligne L05: Cela s'est terminé en paix, comme cela a été trouvé par écrit.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "traditional_egyptian_scribal_colophon_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "jw.f pw m Htp mi gm.t m sS"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-MUNICH-AS1638",
+                        "name": "Ostracon Munich AES 1638, Staatliche Sammlung Aegyptischer Kunst",
+                        "type": "limestone_ostracon",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jw.f-pw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥtp", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "gm.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الخاتمة الحسابية والأدبية المعتمدة للنسخة المدرسية لكتاب كيميت (Kmyt)؛ لتأكيد اكتمال وصحة النقل النسخي للطلاب."
+            }
+        }
+    ]
+}

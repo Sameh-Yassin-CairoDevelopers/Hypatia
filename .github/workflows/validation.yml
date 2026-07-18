@@ -1,0 +1,8 @@
+name: Validation
+on:
+  workflow_dispatch:
+jobs:
+  validation:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo Validation Placeholder

@@ -1,0 +1,778 @@
+{
+    "text_id": "EGY-042",
+    "metadata": {
+        "title_ar": "تعاليم الأمير حور جد ف",
+        "title_en": "The Instructions of Hardjedef",
+        "museum_catalog_no": "Papyrus Prisse (Paris) & Ostraca fragments",
+        "stable_tla_id": "text-hardjedef-instruction"
+    },
+    "sentences": [
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-042-0001",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:45:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-042",
+                "sequence_no": 1,
+                "transliteration": "ḥꜣ-ˁ m sbꜣ.yt ỉry.t.n sꜣ-nswt ḥr-ḏd=f n sꜣ=f ỉ-m-ḥtp",
+                "hieroglyph": "𓄂𓏤𓂝𓐝𓋴𓃀𓄿𓇋𓏏𓁹𓈖𓅭𓇓𓏏𓈖𓁷𓏤𓂧𓆑𓈖𓅭𓆑𓇋𓐝𓊵𓏏𓊪",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "بداية التعاليم والوصايا التي صنعها وصاغها ابن الملك (حورجدف) لولده (إي-إم-حتب)",
+                "english": "The beginning of the instruction made by the King's Son, Hardjedef, for his son, Iemhotep",
+                "german": "Anfang der Lehre, die der Königssohn Djedefhor für seinen Sohn Iemhotep verfasst hat",
+                "french": "Commencement de l'enseignement fait par le fils du roi, Hardjedef, pour son fils, Iemhotep",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "title_introduction_with_genitive"
+            },
+            "layer4_writing": {
+                "mdc_code": "HA-a m sb3.yt iry.t.n s3-nswt Hr-Dd=f n s3=f i-m-Htp"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-02",
+                        "name": "Papyrus Prisse (Bibliothèque Nationale, Paris)",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḥꜣ-ˁ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sbꜣ.yt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḥr-ḏd=f", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "ỉ-m-ḥtp", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللقب حات-عا إم سبايت يعني حرفياً 'بداية التعاليم'."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-042-0002",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:45:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-042",
+                "sequence_no": 2,
+                "transliteration": "ḏd.f: sꜣ s nb ḥr sꜣ.t",
+                "hieroglyph": "𓂧𓂧𓆑𓋴𓄿𓊃𓏤𓎆𓁷𓏤𓋴𓄿𓏏",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وهو يقول: طهر وهذب وعلم نفسك في عيناك",
+                "english": "He says: Chastise yourself / instruct yourself",
+                "german": "Er sagt: Züchtige dich selbst / belehre dich selbst",
+                "french": "Il dit : Châtie-toi toi-même / instruis-toi toi-même",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.f_with_direct_speech_imperative"
+            },
+            "layer4_writing": {
+                "mdc_code": "Dd.f n=j: s3 s nb Hr s3.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-02",
+                        "name": "Papyrus Prisse (Bibliothèque Nationale, Paris)",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḏd.f", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sꜣ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "s", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ سأ يعني التهذيب النفسي أو التربية الأخلاقية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-042-0003",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:42:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-042",
+                "sequence_no": 3,
+                "transliteration": "jr.y=k n=k pr m mwt.t-k",
+                "hieroglyph": "𓁹𓎡𓈖𓎡𓉐𓏤𓐝𓅓𓏏𓏤𓎡",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "صنع وأنشئ لنفسك منزلاً وقبراً لموتك ومنيتك",
+                "english": "Make for yourself a house of your death",
+                "german": "Richte dir dein Haus des Todes ein",
+                "french": "Fais-toi une maison pour ta mort",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "subjunctive_iry_with_indirect_object_and_genitive"
+            },
+            "layer4_writing": {
+                "mdc_code": "iry=k n=k pr m mwt.t-k"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-02",
+                        "name": "Papyrus Prisse (Bibliothèque Nationale, Paris)",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jr.y", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "pr", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "mwt.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "البيت 'بر' هنا يشير رمزياً للقبر الجنائزي المخصص للخلود بعد الموت."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-042-0004",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:42:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-042",
+                "sequence_no": 4,
+                "transliteration": "smꜣḫ s.t=k nt sẖrt",
+                "hieroglyph": "𓋴𓌳𓄿𓐍𓊃𓏏𓏤𓎡𓈖𓏏𓋴𓐍𓂋𓏏𓈉",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وزين وجمّل مكان دفنك في الغرب الموقر",
+                "english": "Beautify your place of the West (your tomb)",
+                "german": "Verschönere deinen Ort im Westen (dein Grab)",
+                "french": "Embellis ta place de l'Occident (ta tombe)",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "imperative_causative_smAx"
+            },
+            "layer4_writing": {
+                "mdc_code": "sm3x s.t=k nt sXrt"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-02",
+                        "name": "Papyrus Prisse (Bibliothèque Nationale, Paris)",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "smꜣḫ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "s.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "sẖrt", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "سخرت تشير للغرب الجغرافي واللاهوتي كمسكن للأموات المكرمين."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-042-0005",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:42:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-042",
+                "sequence_no": 5,
+                "transliteration": "m.k nḏs mwt.t r-ḥꜣ.t=n",
+                "hieroglyph": "𓐝𓎡𓈖𓆓𓋴𓅓𓏏𓏤𓂋𓄂𓏤𓈖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "انظر، إن الموت يعد صغيراً وضئيلاً في أعيننا وبتقديرنا",
+                "english": "Look, death counts little for us",
+                "german": "Siehe, der Tod gilt uns wenig",
+                "french": "Vois, la mort compte peu pour nous",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "presentation_m-k_with_subject_and_adjective"
+            },
+            "layer4_writing": {
+                "mdc_code": "m.k nDs mwt.t r-HA.t=n"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-02",
+                        "name": "Papyrus Prisse (Bibliothèque Nationale, Paris)",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "m-k", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "nḏs", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "mwt.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ نجس يعني هنا عديم الأهمية أو الضئيل أمام عظمة الخلود."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-042-0006",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:42:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-042",
+                "sequence_no": 6,
+                "transliteration": "m.k ˁnḫ šps.w m-bꜣḥ=n",
+                "hieroglyph": "𓐝𓎡𓋹𓋴𓄿𓪪𓋴𓅱𓐝𓄡𓈖𓏤𓈖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وانظر، إن الحياة والوجود هما الغاليان والموقران في أعيننا وبتقديرنا",
+                "english": "Look, life is valued highly by us",
+                "german": "Siehe, das Leben gilt uns als kostbar",
+                "french": "Vois, la vie est grandement estimée par nous",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "presentation_m-k_with_adjectival_subject"
+            },
+            "layer4_writing": {
+                "mdc_code": "m.k anx Sps.w m-baH=n"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-02",
+                        "name": "Papyrus Prisse (Bibliothèque Nationale, Paris)",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "m-k", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ˁnḫ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "šps.w", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ شبسو يعني النفيس أو الغالي القيمة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-042-0007",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:42:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-042",
+                "sequence_no": 7,
+                "transliteration": "pr n mwt.t n ˁnḫ pw",
+                "hieroglyph": "𓉐𓈖𓅓𓏏𓏤𓈖𓋹𓇍𓅱",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وإن بيت الموتى (القبر المحصن) هو مخصص لأجل الحياة والخلود",
+                "english": "The house of the dead (the tomb) is for life",
+                "german": "Das Haus des Todes (das Grab) ist für das Leben",
+                "french": "La maison des morts (la tombe) est pour la vie",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "noun_subject_with_pw_copula"
+            },
+            "layer4_writing": {
+                "mdc_code": "pr n mwt.t n anx pw"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-02",
+                        "name": "Papyrus Prisse (Bibliothèque Nationale, Paris)",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "pr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mwt.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ˁnḫ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "تعبير فلسفي كوني يوضح عقيدة البعث؛ فالقبر هو البوابة الفعلية لبداية الحياة الحقيقية الدائمة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-042-0008",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:42:50.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-042",
+                "sequence_no": 8,
+                "transliteration": "sḥن.k n=k ḥm-kꜣ nfr",
+                "hieroglyph": "𓋴𓄡𓈖𓎡𓈖𓎡𓍛𓂓𓄤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وعيّن وأسس لنفسك كاهناً ومقدماً للقرابين (كاهن الكا) يكون صالحاً وبارّاً",
+                "english": "Appoint for yourself a good Ka-servant",
+                "german": "Bestelle dir einen guten Ka-Priester",
+                "french": "Établis-toi un bon serviteur-du-ka",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "subjunctive_sHn_with_indirect_object_noun"
+            },
+            "layer4_writing": {
+                "mdc_code": "sHn.k n=k Hm-kA nfr"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-02",
+                        "name": "Papyrus Prisse (Bibliothèque Nationale, Paris)",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "sḥn", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥm-kꜣ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "nfr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "حَم-كا هو الكاهن المسؤول عن تلاوة الطقوس وتقديم الطعام والشراب لروح المتوفى 'الكا' في القبر."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-042-0009",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:43:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-042",
+                "sequence_no": 9,
+                "transliteration": "ḥnˁ sꜣ r-gsw pr=k",
+                "hieroglyph": "𓎛𓈖𓂝𓅭𓏤𓂋𓎼𓋴𓅱𓉐𓏤𓎡",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وابناً بارّاً يرافق ويرعى بيتك وإرثك",
+                "english": "And a son who is by your house",
+                "german": "und einen Sohn, der an der Seite deines Hauses ist",
+                "french": "et un fils qui soit aux côtés de ta maison",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "coordination_with_possessive_locative"
+            },
+            "layer4_writing": {
+                "mdc_code": "Hna s3 r-gsw pr=k"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-02",
+                        "name": "Papyrus Prisse (Bibliothèque Nationale, Paris)",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḥnˁ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sꜣ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "pr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الابن البار هو المسؤول عن استمرار الطقوس وإطعام الأجداد."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-042-0010",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:43:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-042",
+                "sequence_no": 10,
+                "transliteration": "nfr s3 nty mr=f",
+                "hieroglyph": "𓄤𓅭𓏤𓈖𓏏𓏭𓌻𓂋𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فما أجمل وأنفع وجود ابنٍ بارّ ومحبّ لوالده يذكره!",
+                "english": "It is good when there is a son who loves",
+                "german": "Es ist gut, wenn da ein Sohn ist, der liebt",
+                "french": "Il est bon qu'il y ait un fils qui aime",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "adjectival_sentence",
+                "syntax_structure": "adjective_nfr_as_predicate_with_relative_subject"
+            },
+            "layer4_writing": {
+                "mdc_code": "nfr s3 nty mr=f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-02",
+                        "name": "Papyrus Prisse (Bibliothèque Nationale, Paris)",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "nfr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "s3", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "mr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ مِر يعني الحب والوفاء العائلي الممتد بعد الموت."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-042-0011",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:43:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-042",
+                "sequence_no": 11,
+                "transliteration": "jr.y=k n=k pr m mwt.t-k",
+                "hieroglyph": "𓁹𓎡𓈖𓎡𓉐𓏤𓐝𓅓𓏏𓏤𓎡",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وأنشئ لنفسك منزلاً (قبراً) قبل وفاتك وموتك الفعلي",
+                "english": "Make for yourself a house of your death",
+                "german": "Richte dir dein Haus des Todes ein",
+                "french": "Fais-toi une maison pour ta mort",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "subjunctive_iry_with_indirect_object_and_genitive"
+            },
+            "layer4_writing": {
+                "mdc_code": "iry=k n=k pr m mwt.t-k"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-02",
+                        "name": "Papyrus Prisse (Bibliothèque Nationale, Paris)",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jr.y", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "pr", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "mwt.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "تكرار النصيحة للتأكيد على التجهيز المبكر للمقبرة والأثاث الجنائزي قبل كبر السن."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-042-0012",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:43:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-042",
+                "sequence_no": 12,
+                "transliteration": "m-ỉr šmt ḥnˁ ẖr-pds r-gs sbȝ",
+                "hieroglyph": "𓐝𓇋𓂋𓋴𓍯𓏤𓎛𓈖𓂝𓌨𓂋𓏏𓄂𓏤𓂋𓎼𓋴𓃀𓄿𓉐",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "ولا تذهب للمحكمة ومجلس القضاء ضد الأرملة البائسة وأنت تعلم صدقها وحقها لتقهرها",
+                "english": "Do not go to the tribunal with the widow when you know she is right",
+                "german": "Geh nicht mit der Witwe vor Gericht, wenn du weißt, dass sie im Recht ist",
+                "french": "Ne va pas au tribunal avec la veuve quand tu sais qu'elle a raison",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "negative_imperative_m-ir_with_prepositional_and_relative"
+            },
+            "layer4_writing": {
+                "mdc_code": "m-ir Smt Hna Xr-pds r-gs sb3"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-02",
+                        "name": "Papyrus Prisse (Bibliothèque Nationale, Paris)",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "m-ỉr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "šmt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ẖr-pds", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ خر-بدس يعني الأرملة أو الشخصية البائسة الضعيفة قضائياً واجتماعياً."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-042-0013",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:43:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-042",
+                "sequence_no": 13,
+                "transliteration": "m ḏd n=s: ỉnk ỉry.t fḫ",
+                "hieroglyph": "𓐝𓂧𓂧𓈖𓋴𓇋𓏠𓈖𓎡𓁹𓏏𓆑𓐍𓏭",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "ولا تقل لها يوماً بسلطتك: لقد جئتُ لأظلمك وأقهرك وأسلب حقك",
+                "english": "Do not say to her: I have come to oppress you",
+                "german": "Sag nicht zu ihr: Ich bin gekommen, um dich zu bedrücken",
+                "french": "Ne lui dis pas : Je suis venu pour t'opprimer",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "negative_imperative_m_with_direct_speech"
+            },
+            "layer4_writing": {
+                "mdc_code": "m Dd n=s: ink iry.t fX"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-02",
+                        "name": "Papyrus Prisse (Bibliothèque Nationale, Paris)",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "m", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḏd", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "fḫ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "فخو تعني القهر أو الاضطهاد وسلب الحقوق القانونية قسراً."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-042-0014",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:43:50.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-042",
+                "sequence_no": 14,
+                "transliteration": "ỉw nṯr rḫ.n=f nty sḫr.w",
+                "hieroglyph": "𓇋𓅱𓊹𓂋𓐍𓈖𓆑𓈖𓏏𓏭𓋴𓐍𓂋𓅱𓏥",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "ألا يعلم الإله والقدر يقيناً ما هو مدبر ومقدر ومنظم في الخفاء؟",
+                "english": "Does God not know what is ordained?",
+                "german": "Weiß Gott nicht, was bestimmt ist?",
+                "french": "Dieu ne sait-il pas ce qui est décrété?",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "iw_interrogative_with_rX_relative"
+            },
+            "layer4_writing": {
+                "mdc_code": "iw nTr rX.n=f nty sxr.w"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-02",
+                        "name": "Papyrus Prisse (Bibliothèque Nationale, Paris)",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "nṯr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "rḫ.n=f", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "sḫr.w", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الالتجاء للعدالة الإلهية والماعت الكونية رداً على الظلم البشري."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-042-0015",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:44:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-042",
+                "sequence_no": 15,
+                "transliteration": "iw.f pw m Htp mi gm.t m sS",
+                "hieroglyph": "𓇋𓅱𓆑𓊪𓅱𓐝𓊵𓏏𓊪𓐝𓏟𓏏",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "لقد تم النص وانتهى بسلام كامل، كما وُجد مكتوباً ومسطراً في المخطوط الأصلي للبردية.",
+                "english": "It has come to an end in peace, as it was found in writing.",
+                "german": "Es ist in Frieden zu Ende gegangen, so wie es geschrieben gefunden wurde.",
+                "french": "Cela s'est terminé en paix, comme cela a été trouvé par écrit.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "traditional_egyptian_scribal_colophon_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "iw.f pw m Htp mi gm.t m sS"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-02",
+                        "name": "Papyrus Prisse (Bibliothèque Nationale, Paris)",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "iw.f-pw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "Htp", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "gm.t", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "sS", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الخاتمة القياسية لنسخ البرديات من الكَتَبة المصريين لتوكيد الدقة والمطابقة للأصل."
+            }
+        }
+    ]
+}

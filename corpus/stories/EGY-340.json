@@ -1,0 +1,525 @@
+{
+    "text_id": "EGY-340",
+    "metadata": {
+        "title_ar": "جدول اللاهون الحسابي لكسور 2/n (النسخة النهائية المصححة)",
+        "title_en": "The Lahun 2/n Fractional Table (Corrected & Complete)",
+        "museum_catalog_no": "Petrie Museum UCL, Inv. UC 32159 (Lines 1-10)",
+        "stable_tla_id": "unknown"
+    },
+    "sentences": [
+        {
+            "metadata": {
+                "id": "HYP-TXT-000340-L01",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:00:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-340",
+                "sequence_no": 1,
+                "transliteration": "2 pš r 3 jdn r-2 r-6",
+                "hieroglyph": "𓏮𓏪𓊗𓏤𓏤𓏤𓂋𓏮𓂋𓎆",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L01: قسمة وتوزيع الرقم 2 على 3: نتيجتها كسر الثلثين ويُعبر عنه بـ (النصف 1/2 مضافاً إليه السدس 1/6)،",
+                "english": "Line L01: Division of 2 by 3: expressed as the unit fractions 1/2 and 1/6,",
+                "german": "Zeile L01: Division von 2 durch 3: ausgedrückt als die Stammbrüche 1/2 und 1/6,",
+                "french": "Ligne L01: Division de 2 par 3 : exprimée sous forme de fractions unitaires 1/2 et 1/6,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "fractional_table_entry_2_divided_by_3"
+            },
+            "layer4_writing": {
+                "mdc_code": "2 pS r 3 jdn r-2 r-6"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PETRIE-UC32159",
+                        "name": "Lahun Mathematical Fragment UC 32159, Petrie Museum UCL",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "pš", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "jdn", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "r-2", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "r-6", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الأول يفتتح الجدول بحساب قسمة 2 على 3. يعتمد الحساب المصري القديم كلياً على الكسور الأحادية (Unit Fractions) بسطها دائماً الرقم 1، ويُعبر عن الكسر برسم علامة الفم 'رأ' (D21) وتعني 'جزء' فوق الرقم [1.1.1، 1.1.5]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000340-L02",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:01:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-340",
+                "sequence_no": 2,
+                "transliteration": "5 jdn r-3 r-15",
+                "hieroglyph": "𓏾𓂋𓏤𓏤𓏤𓂋𓎆𓏤𓏤𓏤𓏤𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L02: قسمة الرقم 2 على 5: نتيجتها كسر الخُمسين ويُعبر عنه بـ (الثلث 1/3 مضافاً إليه الجزء من خمسة عشر 1/15)،",
+                "english": "Line L02: Division of 2 by 5: expressed as the unit fractions 1/3 and 1/15,",
+                "german": "Zeile L02: Division von 2 durch 5: ausgedrückt als die Stammbrüche 1/3 und 1/15,",
+                "french": "Ligne L02: Division de 2 par 5 : exprimée sous forme de fractions unitaires 1/3 et 1/15,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "fractional_table_entry_2_divided_by_5"
+            },
+            "layer4_writing": {
+                "mdc_code": "5 jdn r-3 r-15"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PETRIE-UC32159",
+                        "name": "Lahun Mathematical Fragment UC 32159, Petrie Museum UCL",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jdn", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "r-3", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "r-15", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الثاني يعرض تفكيك الكسر 2/5 إلى مجموع كسرين أحاديين وهما 1/3 و1/15 بطريقة رياضية دقيقة معتمدة بالدولة الوسطى."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000340-L03",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:02:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-340",
+                "sequence_no": 3,
+                "transliteration": "7 jdn r-4 r-28",
+                "hieroglyph": "𓏾𓏤𓏤𓂋𓏤𓏤𓏤𓏤𓂋𓎆𓎆𓏤𓏤𓏤𓏤𓏤𓏤𓏤𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L03: قسمة الرقم 2 على 7: نتيجتها كسر السُبعين ويُعبر عنه بـ (الربع 1/4 مضافاً إليه الجزء من ثمانية وعشرين 1/28)،",
+                "english": "Line L03: Division of 2 by 7: expressed as the unit fractions 1/4 and 1/28,",
+                "german": "Zeile L03: Division von 2 durch 7: ausgedrückt als die Stammbrüche 1/4 und 1/28,",
+                "french": "Ligne L03: Division de 2 par 7 : exprimée sous forme de fractions unitaires 1/4 et 1/28,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "fractional_table_entry_2_divided_by_7"
+            },
+            "layer4_writing": {
+                "mdc_code": "7 jdn r-4 r-28"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PETRIE-UC32159",
+                        "name": "Lahun Mathematical Fragment UC 32159, Petrie Museum UCL",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jdn", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "r-4", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "r-28", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الثالث يعرض تفكيك الكسر 2/7 إلى مجموع الكسرين الأحاديين 1/4 و1/28 لمطابقة جدول الـ 2/n التاريخي."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000340-L04",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:03:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-340",
+                "sequence_no": 4,
+                "transliteration": "9 jdn r-6 r-18",
+                "hieroglyph": "𓏾𓏥𓏥𓏥𓂋𓎆𓂋𓎆𓏤𓏤𓏤𓏤𓏤𓏤𓏤𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L04: قسمة الرقم 2 على 9: نتيجتها كسر التسعين ويُعبر عنه بـ (السدس 1/6 مضافاً إليه الجزء من ثمانية عشر 1/18)،",
+                "english": "Line L04: Division of 2 by 9: expressed as the unit fractions 1/6 and 1/18,",
+                "german": "Zeile L04: Division von 2 durch 9: ausgedrückt als die Stammbrüche 1/6 und 1/18,",
+                "french": "Ligne L04: Division de 2 par 9 : exprimée sous forme de fractions unitaires 1/6 et 1/18,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "fractional_table_entry_2_divided_by_9"
+            },
+            "layer4_writing": {
+                "mdc_code": "9 jdn r-6 r-18"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PETRIE-UC32159",
+                        "name": "Lahun Mathematical Fragment UC 32159, Petrie Museum UCL",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jdn", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "r-6", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "r-18", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الرابع يوثق تفكيك الكسر 2/9، وهي مطابقة تماماً للمتتاليات الحسابية المدونة لاحقاً ببردية ريند."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000340-L05",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:04:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-340",
+                "sequence_no": 5,
+                "transliteration": "11 jdn r-6 r-66",
+                "hieroglyph": "𓎆𓏤𓂋𓎆𓂋𓎆𓎆𓎆𓎆𓎆𓎆𓏤𓏤𓏤𓏤𓏤𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L05: قسمة الرقم 2 على 11: نتيجتها الكسر ويُعبر عنه بـ (السدس 1/6 مضافاً إليه الجزء من ستة وستين 1/66)،",
+                "english": "Line L05: Division of 2 by 11: expressed as the unit fractions 1/6 and 1/66,",
+                "german": "Zeile L05: Division von 2 durch 11: ausgedrückt als die Stammbrüche 1/6 und 1/66,",
+                "french": "Ligne L05: Division de 2 par 11 : exprimée sous forme de fractions unitaires 1/6 et 1/66,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "fractional_table_entry_2_divided_by_11"
+            },
+            "layer4_writing": {
+                "mdc_code": "11 jdn r-6 r-66"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PETRIE-UC32159",
+                        "name": "Lahun Mathematical Fragment UC 32159, Petrie Museum UCL",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jdn", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "r-6", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "r-66", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الخامس يعرض تفكيك الكسر الفردي الصعب 2/11."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000340-L06",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:05:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-340",
+                "sequence_no": 6,
+                "transliteration": "13 jdn r-8 r-52 r-104",
+                "hieroglyph": "𓎆𓏥𓂋𓎆𓂋𓎆𓎆𓎆𓎆𓎆𓏤𓏤𓂋𓍢𓏤𓏤𓏤𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L06: قسمة الرقم 2 على 13: نتيجتها الكسر ويُعبر عنه بمجموع ثلاثة كسور أحادية: (الثمن 1/8 مضافاً إليه 1/52 مضافاً إليه 1/104)،",
+                "english": "Line L06: Division of 2 by 13: expressed as the unit fractions 1/8, 1/52, and 1/104,",
+                "german": "Zeile L06: Division von 2 durch 13: ausgedrückt als die Stammbrüche 1/8, 1/52 und 1/104,",
+                "french": "Ligne L06: Division de 2 par 13 : exprimée sous forme de fractions unitaires 1/8, 1/52 et 1/104,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "fractional_table_entry_2_divided_by_13"
+            },
+            "layer4_writing": {
+                "mdc_code": "13 jdn r-8 r-52 r-104"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PETRIE-UC32159",
+                        "name": "Lahun Mathematical Fragment UC 32159, Petrie Museum UCL",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jdn", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "r-8", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "r-52", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "r-104", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر السادس يستعرض التفكيك المعقد جداً لـ 2/13 والذي كان يتطلب من الكاتب معايير حسابية صارمة يلتزم بها المطبخ الإداري الفرعوني."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000340-L07",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:06:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-340",
+                "sequence_no": 7,
+                "transliteration": "15 jdn r-10 r-30",
+                "hieroglyph": "𓎆𓏥𓏥𓂋𓎆𓂋𓎆𓎆𓎆",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L07: قسمة الرقم 2 على 15: نتيجتها الكسر ويُعبر عنه بـ (العشر 1/10 مضافاً إليه الثلاثون 1/30)،",
+                "english": "Line L07: Division of 2 by 15: expressed as the unit fractions 1/10 and 1/30,",
+                "german": "Zeile L07: Division von 2 durch 15: ausgedrückt als die Stammbrüche 1/10 und 1/30,",
+                "french": "Ligne L07: Division de 2 par 15 : exprimée sous forme de fractions unitaires 1/10 et 1/30,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "fractional_table_entry_2_divided_by_15"
+            },
+            "layer4_writing": {
+                "mdc_code": "15 jdn r-10 r-30"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PETRIE-UC32159",
+                        "name": "Lahun Mathematical Fragment UC 32159, Petrie Museum UCL",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jdn", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "r-10", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "r-30", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر السابع يفكك قسمة 2 على 15 وهي أحدى التناسبات الأساسية لتوزيع جذاذات الخبز."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000340-L08",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:07:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-340",
+                "sequence_no": 8,
+                "transliteration": "17 jdn r-12 r-51 r-68",
+                "hieroglyph": "𓎆𓏥𓏥𓏥𓂋𓎆𓏤𓏤𓂋𓎆𓎆𓎆𓎆𓎆𓏤𓂋𓎆𓎆𓎆𓎆𓎆𓎆𓏤𓏤𓏤𓏤𓏤𓏤𓏤𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L08: قسمة الرقم 2 على 17: نتيجتها الكسر ويُعبر عنه بـ (1/12 مضافاً إليه 1/51 مضافاً إليه 1/68)،",
+                "english": "Line L08: Division of 2 by 17: expressed as the unit fractions 1/12, 1/51, and 1/68,",
+                "german": "Zeile L08: Division von 2 durch 17: ausgedrückt als die Stammbrüche 1/12, 1/51 und 1/68,",
+                "french": "Ligne L08: Division de 2 par 17 : exprimée sous forme de fractions unitaires 1/12, 1/51 et 1/68,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "fractional_table_entry_2_divided_by_17"
+            },
+            "layer4_writing": {
+                "mdc_code": "17 jdn r-12 r-51 r-68"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PETRIE-UC32159",
+                        "name": "Lahun Mathematical Fragment UC 32159, Petrie Museum UCL",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jdn", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "r-12", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "r-51", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "r-68", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الثامن يفكك قسمة 2 على 17 وهي توضح رقي القدرة الحسابية للدولة الوسطى."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000340-L09",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:08:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-340",
+                "sequence_no": 9,
+                "transliteration": "19 jdn r-12 r-76 r-114",
+                "hieroglyph": "𓎆𓏥𓏥𓏥𓏥𓂋𓎆𓏤𓏤𓂋𓎆𓎆𓎆𓎆𓎆𓎆𓎆𓏤𓏤𓂋𓍢𓎆𓏤𓏤𓏤𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L09: قسمة الرقم 2 على 19: نتيجتها الكسر ويُعبر عنه بـ (1/12 مضافاً إليه 1/76 مضافاً إليه 1/114)،",
+                "english": "Line L09: Division of 2 by 19: expressed as the unit fractions 1/12, 1/76, and 1/114,",
+                "german": "Zeile L09: Division von 2 durch 19: ausgedrückt als die Stammbrüche 1/12, 1/76 und 1/114,",
+                "french": "Ligne L09: Division de 2 par 19 : exprimée sous forme de fractions unitaires 1/12, 1/76 et 1/114,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "fractional_table_entry_2_divided_by_19"
+            },
+            "layer4_writing": {
+                "mdc_code": "19 jdn r-12 r-76 r-114"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PETRIE-UC32159",
+                        "name": "Lahun Mathematical Fragment UC 32159, Petrie Museum UCL",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jdn", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "r-12", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "r-76", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "r-114", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر التاسع يفكك الكسر الصعب 2/19 لاهوتياً وحسابياً ليكون مرجعاً للطلاب."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000340-L10",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:09:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-340",
+                "sequence_no": 10,
+                "transliteration": "21 jdn r-14 r-42",
+                "hieroglyph": "𓎆𓎆𓏤𓂋𓎆𓏤𓏤𓏤𓏤𓂋𓎆𓎆𓎆𓎆𓏤𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L10: قسمة الرقم 2 على 21: نتيجتها الكسر ويُعبر عنه بـ (1/14 مضافاً إليه 1/42).",
+                "english": "Line L10: Division of 2 by 21: expressed as the unit fractions 1/14 and 1/42.",
+                "german": "Zeile L10: Division von 2 durch 21: ausgedrückt als die Stammbrüche 1/14 und 1/42.",
+                "french": "Ligne L10: Division de 2 par 21 : exprimée sous forme de fractions unitaires 1/14 et 1/42.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "fractional_table_entry_2_divided_by_21"
+            },
+            "layer4_writing": {
+                "mdc_code": "21 jdn r-14 r-42"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PETRIE-UC32159",
+                        "name": "Lahun Mathematical Fragment UC 32159, Petrie Museum UCL",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jdn", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "r-14", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "r-42", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر العاشر والختامي لجدول اللاهون (UC 32159)؛ حيث يقف النقش الهيراتي المكتشف عند قسمة 2/21، وهو مكمل متطابق للنص الكلي لجدول الـ 2/n ببردية ريند الرياضية الكبرى [1.1.1، 1.1.5]."
+            }
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-001859",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:35.320484Z"
+    },
+    "layer1_core": {
+        "transliteration": "wDb-rd",
+        "hieroglyph": "𓎗𓃀𓈆𓂾𓎗𓃀𓈆𓂋𓂧𓂾𓈄𓂾𓆓𓃀𓅱𓂾",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "اعادة توجيه (القرابين من المعبد إلى المقبرة)، طقس عكس القرابين (عودة القرابين مرة أخرى في المعبد من أمام المعبود) (جزء من القرابين يأخذها الكهنة كراتب لهم نظير خدمتهم بالمعبد)",
+        "english": "reversion (of offerings from temple to tomb), the reversion-offering itself",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+13397",
+        "gardiner_code": "unknown",
+        "gardiner_description": "unknown",
+        "gardiner_details": "unknown"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

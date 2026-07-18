@@ -1,0 +1,268 @@
+{
+    "text_id": "EGY-322",
+    "metadata": {
+        "title_ar": "نقوش فيضان النيل لخنوم حتب الثاني ببني حسن",
+        "title_en": "The Inundation Inscription of Khnumhotep II at Beni Hasan",
+        "museum_catalog_no": "Tomb of Khnumhotep II (Tomb 3), Beni Hasan (Lines L01-L05)",
+        "stable_tla_id": "unknown"
+    },
+    "sentences": [
+        {
+            "metadata": {
+                "id": "HYP-TXT-000322-L01",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T00:30:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-322",
+                "sequence_no": 1,
+                "transliteration": "rnpt-sp 19 ẖr ḥm n ḥr ḥkn-m-mꜣˁ.t",
+                "hieroglyph": "𓆳𓏏𓊗𓎆𓏤𓏤𓏤𓏤𓏤𓏤𓏤𓏤𓏤𓌨𓍛𓏤𓈖𓅃𓎛𓎡𓈖𓐝𓐙𓂝𓏏",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L01: السنة التاسعة عشرة من الحكم، تحت جلالة وسلطان حورس: حكن-إم-مأعت (المتعبد بالعدالة)،",
+                "english": "Line L01: Regnal year 19, under the majesty of Horus: Hekenemmaat (Who praises Maat),",
+                "german": "Zeile L01: Regierungsjahr 19, unter der Majestät des Horus: Heken-em-maat,",
+                "french": "Ligne L01: L'an 19 du règne, sous la majesté d'Horus : Hekenemmaât (Qui loue Maât),",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "date_formula_with_royal_horus_name"
+            },
+            "layer4_writing": {
+                "mdc_code": "rnpt-sp 19 Xr Hm n Hr Hkn-m-ma_at"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "TOMB-BENI-HASAN-3",
+                        "name": "Tomb of Khnumhotep II (Tomb 3), Beni Hasan",
+                        "type": "tomb_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "rnpt-sp", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥm", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḥkn-m-mꜣˁ.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الأول يسجل تاريخ الرصد الدقيق للعام 19 لعهد أمنمحات الثاني؛ والاسم الحوري للملك هو 'حكن-إم-مأعت' (ḥkn-m-mꜣˁ.t) [3.2.1]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000322-L02",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T00:31:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-322",
+                "sequence_no": 2,
+                "transliteration": "nsw-bỉty nb-kꜣw-rˁ dỉ ˁnḫ ḏt mi rˁ",
+                "hieroglyph": "𓇓𓏏𓆤𓏏𓎟𓂓𓏥𓇳𓂞𓋹𓆖𓐝𓇳𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L02: ملك مصر العليا والسفلى (نوب-كاو-رع)، المعطى الحياة مثل رع إلى الأبد،",
+                "english": "Line L02: King of Upper and Lower Egypt: Nubkaure (Amenemhat II), given life like Re forever,",
+                "german": "Zeile L02: König von Ober- und Unterägypten: Nubkaure (Amenemhat II.), dem Leben gegeben ist wie Re in Ewigkeit,",
+                "french": "Ligne L02: Roi de Haute et Basse-Égypte : Noubkaourê (Amenemhat II), doué de vie comme Rê éternellement,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "royal_throne_name_with_optative_immortality_epithet"
+            },
+            "layer4_writing": {
+                "mdc_code": "nsw-bity nb-k3w-ra di anx Dt mi ra"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "TOMB-BENI-HASAN-3",
+                        "name": "Tomb of Khnumhotep II (Tomb 3), Beni Hasan",
+                        "type": "tomb_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "nsw-bỉty", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "nb-kꜣw-rˁ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ˁnḫ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الثاني يسجل اسم التتويج الصحيح لأمنمحات الثاني 'نوب-كاو-رع' (nb-kꜣw-rˁ) ويعني حرفياً 'ذهبية هي أرواح رع' [3.2.1]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000322-L03",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T00:32:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-322",
+                "sequence_no": 3,
+                "transliteration": "smꜣ jmy-r ḫꜣs.t ẖnm-ḥtp sꜣ n m-sḏr.t",
+                "hieroglyph": "𓋴𓌳𓄿𓅓𓂋𓈉𓎡𓈖𓅓𓊵𓏏𓊪𓅭𓏤𓈖𓐝𓋴𓂧𓂋𓏏𓁀",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L03: جرى التنسيق والتسجيل بواسطة حاكم الإقليم الشرقي وحارس الصحراء (خنوم-حتب الثاني)، ابن الأمير الراحل،",
+                "english": "Line L03: recorded and organized by the Nomarch of the desert, Khnumhotep II, son of the deceased prince,",
+                "german": "Zeile L03: organisiert und erfasst durch den Gaufürsten der Wüste, Chnumhotep II., Sohn des verstorbenen Fürsten,",
+                "french": "Ligne L03: enregistré et organisé par le Nomarque du désert, Khnoumhotep II, fils du prince défunt,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "administrative_title_and_genealogy_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "sma jmy-r xAs.t Xnm-Htp s3 n m sDr.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "TOMB-BENI-HASAN-3",
+                        "name": "Tomb of Khnumhotep II (Tomb 3), Beni Hasan",
+                        "type": "tomb_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "smꜣ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "jmy-r-ḫꜣs.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ẖnm-ḥtp", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللقب 'إيمي-ر خاست' (jmy-r ḫꜣs.t) يوضح رتبته الإدارية كحاكم للإقليم الشرقي الحاضن لأعمال الزراعة والري بمصر الوسطى."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000322-L04",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T00:33:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-322",
+                "sequence_no": 4,
+                "transliteration": "ḥr rḏj.t ḥsb mtr wr n ḥˁp jmy-r tꜣ",
+                "hieroglyph": "𓁷𓏤𓂞𓏏𓎛𓋴𓃀𓌳𓏏𓂋𓅨𓂋𓈖𓈡𓐝𓂋𓇾𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L04: بتدوين وحساب المنسوب والقياس العظيم لمياه فيضان النيل (حابي) الغامر لأرض الإقليم،",
+                "english": "Line L04: recording the measurement of the great inundation of Hapy (the Nile) in the land,",
+                "german": "Zeile L04: Erfassen des Maßes der großen Überschwemmung des Hapy (Nil) im Land,",
+                "french": "Ligne L04: enregistrant la mesure de la grande inondation de Hâpy (le Nil) dans le pays,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "adverbial_phrase",
+                "syntax_structure": "progressive_Hr_infinitive_with_objective_great_inundation_genitive"
+            },
+            "layer4_writing": {
+                "mdc_code": "Hr rdj.t Hsb mtr wr n Hap jmy-r t3"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "TOMB-BENI-HASAN-3",
+                        "name": "Tomb of Khnumhotep II (Tomb 3), Beni Hasan",
+                        "type": "tomb_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "rḏj", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥsb", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḥˁp", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "jmy-r-tꜣ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ 'حابي' (ḥˁp) يعبر لاهوتياً وفلكياً عن فيضان النيل السنوي المغذي لأراضي كمت [3.2.1]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000322-L05",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T00:34:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-322",
+                "sequence_no": 5,
+                "transliteration": "ḥr rḫ ḳꜣ n ḥˁp m mḥ 12 šmˁ.w",
+                "hieroglyph": "𓁷𓏤𓂋𓐍𓈎𓄿𓈖𓈡𓐝𓂾𓏤𓎆𓏤𓏤𓆰𓏥𓏲",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L05: لمعرفة ورصد أقصى منسوب وارتفاع لفيضان النيل والذي بلغ قياسه اثني عشر (12) ذراعاً بمقاييس مصر العليا.",
+                "english": "Line L05: knowing the height of the Nile inundation at twelve (12) cubits of Upper Egypt.",
+                "german": "Zeile L05: Kennen der Höhe der Nilüberschwemmung von zwölf (12) Ellen von Oberägypten.",
+                "french": "Ligne L05: connaissant la hauteur de l'inondation du Nil à douze (12) coudées de Haute-Égypte.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "adverbial_phrase",
+                "syntax_structure": "progressive_Hr_infinitive_with_numerical_measurement_cubit"
+            },
+            "layer4_writing": {
+                "mdc_code": "Hr rX qA n Hap m mH 12 Sm_a.w"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "TOMB-BENI-HASAN-3",
+                        "name": "Tomb of Khnumhotep II (Tomb 3), Beni Hasan",
+                        "type": "tomb_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "rḫ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḳꜣ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "mḥ", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "šmˁ.w", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الذراع 'مح' (mḥ) هو الوحدة المعتمدة لقياس المياه، والمنسوب 12 ذراعاً يمثل فيضاناً مثالياً مروياً للأراضي في تلك السنة [3.2.1]."
+            }
+        }
+    ]
+}

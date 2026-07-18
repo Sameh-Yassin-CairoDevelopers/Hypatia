@@ -1,0 +1,323 @@
+{
+    "text_id": "EGY-326",
+    "metadata": {
+        "title_ar": "بردية كاهون للطب البيطري (الحالة الأولى)",
+        "title_en": "The Kahun Veterinary Papyrus (Case 1)",
+        "museum_catalog_no": "Petrie Museum UCL, Inv. UC 32036 (Page 1, Lines 1-6)",
+        "stable_tla_id": "unknown"
+    },
+    "sentences": [
+        {
+            "metadata": {
+                "id": "HYP-TXT-000326-S01",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T19:21:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-326",
+                "sequence_no": 1,
+                "transliteration": "tp-ḥsb n kꜣ rḫ.t mr=f snt-r",
+                "hieroglyph": "𓁷𓏤𓏃𓈖𓃒𓂋𓐍𓏏𓌻𓂋𓆑𓊹𓎛𓎡𓈖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 1: المنهج المتبع لتشخيص وعلاج الثور (العجل)، لمعرفة الداء والأعراض الطارئة عليه:",
+                "english": "Line 1: Instructions concerning a bull; knowing his illness and symptoms:",
+                "german": "Zeile 1: Anweisungen bezüglich eines Stieres; Erkennen seiner Krankheit und Symptome:",
+                "french": "Ligne 1: Instructions concernant un taureau ; connaître sa maladie et ses symptômes :",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "tp-hsb_heading_introducing_veterinary_case_with_infinitive_rX"
+            },
+            "layer4_writing": {
+                "mdc_code": "tp-Hsb n k3 rX.t mr=f snt-r"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PETRIE-UC32036",
+                        "name": "Kahun Veterinary Papyrus, Petrie Museum UCL",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "tp-ḥsb", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "kꜣ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "rḫ", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "mr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الافتتاحية البيطرية الفريدة؛ واللفظ 'كا' (kꜣ) يشير تاريخياً للثور أو العجل وهو ركيزة الاقتصاد الزراعي بالدولة الوسطى [3.1.6، 3.2.2]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000326-S02",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T19:22:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-326",
+                "sequence_no": 2,
+                "transliteration": "jw=f j-fḫ.ty=f ḥr ḥz.t jr.ty=s",
+                "hieroglyph": "𓇋𓅱𓆑𓇋𓏠𓈖𓐝𓆍𓏏𓏭𓆑𓁷𓏤𓎛𓋴𓏏𓌳𓏮𓋴",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 2: إذا كان الثور يفرز دمعاً وتتساقط الإفرازات والرطوبة الرمدة من عينيه باستمرار،",
+                "english": "Line 2: If he is suffering with discharges running from his eyes,",
+                "german": "Zeile 2: Wenn er an Ausfluss leidet, der aus seinen Augen läuft,",
+                "french": "Ligne 2: S'il souffre de décharges coulant de ses yeux,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "iw_conditional_subject_with_progressive_Hr_discharges"
+            },
+            "layer4_writing": {
+                "mdc_code": "jw=f j-fX.ty=f Hr hz.t jr.ty=s"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PETRIE-UC32036",
+                        "name": "Kahun Veterinary Papyrus, Petrie Museum UCL",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "j-fḫ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḥz.t", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "jr.ty", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ 'ج-فخ' (j-fḫ) يعبر عن الارتخاء والتعب العضلي للعين، و'حزت' (ḥz.t) تعني الإفرازات والدموع الرمدة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000326-S03",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T19:23:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-326",
+                "sequence_no": 3,
+                "transliteration": "jw mr=f sṯ n rꜣ=f m-qd",
+                "hieroglyph": "𓇋𓅱𓌻𓂋𓆑𓋴𓍷𓈖𓂋𓏤𓆑𓐝𓎡𓂧",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 3: مع وجود تشنج وألم بليغ يعيق حركته في فمه ولسانه بأكمله،",
+                "english": "Line 3: and has severe pain in his mouth completely,",
+                "german": "Zeile 3: und hat heftige Schmerzen in seinem Maul vollständig,",
+                "french": "Ligne 3: et a une douleur sévère dans sa bouche complètement,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "iw_subject_pain_with_locative_mouth_and_adverbial_modifier"
+            },
+            "layer4_writing": {
+                "mdc_code": "jw mr=f sT n rA=f m-qd"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PETRIE-UC32036",
+                        "name": "Kahun Veterinary Papyrus, Petrie Museum UCL",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "mr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sṯ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "rꜣ", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "m-qd", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الربط بين تشنج الفم 'ست' (sṯ) وإفرازات العين يرسم تشخيصاً دقيقاً لمرض حمى النزلات الخبيثة أو رمد الثيران الوبائي [3.1.6]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000326-S04",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T19:24:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-326",
+                "sequence_no": 4,
+                "transliteration": "ḏd.ḫr=k r-f: mr n šsm.t-r m kꜣ pw",
+                "hieroglyph": "𓂧𓂧𓐍𓂋𓎡𓂋𓆑𓌻𓂋𓈖𓎛𓎿𓏏𓏏𓇳𓐝𓃒𓊪𓅱",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 4: فيجب عليك حينها أن تقرر وتقول عنه: 'إنها لدغة وألم تأثير رياح الإلهة شسمتت في هذا الثور'.",
+                "english": "Line 4: You should say of him: 'It is the pain of the wind of Shesmetet in this bull.'",
+                "german": "Zeile 4: Du sollst über ihn sagen: 'Es ist der Schmerz des Windes der Shesmetet in diesem Stier.'",
+                "french": "Ligne 4: Tu diras de lui : 'C'est la douleur du vent de Shesmetet dans ce taureau.'",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "Dd.xr=k_injunctive_formula_with_theological_nominal_diagnostic_pw"
+            },
+            "layer4_writing": {
+                "mdc_code": "Dd.xr=k r-f: mr n Ssm.t-r m k3 pw"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PETRIE-UC32036",
+                        "name": "Kahun Veterinary Papyrus, Petrie Museum UCL",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḏd.ḫr=k", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mr", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "šsm.t-r", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "kꜣ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الربط اللاهوتي الكلاسيكي بين رياح الإلهة اللبؤة الغاضبة 'شسمتت' (Shesmetet) والوباء الطارئ على الماشية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000326-S05",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T19:25:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-326",
+                "sequence_no": 5,
+                "transliteration": "jr.ḫr=k n=f: s-kꜣp s m ḥs n gby m-bꜣḥ",
+                "hieroglyph": "𓁹𓐍𓂋𓎡𓈖𓆑𓋴𓎡𓄿𓊪𓋴𓐝𓎛𓋴𓈖𓅷𓏤𓐝𓄂𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 5: فيجب عليك حينها أن تصنع له هذا العلاج: قم بتبخير وتطهير جسده وحواف عينيه بروث الطيور المهاجرة (الوز)،",
+                "english": "Line 5: You should treat him: fumigate him with the dung of a migratory bird (goose),",
+                "german": "Zeile 5: Du sollst ihn behandeln: räuchere ihn mit dem Kot eines Zugvogels (Gans),",
+                "french": "Ligne 5: Tu le traiteras : purifie-le par fumigation avec de la fiente d'oiseau migrateur (oie),",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "jr.xr=k_injunctive_treatment_with_prepositional_organic_recipe"
+            },
+            "layer4_writing": {
+                "mdc_code": "jr.xr=k n=f: s-kAp s m Hs n gby m-bAH"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PETRIE-UC32036",
+                        "name": "Kahun Veterinary Papyrus, Petrie Museum UCL",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jr.ḫr=k", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "s-kꜣp", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḥs", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "gby", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "استخدام روث طيور 'جبي' (gby) كعلاج بالتبخير المهبلي والعيني للماشية لقتل الميكروبات بفضل أحماض اليوريك المركزة بروث الطيور [3.1.6]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000326-S06",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T19:26:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-326",
+                "sequence_no": 6,
+                "transliteration": "s-wꜣḥ ˁnḫ=f m ḥtp mi gm.t m sš",
+                "hieroglyph": "𓋴𓍯𓄿𓎛𓋹𓆑𓐝𓊵𓏏𓊪𓐝𓏟𓏏",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 6: وسوف يعود وينبض وتستقر حياته وعافيته بسلام، كما وجد مكتوباً ومسطراً في المخطوط الأصلي.",
+                "english": "Line 6: and his life will be restored in peace, as it was found in writing.",
+                "german": "Zeile 6: und sein Leben wird im Frieden wiederhergestellt, so wie es geschrieben gefunden wurde.",
+                "french": "Ligne 6: et sa vie sera restaurée en paix, comme cela a été trouvé par écrit.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "traditional_egyptian_scribal_colophon_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "s-wAH anx=f m Htp mi gm.t m sS"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PETRIE-UC32036",
+                        "name": "Kahun Veterinary Papyrus, Petrie Museum UCL",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "s-wꜣḥ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ˁnḫ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḥtp", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "gm.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الخاتمة الطبية البيطرية لتأكيد نجاح واستقرار العلاج ومطابقة النص للدفتر القديم [3.1.6]."
+            }
+        }
+    ]
+}

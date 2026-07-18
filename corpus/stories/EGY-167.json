@@ -1,0 +1,535 @@
+{
+    "text_id": "EGY-167",
+    "metadata": {
+        "title_ar": "أنشودة عازف القيثارة لبيت الملك إنتف",
+        "title_en": "The Song of the Harper from the House of King Intef",
+        "museum_catalog_no": "British Museum EA 10060 (Papyrus Harris 500)",
+        "stable_tla_id": "unknown"
+    },
+    "sentences": [
+        {
+            "metadata": {
+                "id": "HYP-TXT-000167-S01",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-10T13:30:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-167",
+                "sequence_no": 1,
+                "transliteration": "wꜣḏ-wj wr pn nfr šꜣ.t-wꜣ nfr",
+                "hieroglyph": "𓅓𓌳𓆰𓅨𓂋𓊪𓈖𓄤𓏤𓆷𓄿𓏏𓍯𓄤𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "مزدهر ومبارك هو هذا الأمير الصالح والجميل، والقدر المحتوم هو مصير حسن مبهج.",
+                "english": "He is happy, this good prince; kindly is the fate, a beautiful destiny.",
+                "german": "Glücklich ist dieser gute Fürst; gütig ist das Schicksal, ein schönes Los.",
+                "french": "Heureux est ce bon prince ; doux est le destin, une belle destinée.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "adjectival_predicate_with_intensifying_suffix_wj"
+            },
+            "layer4_writing": {
+                "mdc_code": "wAd-wj wr pn nfr Sa.t-wa nfr"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BM-EA10060",
+                        "name": "Papyrus Harris 500, British Museum",
+                        "type": "papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "wꜣḏ-wj", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "wr", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "pn", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "nfr", "lemma_ref": null},
+                    {"token_no": 5, "transliteration": "šꜣ.t-wꜣ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الافتتاحية الشعرية الكلاسيكية الموقرة التي تقر بوجود السعادة في جوار الأقدار المبرمة للكون [3.1.2]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000167-S02",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-10T13:31:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-167",
+                "sequence_no": 2,
+                "transliteration": "smꜣ-tꜣ swꜣ ky.wy ḥr mn ḏr-r-p.t jt.w",
+                "hieroglyph": "𓋴𓌳𓄿𓇾𓋴𓍯𓂻𓎡𓏭𓏭𓏲𓁷𓏤𓏠𓈖𓆓𓂋𓂋𓇯𓇋𓏏𓏲𓏪",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "تزول وتفنى أجيال من الوجود، وتبقى وتثبت أخرى في مكانها، منذ عهد الأجداد القدامى.",
+                "english": "A generation passes away, another remains, since the times of the ancestors.",
+                "german": "Eine Generation vergeht, eine andere bleibt bestehen, seit den Zeiten der Vorfahren.",
+                "french": "Une génération passe, une autre demeure, depuis le temps des ancêtres.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "coordinated_active_clauses_with_temporal_limit"
+            },
+            "layer4_writing": {
+                "mdc_code": "sma-t3 swa ky.wy Hr mn Dr-r-p.t jt.w"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BM-EA10060",
+                        "name": "Papyrus Harris 500, British Museum",
+                        "type": "papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "smꜣ-tꜣ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "swꜣ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ky.wy", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "mn", "lemma_ref": null},
+                    {"token_no": 5, "transliteration": "jt.w", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "المفهوم الفلسفي الأشهر لتعاقب الأجيال وحركة الوجود المستمرة على الأرض [3.1.2]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000167-S03",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-10T13:32:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-167",
+                "sequence_no": 3,
+                "transliteration": "nṯrw ntyw ḫpr r-ḥꜣ.t sḏr.w m mr-w.w=sn",
+                "hieroglyph": "𓊹𓊹𓊹𓈖𓏏𓏭𓏥𓐍𓊪𓂋𓂋𓄂𓏤𓋴𓂧𓂋𓏲𓐝𓉐𓌸𓂋𓏥𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "والآلهة (الملوك القدامى) الذين كانوا من قبل يرقدون الآن ويستريحون في أهراماتهم ومقابرهم العظيمة.",
+                "english": "The gods (old kings) who were before rest in their pyramids.",
+                "german": "Die Götter (alten Könige), die früher waren, ruhen in ihren Pyramiden.",
+                "french": "Les dieux (anciens rois) qui étaient autrefois reposent dans leurs pyramides.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "noun_subject_with_relative_clause_and_stative_adverbial"
+            },
+            "layer4_writing": {
+                "mdc_code": "nTrw ntyw xpr r-HA.t sDr.w m mr-w.w=sn"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BM-EA10060",
+                        "name": "Papyrus Harris 500, British Museum",
+                        "type": "papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "nṯrw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ntyw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "sḏr.w", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "mr-w.w", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "استخدام اللفظ 'نثرو' (nṯrw) للإشارة للملوك المتوفين بصفة التقديس الأوزيري التاريخي."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000167-S04",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-10T13:33:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-167",
+                "sequence_no": 4,
+                "transliteration": "smḫ.w šps.w m-mjt.t qrsw m mr-w.w=sn",
+                "hieroglyph": "𓋴𓐝𓆄𓏲𓋨𓏥𓐝𓏠𓏏𓏏𓈎𓂋𓋴𓏲𓐝𓉐𓌸𓂋𓏥𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "والنبلاء الأبرار والمبجلون كذلك يُقبرون ويُدفنون في مقابرهم الشامخة.",
+                "english": "The blessed nobles likewise are buried in their tombs.",
+                "german": "Die gesegneten Edlen sind ebenso in ihren Gräbern bestattet.",
+                "french": "Les nobles bienheureux sont de même ensevelis dans leurs tombes.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "noun_subject_with_passive_participle_adverbial"
+            },
+            "layer4_writing": {
+                "mdc_code": "smx.w Sps.w m-mjt.t qrsw m mr-w.w=sn"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BM-EA10060",
+                        "name": "Papyrus Harris 500, British Museum",
+                        "type": "papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "smḫ.w", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "šps.w", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "qrsw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "النبلاء الأبرار 'سمخو' (smḫ.w) يمثل الأرواح المضيئة والمطهرة المستقرة في مقابر الجبانة الغربية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000167-S05",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-10T13:34:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-167",
+                "sequence_no": 5,
+                "transliteration": "qd.w ḥw.wt n s.wt-sn pr.w jr.y=sn mi-m",
+                "hieroglyph": "𓎡𓂋𓏲𓉐𓏥𓈖𓊨𓏏𓏥𓋴𓈖𓉐𓏥𓁹𓏭𓋴𓈖𓐝𓏠",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "والذين شيدوا وصنعوا القبور الشامخة، زالت أماكنهم وفنيت، فماذا حل وصار بها؟",
+                "english": "Those who built tombs, their places are gone. What has become of them?",
+                "german": "Diejenigen, die Gräber bauten, ihre Stätten sind vergangen. Was ist aus ihnen geworden?",
+                "french": "Ceux qui ont construit des tombes, leurs demeures ont disparu. Qu'en est-il advenu ?",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "noun_subject_with_perfective_circumstantial_and_interrogative_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "qd.w Hw.wt n s.wt-sn pr.w jr.y=sn mi-m"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BM-EA10060",
+                        "name": "Papyrus Harris 500, British Museum",
+                        "type": "papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "qd.w", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥw.wt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "s.wt", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "mi-m", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الاستفهام الفلسفي الوجودي 'إري-سن مي-إم' (ماذا حل بها؟) يعكس الحيرة حول خلود المعمار الحجري وجدواه بعد الموت [3.1.2]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000167-S06",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-10T13:35:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-167",
+                "sequence_no": 6,
+                "transliteration": "sḏm.n=j md.wt n jm-ḥtp ḥr-ḏd=f",
+                "hieroglyph": "𓄔𓈖𓇋𓐝𓂧𓏏𓏥𓈖𓇋𓏠𓈖𓊵𓏏𓊪𓁷𓏤𓂧𓂧𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "لقد سمعتُ وتدبرتُ كلمات الحكيم (إيمحتب) ومواعظ وحكم الحكيم (حور-جد-إف)، اللذين تُردد وتروى أقوالهما بالكامل.",
+                "english": "I have heard the words of Imhotep and Hardjedef, whose sayings are recited whole.",
+                "german": "Ich habe die Worte von Imhotep und Hardjedef gehört, deren Sprüche vollständig rezitiert werden.",
+                "french": "J'ai entendu les paroles d'Imhotep et de Hardjedef, dont les maximes sont récitées en entier.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n=j_transitive_with_indirect_proper_nouns"
+            },
+            "layer4_writing": {
+                "mdc_code": "sDm.n=j md.wt n jm-Htp Hr-dD=f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BM-EA10060",
+                        "name": "Papyrus Harris 500, British Museum",
+                        "type": "papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "sḏm.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "md.wt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "jm-ḥtp", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "ḥr-ḏd", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "استدعاء أسماء حكماء الدولة القديمة 'إيمحتب' و'حورجدإف' كشاهد على خلود الكلمة والحكمة وموت أجساد أصحابها."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000167-S07",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-10T13:36:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-167",
+                "sequence_no": 7,
+                "transliteration": "st.w=sn r-f mjn m s-sSw=sn pr.w r m-mjt.t n ḫpr=sn",
+                "hieroglyph": "𓊨𓏏𓏥𓋴𓈖𓂋𓆑𓏠𓈖𓐝𓋴𓏟𓏛𓋴𓈖𓉐𓏥𓂋𓐝𓏠𓏏𓏏𓈖𓐍𓊪𓂋𓋴𓈖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فماذا حل بأماكنهم وصروحهم اليوم؟ لقد تفتتت وتداعت جدرانهم، وزالت ديارهم وصارت كأن لم تكن قط!",
+                "english": "What of their places? Their walls have crumbled, their places are gone, as though they had never been.",
+                "german": "Was ist mit ihren Stätten? Ihre Mauern sind zerbröckelt, ihre Orte sind vergangen, als ob sie nie gewesen wären.",
+                "french": "Qu'en est-il de leurs demeures ? Leurs murs se sont effondrés, leurs places ont disparu, comme s'ils n'avaient jamais existé.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "interrogative_locative_with_coordinated_perfective_stative_clauses"
+            },
+            "layer4_writing": {
+                "mdc_code": "st.w=sn r-f mjn m s-sSw=sn pr.w r m-mjt.t n xpr=sn"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BM-EA10060",
+                        "name": "Papyrus Harris 500, British Museum",
+                        "type": "papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "st.w", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "s-sSw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "pr.w", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "ḫpr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التشبيه البلاغي البديع 'أر م-ميتت ن خبر-سن' (كأنها لم تكن قط) يفيد الفناء الفيزيائي التام لآثار الحجر الصخري عبر الزمن [3.1.2]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000167-S08",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-10T13:37:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-167",
+                "sequence_no": 8,
+                "transliteration": "nn jw m-jm r sḏd ḫr-sn r s-ḥr jb=n r Smt n s.t šm=sn",
+                "hieroglyph": "𓈖𓈖𓂻𓐝𓇋𓐝𓂋𓋴𓂧𓂧𓐍𓂋𓋴𓈖𓂋𓋴𓎛𓂋𓄣𓈖𓂋𓍯𓂻𓈖𓊨𓏏𓍯𓂻𓋴𓈖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "ولا يعود أحد من هناك (عالم الموتى) لكي يخبرنا بحالهم وشؤونهم، أو لكي يهدئ ويطمئن قلوبنا حتى نرتحل ونصل نحن أيضاً إلى حيث ذهبوا.",
+                "english": "None comes from there to tell of their state, to calm our hearts, until we go where they have gone.",
+                "german": "Niemand kommt von dort, um von ihrem Zustand zu berichten, um unsere Herzen zu beruhigen, bis wir dorthin gehen, wohin sie gegangen sind.",
+                "french": "Nul ne revient de là-bas pour raconter leur état, pour apaiser nos cœurs, jusqu'à ce que nous allions là où ils sont allés.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "nn_negated_motion_verb_with_multiple_purpose_infinitives"
+            },
+            "layer4_writing": {
+                "mdc_code": "nn jw m-jm r sDd xr-sn r s-Hr jb=n r Smt n s.t Sm=sn"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BM-EA10060",
+                        "name": "Papyrus Harris 500, British Museum",
+                        "type": "papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "nn", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "jw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "sḏd", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "s-ḥr", "lemma_ref": null},
+                    {"token_no": 5, "transliteration": "jb", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الاعتراف بعدم وجود اتصال أو عودة مادية من الغرب، وهو مظهر من مظاهر الشك المنهجي الإيجابي الميز لـ 'أناشيد عازف القيثارة' في الدولة الوسطى [3.1.2]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000167-S09",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-10T13:38:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-167",
+                "sequence_no": 9,
+                "transliteration": "jr hrw nfr smḫ qrs.t=k j-mỉ ˁntyw ḥr tp=k wnm.k m sš.w",
+                "hieroglyph": "𓁹𓁷𓏤𓄤𓋴𓐝𓆄𓈎𓂋𓋴𓏏𓎡𓇋𓐝𓎛𓎿𓁷𓏤𓏏𓏪𓎡𓅱𓈖𓐝𓎡𓐝𓋴𓏟𓏲𓏥",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "لذلك، اجعل يومك سعيداً ومبهجاً وعش في رضاء كامل! ضع العطر الفاخر على رأسك والبس الكتان الناعم المنسوج للآلهة.",
+                "english": "So make holiday and rejoice! Put fine myrrh on your head, dress in fine linen.",
+                "german": "So feiere einen schönen Tag und freue dich! Tu feine Myrrhe auf dein Haupt, kleide dich in feines Leinen.",
+                "french": "Fais donc la fête et réjouis-toi ! Mets de la myrrhe fine sur ta tête, vêts-toi de fin lin.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "multiple_hortatory_imperatives_with_direct_objects"
+            },
+            "layer4_writing": {
+                "mdc_code": "jr hrw nfr smx qrs.t=k j-mi antyw Hr tp=k wnm.k m sS.w"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BM-EA10060",
+                        "name": "Papyrus Harris 500, British Museum",
+                        "type": "papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "hrw-nfr", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "smḫ", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "ˁntyw", "lemma_ref": null},
+                    {"token_no": 5, "transliteration": "sš.w", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "النداء الفلسفي الأشهر 'إر هرو نفر' (jr hrw nfr) وتعني حرفياً 'اصنع يوماً جميلاً/عيداً'، وهي المعادل الكلاسيكي للعبارة اللاتينية (Carpe Diem) أو اغتنم اليوم [3.1.2]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000167-S10",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-10T13:39:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-167",
+                "sequence_no": 10,
+                "transliteration": "Sms jb=k ḥnˁ nfr.t=k jr ḫft-ḥr=k tp tꜣ r jw.t sw n jkb",
+                "hieroglyph": "𓋴𓉔𓏏𓂝𓏤𓄣𓎡𓎛𓈖𓂝𓄤𓏏𓎡𓁹𓐍𓆑𓏏𓁷𓎡𓁷𓏤𓇾𓂋𓂻𓏏𓆑𓈖𓇋𓎡𓃀",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "اتبع رغبتك وفؤادك وما يمليه عليك قلبك طالما حييت على الأرض، واقضِ شؤونك برضا، حتى يأتيك يوم النحيب والحداد الحتمي.",
+                "english": "Follow your heart and your happiness, do yourコマンド on earth as your heart commands, until that day of mourning comes to you.",
+                "german": "Folge deinem Herzen und deinem Glück, tue deine Werke auf Erden, wie dein Herz es befiehlt, bis jener Tag der Trauer über dich kommt.",
+                "french": "Suis ton cœur et ton bonheur, fais tes affaires sur terre selon tes désirs, jusqu'à ce que vienne pour toi ce jour de deuil.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "imperative_clauses_with_coordination_and_temporal_limit"
+            },
+            "layer4_writing": {
+                "mdc_code": "Sms jb=k Hna nfr.t=k jr xft-Hr=k tp t3 r jw.t sw n jkb"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BM-EA10060",
+                        "name": "Papyrus Harris 500, British Museum",
+                        "type": "papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "šms", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "jb", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "nfr.t", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "jw.t", "lemma_ref": null},
+                    {"token_no": 5, "transliteration": "jkb", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الخاتمة الفلسفية التي توازن بين انتهاز مباهج الحياة والرضا النفسي وبين الحقيقة الحتمية لوصول 'يوم النحيب' (sw n jkb) الذي لا مفر منه للجميع [3.1.2]."
+            }
+        }
+    ]
+}

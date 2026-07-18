@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-003018",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:36.558763Z"
+    },
+    "layer1_core": {
+        "transliteration": "nmi",
+        "hieroglyph": "𓈖𓌰𓅓𓇋𓂻𓈖𓉕𓅓𓊛𓈖𓌰𓅓𓂻𓈖𓌰𓅓𓇋𓂢𓈖𓌰𓅓𓇋𓉕𓂝",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "يسافر، يجتاز",
+        "english": "travel (intrans. vb.), traverse (trans. vb.)",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+13216",
+        "gardiner_code": "N35",
+        "gardiner_description": "Water ripple\tPhono. n.",
+        "gardiner_details": "N35a"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

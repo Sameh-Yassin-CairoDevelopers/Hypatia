@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-002884",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:36.411822Z"
+    },
+    "layer1_core": {
+        "transliteration": "niwt nt nHH",
+        "hieroglyph": "𓊖𓏏𓏤𓈖𓏏𓎛𓇳𓎛",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "مدينة الأبدية (الجبانة)",
+        "english": "city of eternity (necropolis)",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+13296",
+        "gardiner_code": "O49",
+        "gardiner_description": "Area with crossroads\tIdeo. in niwt “town.”",
+        "gardiner_details": "O50"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

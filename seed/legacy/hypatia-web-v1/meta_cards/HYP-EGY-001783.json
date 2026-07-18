@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-001783",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:35.240599Z"
+    },
+    "layer1_core": {
+        "transliteration": "wtw",
+        "hieroglyph": "𓅱𓏏𓅱𓍘𓇋𓅱𓏏𓅱𓏏",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "الابن البكر",
+        "english": "eldest son",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+13171",
+        "gardiner_code": "G43",
+        "gardiner_description": "Quail chick, var. Z7\tPhono. w.",
+        "gardiner_details": "G44"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

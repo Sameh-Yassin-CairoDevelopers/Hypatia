@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-000638",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:33.785066Z"
+    },
+    "layer1_core": {
+        "transliteration": "imt pr",
+        "hieroglyph": "𓏶𓅓𓏏𓏛𓏥𓉐𓏤𓏶𓅓𓏏𓉐𓏛𓏥𓇋𓏏𓏶𓉐𓏤",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "وصية، عهد",
+        "english": "will, testament",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+133F6",
+        "gardiner_code": "Z11",
+        "gardiner_description": "Crossed planks\tPhono. im. In imy “who is in.”",
+        "gardiner_details": "Aa. Unclassified"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

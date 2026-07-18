@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-005537",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:40.235332Z"
+    },
+    "layer1_core": {
+        "transliteration": "SsAw",
+        "hieroglyph": "𓄃𓅱𓏛𓏥𓈙𓊃𓐟𓄿𓍢𓄃𓏛𓏥",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "وصفة (طبية)",
+        "english": "(medical) prescription",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+13103",
+        "gardiner_code": "F5",
+        "gardiner_description": "Head of bubalis\tPhon. šs3. Det. and Ideo. in šs3 “skilled” and “prayer.”",
+        "gardiner_details": "F6"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

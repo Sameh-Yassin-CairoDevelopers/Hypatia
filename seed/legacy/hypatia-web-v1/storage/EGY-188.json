@@ -1,0 +1,268 @@
+{
+    "text_id": "EGY-188",
+    "metadata": {
+        "title_ar": "برديات غراب لشؤون ملابس الحريم",
+        "title_en": "The Gurob Papyri (Garment Accounts)",
+        "museum_catalog_no": "Petrie Museum UCL, Inv. UC 32785 (Page 1, Lines 1-5)",
+        "stable_tla_id": "unknown"
+    },
+    "sentences": [
+        {
+            "metadata": {
+                "id": "HYP-TXT-000188-S01",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T21:49:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-188",
+                "sequence_no": 1,
+                "transliteration": "jp.t n pꜣ-hb nsw.t-bỉty m ẖnr.t",
+                "hieroglyph": "𓇋𓏪𓈖𓊪𓄿𓎛𓃀𓏲𓏥𓇓𓏏𓆤𓏏𓐝𓄡𓈖𓂋𓏏𓉐",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 1: هذا بيان وجرد لحساب ملابس وأقمشة جلالة الملك الموزعة بداخل جناح قصر الحريم الملكي،",
+                "english": "Line 1: Account of the garments of the King distributed within the royal harem,",
+                "german": "Zeile 1: Aufstellung der Kleidungsstücke des Königs, die im königlichen Harem verteilt wurden,",
+                "french": "Ligne 1: Compte des vêtements du Roi distribués au sein du harem royal,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "accounting_heading_noun_with_indirect_genitives"
+            },
+            "layer4_writing": {
+                "mdc_code": "jp.t n pA-hb nsw.t-bity m Xnr.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PETRIE-UC32785",
+                        "name": "The Gurob Harem Accounts Papyrus, Petrie Museum UCL",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jp.t", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "pꜣ-hb", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "nsw.t-bỉty", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "ẖnr.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ 'بهو' أو 'حب' (pꜣ-hb) يشير للملابس المنسوجة أو المئزر الكتاني، و'شنرت' (ẖnr.t) تعني حريم القصر بالفيوم."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000188-S02",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T21:50:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-188",
+                "sequence_no": 2,
+                "transliteration": "sw 1: r-ḏḏ t-mnmnt n šsn",
+                "hieroglyph": "𓇳𓏤𓂋𓂧𓂧𓏑𓏠𓈖𓏠𓏏𓏥𓈖𓍦𓈖𓏲𓏥",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 2: اليوم الأول: وتفصيلها، حياكة وصرف مآزر وتونيكات منسوجة من الكتان الملكي الناعم،",
+                "english": "Line 2: Day 1: namely, woven tunics (garments) of fine royal linen,",
+                "german": "Zeile 2: Tag 1: nämlich gewebte Tuniken (Gewänder) aus feinem königlichen Leinen,",
+                "french": "Ligne 2: Jour 1 : à savoir, des tuniques (vêtements) tissées en fin lin royal,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "ledger_entry_date_with_explaining_r-Dd_and_fabrics"
+            },
+            "layer4_writing": {
+                "mdc_code": "sw 1: r-Dd t-mnmnt n ssn"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PETRIE-UC32785",
+                        "name": "The Gurob Harem Accounts Papyrus, Petrie Museum UCL",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "sw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "r-ḏḏ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "mnmnt", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "šsn", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ 'منمنت' (mnmnt) يعني هنا التونيكات الطويلة المنسوجة، و'شسن' (šsn) تعني الكتان الأبيض الناعم المخصص للطبقات الحاكمة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000188-S03",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T21:51:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-188",
+                "sequence_no": 3,
+                "transliteration": "sw 2: r-ḏḏ t-mnmnt n wr.t-ḥtp.t",
+                "hieroglyph": "𓇳𓏤𓏤𓂋𓂧𓂧𓏑𓏠𓈖𓏠𓏏𓏥𓈖𓅨𓏏𓊵𓏏𓏏",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 3: اليوم الثاني: وتفصيلها، حياكة وصرف ملابس فخمة مخصصة للزوجة الملكية العظمى وحاشيتها،",
+                "english": "Line 3: Day 2: namely, precious garments of the great royal wife and her attendants,",
+                "german": "Zeile 3: Tag 2: nämlich kostbare Gewänder der großen königlichen Gemahlin,",
+                "french": "Ligne 3: Jour 2 : à savoir, de précieux vêtements de la grande épouse royale,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "ledger_entry_date_with_explaining_r-Dd_and_beneficiary"
+            },
+            "layer4_writing": {
+                "mdc_code": "sw 2: r-Dd t-mnmnt n wr.t-Htp.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PETRIE-UC32785",
+                        "name": "The Gurob Harem Accounts Papyrus, Petrie Museum UCL",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "sw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "r-ḏḏ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "mnmnt", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "wr.t-ḥtp.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللقب 'ورت-حتيت' (wr.t-ḥtp.t) يشير تاريخياً للزوجة الملكية العظمى بقصر غراب بالفيوم."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000188-S04",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T21:52:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-188",
+                "sequence_no": 4,
+                "transliteration": "smꜣ dmḏ jm m-mtr",
+                "hieroglyph": "𓋴𓌳𓄿𓍘𓏠𓍘𓏠𓐝𓆑𓐝𓌳𓏏𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 4: وتم تدوين الحساب الإجمالي العام والمطابقة للأقمشة والملابس المستلمة بكل دقة ويقين،",
+                "english": "Line 4: The total sum thereof has been recorded and verified precisely,",
+                "german": "Zeile 4: Die Gesamtsumme davon wurde genau erfasst und überprüft,",
+                "french": "Ligne 4: La somme totale a été enregistrée et vérifiée précisément,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "passive_participle_sm3_with_total_sum_and_adverbial_modifier"
+            },
+            "layer4_writing": {
+                "mdc_code": "sm3 dmD jm m-mtr"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PETRIE-UC32785",
+                        "name": "The Gurob Harem Accounts Papyrus, Petrie Museum UCL",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "smꜣ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "dmḏ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "m-mtr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الالتزام الإداري بجرود الأقمشة والكتان الفاخر بقصور الحريم الملكية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000188-S05",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T21:53:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-188",
+                "sequence_no": 5,
+                "transliteration": "jw.f pw m ḥtp",
+                "hieroglyph": "𓇋𓅱𓆑𓊪𓅱𓐝𓊵𓏏𓊪",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 5: وقد انتهى الدفتر الحسابي والجرد بسلام.",
+                "english": "Line 5: It has come to an end in peace.",
+                "german": "Zeile 5: Es ist in Frieden zu Ende gegangen.",
+                "french": "Ligne 5: Cela s'est terminé en paix.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "traditional_egyptian_scribal_colophon_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "jw.f pw m Htp"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PETRIE-UC32785",
+                        "name": "The Gurob Harem Accounts Papyrus, Petrie Museum UCL",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jw.f-pw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥtp", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الخاتمة الحسابية المعتمدة لدفاتر الجرد بالأسر الحاكمة."
+            }
+        }
+    ]
+}

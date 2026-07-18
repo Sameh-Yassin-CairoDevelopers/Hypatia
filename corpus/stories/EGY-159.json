@@ -1,0 +1,678 @@
+{
+    "text_id": "EGY-159",
+    "metadata": {
+        "title_ar": "تعويذة حورس الذهبي (كتاب الموتى - الفصل 77)",
+        "title_en": "The Spell of the Golden Falcon (Book of the Dead - Chapter 77)",
+        "museum_catalog_no": "Papyrus of Nu, British Museum (BM EA 10477/10)",
+        "stable_tla_id": "TM-134520"
+    },
+    "sentences": [
+        {
+            "metadata": {
+                "id": "HYP-TXT-000159-S01",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T01:45:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-159",
+                "sequence_no": 1,
+                "transliteration": "rꜣ n ḫpr m bỉk n nwb",
+                "hieroglyph": "𓂋𓏤𓈖𓆄𓐝𓅡𓏤𓎡𓈖𓋨",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "تعويذة التحول إلى صقر من ذهب.",
+                "english": "Spell for taking the form of a golden falcon.",
+                "german": "Spruch, um sich in einen Falken aus Gold zu verwandeln.",
+                "french": "Formule pour prendre la forme d'un faucon d'or.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "spell_title_formula"
+            },
+            "layer4_writing": {
+                "mdc_code": "r3 n xpr m bik n nwb"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-10477",
+                        "name": "Papyrus of Nu",
+                        "type": "funerary_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "rꜣ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḫpr", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "bỉk", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "nwb", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "صيغة العنوان الرسمية للفصل 77 من كتاب الموتى."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000159-S02",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T01:45:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-159",
+                "sequence_no": 2,
+                "transliteration": "ḏd mdw ỉn Wsỉr N",
+                "hieroglyph": "𓆓𓂧𓌃𓇋𓈖𓊩𓁹",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "كلمات يلقيها أوزيريس (اسم المتوفى):",
+                "english": "Words spoken by the Osiris (Name of Deceased):",
+                "german": "Worte, gesprochen vom Osiris (Name des Verstorbenen):",
+                "french": "Paroles dites par l'Osiris (Nom du défunt) :",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "ritual_speech_introduction"
+            },
+            "layer4_writing": {
+                "mdc_code": "Dd mdw in Wsir N"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-10477",
+                        "name": "Papyrus of Nu",
+                        "type": "funerary_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḏd-mdw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "Wsỉr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الصيغة المعهودة لتمثيل المتوفى بصفته أوزيريس المبرأ والمنتصر في العالم الآخر."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000159-S03",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T01:45:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-159",
+                "sequence_no": 3,
+                "transliteration": "ḫˁ.n=j m bỉk n nwb pr.w m swḥt=f",
+                "hieroglyph": "𓈍𓈖𓇋𓏠𓈖𓐝𓅡𓏤𓎡𓈖𓋨𓉐𓂋𓅱𓐝𓆄𓏏𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "لقد ظهرتُ كصقر من ذهب، خرج ونشأ من بيضته الكونية،",
+                "english": "I have arisen as a golden falcon, which has gone forth from its egg,",
+                "german": "Ich bin erschienen als ein Falke aus Gold, der aus seinem Ei hervorgegangen ist,",
+                "french": "Je suis apparu comme un faucon d'or, qui est sorti de son œuf,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_with_perfective_relative_participle"
+            },
+            "layer4_writing": {
+                "mdc_code": "xa.n=j m bik n nwb pr.w m swHt=f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-10477",
+                        "name": "Papyrus of Nu",
+                        "type": "funerary_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḫˁ.n=j", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "bỉk", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "nwb", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "swḥt", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "البيض الكونية 'سوحت' إشارة لمثولوجيا الخلق وطلوع الشمس كالصقر الوليد."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000159-S04",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T01:45:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-159",
+                "sequence_no": 4,
+                "transliteration": "pꜣ.n=j ḫn.n=j m bỉk ꜥꜣ",
+                "hieroglyph": "𓊪𓄿𓈖𓇋𓏠𓈖𓎛𓈖𓈖𓇋𓏠𓈖𓐝𓅡𓏤𓎡𓅨𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "لقد طرتُ وحلقتُ وحططتُ كصقر عظيم البأس،",
+                "english": "I have flown and I have alighted as a great falcon,",
+                "german": "Ich bin geflogen und habe mich niedergelassen als ein großer Falke,",
+                "french": "J'ai volé et je me suis posé comme un grand faucon,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_motion_reduplication"
+            },
+            "layer4_writing": {
+                "mdc_code": "p3.n=j xn.n=j m bik_a3"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-10477",
+                        "name": "Papyrus of Nu",
+                        "type": "funerary_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "pꜣ.n=j", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḫn.n=j", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "bỉk", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ خن يعني هبوط الطائر واستقراره آمنًا فوق الأرض."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000159-S05",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T01:45:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-159",
+                "sequence_no": 5,
+                "transliteration": "nty pḏ.wy=f m ḫsbd mꜣˁ n.y tꜣ-šmˁ",
+                "hieroglyph": "𓈖𓏏𓏭𓊪𓂧𓏲𓏭𓆑𓐝𓐍𓋴𓂧𓄿𓅨𓐙𓂝𓈖𓇾𓆰𓏥",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "الذي يبلغ جناحاه من لون حجر اللازورد الأزرق الحقيقي بمصر العليا،",
+                "english": "whose wings are of real lapis lazuli of Upper Egypt,",
+                "german": "dessen Flügel aus echtem Lapislazuli von Oberägypten sind,",
+                "french": "dont les ailes sont de véritable lapis-lazuli de Haute-Égypte,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "relative_nty_with_material_prepositional"
+            },
+            "layer4_writing": {
+                "mdc_code": "nty pD.wy=f m xsbd m3a n.y t3-Sm_a"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-10477",
+                        "name": "Papyrus of Nu",
+                        "type": "funerary_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "nty", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "pḏ.wy", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḫsbd", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "tꜣ-šmˁ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللازورد الأزرق 'خسدج' يمثل عمق لون السماء السماوية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000159-S06",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T01:45:50.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-159",
+                "sequence_no": 6,
+                "transliteration": "pr.n=j m msktt n.t rˁ",
+                "hieroglyph": "𓉐𓂋𓈖𓇋𓏠𓈖𓐝𓅓𓋴𓎡𓏏𓏏𓈖𓏏𓇳𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "لقد صعدتُ وخرجتُ في قارب الليل (مسكتت) التابع لـ رع،",
+                "english": "I have gone forth in the night-bark (mesketet) of Re,",
+                "german": "Ich bin hervorgegangen in der Nachtbarke (Mesketet) des Re,",
+                "french": "Je suis sorti dans la barque de nuit (mesketet) de Rê,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_with_locative_adverbial"
+            },
+            "layer4_writing": {
+                "mdc_code": "pr.n=j m msktt n.t ra"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-10477",
+                        "name": "Papyrus of Nu",
+                        "type": "funerary_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "pr.n=j", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "msktt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "rˁ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "مسكتت هي سفينة الرحلة الليلية لإله الشمس رع لقطع العالم الآخر."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000159-S07",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T01:46:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-159",
+                "sequence_no": 7,
+                "transliteration": "ỉn.n=j ỉb=j r ḏw jꜣb.tj",
+                "hieroglyph": "𓇋𓈖𓈖𓇋𓏠𓈖𓄣𓏤𓇋𓏠𓈖𓂋𓈋𓏤𓇋𓄿𓃀𓏏𓏭𓈉",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وحملتُ وجلبتُ قلبي وفؤادي إلى جبل الشرق الإلهي،",
+                "english": "and I have brought my heart to the eastern mountain,",
+                "german": "und ich habe mein Herz zum östlichen Berge gebracht,",
+                "french": "et j'ai apporté mon cœur à la montagne de l'Est,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_with_direct_object_and_destination"
+            },
+            "layer4_writing": {
+                "mdc_code": "in.n=j ib=j r Dw i3b.tj"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-10477",
+                        "name": "Papyrus of Nu",
+                        "type": "funerary_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ỉn.n=j", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ỉb", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḏw", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "jꜣb.tj", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الربط بين الاحتفاظ بالقلب 'إيب' والصعود للجبل الشرقي لبدء التمجيد الفجرور."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000159-S08",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T01:46:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-159",
+                "sequence_no": 8,
+                "transliteration": "ḫn.n=j m mˁnḏt n.t rˁ",
+                "hieroglyph": "𓎛𓈖𓈖𓇋𓏠𓈖𓐝𓅓𓂝𓈖𓆓𓏏𓈖𓏏𓇳𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وحططتُ واستقررتُ بداخل قارب النهار (معنجت) التابع لـ رع،",
+                "english": "I have alighted in the day-bark (manjet) of Re,",
+                "german": "Ich habe mich niedergelassen in der Tagesbarke (Manjet) des Re,",
+                "french": "Je me suis posé dans la barque de jour (manjet) de Rê,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_motion_locative"
+            },
+            "layer4_writing": {
+                "mdc_code": "xn.n=j m ma_nDt n.t ra"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-10477",
+                        "name": "Papyrus of Nu",
+                        "type": "funerary_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḫn.n=j", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mˁnḏt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "rˁ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "معنجت هي سفينة الرحلة النهارية لإله الشمس رع."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000159-S09",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T01:46:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-159",
+                "sequence_no": 9,
+                "transliteration": "ỉn.n=j n=j ntyw m pꜣ.t",
+                "hieroglyph": "𓇋𓈖𓈖𓇋𓏠𓈖𓈖𓇋𓏠𓈖𓈖𓏏𓏭𓐝𓊪𓄿𓏏𓏥",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وأحضرتُ معي وبسطتُ أمامي الكائنات الأزلية والآلهة البدائية الأولين،",
+                "english": "and I have brought to me those who are in primeval times,",
+                "german": "und ich habe jene zu mir gebracht, die in Urzeiten waren,",
+                "french": "et j'ai apporté avec moi ceux qui sont des temps primordiaux,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_with_direct_relative_plural_object"
+            },
+            "layer4_writing": {
+                "mdc_code": "in.n=j n=j ntyw m p3.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-10477",
+                        "name": "Papyrus of Nu",
+                        "type": "funerary_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ỉn.n=j", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ntyw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "pꜣ.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "بأت تشير للآلهة والكائنات الأزلية الذين خلقهم إتوم في بداية الوجود."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000159-S10",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T01:46:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-159",
+                "sequence_no": 10,
+                "transliteration": "ksw n=j wr.w ntyw m ꜣḫ-bỉ.t",
+                "hieroglyph": "𓎡𓋴𓅱𓈖𓇋𓏠𓈖𓅨𓂋𓏥𓈖𓏏𓏭𓐝𓄿𓐍𓅡𓏏",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وانحنى وسجد لي النبلاء العظماء المقيمون بداخل (أخ-بيت) [أخميس المقدس]،",
+                "english": "and the great ones who are in Akh-bit (Chemmis) bow down to me,",
+                "german": "und die Großen, die in Ach-bit (Chemmis) sind, verbeugen sich vor mir,",
+                "french": "et les grands qui sont à Akh-bit (Chemmis) se prosternent devant moi,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.f_with_relative_plural_subject"
+            },
+            "layer4_writing": {
+                "mdc_code": "ksw n=j wr.w ntyw m Ax-bi.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-10477",
+                        "name": "Papyrus of Nu",
+                        "type": "funerary_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ksw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "wr.w", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ꜣḫ-bỉ.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "أخ-بيت (أعشاش الدلتا) هي مدينة أخميس المقدسة الميثولوجية مهد ولادة الطفل حورس."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000159-S11",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T01:46:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-159",
+                "sequence_no": 11,
+                "transliteration": "ỉw=j sꜣḫ.kw m bỉk nfr n nwb",
+                "hieroglyph": "𓇋𓅱𓇋𓏠𓈖𓋴𓄿𓐍𓎡𓅱𓐝𓅡𓏤𓎡𓄤𓈖𓋨",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وتجليتُ وتجسدتُ كصقر جميل نقي من ذهب،",
+                "english": "being assembled as a beautiful falcon of gold,",
+                "german": "indem ich mich als ein schöner Falke aus Gold zusammenschloss,",
+                "french": "étant assemblé comme un beau faucon d'or,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "stative_sAx.kw_with_adjectival_noun"
+            },
+            "layer4_writing": {
+                "mdc_code": "iw=j sAx.kw m bik nfr n nwb"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-10477",
+                        "name": "Papyrus of Nu",
+                        "type": "funerary_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ỉw=j", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sꜣḫ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "bỉk", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "nwb", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ ساخ يعني التمجيد الروحي أو الصعود والتجلي النوراني للفرد كبطل خارق 'أخ'."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000159-S12",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T01:46:50.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-159",
+                "sequence_no": 12,
+                "transliteration": "tp=f m bnw ˁq rˁ r-f",
+                "hieroglyph": "𓁶𓏤𓆑𓐝𓅡𓈖𓅱𓅬𓂝𓎡𓇳𓏤𓂋𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "رأسه ورقبته كرأس طائر البنو (العنقاء)، وقد اندمج ودخل الإله رع في جوفه وبدنه.",
+                "english": "his head being like the benu-bird, and Re entering into him.",
+                "german": "sein Kopf ist wie der Benu-Vogel, und Re tritt in ihn ein.",
+                "french": "sa tête étant comme l'oiseau-benu, et Rê entrant en lui.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "noun_subject_with_comitative_and_verbal_consequence"
+            },
+            "layer4_writing": {
+                "mdc_code": "tp=f m bnw aq ra r-f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-10477",
+                        "name": "Papyrus of Nu",
+                        "type": "funerary_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "tp", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "bnw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ˁq", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "rˁ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "طائر البنو هو العنقاء اللاهوتية الممثلة لشرارة بدء الخلق والتجدد والبعث الكوني برعاية رع."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000159-S13",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T01:47:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-159",
+                "sequence_no": 13,
+                "transliteration": "ỉw.f pw m ḥtp",
+                "hieroglyph": "𓇋𓅱𓆑𓊪𓅱𓐝𓊵𓏏𓊪",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "لقد تم الأمر وانتهى بسلام كامل.",
+                "english": "It is finished in peace.",
+                "german": "Es ist in Frieden vollendet.",
+                "french": "Cela s'est terminé en paix.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "traditional_egyptian_scribal_colophon_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "iw.f pw m Htp"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BRITISH-10477",
+                        "name": "Papyrus of Nu",
+                        "type": "funerary_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "iw.f-pw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥtp", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الخاتمة القياسية لنسخ الكتبة للفصول البردية."
+            }
+        }
+    ]
+}

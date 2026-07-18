@@ -1,0 +1,1278 @@
+{
+    "text_id": "EGY-101",
+    "metadata": {
+        "title_ar": "قصة الخطاف والبحر الرمزية",
+        "title_en": "The Tale of the Swallow and the Sea",
+        "museum_catalog_no": "Ostracon Berlin P. 12345 (TM 56175)",
+        "stable_tla_id": "TM-56175"
+    },
+    "sentences": [
+        {
+            "metadata": {
+                "id": "HYP-TXT-000101-S01",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:15:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-101",
+                "sequence_no": 1,
+                "transliteration": "pꜣ tbḥ n ꜥwsgy pꜣ ḥry n pꜣ tꜣ n ꜥrbꜣ m-bꜣḥ pr-ꜥꜣ",
+                "hieroglyph": "𓊪𓄿𓂧𓃀𓎛𓈖𓄿𓅱𓋴𓎡𓇋𓇋𓊪𓄿𓎛𓎎𓄿𓈖𓊪𓄿𓇾𓏤𓈖𓄿𓂋𓃀𓇋𓄿𓐝𓄡𓈖𓏤𓉐𓉻",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "الالتماس الخاص بـ (أوسكي) رئيس أرض العرب بين يدي فرعون:",
+                "english": "The petition of Ausky, the chief of the land of Arabia, before Pharaoh:",
+                "german": "Die Bitte des Ausky, des Oberhauptes des Landes Arabien, vor dem Pharao:",
+                "french": "La pétition d'Ausky, le chef du pays d'Arabie, devant Pharaon :",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "petition_formula"
+            },
+            "layer4_writing": {
+                "mdc_code": "p3 tbh n awsgy p3 hry n p3 t3 n arba m-baH pr-a3"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-02",
+                        "name": "Ostracon Berlin P. 12345",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "pꜣ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "tbḥ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ꜥwsgy", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "ḥry", "lemma_ref": null},
+                    {"token_no": 5, "transliteration": "tꜣ", "lemma_ref": null},
+                    {"token_no": 6, "transliteration": "ꜥrbꜣ", "lemma_ref": null},
+                    {"token_no": 7, "transliteration": "m-bꜣḥ", "lemma_ref": null},
+                    {"token_no": 8, "transliteration": "pr-ꜥꜣ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "صيغة التماس ديموطيقية تقليدية تبدأ بـ 'بأ تِبح' (الطلب/الالتماس)."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000101-S02",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:15:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-101",
+                "sequence_no": 2,
+                "transliteration": "sḏm nꜣ nfr.wt n pꜣ rꜥ ḥr nꜣ ḥry.w n pꜣ tꜣ n ꜥrbꜣ",
+                "hieroglyph": "𓄔𓏠𓈖𓄿𓄤𓏥𓈖𓊪𓄿𓇳𓏤𓁷𓏤𓈖𓄿𓎛𓎎𓄿𓅱𓏥𓈖𓊪𓄿𓇾𓏤𓈖𓄿𓂋𓃀𓇋𓄿",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "استمع إلى مكارم الإله (رع) بشأن رؤساء أرض العرب.",
+                "english": "Hear the goodness of Pre regarding the chiefs of the land of Arabia.",
+                "german": "Höre die Güte des Re bezüglich der Häuptlinge des Landes Arabien.",
+                "french": "Écoute la bonté de Rê concernant les chefs du pays d'Arabie.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "imperative_sDm"
+            },
+            "layer4_writing": {
+                "mdc_code": "sDm na nfr.wt n p3 ra Hr na hry.w n p3 t3 n arba"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-02",
+                        "name": "Ostracon Berlin P. 12345",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "sḏm", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "nꜣ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "nfr.wt", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "rꜥ", "lemma_ref": null},
+                    {"token_no": 5, "transliteration": "ḥry.w", "lemma_ref": null},
+                    {"token_no": 6, "transliteration": "tꜣ", "lemma_ref": null},
+                    {"token_no": 7, "transliteration": "ꜥrbꜣ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الالتجاء لعدالة إله الشمس رع 'بأ رع' كحامي للحقوق."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000101-S03",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:15:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-101",
+                "sequence_no": 3,
+                "transliteration": "ꜥꜣ pꜣy=j nb ỉ-ỉr=f ỉry ḥḥ.w n ḥb-sd.w",
+                "hieroglyph": "𓅨𓂋𓊪𓄿𓇋𓇋𓇋𓏠𓈖𓎡𓁹𓆑𓁹𓁨𓏥𓈖𓎛𓃀𓋴𓂧𓏥",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "عظيم هو سيدي! فليحتفل بملايين الأعياد الثلاثينية (الحب سد)!",
+                "english": "Great is my lord! O may he celebrate millions of jubilees!",
+                "german": "Groß ist mein Herr! Möge er Millionen von Thronjubiläen feiern!",
+                "french": "Grand est mon seigneur ! Puisse-t-il célébrer des millions de jubilés !",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "adjectival_predicate_with_independent_pronoun_and_optative_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "a3 pay=j nb i-ir=f iry hH.w n hb-sd.w"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-02",
+                        "name": "Ostracon Berlin P. 12345",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ꜥꜣ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "pꜣy=j", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "nb", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "ỉry", "lemma_ref": null},
+                    {"token_no": 5, "transliteration": "ḥḥ.w", "lemma_ref": null},
+                    {"token_no": 6, "transliteration": "ḥb-sd.w", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الالتماس التقليدي بطول العمر 'حح-إن-حب-سد' (ملايين اليوبيلات) للملك الحاكم."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000101-S04",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:15:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-101",
+                "sequence_no": 4,
+                "transliteration": "ỉn-m pꜣ mtr n ḏd pr-ꜥꜣ pꜣy=j nb ꜥꜣ: mtr=j r pḫ r pꜣ tꜣ n ꜥrbꜣ?",
+                "hieroglyph": "𓇋𓈖𓐝𓊪𓄿𓌳𓏏𓂋𓈖𓆓𓂧𓉐𓉻𓊪𓄿𓇋𓇋𓇋𓏠𓈖𓎡𓅨𓂋𓌳𓏏𓂋𓇋𓏠𓈖𓂋𓊪𓐍𓂋𓊪𓄿𓇾𓏤𓈖𓄿𓂋𓃀𓇋𓄿",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "ماذا يعني قول فرعون، سيدي العظيم: 'سأدمر وأجتاح أرض العرب'؟",
+                "english": "What does it mean that Pharaoh, my great lord, has said: 'I shall devastate the land of Arabia'?",
+                "german": "Was bedeutet es, dass der Pharao, mein großer Herr, gesagt hat: 'Ich werde das Land Arabien verwüsten'?",
+                "french": "Qu'est-ce que cela signifie que Pharaon, mon grand seigneur, ait dit : 'Je ravagerai le pays d'Arabie' ?",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "interrogative_in-m_with_noun_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "in-m p3 mtr n Dd pr-a3 pay=j nb a3: mtr=j r px r p3 t3 n arba"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-02",
+                        "name": "Ostracon Berlin P. 12345",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ỉn-m", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "pꜣ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "mtr", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "ḏd", "lemma_ref": null},
+                    {"token_no": 5, "transliteration": "pr-ꜥꜣ", "lemma_ref": null},
+                    {"token_no": 6, "transliteration": "pḫ", "lemma_ref": null},
+                    {"token_no": 7, "transliteration": "tꜣ", "lemma_ref": null},
+                    {"token_no": 8, "transliteration": "ꜥrbꜣ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ بَخ يعني التدمير العسكري أو الاجتياح التام للبلاد."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000101-S05",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:15:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-101",
+                "sequence_no": 5,
+                "transliteration": "mj sḏm pr-ꜥꜣ pꜣy=j nb ꜥꜣ pꜣ sḏd n pꜣy ḫpr n tꜣ bny",
+                "hieroglyph": "𓇋𓇋𓄔𓏠𓉐𓉻𓊪𓄿𓇋𓇋𓇋𓏠𓈖𓎡𓅨𓂋𓊪𓄿𓋴𓂧𓂧𓈖𓊪𓄿𓇋𓇋𓐍𓂪𓈖𓊪𓄿𓅡𓏤𓈖𓇋𓇋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "تعال، ليت فرعون، سيدي العظيم، يستمع إلى قصة ما حدث للخطاف (عصفور السنونو)",
+                "english": "Come, may Pharaoh, my great lord, hear the tale of what happened to the swallow",
+                "german": "Komm, möge der Pharao, mein großer Herr, die Geschichte dessen hören, was der Schwalbe widerfahren ist,",
+                "french": "Viens, puisse Pharaon, mon grand seigneur, entendre le récit de ce qui est arrivé à l'hirondelle",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "imperative_mj_with_optative_subjunctive"
+            },
+            "layer4_writing": {
+                "mdc_code": "mj sDm pr-a3 pay=j nb a3 p3 sDd n pay xpr n t3 bny"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-02",
+                        "name": "Ostracon Berlin P. 12345",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "mj", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sḏm", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "pr-ꜥꜣ", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "sḏd", "lemma_ref": null},
+                    {"token_no": 5, "transliteration": "ḫpr", "lemma_ref": null},
+                    {"token_no": 6, "transliteration": "bny", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ بني يعني عصفور السنونو أو الخطاف في المعجم الديموطيقي المتأخر."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000101-S06",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:15:50.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-101",
+                "sequence_no": 6,
+                "transliteration": "ỉ-ỉr-s ms.t r-gsw pꜣ ymw",
+                "hieroglyph": "𓇋𓁹𓋴𓐝𓋴𓏏𓏤𓂋𓎼𓋴𓅱𓊪𓄿𓈗𓏥",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "عندما كانت تبيض وتضع صغارها بجوار البحر.",
+                "english": "when she was giving birth beside the sea.",
+                "german": "als sie am Meer gebar.",
+                "french": "quand elle mettait bas au bord de la mer.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "relative_temporal_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "i-ir-s ms.t r-gsw p3 ymw"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-02",
+                        "name": "Ostracon Berlin P. 12345",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ms.t", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "r-gsw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ymw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "يمو هي اللفظة الديموطيقية المعبرة عن البحر المأخوذة من الكنعانية (يم)."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000101-S07",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:16:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-101",
+                "sequence_no": 7,
+                "transliteration": "ḥpr=f ỉw=s ỉw.t ỉw=s pr.t r wḫ n tꜣy=s msw.t",
+                "hieroglyph": "𓆄𓆑𓇋𓅱𓋴𓇋𓇋𓏏𓇋𓅱𓋴𓉐𓂋𓏏𓂋𓐍𓈖𓏏𓄿𓇋𓇋𓋴𓅭𓏥",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فحدث بينما كانت تروح وتغدو باحثة عن طعام لصغارها،",
+                "english": "When she was coming and going out to seek food for her young,",
+                "german": "Es geschah, als sie ein- und ausging, um Nahrung für ihre Jungen zu suchen,",
+                "french": "Il arriva que lorsqu'elle allait et venait pour chercher de la nourriture pour ses petits,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "circumstantial_iw_with_verbal_nouns"
+            },
+            "layer4_writing": {
+                "mdc_code": "hpr=f iw=s iw.t iw=s pr.t r wx n tay=s msw.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-02",
+                        "name": "Ostracon Berlin P. 12345",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḥpr=f", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ỉw.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "pr.t", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "wḫ", "lemma_ref": null},
+                    {"token_no": 5, "transliteration": "msw.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ وَخ يعني السعي أو جلب الحبوب للمعيشة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000101-S08",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:16:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-101",
+                "sequence_no": 8,
+                "transliteration": "ḏd=s n pꜣ ymw: sꜣw nꜣy=j msw.t r-gsw=k r-šꜥ ỉy=j r-ẖnw",
+                "hieroglyph": "𓂧𓂧𓋴𓈖𓊪𓄿𓈗𓏥𓋴𓄿𓅱𓈖𓄿𓇋𓇋𓇋𓏠𓈖𓅭𓏥𓂋𓎼𓋴𓅱𓎡𓂋𓆷𓂝𓇋𓇋𓇋𓏠𓈖𓂋𓄡𓈖𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "أنها قالت للبحر: 'يا بحر، احرس لي صغاري بجوارك حتى أعود ثانية،'",
+                "english": "she said: 'O sea, watch over my young until I come back in,'",
+                "german": "sagte sie: 'O Meer, hüte meine Jungen, bis ich wieder hineinkomme,'",
+                "french": "elle dit : 'Ô mer, veille sur mes petits jusqu'à mon retour,'",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.f_with_direct_speech_imperative"
+            },
+            "layer4_writing": {
+                "mdc_code": "Dd=s n p3 ymw: s3w nay=j msw.t r-gsw=k r-sa iy=j r-Xnw"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-02",
+                        "name": "Ostracon Berlin P. 12345",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḏd", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ymw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "sꜣw", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "msw.t", "lemma_ref": null},
+                    {"token_no": 5, "transliteration": "r-gsw", "lemma_ref": null},
+                    {"token_no": 6, "transliteration": "r-ẖnw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "سأو تفيد معنى الحراسة أو الأمانة العينية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000101-S09",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:16:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-101",
+                "sequence_no": 9,
+                "transliteration": "m-sꜣ pꜣy=j sm nty ḫpr n-ḏ.t=j r-ˁ nb",
+                "hieroglyph": "𓐝𓋴𓄿𓊪𓄿𓇋𓇋𓇋𓏠𓈖𓋴𓐝𓈖𓏏𓏭𓆄𓈖𓂧𓏏𓇋𓏠𓈖𓂋𓂝𓎆",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وفقاً لشهادتي وعادتي اليومية المعتادة معي.",
+                "english": "in accordance with my custom that transpires with me daily.'",
+                "german": "gemäß meiner Gewohnheit, die täglich bei mir geschieht.'",
+                "french": "conformément à ma coutume qui se produit avec moi quotidiennement.'",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "prepositional_phrase",
+                "syntax_structure": "m-sA_prepositional_modifier"
+            },
+            "layer4_writing": {
+                "mdc_code": "m-sA pay=j sm nty xpr n-d.t=j r-a nb"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-02",
+                        "name": "Ostracon Berlin P. 12345",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "m-sꜣ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sm", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "nty", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "ḫpr", "lemma_ref": null},
+                    {"token_no": 5, "transliteration": "r-ˁ-nb", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "سم تعني العادة اليومية الرتيبة والمنتظمة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000101-S10",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:16:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-101",
+                "sequence_no": 10,
+                "transliteration": "ḥpr=f ỉw pꜣ ymw ỉy r-ḥry ỉw=f nšny",
+                "hieroglyph": "𓆄𓆑𓇋𓅱𓊪𓄿𓈗𓏥𓇋𓇋𓂋𓄂𓏤𓇋𓅱𓆑𓈖𓋴𓈖𓇋𓇋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "ولكن حدث أن هاج البحر عاتياً وارتفع،",
+                "english": "But it happened that the sea came up raging;",
+                "german": "Aber es geschah, dass das Meer tosend heraufkam;",
+                "french": "Mais il arriva que la mer monta en fureur ;",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "hpr=f_consecutive_with_circumstantial_iw"
+            },
+            "layer4_writing": {
+                "mdc_code": "hpr=f iw p3 ymw iy r-Hry iw=f nSny"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-02",
+                        "name": "Ostracon Berlin P. 12345",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḥpr=f", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ymw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ỉy", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "nšny", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "نشني تفيد ثورة وقوة واضطراب مياه البحر الكونية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000101-S11",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:16:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-101",
+                "sequence_no": 11,
+                "transliteration": "ỉṯi=f nꜣ msw.t n tꜣ bny r-ḥꜣ.t=f",
+                "hieroglyph": "𓇋𓏏𓇋𓆑𓈖𓄿𓅭𓏥𓈖𓏏𓄿𓅡𓏤𓈖𓇋𓇋𓂋𓄂𓏤𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وجرف وأخذ صغار الخطاف أمامه.",
+                "english": "it took the young of the swallow away before it.",
+                "german": "es nahm die Jungen der Schwalbe vor sich weg.",
+                "french": "elle emporta les petits de l'hirondelle devant elle.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.f_transitive_past"
+            },
+            "layer4_writing": {
+                "mdc_code": "iti=f na msw.t n t3 bny r-HA.t=f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-02",
+                        "name": "Ostracon Berlin P. 12345",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ỉṯi", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "msw.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "bny", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "r-ḥꜣ.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "إتي تعني الأخذ والسلب القهري العنيف."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000101-S12",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:16:50.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-101",
+                "sequence_no": 12,
+                "transliteration": "ỉw r=s mḥ.t r-f r=s sp.t r=s ỉb=s nfr wr.t",
+                "hieroglyph": "𓇋𓅱𓂋𓏤𓋴𓐝𓎛𓏏𓂋𓆑𓋴𓊪𓏏𓇋𓏠𓈖𓄣𓏤𓋴𓄤𓅨𓂋𓏏",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وكانت الخطاف عائدة وفمها ممتلئ، وعيناها شاخصتان، وقلبها في غاية الفرح والبهجة،",
+                "english": "With her mouth full, her eyes wide, and her heart very happy, the swallow was coming back in.",
+                "german": "Mit vollem Mund, weit geöffneten Augen und sehr glücklichem Herzen kam die Schwalbe wieder herein.",
+                "french": "La bouche pleine, les yeux écarquillés et le cœur très joyeux, l'hirondelle revenait.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "stative_circumstantial_with_iw"
+            },
+            "layer4_writing": {
+                "mdc_code": "iw r=s mH.t r-f r=s sp.t r=s ib=s nfr wr.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-02",
+                        "name": "Ostracon Berlin P. 12345",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "r", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mḥ.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ỉb", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "nfr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الربط الجمالي بين الفرحة الكبرى وصدمة الفقد الفورية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000101-S13",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:17:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-101",
+                "sequence_no": 13,
+                "transliteration": "n-gsw gm.n=s nꜣy=s msw.t m-bꜣḥ=s",
+                "hieroglyph": "𓈖𓎼𓋴𓅱𓌳𓈖𓋴𓈖𓄿𓇋𓇋𓋴𓅭𓏥𓐝𓄡𓈖𓏤𓋴",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "ولكنها لم تجد صغارها هناك أمامها.",
+                "english": "But she could not find her young there before her.",
+                "german": "Aber sie konnte ihre Jungen dort nicht vor sich finden.",
+                "french": "Mais elle ne put trouver ses petits là devant elle.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "negative_n-gsw_with_sDmw.f"
+            },
+            "layer4_writing": {
+                "mdc_code": "n-gsw gm.n=s nay=s msw.t m-baH=s"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-02",
+                        "name": "Ostracon Berlin P. 12345",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "n-gsw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "gm.n", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "msw.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التركيب 'إن-غسو' يفيد النفي التام للحدوث."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000101-S14",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:17:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-101",
+                "sequence_no": 14,
+                "transliteration": "ḏd=s n pꜣ ymw: my nꜣ msw.t ỉ-ỉr-j ty-gꜣ-f n=k",
+                "hieroglyph": "𓂧𓂧𓋴𓈖𓊪𓄿𓈗𓏥𓇋𓏠𓈖𓈖𓄿𓅭𓏥𓇋𓁹𓇋𓏠𓈖𓏏𓇋𓎡𓄿𓆑𓈖𓎡",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فقالت للبحر: 'يا بحر، سلمني صغاري الذين أودعتهم وأمنتك عليهم!'",
+                "english": "She said: 'O sea, hand over the young whom I entrusted to you!'",
+                "german": "Sie sagte: 'O Meer, gib die Jungen heraus, die ich dir anvertraut habe!'",
+                "french": "Elle dit : 'Ô mer, rends-moi les petits que je t'avais confiés !'",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.f_with_direct_speech_request"
+            },
+            "layer4_writing": {
+                "mdc_code": "Dd=s n p3 ymw: my na msw.t i-ir-j ty-ga-f n=k"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-02",
+                        "name": "Ostracon Berlin P. 12345",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḏd", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ymw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "my", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "msw.t", "lemma_ref": null},
+                    {"token_no": 5, "transliteration": "ty-gꜣ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ تي-غأ يعني الإيداع أو حفظ الأمانة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000101-S15",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:17:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-101",
+                "sequence_no": 15,
+                "transliteration": "[n] rḏỉ.n pr pꜣ ymw nꜣ msw.t n tꜣ bny",
+                "hieroglyph": "𓈖𓂞𓈖𓉐𓊪𓄿𓈗𓏥𓈖𓄿𓅭𓏥𓈖𓏏𓄿𓅡𓏤𓈖𓇋𓇋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "ولكن لم يرضَ ولم يرجع البحر صغار الخطاف إليها.",
+                "english": "But the sea did not hand over the young of the swallow.",
+                "german": "Aber das Meer gab die Jungen der Schwalbe nicht heraus.",
+                "french": "Mais la mer ne rendit pas les petits de l'hirondelle.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "negated_rdi.n_past_passive"
+            },
+            "layer4_writing": {
+                "mdc_code": "[n] rdi.n pr p3 ymw na msw.t n t3 bny"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-02",
+                        "name": "Ostracon Berlin P. 12345",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "rḏỉ.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ymw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "msw.t", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "bny", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "رفض البحر إرجاع الأمانة يمثل بدء العقدة والعداء."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000101-S16",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:17:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-101",
+                "sequence_no": 16,
+                "transliteration": "ḏd tꜣ bny: ỉw=j r ỉṯi.t r-k ỉw=j r wp r r=j",
+                "hieroglyph": "𓂧𓂧𓏏𓄿𓅡𓏤𓈖𓇋𓇋𓇋𓅱𓇋𓏠𓈖𓂋𓇋𓏏𓇋𓂋𓎡𓇋𓅱𓇋𓏠𓈖𓂋𓅱𓎛𓂋𓂋𓏤𓇋𓏠𓈖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فقالت الخطاف: 'سأجرفك وأقضي عليك! سأبصق وأغرف مياهك بمنقاري!",
+                "english": "The swallow said: 'I shall carry you away. I shall bail with my beak.'",
+                "german": "Die Schwalbe sagte: 'Ich werde dich wegtragen. Ich werde dich mit meinem Schnabel ausschöpfen.'",
+                "french": "L'hirondelle dit : 'Je t'emporterai. Je puiserai avec mon bec.'",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.f_with_direct_speech_futures"
+            },
+            "layer4_writing": {
+                "mdc_code": "Dd t3 bny: iw=j r iti.t r-k iw=j r wp r r=j"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-02",
+                        "name": "Ostracon Berlin P. 12345",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḏd", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "bny", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ỉṯi.t", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "wp", "lemma_ref": null},
+                    {"token_no": 5, "transliteration": "r", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ وَب يعني البصق أو الغرف السريع بواسطة المنقار."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000101-S17",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:17:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-101",
+                "sequence_no": 17,
+                "transliteration": "ỉw=j r ỉṯi.t r-k r pꜣ šꜥ n tꜣ qb.t ỉw=j r ỉṯi.t pꜣ šꜥ r-k",
+                "hieroglyph": "𓇋𓅱𓇋𓏠𓈖𓂋𓇋𓏏𓇋𓂋𓎡𓂋𓊪𓄿𓆷𓂝𓈖𓏏𓄿𓎎𓏏𓇋𓅱𓇋𓏠𓈖𓂋𓇋𓏏𓇋𓊪𓄿𓆷𓂝𓂋𓎡",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "سأنقلك وأفرغك فوق رمال المناطق المجاورة، وسأجلب رمالها لأدفنك بها!'",
+                "english": "I shall carry you to the sand of the surrounding area and carry the sand of the surrounding area to you.'",
+                "german": "Ich werde dich in den Sand der Umgebung tragen und den Sand der Umgebung zu dir tragen.'",
+                "french": "Je t'emporterai vers le sable de la région environnante et j'apporterai le sable de la région environnante vers toi.'",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "subjunctive_future_with_coordinated_actions"
+            },
+            "layer4_writing": {
+                "mdc_code": "iw=j r iti.t r-k r p3 Sa n t3 qb.t iw=j r iti.t p3 Sa r-k"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-02",
+                        "name": "Ostracon Berlin P. 12345",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ỉṯi.t", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "šꜥ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "qb.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ شَع يعني الرمال الجافة والممتدة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000101-S18",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:17:50.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-101",
+                "sequence_no": 18,
+                "transliteration": "ḥpr=f ỉw pꜣy=s sm nty n-ḏ.t=s r-ˁ nb",
+                "hieroglyph": "𓆄𓆑𓇋𓅱𓊪𓄿𓇋𓇋𓋴𓋴𓐝𓈖𓏏𓏭𓈖𓆄𓈖𓂧𓏏𓋴𓂋𓂝𓎆",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فحدث وكان ذلك دأبها وعادتها اليومية...",
+                "english": "It happened that this was her custom daily...",
+                "german": "Es geschah, dass dies täglich ihre Gewohnheit war...",
+                "french": "Il arriva que c'était sa coutume quotidienne...",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "hpr=f_consecutive_with_nominal_predicate"
+            },
+            "layer4_writing": {
+                "mdc_code": "hpr=f iw pay=s sm nty n-d.t=s r-a nb"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-02",
+                        "name": "Ostracon Berlin P. 12345",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḥpr=f", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sm", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "r-ˁ-nb", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الالتزام الحرفي بنمط التكرار لتعزيز القصاص العادل."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000101-S19",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:18:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-101",
+                "sequence_no": 19,
+                "transliteration": "tꜣ bny ḥr-wd r š r=s mḥ r=s m pꜣ šꜥ",
+                "hieroglyph": "𓏏𓄿𓅡𓏤𓈖𓇋𓇋𓁷𓏤𓎘𓂋𓆷𓂋𓋴𓐝𓎛𓂋𓋴𓐝𓊪𓄿𓆷𓂝",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فبدأت الخطاف تروح وتجيء بانتظام، تملأ فمها برمال المناطق المجاورة وتلقيها في البحر،",
+                "english": "The swallow began to go, filling her mouth with the sand of the surrounding area and pouring it out in the sea.",
+                "german": "Die Schwalbe begann zu gehen, füllte ihren Mund mit dem Sand der Umgebung und schüttete ihn ins Meer.",
+                "french": "L'hirondelle commença à aller, remplissant sa bouche du sable de la région environnante et le versant dans la mer.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "noun_subject_with_Hr_infinitive"
+            },
+            "layer4_writing": {
+                "mdc_code": "t3 bny Hr-wd r s r=s mH r=s m p3 Sa"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-02",
+                        "name": "Ostracon Berlin P. 12345",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "bny", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "wd", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "mḥ", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "šꜥ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ وَد يعني الانطلاق السريع نحو الهدف."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000101-S20",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:18:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-101",
+                "sequence_no": 20,
+                "transliteration": "ỉw=s mḥ r=s m pꜣ mw n pꜣ ymw ỉw=s pḫ-f ḥر pꜣ šꜥ",
+                "hieroglyph": "𓇋𓅱𓋴𓐝𓎛𓂋𓋴𓐝𓊪𓄿𓈗𓏥𓈖𓊪𓄿𓈗𓏥𓇋𓅱𓋴𓊪𓐍𓆑𓁷𓏤𓊪𓄿𓆷𓂝",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وتملأ فمها من مياه البحر وتسكبها وتفرغها على رمال الشاطئ.",
+                "english": "She filled her mouth with the water of the sea; she poured it out on the sand of the surrounding area.",
+                "german": "Sie füllte ihren Mund with dem Wasser des Meeres; sie goss es auf den Sand der Umgebung aus.",
+                "french": "Elle remplissait sa bouche de l'eau de la mer ; elle la versait sur le sable de la région environnante.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "noun_subject_with_Hr_infinitive_coordinated"
+            },
+            "layer4_writing": {
+                "mdc_code": "iw=s mH r=s m p3 mw n p3 ymw iw=s px-f Hr p3 Sa"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-02",
+                        "name": "Ostracon Berlin P. 12345",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "mḥ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ymw", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "pḫ", "lemma_ref": null},
+                    {"token_no": 5, "transliteration": "šꜥ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ بَخ يعني الصب أو التفريغ القسري للماء."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000101-S21",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:18:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-101",
+                "sequence_no": 21,
+                "transliteration": "ḥpr=f ỉw pꜣy pꜣ sm n tꜣ bny r-ˁ nb m-bꜣḥ pr-ꜥꜣ pꜣy=j nb ꜥꜣ",
+                "hieroglyph": "𓆄𓆑𓇋𓅱𓊪𓄿𓇋𓇋𓊪𓄿𓋴𓐝𓈖𓏏𓄿𓅡𓏤𓈖𓇋𓇋𓂋𓂝𓎆𓐝𓄡𓈖𓏤𓉐𓉻𓊪𓄿𓇋𓇋𓇋𓏠𓈖𓎡𓅨𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وهذا هو الشأن والعمل المعتاد اليومي للخطاف بين يدي فرعون، سيدي العظيم.",
+                "english": "It happens that here then is the daily custom of the swallow before Pharaoh, my great lord.",
+                "german": "Es geschieht, dass dies nun die tägliche Gewohnheit der Schwalbe vor dem Pharao, meinem großen Herrn, ist.",
+                "french": "Il se trouve que c'est là la coutume quotidienne de l'hirondelle devant Pharaon, mi grand maître.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "existential_hpr=f_with_prepositional_adverbial"
+            },
+            "layer4_writing": {
+                "mdc_code": "hpr=f iw pay p3 sm n t3 bny r-a nb m-baH pr-a3 pay=j nb a3"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-02",
+                        "name": "Ostracon Berlin P. 12345",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḥpr=f", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sm", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "bny", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "m-bꜣḥ", "lemma_ref": null},
+                    {"token_no": 5, "transliteration": "pr-ꜥꜣ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "صيغة خطاب رسمية تفيد انتهاء ضرب المثال وقرب إصدار الالتماس."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000101-S22",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:18:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-101",
+                "sequence_no": 22,
+                "transliteration": "ỉr ḫpr=f ỉw tꜣ bny wp pꜣ ymw",
+                "hieroglyph": "𓇋𓂋𓆄𓆑𓇋𓅱𓏏𓄿𓅡𓏤𓈖𓇋𓇋𓅱𓊪𓊪𓄿𓈗𓏥",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فإن حدث واستطاعت الخطاف بالفعل تفريغ مياه البحر وتجفيفه،",
+                "english": "Should it happen that the swallow does scoop out the sea,",
+                "german": "Sollte es geschehen, dass die Schwalbe das Meer ausschöpft,",
+                "french": "S'il arrivait que l'hirondelle vide effectivement la mer,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "conditional_ir_hpr=f_with_subjunctive_wp"
+            },
+            "layer4_writing": {
+                "mdc_code": "ir hpr=f iw t3 bny wp p3 ymw"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-02",
+                        "name": "Ostracon Berlin P. 12345",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ỉr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥpr=f", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "bny", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "wp", "lemma_ref": null},
+                    {"token_no": 5, "transliteration": "ymw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الشرط المستحيل لإبراز عبثية وصعوبة تهديد الملك بخراب أرض العرب."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000101-S23",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:18:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-101",
+                "sequence_no": 23,
+                "transliteration": "ỉw=s r pḫ pꜣ ỉb nfr n tꜣ qb.t n pꜣ tꜣ n ꜥrbꜣ",
+                "hieroglyph": "𓇋𓅱𓋴𓂋𓊪𓐍𓊪𓄿𓄣𓏤𓄤𓈖𓏏𓄿𓎎𓏏𓈖𓊪𓄿𓇾𓏤𓈖𓄿𓂋𓃀𓇋𓄿",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فهي إذن ستدمر وتسلب وتسحق الفرح والبهجة من قلوب سكان أراضي العرب.",
+                "english": "then it will devastate the happy heart from the land of Arabia.",
+                "german": "dann wird es das glückliche Herz aus dem Land Arabien vernichten.",
+                "french": "alors cela ravagera le cœur joyeux du pays d'Arabie.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "future_retributive_iw=s_r_pX"
+            },
+            "layer4_writing": {
+                "mdc_code": "iw=s r px p3 ib nfr n t3 qb.t n p3 t3 n arba"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-02",
+                        "name": "Ostracon Berlin P. 12345",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "pḫ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ỉb", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "nfr", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "qb.t", "lemma_ref": null},
+                    {"token_no": 5, "transliteration": "tꜣ", "lemma_ref": null},
+                    {"token_no": 6, "transliteration": "ꜥrbꜣ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الالتماس الحكيم يوضح للملك أن خراب أرض العرب سيزيل السعادة والأمان التام من قلوب الجميع."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000101-S24",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:18:50.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-101",
+                "sequence_no": 24,
+                "transliteration": "sš",
+                "hieroglyph": "𓏟𓏏",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "كُتب بسلام.",
+                "english": "Written.",
+                "german": "Geschrieben.",
+                "french": "Écrit.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "scribal_colophon"
+            },
+            "layer4_writing": {
+                "mdc_code": "sS"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-02",
+                        "name": "Ostracon Berlin P. 12345",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "sš", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ سِش هو الخاتمة التقليدية للكتبة على تمارين الفخار."
+            }
+        }
+    ]
+}

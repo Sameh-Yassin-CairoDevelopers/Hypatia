@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-006085",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:41.045185Z"
+    },
+    "layer1_core": {
+        "transliteration": "thi",
+        "hieroglyph": "𓏏𓉔𓂾𓂻𓏏𓉔𓂻𓏏𓉔𓄿𓂾𓂻𓏏𓉔𓂾𓏏𓉔𓅪",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "يضل، ينتهك، يتعدى، يهجم، يضلل، يتخطى (طريق)، يعصى، ينكر، يتلاعب بـ، يهمل (مواعيد المنصب)، يرفض (التماس أو عريضة)، يعتدى (على جثة)",
+        "english": "go astray, transgress, trespass, attack, err, lead astray, mislead, overstep (path), disobey, impugn , falsify (?) (account), neglect (appointed dates), reject (petitions), violate (corpse)",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+133CF",
+        "gardiner_code": "X1",
+        "gardiner_description": "Small bread loaf\tPhono. t. Ideo. in t “bread.”",
+        "gardiner_details": "X2"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

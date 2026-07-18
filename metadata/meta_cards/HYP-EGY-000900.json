@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-000900",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:34.086493Z"
+    },
+    "layer1_core": {
+        "transliteration": "itm(w)",
+        "hieroglyph": "𓍃𓅓𓀭𓇋𓏏𓂞𓀭𓏏𓍃𓐝𓅱𓀭",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "الإله اتوم",
+        "english": "Atum(name of divinity)",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+13343",
+        "gardiner_code": "U15",
+        "gardiner_description": "Sled\tPhono. tm. In tm “be complete,” ḥtm “perish.”",
+        "gardiner_details": "U16"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

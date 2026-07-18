@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-005920",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:40.799209Z"
+    },
+    "layer1_core": {
+        "transliteration": "gs",
+        "hieroglyph": "𓐞𓊃𓏊𓀜𓐞𓊃𓏋𓀜𓎼𓊃𓂝",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "دهن، مسح (بالدهان)",
+        "english": "Anoint, smear on (unguent)",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+1341E",
+        "gardiner_code": "unknown",
+        "gardiner_description": "unknown",
+        "gardiner_details": "unknown"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

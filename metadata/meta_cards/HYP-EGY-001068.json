@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-001068",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:34.273661Z"
+    },
+    "layer1_core": {
+        "transliteration": "abab",
+        "hieroglyph": "𓂝𓃀𓂝𓃀𓎺𓏛",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "يظهر (؟)، يلمع (؟)",
+        "english": "appear (?), shine(?)",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+1309D",
+        "gardiner_code": "unknown",
+        "gardiner_description": "unknown",
+        "gardiner_details": "unknown"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

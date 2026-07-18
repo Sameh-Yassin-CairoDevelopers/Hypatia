@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-004165",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:38.161065Z"
+    },
+    "layer1_core": {
+        "transliteration": "xmt",
+        "hieroglyph": "𓐍𓂸𓏏𓏫𓀁𓐍𓂸𓏏𓏫𓏛𓐍𓂸𓏏𓏫𓐍𓂸𓐍𓂸𓏏𓀁𓐍𓂸𓏏𓏫𓂜𓐍𓂸𓐝𓏏𓂜𓐍𓂸𓏏",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "ينوي، يخطط، يترقب، يتطلع إلى",
+        "english": "intend, plan, take thought for, expect, anticipate",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+1340D",
+        "gardiner_code": "unknown",
+        "gardiner_description": "unknown",
+        "gardiner_details": "unknown"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

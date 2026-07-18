@@ -1,0 +1,574 @@
+ممتاز.
+
+هذه الوثيقة تبدو صغيرة، لكنها فى الحقيقة من الوثائق التى تمنع الفوضى بعد سنتين أو ثلاث من عمر المشروع.
+
+إذا التزمنا بها من البداية فلن نضطر يومًا إلى إعادة تسمية آلاف الملفات.
+
+---
+
+# HYP-SPEC-010200
+
+# Folder Standards
+
+**Project:** Hypatia Knowledge Platform
+
+**Document ID:** HYP-SPEC-010200
+
+**Version:** 1.0 Founder Edition
+
+**Status:** Official
+
+**Classification:** Architecture Standard
+
+---
+
+# Purpose
+
+This document defines the official naming standards for every folder inside the Hypatia Repository.
+
+These rules guarantee:
+
+* Consistency
+* Readability
+* Cross-platform compatibility
+* Long-term maintainability
+
+Every repository must follow these standards.
+
+No exceptions.
+
+---
+
+# Fundamental Principle
+
+Folders describe **knowledge responsibility**.
+
+They never describe implementation details.
+
+Correct:
+
+```text id="dwpik9"
+repository/
+grammar/
+stories/
+entities/
+```
+
+Incorrect:
+
+```text id="j77jlwm"
+python/
+mongodb/
+flutter/
+jsonfiles/
+helpers/
+```
+
+Technologies change.
+
+Knowledge does not.
+
+---
+
+# General Rules
+
+Every folder name must be
+
+* lowercase
+* ASCII only
+* singular or plural according to this specification
+* descriptive
+* permanent
+
+---
+
+# Character Rules
+
+Allowed
+
+```text id="rt1gwg"
+a-z
+
+0-9
+
+_
+```
+
+Not allowed
+
+```text id="dh8kzb"
+Space
+
+-
+
+.
+
+CamelCase
+
+Special Symbols
+
+Arabic Names
+```
+
+---
+
+Correct
+
+```text id="qwg4yt"
+knowledge_graph
+
+story_builder
+
+grammar_rules
+```
+
+Incorrect
+
+```text id="h7hnxv"
+KnowledgeGraph
+
+Story-Builder
+
+Grammar Rules
+
+قواعد
+```
+
+---
+
+# Letter Case
+
+All folder names are lowercase.
+
+Always.
+
+Correct
+
+```text id="v9hjy2"
+repository
+
+training
+
+builders
+```
+
+Incorrect
+
+```text id="c9w4ow"
+Repository
+
+Training
+
+Builders
+```
+
+---
+
+# Language
+
+Repository folders are written only in English.
+
+Arabic names are prohibited.
+
+Reason
+
+Cross-platform compatibility.
+
+International collaboration.
+
+Tool support.
+
+---
+
+# Singular vs Plural
+
+Collections
+
+Plural
+
+```text id="s0pqqp"
+lemmas
+
+stories
+
+entities
+
+sources
+
+domains
+
+relationships
+
+builders
+
+resolvers
+```
+
+Single concepts
+
+Singular
+
+```text id="xwsm3u"
+training
+
+website
+
+community
+
+repository
+
+ontology
+
+documentation
+```
+
+---
+
+# Reserved Folder Names
+
+The following names are reserved.
+
+```text id="wxgqcy"
+repository
+
+builders
+
+resolvers
+
+knowledge_graph
+
+training
+
+website
+
+community
+
+documentation
+
+specifications
+
+archives
+
+tests
+
+resources
+
+tools
+```
+
+Do not reuse these names elsewhere.
+
+---
+
+# Scientific Separation
+
+Each folder owns exactly one responsibility.
+
+Example
+
+```text id="ujtfyz"
+repository/
+
+stores knowledge
+
+builders/
+
+creates knowledge
+
+resolvers/
+
+links knowledge
+
+training/
+
+exports knowledge
+
+website/
+
+displays knowledge
+```
+
+No overlap.
+
+---
+
+# Nesting Rules
+
+Avoid unnecessary folder depth.
+
+Preferred
+
+```text id="v1gbgi"
+repository/
+
+entities/
+
+kings/
+```
+
+Avoid
+
+```text id="5t0fdf"
+repository/
+
+knowledge/
+
+objects/
+
+entities/
+
+royalty/
+
+kings/
+```
+
+---
+
+# Maximum Depth
+
+Recommended maximum
+
+Five levels.
+
+Deep hierarchies reduce maintainability.
+
+---
+
+# Empty Folders
+
+Allowed only if officially documented.
+
+Every empty folder must contain
+
+```text id="7g9xfw"
+README.md
+```
+
+explaining its purpose.
+
+---
+
+# Folder Ownership
+
+Every folder must have
+
+One owner.
+
+One responsibility.
+
+One documentation reference.
+
+---
+
+# Temporary Folders
+
+Temporary folders must begin with
+
+```text id="y8zcgp"
+tmp_
+
+cache_
+
+work_
+```
+
+These folders never contain canonical knowledge.
+
+---
+
+# Generated Folders
+
+Automatically generated folders begin with
+
+```text id="epn8u4"
+generated_
+
+export_
+
+build_
+```
+
+These folders may be safely recreated.
+
+---
+
+# Hidden Folders
+
+Only system folders may begin with
+
+```text id="xjlwmg"
+.
+```
+
+Examples
+
+```text id="wu8xpr"
+.git
+
+.github
+
+.vscode
+```
+
+No project data shall be stored inside hidden folders.
+
+---
+
+# Repository Expansion
+
+Future civilizations.
+
+Languages.
+
+Corpora.
+
+Builders.
+
+Resolvers.
+
+Must reuse the same folder philosophy.
+
+Never create parallel repository structures.
+
+---
+
+# Folder Naming Examples
+
+Correct
+
+```text id="f0g7rq"
+lemmas
+
+entities
+
+stories
+
+grammar
+
+training
+
+builders
+
+knowledge_graph
+
+relationships
+
+metadata
+
+ontology
+```
+
+Incorrect
+
+```text id="e2jkzu"
+my_folder
+
+new_files
+
+test2
+
+misc
+
+other
+
+old
+
+backup2
+
+random
+
+etc
+```
+
+---
+
+# Forbidden Names
+
+Never use
+
+```text id="qn0rqt"
+misc
+
+other
+
+new
+
+old
+
+backup
+
+files
+
+data
+
+stuff
+
+unknown
+
+temp
+```
+
+These names carry no scientific meaning.
+
+---
+
+# Repository Law
+
+If a folder cannot be described in one sentence,
+
+it should probably not exist.
+
+---
+
+# Folder Philosophy
+
+Folders organize knowledge.
+
+Not programmers.
+
+Not software.
+
+Not temporary ideas.
+
+---
+
+# Long-Term Objective
+
+A researcher opening the repository twenty years from now should immediately understand:
+
+* where knowledge lives,
+* where code lives,
+* where training lives,
+* where review lives,
+
+without reading a single line of code.
+
+---
+
+# Folder Motto
+
+> **Every Folder Has One Purpose.**
+
+> **Every Purpose Has One Folder.**
+
+---
+
+# Founder Statement
+
+Folders are not merely directories.
+
+They are the physical expression of the scientific architecture.
+
+When folders remain disciplined,
+
+knowledge remains organized.
+
+When folders become chaotic,
+
+the architecture collapses.
+
+---
+
+## مراجعة أكاديمية
+
+أعتبر هذه الوثيقة مكملة مباشرة لـ **HYP-SPEC-010100**. الأولى عرّفت *ما هي الفولدرات*، وهذه عرّفت *كيف تُسمى وتُستخدم*. ومن الآن فصاعدًا، أي فولدر جديد في المشروع يجب أن يلتزم بهذه القواعد أو يُرفض في المراجعة المعمارية. هذا سيمنح هيباتيا اتساقًا طويل الأمد ويمنع "الترقيع" الذي يصيب المشاريع الكبيرة مع مرور الوقت.

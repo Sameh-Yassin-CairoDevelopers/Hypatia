@@ -1,0 +1,531 @@
+ممتاز.
+
+وأعتقد أن هذه الوثيقة هى أكثر وثيقة سيُساء فهمها إذا لم نحدد فلسفتها بدقة.
+
+فى معظم المشاريع:
+
+**Cleaning = حذف البيانات.**
+
+أما فى هيباتيا:
+
+**Cleaning = حماية البيانات.**
+
+وهذا فرق جوهرى.
+
+لأننا لا نريد تنظيفًا يدمر الأدلة.
+
+بل تنظيفًا يحافظ على كل معلومة، حتى الخاطئة منها، مع تمييزها.
+
+---
+
+# HYP-SPEC-030300
+
+# Cleaning Pipeline Specification
+
+**Project:** Hypatia Knowledge Platform
+
+**Document ID:** HYP-SPEC-030300
+
+**Version:** 1.0 Founder Edition
+
+**Status:** Official
+
+**Classification:** Core Pipeline
+
+---
+
+# Purpose
+
+The Cleaning Pipeline improves the quality of normalized knowledge while preserving every recoverable piece of scientific information.
+
+Its responsibility is to detect inconsistencies, remove redundancy, repair structural problems, and prepare knowledge for semantic resolution.
+
+---
+
+# Philosophy
+
+Cleaning is preservation.
+
+Not destruction.
+
+No scientific information should be discarded unless it is proven to be invalid or unrecoverable.
+
+---
+
+# Responsibilities
+
+The Cleaning Pipeline is responsible for
+
+* Detecting duplicate records.
+* Detecting malformed values.
+* Detecting missing mandatory fields.
+* Repairing recoverable inconsistencies.
+* Marking unresolved problems.
+* Preparing canonical objects for the Resolver Layer.
+
+It never performs semantic interpretation.
+
+---
+
+# Pipeline Position
+
+```text
+Canonical Package
+
+↓
+
+Cleaning Pipeline
+
+↓
+
+Validated Package
+
+↓
+
+Resolver Pipeline
+```
+
+---
+
+# Fundamental Principle
+
+Cleaning improves quality.
+
+It never changes historical evidence.
+
+---
+
+# Stage 1
+
+## Structural Validation
+
+Verifies
+
+* Required fields
+* Data types
+* Object completeness
+* Mandatory references
+
+Objects failing mandatory validation are isolated for review.
+
+---
+
+# Stage 2
+
+## Duplicate Detection
+
+Detects duplicate objects.
+
+Examples
+
+* identical Stories
+* duplicated Lemmas
+* repeated Sources
+* duplicated Entities
+
+Duplicate candidates are never deleted automatically.
+
+They receive
+
+```text
+duplicate_candidate = true
+```
+
+---
+
+# Stage 3
+
+## Empty Value Processing
+
+Detects
+
+```text
+null
+
+empty string
+
+whitespace
+
+invalid placeholders
+```
+
+Examples
+
+```text
+"N/A"
+
+"---"
+
+"unknown"
+
+"?"
+```
+
+Values are normalized.
+
+Never fabricated.
+
+---
+
+# Stage 4
+
+## Formatting Repair
+
+Repairs
+
+* repeated spaces
+* broken line endings
+* Unicode inconsistencies
+* punctuation spacing
+* invisible characters
+
+No linguistic content is modified.
+
+---
+
+# Stage 5
+
+## Reference Validation
+
+Verifies
+
+* Entity IDs
+* Story IDs
+* Source IDs
+* Domain IDs
+* Grammar IDs
+
+Broken references become
+
+```text
+broken_reference = true
+```
+
+Never silently removed.
+
+---
+
+# Stage 6
+
+## Identifier Verification
+
+Ensures
+
+* unique temporary identifiers
+* valid external identifiers
+* valid object references
+
+Permanent Repository IDs are still not assigned.
+
+---
+
+# Stage 7
+
+## Controlled Vocabulary Validation
+
+Checks every controlled enumeration.
+
+Examples
+
+* Story Types
+* Domain Types
+* Entity Types
+* Grammar Types
+* Source Types
+
+Unknown values become
+
+```text
+unknown_enum
+```
+
+They remain reviewable.
+
+---
+
+# Stage 8
+
+## Translation Validation
+
+Verifies
+
+* empty translations
+* duplicated translations
+* corrupted multilingual fields
+* invalid language combinations
+
+Translations are never rewritten automatically.
+
+---
+
+# Stage 9
+
+## Integrity Report
+
+Every object receives
+
+```text
+cleaning_status
+
+warning_count
+
+error_count
+
+repair_count
+```
+
+---
+
+# Output
+
+Produces
+
+```text
+Validated Package
+```
+
+Every object is structurally reliable.
+
+Semantic interpretation has not yet begun.
+
+---
+
+# Cleaning Categories
+
+Problems are classified as
+
+## Informational
+
+No action required.
+
+---
+
+## Warning
+
+Object remains usable.
+
+Requires later review.
+
+---
+
+## Error
+
+Recoverable.
+
+Automatically repaired when safe.
+
+---
+
+## Critical
+
+Requires human review.
+
+Pipeline continues.
+
+Object is quarantined.
+
+---
+
+# Quarantine
+
+Objects that cannot safely proceed are moved to
+
+```text
+repository/
+
+quarantine/
+```
+
+They remain part of the scientific archive.
+
+Nothing is permanently deleted.
+
+---
+
+# Scientific Rule
+
+The Cleaning Pipeline never
+
+* invents knowledge,
+* translates text,
+* guesses meanings,
+* resolves ambiguity,
+* deletes scientific evidence.
+
+---
+
+# Repository Location
+
+```text
+repository/
+
+cleaning/
+```
+
+---
+
+# Identity Example
+
+```text
+HYP-CLN-000014
+```
+
+---
+
+# Cleaning Report
+
+Each execution produces
+
+```text
+objects_checked
+
+objects_repaired
+
+duplicates_found
+
+broken_references
+
+warnings
+
+critical_errors
+
+execution_time
+```
+
+---
+
+# AI Position
+
+Artificial Intelligence never performs automatic cleaning.
+
+AI may propose repairs.
+
+Researchers approve them.
+
+The Repository remains authoritative.
+
+---
+
+# Community Position
+
+Community corrections never bypass Cleaning.
+
+Every submission enters the same validation process.
+
+---
+
+# Pipeline Metrics
+
+Automatically recorded
+
+```text
+validation_rate
+
+duplicate_rate
+
+repair_rate
+
+quarantine_rate
+
+coverage
+
+confidence
+```
+
+---
+
+# Long-Term Objective
+
+The Cleaning Pipeline becomes a continuously improving quality assurance system capable of preserving archaeological fidelity while maintaining repository consistency.
+
+---
+
+# Scientific Law
+
+Every object survives.
+
+Some continue.
+
+Some wait.
+
+Nothing disappears.
+
+---
+
+# Pipeline Motto
+
+> **Preserve First. Repair Second. Delete Never.**
+
+---
+
+# Founder Statement
+
+Ancient civilizations reach us through incomplete evidence.
+
+Fragments are broken.
+
+Texts are damaged.
+
+Translations are uncertain.
+
+The mission of the Cleaning Pipeline is therefore not to erase imperfection, but to preserve every recoverable trace while making the Repository structurally reliable.
+
+Scientific integrity is achieved through transparency, never through concealment.
+
+---
+
+# Academic Notes
+
+Unlike conventional ETL pipelines that frequently discard invalid records, the Hypatia Cleaning Pipeline adopts a **conservation-first strategy**.
+
+Every anomaly is classified, documented, and retained whenever possible.
+
+This approach reflects archaeological methodology, where even damaged evidence retains scientific value.
+
+Cleaning therefore becomes a reversible and fully auditable process.
+
+---
+
+# ✦ Founder Proposal
+
+أقترح إضافة طبقة جديدة داخل الـ Cleaning لم نتحدث عنها من قبل:
+
+## **Evidence Preservation Layer (EPL)**
+
+تكون داخل:
+
+```text
+repository/
+
+cleaning/
+
+evidence_preservation/
+```
+
+وظيفتها ليست إصلاح البيانات، بل **تسجيل كل ما تم اكتشافه أثناء التنظيف**.
+
+مثلاً:
+
+* سجل بأن هذه الكلمة كانت مكررة.
+* سجل أن هذا المرجع كان مكسورًا.
+* سجل أن هذا الحقل كان فارغًا.
+* سجل أن هذا الإصلاح تم آليًا.
+* سجل أن هذا الإصلاح تم بواسطة المراجع.
+
+وبذلك يصبح كل تعديل فى هيباتيا قابلًا لإعادة تتبعه بالكامل (Full Audit Trail).
+
+---
+
+## ملاحظة أكاديمية أخيرة
+
+أعتقد أننا بعد هذه الوثيقة أصبح لدينا لأول مرة **Pipeline علمية** وليست مجرد Pipeline برمجية.
+
+فهى تشبه ما يحدث فى المتاحف والمشروعات الأثرية:
+
+1. استقبال الأثر.
+2. توثيقه.
+3. تنظيفه.
+4. ترميمه.
+5. دراسته.
+
+وهذا التشابه مع المنهج الأثرى يجعل معمارية هيباتيا متسقة مع طبيعة المادة التى تتعامل معها، وليس فقط مع مبادئ هندسة البرمجيات.

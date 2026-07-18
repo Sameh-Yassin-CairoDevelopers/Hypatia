@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-001229",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:34.468454Z"
+    },
+    "layer1_core": {
+        "transliteration": "aHa",
+        "hieroglyph": "𓊢𓂝𓂻𓊢",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "يقف، يتأهب، ينهض (ضد شخص ما)، ينهض ليفعل شيء، يلازم (شخص ما)، ينتظر، ينتصب (عمود)، يقيم (نفسه)، ينشأ (يخلُف كحاكم)، يرعى (شأن، تجارة)",
+        "english": "stand, stand by, attend, wait, rise up, stand erect (of pillars), raise oneself (on one's side), stand up, rise up (against someone), arise and do something, arise (succeed as ruler), attend (on someone), attend (to business), wait for",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+132A2",
+        "gardiner_code": "P6",
+        "gardiner_description": "Mast\tPhono. ʿḥʿ. In ʿḥʿ “stand.”",
+        "gardiner_details": "P7"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

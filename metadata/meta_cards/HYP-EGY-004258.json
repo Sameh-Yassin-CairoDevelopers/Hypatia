@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-004258",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:38.295052Z"
+    },
+    "layer1_core": {
+        "transliteration": "xsf",
+        "hieroglyph": "𓍚𓀜𓐍𓋴𓆑𓍙𓀜",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "يُبعد، يرفض، يكبح (جريمة)، يصلح (خطأ)، يوبخ، يلوم (كلمات)، يقود (قطيع)، يحول (ماء)، يتجنب (غضب)، يمنع، عقاب، يرفض، يستنكر",
+        "english": "drive away, ward off, oppose, repel (by bad conduct), repress (crime), redress (wrong), reprove (wards), drive (cattle), divert (water), avoid (anger), prevent, punishment, disapproval",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+1335A",
+        "gardiner_code": "U35",
+        "gardiner_description": "Combination of U34 + I9\tPhono. ḫsf.",
+        "gardiner_details": "U36"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

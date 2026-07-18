@@ -1,0 +1,731 @@
+{
+    "text_id": "EGY-040",
+    "metadata": {
+        "title_ar": "تعاليم الحكيم كاجمني ببردية بريس",
+        "title_en": "The Instructions of Kagemni (Papyrus Prisse)",
+        "museum_catalog_no": "Bibliotheque Nationale de France, Paris, P. Prisse I (Lines 1-14)",
+        "stable_tla_id": "unknown"
+    },
+    "sentences": [
+        {
+            "metadata": {
+                "id": "HYP-TXT-000040-L01",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T22:30:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-040",
+                "sequence_no": 1,
+                "transliteration": "jr gr.t jr=k s-gsp mḏꜣ.t tn m-mtr",
+                "hieroglyph": "𓇋𓂋𓎼𓋋𓏏𓁹𓎡𓋴𓎡𓄿𓊪𓏟𓏛𓏏𓈖𓐝𓌳𓏏𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 1: والآن، إذا قمت بفتح وقراءة هذه اللفافة والكتاب التعليمي بيقين وتأكيد،",
+                "english": "Line 1: Now, if you read (unroll) this book and instruction precisely,",
+                "german": "Zeile 1: Nun, wenn du dieses Buch und diese Unterweisung genau liest (entrollst),",
+                "french": "Ligne 1: Maintenant, si tu lis (déroules) ce livre et cette instruction précisément,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "conditional_jr_with_subjunctive_s-gsp_and_objective_scroll_noun"
+            },
+            "layer4_writing": {
+                "mdc_code": "jr gr.t jr=k s-gsp mD3.t tn m-mtr"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BNF-PRISSE",
+                        "name": "Papyrus Prisse I, Bibliotheque Nationale de France",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "s-gsp", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "mḏꜣ.t", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "m-mtr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الفيزيائي الأول يفتتح العهد التعليمي؛ واللفظ 'س-جسب' (s-gsp) يعني لغوياً يفتح أو ينشر لفافة البردي للقراءة الفكرية [1.1.2]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000040-L02",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T22:31:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-040",
+                "sequence_no": 2,
+                "transliteration": "m rḏj ḥr=k šf.w m sḏm md.t tn nbt",
+                "hieroglyph": "𓐝𓂞𓁷𓏤𓎡𓋴𓆑𓏲𓏥𓐝𓄔𓈖𓐝𓂧𓏏𓏤𓏏𓈖𓎟𓏏",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 2: فلا تجعل وجهك شاحباً أو مرتعداً أو متكبراً مما سمعته وتدبرته من كل هذه الكلمات والأقوال،",
+                "english": "Line 2: do not let your face be arrogant because of all that you have heard of these words,",
+                "german": "Zeile 2: lass dein Gesicht nicht arrogant sein wegen all dessen, was du von diesen Worten gehört hast,",
+                "french": "Ligne 2: ne laisse pas ton visage être arrogant à cause de tout ce que tu as entendu de ces paroles,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "prohibitive_m_rdi_with_subjunctive_arrogant_face_and_hearing_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "m rdj Hr=k Sfw m sDm md.t tn nbt"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BNF-PRISSE",
+                        "name": "Papyrus Prisse I, Bibliotheque Nationale de France",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "rḏj", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥr", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "šf.w", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "sḏm", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "النهي الأدبي 'إم ردي حر-ك شفو' (m rḏj ḥr=k šf.w) يوجه القارئ للتواضع العقلي أمام الحكمة المنقولة من الأجداد."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000040-L03",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T22:02:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-040",
+                "sequence_no": 3,
+                "transliteration": "jr gr.t wn.j jqr s nb rḏj.n=f ḥr=f jm",
+                "hieroglyph": "𓇋𓂋𓎼𓋋𓏏𓅱𓈖𓇋𓏠𓈖𓄿𓎡𓂋𓊃𓏤𓎟𓂞𓈖𓆑𓁷𓏤𓆑𓐝𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 3: والآن، إذا وجد وكان هناك أي رجل حكيم وصالح يعطي انتباهه ويوجه وجهه وعقله إليها،",
+                "english": "Line 3: Now, if there is any worthy man who is wise, he will direct his face to them,",
+                "german": "Zeile 3: Nun, wenn es irgendeinen würdigen Mann gibt, der weise ist, wird er sein Gesicht auf sie richten,",
+                "french": "Ligne 3: Maintenant, s'il y a un homme digne qui est sage, il dirigera son visage vers elles,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "conditional_jr_with_subject_noun_and_perfective_circumstantial_directing_face"
+            },
+            "layer4_writing": {
+                "mdc_code": "jr gr.t wn.j jqr s nb rdj.n=f Hr=f jm"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BNF-PRISSE",
+                        "name": "Papyrus Prisse I, Bibliotheque Nationale de France",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "wn", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "jqr", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "rḏj", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التركيب 'رِدي-ن-إف حر-إف إم' (rḏj.n=f ḥr=f jm) يعني حرفياً 'يوجه أو يركز وجهه على الشيء' وهو كناية عن الفهم والتلقي الواعي."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000040-L04",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T22:03:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-040",
+                "sequence_no": 4,
+                "transliteration": "smꜣ=f pš jm n rḫ-nsw.t jmy-r šmˁ.w",
+                "hieroglyph": "𓋴𓌳𓄿𓆑𓊪𓄡𓂋𓐝𓆑𓈖𓇓𓏏𓂋𓐍𓅓𓂋𓆰𓏥𓏲",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 4: فسوف ينظم ويوحد حصته ونصيبه منها كمعرفة ملكية تليق بمشرفي وحكام إقليم الجنوب،",
+                "english": "Line 4: he will organize his portion thereof for the royal acquaintance and the governors of Upper Egypt,",
+                "german": "Zeile 4: er wird seinen Anteil daran für die königlichen Bekannten und die Vorsteher von Oberägypten organisieren,",
+                "french": "Ligne 4: il organisera sa part de celle-ci pour les connaissances royales et les gouverneurs de Haute-Égypte,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "prospective_sm3.f_with_objective_portion_and_dative_titles"
+            },
+            "layer4_writing": {
+                "mdc_code": "sma=f pS jm n rX-nsw.t jmy-r Sm_a.w"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BNF-PRISSE",
+                        "name": "Papyrus Prisse I, Bibliotheque Nationale de France",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "smꜣ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "pš", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "rḫ-nsw.t", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "jmy-r-šmˁ.w", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الربط بين الحكمة الأخلاقية والألقاب القيادية بالدولة 'إيمي-ر شمعو' (حاكم الجنوب) يوضح غاية كتابة الأدب لحفظ هيبة الحكام [1.1.2]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000040-L05",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T22:04:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-040",
+                "sequence_no": 5,
+                "transliteration": "wn.jn s-sštꜣ ... kꜣp.w",
+                "hieroglyph": "𓅱𓈖𓇋𓈖𓋴𓍷𓏏𓄿𓏥𓋴𓎡𓄿𓊪𓏲𓏥𓉐",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 5: وحينها كُشفت وبُسطت الأسرار المخفية والمطهرة بداخل مقاصير القصر بسلام،",
+                "english": "Line 5: Then the secrets were revealed within the sanctuaries,",
+                "german": "Zeile 5: Da wurden die Geheimnisse in den Heiligtümern enthüllt,",
+                "french": "Ligne 5: Alors les secrets ont été révélés au sein des sanctuaires,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "consecutive_wn.jn_with_passive_participle_revealing_secrets_and_locative"
+            },
+            "layer4_writing": {
+                "mdc_code": "wn.jn s-sSt3 ... kAp.w"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BNF-PRISSE",
+                        "name": "Papyrus Prisse I, Bibliotheque Nationale de France",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "wn.in", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "s-sštꜣ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "kꜣp.w", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ 'س-سشتا' (s-sštꜣ) يعني يظهر أو يكشف الأسرار، و'كابو' (kꜣp.w) تعني الغرف المطهرة والمحمية بداخل معبد وقصر الملك."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000040-L06",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T22:05:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-040",
+                "sequence_no": 6,
+                "transliteration": "jr.n=j m-qd ḏd.n ḥm=f m-mtr",
+                "hieroglyph": "𓁹𓈖𓇋𓏠𓈖𓐝𓎡𓂧𓂧𓈖𓍛𓏤𓆑𓐝𓌳𓏏𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 6: وقد صنعتُ وأنجزتُ هذا الأمر بكامله ومطابقاً للفرمان وما قاله جلالته بيقين وتأكيد،",
+                "english": "Line 6: I acted exactly as his majesty had spoken precisely,",
+                "german": "Zeile 6: Ich handelte genau so, wie seine Majestät es genau gesagt hatte,",
+                "french": "Ligne 6: J'ai agi tout à fait comme sa majesté l'avait dit précisément,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "iw_first_person_perfective_with_comparative_and_relative_sDmw.n=f"
+            },
+            "layer4_writing": {
+                "mdc_code": "jr.n=j m-qd Dd.n Hm=f m-mtr"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BNF-PRISSE",
+                        "name": "Papyrus Prisse I, Bibliotheque Nationale de France",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jr.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥm", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "m-mtr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الالتزام الحركي الكلاسيكي 'إر-ن-إي إم-قد' (jr.n=j m-qd) لتأكيد الإنجاز المالي والإداري التام للتعليمات."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000040-L07",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T22:06:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-040",
+                "sequence_no": 7,
+                "transliteration": "ḥz wj ḥm=f ḥr=s r jḫt nb.t",
+                "hieroglyph": "𓎛𓋴𓏏𓍛𓏤𓆑𓇋𓏠𓈖𓁷𓏤𓋴𓂋𓐍𓏏𓎟𓏏",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 7: وقد أثنى جلالته عليّ ومدحني وقدرني بسبب كفاءة تنفيذها أكثر من أي شيء آخر بالوجود،",
+                "english": "Line 7: and his majesty praised me on account of it more than anything,",
+                "german": "Zeile 7: und seine Majestät lobte mich deswegen mehr als alles andere,",
+                "french": "Ligne 7: et sa majesté m'a loué pour cela plus que pour toute autre chose,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n_subject_noun_with_dative_praise_and_comparative_modifier"
+            },
+            "layer4_writing": {
+                "mdc_code": "Hz wj Hm=f Hr=s r jXt nb.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BNF-PRISSE",
+                        "name": "Papyrus Prisse I, Bibliotheque Nationale de France",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḥz", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥm", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "jḫt-nb.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "صيغة المديح السلطوي الفائقة لخدمات كاجمني المخلصة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000040-L08",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T22:07:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-040",
+                "sequence_no": 8,
+                "transliteration": "rḏj.n=f wj m ẖry-tp-nsw.t jmy-r ẖnty-š",
+                "hieroglyph": "𓂞𓈖𓆑𓇋𓏠𓈖𓐝𓄡𓂋𓇓𓏏𓋳𓅓𓂋𓏃𓈙𓉐",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 8: ورقّاني وعينني جلالته حاجباً ملكياً للقصر، ومشرفاً ومستشاراً عاماً للمزارع ومستأجري الأوقاف الخاصة به،",
+                "english": "Line 8: and he appointed me royal chamberlain and overseer of the tenants,",
+                "german": "Zeile 8: und er ernannte mich zum königlichen Kammerherrn und Vorsteher der Pächter,",
+                "french": "Ligne 8: et il m'a nommé chambellan royal et directeur des tenanciers,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n=f_transitive_with_double_objective_honorific_titles"
+            },
+            "layer4_writing": {
+                "mdc_code": "rdj.n=f wj m Xry-tp-nsw.t jmy-r Xnty-S"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BNF-PRISSE",
+                        "name": "Papyrus Prisse I, Bibliotheque Nationale de France",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "rḏj.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ẖry-tp-nsw.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "jmy-r-ẖnty-š", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الترقية للمناصب التنفيذية والمالية الكبرى بالقصر الملكي لـ كاجمني."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000040-L09",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T22:08:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-040",
+                "sequence_no": 9,
+                "transliteration": "jmy-r kꜣ.t nb.t n.t nsw.t m-mtr",
+                "hieroglyph": "𓅓𓂋𓂓𓏏𓏥𓎟𓏏𓈖𓇓𓏏𓐝𓌳𓏏𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 9: بالإضافة لتعييني مديراً ومخططاً ومسؤولاً عاماً عن جميع أعمال البناء والتشييد والمقابر التابعة للملك بيقين،",
+                "english": "Line 9: and overseer of all the construction projects of the King precisely,",
+                "german": "Zeile 9: und Vorsteher aller Bauarbeiten des Königs genau,",
+                "french": "Ligne 9: et directeur de tous les travaux de construction du Roi précisément,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "master_architect_administrative_title"
+            },
+            "layer4_writing": {
+                "mdc_code": "jmy-r k3.t nb.t n.t nsw.t m-mtr"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BNF-PRISSE",
+                        "name": "Papyrus Prisse I, Bibliotheque Nationale de France",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jmy-r", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "kꜣ.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "nsw.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللقب المعماري الأكبر 'إيمي-ر كات نبت نت نسوت' (jmy-r kꜣ.t nb.t n.t nsw.t) يعادل لقب وزير الإسكان وتخطيط المدن والمقابر الملكية بالدولة القديمة [1.1.2]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000040-L10",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T22:09:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-040",
+                "sequence_no": 10,
+                "transliteration": "smꜣ.n=j kꜣ.t n.t ḥwt-nṯr",
+                "hieroglyph": "𓋴𓌳𓄿𓈖𓇋𓏠𓈖𓂓𓏏𓏥𓈖𓉐𓊹",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 10: وقمتُ بتخطيط وتشييد وإقامة الصروح المعمارية والإنشائية لمعابد ومقاصير الآلهة العظمى،",
+                "english": "Line 10: and I organized the construction works of the temples,",
+                "german": "Zeile 10: und ich organisierte die Bauarbeiten der Tempel,",
+                "french": "Ligne 10: et j'ai organisé les travaux de construction des temples,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "iw_first_person_perfective_with_objective_temple_construction_noun"
+            },
+            "layer4_writing": {
+                "mdc_code": "sma.n=j k3.t n.t Hwt-nTr"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BNF-PRISSE",
+                        "name": "Papyrus Prisse I, Bibliotheque Nationale de France",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "smꜣ.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "kꜣ.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḥwt-nṯr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الالتزام بتسيير وتوحيد 'سما' (smꜣ) العمالة المعمارية لإعمار معابد وهياكل المقاصير الملكية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000040-L11",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T22:10:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-040",
+                "sequence_no": 11,
+                "transliteration": "jw jr.n=j s m ḥtp",
+                "hieroglyph": "𓇋𓅱𓁹𓈖𓇋𓏠𓈖𓋴𓐝𓊵𓏏𓊪",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 11: وقد أنجزتُ وأتممتُ بناءها بالكامل وبسلام وأمن تام،",
+                "english": "Line 11: and I completed it all in peace,",
+                "german": "Zeile 11: und ich vollendete dies alles im Frieden,",
+                "french": "Ligne 11: et j'ai tout accompli en paix,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "iw_first_person_perfective_transitive_with_manner_adverbial_Htp"
+            },
+            "layer4_writing": {
+                "mdc_code": "jw jr.n=j s m Htp"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BNF-PRISSE",
+                        "name": "Papyrus Prisse I, Bibliotheque Nationale de France",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "jr.n", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḥtp", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "صيغة الإقرار بالإنجاز السلمي والتام للمشاريع المعمارية الصخرية الكبرى للدولة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000040-L12",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T22:11:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-040",
+                "sequence_no": 12,
+                "transliteration": "ḥm n ḥwny mwt-t(j)",
+                "hieroglyph": "𓍛𓏤𓈖𓎛𓅱𓈖𓏭𓅓𓏲𓏏𓏏𓏭",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 12: ثم حدث وجرى أن توفي وجرت وفاة جلالة الملك حوني بسلام،",
+                "english": "Line 12: Then the majesty of Huni passed away,",
+                "german": "Zeile 12: Da verstarb die Majestät des Huni,",
+                "french": "Ligne 12: Alors la majesté de Houni s'éteignit,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "noun_subject_with_passive_stative_mwt.t_verb"
+            },
+            "layer4_writing": {
+                "mdc_code": "Hm n hwny mwt-t(j)"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BNF-PRISSE",
+                        "name": "Papyrus Prisse I, Bibliotheque Nationale de France",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḥm", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥwny", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "mwt", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الملك 'حوني' (ḥwny) هو آخر ملوك الأسرة الثالثة العظام بالدولة القديمة، والسطر يسجل لحظة الانتقال السياسي للسلطة [1.1.2]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000040-L13",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T22:12:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-040",
+                "sequence_no": 13,
+                "transliteration": "ˁḥˁ.n nsw-bỉty snfr.w dỉ ˁnḫ s-ḥp.y m nsw.t",
+                "hieroglyph": "𓊢𓂝𓈖𓇓𓏏𓆤𓏏𓋴𓄤𓆑𓂋𓏲𓂞𓋹𓋴𓎛𓊪𓇋𓏠𓈖𓐝𓇓𓏏𓄤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 13: وعندها، اعتلى وظهر ملك مصر العليا والسفلى (سنفرو)، المعطى الحياة، كملك صالح وحارس للبلاد بالعدالة والتوحيد،",
+                "english": "Line 13: And the King of Upper and Lower Egypt Sneferu, given life, arose as a beneficent king,",
+                "german": "Zeile 13: Und der König von Ober- und Unterägypten Snofru, dem Leben gegeben ist, erstand als gütiger König,",
+                "french": "Ligne 13: Et le Roi de Haute et Basse-Égypte Snéfrou, doué de vie, apparut comme un roi bienfaisant,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "consecutive_aha.n_with_royal_subject_and_stative_motion_as_sovereign"
+            },
+            "layer4_writing": {
+                "mdc_code": "aha.n nsw-bity snfr.w di anx s-hp.y m nsw.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BNF-PRISSE",
+                        "name": "Papyrus Prisse I, Bibliotheque Nationale de France",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ˁḥˁ.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "snfr.w", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "s-ḥp", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "nsw.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الاعتلاء الرسمي والشرعي للفرعون المؤسس للأسرة الرابعة العظيمة 'سنفرو' (snfr.w) ويعني اسمه 'الذي يجمّل ويحسّن الديار' [1.1.2]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000040-L14",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T22:13:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-040",
+                "sequence_no": 14,
+                "transliteration": "wn.jn kꜣ-gm-n.j rḏj.w m jmy-r niwt tꜣyty sꜣb ṯꜣty m-mtr",
+                "hieroglyph": "𓅱𓈖𓇋𓈖𓂓𓐝𓎼𓅓𓈖𓇋𓂞𓎡𓏲𓐝𓅓𓂋𓊖𓋲𓋳𓊃𓄿𓃀𓍿𓄿𓏏𓏭𓐝𓌳𓏏𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 14: وحينها تم تعييني وترقيتي كعمدة للمدينة الحاكمة (العاصمة)، وقاضي القضاة، والوزير الأعظم للدولة بالتمام واليقين: كاجمني.",
+                "english": "Line 14: Then Kagemni was appointed as mayor of the city, Chief Justice, and Vizier precisely.",
+                "german": "Zeile 14: Da wurde Kagemni zum Bürgermeister der Stadt, Oberrichter und Wesir genau ernannt.",
+                "french": "Ligne 14: Alors Kagemni fut nommé maire de la ville, chef de la justice, et vizir précisément.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "consecutive_wn.jn_with_proper_name_and_passive_stative_of_vizier_appointment"
+            },
+            "layer4_writing": {
+                "mdc_code": "wn.jn k3-gm-n.j rdj.w m jmy-r niwt t3yty s3b TAty m-mtr"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BNF-PRISSE",
+                        "name": "Papyrus Prisse I, Bibliotheque Nationale de France",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "wn.in", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "kꜣ-gm-n.j", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "jmy-r-niwt", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "tꜣyty-sꜣb-ṯꜣty", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الخاتمة التاريخية الاستثنائية؛ حيث ترسم لحظة تولي المعلم الحكيم 'كاجمني' (kꜣ-gm-n.j) منصب الوزير الأعظم وقاضي القضاة للبلاد 'تايتي ساب ثاتي' وهي ذروة البناء القيادي والسياسي الحكيم للدولة القديمة [1.1.2]."
+            }
+        }
+    ]
+}

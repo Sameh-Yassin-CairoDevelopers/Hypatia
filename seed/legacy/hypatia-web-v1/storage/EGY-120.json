@@ -1,0 +1,622 @@
+{
+    "text_id": "EGY-120",
+    "metadata": {
+        "title_ar": "لوحة سي-عنخ بوادي الحمامات لشق الآبار",
+        "title_en": "The Inscription of Seankh at Wadi Hammamat",
+        "museum_catalog_no": "Wadi Hammamat Rock Inscription No. 1 (Couyat-Montet No. 1)",
+        "stable_tla_id": "unknown"
+    },
+    "sentences": [
+        {
+            "metadata": {
+                "id": "HYP-TXT-000120-L01",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T22:20:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-120",
+                "sequence_no": 1,
+                "transliteration": "rnpt-sp 2, ꜣbd 2 n šmw, sw 15",
+                "hieroglyph": "𓆳𓏏𓊗𓏤𓏤𓇹𓏤𓏤𓏥𓇳𓎆𓏤𓏤𓏤𓏤𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 1: السنة الثانية من الحكم، الشهر الثاني من فصل الصيف (شمو)، اليوم الخامس عشر،",
+                "english": "Line 1: Regnal year 2, second month of the summer season (Shemu), day 15,",
+                "german": "Zeile 1: Regierungsjahr 2, zweiter Monat der Sommerzeit (Schemu), Tag 15,",
+                "french": "Ligne 1: L'an 2, deuxième mois de la saison de l'été (Chémou), jour 15,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "temporal_clause",
+                "syntax_structure": "standard_date_formula"
+            },
+            "layer4_writing": {
+                "mdc_code": "rnpt-sp 2, Abd 2 n Smw, sw 15"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "ROCK-INSCRIPTION-HAMMAMAT-01",
+                        "name": "Wadi Hammamat Rock Inscription No. 1",
+                        "type": "rock_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "rnpt-sp", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "šmw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "sw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الفيزيائي الأول يفتتح النقش بصيغة التأريخ الدقيقة لحملة وادي الحمامات بالصحراء الشرقية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000120-L02",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T22:21:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-120",
+                "sequence_no": 2,
+                "transliteration": "ẖr ḥm n nsw-bỉty nb-tꜣwy-rˁ dỉ ˁnḫ",
+                "hieroglyph": "𓌨𓂋𓍛𓏤𓈖𓇓𓏏𓆤𓏏𓎟𓇾𓏤𓏤𓇳𓂞𓋹",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 2: تحت جلالة ملك مصر العليا والسفلى (نب-تاوي-رع)، المعطى الحياة،",
+                "english": "Line 2: under the majesty of the King of Upper and Lower Egypt, Nebtawyre, given life,",
+                "german": "Zeile 2: unter der Majestät des Königs von Ober- und Unterägypten, Nebtawyre, dem Leben gegeben ist,",
+                "french": "Ligne 2: sous la majesté du Roi de Haute et Basse-Égypte, Nebtaouyrê, doué de vie,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "royal_titulary_introduction"
+            },
+            "layer4_writing": {
+                "mdc_code": "Xr Hm n nsw-bity nb-t3wy-ra di anx"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "ROCK-INSCRIPTION-HAMMAMAT-01",
+                        "name": "Wadi Hammamat Rock Inscription No. 1",
+                        "type": "rock_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ẖr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥm", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "nb-tꜣwy-rˁ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الفيزيائي الثاني يسجل اسم التتويج للملك منتوحتب الرابع آخر ملوك الأسرة الحادية عشرة [1.1.4]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000120-L03",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T22:02:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-120",
+                "sequence_no": 3,
+                "transliteration": "sꜣ rˁ mnṯw-ḥtp ˁnḫ ḏ.t mjt rˁ",
+                "hieroglyph": "𓅭𓏤𓇳𓏤𓏠𓈖𓍿𓅱𓊵𓏏𓊪𓋹𓆖𓐝𓇳𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 3: ابن رع (منتوحتب)، المعطى الحياة مثل رع إلى الأبد،",
+                "english": "Line 3: Son of Re, Mentuhotep, given life like Re forever,",
+                "german": "Zeile 3: Sohn des Re, Mentuhotep, beschenkt mit Leben wie Re in Ewigkeit,",
+                "french": "Ligne 3: Fils de Rê, Mentouhotep, doué de vie comme Rê éternellement,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "royal_birth_name_with_optative_epithets"
+            },
+            "layer4_writing": {
+                "mdc_code": "s3 ra mntw-Htp anx Dt mi ra"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "ROCK-INSCRIPTION-HAMMAMAT-01",
+                        "name": "Wadi Hammamat Rock Inscription No. 1",
+                        "type": "rock_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "sꜣ-rˁ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mnṯw-ḥtp", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ˁnḫ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الفيزيائي الثالث يسجل اسم الولادة للملك منتوحتب الرابع."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000120-L04",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T22:03:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-120",
+                "sequence_no": 4,
+                "transliteration": "wḏ.n ḥm=f sbt",
+                "hieroglyph": "𓎘𓈖𓍛𓏤𓆑𓋴𓃀𓏏𓂻",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 4: لقد أمر ووجه جلالته بإرسال وتسيير بعثة ومهمة رسمية،",
+                "english": "Line 4: His majesty commanded to send (dispatch) an expedition,",
+                "german": "Zeile 4: Seine Majestät befahl, eine Expedition auszusenden (abzusenden),",
+                "french": "Ligne 4: Sa majesté ordonna d'envoyer (expédier) une expédition,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n=f_with_objective_infinitive"
+            },
+            "layer4_writing": {
+                "mdc_code": "wD.n Hm=f sbt"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "ROCK-INSCRIPTION-HAMMAMAT-01",
+                        "name": "Wadi Hammamat Rock Inscription No. 1",
+                        "type": "rock_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "wḏ.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥm", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "sbt", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الفيزيائي الرابع يفتتح القرار الملكي التنفيذي بالفرمان 'ودج-ن' (wḏ.n)."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000120-L05",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T22:04:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-120",
+                "sequence_no": 5,
+                "transliteration": "jmy-r mšˁ sꜣ-ˁnḫ",
+                "hieroglyph": "𓅓𓂋𓌯𓏥𓋴𓋹𓈖𓎡𓄡",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 5: بقيادة وإشراف قائد الجيش العام (سي-عنخ)،",
+                "english": "Line 5: under the commander of the army, Seankh,",
+                "german": "Zeile 5: unter dem Befehlshaber des Heeres, Seankh,",
+                "french": "Ligne 5: sous la direction du commandant de l'armée, Seankh,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "appositive_military_title_with_proper_name"
+            },
+            "layer4_writing": {
+                "mdc_code": "jmy-r mS_a s3-anx"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "ROCK-INSCRIPTION-HAMMAMAT-01",
+                        "name": "Wadi Hammamat Rock Inscription No. 1",
+                        "type": "rock_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jmy-r", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mšˁ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "sꜣ-ˁnḫ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الفيزيائي الخامس يحدد قائد البعثة 'سي-عنخ' (sꜣ-ˁnḫ) الحامل للقب 'إيمي-ر مشع' (قائد الجيش)."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000120-L06",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T22:05:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-120",
+                "sequence_no": 6,
+                "transliteration": "r rḫ ḫꜣs.t n.t rꜣ-ẖnw",
+                "hieroglyph": "𓂋𓂋𓐍𓈉𓏤𓈖𓏏𓂋𓏤𓄡𓈖𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 6: لكي يستكشف ويرسم مسالك براري وصحراء منطقة رأ-خنو (وادي الحمامات)،",
+                "english": "Line 6: to inspect (explore) the desert of Ra-Henu (Wadi Hammamat),",
+                "german": "Zeile 6: um die Wüste von Ra-Henu (Wadi Hammamat) zu inspizieren,",
+                "french": "Ligne 6: pour inspecter (explorer) le désert de Ra-Henou (Wadi Hammamat),",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "infinitive_r_purpose_with_geographical_genitives"
+            },
+            "layer4_writing": {
+                "mdc_code": "r rX xAs.t n.t r3-Xnw"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "ROCK-INSCRIPTION-HAMMAMAT-01",
+                        "name": "Wadi Hammamat Rock Inscription No. 1",
+                        "type": "rock_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "rḫ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḫꜣs.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "rꜣ-ẖnw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الفيزيائي السادس يحدد الهدف الجغرافي للبعثة؛ واللفظ 'رأ-خنو' (rꜣ-ẖnw) يعني حرفياً 'فم أو بوابة الوادي الداخلي' وهو الاسم الفرعوني لوادي الحمامات [3.2.1]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000120-L07",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T22:06:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-120",
+                "sequence_no": 7,
+                "transliteration": "r jṯt mnemnt n.t ḏt=f",
+                "hieroglyph": "𓂋𓇋𓏏𓇋𓏠𓈖𓏠𓏠𓏏𓏥𓈖𓏏𓍿𓏏𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 7: ولكي يجلب ويؤمن حركة الماشية والأنعام التابعة لأوقافه وممتلكاته الملكية الخاصة،",
+                "english": "Line 7: and to secure (bring) the cattle of his estate,",
+                "german": "Zeile 7: und das Vieh seines Besitzes zu sichern (herbeizuführen),",
+                "french": "Ligne 7: et pour sécuriser (amener) le bétail de son domaine,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "infinitive_r_purpose_with_objective_genitive_estate"
+            },
+            "layer4_writing": {
+                "mdc_code": "r jTt mnemnt n.t Dt=f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "ROCK-INSCRIPTION-HAMMAMAT-01",
+                        "name": "Wadi Hammamat Rock Inscription No. 1",
+                        "type": "rock_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jṯt", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mnement", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḏt", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الفيزيائي السابع يحدد مهام الجلب والتأمين؛ واللفظ 'جت-إف' (ḏt=f) يشير للممتلكات والأوقاف التابعة للملك مباشرة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000120-L08",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T22:07:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-120",
+                "sequence_no": 8,
+                "transliteration": "m ẖn.wt r wꜣḏ-wr",
+                "hieroglyph": "𓐝𓉐𓄡𓈖𓏤𓂋𓅓𓄿𓍑𓅨𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 8: من السهول والوديان الداخلية والبعيدة وحتى ساحل البحر الأعظم (البحر الأحمر)،",
+                "english": "Line 8: from the inner valleys to the Great Green (Red Sea),",
+                "german": "Zeile 8: von den inneren Tälern bis zum Großen Grünen (Roten Meer),",
+                "french": "Ligne 8: depuis les vallées intérieures jusqu'à la Très Verte (la mer Rouge),",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "locative_range_m_r_prepositional_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "m Xn.wt r w3D-wr"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "ROCK-INSCRIPTION-HAMMAMAT-01",
+                        "name": "Wadi Hammamat Rock Inscription No. 1",
+                        "type": "rock_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ẖn.wt", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "wꜣḏ-wr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الفيزيائي الثامن يسجل النطاق الجغرافي الواسع للبعثة الممتد من أعماق الوديان 'خينوت' (ẖn.wt) لساحل البحر الأحمر 'وايج-ور' [3.2.1]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000120-L09",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T22:08:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-120",
+                "sequence_no": 9,
+                "transliteration": "r rḏj.t rḫ=sn ṯꜣꜥw",
+                "hieroglyph": "𓂋𓂞𓏏𓂋𓐍𓋴𓈖𓍿𓄿𓂝𓅱𓈉",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 9: ولكي يرسموا ويؤمنوا حدود إقليم وبندر ثاعو (ميناء مرسى جواسيس العتيق)،",
+                "english": "Line 9: and to establish (know) their border at Tjaau (Mersa Gawasis),",
+                "german": "Zeile 9: und ihre Grenze bei Tjaau (Mersa Gawasis) festzulegen (zu erkennen),",
+                "french": "Ligne 9: et pour fixer (connaître) leur frontière à Tjaau (Mersa Gawasis),",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "infinitive_r_purpose_with_objective_proper_destination"
+            },
+            "layer4_writing": {
+                "mdc_code": "r rdj.t rX=sn t3aw"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "ROCK-INSCRIPTION-HAMMAMAT-01",
+                        "name": "Wadi Hammamat Rock Inscription No. 1",
+                        "type": "rock_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "rḏj", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "rḫ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ṯꜣꜥw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الفيزيائي التاسع يسجل الاسم الجغرافي العتيق 'ثاعو' (ṯꜣꜥw) وهو الميناء البحري الهام للدولة الوسطى بمرسى جواسيس بساحل البحر الأحمر [3.2.1]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000120-L10",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T22:09:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-120",
+                "sequence_no": 10,
+                "transliteration": "ḥnˁ šd.t ẖn.m.wt n.t mw",
+                "hieroglyph": "𓎛𓈖𓂝𓋴𓂧𓏏𓍡𓏥𓈖𓏏𓈗",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 10: بالإضافة لشغل وحفر وتأمين القنوات والآبار الصخرية للمياه العذبة،",
+                "english": "Line 10: together with digging and securing water wells,",
+                "german": "Zeile 10: zusammen mit dem Graben und Sichern von Wasserbrunnen,",
+                "french": "Ligne 10: ainsi qu'en creusant et sécurisant des puits d'eau,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "coordination_with_objective_digging_infinitive_and_genitive_water"
+            },
+            "layer4_writing": {
+                "mdc_code": "Hna S_d.t Xn.m.wt n.t mw"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "ROCK-INSCRIPTION-HAMMAMAT-01",
+                        "name": "Wadi Hammamat Rock Inscription No. 1",
+                        "type": "rock_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḥnˁ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "šd.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ẖn.m.wt", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "mw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الفيزيائي العاشر يسجل أعمال البنية التحتية لحفر وصيانة آبار المياه 'شِدت خنموت نت مو' (šd.t ẖn.m.wt n.t mw) لتأمين حياة العمال بالصحراء [3.2.1]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000120-L11",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T22:10:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-120",
+                "sequence_no": 11,
+                "transliteration": "r nḥm bꜣk.w jm r jb=f",
+                "hieroglyph": "𓂋𓎛𓐝𓃀𓄿𓎡𓅱𓐝𓆑𓂋𓄣𓏤𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 11: لإنقاذ وإرواء وحماية حياة عمالنا هناك ليرتاح بالهم ويكونوا في سلام وأمن،",
+                "english": "Line 11: to save the workers there from thirst, so that they find peace,",
+                "german": "Zeile 11: um die dortigen Arbeiter vor Durst zu retten, damit sie Frieden finden,",
+                "french": "Ligne 11: pour sauver les travailleurs là-bas de la soif, afin qu'ils trouvent la paix,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "infinitive_r_purpose_with_objective_workers_and_consecutive_satisfaction"
+            },
+            "layer4_writing": {
+                "mdc_code": "r nHm bAk.w jm r jb=f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "ROCK-INSCRIPTION-HAMMAMAT-01",
+                        "name": "Wadi Hammamat Rock Inscription No. 1",
+                        "type": "rock_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "nḥm", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "bꜣk.w", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "jb", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الفيزيائي الحادي عشر يسجل الهدف الإنساني للبعثة بحماية أرواح العمال 'نحم باكو' (nḥm bꜣk.w) من العطش والهلاك بالبراري [3.2.1]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000120-L12",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T22:11:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-120",
+                "sequence_no": 12,
+                "transliteration": "jw.f pw m ḥtp",
+                "hieroglyph": "𓇋𓅱𓆑𓊪𓅱𓐝𓊵𓏏𓊪",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 12: وقد تم وانتهى النقش والمهمة بسلام تام.",
+                "english": "Line 12: It has come to an end in peace.",
+                "german": "Zeile 12: Es ist in Frieden zu Ende gegangen.",
+                "french": "Ligne 12: Cela s'est terminé en paix.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "traditional_egyptian_scribal_colophon_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "jw.f pw m Htp"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "ROCK-INSCRIPTION-HAMMAMAT-01",
+                        "name": "Wadi Hammamat Rock Inscription No. 1",
+                        "type": "rock_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jw.f-pw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥtp", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الفيزيائي الثاني عشر والختامي للنقش يقر بإتمام المهمة بسلام 'يي-أف بو إم حتب' (jw.f pw m ḥtp) [3.2.1]."
+            }
+        }
+    ]
+}

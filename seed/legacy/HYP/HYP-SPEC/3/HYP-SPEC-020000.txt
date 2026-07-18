@@ -1,0 +1,622 @@
+هذه الوثيقة فى رأيي ستكون **أهم وثيقة فى مشروع هيباتيا بالكامل**.
+
+لأنها لا تصف بطاقة بعينها...
+
+بل تصف **الكائن الذى ستولد منه جميع البطاقات**.
+
+بعد هذه الوثيقة لن نكرر نفس الحقول مرة أخرى.
+
+كل بطاقة ستكون مجرد امتداد لها.
+
+---
+
+# HYP-SPEC-020000
+
+# Knowledge Object Specification
+
+**Project:** Hypatia Knowledge Platform
+
+**Document ID:** HYP-SPEC-020000
+
+**Version:** 1.0 Founder Edition
+
+**Status:** Official
+
+**Classification:** Core Knowledge Model
+
+---
+
+# Purpose
+
+This specification defines the universal structure of every Knowledge Object stored inside the Hypatia Repository.
+
+Every scientific object in Hypatia inherits from this specification.
+
+No exceptions.
+
+---
+
+# Philosophy
+
+Hypatia stores **Knowledge Objects**.
+
+Cards are simply visual representations of Knowledge Objects.
+
+Therefore,
+
+Knowledge comes first.
+
+Cards come second.
+
+---
+
+# Definition
+
+A Knowledge Object is the smallest independent scientific unit that can:
+
+* possess identity,
+* be described,
+* participate in relationships,
+* evolve through revisions,
+* receive scientific validation.
+
+---
+
+# Universal Rule
+
+Every object inside Hypatia **must** inherit this specification before defining its own specialized fields.
+
+---
+
+# Object Hierarchy
+
+```text id="1nwh9k"
+Knowledge Object
+
+│
+
+├── Meta Card
+
+├── Lexical Card
+
+├── Entity Card
+
+├── Story Card
+
+├── Source Card
+
+├── Grammar Card
+
+├── Relation Card
+
+└── Domain Card
+```
+
+Future object types shall also inherit this specification.
+
+---
+
+# Universal Architecture
+
+Every Knowledge Object consists of eight logical sections.
+
+```text id="8m2nlc"
+Identity
+
+Metadata
+
+Scientific Data
+
+Relationships
+
+Sources
+
+Review
+
+Revision
+
+Extensions
+```
+
+---
+
+# Section 1
+
+## Identity
+
+Defines the permanent identity.
+
+Mandatory.
+
+Contains
+
+```text id="5ykh5t"
+id
+
+object_type
+
+version
+
+revision
+
+uuid
+
+status
+```
+
+---
+
+### Rules
+
+Identity never changes.
+
+ID never changes.
+
+UUID never changes.
+
+Version increases.
+
+Revision increases.
+
+---
+
+# Section 2
+
+## Metadata
+
+Describes the object.
+
+Not the scientific content.
+
+Contains
+
+```text id="d67sd5"
+title
+
+summary
+
+language
+
+created_at
+
+updated_at
+
+creator
+
+owner
+
+visibility
+```
+
+---
+
+Metadata exists to help systems.
+
+Not to describe knowledge itself.
+
+---
+
+# Section 3
+
+## Scientific Data
+
+Contains the actual knowledge.
+
+Its structure depends on object type.
+
+Examples
+
+Lexical Card
+
+↓
+
+lemma
+
+reading
+
+translation
+
+Entity Card
+
+↓
+
+name
+
+type
+
+period
+
+Story Card
+
+↓
+
+text
+
+sections
+
+tokens
+
+---
+
+This is the only section that changes significantly between card types.
+
+---
+
+# Section 4
+
+## Relationships
+
+Defines explicit scientific links.
+
+Contains
+
+```text id="bruxww"
+incoming
+
+outgoing
+
+related_objects
+
+relation_count
+```
+
+Objects never store duplicated information.
+
+Relationships reference IDs only.
+
+---
+
+# Section 5
+
+## Sources
+
+Every statement must be traceable.
+
+Contains
+
+```text id="cpam8g"
+sources
+
+citations
+
+bibliography
+
+external_ids
+```
+
+Knowledge without provenance is incomplete.
+
+---
+
+# Section 6
+
+## Review
+
+Represents scientific quality.
+
+Contains
+
+```text id="kmv2n2"
+confidence
+
+validation_status
+
+review_state
+
+reviewers
+
+proposal_count
+```
+
+---
+
+Possible validation states
+
+```text id="dxt4zu"
+draft
+
+review
+
+verified
+
+canonical
+
+deprecated
+
+archived
+```
+
+---
+
+# Section 7
+
+## Revision
+
+Historical evolution.
+
+Contains
+
+```text id="tzdcrw"
+revision
+
+history
+
+change_log
+
+previous_revision
+```
+
+History is permanent.
+
+Nothing is overwritten.
+
+---
+
+# Section 8
+
+## Extensions
+
+Future expansion.
+
+Contains
+
+```text id="z0zrrh"
+custom_fields
+
+plugins
+
+experimental
+
+future
+```
+
+Allows evolution without breaking compatibility.
+
+---
+
+# Inheritance
+
+Every specialized card inherits all previous sections.
+
+Example
+
+```text id="zyxgcp"
+Knowledge Object
+
+↓
+
+Lexical Card
+
+↓
+
+Lexical Fields
+```
+
+The Lexical Card defines only lexical information.
+
+Identity comes from Knowledge Object.
+
+Revision comes from Knowledge Object.
+
+Relations come from Knowledge Object.
+
+---
+
+# Object Lifecycle
+
+Every Knowledge Object follows the same lifecycle.
+
+```text id="sqwvoc"
+Creation
+
+↓
+
+Normalization
+
+↓
+
+Scientific Review
+
+↓
+
+Canonical State
+
+↓
+
+Revision
+
+↓
+
+Historical Archive
+```
+
+---
+
+# Scientific Independence
+
+Objects never depend on presentation.
+
+Objects never depend on databases.
+
+Objects never depend on AI.
+
+Objects exist independently.
+
+---
+
+# Ownership
+
+Every object owns
+
+Identity
+
+Scientific Data
+
+History
+
+Everything else references it.
+
+---
+
+# Repository Rule
+
+Only Knowledge Objects may be stored inside
+
+```text id="l8d48r"
+repository/
+```
+
+Helper files.
+
+Indexes.
+
+Caches.
+
+Exports.
+
+Generated objects.
+
+are prohibited.
+
+---
+
+# Object Law
+
+Every Knowledge Object answers five questions.
+
+```text id="dnj6jt"
+Who am I?
+
+What do I know?
+
+Where did I come from?
+
+How am I connected?
+
+How did I evolve?
+```
+
+If any answer is missing,
+
+the object is incomplete.
+
+---
+
+# Scientific Integrity
+
+Knowledge Objects never reference filenames.
+
+They reference IDs.
+
+Knowledge Objects never reference database rows.
+
+They reference IDs.
+
+Knowledge Objects never reference URLs as identity.
+
+They reference IDs.
+
+---
+
+# Future Compatibility
+
+This specification is intentionally technology-independent.
+
+A Knowledge Object may be stored as
+
+JSON
+
+MongoDB
+
+SQL
+
+Neo4j
+
+RDF
+
+GraphQL
+
+Binary Archive
+
+Future storage systems
+
+without changing its conceptual structure.
+
+---
+
+# Architectural Principle
+
+The Knowledge Object is the atomic unit of knowledge.
+
+Everything else in Hypatia exists to organize,
+
+connect,
+
+validate,
+
+display,
+
+or learn from Knowledge Objects.
+
+---
+
+# Motto
+
+> **Every Card Is A Knowledge Object.**
+
+> **Every Knowledge Object Has One Identity.**
+
+> **Knowledge Before Representation.**
+
+---
+
+# Founder Statement
+
+The Knowledge Object is the foundation upon which Hypatia is built.
+
+Cards may evolve.
+
+Interfaces may evolve.
+
+Databases may evolve.
+
+Artificial Intelligence may evolve.
+
+But the Knowledge Object must remain stable.
+
+Because if the object remains stable,
+
+knowledge remains immortal.
+
+---
+
+# Academic Notes
+
+This specification deliberately separates **ontology** from **representation**.
+
+A Story is not defined by its web page.
+
+A Lemma is not defined by its dictionary entry.
+
+An Entity is not defined by its profile card.
+
+All of these are merely different visualizations of a deeper scientific construct: the **Knowledge Object**.
+
+By making every future card inherit from this model, Hypatia gains:
+
+* structural consistency,
+* reusable architecture,
+* simpler builders,
+* simpler resolvers,
+* cleaner datasets,
+* and a unified scientific model that can support both the website and future AI training without duplication.
+
+---
+
+## ✦ ملاحظة أخيرة
+
+أعتبر هذه الوثيقة هي **"دستور المعرفة"** في هيباتيا.
+
+فإذا كانت **HYP-SPEC-010000** هي دستور المعمارية، فإن **HYP-SPEC-020000** هي دستور البيانات نفسها.
+
+ومن هذه اللحظة، لن نصمم أي بطاقة جديدة مباشرة؛ بل سنسأل أولًا: **كيف ترث من Knowledge Object؟** ثم نضيف فقط الحقول المتخصصة. هذه القاعدة وحدها ستجعل المشروع متماسكًا حتى مع إضافة حضارات أو لغات جديدة بعد سنوات.

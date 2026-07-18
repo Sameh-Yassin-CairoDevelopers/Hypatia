@@ -1,0 +1,1462 @@
+{
+    "text_id": "EGY-035",
+    "metadata": {
+        "title_ar": "لوحة انتصارات مرنبطاح الكبرى",
+        "title_en": "The Victory Stela of Merneptah (Batch 1: Lines 1-14)",
+        "museum_catalog_no": "Egyptian Museum Cairo, CG 34025 / JE 31408 (Lines 1-14)",
+        "stable_tla_id": "unknown"
+    },
+    "sentences": [
+        {
+            "metadata": {
+                "id": "HYP-TXT-000035-L01",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-16T12:00:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-035",
+                "sequence_no": 1,
+                "transliteration": "rnpt-sp 5 ꜣbd 3 n ꜣḫ.t sw 3 ẖr ḥm n ḥr kꜣ-nḫt ḥˁy-m-mꜣˁ.t",
+                "hieroglyph": "𓆳𓏏𓊗𓏤𓏤𓏤𓏤𓏤𓇹𓏤𓏤𓏤𓏤𓏥𓇳𓏤𓏤𓏤𓌨𓍛𓏤𓈖𓅃𓃒𓄤𓎛𓂝𓏭𓐝𓐙𓂝𓏏𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L01: السنة الخامسة من الحكم، الشهر الثالث من فصل الفيضان (آخت)، اليوم الثالث، تحت جلالة وسلطان حورس: الثور القوي، المبتهج بالعدالة والماعت،",
+                "english": "Line L01: Regnal year 5, third month of the inundation season (Akhet), day 3, under the majesty of Horus: Mighty Bull, Rejoicing in Truth (Maat),",
+                "german": "Zeile L01: Regierungsjahr 5, dritter Monat der Überschwemmungszeit (Achet), Tag 3, unter der Majestät des Horus: Starker Stier, der sich über die Wahrheit (Maat) freut,",
+                "french": "Ligne L01: L'an 5 de règne, troisième mois de la saison de l'inondation (Akhet), jour 3, sous la majesté d'Horus : Taureau puissant, se réjouissant de la justice (Maât),",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "temporal_clause",
+                "syntax_structure": "standard_royal_date_formula_with_horus_titulary"
+            },
+            "layer4_writing": {
+                "mdc_code": "rnpt-sp 5 Abd 3 n Axt sw 3 Xr Hm n Hr k3-nxt Ha-y-m-ma_at"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-CG34025",
+                        "name": "Merneptah Victory Stela, Cairo Museum CG 34025",
+                        "type": "black_granite_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "rnpt-sp", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ꜣḫ.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "kꜣ-nḫt", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "ḥˁy-m-mꜣˁ.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الفيزيائي الأول يفتتح اللوحة بالتأريخ المعتمد للحملة في العام الخامس لعهد الملك مرنبطاح [3.4.1]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000035-L02",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-16T12:01:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-035",
+                "sequence_no": 2,
+                "transliteration": "nsw-bỉty b_a-n-rˁ mrr-jmn sꜣ rˁ mr-n-ptḥ ḥtp-ḥr-mꜣˁ.t dỉ ˁnḫ mj rˁ ḏt",
+                "hieroglyph": "𓇓𓏏𓆤𓏏𓃀𓄿𓈖𓇳𓌻𓂋𓇋𓏠𓈖𓅭𓏤𓇳𓌻𓂋𓈖𓊪𓏏𓎛𓊵𓏏𓁷𓏤𓐙𓂝𓏏𓂞𓋹𓐝𓇳𓆖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L02: ملك مصر العليا والسفلى (باء-إن-رع، محبوب آمون)، وابن رع (مرنبطاح، المستقر بالعدالة والماعت)، المعطى الحياة مثل رع إلى الأبد الدائم،",
+                "english": "Line L02: King of Upper and Lower Egypt: Baenre-meryamun, Son of Re: Merneptah-hotephirmaat, given life like Re forever,",
+                "german": "Zeile L02: König von Ober- und Unterägypten: Baenre-meryamun, Sohn des Re: Merneptah-hotephirmaat, geschenkt mit Leben wie Re ewiglich,",
+                "french": "Ligne L02: Roi de Haute et Basse-Égypte : Baenrê-meryamon, Fils de Rê : Merneptah-hotephirmaât, doué de vie comme Rê éternellement,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "royal_serekh_with_prenomen_and_nomen_titles"
+            },
+            "layer4_writing": {
+                "mdc_code": "nsw-bity b_a-n-ra mrr-jmn s3 ra mr-n-ptH Htp-Hr-ma_at di anx mj ra Dt"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-CG34025",
+                        "name": "Merneptah Victory Stela, Cairo Museum CG 34025",
+                        "type": "black_granite_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "b_a-n-r\u02e4", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mr-n-pt\u1e25", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "d\u1e0fj", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "\u1e0ft", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الفيزيائي الثاني يسجل ألقاب التتويج والولادة للملك مرنبطاح (الأسرة 19) [3.4.1]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000035-L03",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-16T12:02:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-035",
+                "sequence_no": 3,
+                "transliteration": "nṯr nfr wr pḥ.ty wr-ḫpš sꜣw kmt nb-pḏ.wt-9",
+                "hieroglyph": "𓊹𓄤𓅨𓂋𓎛𓂓𓏥𓅨𓂋𓐍𓊪𓈙𓋴𓄿𓏲𓆎𓅓𓏏𓊖𓎟𓄑𓏪𓉐",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L03: الإله الصالح، عظيم البأس، ذو السيف البتار، حامي ديار مصر، وسيد الأقواس التسعة (أعداء مصر الكونيين)،",
+                "english": "Line L03: The good god, great of strength, victorious of arm, who protects Egypt, who smites the Nine Bows,",
+                "german": "Zeile L03: Der gute Gott, groß an Stärke, siegreich mit dem Schwert, der Ägypten schützt, der Bezwinger der Neun Bogen,",
+                "french": "Ligne L03: Le bon dieu, grand de force, victorieux de bras, qui protège l'Égypte, qui terrasse les Neuf Arcs,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "divine_royal_epithets_with_adjectival_modifiers"
+            },
+            "layer4_writing": {
+                "mdc_code": "nTr nfr wr pH.ty wr-xpS s3w kmt nb-pD.wt-9"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-CG34025",
+                        "name": "Merneptah Victory Stela, Cairo Museum CG 34025",
+                        "type": "black_granite_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "n\u1e6f r", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "wr-p\u1e25.ty", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "s\ua725w", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "kmt", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللقب 'سيد الأقواس التسعة' (nb-pḏ.wt-9) هو التعبير الحربي واللاهوتي التقليدي لوصف الهيمنة المصرية التامة على الأعداء الكلاسيكيين للحدود."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000035-L04",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-16T12:03:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-035",
+                "sequence_no": 4,
+                "transliteration": "jn-r-qd jnb wr n kmt m-bꜣḥ tꜣ-mrj",
+                "hieroglyph": "𓇋𓈖𓂋𓎡𓂧𓉐𓎟𓏏𓈖𓆎𓅓𓏏𓊖𓐝𓄂𓏤𓇾𓌻𓂋𓇋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L04: وحصن الجدار الحجري العظيم المنيع الحامي لديار مصر، والدرع الواقي للأرض المحبوبة (مصر)،",
+                "english": "Line L04: The great wall of stone for Egypt, protector of her children,",
+                "german": "Zeile L04: Die große Steinmauer für Ägypten, der Beschützer seiner Kinder,",
+                "french": "Ligne L04: La grande muraille de pierre pour l'Égypte, protectrice de ses enfants,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "metaphorical_noun_subject_with_protective_genitives"
+            },
+            "layer4_writing": {
+                "mdc_code": "jn-r-qd jnb wr n kmt m-bAH t3-mrj"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-CG34025",
+                        "name": "Merneptah Victory Stela, Cairo Museum CG 34025",
+                        "type": "black_granite_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jn-r-qd", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "jnb", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "kmt", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "tꜣ-mrj", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللقب 'ينب ور' (jnb wr) يعني لغوياً الجدار أو الحصن العظيم، وهو تعبير مجازي يصور الملك كدرع صخرية تحمي الشعب من الغزو الخارجي."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000035-L05",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-16T12:04:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-035",
+                "sequence_no": 5,
+                "transliteration": "ḥqꜣ wr pẖr tꜣ-mrj m ḥtp ḥry-sštꜣ n pr-nsw.t",
+                "hieroglyph": "𓋾𓏤𓅨𓂋𓄡𓂋𓇾𓌻𓂋𓇋𓐝𓊵𓏏𓊪𓁷𓏤𓁛𓈖𓉐𓇓𓏏",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L05: الحاكم العظيم المطوف والمؤمن للأرض المحبوبة بسلام، والمشرف الحامي لأسرار القصر الملكي،",
+                "english": "Line L05: The great ruler who encircles Egypt in peace, keeper of the secrets of the palace,",
+                "german": "Zeile L05: Der große Herrscher, der Ägypten in Frieden umkreist (schützt), Hüter der Geheimnisse des Palastes,",
+                "french": "Ligne L05: Le grand souverain qui encercle l'Égypte en paix, gardien des secrets du palais,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "ruler_noun_with_active_participle_encircling_and_palace_secrets"
+            },
+            "layer4_writing": {
+                "mdc_code": "HqA wr pxr t3-mrj m Htp Hry-sSt3 n pr-nsw.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-CG34025",
+                        "name": "Merneptah Victory Stela, Cairo Museum CG 34025",
+                        "type": "black_granite_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "\u1e25q\ua725", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "p\u1e96r", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "\u1e25ry-s\u0161t\ua725", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "pr-nsw.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الربط بين 'بخر تا-مري' (الطواف وتأمين حدود البلاد) وبين رعاية أسرار الإدارة الملكية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000035-L06",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-16T12:05:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-035",
+                "sequence_no": 6,
+                "transliteration": "jmy-r mšˁ nsw.t ḥwj.n-f rb.w",
+                "hieroglyph": "𓅓𓂋𓌯𓏥𓇓𓏏𓎛𓅱𓇋𓈖𓆑𓂋𓃀𓏲𓈉",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L06: القائد العام لجيوش الملك وجنوده، والذي دحر وسحق بقوته قبائل الليبيين (الريبو)،",
+                "english": "Line L06: The general of the King who smote the Libyans (Rebu),",
+                "german": "Zeile L06: Der Feldherr des Königs, der die Libyer (Rebu) zerschlug,",
+                "french": "Ligne L06: Le général du Roi qui a terrassé les Libyens (Rebou),",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "military_title_subject_with_perfective_sDmw.n=f_slaying_libyans"
+            },
+            "layer4_writing": {
+                "mdc_code": "jmy-r mS_a nsw.t hwj.n-f rb.w"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-CG34025",
+                        "name": "Merneptah Victory Stela, Cairo Museum CG 34025",
+                        "type": "black_granite_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jmy-r", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mšˁ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḥwj.n", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "rb.w", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ 'ريبو' (rb.w) هو الاسم الأثري والدلالي لقبائل الليبيين القدامى الذين حاولوا غزو الدلتا الغربية [3.4.1]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000035-L07",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-16T12:06:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-035",
+                "sequence_no": 7,
+                "transliteration": "s-ḥtp.n-f jb n rmt.t nb.t jmy-ẖn.t",
+                "hieroglyph": "𓋴𓊵𓏪𓈖𓆑𓄣𓏤𓈖𓂋𓍿𓁐𓏥𓎟𓏏𓐝𓄡𓈖𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L07: والذي استرضى وهدأ روع وقلوب كافة عساكر وشعب الديار بداخل مصر بسلام،",
+                "english": "Line L07: Who pacified the heart of all people in Egypt,",
+                "german": "Zeile L07: Der das Herz aller Menschen in Ägypten friedlich gestimmt hat,",
+                "french": "Ligne L07: Qui a apaisé le cœur de tout le peuple en Égypte,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n_causative_s-Htp_with_direct_object_heart_and_collective_agent"
+            },
+            "layer4_writing": {
+                "mdc_code": "s-Htp.n-f jb n rmt.t nb.t jmy-Xn.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-CG34025",
+                        "name": "Merneptah Victory Stela, Cairo Museum CG 34025",
+                        "type": "black_granite_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "s-ḥtp.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "jb", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "rmt.t", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "jmy-ẖn.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ المسببي 'س-حتب' (s-ḥtp) يعني فرض التهدئة والأمان الروحي لتبديد قلق الشعب من غزو البرابرة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000035-L08",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-16T12:07:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-035",
+                "sequence_no": 8,
+                "transliteration": "m-k ḥm=f mrr mꜣˁ.t jw=f ḥr jrt s",
+                "hieroglyph": "𓐝𓎡𓍛𓏤𓆑𓌻𓂋𓐙𓂝𓏏𓏤𓇋𓅱𓆑𓁷𓏤𓁹𓏏𓋴",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L08: انظر وتدبر، إن جلالته عاشق ومحب للعدالة والماعت ومستمر في ممارستها وإقامتها نهاراً،",
+                "english": "Line L08: Behold, his majesty loves Maat (truth) and does it,",
+                "german": "Zeile L08: Siehe, seine Majestät liebt Maat (Wahrheit) und praktiziert sie,",
+                "french": "Ligne L08: Vois, sa majesté aime la Maât (vérité) et la pratique,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "presentation_m-k_with_royal_subject_loving_maat_and_progressive_circumstantial"
+            },
+            "layer4_writing": {
+                "mdc_code": "m-k Hm=f mrr ma_at jw=f Hr jrt s"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-CG34025",
+                        "name": "Merneptah Victory Stela, Cairo Museum CG 34025",
+                        "type": "black_granite_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "m-k", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥm", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "mrr", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "mꜣˁ.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الربط بين بسالة الفرعون العسكرية وبين التزامه الأخلاقي بإقامة الماعت 'إرت-س' (jrt s) أي ممارستها وتطبيقها."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000035-L09",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-16T12:08:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-035",
+                "sequence_no": 9,
+                "transliteration": "ḥwj.n-f ḫꜣs.wt nb.wt s-ḥtp.n-f sb.w",
+                "hieroglyph": "𓎛𓅱𓇋𓈖𓆑𓈉𓏥𓎟𓏏𓋴𓊵𓏪𓈖𓆑𓋴𓃀𓏲𓂻",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L09: لقد قهر ودحر جلالته كافة الأراضي والبلاد البربرية المتمردة، وفرض التهدئة والسلام على العصاة،",
+                "english": "Line L09: He has defeated all the foreign lands and pacified the rebels,",
+                "german": "Zeile L09: Er hat alle Fremdländer besiegt und die Rebellen beruhigt,",
+                "french": "Ligne L09: Il a vaincu tous les pays étrangers et a pacifié les rebelles,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n_subject_noun_with_double_objective_clauses"
+            },
+            "layer4_writing": {
+                "mdc_code": "hwj.n-f xAs.wt nb.wt s-Htp.n-f sb.w"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-CG34025",
+                        "name": "Merneptah Victory Stela, Cairo Museum CG 34025",
+                        "type": "black_granite_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḥwj.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḫꜣs.wt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "s-ḥtp.n", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "sb.w", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ 'سِبو' (sb.w) يشير لغوياً للهاربين أو العصاة الخارجين عن الطاعة العسكرية بالقلاع الحدودية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000035-L10",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-16T12:09:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-035",
+                "sequence_no": 10,
+                "transliteration": "wr r-f n rb.w ẖsy mr-y sꜣ-dj-dj",
+                "hieroglyph": "𓅨𓂋𓂋𓆑𓈖𓂋𓃀𓏲𓈉𓐍𓋴𓇋𓏭𓌻𓂋𓇋𓏭𓅭𓂞𓂞",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L10: أما عمدة وزعيم الليبيين المذموم والمنبوذ والخاضع (ميري بن ديدي)،",
+                "english": "Line L10: The wretched chief of Libya, Mauri, son of Didi,",
+                "german": "Zeile L10: Der elende Fürst von Libyen, Mauri, Sohn des Didi,",
+                "french": "Ligne L10: Le misérable chef de la Libye, Mauri, fils de Didi,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "noun_subject_with_limiting_descriptive_attributes_and_genealogy"
+            },
+            "layer4_writing": {
+                "mdc_code": "wr r-f n rb.w Xsy mr-y s3-dj-dj"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-CG34025",
+                        "name": "Merneptah Victory Stela, Cairo Museum CG 34025",
+                        "type": "black_granite_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "wr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "rb.w", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ẖsy", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "mr-y", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الزعيم الليبي 'ميري بن ديدي' (mr-y sꜣ-dj-dj) المذموم 'خسي' (ẖsy)؛ وهو الخصم الرئيسي لمرنبطاح في معارك الدلتا الغربية [3.4.1]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000035-L11",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-16T12:10:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-035",
+                "sequence_no": 11,
+                "transliteration": "tꜣ.n-f m grḥ wˁ.w jw nn šw.t ḥr tp=f",
+                "hieroglyph": "𓇾𓈖𓆑𓐝𓎼𓋋𓌡𓏤𓇋𓅱𓈖𓈖𓆄𓏏𓁷𓏤𓏏𓐪𓏤𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L11: فقد فرّ وهرب في جنح الليل وحيداً بغير عتاد، دون أن تلازم ريشة الزعامة رأسه،",
+                "english": "Line L11: he fled in the night all alone, without a feather on his head,",
+                "german": "Zeile L11: er floh in der Nacht ganz allein, ohne eine Feder auf seinem Kopf,",
+                "french": "Ligne L11: il s'est enfui dans la nuit tout seul, sans une plume sur sa tête,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_active_motion_with_circumstantial_negated_existential_feather"
+            },
+            "layer4_writing": {
+                "mdc_code": "t3.n-f m grh wa.w jw nn Sw.t Hr tp=f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-CG34025",
+                        "name": "Merneptah Victory Stela, Cairo Museum CG 34025",
+                        "type": "black_granite_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "tꜣ.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "grḥ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "šw.t", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "tp", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الريشة 'شوت' (šw.t) هي الرمز والمخصص اللاهوتي التقليدي لسلطة وزعامة قادة ليبيا والتحالف؛ وفراره بدونها يعني سقوط هيبته العسكرية [3.4.1]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000035-L12",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-16T12:11:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-035",
+                "sequence_no": 12,
+                "transliteration": "ḥm.wt=f jt.y.w m-bꜣḥ jr.ty=f pꜣ-t nsw.t ḥr rḏj.t fꜣ.t",
+                "hieroglyph": "𓈞𓏏𓁐𓏥𓆑𓇋𓏏𓇋𓏲𓏥𓐝𓄂𓏤𓁹𓏮𓆑𓏑𓇓𓏏𓁷𓏤𓂞𓏏𓏎𓏏𓏥",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L12: وحريمه ونساؤه وسراريه سُبين واحتُجزن أمام ناظريه وعينيه، بينما نُهبت مؤنه وخبزه وعتاده،",
+                "english": "Line L12: his wives were captured before his eyes, his bread (food) plundered,",
+                "german": "Zeile L12: seine Frauen wurden vor seinen Augen gefangen genommen, sein Brot (Nahrung) wurde geplündert,",
+                "french": "Ligne L12: ses femmes ont été capturées sous ses yeux, son pain (sa nourriture) pillé,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "passive_participle_introducing_subject_and_coordinated_looting_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "Hm.wt=f jt.y.w m-bAH jr.ty=f pA-t nsw.t Hr rdj.t fa.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-CG34025",
+                        "name": "Merneptah Victory Stela, Cairo Museum CG 34025",
+                        "type": "black_granite_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḥm.wt", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "jt.y.w", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "t", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "fꜣ.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "النهب العسكري للمؤن والخبز 'با-ت' (pꜣ-t) يمثل السحق الاقتصادي الميداني لمعسكر العدو."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000035-L13",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-16T12:12:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-035",
+                "sequence_no": 13,
+                "transliteration": "nn msd.t n-f r jb=f wr r jw.t mw",
+                "hieroglyph": "𓈖𓈖𓅓𓋴𓂧𓏏𓈖𓆑𓂋𓄣𓏤𓆑𓅨𓂋𓂋𓇋𓏲𓏏𓈗",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L13: ولم يكن معه حتى قربة مياه عذبة لترطيب فمه وعطشه الشديد، فصار فؤاده في حيرة وقلق،",
+                "english": "Line L13: he had no water skin for his thirst, his heart was concerned,",
+                "german": "Zeile L13: er hatte keinen Wasserschlauch für seinen Durst, sein Herz war voller Sorge,",
+                "french": "Ligne L13: il n'avait pas d'outre à eau pour sa soif, son cœur était inquiet,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "negated_nn_existence_with_limiting_objective_thirst_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "nn msd.t n-f r jb=f wr r jw.t mw"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-CG34025",
+                        "name": "Merneptah Victory Stela, Cairo Museum CG 34025",
+                        "type": "black_granite_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "nn", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "msd.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "jb", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "mw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "انقطاع خطوط الإمداد المائي 'مْو' (mw) يصور الهزيمة والفرار المهين في فيافي الصحراء الغربية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000035-L14",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-16T12:13:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-035",
+                "sequence_no": 14,
+                "transliteration": "jmy-r mšˁ=f ḫꜣ.n-f sw mšˁ=f nb sḫs.w",
+                "hieroglyph": "𓅓𓂋𓌯𓏥𓆑𓐍𓄿𓈖𓆑𓋴𓅱𓌯𓏥𓆑𓎟𓋴𓐍𓋴𓏏𓂻",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L14: وحتى رئيس وقائد جيشه تركه وتخلى عنه، وتفرقت وقامت كافة جنوده وقواته بالفرار المذعور بغير حزام.",
+                "english": "Line L14: His general has abandoned him, all his troops have fled.",
+                "german": "Zeile L14: Sein Feldherr hat ihn verlassen, alle seine Truppen sind geflohen.",
+                "french": "Ligne L14: Son général l'a abandonné, toutes ses troupes ont fui.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n_subject_general_abandoning_with_coordinated_plural_fleeing_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "jmy-r mS_a=f x3.n-f sw mS_a=f nb sxs.w"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-CG34025",
+                        "name": "Merneptah Victory Stela, Cairo Museum CG 34025",
+                        "type": "black_granite_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jmy-r", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḫꜣ.n", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "mšˁ", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "sḫs.w", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الانهيار التام للقيادة العسكرية؛ واللفظ 'سخسو' (sḫs.w) يعني الفرار الفردي العشوائي والمذعور للجنود دون تنظيم."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000035-L15",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-16T12:15:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-035",
+                "sequence_no": 15,
+                "transliteration": "spr.n nꜣ jmy-r.w mšˁ=f r tꜣ=sn ḥr sḏd",
+                "hieroglyph": "𓋴𓊪𓂋𓈖𓈖𓄿𓅓𓂋𓌯𓏥𓆑𓂋𓇾𓏤𓋴𓈖𓁷𓏤𓋴𓂧𓂧",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L15: ووصل قادة وضباط جيشه الهاربين إلى بلادهم وديارهم، وهم يقصون ويروون المأساة،",
+                "english": "Line L15: The commanders of his army have reached their land, recounting (the defeat),",
+                "german": "Zeile L15: Die Befehlshaber seines Heeres haben ihr Land erreicht und berichten (von der Niederlage),",
+                "french": "Ligne L15: Les commandants de son armée ont atteint leur pays, racontant (la défaite),",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n_subject_commanders_with_directional_land_and_progressive_Hr_narrating"
+            },
+            "layer4_writing": {
+                "mdc_code": "spr.n nA jmy-r.w mS_a=f r t3=sn Hr sDd"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-CG34025",
+                        "name": "Merneptah Victory Stela, Cairo Museum CG 34025",
+                        "type": "black_granite_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "spr.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "jmy-r.w", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "tꜣ", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "sḏd", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الخامس عشر يوثق أصداء الانكسار العسكري لليبيين داخل موطنهم عقب فرار زعيمهم ميري."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000035-L16",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-16T12:16:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-035",
+                "sequence_no": 16,
+                "transliteration": "wr.w nb.w ḥr mdw m qb.yt=sn",
+                "hieroglyph": "𓅨𓏥𓎟𓏥𓁷𓏤𓌃𓅱𓐝𓈎𓃀𓏭𓏏𓋴𓈖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L16: وصار كافة الأسياد والوجهاء يتحدثون وينوحون بداخل مجالسهم وحاشيتهم قائلين بأسى:",
+                "english": "Line L16: All the chiefs are speaking (lamenting) in their council,",
+                "german": "Zeile L16: Alle Fürsten sprechen (klagen) in ihrem Rat,",
+                "french": "Ligne L16: Tous les chefs parlent (se lamentent) dans leur conseil,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "noun_subject_plural_with_progressive_Hr_speaking_in_council"
+            },
+            "layer4_writing": {
+                "mdc_code": "wr.w nb.w Hr mdw m qb.yt=sn"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-CG34025",
+                        "name": "Merneptah Victory Stela, Cairo Museum CG 34025",
+                        "type": "black_granite_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "wr.w", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mdw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "qb.yt", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ 'قبيت' (qb.yt) يعني مجلس الوجهاء أو الحاشية القيادية للقبائل الليبية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000035-L17",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-16T12:02:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-035",
+                "sequence_no": 17,
+                "transliteration": "jw=sn ḥr ḏd: nn ḥqꜣ n=n, b_a-n-rˁ ḥwj.n-f rb.w",
+                "hieroglyph": "𓇋𓅱𓋴𓈖𓁷𓏤𓂧𓂧𓈖𓈖𓋾𓏤𓈖𓈖𓃀𓄿𓈖𓇳𓎛𓅱𓇋𓈖𓆑𓂋𓃀𓏲𓈉",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L17: 'لقد أصبحنا بلا حاكم وبلا مرشد يحمينا، بعد أن دحر وسحق الملك (باء-إن-رع) قبائل الليبيين'،",
+                "english": "Line L17: They are saying: 'We have no leader; Baenre has smitten Libya.'",
+                "german": "Zeile L17: Sie sagen: 'Wir haben keinen Führer; Baenre hat Libyen zerschlagen.'",
+                "french": "Ligne L17: Ils disent : 'Nous n'avons plus de chef ; Baenrê a terrassé la Libye.'",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "iw_circumstantial_introducing_direct_speech_with_negated_nn_leader_and_perfective_sDmw.n=f"
+            },
+            "layer4_writing": {
+                "mdc_code": "jw=sn Hr Dd: nn HqA n=n, b_a-n-ra hwj.n-f rb.w"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-CG34025",
+                        "name": "Merneptah Victory Stela, Cairo Museum CG 34025",
+                        "type": "black_granite_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḥqꜣ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "b_a-n-rˁ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḥwj.n", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "rb.w", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الاعتراف الصريح بالانكسار والذل أمام السطوة العسكرية للملك مرنبطاح الملقب باسم تتويجه (Baenre) [3.4.1]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000035-L18",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-16T12:03:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-035",
+                "sequence_no": 18,
+                "transliteration": "nṯrw ntyw m kmt ḥtp.w m nḫt=f",
+                "hieroglyph": "𓊹𓊹𓊹𓈖𓏏𓏭𓏥𓐝𓆎𓅓𓏏𓊖𓊵𓏏𓏪𓐝𓈖𓄡𓏏𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L18: وصارت الآلهة الأبرار بداخل مصر مسرورة ومبتهجة وراضية بفضل انتصاراته وبأسه وبسالته،",
+                "english": "Line L18: The gods of Egypt are pleased with his victories,",
+                "german": "Zeile L18: Die Götter Ägyptens sind erfreut über seine Siege,",
+                "french": "Ligne L18: Les dieux de l'Égypte sont réjouis de ses victoires,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "noun_subject_gods_with_relative_clause_and_stative_pleased_predicate"
+            },
+            "layer4_writing": {
+                "mdc_code": "nTrw ntyw m kmt Htp.w m nXt=f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-CG34025",
+                        "name": "Merneptah Victory Stela, Cairo Museum CG 34025",
+                        "type": "black_granite_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "nṯrw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "kmt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḥtp.w", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "nḫt", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "المنظور اللاهوتي؛ النصر العسكري يحظى بالغطاء والتأييد والرضا الكامل لآلهة المعابد المصرية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000035-L19",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-16T12:04:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-035",
+                "sequence_no": 19,
+                "transliteration": "jw=sn ḥr ḏd: s-mꜣˁ.n-f jt=f rˁ",
+                "hieroglyph": "𓇋𓅱𓋴𓈖𓁷𓏤𓂧𓂧𓋴𓌳𓄿𓈖𓆑𓇋𓏏𓏤𓆑𓇳𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L19: وصاروا (الآلهة) يقولون ويهللون: 'لقد برهن وأثبت صدق والده الإله رع بقوته وبأسه'،",
+                "english": "Line L19: They are saying: 'He has vindicated his father Re',",
+                "german": "Zeile L19: Sie sagen: 'Er hat seinen Vater Re gerechtfertigt',",
+                "french": "Ligne L19: Ils disent : 'Il a justifié son père Rê',",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "iw_subject_with_progressive_Hr_introducing_direct_speech_causative_s-ma_with_father_Re"
+            },
+            "layer4_writing": {
+                "mdc_code": "jw=sn Hr Dd: s-ma.n-f jt=f ra"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-CG34025",
+                        "name": "Merneptah Victory Stela, Cairo Museum CG 34025",
+                        "type": "black_granite_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḏd", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "s-mꜣˁ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "jt", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "rˁ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ المسببي 'س-مأع' (s-mꜣˁ) يعني يبرهن أو يثبت الصدق والحق والشرعية المطلقة أمام الآلهة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000035-L20",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-16T12:05:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-035",
+                "sequence_no": 20,
+                "transliteration": "ḫpr wr m jḫt n kmt m-ẖnw tꜣ-mrj",
+                "hieroglyph": "𓐍𓊪𓂋𓅨𓂋𓐝𓐍𓏏𓈖𓆎𓅓𓏏𓊖𓐝𓄡𓈖𓏤𓇾𓌻𓂋𓇋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L20: وحدث وجرى أمر جليل وعظيم من الخير والوفرة لصالح مصر بداخل الأرض المحبوبة (مصر)،",
+                "english": "Line L20: A great thing has happened for Egypt within the beloved land (Egypt),",
+                "german": "Zeile L20: Etwas Großes (Gutes) ist für Ägypten geschehen im geliebten Land,",
+                "french": "Ligne L20: Une grande chose s'est produite pour l'Égypte au sein de la terre bien-aimée,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "perfective_xpr_with_subject_wr_and_locative_genitives"
+            },
+            "layer4_writing": {
+                "mdc_code": "xpr wr m jXt n kmt m-Xnw t3-mrj"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-CG34025",
+                        "name": "Merneptah Victory Stela, Cairo Museum CG 34025",
+                        "type": "black_granite_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḫpr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "wr", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "kmt", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "tꜣ-mrj", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "صيغة التبشير بالاستقرار والرخاء الداخلي 'خبر ور' (ḫpr wr) لتبديد قلق الشعب والجيش."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000035-L21",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-16T12:06:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-035",
+                "sequence_no": 21,
+                "transliteration": "sḏd.tw nḫt.w ḥr rb.w",
+                "hieroglyph": "𓋴𓂧𓂧𓏏𓅱𓈖𓄡𓏏𓏥𓁷𓏤𓂋𓃀𓏲𓈉",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L21: وصار الناس يقصون ويروون وينشدون بقصص الغلبة والنصر العسكري المؤزر على الليبيين المعتدين،",
+                "english": "Line L21: One speaks of (recounts) the victories over the Libyans (Rebu),",
+                "german": "Zeile L21: Man spricht (erzählt) von den Siegen über die Libyer (Rebu),",
+                "french": "Ligne L21: On parle (raconte) des victoires sur les Libyens (Rebou),",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "impersonal_passive_sDdj.tw_with_objective_victories_over_libyans"
+            },
+            "layer4_writing": {
+                "mdc_code": "sDd.tw nXt.w Hr rb.w"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-CG34025",
+                        "name": "Merneptah Victory Stela, Cairo Museum CG 34025",
+                        "type": "black_granite_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "sḏd", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "nḫt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "rb.w", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ 'سجدد-تو' (sḏd.tw) يفيد تداول الحكايات الشفهية والإنشاد الملحمي الشعبي لنصر الملك في الميادين والشوارع [3.4.1]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000035-L22",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-16T12:07:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-035",
+                "sequence_no": 22,
+                "transliteration": "rmt.t ḥr ḥs.t m mtn.w nb.w, jwn.wt pr=w, jnr-ḥḏ m sḏr.t",
+                "hieroglyph": "𓂋𓍿𓁐𓏥𓁷𓏤 Hes_t𓐝𓈎𓄿𓏲𓏥𓎟𓏥𓉐𓏥𓋴𓂧𓂋𓏏𓁀",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L22: والناس يغنون ويمرحون في جميع الطرقات، والبوابات والقلاع مفتوحة وآمنة، والحرّاس مستلقون ونائمون في أمان،",
+                "english": "Line L22: People are singing in all the paths, the gates are open, and the watchmen sleep in peace,",
+                "german": "Zeile L22: Die Menschen singen auf allen Wegen, die Tore stehen offen, und die Wächter schlafen im Frieden,",
+                "french": "Ligne L22: Les gens chantent sur tous les chemins, les portes sont ouvertes, et les sentinelles dorment en paix,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "noun_subject_with_progressive_Hr_singing_and_coordinated_passive_participle_and_stative_clauses"
+            },
+            "layer4_writing": {
+                "mdc_code": "rmt.t Hr Hs.t m mtn.w nb.w, jwn.wt pr=w, jnr-HD m sDr.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-CG34025",
+                        "name": "Merneptah Victory Stela, Cairo Museum CG 34025",
+                        "type": "black_granite_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "rmt.t", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥs.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "jwn.wt", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "jnr-ḥḏ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التصوير الشاعري والواقعي البديع للحياة اليومية الآمنة بعد الحرب وزوال فوبيا الغزو الليلي؛ واللفظ 'ينر-حدج' يعني حرفياً عمال الحراسة الساهرين على الحجارة البيضاء [3.4.1]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000035-L23",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-16T12:08:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-035",
+                "sequence_no": 23,
+                "transliteration": "ḥp.w jm m-mtr, jb n kmt r-gsw=f",
+                "hieroglyph": "𓎛𓎛𓊪𓏲𓏥𓐝𓆑𓐝𓌳𓏏𓂋𓄣𓏤𓈖𓆎𓅓𓏏𓊖𓂋𓎼𓋴𓅱𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L23: والشرائع والقوانين مطبقة وفاعلة بيقين، وفؤاد وقلب مصر يرقص ويبتهج بجواره بسلام،",
+                "english": "Line L23: Laws are established precisely, and the heart of Egypt is happy,",
+                "german": "Zeile L23: Die Gesetze sind genau etabliert, und das Herz Ägyptens ist froh,",
+                "french": "Ligne L23: Les lois sont établies avec précision, et le cœur de l'Égypte est joyeux,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "noun_subject_laws_with_locative_precision_and_coordinated_happy_heart_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "Hp.w jm m-mtr, jb n kmt r-gsw=f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-CG34025",
+                        "name": "Merneptah Victory Stela, Cairo Museum CG 34025",
+                        "type": "black_granite_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḥp.w", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "kmt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "jb", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "استقرار القوانين 'حبو' (ḥp.w) وعودتها للعمل بانتظام بعد فترة الاضطراب العسكري وحالة الاستنفار على الحدود."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000035-L24",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-16T12:09:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-035",
+                "sequence_no": 24,
+                "transliteration": "rˁ ḥr psḏ m mꜣw=f nsw-bỉty b_a-n-rˁ mrr-jmn",
+                "hieroglyph": "𓇳𓏤𓁷𓏤𓊪𓋴𓂧𓐝𓌳𓏲𓆑𓇓𓏏𓆤𓏏𓃀𓄿𓈖𓇳𓌻𓂋𓇋𓏠𓈖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L24: والملك والشمس تشرق مجدداً في تجدّد ناصع، تحت حكم ملك مصر العليا والسفلى (باء-إن-رع، محبوب آمون)،",
+                "english": "Line L24: The sun is shining in his renewal, under the King: Baenre-meryamun,",
+                "german": "Zeile L24: Die Sonne scheint in ihrer Erneuerung, unter dem König: Baenre-meryamun,",
+                "french": "Ligne L24: Le soleil brille dans son renouveau, sous le Roi : Baenrê-meryamon,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "sun_subject_with_progressive_Hr_shining_and_royal_titulary"
+            },
+            "layer4_writing": {
+                "mdc_code": "ra Hr psD m mAw=f nsw-bity b_a-n-ra mrr-jmn"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-CG34025",
+                        "name": "Merneptah Victory Stela, Cairo Museum CG 34025",
+                        "type": "black_granite_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "rˁ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "psḏ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "b_a-n-rˁ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الربط المجازي واللاهوتي بين شروق وإشراق شمس الإله رع 'بسج' (psḏ) وبين عودة الاستقرار الملكي لحكم مرنبطاح."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000035-L25",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-16T12:10:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-035",
+                "sequence_no": 25,
+                "transliteration": "wr.w ḥr ẖt-m-tꜣ, ḏd=f ḥtp, nn wr.w-9 dỉ.t tp=sn",
+                "hieroglyph": "𓅨𓏥𓁷𓏤𓄡𓏤𓐝𓇾𓏤𓂧𓂧𓆑𓊵𓏏𓊪𓈖𓈖𓅨𓏥𓉐𓂞𓏏𓁷𓏤𓋴𓈖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L25: والأمراء والأسياد للبلاد الأجنبية سجدوا على بطونهم أرضاً، مهللين بالسلام والخضوع، ولم يعد أحد من أعداء الأقواس التسعة يجرؤ على رفع رأسه،",
+                "english": "Line L25: The chiefs are prostrate on their bellies, saying: 'Peace!'; none of the Nine Bows lifts his head,",
+                "german": "Zeile L25: Die Fürsten liegen auf dem Bauch und sagen: 'Frieden!'; keiner der Neun Bogen wagt es, sein Haupt zu erheben,",
+                "french": "Ligne L25: Les chefs sont prosternés sur le ventre, disant : 'Paix !' ; aucun des Neuf Arcs ne lève la tête,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "noun_subject_chiefs_with_progressive_adverbial_submission_and_negated_nn_lifting_head"
+            },
+            "layer4_writing": {
+                "mdc_code": "wr.w Hr Xt-m-t3, Dd=f Htp, nn wr.w-9 di.t tp=sn"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-CG34025",
+                        "name": "Merneptah Victory Stela, Cairo Museum CG 34025",
+                        "type": "black_granite_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "wr.w", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ẖt-m-tꜣ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḥtp", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "tp", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الافتتاحية لقصيدة النصر الكبرى لمرنبطاح؛ وتوثق الخضوع الجغرافي والسياسي التام لكافة المتمردين بالحدود."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000035-L26",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-16T12:11:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-035",
+                "sequence_no": 26,
+                "transliteration": "fꜣ.tj tꜣ-mḥy, ḫt-n-ḥꜣ-tꜣ ḥtp.w, kꜣ-n-ˁ-n-ꜣ j-mwt=f m ḏw nb",
+                "hieroglyph": "𓆷𓄿𓏏𓍯𓏥𓇾𓎛𓎿𓏏𓏏𓆱𓈖𓈍𓏏𓄿𓈉𓊵𓏏𓏪𓎡𓄿𓈖𓂝𓈖𓄿𓈉𓅓𓅱𓏏𓆑𓐝𓂦𓅨𓎟",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L26: وبادت وخربت بلاد الليبيين (تحنو)، وصارت بلاد الحيثيين (حاتي) مستقرة ومسالمة، وسقطت بلاد كنعان أسيرة بكل شر ودمار،",
+                "english": "Line L26: Tehenu (Libya) is desolated, Hatti is at peace, Canaan is captive with every evil,",
+                "german": "Zeile L26: Tehenu (Libyen) ist verwüstet, Hatti ist im Frieden, Kanaan ist gefangen mit allem Übel,",
+                "french": "Ligne L26: Le Téhénou (Libye) est dévasté, le Hatti est en paix, Canaan est captif avec tout le mal,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "multiple_coordinate_nominal_sentences_with_passive_stative_predicates"
+            },
+            "layer4_writing": {
+                "mdc_code": "fa.tj t3-mHy, xt-n-HA-t3 Htp.w, k3-n-a-n-a j-mwt=f m Dw nb"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-CG34025",
+                        "name": "Merneptah Victory Stela, Cairo Museum CG 34025",
+                        "type": "black_granite_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "fꜣ.tj", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "tꜣ-mḥy", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḫt-n-ḥꜣ-tꜣ", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "kꜣ-n-ˁ-n-ꜣ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "توثيق الأسماء الجغرافية لبلاد ليبيا 'تحنو' (tꜣ-mḥy)، والإمبراطورية الحيثية 'حاتي' (ḫt-n-ḥꜣ-tꜣ) التي التزمت بمعاهدة السلام الموقعة مسبقاً مع والده رمسيس الثاني، وبلاد كنعان 'كانعانا' (kꜣ-n-ˁ-n-ꜣ) [3.4.1]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000035-L27",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-16T12:12:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-035",
+                "sequence_no": 27,
+                "transliteration": "j-š-q-r-n jṯj.t, q-ḏ-r jn.t, j-n-ˁ-m m nty nn f",
+                "hieroglyph": "𓇋𓋴𓈎𓄿𓂋𓈖𓈉𓇋𓏏𓇋𓏏𓈎𓂧𓂋𓈉𓏎𓏏𓈖𓇋𓈖𓂝𓅓𓈉𓐝𓈖𓏏𓏭𓈖𓈖𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L27: وسُبيت وأُخذت مدينة عسقلان، واستُولي على مدينة جيزر بوعر، وصارت مدينة ينعم كشيء بائد وكأن لم تكن قط،",
+                "english": "Line L27: Ashkelon is conquered, Gezer is seized, Yenoam is made non-existent,",
+                "german": "Zeile L27: Askalon ist erobert, Geser ist eingenommen, Jenoam ist vernichtet worden,",
+                "french": "Ligne L27: Ascalon est conquise, Guézer est saisie, Yenoam est rendue inexistante,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "multiple_coordinate_passive_participles_with_restrictive_relative_non_existence_predicate"
+            },
+            "layer4_writing": {
+                "mdc_code": "j-S-q-r-n jTj.t, q-d-r jn.t, j-n-a-m m nty nn f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-CG34025",
+                        "name": "Merneptah Victory Stela, Cairo Museum CG 34025",
+                        "type": "black_granite_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "j-š-q-r-n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "q-ḏ-r", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "j-n-ˁ-m", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الرصد الجغرافي الحربي لمدن كنعان وفلسطين العتيقة: عسقلان 'إسقرنا' (j-š-q-r-n)، جيزر 'قدِر' (q-ḏ-r)، وينعم 'إنعم' (j-n-ˁ-m) بشرق الأردن [3.4.1]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000035-L28",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-16T12:13:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-035",
+                "sequence_no": 28,
+                "transliteration": "y-s-r-j-ꜣ-r fꜣ.t.j jw nn pr.t=f, ḥꜣ-rw ḫpr.tj m ẖr.t n kmt, tꜣ.w nb.w dmḏ.w m ḥtp dỉ.w ˁnḫ",
+                "hieroglyph": "𓇋𓏝𓊃𓏤𓂋𓇋𓄿𓂋𓄿𓁐𓏥𓆷𓄿𓏏𓏭𓇋𓅱𓈖𓈖𓉐𓂋𓏏𓆑𓎛𓄿𓂋𓏲𓈉𓐍𓊪𓂋𓏏𓏭𓐝𓆄𓂋𓏏𓈖𓆎𓅓𓏏𓊖𓇾𓏥𓎟𓏥𓍘𓏠𓍘𓏠𓐝𓊵𓏏𓊪𓂞𓋹",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L28: وبادت وخرّبت إسرائيل ولم يعد لها بذر أو عتاد، وصارت بلاد حورو (الشام) كأرملة لا حول لها أمام قوة وبأس مصر، وتوحدت وصارت كافة الأراضي والبلاد خاضعة بسلام وتأكيد تحت سلطة الملك المعطى الحياة.",
+                "english": "Line L28: Israel is wasted, bare of seed; Hurru has become a widow for Egypt; all lands are pacified together (under him, given life).",
+                "german": "Zeile L28: Israel ist verwüstet, ohne Samen; Hurru ist zur Witwe für Ägypten geworden; alle Länder sind im Frieden vereint (unter ihm, dem Leben gegeben ist).",
+                "french": "Ligne L28: Israël est dévasté, sans semence ; le Hourrou est devenu une veuve pour l'Égypte ; tous les pays sont pacifiés ensemble (sous lui, doué de vie).",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "proper_noun_subject_with_passive_stative_f_at.j_and_coordinated_metaphorical_widow_and_inclusive_peace_clauses"
+            },
+            "layer4_writing": {
+                "mdc_code": "y-s-r-j-3-r f3.t.j jw nn pr.t=f, HA-rw xpr.tj m Xr.t n kmt, t3.w nb.w dmD.w m Htp di.w anx"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-CG34025",
+                        "name": "Merneptah Victory Stela, Cairo Museum CG 34025",
+                        "type": "black_granite_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "y-s-r-j-ꜣ-r", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "fꜣ.t.j", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḥꜣ-rw", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "dmḏ.w", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الثامن والعشرون والختامي وهو الأكثر شهرة بالدراسات الأثرية عالمياً؛ حيث يضم اللفظ 'يسريار' (y-s-r-j-ꜣ-r) وهي الكتابة المصرية التاريخية لاسم إسرائيل المصحوب بمخصص 'الشعب أو القبيلة الرحالة' (B1) وليس مخصص المدينة الحاكمة، مما يثبت طبيعتهم الرعوية والقبلية في كنعان وقت المعركة بعهد مرنبطاح، واللفظ 'حورو' (ḥꜣ-rw) يشير تاريخياً لبلاد الشام وسوريا الحالية [3.4.1]."
+            }
+        }
+    ]
+}

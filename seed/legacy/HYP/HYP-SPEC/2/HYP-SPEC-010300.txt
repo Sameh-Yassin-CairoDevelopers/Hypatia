@@ -1,0 +1,619 @@
+ممتاز.
+
+هذه الوثيقة من أكثر الوثائق التى أحبها، لأنها ستكون المرجع الذى سيمنع الفوضى فى أسماء الملفات لعشرات السنين.
+
+وهنا أريد أن أكون أكثر صرامة من معظم المشاريع.
+
+أنا لا أريد مجرد "Convention".
+
+أنا أريد أن يكون **اسم الملف نفسه يحمل معلومة علمية**.
+
+وليس مجرد اسم.
+
+---
+
+# HYP-SPEC-010300
+
+# File Naming Convention
+
+**Project:** Hypatia Knowledge Platform
+
+**Document ID:** HYP-SPEC-010300
+
+**Version:** 1.0 Founder Edition
+
+**Status:** Official
+
+**Classification:** Architecture Standard
+
+---
+
+# Purpose
+
+This specification defines the official naming convention for every file stored inside the Hypatia Repository.
+
+Every filename shall be:
+
+* Stable
+* Predictable
+* Machine-readable
+* Human-readable
+* Scientifically meaningful
+
+---
+
+# Design Philosophy
+
+A filename is part of the knowledge.
+
+It is not merely an operating system label.
+
+A filename must immediately reveal:
+
+* object type
+* object identity
+* scientific class
+
+without opening the file.
+
+---
+
+# General Rules
+
+Every filename shall be
+
+* lowercase
+* ASCII only
+* immutable
+* unique
+* deterministic
+
+---
+
+# Character Set
+
+Allowed
+
+```text
+a-z
+
+0-9
+
+_
+
+.
+```
+
+Forbidden
+
+```text
+space
+
+-
+
+CamelCase
+
+Arabic
+
+special symbols
+```
+
+---
+
+Correct
+
+```text
+lem_000001.json
+
+ent_000152.json
+
+str_000041.json
+```
+
+Incorrect
+
+```text
+King.json
+
+Story One.json
+
+newfile.json
+
+نسخة.json
+```
+
+---
+
+# File Extension Policy
+
+Scientific Objects
+
+```
+.json
+```
+
+Specifications
+
+```
+.md
+```
+
+Configuration
+
+```
+.yaml
+```
+
+Python
+
+```
+.py
+```
+
+Documentation
+
+```
+.md
+```
+
+Binary Models
+
+```
+.pt
+
+.onnx
+
+.gguf
+```
+
+Images
+
+```
+.png
+
+.svg
+```
+
+---
+
+# Identity Rule
+
+Every scientific object filename begins with its Object Prefix.
+
+---
+
+Examples
+
+Lemma
+
+```
+lem_000001.json
+```
+
+Entity
+
+```
+ent_000241.json
+```
+
+Story
+
+```
+str_000012.json
+```
+
+Grammar Rule
+
+```
+grm_000088.json
+```
+
+Source
+
+```
+src_000004.json
+```
+
+Domain
+
+```
+dom_000007.json
+```
+
+Relationship
+
+```
+rel_001203.json
+```
+
+Meta Card
+
+```
+meta_000014.json
+```
+
+Proposal
+
+```
+prp_000089.json
+```
+
+Review
+
+```
+rev_000020.json
+```
+
+Revision
+
+```
+rvs_000541.json
+```
+
+---
+
+# Zero Padding
+
+All numeric identifiers use fixed width.
+
+Current standard
+
+```
+000001
+```
+
+Future expansion
+
+```
+0000000001
+```
+
+may occur without changing prefixes.
+
+---
+
+# Semantic Stability
+
+Once assigned,
+
+a filename never changes.
+
+Even if
+
+Title changes
+
+Translation changes
+
+Content changes
+
+Canonical Form changes
+
+Reviewer changes
+
+---
+
+Identity remains permanent.
+
+---
+
+# Human Titles
+
+Scientific titles belong inside JSON.
+
+Never inside filenames.
+
+Correct
+
+```
+str_000152.json
+```
+
+JSON
+
+```
+"title":
+
+"The Tale of Sinuhe"
+```
+
+Not
+
+```
+the_tale_of_sinuhe.json
+```
+
+---
+
+# Temporary Files
+
+Temporary work
+
+```
+tmp_
+
+wrk_
+
+draft_
+```
+
+Examples
+
+```
+tmp_entity_import.json
+
+wrk_merge.py
+```
+
+Never committed.
+
+---
+
+# Generated Files
+
+Automatically generated
+
+```
+gen_
+
+idx_
+
+exp_
+
+cache_
+```
+
+Examples
+
+```
+gen_graph.json
+
+idx_lemma.json
+
+exp_training.json
+```
+
+---
+
+# Builder Files
+
+Builder scripts
+
+```
+builder_
+
+```
+
+Examples
+
+```
+builder_repository.py
+
+builder_dataset.py
+
+builder_graph.py
+```
+
+---
+
+# Resolver Files
+
+Resolvers
+
+```
+resolver_
+
+```
+
+Examples
+
+```
+resolver_lemma.py
+
+resolver_entity.py
+
+resolver_source.py
+```
+
+---
+
+# Test Files
+
+```
+test_
+
+```
+
+Examples
+
+```
+test_repository.py
+
+test_entities.py
+
+test_story.py
+```
+
+---
+
+# Documentation Files
+
+Official specifications
+
+```
+HYP-SPEC-xxxxxx.md
+```
+
+Research documents
+
+```
+HYP-DOC-xxxxxx.md
+```
+
+Developer Notes
+
+```
+HYP-NOTE-xxxxxx.md
+```
+
+Request For Comments
+
+```
+HYP-RFC-xxxxxx.md
+```
+
+---
+
+# Reserved Prefixes
+
+```
+lem
+
+ent
+
+str
+
+src
+
+grm
+
+dom
+
+meta
+
+rel
+
+prp
+
+rev
+
+rvs
+
+usr
+
+cfg
+
+builder
+
+resolver
+
+test
+
+gen
+
+idx
+
+exp
+
+tmp
+
+wrk
+```
+
+No custom prefixes allowed.
+
+---
+
+# Forbidden Names
+
+Never create files named
+
+```
+new
+
+copy
+
+final
+
+latest
+
+backup
+
+test2
+
+old
+
+misc
+
+other
+```
+
+Versioning belongs to Version Control.
+
+Not filenames.
+
+---
+
+# Repository Rule
+
+One object
+
+↓
+
+One file
+
+↓
+
+One identity
+
+---
+
+# Long-Term Objective
+
+A future researcher should identify the nature of every object by reading its filename alone.
+
+Opening the file should provide details.
+
+Not identity.
+
+---
+
+# File Motto
+
+> **Identity belongs to the filename.**
+
+> **Meaning belongs to the content.**
+
+---
+
+# Founder Statement
+
+A disciplined repository begins with disciplined names.
+
+If filenames remain stable,
+
+the repository remains understandable,
+
+regardless of how large it becomes.
+
+---
+
+# Academic Notes
+
+The naming convention intentionally separates **Identity** from **Semantics**.
+
+A Lemma may change.
+
+A Story title may change.
+
+An Entity description may change.
+
+Scientific interpretation may evolve.
+
+But identifiers—and therefore filenames—remain immutable.
+
+This guarantees stable citations, reproducible research, long-term archival integrity, and compatibility with future database engines and AI training pipelines.
+
+---
+
+## ✦ ملاحظة أخيرة (وأعتبرها من أهم قرارات المشروع)
+
+أثناء كتابة هذه الوثيقة، وصلت إلى قناعة أن **هيباتيا يجب ألا تستخدم أسماء الملفات كمعرّفات**.
+
+بل يكون لدينا دائمًا:
+
+* **ID داخلي دائم** داخل الملف (مثل `LEM-000001`)
+* **اسم ملف قياسي** مشتق منه (مثل `lem_000001.json`)
+
+أي أن الملف مجرد وعاء، أما الهوية الحقيقية فهي الحقل `id` داخل الـ JSON.
+
+هذا سيجعل النظام أكثر صلابة إذا احتجنا مستقبلًا إلى نقل البيانات من ملفات JSON إلى قاعدة رسوم بيانية أو قاعدة علائقية أو أي وسيط تخزين آخر دون أن تتغير هوية أي عنصر. وأنا أوصي بأن يصبح هذا مبدأ ثابتًا في هيباتيا.

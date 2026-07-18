@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html lang="ar" data-theme="papyrus">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مستودع هيباتيا للأدب المصري القديم</title>
+    <!-- تحميل الخطوط الأكاديمية المريحة للقراءة الطويلة -->
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        /* تعريف الألوان لكل سِمة بصريّة */
+        :root[data-theme="papyrus"] {
+            --bg-color: #f6ecd0;
+            --text-color: #2c2512;
+            --accent-color: #8c6239;
+            --card-bg: #eddcb9;
+            --border-color: #dac7a3;
+            --muted-text: #6d5b3d;
+        }
+        :root[data-theme="light"] {
+            --bg-color: #fdfdfd;
+            --text-color: #1a1a1a;
+            --accent-color: #3182ce;
+            --card-bg: #f7fafc;
+            --border-color: #e2e8f0;
+            --muted-text: #718096;
+        }
+        :root[data-theme="dark"] {
+            --bg-color: #121212;
+            --text-color: #e2e8f0;
+            --accent-color: #63b3ed;
+            --card-bg: #1d1d1d;
+            --border-color: #2d3748;
+            --muted-text: #a0aec0;
+        }
+
+        * {
+            box-sizing: border-box;
+            transition: background-color 0.2s, color 0.2s;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+            direction: rtl;
+        }
+
+        /* تنسيق الأعمدة المرنة القابلة للطي والتحجيم بالجر والسحب بالماوس */
+        .sidebar {
+            width: 280px;
+            min-width: 150px;
+            max-width: 450px;
+            background-color: var(--card-bg);
+            border-left: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+            padding: 15px;
+            overflow-y: auto;
+            position: relative;
+            flex: none; /* إلغاء التمدد التلقائي للسماح بالتحجيم المرن */
+        }
+
+        .sidebar.collapsed {
+            width: 0 !important;
+            min-width: 0 !important;
+            padding: 0 !important;
+            overflow: hidden;
+            border-left: none;
+        }
+
+        .sidebar h2 {
+            font-family: 'Amiri', serif;
+            margin-top: 0;
+            font-size: 1.4rem;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 10px;
+        }
+
+        .story-link {
+            padding: 10px;
+            margin: 4px 0;
+            border-radius: 6px;
+            cursor: pointer;
+            border: 1px solid transparent;
+            font-family: 'Amiri', serif;
+            font-size: 1.05rem;
+        }
+
+        .story-link:hover {
+            background-color: var(--border-color);
+        }
+
+        .story-link.active {
+            background-color: var(--accent-color);
+            color: #fff;
+            font-weight: bold;
+        }
+
+        /* فواصل التحجيم التفاعلية بالسحب بالماوس */
+        .resize-splitter {
+            width: 6px;
+            background-color: var(--border-color);
+            cursor: col-resize;
+            transition: background-color 0.15s;
+            z-index: 50;
+        }
+        .resize-splitter:hover {
+            background-color: var(--accent-color);
+        }
+
+        .reader-pane {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        /* الشريط العلوي النحيف والقابل للطي 75% */
+        .control-bar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            display: flex;
+            flex-direction: column;
+            background-color: var(--card-bg);
+            padding: 6px 20px;
+            border-bottom: 2px solid var(--border-color);
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+        }
+
+        .control-bar-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        .active-story-title {
+            font-family: 'Amiri', serif;
+            font-size: 1.25rem;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .about-story-btn {
+            background-color: var(--border-color);
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            border-radius: 4px;
+            padding: 3px 8px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            font-family: 'Amiri', serif;
+            font-weight: bold;
+            margin-left: 5px;
+        }
+
+        .about-story-btn:hover, .export-story-btn:hover {
+            background-color: var(--accent-color);
+            color: #fff;
+        }
+
+        .export-story-btn {
+            background-color: var(--border-color);
+            border: 1px solid var(--border-color);
+            color: var(--accent-color);
+            border-radius: 4px;
+            padding: 3px 8px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            font-family: 'Amiri', serif;
+            font-weight: bold;
+        }
+
+        /* زر طي 75% من الهيدر */
+        .header-toggle-btn {
+            background: none;
+            border: none;
+            color: var(--accent-color);
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: bold;
+            padding: 4px;
+        }
+
+        .control-bar-settings {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 10px;
+            border-top: 1px dashed var(--border-color);
+            padding-top: 8px;
+        }
+
+        .control-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .display-filters {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            align-items: center;
+            background-color: var(--bg-color);
+            padding: 5px 12px;
+            border-radius: 6px;
+            border: 1px solid var(--border-color);
+        }
+
+        .filter-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 0.85rem;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .scrollable-content {
+            flex: 1;
+            overflow-y: auto;
+            padding: 20px;
+        }
+
+        .font-sizer {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.85rem;
+        }
+
+        /* كروت الجمل المصغرة */
+        .sentence-card {
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 25px;
+            border: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .glyphs-display {
+            font-size: 2rem;
+            margin-bottom: 12px;
+            line-height: 1.5;
+            letter-spacing: 1px;
+            color: var(--text-color);
+        }
+
+        .arabic-display {
+            font-family: 'Amiri', serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            line-height: 1.4;
+            color: var(--text-color);
+            margin-bottom: 12px;
+        }
+
+        /* الأشرطة الملونة لتحديد لغة المصدر الأصلية للترجمة */
+        .source-badge {
+            display: inline-block;
+            font-size: 0.75rem;
+            padding: 1px 6px;
+            border-radius: 3px;
+            font-weight: bold;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+        .source-badge.german { background-color: #ecc94b; color: #2c2512; }
+        .source-badge.english { background-color: #3182ce; color: #fff; }
+        .source-badge.french { background-color: #319795; color: #fff; }
+
+        .details-section {
+            border-top: 1px dashed var(--border-color);
+            padding-top: 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            clear: both; /* إلغاء الطفو لضمان استقرار الأسطر */
+        }
+
+        .detail-row {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            font-size: 0.88rem;
+            line-height: 1.35;
+        }
+
+        .detail-row strong {
+            min-width: 80px;
+            color: var(--text-color);
+            display: inline-block;
+        }
+
+        .detail-row span {
+            color: var(--muted-text);
+            flex: 1;
+        }
+
+        .word-token {
+            display: inline-block;
+            background-color: var(--border-color);
+            padding: 1px 6px;
+            border-radius: 4px;
+            margin: 1px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+
+        .word-token:hover {
+            background-color: var(--accent-color);
+            color: #fff;
+        }
+
+        .word-token.active-token {
+            background-color: var(--accent-color) !important;
+            color: #fff !important;
+            box-shadow: 0 0 3px var(--accent-color);
+            transform: scale(1.05);
+            font-weight: bold;
+        }
+
+        /* لوحة القاموس الجانبية القابلة للطي والتحجيم */
+        .dictionary-drawer {
+            width: 320px;
+            min-width: 150px;
+            max-width: 450px;
+            background-color: var(--card-bg);
+            border-right: 1px solid var(--border-color);
+            padding: 15px;
+            display: none;
+            flex-direction: column;
+            overflow-y: auto;
+            flex: none; /* إلغاء التمدد للسماح بالسحب بالسحب */
+        }
+
+        .dictionary-drawer h3 {
+            font-family: 'Amiri', serif;
+            margin-top: 0;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 8px;
+        }
+
+        .drawer-close {
+            background: none;
+            border: none;
+            color: var(--accent-color);
+            cursor: pointer;
+            float: left;
+            font-weight: bold;
+        }
+
+        .drawer-row {
+            margin-bottom: 10px;
+            line-height: 1.35;
+        }
+        .drawer-row strong {
+            display: block;
+            font-size: 0.88rem;
+            color: var(--text-color);
+            margin-bottom: 2px;
+        }
+        .drawer-row span {
+            color: var(--muted-text);
+        }
+
+        .accordion-header {
+            background-color: var(--border-color);
+            padding: 10px 14px;
+            border-radius: 6px;
+            margin-top: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: 'Amiri', serif;
+            font-size: 1rem;
+            border: 1px solid var(--border-color);
+        }
+
+        .accordion-header:hover {
+            background-color: var(--accent-color);
+            color: #fff;
+        }
+
+        .accordion-body {
+            display: none;
+            padding: 12px;
+            border: 1px solid var(--border-color);
+            border-top: none;
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+            background-color: var(--bg-color);
+            margin-bottom: 8px;
+            position: relative;
+        }
+
+        .accordion-body.open {
+            display: block;
+        }
+
+        .card-container {
+            border: 1px solid var(--border-color);
+            padding: 12px;
+            border-radius: 6px;
+            margin-bottom: 12px;
+            background-color: var(--bg-color);
+            position: relative;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1100;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            align-items: center;
+            justify-content: center;
+            direction: rtl;
+        }
+
+        .modal-content {
+            background-color: var(--card-bg);
+            padding: 20px;
+            border: 1px solid var(--border-color);
+            width: 90%;
+            max-width: 500px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+            color: var(--text-color);
+            position: relative;
+            max-height: 90vh;
+            overflow-y: auto;
+            direction: rtl;
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+
+        .modal-header h3 {
+            margin: 0;
+            font-family: 'Amiri', serif;
+            font-size: 1.3rem;
+        }
+
+        .modal-close {
+            background: none;
+            border: none;
+            color: var(--text-color);
+            font-size: 1.3rem;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        /* أيقونات الأكورديون لطبقة المعرفة */
+        .insight-section {
+            margin-top: 12px;
+            border-top: 1px dashed var(--border-color);
+            padding-top: 8px;
+        }
+        .colloc-badge {
+            display: inline-block;
+            font-size: 0.8rem;
+            background-color: var(--border-color);
+            padding: 2px 6px;
+            border-radius: 4px;
+            margin: 2px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- زر طي القائمة الجانبية الأيسر الخارجي -->
+    <button id="sidebarToggle" style="position: fixed; top: 15px; right: 15px; z-index: 101; background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 4px; padding: 4px 8px; cursor: pointer; color: var(--accent-color); font-weight: bold;">☰ القائمة</button>
+
+    <!-- 1. القائمة الجانبية للأدب -->
+    <div class="sidebar" id="sidebar">
+        <h2 style="margin-top: 35px;">نصوص هيباتيا</h2>
+        <div id="storiesList">
+            <p style="font-size: 0.85rem; color: var(--muted-text);">جاري فحص القصص...</p>
+        </div>
+    </div>
+
+    <!-- فاصل السحب الرأسي الأول -->
+    <div class="resize-splitter" id="splitter1"></div>
+
+    <!-- 2. لوحة القراءة الرئيسية المحدثة -->
+    <div class="reader-pane">
+        <!-- الشريط العلوي الثابت مع ميزة طي الإعدادات -->
+        <div class="control-bar" id="controlBar">
+            <div class="control-bar-header">
+                <!-- ملصق القصة النشطة وتفاصيل المخطوط المرافقة -->
+                <div class="active-story-title">
+                    <span id="activeStoryLabel">📖 جاري جلب المخطوط...</span>
+                    <button class="about-story-btn" onclick="openAboutModal()">ℹ️ تفاصيل البردية</button>
+                    <!-- زر تصدير البردية ديناميكياً المعتمد -->
+                    <button class="export-story-btn" onclick="exportActiveStory()">📥 تصدير المخطوط</button>
+                </div>
+                <!-- زر طي وتقليص 75% من الهيدر -->
+                <button class="header-toggle-btn" onclick="toggleHeaderSettings(this)">خيارات العرض ▲</button>
+            </div>
+
+            <!-- حاوية الإعدادات القابلة للطي -->
+            <div class="control-bar-settings" id="headerSettings">
+                <div class="control-row">
+                    <div>
+                        <button class="theme-btn" onclick="setTheme('papyrus')">ورق بردي 📜</button>
+                        <button class="theme-btn" onclick="setTheme('light')">نهاري ☀️</button>
+                        <button class="theme-btn" onclick="setTheme('dark')">ليلي 🌙</button>
+                    </div>
+                    <div class="font-sizer">
+                        <span>حجم الخط:</span>
+                        <input type="range" min="14" max="36" value="26" oninput="changeFontSize(this.value)">
+                    </div>
+                </div>
+
+                <div class="control-row">
+                    <div class="display-filters">
+                        <span style="font-weight: bold; font-size: 0.85rem; margin-left: 5px;">طبقات العرض النشطة:</span>
+                        <label class="filter-item"><input type="checkbox" id="showGlyphs" checked onchange="updateVisibility()"> الرسم الفرعوني</label>
+                        <label class="filter-item"><input type="checkbox" id="showArabic" checked onchange="updateVisibility()"> الترجمة العربية</label>
+                        <label class="filter-item"><input type="checkbox" id="showId" checked onchange="updateVisibility()"> معرّف السطر</label>
+                        <label class="filter-item"><input type="checkbox" id="showTranslit" checked onchange="updateVisibility()"> النقل الصوتي</label>
+                        <label class="filter-item"><input type="checkbox" id="showEnglish" checked onchange="updateVisibility()"> الإنجليزية</label>
+                        <label class="filter-item"><input type="checkbox" id="showGerman" checked onchange="updateVisibility()"> الألمانية</label>
+                        <label class="filter-item"><input type="checkbox" id="showFrench" checked onchange="updateVisibility()"> الفرنسية</label>
+                        <label class="filter-item"><input type="checkbox" id="showNotes" checked onchange="updateVisibility()"> الملاحظات الأثرية</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- وعاء التمرير والسكرول أسفل الشريط الثابت -->
+        <div class="scrollable-content" id="storyContainer">
+            <p>يرجى اختيار قصة من القائمة الجانبية للبدء بالقراءة.</p>
+        </div>
+    </div>
+
+    <!-- فاصل السحب الرأسي الثاني -->
+    <div class="resize-splitter" id="splitter2"></div>
+
+    <!-- 3. لوحة القاموس الجانبية التفاعلية -->
+    <div class="dictionary-drawer" id="dictionaryDrawer">
+        <div>
+            <button class="drawer-close" onclick="closeDrawer()">✕ أغلق</button>
+            <h3>تحليل المفردة الأكاديمي</h3>
+        </div>
+        <div id="dictionaryContent" style="font-family: 'Amiri', serif; font-size: 1.25rem;">
+            <p style="color: var(--muted-text)">اضغط على أي كلمة من النقل الصوتي للاستكشاف.</p>
+        </div>
+    </div>
+
+    <!-- 5. نافذة تفاصيل البردية والمخطوط الكلية (About Story Modal) -->
+    <div id="aboutStoryModal" class="modal">
+        <div class="modal-content" style="font-family: 'Amiri', serif; font-size: 1.25rem;">
+            <div class="modal-header">
+                <h3>بطاقة التوثيق والاستناد الأثري للمخطوط</h3>
+                <button class="modal-close" onclick="closeAboutModal()">✕</button>
+            </div>
+            <div id="aboutStoryContent">
+                <!-- تملأ برمجياً على حسب معلومات القصة المحملة -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentFontSize = 26; // تقليص الخط درجتين معياريتين لرفع التماسك البصري
+        let activeStoryData = null; // تخزين معلومات المخطوط النشط بالكامل لخدمة زر التفاصيل لمرة واحدة فقط
+
+        // 100% معمارية سحابية سيرفرلس بالكامل (100% Client-Side In-Memory Indexer) لتعمل على جيت هاب هاب بايجز للأبد وبالمجان
+        const activeStories = [
+            { id: "EGY-010", title_ar: "EGY-010: الملك نيفركارع والقائد ساسينيت", file_path: "corpus/stories/EGY-010.json" },
+            { id: "EGY-011", title_ar: "EGY-011: قصة الراعي والجميلة", file_path: "corpus/stories/EGY-011.json" },
+            { id: "EGY-013", title_ar: "EGY-013: متع صيد الأسماك والطيور", file_path: "corpus/stories/EGY-013.json" },
+            { id: "EGY-040", title_ar: "EGY-040: تعاليم كاجمني السلوكية والأخلاقية", file_path: "corpus/stories/EGY-040.json" },
+            { id: "EGY-042", title_ar: "EGY-042: تعاليم الأمير حور جد ف", file_path: "corpus/stories/EGY-042.json" },
+            { id: "EGY-086", title_ar: "EGY-086: نقش كوروسكو العسكري الحدودي", file_path: "corpus/stories/EGY-086.json" },
+            { id: "EGY-101", title_ar: "EGY-101: قصة الاختطاف والبحر الرمزية", file_path: "corpus/stories/EGY-101.json" },
+            { id: "EGY-104", title_ar: "EGY-104: قصة الملك أمازيس والبحار", file_path: "corpus/stories/EGY-104.json" },
+            { id: "EGY-106", title_ar: "EGY-106: قصة الأمير وأبو الهول بالديموطيقية", file_path: "corpus/stories/EGY-106.json" },
+            { id: "EGY-120", title_ar: "EGY-120: لوحة سي-عنخ بوادي الحمامات لشق الآبار", file_path: "corpus/stories/EGY-120.json" },
+            { id: "EGY-132", title_ar: "EGY-132: لوحة قارطة لمجاعات عصر الانتقال الأول", file_path: "corpus/stories/EGY-132.json" },
+            { id: "EGY-159", title_ar: "EGY-159: تعويذة حورس الذهبي (كتاب الموتى - الفصل 77)", file_path: "corpus/stories/EGY-159.json" },
+            { id: "EGY-501", title_ar: "EGY-501: برديات برلين الرياضية (المسألة الأولى - معادلة الدرجة الثانية)", file_path: "corpus/stories/EGY-501.json" }
+        ];
+
+        // قواميس طبقة المعرفة العميقة المحسوبة محلياً في الذاكرة (Browser memory)
+        let STORY_INDEX = {};
+        let CONTEXT_INDEX = {};
+        let CO_OCCURRENCE = {};
+        let LEMMA_RESOLVER = {};
+        let ENTITY_RESOLVER = {};
+
+        function normalize_translit_js(text) {
+            if (!text) return "";
+            text = text.trim().toLowerCase();
+            if (text.includes("=")) {
+                text = text.split("=")[0];
+            }
+            const suffixes = [".n", ".t", ".wt", ".w", "-n", "-t", "-wt", "-w"];
+            for (let suf of suffixes) {
+                if (text.endsWith(suf)) {
+                    text = text.substring(0, text.length - suf.length);
+                }
+            }
+            // توحيد ترميز حرف العين والألف والياء
+            text = text.replace(/[\u02bf\u2018'`\u0060\u0a725\ua725]/g, "ꜥ");
+            text = text.replace(/[\u02be\u20193\u0a723\ua723]/g, "ꜣ");
+            text = text.replace(/[\u1ec9j]/g, "ỉ");
+            text = text.replace(/[\[\]\(\)\u2e22\u2e23]/g, "");
+            return text.strip ? text.strip() : text.trim();
+        }
+
+        function flat_ascii_normalize_js(text) {
+            if (!text) return "";
+            text = normalize_translit_js(text);
+            const replacements = {
+                "ḥ": "h", "h": "h", "ḫ": "h", "x": "h", "ẖ": "h", "X": "h",
+                "š": "s", "S": "s", "ś": "s", "ḳ": "k", "q": "k",
+                "ṯ": "t", "T": "t", "ḏ": "d", "D": "d",
+                "ꜣ": "a", "A": "a", "3": "a", "ꜥ": "a", "ʿ": "a", "‘": "a", "'": "a", "`": "a", "a": "a",
+                "ỉ": "i", "j": "i", "y": "i", "i": "i"
+            };
+            let flat = "";
+            for (let char of text) {
+                flat += replacements[char] || char;
+            }
+            return flat.trim();
+        }
+
+        // بناء طبقة المعرفة العميقة في أجزاء من الثانية تلقائياً داخل متصفح الباحث (In-Memory Processing)
+        async function buildClientSideKnowledgeIndex() {
+            try {
+                // 1. جلب وحل الجذور والأعلام الاستنادية أونلاين
+                const res1 = await fetch('resolvers/lemma_resolver.json');
+                LEMMA_RESOLVER = await res1.json();
+                const res2 = await fetch('resolvers/entity_resolver.json');
+                ENTITY_RESOLVER = await res2.json();
+                
+                // 2. تدوير وجلب كافة القصص وبناء الفهارس (5.3, 5.4, 5.5) ديناميكياً
+                for (let story of activeStories) {
+                    try {
+                        const response = await fetch(story.file_path);
+                        if (!response.ok) continue;
+                        const data = await response.json();
+                        
+                        const storyId = data.text_id || story.id;
+                        const storyTitle = (data.metadata && data.metadata.title_ar) ? data.metadata.title_ar : story.title_ar;
+                        const origLang = (data.metadata && data.metadata.original_translation_language) ? data.metadata.original_translation_language : 'unknown';
+                        
+                        const sentences = data.sentences || [];
+                        sentences.forEach((sentence, s_idx) => {
+                            const s_id = (sentence.metadata && sentence.metadata.id) ? sentence.metadata.id : `${storyId}-S${s_idx+1}`;
+                            const s_arabic = (sentence.layer2_languages && sentence.layer2_languages.arabic) ? sentence.layer2_languages.arabic : '';
+                            const translit_str = (sentence.layer1_core && sentence.layer1_core.transliteration) ? sentence.layer1_core.transliteration : '';
+                            
+                            let tokens = [];
+                            if (sentence.layer6_relationships && sentence.layer6_relationships.word_tokens) {
+                                tokens = sentence.layer6_relationships.word_tokens;
+                            } else if (translit_str) {
+                                const raw_words = translit_str.split(/\s+/);
+                                raw_words.forEach(rw => {
+                                    const clean_rw = rw.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"").trim();
+                                    if (clean_rw) tokens.push({ transliteration: clean_rw });
+                                });
+                            }
+                            
+                            tokens.forEach((tok, t_idx) => {
+                                const raw_translit = tok.transliteration || '';
+                                const clean_tok = normalize_translit_js(raw_translit);
+                                
+                                // مطابقة وحل المعرّفات المجرّدة
+                                let card_id = ENTITY_RESOLVER[clean_tok];
+                                if (!card_id) {
+                                    const resolved_word = LEMMA_RESOLVER[clean_tok] || clean_tok;
+                                    const norm_resolved = normalize_translit_js(resolved_word);
+                                    card_id = LEMMA_RESOLVER[norm_resolved] || LEMMA_RESOLVER[flat_ascii_normalize_js(resolved_word)] || null;
+                                }
+                                
+                                if (!card_id) return;
+                                
+                                // أ) 5.3: Story Index
+                                if (!STORY_INDEX[card_id]) STORY_INDEX[card_id] = [];
+                                if (!STORY_INDEX[card_id].some(s => s.id === storyId)) {
+                                    STORY_INDEX[card_id].push({ id: storyId, title: storyTitle });
+                                }
+                                
+                                // ب) 5.4: Context Index & Character Offset
+                                if (!CONTEXT_INDEX[card_id]) CONTEXT_INDEX[card_id] = [];
+                                const char_offset = translit_str.indexOf(raw_translit);
+                                CONTEXT_INDEX[card_id].push({
+                                    story_id: storyId,
+                                    story_title: storyTitle,
+                                    sentence_id: s_id,
+                                    sentence_arabic: s_arabic,
+                                    position: t_idx + 1,
+                                    char_offset: char_offset,
+                                    original_lang: origLang
+                                });
+                                
+                                // ج) 5.5: المصاحبات اللفظية ثنائية الاتجاه يمين ويسار
+                                if (!CO_OCCURRENCE[card_id]) CO_OCCURRENCE[card_id] = { "left": {}, "right": {} };
+                                
+                                if (t_idx > 0) {
+                                    const left_neigh = tokens[t_idx-1].transliteration;
+                                    if (left_neigh) {
+                                        const clean_ln = normalize_translit_js(left_neigh);
+                                        if (clean_ln) {
+                                            CO_OCCURRENCE[card_id]["left"][clean_ln] = (CO_OCCURRENCE[card_id]["left"][clean_ln] || 0) + 1;
+                                        }
+                                    }
+                                }
+                                if (t_idx < tokens.length - 1) {
+                                    const right_neigh = tokens[t_idx+1].transliteration;
+                                    if (right_neigh) {
+                                        const clean_rn = normalize_translit_js(right_neigh);
+                                        if (clean_rn) {
+                                            CO_OCCURRENCE[card_id]["right"][clean_rn] = (CO_OCCURRENCE[card_id]["right"][clean_rn] || 0) + 1;
+                                        }
+                                    }
+                                }
+                            });
+                        });
+                    } catch(e) {
+                        console.log("تنبيه جلب قصة: " + story.id);
+                    }
+                }
+                
+                // اختزال وترتيب المصاحبات اللفظية لأعلى 5 تكرارات لكل اتجاه
+                for (let card_id in CO_OCCURRENCE) {
+                    const sorted_left = Object.entries(CO_OCCURRENCE[card_id].left).sort((a,b) => b[1] - a[1]).slice(0, 5);
+                    const sorted_right = Object.entries(CO_OCCURRENCE[card_id].right).sort((a,b) => b[1] - a[1]).slice(0, 5);
+                    
+                    CO_OCCURRENCE[card_id] = {
+                        "left": sorted_left.map(x => ({ "word": x[0], "count": x[1] })),
+                        "right": sorted_right.map(x => ({ "word": x[0], "count": x[1] }))
+                    };
+                }
+                console.log("[+] تم بنجاح بناء طبقة المعرفة والترابط محلياً في الذاكرة لـ " + Object.keys(CONTEXT_INDEX).length + " علم ومفردة.");
+                
+            } catch(e) {
+                console.log("خطأ في بناء الفهرس المحلي: " + e.message);
+            }
+        }
+
+        function calculate_glyph_match_score_js(sentence_glyph, card_glyph) {
+            if (!sentence_glyph || !card_glyph) return 0;
+            const s_clean = sentence_glyph.replace(/\s+/g, "");
+            const c_clean = card_glyph.replace(/\s+/g, "");
+            
+            if (s_clean.includes(c_clean)) {
+                return c_clean.length * 10;
+            }
+            
+            let overlap = 0;
+            const s_set = new Set(s_clean);
+            for (let char of c_clean) {
+                if (s_set.has(char)) overlap++;
+            }
+            return overlap;
+        }
+
+        // آلية طي القائمة الجانبية بالسحب والزر
+        const sidebar = document.getElementById('sidebar');
+        const sidebarToggle = document.getElementById('sidebarToggle');
+        sidebarToggle.onclick = () => {
+            sidebar.classList.toggle('collapsed');
+            sidebarToggle.innerText = sidebar.classList.contains('collapsed') ? "☰ فتح" : "☰ القائمة";
+        };
+
+        // برمجة فواصل السحب وتوسيع الألواح بالماوس (Resizable Panels) مع قفل الـ flex لضمان السحب التام
+        function initResize(splitterId, targetId, isRightToLeft) {
+            const splitter = document.getElementById(splitterId);
+            const target = document.getElementById(targetId);
+            
+            splitter.onmousedown = function(e) {
+                e.preventDefault();
+                document.onmousemove = function(moveEvent) {
+                    let newWidth;
+                    if (isRightToLeft) {
+                        newWidth = window.innerWidth - moveEvent.clientX;
+                    } else {
+                        newWidth = moveEvent.clientX;
+                    }
+                    if (newWidth > 150 && newWidth < 450) {
+                        target.style.width = newWidth + 'px';
+                        target.style.minWidth = newWidth + 'px';
+                        target.style.maxWidth = newWidth + 'px';
+                        target.style.flex = 'none'; // إلغاء الـ flex لتجنب تمدد العمود في الـ flexbox
+                    }
+                };
+                document.onmouseup = function() {
+                    document.onmousemove = null;
+                    document.onmouseup = null;
+                };
+            };
+        }
+        initResize('splitter1', 'sidebar', false);
+        initResize('splitter2', 'dictionaryDrawer', true);
+
+        function updateVisibility() {
+            const configs = [
+                { id: 'showGlyphs', selector: '.glyphs-display' },
+                { id: 'showArabic', selector: '.arabic-display' },
+                { id: 'showId', selector: '.metadata-row' },
+                { id: 'showTranslit', selector: '.translit-row' },
+                { id: 'showEnglish', selector: '.english-row' },
+                { id: 'showGerman', selector: '.german-row' },
+                { id: 'showFrench', selector: '.french-row' },
+                { id: 'showNotes', selector: '.notes-row' }
+            ];
+
+            configs.forEach(cfg => {
+                const isChecked = document.getElementById(cfg.id).checked;
+                const elements = document.querySelectorAll(cfg.selector);
+                elements.forEach(el => {
+                    el.style.display = isChecked ? '' : 'none';
+                });
+            });
+        }
+
+        function closeDrawer() {
+            document.getElementById('dictionaryDrawer').style.display = 'none';
+            document.querySelectorAll('.word-token').forEach(el => el.classList.remove('active-token'));
+        }
+
+        function closeModal() {
+            document.getElementById('suggestionModal').style.display = 'none';
+        }
+
+        // دالة التحكم بفتح وإغلاق الأكورديون يدوياً للبطاقات الجانبية
+        function toggleAccordion(headerElement) {
+            const body = headerElement.nextElementSibling;
+            const isOpen = body.classList.contains('open');
+            
+            // إغلاق جميع الأكورديونات الأخرى للحفاظ على الترتيب والجاذبية البصرية
+            document.querySelectorAll('.accordion-body').forEach(el => el.classList.remove('open'));
+            document.querySelectorAll('.accordion-header').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.accordion-header .arrow').forEach(el => el.innerText = '▼');
+            
+            if (!isOpen) {
+                body.classList.add('open');
+                headerElement.classList.add('active');
+                headerElement.querySelector('.arrow').innerText = '▲';
+            }
+        }
+
+        // دالة جلب وعرض وقرن بطاقة المفردة الفعلية مع دعم المتشابهات اللفظية والـ Knowledge Insights المتقدمة (5.3, 5.4, 5.5) السيرفرلس بالكامل
+        async function openWordCard(wordText, sentenceGlyphs, tokenElement, lemmaRef = "") {
+            const drawer = document.getElementById('dictionaryDrawer');
+            const content = document.getElementById('dictionaryContent');
+            
+            // تفعيل التميز اللوني الثابت للكلمة المختارة
+            document.querySelectorAll('.word-token').forEach(el => el.classList.remove('active-token'));
+            if (tokenElement) {
+                tokenElement.classList.add('active-token');
+            }
+
+            drawer.style.display = 'flex';
+            content.innerHTML = "<p style='font-size:0.95rem; color:var(--muted-text)'>جاري فحص وقراءة بطاقة المفردة في القاموس...</p>";
+            
+            try {
+                // أ) مطابقة اللفظ للحصول على المعرّف الفرعي الكلي (Lemma / Entity)
+                const clean_tok = normalize_translit_js(wordText);
+                let card_id = ENTITY_RESOLVER[clean_tok];
+                if (!card_id) {
+                    const resolved_word = LEMMA_RESOLVER[clean_tok] || clean_tok;
+                    const norm_resolved = normalize_translit_js(resolved_word);
+                    card_id = LEMMA_RESOLVER[norm_resolved] || LEMMA_RESOLVER[flat_ascii_normalize_js(resolved_word)] || null;
+                }
+
+                // ب) إذا لم نجد معرّف معتمد، نبحث بالحرف الصرف
+                if (!card_id) {
+                    card_id = lemmaRef || null;
+                }
+
+                if (!card_id) {
+                    throw new Error("المفردة أو العلم التاريخي '" + wordText + "' لم تؤرشف بطاقته المعجمية بعد في مجلد هيباتيا.");
+                }
+
+                // ج) تحديد مسار الملف الساكن الحقيقي (EGY أو NE) لقراءته من جيت هاب هاب بايجز مباشرة
+                const isEntity = card_id.startsWith('HYP-NE-');
+                const file_path = isEntity ? `metadata/meta_entities/${card_id}.json` : `metadata/meta_cards/${card_id}.json`;
+
+                const response = await fetch(file_path);
+                if (!response.ok) {
+                    throw new Error("لم يتم العثور على ملف البطاقة المخصصة: " + file_path);
+                }
+                
+                const card = await response.json(); 
+                let accumulatedHtml = "";
+
+                const id = card.metadata ? card.metadata.id : 'N/A';
+                const translit = card.layer1_core ? card.layer1_core.transliteration : wordText;
+                const glyphs = card.layer1_core ? card.layer1_core.hieroglyph : 'unknown';
+                const arMeaning = card.layer2_languages ? card.layer2_languages.arabic : 'N/A';
+                const enMeaning = card.layer2_languages ? card.layer2_languages.english : 'N/A';
+                const sourceName = card.layer5_sources && card.layer5_sources.sources ? card.layer5_sources.sources[0].name : 'N/A';
+
+                let entityFieldsHTML = "";
+                if (isEntity && card.layer3_grammar) {
+                    const entityClass = card.layer3_grammar.entity_class || 'N/A';
+                    const dynasty = card.layer3_grammar.dynasty_association || 'N/A';
+                    const period = card.layer3_grammar.chronological_period || 'N/A';
+                    const titles = card.layer4_writing ? card.layer4_writing.standard_titles : 'N/A';
+                    
+                    entityFieldsHTML = `
+                        <div class="drawer-row" style="color:var(--accent-color); font-weight:bold;"><strong>تصنيف الكيان:</strong> <span>${entityClass}</span></div>
+                        <div class="drawer-row"><strong>الأسرة الحاكمة:</strong> <span>${dynasty}</span></div>
+                        <div class="drawer-row"><strong>الحقبة التاريخية:</strong> <span>${period}</span></div>
+                        <div class="drawer-row"><strong>الألقاب والنعوت:</strong> <span style="font-size:0.92rem; line-height:1.4;">${titles}</span></div>
+                    `;
+                }
+
+                // د) سحب معطيات طبقة المعرفة العميقة المحسوبة تلقائياً في الذاكرة (5.3, 5.4, 5.5)
+                let knowledgeHTML = "";
+                const appearances = STORY_INDEX[card_id] || [];
+                const contexts = CONTEXT_INDEX[card_id] || [];
+                const collocations = CO_OCCURRENCE[card_id] || { "left": [], "right": [] };
+
+                let storyLinks = "";
+                if (appearances.length > 0) {
+                    appearances.forEach(app => {
+                        storyLinks += `<span style="font-size:0.85rem; background-color:var(--border-color); padding:1px 6px; border-radius:3px; margin:2px; display:inline-block;">📖 ${app.id} (${app.title.split(':')[0]})</span>`;
+                    });
+                } else {
+                    storyLinks = "<span>لم تظهر في قصص أخرى بعد.</span>";
+                }
+
+                let contextLines = "";
+                if (contexts.length > 0) {
+                    contexts.forEach((ctx, c_idx) => {
+                        let langBadge = "";
+                        if (ctx.original_lang === 'German') langBadge = "<span class='source-badge german'>ألماني 🇩🇪</span>";
+                        else if (ctx.original_lang === 'English') langBadge = "<span class='source-badge english'>إنجليزي 🇬🇧</span>";
+                        else if (ctx.original_lang === 'French') langBadge = "<span class='source-badge french'>فرنسي 🇫🇷</span>";
+
+                        contextLines += `<div style="font-size:0.85rem; margin-bottom:5px; border-bottom:1px dotted var(--border-color); padding-bottom:3px; color:var(--muted-text);">
+                            <strong>[موضع ${c_idx+1}]</strong> في السطر <strong>${ctx.sentence_id}</strong> من قصة ${ctx.story_title.split(':')[0]} ${langBadge}: 
+                            <span style="display:block; font-style:italic; margin-top:2px;">"${ctx.sentence_arabic}" (موقع الكلمة: ${ctx.position} | إزاحة الحرف: ${ctx.char_offset})</span>
+                        </div>`;
+                    });
+                } else {
+                    contextLines = "<span>لا يوجد سياقات مؤرشفة.</span>";
+                }
+
+                let collocsLeft = "";
+                let collocsRight = "";
+                const leftList = collocations.left || [];
+                const rightList = collocations.right || [];
+                
+                if (leftList.length > 0) {
+                    leftList.forEach(col => {
+                        collocsLeft += `<span class="colloc-badge">👉 ${col.word} (${col.count} مرات)</span>`;
+                    });
+                } else { collocsLeft = "<span>لا يوجد مصاحبات تسبقها.</span>"; }
+                
+                if (rightList.length > 0) {
+                    rightList.forEach(col => {
+                        collocsRight += `<span class="colloc-badge">👈 ${col.word} (${col.count} مرات)</span>`;
+                    });
+                } else { collocsRight = "<span>لا يوجد مصاحبات تليها.</span>"; }
+
+                knowledgeHTML = `
+                    <div class="insight-section">
+                        <div class="drawer-row"><strong>📖 5.3: فهرس المخطوطات المكتشفة تلقائياً:</strong> <div>${storyLinks}</div></div>
+                        <div class="drawer-row" style="margin-top:8px;"><strong>👉 الكلمات المجاورة الأكثر تكراراً على اليمين (تسبقها):</strong> <div>${collocsLeft}</div></div>
+                        <div class="drawer-row" style="margin-top:8px;"><strong>👈 الكلمات المجاورة الأكثر تكراراً على اليسار (تليها):</strong> <div>${collocsRight}</div></div>
+                        <div class="drawer-row" style="margin-top:8px;"><strong>🔍 5.4: مواضع وسياقات الظهور الفعلي:</strong> <div style="max-height:120px; overflow-y:auto; background:var(--card-bg); padding:8px; border-radius:6px;">${contextLines}</div></div>
+                    </div>
+                `;
+
+                accumulatedHtml += `
+                    <div class="accordion-header active">
+                        <span>${id} - ${arMeaning.split('،')[0]}</span>
+                        <span class="arrow">▲</span>
+                    </div>
+                    <div class="accordion-body open">
+                        <!-- زر مراجعة التراجم أونلاين على سوبابيز -->
+                        <button class="suggest-btn" onclick="openSuggestionModal('${id}', '${isEntity ? 'dictionary_card_ne' : 'dictionary_card'}', this)">📝 اقترح تعديلاً</button>
+                        <div class="drawer-row" style="font-size:0.85rem; color: var(--muted-text); margin-top:35px;"><strong>البطاقة المعجمية:</strong> <span>${id}</span></div>
+                        <div class="drawer-row"><strong>المفردة بالنقل الصوتي:</strong> <span style="color:var(--accent-color); font-weight:bold;">${translit}</span></div>
+                        <div class="drawer-row"><strong>الرسم المقترح:</strong> <span style="font-size: 1.9rem; letter-spacing: 1px; display:block; margin-top:5px;">${glyphs !== 'unknown' ? glyphs : '𓏃'}</span></div>
+                        
+                        <!-- عرض حقول الأعلام والملوك والمدن الإضافية -->
+                        ${entityFieldsHTML}
+                        
+                        <div class="drawer-row"><strong>المعنى العربي:</strong> <span style="font-weight:bold;">${arMeaning}</span></div>
+                        <div class="drawer-row"><strong>المعنى الإنجليزي:</strong> <span>${enMeaning}</span></div>
+                        <div class="drawer-row"><strong>المصدر الأكاديمي:</strong> <span style="font-size: 0.85rem; color: var(--muted-text);">${sourceName}</span></div>
+                        
+                        <!-- حقن مخرجات طبقة المعرفة العميقة المجمعة تلقائياً -->
+                        ${knowledgeHTML}
+                    </div>
+                `;
+
+                content.innerHTML = accumulatedHtml;
+
+            } catch (err) {
+                content.innerHTML = `
+                    <div class="drawer-row"><strong>المفردة بالنقل الصوتي:</strong> <span style="color:var(--accent-color); font-weight:bold;">${wordText}</span></div>
+                    <p style="color: red; font-size: 0.9rem; line-height:1.4;">${err.message}</p>
+                    <p style="font-size: 0.8rem; color: var(--muted-text); line-height:1.4;">تأكد من مطابقة الترميز والحروف الخاصة في مجلد meta_cards.</p>
+                `;
+            }
+        }
+
+        async function fetchStoriesList() {
+            const listContainer = document.getElementById('storiesList');
+            try {
+                // بناء روابط القصص الـ 13 محلياً وسحابياً دون حظر
+                listContainer.innerHTML = ""; 
+                
+                activeStories.forEach((story, index) => {
+                    const link = document.createElement('div');
+                    link.className = `story-link ${index === 0 ? 'active' : ''}`;
+                    link.id = `link-${story.id}`;
+                    link.innerText = story.title_ar;
+                    link.onclick = () => {
+                        document.querySelectorAll('.story-link').forEach(el => el.classList.remove('active'));
+                        link.classList.add('active');
+                        loadStory(story.file_path);
+                    };
+                    listContainer.appendChild(link);
+                });
+
+                // تحميل أول قصة وبناء الفهرس المعرفي محلياً فور الإقلاع
+                await buildClientSideKnowledgeIndex();
+                loadStory(activeStories[0].file_path);
+
+            } catch (err) {
+                listContainer.innerHTML = `<p style="color:red; font-size:0.85rem;">فشل فحص المخطوطات: ${err.message}</p>`;
+            }
+        }
+
+        async function loadStory(filePath) {
+            const container = document.getElementById('storyContainer');
+            container.innerHTML = "<p>جاري تحميل المخطوط وتنسيق أسطره لغوياً...</p>";
+            
+            try {
+                const response = await fetch(filePath);
+                if (!response.ok) throw new Error("فشل قراءة ملف المخطوط.");
+                
+                const data = await response.json();
+                activeStoryData = data; 
+                container.innerHTML = ""; 
+
+                // تحديث عنوان المخطوط النشط في الهيدر الثابت ديناميكياً
+                document.getElementById('activeStoryLabel').innerText = `📖 المخطوط الحالي: ${data.metadata.title_ar || data.text_id}`;
+
+                data.sentences.forEach(sentence => {
+                    const card = document.createElement('div');
+                    card.className = 'sentence-card';
+                    
+                    const sentenceGlyphEscaped = (sentence.layer1_core.hieroglyph || "").replace(/'/g, "\\'");
+                    
+                    let tokensHTML = "";
+                    if (sentence.layer6_relationships && sentence.layer6_relationships.word_tokens && sentence.layer6_relationships.word_tokens.length > 0) {
+                        sentence.layer6_relationships.word_tokens.forEach(tok => {
+                            const lemmaRefEscaped = (tok.lemma_ref || "").replace(/'/g, "\\'");
+                            tokensHTML += `<span class="word-token" onclick="openWordCard('${tok.transliteration}', '${sentenceGlyphEscaped}', this, '${lemmaRefEscaped}')">${tok.transliteration}</span>`;
+                        });
+                    } else if (sentence.layer1_core.transliteration) {
+                        const words = sentence.layer1_core.transliteration.split(/\s+/);
+                        words.forEach(word => {
+                            const cleanWord = word.trim().replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"");
+                            if (cleanWord) {
+                                tokensHTML += `<span class="word-token" onclick="openWordCard('${cleanWord}', '${sentenceGlyphEscaped}', this, '')">${cleanWord}</span>`;
+                            }
+                        });
+                    }
+
+                    // رصد وتوليد حقل الملاحظات والترجمة الفرنسية إن وجدت
+                    const frenchText = sentence.layer2_languages.french || 'unknown';
+                    const sentenceNotes = (sentence.layer7_research && sentence.layer7_research.notes) ? sentence.layer7_research.notes : 'unknown';
+
+                    let frenchHTML = "";
+                    if (frenchText !== 'unknown' && frenchText !== '') {
+                        frenchHTML = `<div class="detail-row french-row"><strong>الفرنسية:</strong> <span>${frenchText}</span></div>`;
+                    }
+
+                    let notesHTML = "";
+                    if (sentenceNotes !== 'unknown' && sentenceNotes !== '') {
+                        notesHTML = `<div class="detail-row notes-row" style="color:var(--accent-color); font-style:italic;"><strong>الملاحظة الأثرية:</strong> <span>${sentenceNotes}</span></div>`;
+                    }
+
+                    card.innerHTML = `
+                        <button class="suggest-btn" onclick="openSuggestionModal('${sentence.metadata.id}', 'sentence', this)">📝 اقترح تعديلاً</button>
+                        <div class="glyphs-display" style="font-size: ${currentFontSize}px; margin-top:20px;">${sentence.layer1_core.hieroglyph}</div>
+                        <div class="arabic-display" style="font-size: ${currentFontSize - 6}px">${sentence.layer2_languages.arabic}</div>
+                        
+                        <div class="details-section">
+                            <div class="detail-row metadata-row">
+                                <strong>المعرّف:</strong> <span>${sentence.metadata.id}</span>
+                            </div>
+                            <div class="detail-row translit-row">
+                                <strong>النقل الصوتي:</strong> <span>${tokensHTML || 'لا يوجد'}</span>
+                            </div>
+                            <div class="detail-row english-row">
+                                <strong>الإنجليزية:</strong> <span>${sentence.layer2_languages.english || 'N/A'}</span>
+                            </div>
+                            <div class="detail-row german-row">
+                                <strong>الألمانية:</strong> <span>${sentence.layer2_languages.german || 'N/A'}</span>
+                            </div>
+                            <!-- عرض الفرنسية والملاحظات ديناميكياً -->
+                            ${frenchHTML}
+                            ${notesHTML}
+                        </div>
+                    `;
+                    container.appendChild(card);
+                });
+
+                updateVisibility();
+
+            } catch (err) {
+                container.innerHTML = `<p style="color:red">فشل تحميل المخطوط: {${err.message}}</p>`;
+            }
+        }
+
+        window.onload = () => {
+            fetchStoriesList();
+        };
+    </script>
+</body>
+</html>

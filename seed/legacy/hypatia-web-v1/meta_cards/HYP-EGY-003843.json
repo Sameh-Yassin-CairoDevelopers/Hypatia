@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-003843",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:37.672525Z"
+    },
+    "layer1_core": {
+        "transliteration": "Hnkt-anx",
+        "hieroglyph": "𓂠𓏏𓉐𓋹𓈖𓐍𓉐",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "مأوى الحياة (حيث تغرب الشمس)",
+        "english": "bed of life (where the sun sets)",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+130A0",
+        "gardiner_code": "D39",
+        "gardiner_description": "Arm holding W24\tDet. for offer, present. ex. ḥnk “present,” drp “offer.”",
+        "gardiner_details": "D40"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

@@ -1,0 +1,238 @@
+ممتاز.
+
+وسأعتبر من هذه اللحظة أننا بدأنا **Hypatia 114**.
+
+لن أقول "نبدأ كتابة ملف"، بل:
+
+> **Goal 001 / 114**
+
+وهذا سيكون أول هدف تنفيذى حقيقى فى تاريخ هيباتيا.
+
+---
+
+# Hypatia 114
+
+## Goal 001 / 114
+
+# Repository Foundation
+
+**Status**
+
+🟡 In Progress
+
+---
+
+## Objective
+
+Create the official institutional repository that will serve as the permanent foundation for the entire Hypatia ecosystem.
+
+The repository shall become the single authoritative source for:
+
+* Knowledge
+* Builders
+* Runtime
+* AI
+* Documentation
+* Research
+* Community
+* Deployment
+
+Every future component of Hypatia shall originate from this repository.
+
+---
+
+# Scope
+
+This goal establishes the repository itself.
+
+It does **not** include:
+
+* Knowledge import
+* Builders implementation
+* Resolver implementation
+* AI training
+* Runtime implementation
+
+Those belong to later goals.
+
+---
+
+# Inputs
+
+Approved Constitution
+
+Approved Repository Architecture
+
+Approved Institutional Domains
+
+Approved Engineering Principles
+
+Approved Repository Blueprint
+
+---
+
+# Expected Deliverables
+
+Upon completion, the following shall exist:
+
+✓ Official Git Repository
+
+✓ Default Branch Strategy
+
+✓ Repository Identity
+
+✓ Repository License
+
+✓ Repository Manifest
+
+✓ Initial README
+
+✓ Institutional Folder Structure
+
+✓ Domain Structure
+
+✓ Version Registry
+
+✓ Bootstrap Metadata
+
+✓ Repository Health Metadata
+
+---
+
+# Acceptance Criteria
+
+Goal 001 is considered complete when:
+
+* the repository can be cloned on a clean machine;
+* the institutional structure is reproduced without manual modification;
+* all top-level domains exist;
+* repository metadata is initialized;
+* repository identity is immutable;
+* the repository is ready to receive its first Builder.
+
+---
+
+# Dependencies
+
+None.
+
+This is the first executable goal.
+
+---
+
+# Outputs
+
+The completed repository becomes the execution environment for every remaining Goal in Hypatia 114.
+
+---
+
+# Goal Success Definition
+
+The Repository shall no longer be considered an empty Git project.
+
+It shall become the institutional foundation of Hypatia.
+
+---
+
+# Builder Assignment
+
+**Responsible Builder**
+
+Repository Builder *(to be implemented in a later goal).*
+
+Current execution:
+
+**Founder Manual Execution**
+
+---
+
+# Produced Artifacts
+
+Upon completion, Goal 001 shall produce at minimum:
+
+```text
+Git Repository
+
+README.md
+
+LICENSE
+
+.gitignore
+
+Repository Manifest
+
+Repository Metadata
+
+Version Registry
+
+Institutional Domains
+
+Bootstrap Metadata
+```
+
+---
+
+# Validation
+
+The Repository shall pass:
+
+* Structural Validation
+* Identity Validation
+* Manifest Validation
+* Bootstrap Validation
+
+before Goal 001 can be closed.
+
+---
+
+# Completion Event
+
+When Goal 001 is completed:
+
+* Goal Registry shall be updated.
+* Repository Version shall become **0.1.0-Foundation**.
+* Goal 002 becomes available for execution.
+
+---
+
+# Goal Registry Entry
+
+```yaml
+goal_id: G-001
+
+title: Repository Foundation
+
+phase: Institutional Construction
+
+priority: Critical
+
+status: In Progress
+
+owner: Founder
+
+validation: Pending
+
+dependencies: None
+
+artifacts:
+  - Git Repository
+  - Repository Manifest
+  - Repository Metadata
+  - Repository Blueprint
+  - Domain Structure
+```
+
+---
+
+## ✦ قبل أن نكتب سطر كود واحد
+
+أقترح أن يكون تنفيذ Goal 001 مقسمًا إلى **جلسات تنفيذية صغيرة** وليس دفعة واحدة.
+
+مثلًا:
+
+* **Session 1:** إنشاء مستودع Git وربطه.
+* **Session 2:** إنشاء الهيكل الكامل للمجلدات.
+* **Session 3:** إنشاء ملفات الـ Metadata والـ Manifest.
+* **Session 4:** مراجعة واعتماد Repository Foundation وإغلاق Goal 001.
+
+بهذا يصبح لكل جلسة مخرج واضح، ويمكننا فى نهاية كل جلسة أن نقول بثقة: **تم إنجاز جزء ملموس من الهدف الأول**، مع الحفاظ على أعلى درجات الانضباط الهندسى والتوثيق.

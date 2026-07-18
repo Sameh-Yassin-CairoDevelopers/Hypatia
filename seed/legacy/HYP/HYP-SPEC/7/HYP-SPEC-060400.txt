@@ -1,0 +1,461 @@
+ممتاز.
+
+وهذه الوثيقة فى رأيى هى **البوابة التى سيدخل منها تاريخ مصر كله إلى هيباتيا**.
+
+ولذلك لا أحب كلمة **Import** بالمعنى التقليدى (استيراد ملفات).
+
+بل أراها:
+
+> **Knowledge Ingestion**
+
+أى "إدخال المعرفة" إلى المؤسسة.
+
+لكن سنحتفظ باسم **Import Guide** لأنه الاسم الهندسى المتعارف عليه.
+
+---
+
+# HYP-SPEC-060400
+
+# Import Guide
+
+**Project:** Hypatia Knowledge Platform
+
+**Document ID:** HYP-SPEC-060400
+
+**Version:** 1.0 Founder Edition
+
+**Status:** Official
+
+**Classification:** Engineering Manual
+
+**Parent Specification:** HYP-SPEC-030100 — Import Pipeline
+
+---
+
+# Purpose
+
+This guide defines the engineering standards, workflows, validation rules, and operational procedures governing the import of external knowledge into the Hypatia Platform.
+
+Importing does not insert data directly into the Repository.
+
+It transforms external information into structured candidates that must pass the complete scientific governance process.
+
+---
+
+# Philosophy
+
+Data is imported.
+
+Knowledge is constructed.
+
+Nothing enters the Repository without scientific processing.
+
+---
+
+# Fundamental Principle
+
+Every imported item is considered **unverified** until it successfully completes the full validation lifecycle.
+
+Import never bypasses governance.
+
+---
+
+# Import Architecture
+
+```text id="import_architecture"
+External Source
+
+↓
+
+Import Builder
+
+↓
+
+Normalization
+
+↓
+
+Validation
+
+↓
+
+Proposal Objects
+
+↓
+
+Review
+
+↓
+
+Repository
+```
+
+No external dataset reaches the Repository directly.
+
+---
+
+# Supported Import Sources
+
+The Import Framework supports
+
+* JSON
+* CSV
+* XML
+* TEI/XML
+* Markdown
+* TXT
+* SQL Export
+* API Endpoints
+
+Future formats remain extensible.
+
+---
+
+# Supported Knowledge Sources
+
+Examples include
+
+* Dictionaries
+* Academic Corpora
+* Inscriptions
+* Research Papers
+* Museum Catalogues
+* Excavation Reports
+* Lexicons
+* Existing Knowledge Bases
+
+Every source receives its own Source Card.
+
+---
+
+# Import Stages
+
+Every import follows the same lifecycle.
+
+```text id="import_flow"
+Read
+
+↓
+
+Parse
+
+↓
+
+Normalize
+
+↓
+
+Validate
+
+↓
+
+Resolve
+
+↓
+
+Generate Proposal Objects
+
+↓
+
+Publish to Review Queue
+```
+
+No stage may be skipped.
+
+---
+
+# Import Manifest
+
+Every import operation includes an Import Manifest.
+
+Example
+
+```yaml id="import_manifest"
+import_id:
+
+source_name:
+
+source_version:
+
+source_type:
+
+import_date:
+
+builder_version:
+
+repository_revision:
+```
+
+The Manifest guarantees traceability.
+
+---
+
+# Normalization
+
+Normalization includes
+
+* Unicode normalization
+* encoding verification
+* whitespace normalization
+* punctuation cleanup
+* language normalization
+* identifier normalization
+
+Normalization must be deterministic.
+
+---
+
+# Validation
+
+Validation checks
+
+* schema compliance
+* required fields
+* identifier uniqueness
+* language consistency
+* reference integrity
+* source completeness
+
+Invalid records never enter the Proposal Queue.
+
+---
+
+# Resolver Integration
+
+After validation,
+
+every imported object passes through the Resolver.
+
+Resolver responsibilities include
+
+* duplicate detection
+* canonical matching
+* entity matching
+* lemma matching
+* relation discovery
+
+Resolver decides whether
+
+* create new object
+* update existing object
+* merge
+* reject
+
+---
+
+# Proposal Generation
+
+Every imported object becomes
+
+* Dictionary Proposal
+* Entity Proposal
+* Story Proposal
+* Grammar Proposal
+* Relation Proposal
+* Source Proposal
+
+The Repository never receives raw imported data.
+
+---
+
+# Source Attribution
+
+Every imported object permanently records
+
+```text id="source_metadata"
+source_signature
+
+source_revision
+
+source_author
+
+import_builder
+
+import_date
+```
+
+Scientific provenance is mandatory.
+
+---
+
+# Duplicate Handling
+
+Duplicates are classified as
+
+* Exact Duplicate
+* Canonical Duplicate
+* Semantic Duplicate
+* Historical Variant
+
+Different handling rules apply to each category.
+
+---
+
+# Import Logging
+
+Every import records
+
+```text id="import_logging"
+import_id
+
+builder_version
+
+source
+
+records_read
+
+records_valid
+
+records_rejected
+
+proposals_generated
+
+duration
+```
+
+Import history remains permanent.
+
+---
+
+# Import Metrics
+
+Automatically generated
+
+```text id="import_metrics"
+total_records
+
+accepted
+
+rejected
+
+duplicates
+
+warnings
+
+validation_errors
+
+resolver_matches
+```
+
+Metrics support quality monitoring.
+
+---
+
+# Error Recovery
+
+Import failures
+
+* never modify Repository Objects
+* preserve partial logs
+* support restart
+* generate diagnostic reports
+
+Imports must be restartable.
+
+---
+
+# Incremental Import
+
+The framework supports incremental imports.
+
+Only changed records are processed whenever possible.
+
+This minimizes unnecessary Repository activity.
+
+---
+
+# Import Security
+
+Imports
+
+* are authenticated
+* are authorized
+* are logged
+* are auditable
+
+External files are treated as untrusted input.
+
+---
+
+# Automation
+
+Imports may execute
+
+* manually
+* scheduled
+* event-driven
+* Builder Pipeline
+
+All modes use identical validation rules.
+
+---
+
+# Long-Term Objective
+
+To establish a reproducible, deterministic, and scientifically governed knowledge ingestion system capable of incorporating future discoveries from diverse academic sources while preserving complete provenance, traceability, and Repository integrity.
+
+---
+
+# Scientific Law
+
+External Sources provide Information.
+
+Import creates Candidates.
+
+Governance creates Knowledge.
+
+Repository preserves Civilization.
+
+---
+
+# Import Motto
+
+> **Import Information. Construct Knowledge.**
+
+---
+
+# Founder Statement
+
+Within Hypatia, importing is not regarded as a technical operation.
+
+It is the beginning of a scientific journey.
+
+Every imported inscription, lexical entry, grammatical observation, or historical reference must travel through the same institutional pathway before becoming part of the permanent Repository.
+
+This discipline ensures that the Repository remains an authoritative scholarly foundation rather than a passive collection of imported data.
+
+---
+
+# Academic Notes
+
+The Hypatia Import Framework implements a **Knowledge Ingestion Pipeline (KIP)**.
+
+Unlike conventional ETL systems that transfer records directly into operational databases, KIP transforms external information into governed Proposal Objects that undergo normalization, semantic resolution, academic review, and institutional validation before Repository integration.
+
+This architecture guarantees provenance preservation, deterministic processing, scientific accountability, and long-term knowledge quality.
+
+---
+
+## ✦ Founder Insight
+
+أقترح ألا يكون لدينا مستقبلًا **Import Builder** واحد فقط، بل **Import Adapter Framework**.
+
+أى أن كل مصدر علمى كبير (مثل TLA، PharaLex، Bibliotheca Alexandrina، وغيرها) يمتلك **Adapter** خاصًا به يترجم بياناته إلى النموذج الداخلى الموحد لهيباتيا.
+
+وبذلك يصبح المسار كالتالى:
+
+```text
+External Source
+        ↓
+Source Adapter
+        ↓
+Import Builder
+        ↓
+Normalization
+        ↓
+Resolver
+        ↓
+Proposal Objects
+```
+
+وبهذا يمكن إضافة مصدر جديد بالكامل دون تعديل أى جزء من النظام، بل فقط بإضافة **Adapter** جديد، وهو امتداد مباشر لفلسفة **Hypatia Builder Framework** و **Auto Build لكل شيء**.

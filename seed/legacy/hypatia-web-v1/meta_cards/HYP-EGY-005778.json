@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-005778",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:40.594126Z"
+    },
+    "layer1_core": {
+        "transliteration": "kAt",
+        "hieroglyph": "𓂓𓏏𓀋𓂓𓄿𓏏𓀋𓏛𓏥𓂓𓏏𓈓𓀋𓏏𓏛𓏥𓀋𓏪𓂓𓏏𓀋𓏛",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "عمل، بناء، حرفة، مهنة",
+        "english": "work, construction, craft, profession",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+13093",
+        "gardiner_code": "D28",
+        "gardiner_description": "Two arms\tPhono. k3. Ideo. for k3 “soul.”",
+        "gardiner_details": "D29"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

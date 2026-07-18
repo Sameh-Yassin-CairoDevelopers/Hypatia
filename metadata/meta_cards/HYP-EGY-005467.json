@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-005467",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:40.113909Z"
+    },
+    "layer1_core": {
+        "transliteration": "Sms qd",
+        "hieroglyph": "𓌞𓋴𓂻𓐪𓂧𓏌𓁹",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "يغلبه النعاس",
+        "english": "drop off to sleep",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+1331E",
+        "gardiner_code": "T18",
+        "gardiner_description": "Crook with package\tPhono. šms. In šms “follow, accompany.”",
+        "gardiner_details": "T19"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

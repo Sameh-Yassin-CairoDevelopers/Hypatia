@@ -1,0 +1,375 @@
+ممتاز.
+
+إذن نبدأ آخر مرحلة فى مشروع المواصفات.
+
+وهذه ستكون مختلفة عن كل ما سبق.
+
+لن تكون وثائق "تصف النظام".
+
+بل وثائق "تصف رحلة اكتشاف النظام".
+
+---
+
+# HYP-SPEC-070000
+
+# Research Framework
+
+**Project:** Hypatia Knowledge Platform
+
+**Document ID:** HYP-SPEC-070000
+
+**Version:** 1.0 Founder Edition
+
+**Status:** Living Document
+
+**Classification:** Research Framework
+
+---
+
+# Document Status
+
+This is a **Living Research Document**.
+
+Unlike all previous HYP-SPEC specifications, this document is intentionally designed to evolve throughout the lifetime of the Hypatia Platform.
+
+It is expected to change as new discoveries, engineering improvements, scientific experiments, and AI capabilities emerge.
+
+Completion is therefore not the objective.
+
+Continuous refinement is.
+
+---
+
+# Purpose
+
+This document defines the scientific research philosophy, experimental methodology, documentation practices, and long-term research workflow governing all future scientific work within the Hypatia Project.
+
+It establishes how Hypatia transforms engineering work into scientific knowledge and scientific knowledge into institutional advancement.
+
+---
+
+# Philosophy
+
+Specifications define the system.
+
+Implementation validates the specifications.
+
+Research improves both.
+
+---
+
+# Fundamental Principle
+
+Every completed engineering milestone should generate new scientific questions.
+
+Every answered scientific question should improve the platform.
+
+Research is therefore a permanent engineering activity.
+
+---
+
+# Scientific Position
+
+Hypatia is not merely a software project.
+
+It is an evolving scientific laboratory dedicated to the digital reconstruction, preservation, and interpretation of Ancient Egyptian knowledge.
+
+Software serves research.
+
+Research improves software.
+
+---
+
+# Research Cycle
+
+The scientific lifecycle follows a continuous loop.
+
+```text
+Question
+
+↓
+
+Hypothesis
+
+↓
+
+Implementation
+
+↓
+
+Experiment
+
+↓
+
+Observation
+
+↓
+
+Validation
+
+↓
+
+Documentation
+
+↓
+
+Publication
+
+↓
+
+New Questions
+```
+
+There is no final iteration.
+
+Only continuous refinement.
+
+---
+
+# Sources of Research
+
+Research ideas may originate from
+
+* engineering implementation
+* Repository growth
+* AI behavior
+* Builder evolution
+* academic collaboration
+* community proposals
+* unresolved linguistic questions
+* historical discoveries
+* failed experiments
+
+Unexpected observations are considered valuable research opportunities.
+
+---
+
+# Research Domains
+
+Scientific work within Hypatia may include
+
+## Ancient Egyptian Language
+
+* grammar
+* lexicon
+* semantics
+* transliteration
+
+---
+
+## Knowledge Engineering
+
+* Repository architecture
+* knowledge representation
+* ontologies
+* metadata systems
+
+---
+
+## Artificial Intelligence
+
+* language models
+* reasoning
+* retrieval
+* embeddings
+* explainability
+
+---
+
+## Digital Humanities
+
+* corpus analysis
+* inscriptions
+* historical reconstruction
+* document preservation
+
+---
+
+## Software Engineering
+
+* Builder Framework
+* Repository evolution
+* graph technologies
+* automation
+
+---
+
+## Human–AI Collaboration
+
+* assisted research
+* validation workflows
+* knowledge augmentation
+
+---
+
+# Research Documentation
+
+Every research activity should eventually produce
+
+* objective
+* assumptions
+* methodology
+* implementation
+* observations
+* conclusions
+* future work
+
+Research remains reproducible.
+
+---
+
+# Experimental Status
+
+Research items may have one of the following states
+
+```text
+Idea
+
+Planned
+
+In Progress
+
+Experimental
+
+Validated
+
+Published
+
+Archived
+```
+
+State transitions are documented.
+
+---
+
+# Research Repository
+
+Every experiment should receive
+
+* Research ID
+* date
+* author
+* related Builder
+* related Repository revision
+* related HYP-SPEC documents
+
+Research becomes traceable.
+
+---
+
+# Engineering Relationship
+
+Research never replaces specifications.
+
+Instead
+
+Specifications
+
+↓
+
+Implementation
+
+↓
+
+Research
+
+↓
+
+Improved Specifications
+
+This preserves architectural stability.
+
+---
+
+# Publications
+
+Scientific publications should originate from completed and validated work.
+
+No publication is considered authoritative unless supported by reproducible engineering evidence.
+
+---
+
+# Failure Philosophy
+
+Failed experiments are not discarded.
+
+They become institutional knowledge.
+
+Negative results prevent repeated mistakes and guide future investigation.
+
+Failure is therefore documented rather than hidden.
+
+---
+
+# Continuous Evolution
+
+This document intentionally remains open.
+
+Future additions may include
+
+* new methodologies
+* emerging technologies
+* AI breakthroughs
+* academic collaborations
+* engineering lessons
+* institutional experience
+
+The framework evolves together with Hypatia.
+
+---
+
+# Long-Term Objective
+
+To establish Hypatia as a continuously evolving scientific institution where engineering implementation, artificial intelligence, and academic research reinforce one another through a disciplined cycle of experimentation, validation, and documentation.
+
+---
+
+# Scientific Law
+
+Implementation produces Experience.
+
+Experience produces Research.
+
+Research produces Knowledge.
+
+Knowledge improves Hypatia.
+
+---
+
+# Research Motto
+
+> **Build. Observe. Learn. Improve. Repeat.**
+
+---
+
+# Founder Statement
+
+Hypatia should never reach a state in which development ends and research begins.
+
+Research begins the moment development starts.
+
+Every Builder created, every Resolver improved, every Repository expanded, and every AI capability refined represents a scientific experiment capable of generating new understanding.
+
+The platform is therefore intended to function as a permanent research laboratory whose knowledge grows alongside its software.
+
+---
+
+# Living Document Policy
+
+This specification is expected to evolve throughout the lifetime of the project.
+
+Unlike architectural specifications, modifications to this document are encouraged whenever new scientific insights emerge.
+
+All revisions should preserve historical versions to document the intellectual evolution of Hypatia itself.
+
+---
+
+## Founder Note
+
+This document marks the transition between two eras of the project.
+
+The previous stages established **what Hypatia is**.
+
+The stages that follow will document **what Hypatia becomes**.
+
+From this point onward, implementation and research advance together, each continuously refining the other.

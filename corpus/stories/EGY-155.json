@@ -1,0 +1,527 @@
+{
+    "text_id": "EGY-155",
+    "metadata": {
+        "title_ar": "لوحة طرد الكهنة العصاة من معبد ناباتا (لوحة البان شمنت)",
+        "title_en": "The Excommunication Stela of Napata (The Banishment Stela)",
+        "museum_catalog_no": "Cairo Museum JE 48865",
+        "stable_tla_id": "TM-56128"
+    },
+    "sentences": [
+        {
+            "metadata": {
+                "id": "HYP-TXT-000155-S01",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T01:40:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-155",
+                "sequence_no": 1,
+                "transliteration": "rnpt-sp 2 ibd 2 prt sw 1",
+                "hieroglyph": "𓆳𓏏𓊗𓏤𓏤𓇹𓏤𓏤𓏥𓇳𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "العام الثاني من الحكم، الشهر الثاني من فصل الشتاء (برت)، اليوم الأول،",
+                "english": "Regnal year 2, second month of the winter season, day 1,",
+                "german": "Regierungsjahr 2, zweiter Monat der Winterzeit (Peret), Tag 1,",
+                "french": "L'an 2, deuxième mois de la saison de l'hiver, jour 1,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "temporal_clause",
+                "syntax_structure": "date_formula"
+            },
+            "layer4_writing": {
+                "mdc_code": "rnpt-sp 2 ibd 2 prt sw 1"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE48865",
+                        "name": "Cairo Museum JE 48865",
+                        "type": "temple_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "rnpt-sp", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "prt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "sw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الأول؛ يحدد تاريخ حدوث الواقعة وصدور المرسوم الملكي."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000155-S02",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T01:40:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-155",
+                "sequence_no": 2,
+                "transliteration": "xr Hm n nsw-bity sHtp-ib-ra (cartouche erased)",
+                "hieroglyph": "𓌨𓂋𓍛𓏤𓈖𓇓𓏏𓆤𓏏",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "تحت جلالة ملك مصر العليا والسفلى (الخرطوش ممسوح)، المعطى الحياة للأبد،",
+                "english": "under the Majesty of the King of Upper and Lower Egypt (cartouche erased), given life forever,",
+                "german": "unter der Majestät des Königs von Ober- und Unterägypten (Kartusche ausgehackt), dem Leben gegeben ist ewiglich,",
+                "french": "sous la Majesté du Roi de Haute et Basse-Égypte (cartouche martelé), doué de vie éternellement,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "royal_introduction_with_erased_name"
+            },
+            "layer4_writing": {
+                "mdc_code": "xr Hm n nsw-bity sHtp-ib-ra"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE48865",
+                        "name": "Cairo Museum JE 48865",
+                        "type": "temple_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "xr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "Hm", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "nsw-bity", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الثاني؛ تم كشط ومحو اسم الملك بالكامل كنوع من الانتقام الجنائزي والسياسي لاحقاً."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000155-S03",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T01:40:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-155",
+                "sequence_no": 3,
+                "transliteration": "wd.n Hm=f r Hw.t-nTr n.t it=f jmn n npyt nty m D_w-wab",
+                "hieroglyph": "𓎘𓈖𓍛𓏤𓆑𓂋𓉗𓏤𓊹𓈖𓇋𓏏𓆑𓇋𓏠𓈖𓈖𓈖𓊪𓏏𓈉𓏤𓁷𓏤𓈋𓏤𓅨𓂝𓃀",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "أصدر جلالته أمراً ومرسوماً إلى معبد والده الإله (آمون ناباتا) القائم في الجبل المقدس (جبل البركل):",
+                "english": "His Majesty issued a decree to the temple of his father Amun of Napata who is in the Sacred Mountain (Gebel Barkal):",
+                "german": "Seine Majestät hat bezüglich des Tempels seines Vaters, des Amun von Napata, der im Gebel Barkal weilt, befohlen:",
+                "french": "Sa Majesté ordonna au temple de son père Amon de Napata qui est dans la Montagne Sacrée (Gebel Barkal) :",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n_subject_noun_with_indirect_beneficiary"
+            },
+            "layer4_writing": {
+                "mdc_code": "wd.n Hm=f r Hw.t-nTr n.t it=f jmn n npyt nty m D_w-wab"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE48865",
+                        "name": "Cairo Museum JE 48865",
+                        "type": "temple_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "wd.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "Hw.t-nTr", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "jmn", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "npyt", "lemma_ref": null},
+                    {"token_no": 5, "transliteration": "D_w-wab", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الثالث والرابع؛ جو-وعب (الجبل النقي) هو الاسم الجغرافي الفرعوني لجبل البركل المقدس بالسودان."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000155-S04",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T01:40:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-155",
+                "sequence_no": 4,
+                "transliteration": "r dr pA mHwt n tmpsy-prdtHy m-bAH",
+                "hieroglyph": "𓂋𓂧𓂋𓊪𓄿𓅓𓎛𓅱𓏏𓈖𓏏𓅓𓊪𓋴𓇋𓇋𓊪𓂋𓂧𓏏𓎛𓇋𓇋𓐝𓄡𓈖𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "بطرد وإبعاد ونفي هذه العشيرة والعائلة التي تدعى (تمبسي-برديتحي) من المعبد كلياً،",
+                "english": "to completely expel and banish this clan named Tempesi-perdetehy,",
+                "german": "diese Familie zu vertreiben, die man Tmpsy-prdtḫy nennt,",
+                "french": "d'expulser complètement ce clan nommé Tempesi-perdetehy,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "infinitive_r_purpose_transitive_noun"
+            },
+            "layer4_writing": {
+                "mdc_code": "r dr pA mHwt n tmpsy-prdtHy m-bAH"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE48865",
+                        "name": "Cairo Museum JE 48865",
+                        "type": "temple_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "dr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mHwt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "tmpsy-prdtHy", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الخامس والسادس؛ محوت تعني العشيرة أو السلالة الكهنوتية، وتمبسي-برديتحي هو اسم نوبي عائلي."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000155-S05",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T01:40:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-155",
+                "sequence_no": 5,
+                "transliteration": "nn rdit aq=sn r Hw.t-nTr n.t jmn mwt xnsw Dt.i",
+                "hieroglyph": "𓈖𓈖𓂞𓏏𓂝𓎡𓋴𓈖𓂋𓉗𓏤𓊹𓈖𓇋𓏠𓈖𓅨𓏏𓆄𓐡𓆖𓇋𓏠𓈖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "بألا يُسمح لهم أبداً بدخول معبد الآلهة آمون وموت وخونسو، ولا لأي من ذريتهم إلى الأبد،",
+                "english": "not allowing them to enter the temple of Amun, Mut, and Khonsu, nor any of their heirs forever,",
+                "german": "nicht zu erlauben, dass sie den Tempel von Amun, Mut und Chonsu betreten, noch einer ihrer Nachkommen in Ewigkeit,",
+                "french": "ne pas leur permettre d'entrer dans le temple d'Amon, Mout et Khonsou, ni à aucun de leurs héritiers éternellement,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "negative_infinitive_rdi.t_with_subjunctive_motion"
+            },
+            "layer4_writing": {
+                "mdc_code": "nn rdit aq=sn r Hw.t-nTr n.t jmn mwt xnsw Dt.i"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE48865",
+                        "name": "Cairo Museum JE 48865",
+                        "type": "temple_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "rdit", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "aq", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "jmn", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "mwt", "lemma_ref": null},
+                    {"token_no": 5, "transliteration": "xnsw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر السابع والثامن؛ طرد كامل وعقاب يمتد للأبناء لمنع توارث مناصب الكهنوت في ثالوث طيبة وناباتا."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000155-S06",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T01:40:50.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-155",
+                "sequence_no": 6,
+                "transliteration": "jr.n=sn bwt m pr n jmn",
+                "hieroglyph": "𓁹𓈖𓋴𓈖𓃀𓅱𓏏𓏥𓐝𓉐𓈖𓇋𓏠𓈖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "لأنهم ارتكبوا رجساً ومعصية كبرى بداخل معبد وبيت الإله آمون،",
+                "english": "because they committed an abomination in the temple of Amun,",
+                "german": "denn sie haben einen Greuel im Tempel des Amun begangen,",
+                "french": "car ils ont commis une abomination dans le temple d'Amon,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_with_direct_noun_object"
+            },
+            "layer4_writing": {
+                "mdc_code": "jr.n=sn bwt m pr n jmn"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE48865",
+                        "name": "Cairo Museum JE 48865",
+                        "type": "temple_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jr.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "bwt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "jmn", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر التاسع؛ بوت تعني النجاسة أو الرجس الطقسي والديني الحرام."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000155-S07",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T01:41:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-155",
+                "sequence_no": 7,
+                "transliteration": "iw sXr.n=sn mdt r-gsw nTr r sm3.t nsw tpy-tA",
+                "hieroglyph": "𓇋𓅱𓋴𓐍𓂋𓈖𓋴𓏏𓌃𓏏𓏥𓂋𓎼𓋴𓅱𓊹𓂋𓋴𓌳𓄿𓏏𓇓𓏏𓈖𓁶𓇾",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "ودبروا وتآمروا وصاغوا كلمات خبيثة ضد نبوءة الإله لقتل وإنهاء حياة الملك الحاكم على الأرض،",
+                "english": "having plotted words against the oracle of the god to murder the reigning king on earth,",
+                "german": "indem sie Worte gegen das Orakel des Gottes planten, um den regierenden König auf Erden zu töten,",
+                "french": "ayant comploté des paroles contre l'oracle du dieu pour tuer le roi régnant sur terre,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "circumstantial_iw_with_sDmw.n.f_and_infinitive_lethal"
+            },
+            "layer4_writing": {
+                "mdc_code": "iw sXr.n=sn mdt r-gsw nTr r sm3.t nsw tpy-tA"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE48865",
+                        "name": "Cairo Museum JE 48865",
+                        "type": "temple_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "sḫr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mdt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "sm3.t", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "nsw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر العاشر والحادي عشر؛ يوضح السبب الأساسي لعقوبة الطرد الكبرى وهو التآمر لقتل الملك بالتلاعب بالنبوءة الإلهية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000155-S08",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T01:41:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-155",
+                "sequence_no": 8,
+                "transliteration": "wD.n nTr r-f sHtm=sn m xt",
+                "hieroglyph": "𓎘𓈖𓊹𓂋𓆑𓋴𓄡𓏏𓐝𓋴𓈖𓐝𓍍𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فأمر الإله والقدر بإبادتهم وهلاكهم بالكامل وتسليمهم للنيران،",
+                "english": "so the god commanded to destroy them in fire,",
+                "german": "so befahl der Gott, sie im Feuer zu vernichten,",
+                "french": "ainsi le dieu ordonna de les anéantir par le feu,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n_noun_subject_with_subjunctive_destruction"
+            },
+            "layer4_writing": {
+                "mdc_code": "wD.n nTr r-f sHtm=sn m xt"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE48865",
+                        "name": "Cairo Museum JE 48865",
+                        "type": "temple_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "wD.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "nTr", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "sHtm", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الثاني عشر والثالث عشر؛ ستحتم تعني الإبادة أو التطهير الجسدي العنيف بالحرق."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000155-S09",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T01:41:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-155",
+                "sequence_no": 9,
+                "transliteration": "snt.n Hm=f Hw.t-nTr n it=f jmn nty m D_w-wab",
+                "hieroglyph": "𓋴𓈖𓂝𓃀𓈖𓍛𓏤𓆑𓉗𓏤𓊹𓈖𓇋𓏏𓆑𓇋𓏠𓈖𓁷𓏤𓈋𓏤𓅨𓂝𓃀",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وقام جلالته بتطهير وإعادة قدسية معبد والده آمون بالجبل المقدس بالكامل،",
+                "english": "and His Majesty purified the temple of his father Amun in the Sacred Mountain,",
+                "german": "und Seine Majestät reinigte den Tempel seines Vaters Amun im heiligen Berg,",
+                "french": "et sa Majesté pacifia et purifia le temple de son père Amon dans la montagne sacrée,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_transitive_purification"
+            },
+            "layer4_writing": {
+                "mdc_code": "snt.n Hm=f Hw.t-nTr n it=f jmn nty m D_w-wab"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE48865",
+                        "name": "Cairo Museum JE 48865",
+                        "type": "temple_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "snt.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "Hm", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "jmn", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الرابع عشر والخامس عشر؛ سِنت تعني التطهير الجسدي والروحي للمعابد لإعادة التوازن الكوني (ماعت)."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000155-S10",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T01:41:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-155",
+                "sequence_no": 10,
+                "transliteration": "iw.f pw m Htp mi gm.t m sS",
+                "hieroglyph": "𓇋𓅱𓆑𓊪𓅱𓐝𓊵𓏏𓊪𓐝𓏟𓏏",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وقد تم الأمر وانتهى بسلام كامل، كما وُجد مكتوباً ومسطراً في المخطوط الأصلي.",
+                "english": "It is finished in peace, as it was found in writing.",
+                "german": "Es ist in Frieden vollendet, so wie es geschrieben gefunden wurde.",
+                "french": "Cela s'est terminé en paix, comme cela a été trouvé par écrit.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "traditional_egyptian_scribal_colophon_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "iw.f pw m Htp mi gm.t m sS"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE48865",
+                        "name": "Cairo Museum JE 48865",
+                        "type": "temple_stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "iw.f-pw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "Htp", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "gm.t", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "sS", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الثامن عشر والأخير؛ الصيغة الكتابية الكلاسيكية لإنهاء المراسيم وإثبات سلامة ومطابقة النسخة مع الأوامر الملكية."
+            }
+        }
+    ]
+}

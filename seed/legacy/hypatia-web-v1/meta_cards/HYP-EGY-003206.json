@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-003206",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:36.766650Z"
+    },
+    "layer1_core": {
+        "transliteration": "nt-a",
+        "hieroglyph": "𓈖𓏏𓂝𓏤𓏛𓏥",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "عادة، طقس، عمل روتيني مكرر، العمل المؤدَّى، تأدية (مهمة)، يُنَظِّم",
+        "english": "custom (n.), habit, rite, ritual, routine, duty, execution (of task), organize (vb.)",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+13216",
+        "gardiner_code": "N35",
+        "gardiner_description": "Water ripple\tPhono. n.",
+        "gardiner_details": "N35a"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

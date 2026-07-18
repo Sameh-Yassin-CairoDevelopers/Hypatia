@@ -1,0 +1,1562 @@
+{
+    "text_id": "EGY-104",
+    "metadata": {
+        "title_ar": "قصة الملك أمازيس والبحار",
+        "title_en": "The Tale of Amasis and the Sailor",
+        "museum_catalog_no": "Papyrus Paris BN 215 Verso",
+        "stable_tla_id": "TM-48871"
+    },
+    "sentences": [
+        {
+            "metadata": {
+                "id": "HYP-TXT-000104-S01",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:20:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-104",
+                "sequence_no": 1,
+                "transliteration": "ḫpr wˁ ssw n pꜣ hꜣ (n) pr-ˁꜣ ỉˁḥ-ms",
+                "hieroglyph": "𓆄𓁹𓏤𓇳𓏤𓈖𓊪𓄿𓄡𓄿𓈖𓉐𓉻𓇋𓂝𓎛𓄤𓋴",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "حدث ذات يوم في عهد وفرعون (أمازيس) [أحمس الثاني]،",
+                "english": "One day, in the time of Pharaoh Amasis,",
+                "german": "Es geschah eines Tages in der Zeit des Pharaos Amasis,",
+                "french": "Un jour, au temps du Pharaon Amasis,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "hpr_consecutive_with_past_temporal"
+            },
+            "layer4_writing": {
+                "mdc_code": "xpr wa ssw n p3 h3 (n) pr-a3 iaH-ms"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-BN-01",
+                        "name": "Papyrus Bibliothèque Nationale 215 Vo",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḫpr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ssw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "pr-ˁꜣ", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "ỉˁḥ-ms", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ إياح-مس هو الاسم المصري القديم للملك أمازيس ويعني 'وليد القمر'."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000104-S02",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:20:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-104",
+                "sequence_no": 2,
+                "transliteration": "ḏd nsw.t n nꜣy=f wr.w:",
+                "hieroglyph": "𓆓𓂧𓇓𓏏𓈖𓈖𓄿𓇋𓇋𓆑𓅨𓂋𓏥",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "أن الملك قال لأعوانه ونبلائه وحاشيته الحاضرين:",
+                "english": "the king said to his notables:",
+                "german": "sagte der König zu seinen Vornehmen:",
+                "french": "le roi dit à ses notables :",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.f_with_indirect_object_plural"
+            },
+            "layer4_writing": {
+                "mdc_code": "Dd nsw.t n nAy=f wr.w"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-BN-01",
+                        "name": "Papyrus Bibliothèque Nationale 215 Vo",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḏd", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "nsw.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "wr.w", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "ورو تعني العظماء أو رجال الدولة المقربين."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000104-S03",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:20:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-104",
+                "sequence_no": 3,
+                "transliteration": "ỉ-ỉr=j mr.t sš pꜣ qlby n ỉrp n kmy",
+                "hieroglyph": "𓇋𓁹𓇋𓏠𓈖𓌻𓂋𓏏𓋴𓋴𓊪𓄿𓈎𓄿𓃀𓇋𓇋𓈖𓇋𓂋𓏪𓈖𓎡𓐝𓇋𓏠𓈖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "إنني أرغب في احتساء وتجرع إبريق من نبيذ مصر الخالص،",
+                "english": "I would like to drink a jug of Egyptian wine.",
+                "german": "Ich möchte einen Krug ägyptischen Weins trinken.",
+                "french": "Je voudrais boire une cruche de vin égyptien.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "subjunctive_mr_with_direct_infinitive_object"
+            },
+            "layer4_writing": {
+                "mdc_code": "i-ir=j mr.t sS p3 qlby n irp n kmy"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-BN-01",
+                        "name": "Papyrus Bibliothèque Nationale 215 Vo",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "mr.t", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sš", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "qlby", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "ỉrp", "lemma_ref": null},
+                    {"token_no": 5, "transliteration": "kmy", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "قليبي هي لفظة ديموطيقية تعني الإبريق أو الزير المخصص للمشروبات."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000104-S04",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:20:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-104",
+                "sequence_no": 4,
+                "transliteration": "ḏd n=f nꜣ wr.w: pꜣy=n nb ꜥꜣ pꜣ qlby n ỉrp n kmy ꜥꜣ tkr pꜣy",
+                "hieroglyph": "𓂧𓂧𓈖𓆑𓈖𓄿𓅨𓂋𓏥𓊪𓄿𓇋𓇋𓈖𓎡𓅨𓂋𓊪𓄿𓈎𓄿𓃀𓇋𓇋𓈖𓇋𓂋𓏪𓈖𓎡𓐝𓇋𓏠𓈖𓅨𓂋𓏏𓎡𓂋𓊪𓄿𓇋𓇋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فقال له النبلاء: يا سيدنا العظيم، إن إبريقاً من نبيذ مصر هو شديد القوة والأثر جداً!",
+                "english": "Our great master, a jug of Egyptian wine is very strong!",
+                "german": "Unser großer Herr, ein Krug ägyptischen Weins ist sehr stark!",
+                "french": "Notre grand maître, une cruche de vin égyptien est très forte !",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "noun_subject_with_adjectival_predicate_and_copula"
+            },
+            "layer4_writing": {
+                "mdc_code": "Dd n=f na wr.w: pay=n nb a3 p3 qlby n irp n kmy a3 tkr pay"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-BN-01",
+                        "name": "Papyrus Bibliothèque Nationale 215 Vo",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḏd", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "nb", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "qlby", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "tkr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ تكر يعني الحار أو القوي أو ذو التأثير الشديد."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000104-S05",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:20:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-104",
+                "sequence_no": 5,
+                "transliteration": "ḏd.n-f n=sn: m-ỉr ḥp.t r-gsw nty ḏd=j n=tn",
+                "hieroglyph": "𓂧𓂧𓈖𓆑𓈖𓋴𓈖𓐝𓇋𓂋𓎛𓊪𓏱𓂋𓎼𓋴𓅱𓈖𓏏𓏭𓂧𓂧𓇋𓏠𓈖𓈖𓏏𓈖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فقال لهم مصراً: لا تعترضوا على ما أقوله وآمركم به.",
+                "english": "Don't object to what I tell you.",
+                "german": "Widersprecht nicht dem, was ich euch sage.",
+                "french": "Ne vous opposez pas à ce que je vous dis.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "negative_imperative_m-ir_with_prepositional_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "Dd.n-f n=sn: m-ir Hp.t r-gsw nty Dd=j n=tn"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-BN-01",
+                        "name": "Papyrus Bibliothèque Nationale 215 Vo",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḏd.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥp.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "r-gsw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "حبت تعني الاعتراض أو الالتواء والمقاومة اللفظية لأمر فرعون."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000104-S06",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:20:50.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-104",
+                "sequence_no": 6,
+                "transliteration": "ḏd.n=sn: pꜣy=n nb ꜥꜣ my ỉry.f mỉ mrr pr-<b>ˁꜣ</b>",
+                "hieroglyph": "𓂧𓂧𓈖𓋴𓈖𓊪𓄿𓇋𓇋𓈖𓎡𓅨𓂋𓂞𓏏𓁹𓆑𓐝𓇋𓌻𓂋𓉐𓉻",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فقالوا طاعةً: يا سيدنا العظيم، فليكن ويُصنع ما يرتضيه ويحبه فرعون سيدي!",
+                "english": "They declared: Our great master, let it be done according to the good pleasure of the pharaoh!",
+                "german": "Sie sagten: Unser großer Herr, möge es nach dem Wohlgefallen des Pharaos geschehen!",
+                "french": "Ils déclarèrent : Notre grand maître, que cela soit fait selon le bon plaisir du pharaon !",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n_with_optative_rdi_and_circumstantial_mrr"
+            },
+            "layer4_writing": {
+                "mdc_code": "Dd.n=sn: pay=n nb a3 my iry.f mi mrr pr-a3"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-BN-01",
+                        "name": "Papyrus Bibliothèque Nationale 215 Vo",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḏd.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "nb", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "mrr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الالتجاء لصيغة الطاعة 'مي إري-إف' (فليصنع) لتفادي الغضب الملكي."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000104-S07",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:21:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-104",
+                "sequence_no": 7,
+                "transliteration": "ḏd pr-ˁꜣ: my wd=n r-gsw pꜣ ymw",
+                "hieroglyph": "𓂧𓂧𓉐𓉻𓂞𓏏𓎘𓈖𓂋𓎼𓋴𓅱𓊪𓄿𓈗𓏥",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فقال وأعلن فرعون: دعونا نذهب ونرتحل لنجلس بجوار شاطئ البحر!",
+                "english": "Pharaoh declared: Let us go beside the sea!",
+                "german": "Der Pharao erklärte: Lasst uns an das Meer gehen!",
+                "french": "Pharaon déclara : Allons au bord de la mer !",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.f_with_optative_wd.n_and_prepositional_target"
+            },
+            "layer4_writing": {
+                "mdc_code": "Dd pr-a3: my wd=n r-gsw p3 ymw"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-BN-01",
+                        "name": "Papyrus Bibliothèque Nationale 215 Vo",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḏd", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "pr-ˁꜣ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "wd", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "ymw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الخروج للشاطئ يمثل رغبة الملك في الاسترخاء والمأدبة غير الرسمية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000104-S08",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:21:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-104",
+                "sequence_no": 8,
+                "transliteration": "ỉr=sn mỉ-t.t r wd.t pr-ˁꜣ",
+                "hieroglyph": "𓁹𓈖𓋴𓈖𓐝𓏠𓏏𓏏𓂋𓎘𓏏𓉐𓉻",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "ففعلوا وصنعوا ذلك مطيعين لأوامر فرعون وقراره.",
+                "english": "They acted according to the pharaoh's orders.",
+                "german": "Sie handelten gemäß den Befehlen des Pharaos.",
+                "french": "Ils agirent conformément aux ordres du pharaon.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.f_with_comparative_adverbial_and_genitive_noun"
+            },
+            "layer4_writing": {
+                "mdc_code": "ir=sn mi-t.t r wd.t pr-a3"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-BN-01",
+                        "name": "Papyrus Bibliothèque Nationale 215 Vo",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ỉr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mỉ-t.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "wd.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "ودت تعني القرار أو التوجيه الرسمي الصادر من فرعون."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000104-S09",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:21:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-104",
+                "sequence_no": 9,
+                "transliteration": "ỉr pr-ˁꜣ m-bꜣḥ pꜣ sẖ n ḥm.wt=f",
+                "hieroglyph": "𓁹𓉐𓉻𓐝𓄡𓈖𓏤𓊪𓄿𓏟𓈖𓈟𓏏𓏥𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وأعدّ فرعون مأدبة طعام وجلسة شراب في صحبة حريمه ونسائه،",
+                "english": "Pharaoh prepared for a meal in the company of his women,",
+                "german": "Der Pharao bereitete ein Mahl in Gesellschaft seiner Frauen vor,",
+                "french": "Pharaon prépara un repas en compagnie de ses femmes,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.f_transitive_with_prepositional_accompaniment"
+            },
+            "layer4_writing": {
+                "mdc_code": "ir pr-a3 m-baH p3 sH n Hm.wt=f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-BN-01",
+                        "name": "Papyrus Bibliothèque Nationale 215 Vo",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ỉr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sẖ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḥm.wt", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "سِخ تعني الجلسة أو المأدبة المخصصة للأوقات الحميمية والاسترخاء."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000104-S10",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:21:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-104",
+                "sequence_no": 10,
+                "transliteration": "nn ḫt r-ḥꜣ.t=sn wp-hr pꜣ qlby n ỉrp n kmy",
+                "hieroglyph": "𓈖𓈖𓐍𓏏𓂋𓄂𓏤𓋴𓈖𓅱𓊪𓁷𓏤𓊪𓄿𓈎𓄿𓃀𓇋𓇋𓈖𓇋𓂋𓏪𓈖𓎡𓐝𓇋𓏠𓈖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "ولم يكن هناك طعام أو شراب يوضع أمامهم سوى إبريق نبيذ مصر العظيم،",
+                "english": "with nothing in front of them other than a jug of Egyptian wine.",
+                "german": "mit nichts vor ihnen außer dem Krug ägyptischen Weins.",
+                "french": "sans rien devant elles sinon la cruche de vin égyptien.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "negated_nn_with_exceptive_wp-hr_specification"
+            },
+            "layer4_writing": {
+                "mdc_code": "nn xt r-HA.t=sn wp-hr p3 qlby n irp n kmy"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-BN-01",
+                        "name": "Papyrus Bibliothèque Nationale 215 Vo",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "nn", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḫt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "wp-hr", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "qlby", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التركيب 'وب-حر' يفيد الاستثناء 'سوى/باستثناء'."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000104-S11",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:21:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-104",
+                "sequence_no": 11,
+                "transliteration": "ỉw pr-ˁꜣ ḥnˁ ḥm.wt=f m-ẖnw ỉb nfr",
+                "hieroglyph": "𓇋𓅱𓉐𓉻𓎛𓈖𓂝𓈟𓏏𓏥𓆑𓐝𓄡𓈖𓏤𓄣𓏤𓄤𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وكان فرعون ونساؤه وحريمه في بهجة وفرح وسعادة غامرة؛",
+                "english": "Pharaoh and his wives wore happy faces;",
+                "german": "Der Pharao und seine Frauen waren in großer Freude;",
+                "french": "Pharaon et ses femmes étaient dans une grande joie ;",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "iw_with_multiple_subjects_and_stative_adverbial"
+            },
+            "layer4_writing": {
+                "mdc_code": "iw pr-a3 Hna Hm.wt=f m-Xnw ib nfr"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-BN-01",
+                        "name": "Papyrus Bibliothèque Nationale 215 Vo",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ỉw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥm.wt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ỉb", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "nfr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التركيب 'إيب نِفر' (القلب الجميل) يعني السعادة وانشراح الفؤاد."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000104-S12",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:21:50.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-104",
+                "sequence_no": 12,
+                "transliteration": "swr.n-f r-f ỉrp ˁšꜣ wr.t",
+                "hieroglyph": "𓋴𓅱𓂋𓈖𓆑𓂋𓆑𓇋𓂋𓏪𓄳𓏥𓅨𓂋𓏏",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "ثم احتسى وشرب جلالته كميات وفيرة وعظيمة جداً من النبيذ،",
+                "english": "he then drank a huge quantity of wine,",
+                "german": "er trank dann eine sehr große Menge Wein,",
+                "french": "il but ensuite une très grande quantité de vin,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_with_quantified_noun_object"
+            },
+            "layer4_writing": {
+                "mdc_code": "swr.n-f r-f irp aSa wr.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-BN-01",
+                        "name": "Papyrus Bibliothèque Nationale 215 Vo",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "swr.n-f", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ỉrp", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ˁšꜣ", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "wr.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "سور تعني الشرب أو الاحتساء التام للماء أو السوائل المعطرة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000104-S13",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:22:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-104",
+                "sequence_no": 13,
+                "transliteration": "m pꜣy=f mr.t pꜣ qlby n ỉrp",
+                "hieroglyph": "𓐝𓊪𓄿𓇋𓇋𓆑𓌻𓂋𓏏𓊪𓄿𓈎𓄿𓃀𓇋𓇋𓈖𓇋𓂋𓏪",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "بسبب حبه وشغفه وإفراده لاحتساء إبريق النبيذ المفضل لديه.",
+                "english": "because of his immoderate taste for a jug of Egyptian wine.",
+                "german": "wegen seiner übermäßigen Vorliebe für einen Krug Wein.",
+                "french": "en raison de son goût immodéré pour une cruche de vin.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "prepositional_phrase",
+                "syntax_structure": "causative_m_with_infinitive_possessive"
+            },
+            "layer4_writing": {
+                "mdc_code": "m pay=f mr.t p3 qlby n irp"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-BN-01",
+                        "name": "Papyrus Bibliothèque Nationale 215 Vo",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "m", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mr.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "qlby", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "ỉrp", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ مِرت يعني العشق أو التذوق المفرط للشراب."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000104-S14",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:22:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-104",
+                "sequence_no": 14,
+                "transliteration": "sḏr pr-ˁꜣ grḥ pꜣy r-gsw pꜣ ymw",
+                "hieroglyph": "𓋴𓂧𓂋𓉐𓉻𓎼𓂋𓎛𓊪𓄿𓇋𓇋𓂋𓎼𓋴𓅱𓊪𓄿𓈗𓏥",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وقضى ونام فرعون ليلته تلك مستلقياً بجوار شاطئ البحر،",
+                "english": "That same night, Pharaoh slept beside the sea.",
+                "german": "In jener Nacht schlief der Pharao am Meer.",
+                "french": "Cette nuit-là, le Pharaon dormit au bord de la mer.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.f_past_with_temporal_and_locative_modifiers"
+            },
+            "layer4_writing": {
+                "mdc_code": "sDr pr-a3 grh pay r-gsw p3 ymw"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-BN-01",
+                        "name": "Papyrus Bibliothèque Nationale 215 Vo",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "sḏr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "pr-<i>ˁꜣ</i>", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "grḥ", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "ymw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "سدر تعني التمدد أو النوم طوال ساعات الليل 'جرح'."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000104-S15",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:22:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-104",
+                "sequence_no": 15,
+                "transliteration": "sḏr.n-f r mḥty m-ẖt pꜣ ỉmꜣ n ỉArrwt",
+                "hieroglyph": "𓋴𓂧𓂋𓈖𓆑𓂋𓐝𓎛𓏏𓏭𓇯𓐝𓄡𓈖𓏤𓊪𓄿𓇋𓐝𓄿𓈖𓇋𓄿𓂋𓂋𓏏𓆭",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "حيث نام مستلقياً باتجاه الشمال تحت مظلة من كروم العنب والعرائش.",
+                "english": "He slept towards the north, under a vine-arbour.",
+                "german": "Er schlief nach Norden unter einer Weinlaube.",
+                "french": "Il dormit vers le nord sous une treille de vigne.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_with_locative_specification"
+            },
+            "layer4_writing": {
+                "mdc_code": "sDr.n-f r mhty m-Xt p3 ima n iArrwt"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-BN-01",
+                        "name": "Papyrus Bibliothèque Nationale 215 Vo",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "sḏr.n-f", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mḥty", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ỉmꜣ", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "ỉArrwt", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "ياروت تعني عريشة أو شجيرة العنب الخصيب المتسلق."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000104-S16",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:22:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-104",
+                "sequence_no": 16,
+                "transliteration": "hd.n tꜣ n rḫ.n-f ts.t",
+                "hieroglyph": "𓄔𓈖𓇾𓏤𓈖𓂋𓐍𓈖𓆑𓍿𓊃𓏏𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": " وعندما أشرق وبزغ الصباح، عجز جلالته ولم يقدر على النهوض والقيام،",
+                "english": "In the morning, Pharaoh was unable to get up",
+                "german": "Am Morgen war der Pharao unfähig aufzustehen",
+                "french": "Au matin, le Pharaon fut incapable de se lever",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n_temporal_with_negated_perfective_infinitive"
+            },
+            "layer4_writing": {
+                "mdc_code": "hd.n t3 n rx.n-f ts.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-BN-01",
+                        "name": "Papyrus Bibliothèque Nationale 215 Vo",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "hd.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "tꜣ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "rḫ", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "ts.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "تست تعني القيام البدني أو النهوض من الفراش."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000104-S17",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:22:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-014",
+                "sequence_no": 17,
+                "transliteration": "n wr n pꜣ qlby n ỉrp swr.n-f",
+                "hieroglyph": "𓈖𓅨𓂋𓈖𓊪𓄿𓈎𓄿𓃀𓇋𓇋𓈖𓇋𓂋𓏪𓋴𓅱𓂋𓈖𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "بسبب الأثر الشديد والصداع الناتج عن إبريق النبيذ الذي احتساه وشربه ليلة أمس.",
+                "english": "due to a severe hangover.",
+                "german": "wegen eines schweren Katers.",
+                "french": "en raison d'une terrible gueule de bois.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "prepositional_phrase",
+                "syntax_structure": "causative_n_with_genitive_noun_and_relative_sDmw.n.f"
+            },
+            "layer4_writing": {
+                "mdc_code": "n wr n p3 qlby n irp swr.n-f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-BN-01",
+                        "name": "Papyrus Bibliothèque Nationale 215 Vo",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "wr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "qlby", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ỉrp", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "swr.n-f", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التركيب 'ن-ور' يعني حرفياً 'بسبب عظم/شدة'."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000104-S18",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:22:50.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-104",
+                "sequence_no": 18,
+                "transliteration": "spr.n r-f pꜣ ssw n pr.t",
+                "hieroglyph": "𓋴𓊪𓂋𓈖𓂋𓆑𓊪𓄿𓇳𓏤𓈖𓉐𓂋𓏏𓏥",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وكان وقت وموعد ارتحال ومغادرة البلاط قد دنا وحان،",
+                "english": "The time to leave was approaching",
+                "german": "Die Zeit der Abreise rückte näher",
+                "french": "L'heure du départ approchait",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n_noun_subject_with_infinitive_genitive"
+            },
+            "layer4_writing": {
+                "mdc_code": "spr.n r-f p3 ssw n pr.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-BN-01",
+                        "name": "Papyrus Bibliothèque Nationale 215 Vo",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "spr.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ssw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "pr.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ برت يعني الخروج أو الارتحال والمغادرة الرسمية للموقع."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000104-S19",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:23:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-104",
+                "sequence_no": 19,
+                "transliteration": "ỉw=f n rḫ.n-f ts.t r-f",
+                "hieroglyph": "𓇋𓅱𓆑𓈖𓂋𓐍𓈖𓆑𓍿𓊃𓏏𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "بينما هو لا يزال عاجزاً تماماً وغير قادر على النهوض والقيام.",
+                "english": "and he was still unable to get up.",
+                "german": "und er war immer noch unfähig aufzustehen.",
+                "french": "et il était toujours incapable de se lever.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "iw_subject_with_negated_perfective_infinitive"
+            },
+            "layer4_writing": {
+                "mdc_code": "iw=f n rx.n-f ts.t r-f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-BN-01",
+                        "name": "Papyrus Bibliothèque Nationale 215 Vo",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ỉw=f", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "rḫ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ts.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الالتزام بنفي القدرة البدنية لفرعون للتأكيد على شدة أثر الخمر."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000104-S20",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:23:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-104",
+                "sequence_no": 20,
+                "transliteration": "šnwt ḥr nhm.t ḥr ḏd:",
+                "hieroglyph": "𓍙𓏏𓁷𓏤𓈖𓎛𓐝𓏏𓁷𓏤𓂧𓂧",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وحينها بدأت الحاشية والنبلاء ينوحون ويتساءلون بقلق:",
+                "english": "The courtiers lamented, saying:",
+                "german": "Die Höflinge jammerten und sagten:",
+                "french": "Les courtisans se lamentèrent, disant :",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "noun_subject_with_Hr_infinitives_and_speech_intro"
+            },
+            "layer4_writing": {
+                "mdc_code": "Snwt Hr nhm.t Hr Dd"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-BN-01",
+                        "name": "Papyrus Bibliothèque Nationale 215 Vo",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "šnwt", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "nhm.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḏd", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "شنوت تعني حاشية البلاط، ونحمت تعني الهمس الجماعي المشوب بالقلق."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000104-S21",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:23:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-104",
+                "sequence_no": 21,
+                "transliteration": "ỉn ḫpr.y pꜣy pr-ˁꜣ r-f m mtr?",
+                "hieroglyph": "𓇋𓈖𓐍𓂪𓂋𓇋𓇋𓊪𓄿𓇋𓇋𓉐𓉻𓐝𓌳𓏏𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "هل يصح ويجوز هذا؟ فرعون سيدي يعاني من صداع الكأس وخمار شديد!",
+                "english": "Is this possible? Pharaoh has a severe hangover!",
+                "german": "Ist dies möglich? Der Pharao hat einen schweren Kater!",
+                "french": "Est-ce possible ? Le Pharaon a une terrible gueule de bois !",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "interrogative_in_with_subject_noun_and_adverbial_status"
+            },
+            "layer4_writing": {
+                "mdc_code": "in xpr.y pay pr-a3 r-f m mtr"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-BN-01",
+                        "name": "Papyrus Bibliothèque Nationale 215 Vo",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "in", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḫpr", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "pr-<i>ˁꜣ</i>", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "mtr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ مِتر يعني حرفياً 'عجز الوعي' أو الصداع المانع من الإدراك الفعلي."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000104-S22",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:23:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-104",
+                "sequence_no": 22,
+                "transliteration": "nn wn.w wˁ r mdt n pr-ˁꜣ",
+                "hieroglyph": "𓈖𓈖𓅱𓈖𓅱𓎛𓂝𓏤𓂋𓌃𓂧𓏏𓈖𓉐𓉻",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "ولم يكن بوسع أحد أو يقدر على مخاطبة فرعون في شؤون وأعمال الدولة الملحّة.",
+                "english": "No one could come for matters of state.",
+                "german": "Niemand konnte wegen Staatsangelegenheiten kommen.",
+                "french": "Personne ne pouvait venir pour les affaires de l'État.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "negated_nn_with_existential_wn_and_infinitive_purpose"
+            },
+            "layer4_writing": {
+                "mdc_code": "nn wn.w wa r mdt n pr-a3"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-BN-01",
+                        "name": "Papyrus Bibliothèque Nationale 215 Vo",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "nn", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "wn", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "mdt", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "pr-ˁꜣ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التعطيل الإداري التام للدولة بسبب غياب الحاكم عن الوعي."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000104-S23",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:23:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-104",
+                "sequence_no": 23,
+                "transliteration": "spr.n nꜣ wr.w r st nty pr-ˁꜣ jm",
+                "hieroglyph": "𓋴𓊪𓂋𓈖𓄤𓏥𓂋𓊃𓏏𓏤𓈖𓏏𓏭𓉐𓉻𓐝𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "ثم توجه واقترب النبلاء والحاشية من مخدع ومحل استلقاء فرعون،",
+                "english": "The courtiers went to the place where the king was staying.",
+                "german": "Die Vornehmen gingen an den Ort, an dem sich der Pharao aufhielt.",
+                "french": "Les notables se rendirent au lieu où se trouvait le pharaon.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n_noun_subject_with_relative_locative"
+            },
+            "layer4_writing": {
+                "mdc_code": "spr.n na wr.w r st nty pr-a3 jm"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-BN-01",
+                        "name": "Papyrus Bibliothèque Nationale 215 Vo",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "spr.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "wr.w", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "st", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "nty", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ سِت يعني السرير أو المساحة المخصصة للاستلقاء الجسدي."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000104-S24",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:23:50.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-104",
+                "sequence_no": 24,
+                "transliteration": "ḏd.n=sn: pꜣy=n nb ꜥꜣ: ỉn-m pꜣ mn m-ẖnw pr-ˁꜣ?",
+                "hieroglyph": "𓂧𓂧𓈖𓋴𓈖𓊪𓄿𓇋𓇋𓈖𓎡𓅨𓂋𓇋𓈖𓐝𓊪𓄿𓏠𓈖𓐝𓄡𓈖𓏤𓉐𓉻",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وقالوا وسألوا بقلق: يا سيدنا العظيم، ما هو السوء والعلة والخطب الذي يحل ويؤلم فرعون؟",
+                "english": "They declared: Our great master, what is the evil that affects Pharaoh?",
+                "german": "Sie erklärten: Unser großer Herr, was ist das Übel, das den Pharao plagt?",
+                "french": "Ils déclarèrent : Notre grand maître, quel est le mal qui affecte le Pharaon ?",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n_subject_noun_with_interrogative_in-m_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "Dd.n=sn: pay=n nb a3: in-m p3 mn m-Xnw pr-a3"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-BN-01",
+                        "name": "Papyrus Bibliothèque Nationale 215 Vo",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḏd.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "nb", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "in-m", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "mn", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "مِن تعني المرض أو الضعف الجسدي الطارئ."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000104-S25",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:24:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-104",
+                "sequence_no": 25,
+                "transliteration": "ḏd.n-f n=sn: ỉw=j m mtr ˁꜣ nn rḫ.n=j ỉry.t kꜣ.t",
+                "hieroglyph": "𓂧𓂧𓈖𓆑𓈖𓋴𓈖𓇋𓅱𓇋𓏠𓈖𓐝𓌳𓏏𓂋𓅨𓂋𓈖𓈖𓂋𓐍𓈖𓇋𓏠𓈖𓁹𓏏𓎡𓄿𓏏𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فأجابهم جلالته: إنني في صداع وخمار شديد جداً، وعاجز ولا أقدر على إنجاز أي عمل أو رعاية الشؤون،",
+                "english": "He said to them: I have a severe hangover. I cannot accomplish any work.",
+                "german": "Er sagte zu ihnen: Ich habe einen schweren Kater. Ich kann keine Arbeit verrichten.",
+                "french": "Il leur dit : J'ai une terrible gueule de bois. Je ne peux accomplir aucun travail.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_with_direct_speech_iw_adverbial_and_negated_perfective"
+            },
+            "layer4_writing": {
+                "mdc_code": "Dd.n-f n=sn: iw=j m mtr a3 nn rx.n=j iry.t k3.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-BN-01",
+                        "name": "Papyrus Bibliothèque Nationale 215 Vo",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḏd.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ỉw=j", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "mtr", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "rḫ", "lemma_ref": null},
+                    {"token_no": 5, "transliteration": "kꜣ.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "كأت تعني الأعمال الحرفية أو المهام الإدارية للدولة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000104-S26",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:24:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-104",
+                "sequence_no": 26,
+                "transliteration": "my mꜣ=tn ỉn wn wˁ ỉmy=tn r-f r dỉ.t n=j mt.t nfr.t",
+                "hieroglyph": "𓂞𓏏𓌳𓈖𓏏𓈖𓇋𓈖𓅱𓈖𓎛𓂝𓏤𓐝𓋴𓈖𓂋𓆑𓂋𓂞𓏏𓈖𓇋𓏠𓈖𓌃𓏏𓄤𓏏",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "ولكن، انظروا وابحثوا هل يوجد بطل في وسطكم يستطيع إعطائي نصيحة ورأياً خيراً ومفيداً؟",
+                "english": "But, see if there is anyone among you who can give me some useful advice.",
+                "german": "Aber seht, ob es jemanden unter euch gibt, der mir einen guten Rat geben kann.",
+                "french": "Mais, voyez s'il y a quelqu'un parmi vous qui puisse me donner un bon conseil.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "imperative_my_with_subjunctive_mA_and_interrogative_existential_wn"
+            },
+            "layer4_writing": {
+                "mdc_code": "my ma=tn in wn wa imy=tn r-f r di.t n=j mt.t nfr.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-BN-01",
+                        "name": "Papyrus Bibliothèque Nationale 215 Vo",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "my", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mꜣ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "wn", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "di.t", "lemma_ref": null},
+                    {"token_no": 5, "transliteration": "mt.t", "lemma_ref": null},
+                    {"token_no": 6, "transliteration": "nfr.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "متت-نفرت تعني الرأي السديد أو المشورة الطيبة الحكيمة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000104-S27",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:24:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-104",
+                "sequence_no": 27,
+                "transliteration": "ỉst wnn-f smr wˁ.ty pꜣ ḥm-nṯr n nỉ.t pꜣ-n.t-sḏm",
+                "hieroglyph": "𓇋𓋴𓏏𓅱𓈖𓆑𓋴𓍋𓎛𓂝𓏤𓏏𓏤𓊪𓄿𓊹𓈟𓈖𓋎𓏏𓊪𓄿𓈖𓏏𓄔𓏠",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وكان هناك في وسط الحاشية سمير مقرب وكاهن للإلهة (نيت) يُدعى (بانيتسجيم)،",
+                "english": "Now, there was among the courtiers a priest of Neith called Panetsetem",
+                "german": "Nun gab es unter den Höflingen einen Priester der Neith namens Panetsetem",
+                "french": "Or, il y avait parmi les courtisans un prêtre de Neith appelé Panetsetem",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "ist_with_existential_wnn_and_identifying_titles"
+            },
+            "layer4_writing": {
+                "mdc_code": "ist wnn-f smr wa.ty p3 Hm-nTr n ni.t p3-n.t-sDm"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-BN-01",
+                        "name": "Papyrus Bibliothèque Nationale 215 Vo",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ist", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "smr", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḥm-nṯr", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "nỉ.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الآلهة نيت هي الإلهة الحامية لمدينة سايس (صان الحجر) عاصمة الأسرة 26."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000104-S28",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:24:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-104",
+                "sequence_no": 28,
+                "transliteration": "sw m sš wr",
+                "hieroglyph": "𓇋𓅱𓆑𓐝𓏟𓅨𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وقد كان هذا الكاهن كاتباً وباحثاً وعالماً كبيراً جداً وموقراً،",
+                "english": "who was a great scholar.",
+                "german": "der ein großer Gelehrter war.",
+                "french": "qui était un grand savant.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "independent_pronoun_with_adjectival_noun"
+            },
+            "layer4_writing": {
+                "mdc_code": "sw m sS wr"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-BN-01",
+                        "name": "Papyrus Bibliothèque Nationale 215 Vo",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "sw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sš", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "wr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "سِش-ور تعني حرفياً 'الكاتب العظيم' وتفيد التبجيل المعرفي والأكاديمي."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000104-S29",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:24:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-104",
+                "sequence_no": 29,
+                "transliteration": "ỉy.n-f m-m sšw.t r-ḥꜣ.t pr-ˁꜣ",
+                "hieroglyph": "𓇋𓇋𓈖𓆑𓐝𓐝𓏟𓏏𓏥𓂋𓄂𓏤𓉐𓉻",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فحضر وتوجه هذا الكاهن ووقف في منتصف بهو البلاط بين يدي فرعون وقال:",
+                "english": "He came into the middle of the court before Pharaoh and said:",
+                "german": "Er kam in die Mitte des Hofes vor den Pharao und sagte:",
+                "french": "Il vint au milieu de la cour devant le Pharaon et dit :",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_with_locative_and_speech_intro"
+            },
+            "layer4_writing": {
+                "mdc_code": "iy.n-f m-m sSw.t r-HA.t pr-a3"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-BN-01",
+                        "name": "Papyrus Bibliothèque Nationale 215 Vo",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ỉy.n-f", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sšw.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "pr-ˁꜣ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الوقوف في 'إر-حات فرعون' (بين يدي فرعون) هو مستهل البدء بإلقاء الحكاية الترفيهية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000104-S30",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:24:50.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-104",
+                "sequence_no": 30,
+                "transliteration": "sš",
+                "hieroglyph": "𓏟𓏏",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "كُتب بسلام وأمان.",
+                "english": "Written.",
+                "german": "Geschrieben.",
+                "french": "Écrit.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "scribal_colophon"
+            },
+            "layer4_writing": {
+                "mdc_code": "sS"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PARIS-BN-01",
+                        "name": "Papyrus Bibliothèque Nationale 215 Vo",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "sš", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "انتهاء المقطع التعريفي الأول لقصة أمازيس وبدء استرسال الكاهن في حكايته."
+            }
+        }
+    ]
+}

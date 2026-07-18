@@ -1,0 +1,570 @@
+وأنا أيضًا أوافق على إضافة **story_signature**، بل أعتبرها من أفكار هيباتيا الأصيلة لأنها ستمكننا لاحقًا من مقارنة النصوص واكتشاف التشابهات الأسلوبية والزمنية آليًا.
+
+أما الآن فنصل إلى بطاقة لا تقل أهمية عن Story Card، لأنها تمثل **أصل الحقيقة العلمية**.
+
+وهنا أيضًا سأختلف قليلًا مع المفهوم التقليدي.
+
+الـ **Source Card** عند هيباتيا لا تمثل "كتابًا" فقط.
+
+بل تمثل **أى أصل علمى يمكن الاستشهاد به**.
+
+---
+
+# HYP-SPEC-020500
+
+# Source Card Specification
+
+**Project:** Hypatia Knowledge Platform
+
+**Document ID:** HYP-SPEC-020500
+
+**Version:** 1.0 Founder Edition
+
+**Status:** Official
+
+**Classification:** Core Knowledge Model
+
+**Inherits:** HYP-SPEC-020000 — Knowledge Object
+
+---
+
+# Purpose
+
+The Source Card represents the scientific origin of knowledge preserved inside Hypatia.
+
+Every statement stored in Hypatia must ultimately trace back to one or more Source Cards.
+
+The Source Card is therefore the foundation of scientific trust.
+
+---
+
+# Philosophy
+
+Knowledge without provenance is opinion.
+
+Knowledge with provenance becomes science.
+
+Every fact deserves a source.
+
+Every source deserves an identity.
+
+---
+
+# Definition
+
+A Source Card represents any identifiable scientific, historical, archaeological, linguistic, or documentary source used to support knowledge.
+
+Sources may be primary or secondary.
+
+---
+
+# Source Categories
+
+Every Source Card belongs to exactly one primary category.
+
+Examples
+
+```text
+Primary Artifact
+
+Papyrus
+
+Stela
+
+Temple Inscription
+
+Tomb Inscription
+
+Ostracon
+
+Statue
+
+Seal
+
+Object
+
+Museum Record
+
+Excavation Report
+
+Book
+
+Dictionary
+
+Lexicon
+
+Academic Paper
+
+Journal
+
+Thesis
+
+Corpus
+
+Digital Repository
+
+Database
+
+Research Project
+
+Archive
+
+Photograph
+
+Drawing
+
+Map
+
+Oral Reference
+
+Future Sources
+```
+
+---
+
+# Universal Structure
+
+The Source Card inherits every field defined in
+
+**HYP-SPEC-020000**
+
+and defines the following specialized sections.
+
+---
+
+# Section 1
+
+## Source Identity
+
+Contains
+
+```text
+source_title
+
+canonical_title
+
+source_type
+
+source_class
+
+```
+
+---
+
+### source_type
+
+Examples
+
+```text
+Papyrus
+
+Book
+
+Journal
+
+Museum Record
+
+Corpus
+
+Database
+```
+
+Referenced through Meta Cards.
+
+---
+
+# Section 2
+
+## Bibliographic Information
+
+Contains
+
+```text
+authors
+
+editors
+
+publisher
+
+publication_year
+
+edition
+
+volume
+
+issue
+
+pages
+
+isbn
+
+issn
+
+doi
+
+```
+
+All optional depending on source type.
+
+---
+
+# Section 3
+
+## Archaeological Information
+
+Used for primary archaeological sources.
+
+Contains
+
+```text
+excavation_site
+
+discovery_year
+
+excavation_mission
+
+current_repository
+
+museum
+
+inventory_number
+```
+
+---
+
+# Section 4
+
+## Repository Information
+
+Contains
+
+```text
+repository
+
+collection
+
+archive
+
+digital_identifier
+
+permalink
+```
+
+---
+
+# Section 5
+
+## Scientific Description
+
+Contains
+
+```text
+abstract
+
+scientific_notes
+
+historical_notes
+```
+
+---
+
+# Section 6
+
+## Reliability
+
+Contains
+
+```text
+source_level
+
+peer_reviewed
+
+scientific_status
+
+verification_level
+```
+
+---
+
+### source_level
+
+Examples
+
+```text
+Primary
+
+Secondary
+
+Tertiary
+```
+
+---
+
+### scientific_status
+
+```text
+Verified
+
+Accepted
+
+Disputed
+
+Obsolete
+
+Retracted
+```
+
+---
+
+# Section 7
+
+## Language
+
+Contains
+
+```text
+original_language
+
+available_languages
+
+translation_status
+```
+
+Referenced through Meta Cards.
+
+---
+
+# Section 8
+
+## Related Knowledge
+
+Contains
+
+```text
+story_ids
+
+entity_ids
+
+lemma_ids
+
+grammar_ids
+
+domain_ids
+```
+
+Source never stores knowledge.
+
+It references Knowledge Objects.
+
+---
+
+# Section 9
+
+## Citation
+
+Contains
+
+```text
+preferred_citation
+
+short_citation
+
+bibliographic_format
+```
+
+Automatically generated when possible.
+
+---
+
+# Section 10
+
+## Licensing
+
+Contains
+
+```text
+license
+
+copyright
+
+usage_permissions
+
+public_domain
+```
+
+---
+
+# Section 11
+
+## Statistics
+
+Automatically generated.
+
+Contains
+
+```text
+citation_count
+
+story_count
+
+entity_count
+
+lemma_count
+```
+
+---
+
+# Section 12
+
+## Confidence
+
+Contains
+
+```text
+historical_reliability
+
+academic_reliability
+
+overall_confidence
+```
+
+---
+
+# Scientific Rule
+
+Knowledge never stores bibliographic information.
+
+Knowledge references Source Cards.
+
+---
+
+# Repository Location
+
+```text
+repository/
+
+sources/
+```
+
+---
+
+# Identity Example
+
+```text
+HYP-SRC-000143
+```
+
+---
+
+# Community Evolution
+
+Researchers may
+
+Correct metadata
+
+Add bibliography
+
+Attach scans
+
+Improve citations
+
+Link additional objects
+
+Add repository information
+
+Every accepted modification creates a new revision.
+
+---
+
+# AI Usage
+
+Source Cards are **never** used as direct linguistic training.
+
+Instead they provide
+
+Scientific provenance
+
+Confidence estimation
+
+Citation generation
+
+Evidence ranking
+
+Source-aware reasoning
+
+---
+
+# Long-Term Objective
+
+The Source Layer becomes the complete scientific bibliography of Hypatia.
+
+Every Knowledge Object can be traced.
+
+Every interpretation can be verified.
+
+Every citation can be reconstructed.
+
+---
+
+# Scientific Law
+
+Every Knowledge Object
+
+↓
+
+Must reference at least one Source Card.
+
+No orphan knowledge exists.
+
+---
+
+# Source Motto
+
+> **Knowledge Is Trusted Through Evidence.**
+
+---
+
+# Founder Statement
+
+Civilizations survive because their records survive.
+
+Scholarship survives because its sources survive.
+
+The Source Card ensures that every statement preserved by Hypatia remains permanently connected to its documentary origin.
+
+As the repository grows, the Source Layer becomes not merely a bibliography, but the scientific memory that protects the integrity of the entire platform.
+
+---
+
+# Academic Notes
+
+Unlike conventional bibliography systems, the Source Card is itself a **Knowledge Object**.
+
+It possesses identity, relationships, revision history, confidence, and semantic connections.
+
+This allows Sources to participate directly in the Knowledge Graph, making provenance a first-class component of the Hypatia architecture rather than an external reference.
+
+---
+
+# ✦ اقتراح جديد (أراه مهمًا جدًا)
+
+أقترح إضافة حقل جديد يصبح لاحقًا أحد أعمدة المشروع:
+
+```text
+source_signature
+```
+
+ويكون **البصمة العلمية للمصدر**.
+
+ليست بصمة رقمية (Hash)، بل بصمة معرفية تتكون من خصائص ثابتة مثل:
+
+* نوع المصدر.
+* الفترة الزمنية.
+* اللغة الأصلية.
+* جهة الحفظ.
+* المدرسة العلمية.
+* درجة الأولية (Primary / Secondary).
+* مستوى الموثوقية.
+* تاريخ آخر مراجعة علمية.
+
+وبذلك يستطيع هيباتيا أن يقارن المصادر نفسها، ويصنفها، ويرجحها تلقائيًا عند تعارض التفسيرات، وهو ما سيكون بالغ الأهمية عند بناء محرك الاستدلال (Reasoning Engine) في المراحل المتقدمة. أرى أن **source_signature** سيكون النظير العلمي لـ **story_signature**، وسيكمل معه طبقة الثقة (Trust Layer) في المشروع.

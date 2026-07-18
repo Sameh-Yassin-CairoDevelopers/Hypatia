@@ -1,0 +1,641 @@
+ممتاز.
+
+وأعتبر هذه الوثيقة من أخطر الوثائق فى هيباتيا.
+
+لأن أغلب المشاريع تعتبر الـ Normalization مجرد "تنسيق بيانات".
+
+أما نحن فنعتبرها **عملية تحويل الحضارات المختلفة إلى لغة هيباتيا المشتركة**.
+
+فهذا هو المكان الذى تتحول فيه:
+
+* TLA
+* PharaLex
+* Bibliotheca Alexandrina
+* Berlin Wörterbuch
+* Gardiner
+* Faulkner
+* Hannig
+
+إلى نموذج معرفى واحد.
+
+---
+
+# HYP-SPEC-030200
+
+# Normalization Pipeline Specification
+
+**Project:** Hypatia Knowledge Platform
+
+**Document ID:** HYP-SPEC-030200
+
+**Version:** 1.0 Founder Edition
+
+**Status:** Official
+
+**Classification:** Core Pipeline
+
+---
+
+# Purpose
+
+The Normalization Pipeline transforms imported data into the canonical internal representation used throughout the Hypatia Repository.
+
+It establishes a unified language for all knowledge regardless of its original source.
+
+---
+
+# Philosophy
+
+Every source speaks its own language.
+
+Hypatia speaks one language.
+
+Normalization creates that language.
+
+---
+
+# Responsibilities
+
+The Normalization Pipeline is responsible for
+
+* Field normalization
+* Identifier normalization
+* Encoding normalization
+* Language normalization
+* Structure normalization
+* Metadata normalization
+* Reference normalization
+
+It never modifies scientific meaning.
+
+---
+
+# Pipeline Position
+
+```text
+Import Package
+
+↓
+
+Normalization Pipeline
+
+↓
+
+Canonical Package
+
+↓
+
+Cleaning Pipeline
+```
+
+---
+
+# Fundamental Principle
+
+Normalization changes
+
+**representation**
+
+Never
+
+**knowledge**
+
+---
+
+# Canonical Representation
+
+After normalization, every object follows Hypatia standards.
+
+Regardless of its origin.
+
+---
+
+# Stage 1
+
+## Structure Normalization
+
+Transforms external structures into the canonical Hypatia structure.
+
+Examples
+
+```text
+word
+
+↓
+
+lemma
+
+entry
+
+↓
+
+dictionary_entry
+
+text
+
+↓
+
+story
+```
+
+---
+
+# Stage 2
+
+## Field Normalization
+
+Maps external field names.
+
+Examples
+
+```text
+translation
+
+meaning
+
+definition
+
+↓
+
+meaning_en
+```
+
+---
+
+```text
+german
+
+de
+
+meaningGerman
+
+↓
+
+meaning_de
+```
+
+---
+
+```text
+transliteration
+
+reading
+
+romanization
+
+↓
+
+transliteration
+```
+
+---
+
+# Stage 3
+
+## Encoding Normalization
+
+Standardizes
+
+* UTF-8
+* Unicode
+* Hieroglyphic Unicode
+* Combining Characters
+* Invisible Characters
+* Line Endings
+
+No information is removed.
+
+---
+
+# Stage 4
+
+## Language Normalization
+
+Converts language identifiers into canonical values.
+
+Examples
+
+```text
+English
+
+EN
+
+eng
+
+↓
+
+en
+```
+
+---
+
+```text
+German
+
+Deutsch
+
+DE
+
+↓
+
+de
+```
+
+---
+
+```text
+Arabic
+
+AR
+
+↓
+
+ar
+```
+
+---
+
+# Stage 5
+
+## Identifier Normalization
+
+Temporary identifiers become standardized import identifiers.
+
+Permanent Repository IDs are **not** generated here.
+
+Example
+
+```text
+TLA_01542
+
+↓
+
+normalized_external_id
+```
+
+---
+
+# Stage 6
+
+## Metadata Normalization
+
+Standardizes metadata.
+
+Examples
+
+```text
+author
+
+writer
+
+editor
+
+↓
+
+author
+```
+
+---
+
+```text
+museum
+
+location
+
+repository
+
+↓
+
+repository
+```
+
+---
+
+# Stage 7
+
+## Reference Normalization
+
+Converts references into canonical form.
+
+Examples
+
+Story references
+
+Entity references
+
+Dictionary references
+
+Source references
+
+All references become machine-readable.
+
+---
+
+# Stage 8
+
+## Date Normalization
+
+Standardizes
+
+* BCE
+* Dynasty notation
+* Reign notation
+* Approximate dates
+* Date ranges
+
+Example
+
+```text
+Dynasty XVIII
+
+↓
+
+18
+```
+
+---
+
+# Stage 9
+
+## Enumeration Normalization
+
+Maps every controlled vocabulary.
+
+Examples
+
+Story Types
+
+Grammar Types
+
+Domain Types
+
+Entity Types
+
+Source Types
+
+Meta Types
+
+Only canonical values remain.
+
+---
+
+# Stage 10
+
+## Validation
+
+Verifies
+
+* Mandatory fields
+* Canonical formats
+* Allowed enumerations
+* Language codes
+* Encoding integrity
+
+Invalid objects are reported.
+
+Not corrected.
+
+---
+
+# Output
+
+Produces
+
+```text
+Canonical Package
+```
+
+Every object now follows Hypatia standards.
+
+No scientific interpretation has yet occurred.
+
+---
+
+# Scientific Rule
+
+Normalization never
+
+* translates,
+* cleans,
+* resolves,
+* merges,
+* deletes,
+* infers.
+
+It only standardizes representation.
+
+---
+
+# Repository Location
+
+```text
+repository/
+
+normalization/
+```
+
+---
+
+# Identity Example
+
+```text
+HYP-NRM-000021
+```
+
+---
+
+# Normalization Log
+
+Every execution generates
+
+```text
+normalized_fields
+
+mapped_fields
+
+warnings
+
+unmapped_fields
+
+execution_time
+
+version
+```
+
+---
+
+# Canonical Dictionary
+
+Normalization relies on
+
+```text
+canonical_dictionary.json
+```
+
+This file defines
+
+Every official field name
+
+Every official enumeration
+
+Every official language code
+
+Every official object type
+
+---
+
+# Canonical Standards
+
+The pipeline guarantees
+
+One encoding
+
+One field name
+
+One language code
+
+One object structure
+
+Across the entire Repository.
+
+---
+
+# AI Position
+
+Artificial Intelligence never receives raw imported data.
+
+It only receives canonical objects.
+
+This guarantees consistency across training datasets.
+
+---
+
+# Community Position
+
+Community submissions are normalized exactly like founder submissions.
+
+Scientific equality begins before interpretation.
+
+---
+
+# Pipeline Metrics
+
+Automatically recorded
+
+```text
+objects_normalized
+
+fields_mapped
+
+fields_unknown
+
+languages_detected
+
+execution_time
+
+coverage
+
+confidence
+```
+
+---
+
+# Long-Term Objective
+
+The Normalization Pipeline becomes the universal translator between external repositories and the Hypatia internal architecture.
+
+Future repositories require only mapping rules.
+
+The Repository itself never changes.
+
+---
+
+# Scientific Law
+
+One Repository.
+
+One Canonical Representation.
+
+Infinite External Formats.
+
+---
+
+# Pipeline Motto
+
+> **Many Languages. One Structure.**
+
+---
+
+# Founder Statement
+
+Knowledge collected over centuries originates from countless institutions, researchers, museums, and traditions.
+
+Every source possesses its own conventions.
+
+Normalization is the discipline through which these differences disappear without sacrificing scientific integrity.
+
+It is the stage where diversity becomes interoperability.
+
+Only after normalization can civilizations begin speaking the common language of Hypatia.
+
+---
+
+# Academic Notes
+
+The Normalization Pipeline intentionally precedes cleaning, validation, semantic resolution, and graph construction.
+
+Its exclusive responsibility is structural harmonization.
+
+By separating normalization from all subsequent reasoning processes, Hypatia ensures that every downstream algorithm operates over a stable and reproducible canonical representation.
+
+---
+
+# ✦ Founder Proposal
+
+أقترح إضافة مفهوم جديد إلى طبقة الـ Normalization يسمى:
+
+## **Canonical Mapping Registry**
+
+ويكون ملفًا مستقلًا داخل المشروع:
+
+```text
+repository/
+
+normalization/
+
+canonical_mapping_registry.json
+```
+
+ويحتوى على جميع خرائط التحويل بين المصادر المختلفة والبنية القياسية لهيباتيا.
+
+مثال:
+
+```text
+TLA
+translation
+↓
+
+meaning_en
+
+PharaLex
+reading
+↓
+
+transliteration
+
+BA
+glyph
+↓
+
+hieroglyphs
+```
+
+ولا يقتصر على أسماء الحقول فقط، بل يشمل أيضًا:
+
+* قيم التعدادات (Enums)
+* أكواد اللغات
+* أنواع الكيانات
+* أنواع الوثائق
+* الاختصارات
+
+بهذا يصبح دعم مصدر جديد عملية إضافة **خريطة تحويل (Mapping)** فقط، دون تعديل أي سطر في الكود أو في المستودع نفسه. وأرى أن هذا القرار سيجعل هيباتيا قابلة للتوسع لعشرات السنين مع الحفاظ على ثبات معمارية المشروع.

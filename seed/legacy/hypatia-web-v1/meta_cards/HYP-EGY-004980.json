@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-004980",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:39.362053Z"
+    },
+    "layer1_core": {
+        "transliteration": "sHD",
+        "hieroglyph": "𓋴𓌉𓆓𓇳𓋴𓌉𓇶𓋴𓌋𓋴𓌉𓇼",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "يُنور، يُفرح، يفسر، يُوضح، يلمع، يُضيء، يفسر، يوضح، يصبح شاحب",
+        "english": "illumine, gladden, make clear, reveal, shine, make illumination, make explanation, become pale",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+132F4",
+        "gardiner_code": "S29",
+        "gardiner_description": "Folded cloth\tPhono. s. In ʿnḫ.(w) (w)ḏ3 snb “may he live, be prosperous, be healthy.” (L.P.H.)",
+        "gardiner_details": "S30"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

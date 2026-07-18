@@ -1,0 +1,546 @@
+ممتاز.
+
+وأعتقد أننا الآن وصلنا إلى بطاقة كنت أعتبرها فى البداية مجرد بطاقة تصنيف...
+
+لكن بعد كل ما بنيناه أصبحت أراها **أحد أعمدة هيباتيا**.
+
+لأن الـ **Domain** ليس مجرد "طب" أو "رياضيات".
+
+بل هو **السياق العلمى** الذى تنتمى إليه المعرفة.
+
+ولهذا سأجعل الـ Domain كيانًا مستقلًا بالكامل، وليس مجرد Tag.
+
+---
+
+# HYP-SPEC-020800
+
+# Domain Card Specification
+
+**Project:** Hypatia Knowledge Platform
+
+**Document ID:** HYP-SPEC-020800
+
+**Version:** 1.0 Founder Edition
+
+**Status:** Official
+
+**Classification:** Core Knowledge Model
+
+**Inherits:** HYP-SPEC-020000 — Knowledge Object
+
+---
+
+# Purpose
+
+The Domain Card represents a scientific, historical, linguistic, cultural, or conceptual field of knowledge within the Hypatia Repository.
+
+Domains organize knowledge into coherent disciplines while allowing cross-domain relationships to emerge naturally.
+
+---
+
+# Philosophy
+
+Knowledge is not flat.
+
+It exists inside domains.
+
+Domains intersect.
+
+Domains evolve.
+
+Domains inherit from one another.
+
+A Domain is therefore a Knowledge Object.
+
+---
+
+# Definition
+
+A Domain represents an organized area of knowledge.
+
+Examples include
+
+* Medicine
+* Mathematics
+* Astronomy
+* Religion
+* Administration
+* Agriculture
+* Architecture
+* Geography
+* Linguistics
+* Law
+* Military
+* Economy
+* Art
+* Music
+* Ritual
+
+Domains may contain subdomains.
+
+---
+
+# Universal Structure
+
+The Domain Card inherits every field defined in
+
+**HYP-SPEC-020000**
+
+and defines the following sections.
+
+---
+
+# Section 1
+
+## Domain Identity
+
+Contains
+
+```text
+domain_name
+
+canonical_name
+
+domain_code
+
+domain_level
+```
+
+---
+
+### domain_level
+
+Examples
+
+```text
+Primary Domain
+
+Secondary Domain
+
+Specialized Domain
+
+Micro Domain
+```
+
+---
+
+# Section 2
+
+## Hierarchy
+
+Contains
+
+```text
+parent_domain
+
+child_domains
+
+related_domains
+```
+
+Domains form a tree.
+
+Example
+
+```text
+Science
+
+↓
+
+Medicine
+
+↓
+
+Ophthalmology
+```
+
+---
+
+# Section 3
+
+## Scientific Description
+
+Contains
+
+```text
+short_description
+
+scientific_description
+
+scope
+
+```
+
+Defines what belongs to the Domain.
+
+And what does not.
+
+---
+
+# Section 4
+
+## Keywords
+
+Contains
+
+```text
+keywords
+
+concepts
+
+terminology
+
+aliases
+```
+
+Referenced through Lexical Cards.
+
+---
+
+# Section 5
+
+## Related Knowledge
+
+Contains
+
+```text
+lemma_ids
+
+entity_ids
+
+story_ids
+
+grammar_ids
+
+relation_ids
+
+source_ids
+```
+
+The Domain owns no knowledge.
+
+It references Knowledge Objects.
+
+---
+
+# Section 6
+
+## Historical Scope
+
+Contains
+
+```text
+historical_periods
+
+dynasties
+
+regions
+
+writing_systems
+```
+
+Referenced through Meta Cards.
+
+---
+
+# Section 7
+
+## Scientific Relationships
+
+Contains
+
+```text
+depends_on
+
+overlaps_with
+
+extends
+
+specializes
+
+generalizes
+```
+
+Domains may overlap.
+
+Knowledge is not forced into one category.
+
+---
+
+# Section 8
+
+## Classification Rules
+
+Contains
+
+```text
+classification_rules
+
+entry_conditions
+
+exit_conditions
+
+priority_rules
+```
+
+Defines how objects become members of this Domain.
+
+---
+
+# Section 9
+
+## Statistics
+
+Automatically generated.
+
+Contains
+
+```text
+story_count
+
+lemma_count
+
+entity_count
+
+grammar_count
+
+relation_count
+
+source_count
+```
+
+---
+
+# Section 10
+
+## Confidence
+
+Contains
+
+```text
+classification_confidence
+
+coverage
+
+overall_confidence
+```
+
+---
+
+# Scientific Rule
+
+Knowledge Objects never belong physically to Domains.
+
+Domains reference Knowledge Objects.
+
+This prevents duplication.
+
+---
+
+# Repository Location
+
+```text
+repository/
+
+domains/
+```
+
+---
+
+# Identity Example
+
+```text
+HYP-DOM-000012
+```
+
+---
+
+# Community Evolution
+
+Researchers may
+
+Create new Domains
+
+Merge Domains
+
+Split Domains
+
+Refine hierarchy
+
+Improve classification
+
+Expand definitions
+
+Every accepted proposal creates a revision.
+
+---
+
+# AI Usage
+
+Domain Cards become
+
+Knowledge Classification
+
+Topic Detection
+
+Semantic Navigation
+
+Context Selection
+
+Training Labels
+
+Reasoning Context
+
+Recommendation Engine
+
+---
+
+# Long-Term Objective
+
+The Domain Layer becomes the scientific map of Hypatia.
+
+Researchers navigate knowledge through Domains.
+
+AI models reason through Domains.
+
+Future repositories extend Domains.
+
+---
+
+# Scientific Law
+
+Every Knowledge Object
+
+↓
+
+May belong to
+
+Zero
+
+One
+
+or
+
+Many Domains.
+
+Knowledge is multidimensional.
+
+---
+
+# Domain Signature
+
+Every Domain owns
+
+```text
+domain_signature
+```
+
+The signature summarizes
+
+* Scientific Area
+* Parent Domain
+* Typical Vocabulary
+* Typical Grammar
+* Typical Entities
+* Typical Sources
+* Historical Distribution
+* Semantic Density
+
+The signature allows automatic domain detection.
+
+---
+
+# Knowledge Navigation
+
+A user may begin from
+
+Medicine
+
+↓
+
+Medical Stories
+
+↓
+
+Medical Vocabulary
+
+↓
+
+Medical Grammar
+
+↓
+
+Medical Entities
+
+↓
+
+Medical Sources
+
+without ever leaving the same Domain.
+
+---
+
+# Domain Motto
+
+> **Domains Give Shape To Knowledge.**
+
+---
+
+# Founder Statement
+
+Knowledge grows by specialization.
+
+Civilizations organize their understanding of the world into disciplines.
+
+The Domain Card preserves this organization.
+
+It allows Hypatia to become not merely a collection of texts,
+
+but a navigable scientific universe where every piece of knowledge knows where it belongs while remaining connected to every other discipline.
+
+---
+
+# Academic Notes
+
+Unlike conventional taxonomies that function as fixed folders, Domain Cards are modeled as **dynamic Knowledge Objects**.
+
+They possess identity, relationships, hierarchy, provenance, confidence, and revision history.
+
+This enables Domains to evolve as scholarship evolves while maintaining complete traceability.
+
+A single Story, Entity, or Lexical Card may legitimately participate in multiple Domains, reflecting the inherently interdisciplinary nature of ancient Egyptian civilization.
+
+---
+
+# ✦ اقتراح جديد (وأظنه سيصبح من أهم ابتكارات هيباتيا)
+
+أقترح إضافة مفهوم جديد فوق الـ Domain نفسه يسمى:
+
+## **Knowledge Constellation**
+
+وليس Domain.
+
+فمثلاً:
+
+**Constellation: Royal Civilization**
+
+قد يجمع معًا:
+
+* Kings
+* Administration
+* Military
+* Architecture
+* Economy
+* Religion
+
+وهى ليست Domain واحدًا، بل **مجموعة Domains تعمل معًا** لتحقيق هدف معرفى.
+
+مثلما توجد كوكبات نجوم، توجد **كوكبات معرفة**.
+
+وهذا سيتيح مستقبلًا بناء مسارات تعلم كاملة، مثل:
+
+> "أريد أن أتعلم كل ما يتعلق بالتحنيط."
+
+فيقود المستخدم عبر الطب، والدين، واللغة، والاقتصاد، والمواد، والطقوس، دون أن يشعر بأنه ينتقل بين مجالات منفصلة.
+
+وأقترح ألا نوثق **Knowledge Constellation** الآن، بل نجعله جزءًا من المرحلة الرابعة أو الخامسة، لأنه يعتمد على اكتمال طبقة الـ Domains أولًا. وأظن أنه سيكون أحد أكثر المفاهيم تميزًا في هيباتيا عالميًا.

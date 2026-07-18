@@ -1,0 +1,767 @@
+{
+    "text_id": "EGY-501",
+    "metadata": {
+        "title_ar": "برديات برلين الرياضية (المسألة الأولى - معادلة الدرجة الثانية)",
+        "title_en": "The Berlin Mathematical Papyrus (Problem No. 1 - Quadratic Equation)",
+        "museum_catalog_no": "Staatliche Museen zu Berlin (Papyrus Berlin P. 6619 Recto)",
+        "stable_tla_id": "TM-124057"
+    },
+    "sentences": [
+        {
+            "metadata": {
+                "id": "HYP-TXT-000501-S01",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T02:30:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-501",
+                "sequence_no": 1,
+                "transliteration": "ky ḏd n=k",
+                "hieroglyph": "𓎡𓇋𓇋𓆓𓂧𓈖𓎡",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "مسألة أخرى. إذا قيل لك وعُرض عليك الاستعلام الآتي:",
+                "english": "Another problem. If you are told:",
+                "german": "Ein anderes Problem. Wenn dir gesagt wird:",
+                "french": "Un autre problème. S'il vous est dit :",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "mathematical_problem_introduction"
+            },
+            "layer4_writing": {
+                "mdc_code": "ky Dd n=k"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-6619",
+                        "name": "Papyrus Berlin P. 6619 Recto",
+                        "type": "manuscript_mathematical",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ky", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḏd", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الأول؛ 'كي دد إن-ك' هي الصيغة التقليدية المعهودة لبدء المسائل الجبرية والحسابية في الدولة الوسطى."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000501-S02",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T02:30:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-501",
+                "sequence_no": 2,
+                "transliteration": "ỉr.ty-s n dbt n 100",
+                "hieroglyph": "𓇋𓂋𓏏𓏭𓋴𓈖𓂧𓃀𓏏𓈖𓎆𓎆𓎆𓎆𓎆𓎆𓎆𓎆𓎆𓎆",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "إن مساحة مربع تبلغ مائة ذراع مربع،",
+                "english": "The area of a square of 100 square cubits,",
+                "german": "Die Fläche eines Quadrats von 100 Quadratellen,",
+                "french": "La surface d'un carré de 100 coudées carrées,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "numerical_area_specification"
+            },
+            "layer4_writing": {
+                "mdc_code": "ir.ty-s n dbt n 100"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-6619",
+                        "name": "Papyrus Berlin P. 6619 Recto",
+                        "type": "manuscript_mathematical",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ỉr.ty-s", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "dbt", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الثاني؛ دبت تعني الطوبة أو الشكل المربع هندسياً، والمئة ذراع مربع تعادل مساحة الأرض الإجمالية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000501-S03",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T02:30:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-501",
+                "sequence_no": 3,
+                "transliteration": "r-gsw pꜣ-ky n kꜣ.w 2",
+                "hieroglyph": "𓂋𓎼𓋴𓅱𓊪𓄿𓎡𓇋𓇋𓈖𓂧𓃀𓏏𓏤𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "هي مساوية ومعادلة لمجموع مساحة مربعين صغيرين آخرين،",
+                "english": "is equal to that of two other smaller squares,",
+                "german": "ist gleich der von zwei anderen kleineren Quadraten,",
+                "french": "est égale à celle de deux autres carrés plus petits,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "comparative_prepositional_phrase"
+            },
+            "layer4_writing": {
+                "mdc_code": "r-gsw p3-ky n k3.w 2"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-6619",
+                        "name": "Papyrus Berlin P. 6619 Recto",
+                        "type": "manuscript_mathematical",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "r-gsw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "kꜣ.w", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الثالث؛ كاو تعني هنا المربعات الصغرى الإضافية المراد حساب أضلاعها المجهولة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000501-S04",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T02:30:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-501",
+                "sequence_no": 4,
+                "transliteration": "pꜣ s kṯ r pꜣ-ky m 2' 4'",
+                "hieroglyph": "𓊪𓄿𓊃𓎡𓏏𓂋𓊪𓄿𓎡𓇋𓇋𓐝𓂝𓏤𓏏𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "طول ضلع أحد المربعين يمثل نصفاً وربعاً (3/4) من طول ضلع المربع الآخر المجهول.",
+                "english": "the side of one is 1/2 + 1/4 (3/4) of the side of the other.",
+                "german": "die Seite des einen ist 1/2 + 1/4 (3/4) der Seite des anderen.",
+                "french": "le côté de l'un est 1/2 + 1/4 (3/4) du côté de l'autre.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "noun_subject_with_fractional_proportion"
+            },
+            "layer4_writing": {
+                "mdc_code": "p3 s k_t r p3-ky m 2' 4'"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-6619",
+                        "name": "Papyrus Berlin P. 6619 Recto",
+                        "type": "manuscript_mathematical",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "s", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "kṯ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "2' 4'", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الرابع؛ كسر نصف-ربع 'إف-رع' هو الطريقة الحسابية الكلاسيكية لتمثيل الكسر 3/4."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000501-S05",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T02:30:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-501",
+                "sequence_no": 5,
+                "transliteration": "ỉr.y=k fḫ.t=k r rd.t rḫ=j pꜣ-s",
+                "hieroglyph": "𓁹𓇋𓇋𓎡𓆑𓐍𓏏𓎡𓂋𓂞𓏏𓂋𓐍𓇋𓏠𓈖𓊪𓄿𓊃",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "عليك وبموجب مهاراتك الحسابية أن تجعلني أعرف أطوال أضلاع هذه المربعات المجهولة.",
+                "english": "You shall let me know the sides of these squares.",
+                "german": "Du sollst mich die Seiten dieser Quadrate wissen lassen.",
+                "french": "Tu dois me faire connaître les côtés de ces carrés.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "subjunctive_iry_with_infinitive_purpose_and_noun_object"
+            },
+            "layer4_writing": {
+                "mdc_code": "iry=k fX.t=k r rd.t rX=j p3-s"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-6619",
+                        "name": "Papyrus Berlin P. 6619 Recto",
+                        "type": "manuscript_mathematical",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ỉr.y", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "fḫ.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "rḫ", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "s", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الخامس؛ فخت تعني السعة أو الأبعاد الرياضية المراد كشفها."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000501-S06",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T02:30:50.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-501",
+                "sequence_no": 6,
+                "transliteration": "ỉr.k mỉ-t.t jry",
+                "hieroglyph": "𓁹𓎡𓐝𓏠𓏏𓏏𓁹",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "افعل واصنع خطوات الحل الحسابية على هذا النحو التالي:",
+                "english": "Do then as follows:",
+                "german": "Tue dann wie folgt:",
+                "french": "Faites alors comme suit :",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "imperative_ir_with_comparative_idiom"
+            },
+            "layer4_writing": {
+                "mdc_code": "ir.k mi-t.t jry"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-6619",
+                        "name": "Papyrus Berlin P. 6619 Recto",
+                        "type": "manuscript_mathematical",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ỉr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mỉ-t.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر السادس؛ الصيغة الهيراتيقية القياسية لبدء شرح خوارزمية الحل المنهجية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000501-S07",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T02:31:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-501",
+                "sequence_no": 7,
+                "transliteration": "wd.t pꜣ-s n dbt m 1 r-gsw 2' 4'",
+                "hieroglyph": "𓎘𓏏𓊪𓄿𓊃𓈖𓂧𓃀𓏏𓐝𓏤𓂋𓎼𓋴𓅱𓂝𓏤𓏏𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "افترض أن طول ضلع المربع الأول الفرضي هو 1، والضلع الآخر هو نصف وربع (3/4).",
+                "english": "Take a square of side 1, and the other of 1/2 + 1/4 (3/4).",
+                "german": "Nimm ein Quadrat der Seite 1 und das andere von 1/2 + 1/4 (3/4).",
+                "french": "Prenez un carré de côté 1, et l'autre de 1/2 + 1/4 (3/4).",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "imperative_wd_with_direct_noun_object_and_coordinate"
+            },
+            "layer4_writing": {
+                "mdc_code": "wd.t p3-s n dbt m 1 r-gsw 2' 4'"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-6619",
+                        "name": "Papyrus Berlin P. 6619 Recto",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "wd.t", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "s", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "dbt", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر السابع؛ بداية طريقة الافتراض الخاطئ (False Position Method) في الجبر الفرعوني."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000501-S08",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T02:31:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-501",
+                "sequence_no": 8,
+                "transliteration": "ỉry=j pꜣ-s 1 r 1 ḥnˁ dbi.wt n.t 2' 16",
+                "hieroglyph": "𓁹𓈖𓇋𓏠𓈖𓊪𓄿𓊃𓏤𓂋𓏤𓎛𓈖𓂝𓂝𓏤𓏏𓏤𓂋𓂝𓏤𓎆",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "قم بتربيع الضلع 1 ليعطيك 1، وربع الضلع الآخر (نصف وربع) ليعطيك نصفاً وواحداً على ستة عشر (9/16).",
+                "english": "Square the side 1 to get 1, and square the other side (1/2 + 1/4) to get 1/2 + 1/16 (9/16).",
+                "german": "Quadriere die Seite 1, um 1 zu erhalten, und quadriere die andere Seite (1/2 + 1/4), um 1/2 + 1/16 (9/16) zu erhalten.",
+                "french": "Élevez au carré le côté 1 pour obtenir 1, et élevez au carré l'autre côté (1/2 + 1/4) pour obtenir 1/2 + 1/16 (9/16).",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "subjunctive_iry_with_coordinated_arithmetic_actions"
+            },
+            "layer4_writing": {
+                "mdc_code": "iry=j p3-s 1 r 1 Hna dbi.wt n.t 2' 16"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-6619",
+                        "name": "Papyrus Berlin P. 6619 Recto",
+                        "type": "manuscript",
+                        "mathematical": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ỉry", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "s", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "dbi.wt", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الثامن؛ دبيوت تعني مربعات الأرقام الحاصلة من الضرب المتكرر للكسور."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000501-S09",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T02:31:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-501",
+                "sequence_no": 9,
+                "transliteration": "dmd.n=sn r 1 2' 16'",
+                "hieroglyph": "𓂧𓐝𓂧𓈖𓋴𓈖𓂋𓏤𓂝𓏤𓎆",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "اجمع ناتج التربيعين ليعطيك واحداً ونصفاً وواحداً على ستة عشر (25/16).",
+                "english": "Sum the squares to get 1 + 1/2 + 1/16 (25/16).",
+                "german": "Addiere die Quadrate, um 1 + 1/2 + 1/16 (25/16) zu erhalten.",
+                "french": "Additionnez les carrés pour obtenir 1 + 1/2 + 1/16 (25/16).",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n_noun_subject_with_numerical_sum"
+            },
+            "layer4_writing": {
+                "mdc_code": "dmd.n=sn r-f m-itn n 1 2 16"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-6619",
+                        "name": "Papyrus Berlin P. 6619 Recto",
+                        "type": "manuscript",
+                        "mathematical": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "dmd", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر التاسع؛ دمد تعني الجمع أو دمج الأرقام للحصول على النتيجة الإجمالية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000501-S10",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T02:31:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-501",
+                "sequence_no": 10,
+                "transliteration": "šd.y=k pꜣ-šs 1 2' 16' r 1 4'",
+                "hieroglyph": "𓋴𓂧𓇋𓇋𓎡𓊪𓄿𓋴𓋴𓏤𓂝𓏤𓎆𓂋𓏤𓏤𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "استخرج الجذر التربيعي لـ (واحد ونصف وواحد على ستة عشر)، ليعطيك واحداً وربعاً (5/4).",
+                "english": "Extract the square root of 1 + 1/2 + 1/16, which is 1 + 1/4 (5/4).",
+                "german": "Ziehe die Quadratwurzel aus 1 + 1/2 + 1/16, was 1 + 1/4 (5/4) ist.",
+                "french": "Extrayez la racine carrée de 1 + 1/2 + 1/16, qui est 1 + 1/4 (5/4).",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "subjunctive_Sd_with_direct_fractional_object"
+            },
+            "layer4_writing": {
+                "mdc_code": "Sd.y=k p3-Ss 1 2' 16' r 1 4'"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-6619",
+                        "name": "Papyrus Berlin P. 6619 Recto",
+                        "type": "manuscript",
+                        "mathematical": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "šd", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "šs", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر العاشر؛ شد-شس تعني سحب أو استخراج الجذر التربيعي الكامن للأعداد الكسرية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000501-S11",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T02:31:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-501",
+                "sequence_no": 11,
+                "transliteration": "šd.y=k pꜣ-šs 100 r 10",
+                "hieroglyph": "𓋴𓂧𓇋𓇋𓎡𓊪𓄿𓋴𓋴𓎆𓎆𓎆𓎆𓎆𓎆𓎆𓎆𓎆𓎆𓂋𓎆",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "استخرج الجذر التربيعي للمساحة الكلية البالغة 100، ليعطيك 10 وهو طول الضلع الافتراضي للمساحة الكبرى.",
+                "english": "Extract the square root of 100, which is 10.",
+                "german": "Ziehe die Quadratwurzel aus 100, was 10 ist.",
+                "french": "Extrayez la racine carrée de 100, qui est 10.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "subjunctive_Sd_with_direct_numerical_object"
+            },
+            "layer4_writing": {
+                "mdc_code": "Sd.y=k p3-Ss 100 r 10"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-6619",
+                        "name": "Papyrus Berlin P. 6619 Recto",
+                        "type": "manuscript",
+                        "mathematical": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "šd", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "šs", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الحادي عشر؛ حساب الجذر للمساحة الحقيقية 'شس مئة إر مِت' (جذر 100 هو 10)."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000501-S12",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T02:31:50.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-501",
+                "sequence_no": 12,
+                "transliteration": "rḏỉ.t 10 r-gsw 1 4' r 8",
+                "hieroglyph": "𓂞𓏏𓎆𓂋𓎼𓋴𓅱𓏤𓏤𓏤𓂋𓎆𓏤𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "اقسم الـ 10 على ناتج الجذر الأول (واحد وربع)، ليعطيك 8 وهو معامل التصحيح الفعلي.",
+                "english": "Divide 10 by 1 + 1/4 (5/4), to get 8.",
+                "german": "Teile 10 durch 1 + 1/4 (5/4), um 8 zu erhalten.",
+                "french": "Divisez 10 par 1 + 1/4 (5/4), pour obtenir 8.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "infinitive_rdi_with_comparative_division"
+            },
+            "layer4_writing": {
+                "mdc_code": "rdi.t 10 r-gsw 1 4' r 8"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-6619",
+                        "name": "Papyrus Berlin P. 6619 Recto",
+                        "type": "manuscript",
+                        "mathematical": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "rḏỉ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "r-gsw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الثاني عشر؛ قسمة الـ 10 على 5/4 لتعطي الرقم 8 وهو مفتاح الحل الفعلي والنهائي للمعادلة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000501-S13",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T02:32:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-501",
+                "sequence_no": 13,
+                "transliteration": "sw.t r-f s tpy r 8",
+                "hieroglyph": "𓇋𓅱𓆑𓂋𓆑𓊃𓏤𓏏𓊪𓏭𓂋𓎆𓏤𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وهذا هو طول ضلع المربع الحقيقي الأكبر، وهو يبلغ 8 أذرع.",
+                "english": "This is the side of the larger square, which is 8.",
+                "german": "Dies ist die Seite des größeren Quadrats, welche 8 ist.",
+                "french": "C'est le côté du plus grand carré, qui est 8.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "nominal_subject_with_numerical_predicate"
+            },
+            "layer4_writing": {
+                "mdc_code": "sw.t r-f s tpy r 8"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-6619",
+                        "name": "Papyrus Berlin P. 6619 Recto",
+                        "type": "manuscript",
+                        "mathematical": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "sw.t", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "s", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "tpy", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الثالث عشر؛ إعلان القيمة الصحيحة للضلع الأكبر للمربع الأول وهو 8."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000501-S14",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T02:32:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-501",
+                "sequence_no": 14,
+                "transliteration": "s ky r-f m 8 r-gsw 2' 4' r 6",
+                "hieroglyph": "𓊃𓏤𓎡𓇋𓇋𓂋𓆑𓐝𓎆𓏤𓏤𓂋𓎼𓋴𓅱𓂝𓏤𓏏𓏤𓂋𓏤𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وطول ضلع المربع الآخر المجهول هو 8 مضروباً في (نصف وربع)، ليعطيك 6 أذرع وهو الضلع الثاني.",
+                "english": "And the other side is 8 multiplied by 1/2 + 1/4 (3/4), to get 6.",
+                "german": "Und die andere Seite ist 8 multipliziert mit 1/2 + 1/4 (3/4), um 6 zu erhalten.",
+                "french": "Et l'autre côté est 8 multiplié par 1/2 + 1/4 (3/4), pour obtenir 6.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "nominal_subject_with_comparative_multiplication"
+            },
+            "layer4_writing": {
+                "mdc_code": "s ky r-f m 8 r-gsw 2' 4' r 6"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-6619",
+                        "name": "Papyrus Berlin P. 6619 Recto",
+                        "type": "manuscript",
+                        "mathematical": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "s", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ky", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "r-gsw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الرابع عشر؛ ضرب معامل التصحيح 8 في النسبة 3/4 ليعطي طول الضلع الثاني وهو 6. وبذلك يتم التحقق من المعادلة: 8² + 6² = 64 + 36 = 100."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000501-S15",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T02:32:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-501",
+                "sequence_no": 15,
+                "transliteration": "ỉw.f pw m ḥtp",
+                "hieroglyph": "𓇋𓅱𓆑𓊪𓅱𓐝𓊵𓏏𓊪",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "لقد تم حل المسألة وانتهت بسلام كامل وبدقة.",
+                "english": "It has come to an end in peace.",
+                "german": "Es ist in Frieden vollendet.",
+                "french": "Cela s'est terminé en paix.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "traditional_egyptian_scribal_colophon_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "iw.f pw m Htp"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-6619",
+                        "name": "Papyrus Berlin P. 6619 Recto",
+                        "type": "manuscript",
+                        "mathematical": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "iw.f-pw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥtp", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الخامس عشر والأخير؛ الخاتمة السجلية المعهودة لإنهاء المسائل بنجاح بسلام."
+            }
+        }
+    ]
+}

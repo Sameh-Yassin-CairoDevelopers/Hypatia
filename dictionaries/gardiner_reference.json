@@ -1,0 +1,5558 @@
+[
+    {
+        "gardiner": "A1",
+        "glyph": "𓀀",
+        "description": "Seated man\tDet. of man, names; Pronoun1st sing. i, wi, ink, kwi. “I,” “me,” “my.”",
+        "details": "A2"
+    },
+    {
+        "gardiner": "A11",
+        "glyph": "𓀍",
+        "description": "Man with scepter and crook\tDet. ḫnms “friend.”",
+        "details": "A12"
+    },
+    {
+        "gardiner": "A13",
+        "glyph": "𓀏",
+        "description": "Man with arms bound\tDet. ḫfty “enemy.”",
+        "details": "A14"
+    },
+    {
+        "gardiner": "A15",
+        "glyph": "𓀒",
+        "description": "Man falling\tDet. ḫr “fall,” sḫrt “overthrow.”",
+        "details": "A16"
+    },
+    {
+        "gardiner": "A17",
+        "glyph": "𓀔",
+        "description": "Child with hand to mouth\tDet. šri “young.” Ideo. ẖrd “child.”",
+        "details": "A17a"
+    },
+    {
+        "gardiner": "A18",
+        "glyph": "𓀖",
+        "description": "Child wearing red crown\tDet. child-king",
+        "details": "A19"
+    },
+    {
+        "gardiner": "A20",
+        "glyph": "𓀘",
+        "description": "Man leaning on forked stick\tVar. of A19.",
+        "details": "A21"
+    },
+    {
+        "gardiner": "A22",
+        "glyph": "𓀚",
+        "description": "Statue of man with stick and scepter\tDet. statue.",
+        "details": "A23"
+    },
+    {
+        "gardiner": "A24",
+        "glyph": "𓀜",
+        "description": "Man striking with stick in both hands\tDet. ḥwi, “strike,” nḥm “take away.” Ideo. nḫt strong.",
+        "details": "A25"
+    },
+    {
+        "gardiner": "A26",
+        "glyph": "𓀞",
+        "description": "Man beckoning\tDet. nis “call.” Ideo. vocative i, “Oh!”",
+        "details": "A27"
+    },
+    {
+        "gardiner": "A28",
+        "glyph": "𓀠",
+        "description": "Man with arms raised\tDet. ḳ3 “high,” ḥʿi “rejoice.”",
+        "details": "A29"
+    },
+    {
+        "gardiner": "A3",
+        "glyph": "𓀂",
+        "description": "Man sitting on heel\tDet. of sit.",
+        "details": "A4"
+    },
+    {
+        "gardiner": "A30",
+        "glyph": "𓀢",
+        "description": "Man with arms outstretched\tDet. i3w “praise,” dw3 “adoration.”",
+        "details": "A31"
+    },
+    {
+        "gardiner": "A32",
+        "glyph": "𓀤",
+        "description": "Man dancing\tDet. dance.",
+        "details": ""
+    },
+    {
+        "gardiner": "A33",
+        "glyph": "𓀦",
+        "description": "Man with stick and bundle\tDet. wander, herdsman.",
+        "details": "A34"
+    },
+    {
+        "gardiner": "A35",
+        "glyph": "𓀨",
+        "description": "Man building a wall\tDet. and Ideo. ḳd “build.”",
+        "details": "A36"
+    },
+    {
+        "gardiner": "A37",
+        "glyph": "𓀪",
+        "description": "Commoner form A36\tUse as A36.",
+        "details": "A38"
+    },
+    {
+        "gardiner": "A39",
+        "glyph": "𓀬",
+        "description": "Man holding two giraffes\tUse as A38.",
+        "details": "A40"
+    },
+    {
+        "gardiner": "A41",
+        "glyph": "𓀯",
+        "description": "Seated king\tDet. nsw “king,”  ḥm “majesty,” nb “lord.”",
+        "details": "A42"
+    },
+    {
+        "gardiner": "A43",
+        "glyph": "𓀲",
+        "description": "King wearing white crown of Upper Egypt\tDet. king of Upper Egypt.",
+        "details": "A43a"
+    },
+    {
+        "gardiner": "A44",
+        "glyph": "𓀴",
+        "description": "King holding flail and wearing white crown of Upper Egypt\tUse as A43.",
+        "details": "A45"
+    },
+    {
+        "gardiner": "A46",
+        "glyph": "𓀷",
+        "description": "King holding flail and wearing red crown of Lower Egypt.\tSame as A45",
+        "details": "A47"
+    },
+    {
+        "gardiner": "A48",
+        "glyph": "𓀹",
+        "description": "Man holding knife\tDet. iry “relating to.”",
+        "details": "A49"
+    },
+    {
+        "gardiner": "A5",
+        "glyph": "𓀄",
+        "description": "Man hiding\tDet. hide",
+        "details": "A5a"
+    },
+    {
+        "gardiner": "A50",
+        "glyph": "𓀻",
+        "description": "Noble seated on chair\tDet. revered person, deceased. Var. A1 for 1st sing. pronoun.",
+        "details": "A51"
+    },
+    {
+        "gardiner": "A52",
+        "glyph": "𓀽",
+        "description": "Kneeling noble with flail\tDet. revered person, deceased.",
+        "details": "A53"
+    },
+    {
+        "gardiner": "A54",
+        "glyph": "𓀿",
+        "description": "Recumbent mummy\tDet. dead.",
+        "details": "A55"
+    },
+    {
+        "gardiner": "A59",
+        "glyph": "𓁄",
+        "description": "Man threatening stick with one hand\tDet. drive off.",
+        "details": "B. Woman and Her Occupations"
+    },
+    {
+        "gardiner": "A6",
+        "glyph": "𓀆",
+        "description": "Man purifying\tDet. purity, cleanliness",
+        "details": "A6a"
+    },
+    {
+        "gardiner": "A7",
+        "glyph": "𓀉",
+        "description": "Fatigued man\tDet. weary, weak",
+        "details": "A8"
+    },
+    {
+        "gardiner": "A9",
+        "glyph": "𓀋",
+        "description": "Man with basket on head\tDet. in 3ṯp “load,” f3i “carry,” k3t “work.”",
+        "details": "A10"
+    },
+    {
+        "gardiner": "B1",
+        "glyph": "𓁐",
+        "description": "Seated Woman\tDet. woman, name. Sometimes for A1 1st sing. pronoun – i",
+        "details": "B2"
+    },
+    {
+        "gardiner": "B3",
+        "glyph": "𓁒",
+        "description": "Woman giving birth\tDet. and Ideo. msi “give birth, bear.”",
+        "details": "B4"
+    },
+    {
+        "gardiner": "B5",
+        "glyph": "𓁔",
+        "description": "Woman nursing child\tDet. mnʿt “nurse.”",
+        "details": "B6"
+    },
+    {
+        "gardiner": "B7",
+        "glyph": "𓁗",
+        "description": "Seated queen holding flower\tDet. queens’ names.",
+        "details": "C. Anthropomorphic Deities"
+    },
+    {
+        "gardiner": "C1",
+        "glyph": "𓁚",
+        "description": "God with sun-disk and uraeus\tDet. and Ideo. Rʿ “Re, sun-god”",
+        "details": "C2"
+    },
+    {
+        "gardiner": "C11",
+        "glyph": "𓁨",
+        "description": "ḥḥ-figure\tIdeo. ḥḥ “million,” god Heh.",
+        "details": "C12"
+    },
+    {
+        "gardiner": "C17",
+        "glyph": "𓁮",
+        "description": "Montu\tDet. and Ideo Mntw “Montu.”",
+        "details": "C18"
+    },
+    {
+        "gardiner": "C19",
+        "glyph": "𓁰",
+        "description": "Ptah\tDet. and Ideo. Ptḥ “Ptah.”",
+        "details": "C20"
+    },
+    {
+        "gardiner": "C3",
+        "glyph": "𓁟",
+        "description": "God with ibis head\tDet. or Ideo. ḏḥwty “Thoth”",
+        "details": "C4"
+    },
+    {
+        "gardiner": "C5",
+        "glyph": "𓁡",
+        "description": "God with ram head holding ʿnḫ\tUse as C4.",
+        "details": "C6"
+    },
+    {
+        "gardiner": "C7",
+        "glyph": "𓁣",
+        "description": "God with Seth head\tDet. and Ideo. Stḫ “Seth.”",
+        "details": "C8"
+    },
+    {
+        "gardiner": "C9",
+        "glyph": "𓁥",
+        "description": "Goddess with horned sun-disk\tDet. and Ideo.",
+        "details": "C10"
+    },
+    {
+        "gardiner": "D1",
+        "glyph": "𓁶",
+        "description": "Head\tPhono. tp. Det. or Ideo. for tp “head,” tpy “first, chief.” Det. ḏ3ḏ3“head.”",
+        "details": "D2"
+    },
+    {
+        "gardiner": "D11",
+        "glyph": "𓂁",
+        "description": "White part of w3ḏt eye\t1/2 ḥeqat measure of grain.",
+        "details": "D12"
+    },
+    {
+        "gardiner": "D13",
+        "glyph": "𓂃",
+        "description": "Eyebrow\t1/8 ḥeqat measure of grain.",
+        "details": "D14"
+    },
+    {
+        "gardiner": "D15",
+        "glyph": "𓂅",
+        "description": "Part of w3ḏt eye markings\t1/32 ḥeqat measure of grain.",
+        "details": "D16"
+    },
+    {
+        "gardiner": "D17",
+        "glyph": "𓂇",
+        "description": "Markings of w3ḏt eye\tDet. or Ideo. for tit “figure, image.”",
+        "details": "D18"
+    },
+    {
+        "gardiner": "D19",
+        "glyph": "𓂉",
+        "description": "Eye, nose, and cheek\tDet. or Ideo. for fnd “nose.” Det. sn “smell,” rš “rejoice.”",
+        "details": "D20"
+    },
+    {
+        "gardiner": "D21",
+        "glyph": "𓂋",
+        "description": "Mouth\tPhon. r. Ideo. for r “mouth.”",
+        "details": "D22"
+    },
+    {
+        "gardiner": "D23",
+        "glyph": "𓂍",
+        "description": "Mouth with three lines\tIdeo. for ḫmt rw “3/4.”",
+        "details": "D24"
+    },
+    {
+        "gardiner": "D25",
+        "glyph": "𓂏",
+        "description": "Lips with teeth\tDet. or Ideo. for spty “lips.”",
+        "details": "D26"
+    },
+    {
+        "gardiner": "D27",
+        "glyph": "𓂑",
+        "description": "Breast\tDet. for breast, suckle. ex. mnḏ “breast”",
+        "details": "D27a"
+    },
+    {
+        "gardiner": "D28",
+        "glyph": "𓂓",
+        "description": "Two arms\tPhono. k3. Ideo. for k3 “soul.”",
+        "details": "D29"
+    },
+    {
+        "gardiner": "D3",
+        "glyph": "𓁸",
+        "description": "Hair\tDet. for šny “hair,” iwn “complexion, nature.” Abbr. for gm wš “found missing.”",
+        "details": "D4"
+    },
+    {
+        "gardiner": "D30",
+        "glyph": "𓂕",
+        "description": "Two arms with tail\tDet. for nḥb-k3w “Uniter of Attributes, Assigner of Kas,” name of mythical serpent deity.",
+        "details": "D31"
+    },
+    {
+        "gardiner": "D32",
+        "glyph": "𓂘",
+        "description": "Two arms embracing\tDet. for embrace, open. ex. inḳ “envelop,” ḥpt “embrace.”",
+        "details": "D33"
+    },
+    {
+        "gardiner": "D34",
+        "glyph": "𓂚",
+        "description": "Arms with shield and axe\tIdeo. for ʿḥ3 “fight”",
+        "details": "D34a"
+    },
+    {
+        "gardiner": "D35",
+        "glyph": "𓂜",
+        "description": "Negative arms\tPhono. n. Ideo. for n and nn, “not.” Det. negation.",
+        "details": "D36"
+    },
+    {
+        "gardiner": "D37",
+        "glyph": "𓂞",
+        "description": "Arm holding sign X8\tPhono. di in rdi “give.”",
+        "details": "D38"
+    },
+    {
+        "gardiner": "D39",
+        "glyph": "𓂠",
+        "description": "Arm holding W24\tDet. for offer, present. ex. ḥnk “present,” drp “offer.”",
+        "details": "D40"
+    },
+    {
+        "gardiner": "D41",
+        "glyph": "𓂢",
+        "description": "Arm with downward facing palm\tPhono. ni. Det. for arm. ex. rmn “arm, shoulder.”",
+        "details": "D42"
+    },
+    {
+        "gardiner": "D43",
+        "glyph": "𓂤",
+        "description": "Arm with flail\tPhono. ḫw. Ideo. for ḫwi “protect.",
+        "details": "D44"
+    },
+    {
+        "gardiner": "D45",
+        "glyph": "𓂦",
+        "description": "Arm with brush\tDet. and Ideo. for ḏsr “clear road, sacred, holy.”",
+        "details": "D46"
+    },
+    {
+        "gardiner": "D47",
+        "glyph": "𓂩",
+        "description": "Hand\tDet. for ḏrt “hand” when spelled with Phono.",
+        "details": "D48"
+    },
+    {
+        "gardiner": "D49",
+        "glyph": "𓂬",
+        "description": "Fist\tDet. for grasp. ex. 3mm “grasp,” ḫfʿ “seize.”",
+        "details": "D50"
+    },
+    {
+        "gardiner": "D5",
+        "glyph": "𓁺",
+        "description": "Eye with paint\tDet. for actions or conditions of the eye. ex. dgi “look,” šp “blind.”",
+        "details": "D6"
+    },
+    {
+        "gardiner": "D51",
+        "glyph": "𓂷",
+        "description": "Horizontal finger\tDet. for actions related to finger, fruit, flower. ex. ʿnt “nail,” ḫ3i “measure,” dḳr “fruit.”",
+        "details": "D52"
+    },
+    {
+        "gardiner": "D53",
+        "glyph": "𓂺",
+        "description": "Penis with liquid\tDet. for male, penis. ex. m b3ḥ “in the presence of” ḏr b3ḥ “since,” r b3ḥ “before.”",
+        "details": "D54"
+    },
+    {
+        "gardiner": "D55",
+        "glyph": "𓂽",
+        "description": "Legs walking (reverse of D54)\tDet. for backwards. ex. ʿnn “turn back,” ḫtḫt “be reversed.”",
+        "details": "D56"
+    },
+    {
+        "gardiner": "D57",
+        "glyph": "𓂿",
+        "description": "Leg with T30\tDet. for mutilate. ex. i3ṯ “be mutilated.”",
+        "details": "D58"
+    },
+    {
+        "gardiner": "D59",
+        "glyph": "𓃁",
+        "description": "Foot with D36\tPhono. ʿb",
+        "details": "D60"
+    },
+    {
+        "gardiner": "D61",
+        "glyph": "𓃃",
+        "description": "Toes\tIdeo. for s3ḥ “toe”",
+        "details": "D62"
+    },
+    {
+        "gardiner": "D63",
+        "glyph": "𓃅",
+        "description": "Var. D61\tUse as D61.",
+        "details": ""
+    },
+    {
+        "gardiner": "D7",
+        "glyph": "𓁼",
+        "description": "Eye with paint\tDet. for adorn and in ʿnw ” “Anu” (location).",
+        "details": "D8"
+    },
+    {
+        "gardiner": "D9",
+        "glyph": "𓁿",
+        "description": "Eye weeping\tDet. or Ideo. for rmi “weep.”",
+        "details": "D10"
+    },
+    {
+        "gardiner": "E1",
+        "glyph": "𓃒",
+        "description": "Bull\tDet. of cattle. ex. ng “bull,” mnmnt “cattle.” Ideo. in k3 “bull.”",
+        "details": "E2"
+    },
+    {
+        "gardiner": "E1",
+        "glyph": "𓃒",
+        "description": "Bull\tDet. of cattle. ex. ng “bull,” mnmnt “cattle.” Ideo. in k3 “bull.”",
+        "details": "E2"
+    },
+    {
+        "gardiner": "E11",
+        "glyph": "𓃞",
+        "description": "Ram\tUse as E10",
+        "details": "E12"
+    },
+    {
+        "gardiner": "E11",
+        "glyph": "𓃞",
+        "description": "Ram\tUse as E10",
+        "details": "E12"
+    },
+    {
+        "gardiner": "E13",
+        "glyph": "𓃠",
+        "description": "Cat\tDet. in miw “cat.”",
+        "details": "E14"
+    },
+    {
+        "gardiner": "E13",
+        "glyph": "𓃠",
+        "description": "Cat\tDet. in miw “cat.”",
+        "details": "E14"
+    },
+    {
+        "gardiner": "E15",
+        "glyph": "𓃢",
+        "description": "Recumbent Jackal\tDet. or Ideo. in Inpw, “Anubis.”",
+        "details": "E16"
+    },
+    {
+        "gardiner": "E15",
+        "glyph": "𓃢",
+        "description": "Recumbent Jackal\tDet. or Ideo. in Inpw, “Anubis.”",
+        "details": "E16"
+    },
+    {
+        "gardiner": "E17",
+        "glyph": "𓃥",
+        "description": "Jackal\tDet. or Ideo. in s3b “jackal” and “dignitary.”",
+        "details": "E18"
+    },
+    {
+        "gardiner": "E17",
+        "glyph": "𓃥",
+        "description": "Jackal\tDet. or Ideo. in s3b “jackal” and “dignitary.”",
+        "details": "E18"
+    },
+    {
+        "gardiner": "E19",
+        "glyph": "𓃨",
+        "description": "O.K. form of last\tUse as E18",
+        "details": "E20"
+    },
+    {
+        "gardiner": "E19",
+        "glyph": "𓃨",
+        "description": "O.K. form of last\tUse as E18",
+        "details": "E20"
+    },
+    {
+        "gardiner": "E21",
+        "glyph": "𓃫",
+        "description": "Recumbent Seth animal\tDet. in nšni “storm, rage.”",
+        "details": "E22"
+    },
+    {
+        "gardiner": "E21",
+        "glyph": "𓃫",
+        "description": "Recumbent Seth animal\tDet. in nšni “storm, rage.”",
+        "details": "E22"
+    },
+    {
+        "gardiner": "E23",
+        "glyph": "𓃭",
+        "description": "Recumbent Lion\tPhon. rw. Det. or Ideo. in rw “lion.”",
+        "details": "E24"
+    },
+    {
+        "gardiner": "E23",
+        "glyph": "𓃭",
+        "description": "Recumbent Lion\tPhon. rw. Det. or Ideo. in rw “lion.”",
+        "details": "E24"
+    },
+    {
+        "gardiner": "E25",
+        "glyph": "𓃯",
+        "description": "Hippopotamus\tDet. in db, dib “hippopotamus.”",
+        "details": "E26"
+    },
+    {
+        "gardiner": "E25",
+        "glyph": "𓃯",
+        "description": "Hippopotamus\tDet. in db, dib “hippopotamus.”",
+        "details": "E26"
+    },
+    {
+        "gardiner": "E27",
+        "glyph": "𓃱",
+        "description": "Giraffe\tDet. sr “foretell.” Det. or Ideo in mmi “giraffe.”",
+        "details": "E28"
+    },
+    {
+        "gardiner": "E27",
+        "glyph": "𓃱",
+        "description": "Giraffe\tDet. sr “foretell.” Det. or Ideo in mmi “giraffe.”",
+        "details": "E28"
+    },
+    {
+        "gardiner": "E29",
+        "glyph": "𓃴",
+        "description": "Gazelle\tDet. in gḥs “gazelle.”",
+        "details": "E30"
+    },
+    {
+        "gardiner": "E29",
+        "glyph": "𓃴",
+        "description": "Gazelle\tDet. in gḥs “gazelle.”",
+        "details": "E30"
+    },
+    {
+        "gardiner": "E3",
+        "glyph": "𓃔",
+        "description": "Calf\tDet. in bḥs “calf”",
+        "details": "E4"
+    },
+    {
+        "gardiner": "E3",
+        "glyph": "𓃔",
+        "description": "Calf\tDet. in bḥs “calf”",
+        "details": "E4"
+    },
+    {
+        "gardiner": "E31",
+        "glyph": "𓃶",
+        "description": "Goat with collar\tDet. in sʿḥ “rank, privilege.”",
+        "details": "E32"
+    },
+    {
+        "gardiner": "E31",
+        "glyph": "𓃶",
+        "description": "Goat with collar\tDet. in sʿḥ “rank, privilege.”",
+        "details": "E32"
+    },
+    {
+        "gardiner": "E33",
+        "glyph": "𓃸",
+        "description": "Monkey\tDet. gf, gif “monkey.”",
+        "details": "E34"
+    },
+    {
+        "gardiner": "E33",
+        "glyph": "𓃸",
+        "description": "Monkey\tDet. gf, gif “monkey.”",
+        "details": "E34"
+    },
+    {
+        "gardiner": "E5",
+        "glyph": "𓃖",
+        "description": "Cow with calf\tDet. in 3ms “show solicitude.”",
+        "details": "E6"
+    },
+    {
+        "gardiner": "E5",
+        "glyph": "𓃖",
+        "description": "Cow with calf\tDet. in 3ms “show solicitude.”",
+        "details": "E6"
+    },
+    {
+        "gardiner": "E7",
+        "glyph": "𓃘",
+        "description": "Donkey\tDet. in ʿ3 “donkey.”",
+        "details": "E8"
+    },
+    {
+        "gardiner": "E7",
+        "glyph": "𓃘",
+        "description": "Donkey\tDet. in ʿ3 “donkey.”",
+        "details": "E8"
+    },
+    {
+        "gardiner": "E9",
+        "glyph": "𓃚",
+        "description": "Newborn bubalis\tPhon. iw. In iwr “conceive.”",
+        "details": "E10"
+    },
+    {
+        "gardiner": "E9",
+        "glyph": "𓃚",
+        "description": "Newborn bubalis\tPhon. iw. In iwr “conceive.”",
+        "details": "E10"
+    },
+    {
+        "gardiner": "F1",
+        "glyph": "𓃾",
+        "description": "Head of ox\tIdeo. in offering formulas for k3 “cattle.”",
+        "details": "F2"
+    },
+    {
+        "gardiner": "F1",
+        "glyph": "𓃾",
+        "description": "Head of ox\tIdeo. in offering formulas for k3 “cattle.”",
+        "details": "F2"
+    },
+    {
+        "gardiner": "F11",
+        "glyph": "𓄉",
+        "description": "O.K. form of F10\tUse as F10",
+        "details": "F12"
+    },
+    {
+        "gardiner": "F11",
+        "glyph": "𓄉",
+        "description": "O.K. form of F10\tUse as F10",
+        "details": "F12"
+    },
+    {
+        "gardiner": "F13",
+        "glyph": "𓄋",
+        "description": "Horns of ox\tPhon. wp. Ideo. in wpt “brow, beginning.”",
+        "details": "F14"
+    },
+    {
+        "gardiner": "F13",
+        "glyph": "𓄋",
+        "description": "Horns of ox\tPhon. wp. Ideo. in wpt “brow, beginning.”",
+        "details": "F14"
+    },
+    {
+        "gardiner": "F15",
+        "glyph": "𓄎",
+        "description": "Combination of F14 and N5\tUse as F14",
+        "details": "F16"
+    },
+    {
+        "gardiner": "F15",
+        "glyph": "𓄎",
+        "description": "Combination of F14 and N5\tUse as F14",
+        "details": "F16"
+    },
+    {
+        "gardiner": "F17",
+        "glyph": "𓄐",
+        "description": "Combination of F16 and D60 water vessel\tDet. or Ideo. in ʿbw “purification.”",
+        "details": "F18"
+    },
+    {
+        "gardiner": "F17",
+        "glyph": "𓄐",
+        "description": "Combination of F16 and D60 water vessel\tDet. or Ideo. in ʿbw “purification.”",
+        "details": "F18"
+    },
+    {
+        "gardiner": "F19",
+        "glyph": "𓄒",
+        "description": "Jawbone of ox\tDet. in ʿrt “jaw.”",
+        "details": "F20"
+    },
+    {
+        "gardiner": "F19",
+        "glyph": "𓄒",
+        "description": "Jawbone of ox\tDet. in ʿrt “jaw.”",
+        "details": "F20"
+    },
+    {
+        "gardiner": "F21",
+        "glyph": "𓄔",
+        "description": "Ear of ox\tPhono. sḏm, idn. Det. or Ideo. in msḏr “ear. Ideo. sḏm, “hear.”",
+        "details": "F22"
+    },
+    {
+        "gardiner": "F21",
+        "glyph": "𓄔",
+        "description": "Ear of ox\tPhono. sḏm, idn. Det. or Ideo. in msḏr “ear. Ideo. sḏm, “hear.”",
+        "details": "F22"
+    },
+    {
+        "gardiner": "F23",
+        "glyph": "𓄗",
+        "description": "Foreleg of ox\tDet. or Ideo. in ḫpš “strong arm, leg.”",
+        "details": "F24"
+    },
+    {
+        "gardiner": "F23",
+        "glyph": "𓄗",
+        "description": "Foreleg of ox\tDet. or Ideo. in ḫpš “strong arm, leg.”",
+        "details": "F24"
+    },
+    {
+        "gardiner": "F25",
+        "glyph": "𓄙",
+        "description": "Leg and hoof of ox\tPhono. wḥm in “hoof,” “repeat.”",
+        "details": "F26"
+    },
+    {
+        "gardiner": "F25",
+        "glyph": "𓄙",
+        "description": "Leg and hoof of ox\tPhono. wḥm in “hoof,” “repeat.”",
+        "details": "F26"
+    },
+    {
+        "gardiner": "F27",
+        "glyph": "𓄛",
+        "description": "Cowskin\tDet. in dḥr “hide,” msk3 “skin.”",
+        "details": "F28"
+    },
+    {
+        "gardiner": "F27",
+        "glyph": "𓄛",
+        "description": "Cowskin\tDet. in dḥr “hide,” msk3 “skin.”",
+        "details": "F28"
+    },
+    {
+        "gardiner": "F29",
+        "glyph": "𓄝",
+        "description": "Combination of F28 + arrow\tPhono. st. Det. and Ideo. sti “pierce, shoot.”",
+        "details": "F30"
+    },
+    {
+        "gardiner": "F29",
+        "glyph": "𓄝",
+        "description": "Combination of F28 + arrow\tPhono. st. Det. and Ideo. sti “pierce, shoot.”",
+        "details": "F30"
+    },
+    {
+        "gardiner": "F3",
+        "glyph": "𓄁",
+        "description": "Head of hippopotamus\tPhono. 3t. Det. or Ideo. in “moment, attack.”",
+        "details": "F4"
+    },
+    {
+        "gardiner": "F3",
+        "glyph": "𓄁",
+        "description": "Head of hippopotamus\tPhono. 3t. Det. or Ideo. in “moment, attack.”",
+        "details": "F4"
+    },
+    {
+        "gardiner": "F31",
+        "glyph": "𓄟",
+        "description": "Three fox skins\tPhono. ms. In msi “give birth.”",
+        "details": "F32"
+    },
+    {
+        "gardiner": "F31",
+        "glyph": "𓄟",
+        "description": "Three fox skins\tPhono. ms. In msi “give birth.”",
+        "details": "F32"
+    },
+    {
+        "gardiner": "F33",
+        "glyph": "𓄢",
+        "description": "Tail\tPhono. sd. Det. and Ideo in sd “tail.”",
+        "details": "F34"
+    },
+    {
+        "gardiner": "F33",
+        "glyph": "𓄢",
+        "description": "Tail\tPhono. sd. Det. and Ideo in sd “tail.”",
+        "details": "F34"
+    },
+    {
+        "gardiner": "F35",
+        "glyph": "𓄤",
+        "description": "Heart and windpipe\tPhono. nfr. In nfr “good, beautiful.”",
+        "details": "F36"
+    },
+    {
+        "gardiner": "F35",
+        "glyph": "𓄤",
+        "description": "Heart and windpipe\tPhono. nfr. In nfr “good, beautiful.”",
+        "details": "F36"
+    },
+    {
+        "gardiner": "F37",
+        "glyph": "𓄦",
+        "description": "Backbone and ribs\tDet. or Ideo. in i3t “back.” Det. in psd “back.”",
+        "details": "F38"
+    },
+    {
+        "gardiner": "F37",
+        "glyph": "𓄦",
+        "description": "Backbone and ribs\tDet. or Ideo. in i3t “back.” Det. in psd “back.”",
+        "details": "F38"
+    },
+    {
+        "gardiner": "F39",
+        "glyph": "𓄪",
+        "description": "Backbone and spinal cord\tDet. and Ideo. in im3ḫ “spine” and “honor.”",
+        "details": "F40"
+    },
+    {
+        "gardiner": "F39",
+        "glyph": "𓄪",
+        "description": "Backbone and spinal cord\tDet. and Ideo. in im3ḫ “spine” and “honor.”",
+        "details": "F40"
+    },
+    {
+        "gardiner": "F41",
+        "glyph": "𓄬",
+        "description": "Vertebrae\tDet. in psd “back.”",
+        "details": "F42"
+    },
+    {
+        "gardiner": "F41",
+        "glyph": "𓄬",
+        "description": "Vertebrae\tDet. in psd “back.”",
+        "details": "F42"
+    },
+    {
+        "gardiner": "F43",
+        "glyph": "𓄮",
+        "description": "Ribs\tDet. in sḥpt “ribs.”",
+        "details": "F44"
+    },
+    {
+        "gardiner": "F43",
+        "glyph": "𓄮",
+        "description": "Ribs\tDet. in sḥpt “ribs.”",
+        "details": "F44"
+    },
+    {
+        "gardiner": "F45",
+        "glyph": "𓄰",
+        "description": "Heifer uterus\tDet. or Ideo. in dit “vulva, cow.”",
+        "details": "F46"
+    },
+    {
+        "gardiner": "F45",
+        "glyph": "𓄰",
+        "description": "Heifer uterus\tDet. or Ideo. in dit “vulva, cow.”",
+        "details": "F46"
+    },
+    {
+        "gardiner": "F47",
+        "glyph": "𓄴",
+        "description": "Var. of F46\tUse as F46.",
+        "details": "F48"
+    },
+    {
+        "gardiner": "F47",
+        "glyph": "𓄴",
+        "description": "Var. of F46\tUse as F46.",
+        "details": "F48"
+    },
+    {
+        "gardiner": "F49",
+        "glyph": "𓄷",
+        "description": "Var. of F46\tUse as F46.",
+        "details": "F50"
+    },
+    {
+        "gardiner": "F49",
+        "glyph": "𓄷",
+        "description": "Var. of F46\tUse as F46.",
+        "details": "F50"
+    },
+    {
+        "gardiner": "F5",
+        "glyph": "𓄃",
+        "description": "Head of bubalis\tPhon. šs3. Det. and Ideo. in šs3 “skilled” and “prayer.”",
+        "details": "F6"
+    },
+    {
+        "gardiner": "F5",
+        "glyph": "𓄃",
+        "description": "Head of bubalis\tPhon. šs3. Det. and Ideo. in šs3 “skilled” and “prayer.”",
+        "details": "F6"
+    },
+    {
+        "gardiner": "F51",
+        "glyph": "𓄹",
+        "description": "Piece of flesh\tPhono. is, ist, ws. Det. ḥʿ “flesh,” iwf “meat.”",
+        "details": "F52"
+    },
+    {
+        "gardiner": "F51",
+        "glyph": "𓄹",
+        "description": "Piece of flesh\tPhono. is, ist, ws. Det. ḥʿ “flesh,” iwf “meat.”",
+        "details": "F52"
+    },
+    {
+        "gardiner": "F7",
+        "glyph": "𓄅",
+        "description": "Head of ram\tDet. in šft “ram’s head.” Det. or Ideo. in šfyt “worth, dignity.”",
+        "details": "F8"
+    },
+    {
+        "gardiner": "F7",
+        "glyph": "𓄅",
+        "description": "Head of ram\tDet. in šft “ram’s head.” Det. or Ideo. in šfyt “worth, dignity.”",
+        "details": "F8"
+    },
+    {
+        "gardiner": "F9",
+        "glyph": "𓄇",
+        "description": "Head of leopard\tDet. or Ideo. in pḥty “strength.”",
+        "details": "F10"
+    },
+    {
+        "gardiner": "F9",
+        "glyph": "𓄇",
+        "description": "Head of leopard\tDet. or Ideo. in pḥty “strength.”",
+        "details": "F10"
+    },
+    {
+        "gardiner": "G1",
+        "glyph": "𓄿",
+        "description": "Vulture\tPhono. 3. In 3 “vulture.’",
+        "details": "G2"
+    },
+    {
+        "gardiner": "G1",
+        "glyph": "𓄿",
+        "description": "Vulture\tPhono. 3. In 3 “vulture.’",
+        "details": "G2"
+    },
+    {
+        "gardiner": "G10",
+        "glyph": "𓅋",
+        "description": "Falcon in sacred bark\tDet. in skr “Sokar,” ḥnw “Sokar bark.”",
+        "details": "G11"
+    },
+    {
+        "gardiner": "G10",
+        "glyph": "𓅋",
+        "description": "Falcon in sacred bark\tDet. in skr “Sokar,” ḥnw “Sokar bark.”",
+        "details": "G11"
+    },
+    {
+        "gardiner": "G12",
+        "glyph": "𓅎",
+        "description": "Falcon image with flail\tUse as G11.",
+        "details": "G13"
+    },
+    {
+        "gardiner": "G12",
+        "glyph": "𓅎",
+        "description": "Falcon image with flail\tUse as G11.",
+        "details": "G13"
+    },
+    {
+        "gardiner": "G14",
+        "glyph": "𓅐",
+        "description": "Vulture\tPhono. mwt, mt. In mwt “mother.”",
+        "details": "G15"
+    },
+    {
+        "gardiner": "G14",
+        "glyph": "𓅐",
+        "description": "Vulture\tPhono. mwt, mt. In mwt “mother.”",
+        "details": "G15"
+    },
+    {
+        "gardiner": "G16",
+        "glyph": "𓅒",
+        "description": "Nehkbet and Edjo\tIdeo. in nbty “Two Ladies” (title of Pharaoh)",
+        "details": "G17"
+    },
+    {
+        "gardiner": "G16",
+        "glyph": "𓅒",
+        "description": "Nehkbet and Edjo\tIdeo. in nbty “Two Ladies” (title of Pharaoh)",
+        "details": "G17"
+    },
+    {
+        "gardiner": "G18",
+        "glyph": "𓅔",
+        "description": "Two Owls\tPhono. mm.",
+        "details": "G19"
+    },
+    {
+        "gardiner": "G18",
+        "glyph": "𓅔",
+        "description": "Two Owls\tPhono. mm.",
+        "details": "G19"
+    },
+    {
+        "gardiner": "G20",
+        "glyph": "𓅖",
+        "description": "Combination of G17 + D36\tUse as G19.",
+        "details": "G21"
+    },
+    {
+        "gardiner": "G20",
+        "glyph": "𓅖",
+        "description": "Combination of G17 + D36\tUse as G19.",
+        "details": "G21"
+    },
+    {
+        "gardiner": "G22",
+        "glyph": "𓅙",
+        "description": "Hoopoe\tPhono. ḏb/ḏbt.",
+        "details": "G23"
+    },
+    {
+        "gardiner": "G22",
+        "glyph": "𓅙",
+        "description": "Hoopoe\tPhono. ḏb/ḏbt.",
+        "details": "G23"
+    },
+    {
+        "gardiner": "G24",
+        "glyph": "𓅛",
+        "description": "Var. of G23\tUse as G23.",
+        "details": "G25"
+    },
+    {
+        "gardiner": "G24",
+        "glyph": "𓅛",
+        "description": "Var. of G23\tUse as G23.",
+        "details": "G25"
+    },
+    {
+        "gardiner": "G26",
+        "glyph": "𓅝",
+        "description": "Sacred ibis on standard\tDet. in ḏḥwty “Thoth.”",
+        "details": "G26a"
+    },
+    {
+        "gardiner": "G26",
+        "glyph": "𓅝",
+        "description": "Sacred ibis on standard\tDet. in ḏḥwty “Thoth.”",
+        "details": "G26a"
+    },
+    {
+        "gardiner": "G27",
+        "glyph": "𓅟",
+        "description": "Flamingo\tPhono. dšr. In dšr “red,” “flamingo.”",
+        "details": "G28"
+    },
+    {
+        "gardiner": "G27",
+        "glyph": "𓅟",
+        "description": "Flamingo\tPhono. dšr. In dšr “red,” “flamingo.”",
+        "details": "G28"
+    },
+    {
+        "gardiner": "G29",
+        "glyph": "𓅡",
+        "description": "Jabiru\tPhono. b3. In “soul.”",
+        "details": "G30"
+    },
+    {
+        "gardiner": "G29",
+        "glyph": "𓅡",
+        "description": "Jabiru\tPhono. b3. In “soul.”",
+        "details": "G30"
+    },
+    {
+        "gardiner": "G3",
+        "glyph": "𓅁",
+        "description": "Combination of G1 + U1\tPhono. in m3. In sm3wy “renew.”",
+        "details": "G4"
+    },
+    {
+        "gardiner": "G3",
+        "glyph": "𓅁",
+        "description": "Combination of G1 + U1\tPhono. in m3. In sm3wy “renew.”",
+        "details": "G4"
+    },
+    {
+        "gardiner": "G31",
+        "glyph": "𓅣",
+        "description": "Heron\tDet. in šnty “heron.”",
+        "details": "G32"
+    },
+    {
+        "gardiner": "G31",
+        "glyph": "𓅣",
+        "description": "Heron\tDet. in šnty “heron.”",
+        "details": "G32"
+    },
+    {
+        "gardiner": "G33",
+        "glyph": "𓅥",
+        "description": "Egret\tDet. sd3 “tremble.”",
+        "details": "G34"
+    },
+    {
+        "gardiner": "G33",
+        "glyph": "𓅥",
+        "description": "Egret\tDet. sd3 “tremble.”",
+        "details": "G34"
+    },
+    {
+        "gardiner": "G35",
+        "glyph": "𓅧",
+        "description": "Cormorant\tPhono. ʿq. In ʿq “enter.”",
+        "details": "G36"
+    },
+    {
+        "gardiner": "G35",
+        "glyph": "𓅧",
+        "description": "Cormorant\tPhono. ʿq. In ʿq “enter.”",
+        "details": "G36"
+    },
+    {
+        "gardiner": "G37",
+        "glyph": "𓅪",
+        "description": "Sparrow\tDet. in nḏs “small,” bin “bad.”",
+        "details": "G38"
+    },
+    {
+        "gardiner": "G37",
+        "glyph": "𓅪",
+        "description": "Sparrow\tDet. in nḏs “small,” bin “bad.”",
+        "details": "G38"
+    },
+    {
+        "gardiner": "G39",
+        "glyph": "𓅭",
+        "description": "Duck\tPhono. s3. In s3 “son.” Det. in si “duck.”",
+        "details": "G40"
+    },
+    {
+        "gardiner": "G39",
+        "glyph": "𓅭",
+        "description": "Duck\tPhono. s3. In s3 “son.” Det. in si “duck.”",
+        "details": "G40"
+    },
+    {
+        "gardiner": "G41",
+        "glyph": "𓅯",
+        "description": "Duck landing\tPhono. ḫn. In ḫni “alight, halt,” ḫn “speech,” qm3 “throw,” “create.”",
+        "details": "G42"
+    },
+    {
+        "gardiner": "G41",
+        "glyph": "𓅯",
+        "description": "Duck landing\tPhono. ḫn. In ḫni “alight, halt,” ḫn “speech,” qm3 “throw,” “create.”",
+        "details": "G42"
+    },
+    {
+        "gardiner": "G43",
+        "glyph": "𓅱",
+        "description": "Quail chick, var. Z7\tPhono. w.",
+        "details": "G44"
+    },
+    {
+        "gardiner": "G43",
+        "glyph": "𓅱",
+        "description": "Quail chick, var. Z7\tPhono. w.",
+        "details": "G44"
+    },
+    {
+        "gardiner": "G45",
+        "glyph": "𓅴",
+        "description": "Combination of G43 + D36\tPhono wʿ.In wʿw “soldier.”",
+        "details": "G46"
+    },
+    {
+        "gardiner": "G45",
+        "glyph": "𓅴",
+        "description": "Combination of G43 + D36\tPhono wʿ.In wʿw “soldier.”",
+        "details": "G46"
+    },
+    {
+        "gardiner": "G47",
+        "glyph": "𓅷",
+        "description": "Duckling\tPhono. ṯ3. In ṯ3y “male.”",
+        "details": "G48"
+    },
+    {
+        "gardiner": "G47",
+        "glyph": "𓅷",
+        "description": "Duckling\tPhono. ṯ3. In ṯ3y “male.”",
+        "details": "G48"
+    },
+    {
+        "gardiner": "G49",
+        "glyph": "𓅹",
+        "description": "Ducks’ heads protruding from pool\tDet. or Ideo. in sš “nest.”",
+        "details": "G50"
+    },
+    {
+        "gardiner": "G49",
+        "glyph": "𓅹",
+        "description": "Ducks’ heads protruding from pool\tDet. or Ideo. in sš “nest.”",
+        "details": "G50"
+    },
+    {
+        "gardiner": "G5",
+        "glyph": "𓅃",
+        "description": "Falcon\tIdeo. ḥrw “Horus.”",
+        "details": "G6"
+    },
+    {
+        "gardiner": "G5",
+        "glyph": "𓅃",
+        "description": "Falcon\tIdeo. ḥrw “Horus.”",
+        "details": "G6"
+    },
+    {
+        "gardiner": "G51",
+        "glyph": "𓅻",
+        "description": "Bird pecking fish\tDet. in ḥ3m “catch fish.”",
+        "details": "G52"
+    },
+    {
+        "gardiner": "G51",
+        "glyph": "𓅻",
+        "description": "Bird pecking fish\tDet. in ḥ3m “catch fish.”",
+        "details": "G52"
+    },
+    {
+        "gardiner": "G53",
+        "glyph": "𓅽",
+        "description": "Human headed bird\tIdeo. in b3 “soul.”",
+        "details": "G54"
+    },
+    {
+        "gardiner": "G53",
+        "glyph": "𓅽",
+        "description": "Human headed bird\tIdeo. in b3 “soul.”",
+        "details": "G54"
+    },
+    {
+        "gardiner": "G7",
+        "glyph": "𓅆",
+        "description": "Falcon on standard\tDet. imn “Amun,” nsw “king,” divine. 1st sing. pro. i, wi, with divine speaker.",
+        "details": "G7a"
+    },
+    {
+        "gardiner": "G7",
+        "glyph": "𓅆",
+        "description": "Falcon on standard\tDet. imn “Amun,” nsw “king,” divine. 1st sing. pro. i, wi, with divine speaker.",
+        "details": "G7a"
+    },
+    {
+        "gardiner": "G8",
+        "glyph": "𓅉",
+        "description": "Combination of G5 + S12\tIdeo. Hr/bik nbw “Golden Horus/falcon.”",
+        "details": "G9"
+    },
+    {
+        "gardiner": "G8",
+        "glyph": "𓅉",
+        "description": "Combination of G5 + S12\tIdeo. Hr/bik nbw “Golden Horus/falcon.”",
+        "details": "G9"
+    },
+    {
+        "gardiner": "H1",
+        "glyph": "𓅿",
+        "description": "Head of duck\tIdeo. in 3pd “bird.” Det. in wšn “wring the neck of birds.”",
+        "details": "H2"
+    },
+    {
+        "gardiner": "H1",
+        "glyph": "𓅿",
+        "description": "Head of duck\tIdeo. in 3pd “bird.” Det. in wšn “wring the neck of birds.”",
+        "details": "H2"
+    },
+    {
+        "gardiner": "H3",
+        "glyph": "𓆁",
+        "description": "Head of spoonbill\tPhono. p3q.",
+        "details": "H4"
+    },
+    {
+        "gardiner": "H3",
+        "glyph": "𓆁",
+        "description": "Head of spoonbill\tPhono. p3q.",
+        "details": "H4"
+    },
+    {
+        "gardiner": "H5",
+        "glyph": "𓆃",
+        "description": "Wing\tDet. in ḏnḥ “wing.”",
+        "details": "H6"
+    },
+    {
+        "gardiner": "H5",
+        "glyph": "𓆃",
+        "description": "Wing\tDet. in ḏnḥ “wing.”",
+        "details": "H6"
+    },
+    {
+        "gardiner": "H7",
+        "glyph": "𓆆",
+        "description": "Claw\tPhono. š3, š3t. In š3t “Shat” (location).",
+        "details": "H8"
+    },
+    {
+        "gardiner": "H7",
+        "glyph": "𓆆",
+        "description": "Claw\tPhono. š3, š3t. In š3t “Shat” (location).",
+        "details": "H8"
+    },
+    {
+        "gardiner": "I1",
+        "glyph": "𓆈",
+        "description": "Lizard\tPhono. ʿš3. Det. for lizard. ex. ʿš3 “lizard” and ʿš3 “many, numerous.”",
+        "details": "I2"
+    },
+    {
+        "gardiner": "I1",
+        "glyph": "𓆈",
+        "description": "Lizard\tPhono. ʿš3. Det. for lizard. ex. ʿš3 “lizard” and ʿš3 “many, numerous.”",
+        "details": "I2"
+    },
+    {
+        "gardiner": "I11",
+        "glyph": "𓆕",
+        "description": "Two cobras\tPhono ḏḏ.",
+        "details": "I12"
+    },
+    {
+        "gardiner": "I11",
+        "glyph": "𓆕",
+        "description": "Two cobras\tPhono ḏḏ.",
+        "details": "I12"
+    },
+    {
+        "gardiner": "I13",
+        "glyph": "𓆘",
+        "description": "Combination of I12 + V30\tDet. in w3ḏt “Wadjet.”",
+        "details": "I14"
+    },
+    {
+        "gardiner": "I13",
+        "glyph": "𓆘",
+        "description": "Combination of I12 + V30\tDet. in w3ḏt “Wadjet.”",
+        "details": "I14"
+    },
+    {
+        "gardiner": "I15",
+        "glyph": "𓆚",
+        "description": "Var. of I15\tUse as I14.",
+        "details": "K. Fish and Parts of Fish"
+    },
+    {
+        "gardiner": "I15",
+        "glyph": "𓆚",
+        "description": "Var. of I15\tUse as I14.",
+        "details": "K. Fish and Parts of Fish"
+    },
+    {
+        "gardiner": "I3",
+        "glyph": "𓆊",
+        "description": "Crocodile\tDet. or Ideo. for crocodile. ex. msḥ “crocodile,” 3d “agressive.” Ideo. ity “sovereign,” when reduplicated",
+        "details": "I4"
+    },
+    {
+        "gardiner": "I3",
+        "glyph": "𓆊",
+        "description": "Crocodile\tDet. or Ideo. for crocodile. ex. msḥ “crocodile,” 3d “agressive.” Ideo. ity “sovereign,” when reduplicated",
+        "details": "I4"
+    },
+    {
+        "gardiner": "I5",
+        "glyph": "𓆌",
+        "description": "Crocodile with curved tail\tDet. in s3q “collect, gather.”",
+        "details": "I6"
+    },
+    {
+        "gardiner": "I5",
+        "glyph": "𓆌",
+        "description": "Crocodile with curved tail\tDet. in s3q “collect, gather.”",
+        "details": "I6"
+    },
+    {
+        "gardiner": "I7",
+        "glyph": "𓆏",
+        "description": "Frog\tDet. in ḥqt “Heqet.” Ideo. wḥm ʿnḫ “repeating life.”",
+        "details": "I8"
+    },
+    {
+        "gardiner": "I7",
+        "glyph": "𓆏",
+        "description": "Frog\tDet. in ḥqt “Heqet.” Ideo. wḥm ʿnḫ “repeating life.”",
+        "details": "I8"
+    },
+    {
+        "gardiner": "I9",
+        "glyph": "𓆑",
+        "description": "Horned viper\tPhono. f. Det. in it “father.”",
+        "details": "I10"
+    },
+    {
+        "gardiner": "I9",
+        "glyph": "𓆑",
+        "description": "Horned viper\tPhono. f. Det. in it “father.”",
+        "details": "I10"
+    },
+    {
+        "gardiner": "K1",
+        "glyph": "𓆛",
+        "description": "Bulti fish\tPhono. in. In int “bulti.”",
+        "details": "K2"
+    },
+    {
+        "gardiner": "K1",
+        "glyph": "𓆛",
+        "description": "Bulti fish\tPhono. in. In int “bulti.”",
+        "details": "K2"
+    },
+    {
+        "gardiner": "K3",
+        "glyph": "𓆝",
+        "description": "Mullet fish\tPhono. ʿḏ. In ʿḏ-mr “district administrator.”",
+        "details": "K4"
+    },
+    {
+        "gardiner": "K3",
+        "glyph": "𓆝",
+        "description": "Mullet fish\tPhono. ʿḏ. In ʿḏ-mr “district administrator.”",
+        "details": "K4"
+    },
+    {
+        "gardiner": "K5",
+        "glyph": "𓆟",
+        "description": "Pike fish\tPhono. bs. Det. in bsi “introduce.”",
+        "details": "K6"
+    },
+    {
+        "gardiner": "K5",
+        "glyph": "𓆟",
+        "description": "Pike fish\tPhono. bs. Det. in bsi “introduce.”",
+        "details": "K6"
+    },
+    {
+        "gardiner": "K7",
+        "glyph": "𓆡",
+        "description": "Blowfish\tDet. špt “discontented.”",
+        "details": "L. Invertebrates and Lesser Animals"
+    },
+    {
+        "gardiner": "K7",
+        "glyph": "𓆡",
+        "description": "Blowfish\tDet. špt “discontented.”",
+        "details": "L. Invertebrates and Lesser Animals"
+    },
+    {
+        "gardiner": "L1",
+        "glyph": "𓆣",
+        "description": "Scarab beetle\tPhono. ḫpr. In ḫpr “being, exist, become.",
+        "details": "L2"
+    },
+    {
+        "gardiner": "L1",
+        "glyph": "𓆣",
+        "description": "Scarab beetle\tPhono. ḫpr. In ḫpr “being, exist, become.",
+        "details": "L2"
+    },
+    {
+        "gardiner": "L3",
+        "glyph": "𓆦",
+        "description": "Fly\tDet. in ʿff “fly.”",
+        "details": "L4"
+    },
+    {
+        "gardiner": "L3",
+        "glyph": "𓆦",
+        "description": "Fly\tDet. in ʿff “fly.”",
+        "details": "L4"
+    },
+    {
+        "gardiner": "L5",
+        "glyph": "𓆨",
+        "description": "Centipede\tDet. sp3 “centipede.”",
+        "details": "L6"
+    },
+    {
+        "gardiner": "L5",
+        "glyph": "𓆨",
+        "description": "Centipede\tDet. sp3 “centipede.”",
+        "details": "L6"
+    },
+    {
+        "gardiner": "L7",
+        "glyph": "𓆫",
+        "description": "Scorpion\tDet. and Ideo. in srqt “Selket.”",
+        "details": "M. Trees and Plants"
+    },
+    {
+        "gardiner": "L7",
+        "glyph": "𓆫",
+        "description": "Scorpion\tDet. and Ideo. in srqt “Selket.”",
+        "details": "M. Trees and Plants"
+    },
+    {
+        "gardiner": "M1",
+        "glyph": "𓆭",
+        "description": "Tree\tPhono. im3. Det. nhwt, mnw “trees.”",
+        "details": "M2"
+    },
+    {
+        "gardiner": "M1",
+        "glyph": "𓆭",
+        "description": "Tree\tPhono. im3. Det. nhwt, mnw “trees.”",
+        "details": "M2"
+    },
+    {
+        "gardiner": "M11",
+        "glyph": "𓆻",
+        "description": "Flower and stem\tDet. or Ideo. in wdn “offer.”",
+        "details": "M12"
+    },
+    {
+        "gardiner": "M11",
+        "glyph": "𓆻",
+        "description": "Flower and stem\tDet. or Ideo. in wdn “offer.”",
+        "details": "M12"
+    },
+    {
+        "gardiner": "M13",
+        "glyph": "𓇅",
+        "description": "Papyrus stem\tPhono. w3ḏ, wḏ.",
+        "details": "M14"
+    },
+    {
+        "gardiner": "M13",
+        "glyph": "𓇅",
+        "description": "Papyrus stem\tPhono. w3ḏ, wḏ.",
+        "details": "M14"
+    },
+    {
+        "gardiner": "M15",
+        "glyph": "𓇇",
+        "description": "Papyrus clump with downward facing buds.\tPhono. 3ḫ. In 3ḫ-bit “Chemmis.” Det. of Papyrus.",
+        "details": "M16"
+    },
+    {
+        "gardiner": "M15",
+        "glyph": "𓇇",
+        "description": "Papyrus clump with downward facing buds.\tPhono. 3ḫ. In 3ḫ-bit “Chemmis.” Det. of Papyrus.",
+        "details": "M16"
+    },
+    {
+        "gardiner": "M17",
+        "glyph": "𓇋",
+        "description": "Reed leaf\tPhono. i. Phono. y, when doubled.",
+        "details": "M18"
+    },
+    {
+        "gardiner": "M17",
+        "glyph": "𓇋",
+        "description": "Reed leaf\tPhono. i. Phono. y, when doubled.",
+        "details": "M18"
+    },
+    {
+        "gardiner": "M19",
+        "glyph": "𓇎",
+        "description": "Conical cakes between signs M17 and U36\tDet. and Ideo. in ʿ3bt “offering.”",
+        "details": "M20"
+    },
+    {
+        "gardiner": "M19",
+        "glyph": "𓇎",
+        "description": "Conical cakes between signs M17 and U36\tDet. and Ideo. in ʿ3bt “offering.”",
+        "details": "M20"
+    },
+    {
+        "gardiner": "M21",
+        "glyph": "𓇐",
+        "description": "Reed field with root\tDet. in sm “plant,” “help.”",
+        "details": "M22"
+    },
+    {
+        "gardiner": "M21",
+        "glyph": "𓇐",
+        "description": "Reed field with root\tDet. in sm “plant,” “help.”",
+        "details": "M22"
+    },
+    {
+        "gardiner": "M23",
+        "glyph": "𓇓",
+        "description": "Sedge\tPhono. sw. Ideo. nswt “king.”",
+        "details": "M24"
+    },
+    {
+        "gardiner": "M23",
+        "glyph": "𓇓",
+        "description": "Sedge\tPhono. sw. Ideo. nswt “king.”",
+        "details": "M24"
+    },
+    {
+        "gardiner": "M25",
+        "glyph": "𓇖",
+        "description": "Combination of M26 + M24\tUse as M24.",
+        "details": "M26"
+    },
+    {
+        "gardiner": "M25",
+        "glyph": "𓇖",
+        "description": "Combination of M26 + M24\tUse as M24.",
+        "details": "M26"
+    },
+    {
+        "gardiner": "M27",
+        "glyph": "𓇘",
+        "description": "Combination of M26 + D36\tPhono. šmʿ.",
+        "details": "M28"
+    },
+    {
+        "gardiner": "M27",
+        "glyph": "𓇘",
+        "description": "Combination of M26 + D36\tPhono. šmʿ.",
+        "details": "M28"
+    },
+    {
+        "gardiner": "M29",
+        "glyph": "𓇛",
+        "description": "Pod\tPhono. nḏm. In nḏm “sweet.",
+        "details": "M30"
+    },
+    {
+        "gardiner": "M29",
+        "glyph": "𓇛",
+        "description": "Pod\tPhono. nḏm. In nḏm “sweet.",
+        "details": "M30"
+    },
+    {
+        "gardiner": "M3",
+        "glyph": "𓆱",
+        "description": "Branch\tPhono. ḫt. In ḫt “wood,” ḫtyw “terrace,” nḫt “strong.”",
+        "details": "M4"
+    },
+    {
+        "gardiner": "M3",
+        "glyph": "𓆱",
+        "description": "Branch\tPhono. ḫt. In ḫt “wood,” ḫtyw “terrace,” nḫt “strong.”",
+        "details": "M4"
+    },
+    {
+        "gardiner": "M31",
+        "glyph": "𓇝",
+        "description": "Rhizome\tDet. in rd “grow.”",
+        "details": "M32"
+    },
+    {
+        "gardiner": "M31",
+        "glyph": "𓇝",
+        "description": "Rhizome\tDet. in rd “grow.”",
+        "details": "M32"
+    },
+    {
+        "gardiner": "M33",
+        "glyph": "𓇠",
+        "description": "Grain\tIdeo. in it “barley, corn.”",
+        "details": "M34"
+    },
+    {
+        "gardiner": "M33",
+        "glyph": "𓇠",
+        "description": "Grain\tIdeo. in it “barley, corn.”",
+        "details": "M34"
+    },
+    {
+        "gardiner": "M35",
+        "glyph": "𓇤",
+        "description": "Grain heap\tDet. in ʿḥʿw “heaps.”",
+        "details": "M36"
+    },
+    {
+        "gardiner": "M35",
+        "glyph": "𓇤",
+        "description": "Grain heap\tDet. in ʿḥʿw “heaps.”",
+        "details": "M36"
+    },
+    {
+        "gardiner": "M37",
+        "glyph": "𓇦",
+        "description": "Flax bundle with stems\tPhono. ḏr.",
+        "details": "M38"
+    },
+    {
+        "gardiner": "M37",
+        "glyph": "𓇦",
+        "description": "Flax bundle with stems\tPhono. ḏr.",
+        "details": "M38"
+    },
+    {
+        "gardiner": "M39",
+        "glyph": "𓇨",
+        "description": "Basket of fruit or grain\tDet. in rnpt “vegetables.”",
+        "details": "M40"
+    },
+    {
+        "gardiner": "M39",
+        "glyph": "𓇨",
+        "description": "Basket of fruit or grain\tDet. in rnpt “vegetables.”",
+        "details": "M40"
+    },
+    {
+        "gardiner": "M41",
+        "glyph": "𓇫",
+        "description": "Wood log\tDet. in ʿš “cedar.”",
+        "details": "M42"
+    },
+    {
+        "gardiner": "M41",
+        "glyph": "𓇫",
+        "description": "Wood log\tDet. in ʿš “cedar.”",
+        "details": "M42"
+    },
+    {
+        "gardiner": "M43",
+        "glyph": "𓇭",
+        "description": "Grape vines on props\tDet. or Ideo. in irp “wine.”",
+        "details": "M44"
+    },
+    {
+        "gardiner": "M43",
+        "glyph": "𓇭",
+        "description": "Grape vines on props\tDet. or Ideo. in irp “wine.”",
+        "details": "M44"
+    },
+    {
+        "gardiner": "M5",
+        "glyph": "𓆴",
+        "description": "Combination of M4 + X1\tDet. or Ideo. in tr “time, season.”",
+        "details": "M6"
+    },
+    {
+        "gardiner": "M5",
+        "glyph": "𓆴",
+        "description": "Combination of M4 + X1\tDet. or Ideo. in tr “time, season.”",
+        "details": "M6"
+    },
+    {
+        "gardiner": "M7",
+        "glyph": "𓆶",
+        "description": "Combination of M4 + Q3\tDet. or Ideo. in rnpi “young.”",
+        "details": "M8"
+    },
+    {
+        "gardiner": "M7",
+        "glyph": "𓆶",
+        "description": "Combination of M4 + Q3\tDet. or Ideo. in rnpi “young.”",
+        "details": "M8"
+    },
+    {
+        "gardiner": "M9",
+        "glyph": "𓆸",
+        "description": "Lily\tDet. or Ideo in sšn “lily.”",
+        "details": "M10"
+    },
+    {
+        "gardiner": "M9",
+        "glyph": "𓆸",
+        "description": "Lily\tDet. or Ideo in sšn “lily.”",
+        "details": "M10"
+    },
+    {
+        "gardiner": "N1",
+        "glyph": "𓇯",
+        "description": "Sky\tDet. or Ideo. pt “sky,” ḥrt “heaven,” ḥry “above.”",
+        "details": "N2"
+    },
+    {
+        "gardiner": "N1",
+        "glyph": "𓇯",
+        "description": "Sky\tDet. or Ideo. pt “sky,” ḥrt “heaven,” ḥry “above.”",
+        "details": "N2"
+    },
+    {
+        "gardiner": "N11",
+        "glyph": "𓇹",
+        "description": "Crescent moon\tIdeo. 3bd “month.” Det. iʿḥ “moon.”",
+        "details": "N12"
+    },
+    {
+        "gardiner": "N11",
+        "glyph": "𓇹",
+        "description": "Crescent moon\tIdeo. 3bd “month.” Det. iʿḥ “moon.”",
+        "details": "N12"
+    },
+    {
+        "gardiner": "N13",
+        "glyph": "𓇻",
+        "description": "Combination of half of N11 and N14\tIdeo. mḏdiwnt “half month festival.”",
+        "details": "N14"
+    },
+    {
+        "gardiner": "N13",
+        "glyph": "𓇻",
+        "description": "Combination of half of N11 and N14\tIdeo. mḏdiwnt “half month festival.”",
+        "details": "N14"
+    },
+    {
+        "gardiner": "N15",
+        "glyph": "𓇽",
+        "description": "Star encircled\tIdeo. in dw3t “netherworld.”",
+        "details": "N16"
+    },
+    {
+        "gardiner": "N15",
+        "glyph": "𓇽",
+        "description": "Star encircled\tIdeo. in dw3t “netherworld.”",
+        "details": "N16"
+    },
+    {
+        "gardiner": "N17",
+        "glyph": "𓇿",
+        "description": "Var. of N16\tUse as N16.",
+        "details": "N18"
+    },
+    {
+        "gardiner": "N17",
+        "glyph": "𓇿",
+        "description": "Var. of N16\tUse as N16.",
+        "details": "N18"
+    },
+    {
+        "gardiner": "N19",
+        "glyph": "𓈃",
+        "description": "Two strips of sand\tIdeo. in 3ḫt “horizon,” ḥrw-3ḫty “Horakhty.”",
+        "details": "N20"
+    },
+    {
+        "gardiner": "N19",
+        "glyph": "𓈃",
+        "description": "Two strips of sand\tIdeo. in 3ḫt “horizon,” ḥrw-3ḫty “Horakhty.”",
+        "details": "N20"
+    },
+    {
+        "gardiner": "N21",
+        "glyph": "𓈅",
+        "description": "Tongue of land\tIdeo. in idb “bank,” idbwy “two banks.”",
+        "details": "N22"
+    },
+    {
+        "gardiner": "N21",
+        "glyph": "𓈅",
+        "description": "Tongue of land\tIdeo. in idb “bank,” idbwy “two banks.”",
+        "details": "N22"
+    },
+    {
+        "gardiner": "N23",
+        "glyph": "𓈇",
+        "description": "Canal\tDet. in t3 “land,” i3š “boundary.”",
+        "details": "N24"
+    },
+    {
+        "gardiner": "N23",
+        "glyph": "𓈇",
+        "description": "Canal\tDet. in t3 “land,” i3š “boundary.”",
+        "details": "N24"
+    },
+    {
+        "gardiner": "N25",
+        "glyph": "𓈉",
+        "description": "Mountain rande\tIdeo. in ḫ3st “foreign land, hill country.”",
+        "details": "N26"
+    },
+    {
+        "gardiner": "N25",
+        "glyph": "𓈉",
+        "description": "Mountain rande\tIdeo. in ḫ3st “foreign land, hill country.”",
+        "details": "N26"
+    },
+    {
+        "gardiner": "N27",
+        "glyph": "𓈌",
+        "description": "Sunrise over mountain\tIdeo. in 3ḫt “horizon.”",
+        "details": "N28"
+    },
+    {
+        "gardiner": "N27",
+        "glyph": "𓈌",
+        "description": "Sunrise over mountain\tIdeo. in 3ḫt “horizon.”",
+        "details": "N28"
+    },
+    {
+        "gardiner": "N29",
+        "glyph": "𓈎",
+        "description": "Sandy slope\tPhono. q.",
+        "details": "N30"
+    },
+    {
+        "gardiner": "N29",
+        "glyph": "𓈎",
+        "description": "Sandy slope\tPhono. q.",
+        "details": "N30"
+    },
+    {
+        "gardiner": "N3",
+        "glyph": "𓇱",
+        "description": "Var. of N2\tUse as N2.",
+        "details": "N4"
+    },
+    {
+        "gardiner": "N3",
+        "glyph": "𓇱",
+        "description": "Var. of N2\tUse as N2.",
+        "details": "N4"
+    },
+    {
+        "gardiner": "N31",
+        "glyph": "𓈐",
+        "description": "Road bordered by shrubs\tDet. and Ideo. in w3t “road.”",
+        "details": "N32"
+    },
+    {
+        "gardiner": "N31",
+        "glyph": "𓈐",
+        "description": "Road bordered by shrubs\tDet. and Ideo. in w3t “road.”",
+        "details": "N32"
+    },
+    {
+        "gardiner": "N33",
+        "glyph": "𓈒",
+        "description": "Grain of sand\tDet. in nbw “gold.”",
+        "details": "N34"
+    },
+    {
+        "gardiner": "N33",
+        "glyph": "𓈒",
+        "description": "Grain of sand\tDet. in nbw “gold.”",
+        "details": "N34"
+    },
+    {
+        "gardiner": "N35",
+        "glyph": "𓈖",
+        "description": "Water ripple\tPhono. n.",
+        "details": "N35a"
+    },
+    {
+        "gardiner": "N35",
+        "glyph": "𓈖",
+        "description": "Water ripple\tPhono. n.",
+        "details": "N35a"
+    },
+    {
+        "gardiner": "N36",
+        "glyph": "𓈘",
+        "description": "Canal\tPhono. mr. In mr “canal.”",
+        "details": "N37"
+    },
+    {
+        "gardiner": "N36",
+        "glyph": "𓈘",
+        "description": "Canal\tPhono. mr. In mr “canal.”",
+        "details": "N37"
+    },
+    {
+        "gardiner": "N38",
+        "glyph": "𓈛",
+        "description": "Var. of N37\tUse as N37.",
+        "details": "N39"
+    },
+    {
+        "gardiner": "N38",
+        "glyph": "𓈛",
+        "description": "Var. of N37\tUse as N37.",
+        "details": "N39"
+    },
+    {
+        "gardiner": "N40",
+        "glyph": "𓈝",
+        "description": "Combination of N37 and D54\tPhono. šm. In šm “to go.”",
+        "details": "N41"
+    },
+    {
+        "gardiner": "N40",
+        "glyph": "𓈝",
+        "description": "Combination of N37 and D54\tPhono. šm. In šm “to go.”",
+        "details": "N41"
+    },
+    {
+        "gardiner": "N42",
+        "glyph": "𓈟",
+        "description": "Var. of N41\tUse as N41.",
+        "details": "O. Buildings, Parts of Buildings, etc."
+    },
+    {
+        "gardiner": "N42",
+        "glyph": "𓈟",
+        "description": "Var. of N41\tUse as N41.",
+        "details": "O. Buildings, Parts of Buildings, etc."
+    },
+    {
+        "gardiner": "N5",
+        "glyph": "𓇳",
+        "description": "Sun\tIdeo. rʿ “sun, Re” hrw “day,” sw “day.”",
+        "details": "N6"
+    },
+    {
+        "gardiner": "N5",
+        "glyph": "𓇳",
+        "description": "Sun\tIdeo. rʿ “sun, Re” hrw “day,” sw “day.”",
+        "details": "N6"
+    },
+    {
+        "gardiner": "N7",
+        "glyph": "𓇵",
+        "description": "Combination of N5 + T28\tDet. ẖrt-hrw “daytime.”",
+        "details": "N8"
+    },
+    {
+        "gardiner": "N7",
+        "glyph": "𓇵",
+        "description": "Combination of N5 + T28\tDet. ẖrt-hrw “daytime.”",
+        "details": "N8"
+    },
+    {
+        "gardiner": "N9",
+        "glyph": "𓇷",
+        "description": "Moon\tPhono. psḏ. In psḏt “Ennead.”",
+        "details": "N10"
+    },
+    {
+        "gardiner": "N9",
+        "glyph": "𓇷",
+        "description": "Moon\tPhono. psḏ. In psḏt “Ennead.”",
+        "details": "N10"
+    },
+    {
+        "gardiner": "O1",
+        "glyph": "𓉐",
+        "description": "House plan\tPhono. pr. In pr “house,” pri “go.”",
+        "details": "O2"
+    },
+    {
+        "gardiner": "O1",
+        "glyph": "𓉐",
+        "description": "House plan\tPhono. pr. In pr “house,” pri “go.”",
+        "details": "O2"
+    },
+    {
+        "gardiner": "O12",
+        "glyph": "𓉥",
+        "description": "Palace with battlements\tIdeo. in ʿḥ “palace.”",
+        "details": "O13"
+    },
+    {
+        "gardiner": "O12",
+        "glyph": "𓉥",
+        "description": "Palace with battlements\tIdeo. in ʿḥ “palace.”",
+        "details": "O13"
+    },
+    {
+        "gardiner": "O14",
+        "glyph": "𓉧",
+        "description": "Var. of O13\tUse as O13",
+        "details": "O15"
+    },
+    {
+        "gardiner": "O14",
+        "glyph": "𓉧",
+        "description": "Var. of O13\tUse as O13",
+        "details": "O15"
+    },
+    {
+        "gardiner": "O16",
+        "glyph": "𓉩",
+        "description": "Gateway with serpents\tDet. or Ideo. in t3yt “curtain,” t3yty “he of the curtain” (vizier title).",
+        "details": "O17"
+    },
+    {
+        "gardiner": "O16",
+        "glyph": "𓉩",
+        "description": "Gateway with serpents\tDet. or Ideo. in t3yt “curtain,” t3yty “he of the curtain” (vizier title).",
+        "details": "O17"
+    },
+    {
+        "gardiner": "O18",
+        "glyph": "𓉫",
+        "description": "Shrine in profile\tDet. or Ideo. in k3r “shrine, chapel.”",
+        "details": "O19"
+    },
+    {
+        "gardiner": "O18",
+        "glyph": "𓉫",
+        "description": "Shrine in profile\tDet. or Ideo. in k3r “shrine, chapel.”",
+        "details": "O19"
+    },
+    {
+        "gardiner": "O20",
+        "glyph": "𓉭",
+        "description": "Shrine\tDet. in itrt “row of sanctuaries,” ḫm “shrine.”",
+        "details": "O21"
+    },
+    {
+        "gardiner": "O20",
+        "glyph": "𓉭",
+        "description": "Shrine\tDet. in itrt “row of sanctuaries,” ḫm “shrine.”",
+        "details": "O21"
+    },
+    {
+        "gardiner": "O22",
+        "glyph": "𓉱",
+        "description": "Booth supported by pole\tDet. or Ideo. in sḥ “counsel,” “booth.”",
+        "details": "O23"
+    },
+    {
+        "gardiner": "O22",
+        "glyph": "𓉱",
+        "description": "Booth supported by pole\tDet. or Ideo. in sḥ “counsel,” “booth.”",
+        "details": "O23"
+    },
+    {
+        "gardiner": "O24",
+        "glyph": "𓉳",
+        "description": "Pyramid surrounded by wall\tDet. in mr “pyramid.”",
+        "details": "O25"
+    },
+    {
+        "gardiner": "O24",
+        "glyph": "𓉳",
+        "description": "Pyramid surrounded by wall\tDet. in mr “pyramid.”",
+        "details": "O25"
+    },
+    {
+        "gardiner": "O26",
+        "glyph": "𓉶",
+        "description": "Stela\tDet. or Ideo. in wḏ “stela.”",
+        "details": "O27"
+    },
+    {
+        "gardiner": "O26",
+        "glyph": "𓉶",
+        "description": "Stela\tDet. or Ideo. in wḏ “stela.”",
+        "details": "O27"
+    },
+    {
+        "gardiner": "O28",
+        "glyph": "𓉹",
+        "description": "Column with tenon\tPhono iwn. In iwnw “Heliopolis,” iwn “column.”",
+        "details": "O29"
+    },
+    {
+        "gardiner": "O28",
+        "glyph": "𓉹",
+        "description": "Column with tenon\tPhono iwn. In iwnw “Heliopolis,” iwn “column.”",
+        "details": "O29"
+    },
+    {
+        "gardiner": "O29V",
+        "glyph": "𓉼",
+        "description": "Vertical wood column\tUse as O29",
+        "details": "O30"
+    },
+    {
+        "gardiner": "O29V",
+        "glyph": "𓉼",
+        "description": "Vertical wood column\tUse as O29",
+        "details": "O30"
+    },
+    {
+        "gardiner": "O3",
+        "glyph": "𓉓",
+        "description": "Combination of O1 + P8 + X3 + W22\tIdeo. in prt-ḫrw “invocation offering.”",
+        "details": "O4"
+    },
+    {
+        "gardiner": "O3",
+        "glyph": "𓉓",
+        "description": "Combination of O1 + P8 + X3 + W22\tIdeo. in prt-ḫrw “invocation offering.”",
+        "details": "O4"
+    },
+    {
+        "gardiner": "O31",
+        "glyph": "𓉿",
+        "description": "Door\tDet. in ʿ3 “door,” sn, wn “open.”",
+        "details": "O32"
+    },
+    {
+        "gardiner": "O31",
+        "glyph": "𓉿",
+        "description": "Door\tDet. in ʿ3 “door,” sn, wn “open.”",
+        "details": "O32"
+    },
+    {
+        "gardiner": "O33",
+        "glyph": "𓊁",
+        "description": "Palace or tomb facade\tDet. in srḫ “banner.”",
+        "details": "O34"
+    },
+    {
+        "gardiner": "O33",
+        "glyph": "𓊁",
+        "description": "Palace or tomb facade\tDet. in srḫ “banner.”",
+        "details": "O34"
+    },
+    {
+        "gardiner": "O35",
+        "glyph": "𓊄",
+        "description": "Combination of O34 + D54\tPhono. s. In sbi “go,” “perish,” ms “bring.”",
+        "details": "O36"
+    },
+    {
+        "gardiner": "O35",
+        "glyph": "𓊄",
+        "description": "Combination of O34 + D54\tPhono. s. In sbi “go,” “perish,” ms “bring.”",
+        "details": "O36"
+    },
+    {
+        "gardiner": "O37",
+        "glyph": "𓊊",
+        "description": "Falling wall\tDet. in whn “overthrow,” gs3 “tilt.”",
+        "details": "O38"
+    },
+    {
+        "gardiner": "O37",
+        "glyph": "𓊊",
+        "description": "Falling wall\tDet. in whn “overthrow,” gs3 “tilt.”",
+        "details": "O38"
+    },
+    {
+        "gardiner": "O39",
+        "glyph": "𓊌",
+        "description": "Stone slab\tDet. in inr “stone,” dbni “deben (weight),” ḏbt “brick.”",
+        "details": "O40"
+    },
+    {
+        "gardiner": "O39",
+        "glyph": "𓊌",
+        "description": "Stone slab\tDet. in inr “stone,” dbni “deben (weight),” ḏbt “brick.”",
+        "details": "O40"
+    },
+    {
+        "gardiner": "O41",
+        "glyph": "𓊎",
+        "description": "Double stairway\tDet. in q3y “high place,” iʿr “ascend.”",
+        "details": "O42"
+    },
+    {
+        "gardiner": "O41",
+        "glyph": "𓊎",
+        "description": "Double stairway\tDet. in q3y “high place,” iʿr “ascend.”",
+        "details": "O42"
+    },
+    {
+        "gardiner": "O43",
+        "glyph": "𓊐",
+        "description": "Var. of O42\tUse as O42",
+        "details": "O44"
+    },
+    {
+        "gardiner": "O43",
+        "glyph": "𓊐",
+        "description": "Var. of O42\tUse as O42",
+        "details": "O44"
+    },
+    {
+        "gardiner": "O45",
+        "glyph": "𓊒",
+        "description": "Domed building\tDet. or Ideo. in ipt “harim.”",
+        "details": "O46"
+    },
+    {
+        "gardiner": "O45",
+        "glyph": "𓊒",
+        "description": "Domed building\tDet. or Ideo. in ipt “harim.”",
+        "details": "O46"
+    },
+    {
+        "gardiner": "O47",
+        "glyph": "𓊔",
+        "description": "Enclosed mound\tIdeo. in nḫn “Hierakonpolis.”",
+        "details": "O48"
+    },
+    {
+        "gardiner": "O47",
+        "glyph": "𓊔",
+        "description": "Enclosed mound\tIdeo. in nḫn “Hierakonpolis.”",
+        "details": "O48"
+    },
+    {
+        "gardiner": "O49",
+        "glyph": "𓊖",
+        "description": "Area with crossroads\tIdeo. in niwt “town.”",
+        "details": "O50"
+    },
+    {
+        "gardiner": "O49",
+        "glyph": "𓊖",
+        "description": "Area with crossroads\tIdeo. in niwt “town.”",
+        "details": "O50"
+    },
+    {
+        "gardiner": "O5",
+        "glyph": "𓉕",
+        "description": "Winding wall\tPhono. nm. In nmi “traverse.”",
+        "details": "O6"
+    },
+    {
+        "gardiner": "O5",
+        "glyph": "𓉕",
+        "description": "Winding wall\tPhono. nm. In nmi “traverse.”",
+        "details": "O6"
+    },
+    {
+        "gardiner": "O51",
+        "glyph": "𓊚",
+        "description": "Grain mound on mud floor\tDet. or Ideo. in šnwt “granary.”",
+        "details": "P. Ships and Parts of Ships"
+    },
+    {
+        "gardiner": "O51",
+        "glyph": "𓊚",
+        "description": "Grain mound on mud floor\tDet. or Ideo. in šnwt “granary.”",
+        "details": "P. Ships and Parts of Ships"
+    },
+    {
+        "gardiner": "O7",
+        "glyph": "𓉞",
+        "description": "Var of O6\tUse as O6.",
+        "details": "O8"
+    },
+    {
+        "gardiner": "O7",
+        "glyph": "𓉞",
+        "description": "Var of O6\tUse as O6.",
+        "details": "O8"
+    },
+    {
+        "gardiner": "O9",
+        "glyph": "𓉠",
+        "description": "Combination of O7 + O30\tIdeo. in nbt-ḥyt “Nephthys.”",
+        "details": "O10"
+    },
+    {
+        "gardiner": "O9",
+        "glyph": "𓉠",
+        "description": "Combination of O7 + O30\tIdeo. in nbt-ḥyt “Nephthys.”",
+        "details": "O10"
+    },
+    {
+        "gardiner": "P1",
+        "glyph": "𓊛",
+        "description": "Boat on water\tDet. of boats. In dpt “ship,” ḥʿw “ships,” ḫdi “sail downstream.”",
+        "details": "P1a"
+    },
+    {
+        "gardiner": "P1",
+        "glyph": "𓊛",
+        "description": "Boat on water\tDet. of boats. In dpt “ship,” ḥʿw “ships,” ḫdi “sail downstream.”",
+        "details": "P1a"
+    },
+    {
+        "gardiner": "P10",
+        "glyph": "𓊦",
+        "description": "Steering oar\tDet. in ḥmw “steering oar,” ḥmy “steerer”",
+        "details": "P11"
+    },
+    {
+        "gardiner": "P10",
+        "glyph": "𓊦",
+        "description": "Steering oar\tDet. in ḥmw “steering oar,” ḥmy “steerer”",
+        "details": "P11"
+    },
+    {
+        "gardiner": "P2",
+        "glyph": "𓊝",
+        "description": "Ship sailing\tDet. in ḫnti “sail upstream.”",
+        "details": "P3"
+    },
+    {
+        "gardiner": "P2",
+        "glyph": "𓊝",
+        "description": "Ship sailing\tDet. in ḫnti “sail upstream.”",
+        "details": "P3"
+    },
+    {
+        "gardiner": "P4",
+        "glyph": "𓊠",
+        "description": "Boat with net\tPhono. wḥʿ. In wḥʿ “fisherman.”",
+        "details": "P5"
+    },
+    {
+        "gardiner": "P4",
+        "glyph": "𓊠",
+        "description": "Boat with net\tPhono. wḥʿ. In wḥʿ “fisherman.”",
+        "details": "P5"
+    },
+    {
+        "gardiner": "P6",
+        "glyph": "𓊢",
+        "description": "Mast\tPhono. ʿḥʿ. In ʿḥʿ “stand.”",
+        "details": "P7"
+    },
+    {
+        "gardiner": "P6",
+        "glyph": "𓊢",
+        "description": "Mast\tPhono. ʿḥʿ. In ʿḥʿ “stand.”",
+        "details": "P7"
+    },
+    {
+        "gardiner": "P8",
+        "glyph": "𓊤",
+        "description": "Oar\tPhono ḫrw. In m3ʿ ḫrw “justified” ḫrw “voice,” ḫrwy “enemy.”",
+        "details": "P9"
+    },
+    {
+        "gardiner": "P8",
+        "glyph": "𓊤",
+        "description": "Oar\tPhono ḫrw. In m3ʿ ḫrw “justified” ḫrw “voice,” ḫrwy “enemy.”",
+        "details": "P9"
+    },
+    {
+        "gardiner": "Q1",
+        "glyph": "𓊨",
+        "description": "Seat\tPhono. st, ws. In st “seat, place,” wsir “Osiris,” ḥtm “perish.”",
+        "details": "Q2"
+    },
+    {
+        "gardiner": "Q1",
+        "glyph": "𓊨",
+        "description": "Seat\tPhono. st, ws. In st “seat, place,” wsir “Osiris,” ḥtm “perish.”",
+        "details": "Q2"
+    },
+    {
+        "gardiner": "Q1",
+        "glyph": "𓊨",
+        "description": "Seat\tPhono. st, ws. In st “seat, place,” wsir “Osiris,” ḥtm “perish.”",
+        "details": "Q2"
+    },
+    {
+        "gardiner": "Q1",
+        "glyph": "𓊨",
+        "description": "Seat\tPhono. st, ws. In st “seat, place,” wsir “Osiris,” ḥtm “perish.”",
+        "details": "Q2"
+    },
+    {
+        "gardiner": "Q3",
+        "glyph": "𓊪",
+        "description": "Stool\tPhono. p.",
+        "details": "Q4"
+    },
+    {
+        "gardiner": "Q3",
+        "glyph": "𓊪",
+        "description": "Stool\tPhono. p.",
+        "details": "Q4"
+    },
+    {
+        "gardiner": "Q3",
+        "glyph": "𓊪",
+        "description": "Stool\tPhono. p.",
+        "details": "Q4"
+    },
+    {
+        "gardiner": "Q3",
+        "glyph": "𓊪",
+        "description": "Stool\tPhono. p.",
+        "details": "Q4"
+    },
+    {
+        "gardiner": "Q5",
+        "glyph": "𓊬",
+        "description": "Chest\tDet. in hn “box,” ʿfdt “chest.”",
+        "details": "Q6"
+    },
+    {
+        "gardiner": "Q5",
+        "glyph": "𓊬",
+        "description": "Chest\tDet. in hn “box,” ʿfdt “chest.”",
+        "details": "Q6"
+    },
+    {
+        "gardiner": "Q5",
+        "glyph": "𓊬",
+        "description": "Chest\tDet. in hn “box,” ʿfdt “chest.”",
+        "details": "Q6"
+    },
+    {
+        "gardiner": "Q5",
+        "glyph": "𓊬",
+        "description": "Chest\tDet. in hn “box,” ʿfdt “chest.”",
+        "details": "Q6"
+    },
+    {
+        "gardiner": "Q7",
+        "glyph": "𓊮",
+        "description": "Brazier with flame\tDet. of fire. In ḫt “fire,” sḏt “flame,” srf “temperature.”",
+        "details": "R. Temple Furniture and Sacred Emblems"
+    },
+    {
+        "gardiner": "Q7",
+        "glyph": "𓊮",
+        "description": "Brazier with flame\tDet. of fire. In ḫt “fire,” sḏt “flame,” srf “temperature.”",
+        "details": "R. Temple Furniture and Sacred Emblems"
+    },
+    {
+        "gardiner": "Q7",
+        "glyph": "𓊮",
+        "description": "Brazier with flame\tDet. of fire. In ḫt “fire,” sḏt “flame,” srf “temperature.”",
+        "details": "R. Temple Furniture and Sacred Emblems"
+    },
+    {
+        "gardiner": "Q7",
+        "glyph": "𓊮",
+        "description": "Brazier with flame\tDet. of fire. In ḫt “fire,” sḏt “flame,” srf “temperature.”",
+        "details": "R. Temple Furniture and Sacred Emblems"
+    },
+    {
+        "gardiner": "R1",
+        "glyph": "𓊯",
+        "description": "Table with jug and loaves\tDet. or Ideo. in ḫ3t, ḫ3wt “offering table.”",
+        "details": "R2"
+    },
+    {
+        "gardiner": "R1",
+        "glyph": "𓊯",
+        "description": "Table with jug and loaves\tDet. or Ideo. in ḫ3t, ḫ3wt “offering table.”",
+        "details": "R2"
+    },
+    {
+        "gardiner": "R1",
+        "glyph": "𓊯",
+        "description": "Table with jug and loaves\tDet. or Ideo. in ḫ3t, ḫ3wt “offering table.”",
+        "details": "R2"
+    },
+    {
+        "gardiner": "R1",
+        "glyph": "𓊯",
+        "description": "Table with jug and loaves\tDet. or Ideo. in ḫ3t, ḫ3wt “offering table.”",
+        "details": "R2"
+    },
+    {
+        "gardiner": "R11",
+        "glyph": "𓊽",
+        "description": "Reed column\tPhono. ḏd. In ḏd “stable,” ḏdw “Busiris.”",
+        "details": "R12"
+    },
+    {
+        "gardiner": "R11",
+        "glyph": "𓊽",
+        "description": "Reed column\tPhono. ḏd. In ḏd “stable,” ḏdw “Busiris.”",
+        "details": "R12"
+    },
+    {
+        "gardiner": "R11",
+        "glyph": "𓊽",
+        "description": "Reed column\tPhono. ḏd. In ḏd “stable,” ḏdw “Busiris.”",
+        "details": "R12"
+    },
+    {
+        "gardiner": "R11",
+        "glyph": "𓊽",
+        "description": "Reed column\tPhono. ḏd. In ḏd “stable,” ḏdw “Busiris.”",
+        "details": "R12"
+    },
+    {
+        "gardiner": "R13",
+        "glyph": "𓊿",
+        "description": "Combination of G5 + R14\tIdeo. in imnt “West,” wnmi “right.”",
+        "details": "R14"
+    },
+    {
+        "gardiner": "R13",
+        "glyph": "𓊿",
+        "description": "Combination of G5 + R14\tIdeo. in imnt “West,” wnmi “right.”",
+        "details": "R14"
+    },
+    {
+        "gardiner": "R13",
+        "glyph": "𓊿",
+        "description": "Combination of G5 + R14\tIdeo. in imnt “West,” wnmi “right.”",
+        "details": "R14"
+    },
+    {
+        "gardiner": "R13",
+        "glyph": "𓊿",
+        "description": "Combination of G5 + R14\tIdeo. in imnt “West,” wnmi “right.”",
+        "details": "R14"
+    },
+    {
+        "gardiner": "R15",
+        "glyph": "𓋁",
+        "description": "Spear as standard\tIdeo. in i3bt “East,” i3by “left.”",
+        "details": "R16"
+    },
+    {
+        "gardiner": "R15",
+        "glyph": "𓋁",
+        "description": "Spear as standard\tIdeo. in i3bt “East,” i3by “left.”",
+        "details": "R16"
+    },
+    {
+        "gardiner": "R15",
+        "glyph": "𓋁",
+        "description": "Spear as standard\tIdeo. in i3bt “East,” i3by “left.”",
+        "details": "R16"
+    },
+    {
+        "gardiner": "R15",
+        "glyph": "𓋁",
+        "description": "Spear as standard\tIdeo. in i3bt “East,” i3by “left.”",
+        "details": "R16"
+    },
+    {
+        "gardiner": "R17",
+        "glyph": "𓋄",
+        "description": "Feathered wig with pole\tDet. or Ideo. in t3-wr “This,” “nome of Abydos.”",
+        "details": "R18"
+    },
+    {
+        "gardiner": "R17",
+        "glyph": "𓋄",
+        "description": "Feathered wig with pole\tDet. or Ideo. in t3-wr “This,” “nome of Abydos.”",
+        "details": "R18"
+    },
+    {
+        "gardiner": "R17",
+        "glyph": "𓋄",
+        "description": "Feathered wig with pole\tDet. or Ideo. in t3-wr “This,” “nome of Abydos.”",
+        "details": "R18"
+    },
+    {
+        "gardiner": "R17",
+        "glyph": "𓋄",
+        "description": "Feathered wig with pole\tDet. or Ideo. in t3-wr “This,” “nome of Abydos.”",
+        "details": "R18"
+    },
+    {
+        "gardiner": "R19",
+        "glyph": "𓋆",
+        "description": "Combination of S40 + feather\tDet. in w3st “Thebes.”",
+        "details": "R20"
+    },
+    {
+        "gardiner": "R19",
+        "glyph": "𓋆",
+        "description": "Combination of S40 + feather\tDet. in w3st “Thebes.”",
+        "details": "R20"
+    },
+    {
+        "gardiner": "R19",
+        "glyph": "𓋆",
+        "description": "Combination of S40 + feather\tDet. in w3st “Thebes.”",
+        "details": "R20"
+    },
+    {
+        "gardiner": "R19",
+        "glyph": "𓋆",
+        "description": "Combination of S40 + feather\tDet. in w3st “Thebes.”",
+        "details": "R20"
+    },
+    {
+        "gardiner": "R21",
+        "glyph": "𓋈",
+        "description": "Var. of R20\tUse as R20.",
+        "details": "R22"
+    },
+    {
+        "gardiner": "R21",
+        "glyph": "𓋈",
+        "description": "Var. of R20\tUse as R20.",
+        "details": "R22"
+    },
+    {
+        "gardiner": "R21",
+        "glyph": "𓋈",
+        "description": "Var. of R20\tUse as R20.",
+        "details": "R22"
+    },
+    {
+        "gardiner": "R21",
+        "glyph": "𓋈",
+        "description": "Var. of R20\tUse as R20.",
+        "details": "R22"
+    },
+    {
+        "gardiner": "R23",
+        "glyph": "𓋊",
+        "description": "Var. of R22\tUse as R22",
+        "details": "R24"
+    },
+    {
+        "gardiner": "R23",
+        "glyph": "𓋊",
+        "description": "Var. of R22\tUse as R22",
+        "details": "R24"
+    },
+    {
+        "gardiner": "R23",
+        "glyph": "𓋊",
+        "description": "Var. of R22\tUse as R22",
+        "details": "R24"
+    },
+    {
+        "gardiner": "R23",
+        "glyph": "𓋊",
+        "description": "Var. of R22\tUse as R22",
+        "details": "R24"
+    },
+    {
+        "gardiner": "R25",
+        "glyph": "𓋌",
+        "description": "Var. of R24\tUse as R24.",
+        "details": "S. Crowns, Dress, Staves, etc."
+    },
+    {
+        "gardiner": "R25",
+        "glyph": "𓋌",
+        "description": "Var. of R24\tUse as R24.",
+        "details": "S. Crowns, Dress, Staves, etc."
+    },
+    {
+        "gardiner": "R25",
+        "glyph": "𓋌",
+        "description": "Var. of R24\tUse as R24.",
+        "details": "S. Crowns, Dress, Staves, etc."
+    },
+    {
+        "gardiner": "R25",
+        "glyph": "𓋌",
+        "description": "Var. of R24\tUse as R24.",
+        "details": "S. Crowns, Dress, Staves, etc."
+    },
+    {
+        "gardiner": "R3",
+        "glyph": "𓊲",
+        "description": "Low table with Jug and loaves\tDet. or Ideo. in wḥḏw “offering table.”",
+        "details": "R4"
+    },
+    {
+        "gardiner": "R3",
+        "glyph": "𓊲",
+        "description": "Low table with Jug and loaves\tDet. or Ideo. in wḥḏw “offering table.”",
+        "details": "R4"
+    },
+    {
+        "gardiner": "R3",
+        "glyph": "𓊲",
+        "description": "Low table with Jug and loaves\tDet. or Ideo. in wḥḏw “offering table.”",
+        "details": "R4"
+    },
+    {
+        "gardiner": "R3",
+        "glyph": "𓊲",
+        "description": "Low table with Jug and loaves\tDet. or Ideo. in wḥḏw “offering table.”",
+        "details": "R4"
+    },
+    {
+        "gardiner": "R5",
+        "glyph": "𓊶",
+        "description": "Censer\tDet. or Ideo. in k3p “fumigate.”",
+        "details": "R6"
+    },
+    {
+        "gardiner": "R5",
+        "glyph": "𓊶",
+        "description": "Censer\tDet. or Ideo. in k3p “fumigate.”",
+        "details": "R6"
+    },
+    {
+        "gardiner": "R5",
+        "glyph": "𓊶",
+        "description": "Censer\tDet. or Ideo. in k3p “fumigate.”",
+        "details": "R6"
+    },
+    {
+        "gardiner": "R5",
+        "glyph": "𓊶",
+        "description": "Censer\tDet. or Ideo. in k3p “fumigate.”",
+        "details": "R6"
+    },
+    {
+        "gardiner": "R7",
+        "glyph": "𓊸",
+        "description": "Incense bowl\tDet. or Ideo. in sntr “incense.”",
+        "details": "R8"
+    },
+    {
+        "gardiner": "R7",
+        "glyph": "𓊸",
+        "description": "Incense bowl\tDet. or Ideo. in sntr “incense.”",
+        "details": "R8"
+    },
+    {
+        "gardiner": "R7",
+        "glyph": "𓊸",
+        "description": "Incense bowl\tDet. or Ideo. in sntr “incense.”",
+        "details": "R8"
+    },
+    {
+        "gardiner": "R7",
+        "glyph": "𓊸",
+        "description": "Incense bowl\tDet. or Ideo. in sntr “incense.”",
+        "details": "R8"
+    },
+    {
+        "gardiner": "R9",
+        "glyph": "𓊺",
+        "description": "Combination of R8 + V33\tDet. or Ideo. in bd “incense.”",
+        "details": "R10"
+    },
+    {
+        "gardiner": "R9",
+        "glyph": "𓊺",
+        "description": "Combination of R8 + V33\tDet. or Ideo. in bd “incense.”",
+        "details": "R10"
+    },
+    {
+        "gardiner": "R9",
+        "glyph": "𓊺",
+        "description": "Combination of R8 + V33\tDet. or Ideo. in bd “incense.”",
+        "details": "R10"
+    },
+    {
+        "gardiner": "R9",
+        "glyph": "𓊺",
+        "description": "Combination of R8 + V33\tDet. or Ideo. in bd “incense.”",
+        "details": "R10"
+    },
+    {
+        "gardiner": "S1",
+        "glyph": "𓋑",
+        "description": "White crown of Upper Egypt\tDet. or Ideo. in ḥḏt “white crown.”",
+        "details": "S2"
+    },
+    {
+        "gardiner": "S1",
+        "glyph": "𓋑",
+        "description": "White crown of Upper Egypt\tDet. or Ideo. in ḥḏt “white crown.”",
+        "details": "S2"
+    },
+    {
+        "gardiner": "S1",
+        "glyph": "𓋑",
+        "description": "White crown of Upper Egypt\tDet. or Ideo. in ḥḏt “white crown.”",
+        "details": "S2"
+    },
+    {
+        "gardiner": "S1",
+        "glyph": "𓋑",
+        "description": "White crown of Upper Egypt\tDet. or Ideo. in ḥḏt “white crown.”",
+        "details": "S2"
+    },
+    {
+        "gardiner": "S11",
+        "glyph": "𓋝",
+        "description": "Collar\tPhono. wsḫ. In wsḫ “collar,” swsḫ “widen.”",
+        "details": "S12"
+    },
+    {
+        "gardiner": "S11",
+        "glyph": "𓋝",
+        "description": "Collar\tPhono. wsḫ. In wsḫ “collar,” swsḫ “widen.”",
+        "details": "S12"
+    },
+    {
+        "gardiner": "S11",
+        "glyph": "𓋝",
+        "description": "Collar\tPhono. wsḫ. In wsḫ “collar,” swsḫ “widen.”",
+        "details": "S12"
+    },
+    {
+        "gardiner": "S11",
+        "glyph": "𓋝",
+        "description": "Collar\tPhono. wsḫ. In wsḫ “collar,” swsḫ “widen.”",
+        "details": "S12"
+    },
+    {
+        "gardiner": "S13",
+        "glyph": "𓋟",
+        "description": "Combination of S12 + D58\tPhono. nb.",
+        "details": "S14"
+    },
+    {
+        "gardiner": "S13",
+        "glyph": "𓋟",
+        "description": "Combination of S12 + D58\tPhono. nb.",
+        "details": "S14"
+    },
+    {
+        "gardiner": "S13",
+        "glyph": "𓋟",
+        "description": "Combination of S12 + D58\tPhono. nb.",
+        "details": "S14"
+    },
+    {
+        "gardiner": "S13",
+        "glyph": "𓋟",
+        "description": "Combination of S12 + D58\tPhono. nb.",
+        "details": "S14"
+    },
+    {
+        "gardiner": "S15",
+        "glyph": "𓋣",
+        "description": "Faience pectoral\tDet. or Ideo. in ṯḥn “sparkle,” ṯḥnt “faience.”",
+        "details": "S16"
+    },
+    {
+        "gardiner": "S15",
+        "glyph": "𓋣",
+        "description": "Faience pectoral\tDet. or Ideo. in ṯḥn “sparkle,” ṯḥnt “faience.”",
+        "details": "S16"
+    },
+    {
+        "gardiner": "S15",
+        "glyph": "𓋣",
+        "description": "Faience pectoral\tDet. or Ideo. in ṯḥn “sparkle,” ṯḥnt “faience.”",
+        "details": "S16"
+    },
+    {
+        "gardiner": "S15",
+        "glyph": "𓋣",
+        "description": "Faience pectoral\tDet. or Ideo. in ṯḥn “sparkle,” ṯḥnt “faience.”",
+        "details": "S16"
+    },
+    {
+        "gardiner": "S17",
+        "glyph": "𓋥",
+        "description": "Var of S15\tUse as S15",
+        "details": "S18"
+    },
+    {
+        "gardiner": "S17",
+        "glyph": "𓋥",
+        "description": "Var of S15\tUse as S15",
+        "details": "S18"
+    },
+    {
+        "gardiner": "S17",
+        "glyph": "𓋥",
+        "description": "Var of S15\tUse as S15",
+        "details": "S18"
+    },
+    {
+        "gardiner": "S17",
+        "glyph": "𓋥",
+        "description": "Var of S15\tUse as S15",
+        "details": "S18"
+    },
+    {
+        "gardiner": "S19",
+        "glyph": "𓋨",
+        "description": "Necklace and cylinder seal\tIdeo. in sḏ3wty “treasurer,” sḏ3w “precious.” Det. or Ideo. in ḫtm “seal.”",
+        "details": "S20"
+    },
+    {
+        "gardiner": "S19",
+        "glyph": "𓋨",
+        "description": "Necklace and cylinder seal\tIdeo. in sḏ3wty “treasurer,” sḏ3w “precious.” Det. or Ideo. in ḫtm “seal.”",
+        "details": "S20"
+    },
+    {
+        "gardiner": "S19",
+        "glyph": "𓋨",
+        "description": "Necklace and cylinder seal\tIdeo. in sḏ3wty “treasurer,” sḏ3w “precious.” Det. or Ideo. in ḫtm “seal.”",
+        "details": "S20"
+    },
+    {
+        "gardiner": "S19",
+        "glyph": "𓋨",
+        "description": "Necklace and cylinder seal\tIdeo. in sḏ3wty “treasurer,” sḏ3w “precious.” Det. or Ideo. in ḫtm “seal.”",
+        "details": "S20"
+    },
+    {
+        "gardiner": "S21",
+        "glyph": "𓋪",
+        "description": "Ring\tDet. in iwʿw, ʿʿw, sšw “ring.”",
+        "details": "S22"
+    },
+    {
+        "gardiner": "S21",
+        "glyph": "𓋪",
+        "description": "Ring\tDet. in iwʿw, ʿʿw, sšw “ring.”",
+        "details": "S22"
+    },
+    {
+        "gardiner": "S21",
+        "glyph": "𓋪",
+        "description": "Ring\tDet. in iwʿw, ʿʿw, sšw “ring.”",
+        "details": "S22"
+    },
+    {
+        "gardiner": "S21",
+        "glyph": "𓋪",
+        "description": "Ring\tDet. in iwʿw, ʿʿw, sšw “ring.”",
+        "details": "S22"
+    },
+    {
+        "gardiner": "S23",
+        "glyph": "𓋬",
+        "description": "Knotted cloth\tPhono dmḏ. In dmḏ “unite.”",
+        "details": "S24"
+    },
+    {
+        "gardiner": "S23",
+        "glyph": "𓋬",
+        "description": "Knotted cloth\tPhono dmḏ. In dmḏ “unite.”",
+        "details": "S24"
+    },
+    {
+        "gardiner": "S23",
+        "glyph": "𓋬",
+        "description": "Knotted cloth\tPhono dmḏ. In dmḏ “unite.”",
+        "details": "S24"
+    },
+    {
+        "gardiner": "S23",
+        "glyph": "𓋬",
+        "description": "Knotted cloth\tPhono dmḏ. In dmḏ “unite.”",
+        "details": "S24"
+    },
+    {
+        "gardiner": "S25",
+        "glyph": "𓋮",
+        "description": "Garment with ties\tIdeo. in iʿ3w “guide.”",
+        "details": "S26"
+    },
+    {
+        "gardiner": "S25",
+        "glyph": "𓋮",
+        "description": "Garment with ties\tIdeo. in iʿ3w “guide.”",
+        "details": "S26"
+    },
+    {
+        "gardiner": "S25",
+        "glyph": "𓋮",
+        "description": "Garment with ties\tIdeo. in iʿ3w “guide.”",
+        "details": "S26"
+    },
+    {
+        "gardiner": "S25",
+        "glyph": "𓋮",
+        "description": "Garment with ties\tIdeo. in iʿ3w “guide.”",
+        "details": "S26"
+    },
+    {
+        "gardiner": "S27",
+        "glyph": "𓋲",
+        "description": "Horizontal strips of cloth\tDet. or Ideo. in mnḫt “clothing.”",
+        "details": "S28"
+    },
+    {
+        "gardiner": "S27",
+        "glyph": "𓋲",
+        "description": "Horizontal strips of cloth\tDet. or Ideo. in mnḫt “clothing.”",
+        "details": "S28"
+    },
+    {
+        "gardiner": "S27",
+        "glyph": "𓋲",
+        "description": "Horizontal strips of cloth\tDet. or Ideo. in mnḫt “clothing.”",
+        "details": "S28"
+    },
+    {
+        "gardiner": "S27",
+        "glyph": "𓋲",
+        "description": "Horizontal strips of cloth\tDet. or Ideo. in mnḫt “clothing.”",
+        "details": "S28"
+    },
+    {
+        "gardiner": "S29",
+        "glyph": "𓋴",
+        "description": "Folded cloth\tPhono. s. In ʿnḫ.(w) (w)ḏ3 snb “may he live, be prosperous, be healthy.” (L.P.H.)",
+        "details": "S30"
+    },
+    {
+        "gardiner": "S29",
+        "glyph": "𓋴",
+        "description": "Folded cloth\tPhono. s. In ʿnḫ.(w) (w)ḏ3 snb “may he live, be prosperous, be healthy.” (L.P.H.)",
+        "details": "S30"
+    },
+    {
+        "gardiner": "S29",
+        "glyph": "𓋴",
+        "description": "Folded cloth\tPhono. s. In ʿnḫ.(w) (w)ḏ3 snb “may he live, be prosperous, be healthy.” (L.P.H.)",
+        "details": "S30"
+    },
+    {
+        "gardiner": "S29",
+        "glyph": "𓋴",
+        "description": "Folded cloth\tPhono. s. In ʿnḫ.(w) (w)ḏ3 snb “may he live, be prosperous, be healthy.” (L.P.H.)",
+        "details": "S30"
+    },
+    {
+        "gardiner": "S3",
+        "glyph": "𓋔",
+        "description": "Red crown of Lower Egypt\tPhono. n. Det. or Ideo in dšrt “Red Crown.”",
+        "details": "S4"
+    },
+    {
+        "gardiner": "S3",
+        "glyph": "𓋔",
+        "description": "Red crown of Lower Egypt\tPhono. n. Det. or Ideo in dšrt “Red Crown.”",
+        "details": "S4"
+    },
+    {
+        "gardiner": "S3",
+        "glyph": "𓋔",
+        "description": "Red crown of Lower Egypt\tPhono. n. Det. or Ideo in dšrt “Red Crown.”",
+        "details": "S4"
+    },
+    {
+        "gardiner": "S3",
+        "glyph": "𓋔",
+        "description": "Red crown of Lower Egypt\tPhono. n. Det. or Ideo in dšrt “Red Crown.”",
+        "details": "S4"
+    },
+    {
+        "gardiner": "S31",
+        "glyph": "𓋶",
+        "description": "Combination of S29 + U1\tPhono. sm3. In sm3 “fighting bull.”",
+        "details": "S32"
+    },
+    {
+        "gardiner": "S31",
+        "glyph": "𓋶",
+        "description": "Combination of S29 + U1\tPhono. sm3. In sm3 “fighting bull.”",
+        "details": "S32"
+    },
+    {
+        "gardiner": "S31",
+        "glyph": "𓋶",
+        "description": "Combination of S29 + U1\tPhono. sm3. In sm3 “fighting bull.”",
+        "details": "S32"
+    },
+    {
+        "gardiner": "S31",
+        "glyph": "𓋶",
+        "description": "Combination of S29 + U1\tPhono. sm3. In sm3 “fighting bull.”",
+        "details": "S32"
+    },
+    {
+        "gardiner": "S33",
+        "glyph": "𓋸",
+        "description": "Sandal\tIdeo. in ṯbt “sandal,” ṯbw “sandal maker.”",
+        "details": "S34"
+    },
+    {
+        "gardiner": "S33",
+        "glyph": "𓋸",
+        "description": "Sandal\tIdeo. in ṯbt “sandal,” ṯbw “sandal maker.”",
+        "details": "S34"
+    },
+    {
+        "gardiner": "S33",
+        "glyph": "𓋸",
+        "description": "Sandal\tIdeo. in ṯbt “sandal,” ṯbw “sandal maker.”",
+        "details": "S34"
+    },
+    {
+        "gardiner": "S33",
+        "glyph": "𓋸",
+        "description": "Sandal\tIdeo. in ṯbt “sandal,” ṯbw “sandal maker.”",
+        "details": "S34"
+    },
+    {
+        "gardiner": "S35",
+        "glyph": "𓋺",
+        "description": "Sunshade\tIdeo. in šwt “shadow, shade.”",
+        "details": "S36"
+    },
+    {
+        "gardiner": "S35",
+        "glyph": "𓋺",
+        "description": "Sunshade\tIdeo. in šwt “shadow, shade.”",
+        "details": "S36"
+    },
+    {
+        "gardiner": "S35",
+        "glyph": "𓋺",
+        "description": "Sunshade\tIdeo. in šwt “shadow, shade.”",
+        "details": "S36"
+    },
+    {
+        "gardiner": "S35",
+        "glyph": "𓋺",
+        "description": "Sunshade\tIdeo. in šwt “shadow, shade.”",
+        "details": "S36"
+    },
+    {
+        "gardiner": "S37",
+        "glyph": "𓋽",
+        "description": "Fan\tDet. or Ideo. in ḫw “fan.”",
+        "details": "S38"
+    },
+    {
+        "gardiner": "S37",
+        "glyph": "𓋽",
+        "description": "Fan\tDet. or Ideo. in ḫw “fan.”",
+        "details": "S38"
+    },
+    {
+        "gardiner": "S37",
+        "glyph": "𓋽",
+        "description": "Fan\tDet. or Ideo. in ḫw “fan.”",
+        "details": "S38"
+    },
+    {
+        "gardiner": "S37",
+        "glyph": "𓋽",
+        "description": "Fan\tDet. or Ideo. in ḫw “fan.”",
+        "details": "S38"
+    },
+    {
+        "gardiner": "S39",
+        "glyph": "𓋿",
+        "description": "Crook\tPhono ʿwt. In ʿwt “flock.”",
+        "details": "S40"
+    },
+    {
+        "gardiner": "S39",
+        "glyph": "𓋿",
+        "description": "Crook\tPhono ʿwt. In ʿwt “flock.”",
+        "details": "S40"
+    },
+    {
+        "gardiner": "S39",
+        "glyph": "𓋿",
+        "description": "Crook\tPhono ʿwt. In ʿwt “flock.”",
+        "details": "S40"
+    },
+    {
+        "gardiner": "S39",
+        "glyph": "𓋿",
+        "description": "Crook\tPhono ʿwt. In ʿwt “flock.”",
+        "details": "S40"
+    },
+    {
+        "gardiner": "S41",
+        "glyph": "𓌁",
+        "description": "Scepter with spiral shaft and Seth animal\tPhono. ḏʿm. In ḏʿm “fine gold.”",
+        "details": "S42"
+    },
+    {
+        "gardiner": "S41",
+        "glyph": "𓌁",
+        "description": "Scepter with spiral shaft and Seth animal\tPhono. ḏʿm. In ḏʿm “fine gold.”",
+        "details": "S42"
+    },
+    {
+        "gardiner": "S41",
+        "glyph": "𓌁",
+        "description": "Scepter with spiral shaft and Seth animal\tPhono. ḏʿm. In ḏʿm “fine gold.”",
+        "details": "S42"
+    },
+    {
+        "gardiner": "S41",
+        "glyph": "𓌁",
+        "description": "Scepter with spiral shaft and Seth animal\tPhono. ḏʿm. In ḏʿm “fine gold.”",
+        "details": "S42"
+    },
+    {
+        "gardiner": "S43",
+        "glyph": "𓌃",
+        "description": "Staff\tPhono. md. In mdw “speak.”",
+        "details": "S44"
+    },
+    {
+        "gardiner": "S43",
+        "glyph": "𓌃",
+        "description": "Staff\tPhono. md. In mdw “speak.”",
+        "details": "S44"
+    },
+    {
+        "gardiner": "S43",
+        "glyph": "𓌃",
+        "description": "Staff\tPhono. md. In mdw “speak.”",
+        "details": "S44"
+    },
+    {
+        "gardiner": "S43",
+        "glyph": "𓌃",
+        "description": "Staff\tPhono. md. In mdw “speak.”",
+        "details": "S44"
+    },
+    {
+        "gardiner": "S45",
+        "glyph": "𓌅",
+        "description": "Flail\tDet. or Ideo. in nḫ3ḫ3w “flail.”",
+        "details": ""
+    },
+    {
+        "gardiner": "S45",
+        "glyph": "𓌅",
+        "description": "Flail\tDet. or Ideo. in nḫ3ḫ3w “flail.”",
+        "details": ""
+    },
+    {
+        "gardiner": "S45",
+        "glyph": "𓌅",
+        "description": "Flail\tDet. or Ideo. in nḫ3ḫ3w “flail.”",
+        "details": ""
+    },
+    {
+        "gardiner": "S45",
+        "glyph": "𓌅",
+        "description": "Flail\tDet. or Ideo. in nḫ3ḫ3w “flail.”",
+        "details": ""
+    },
+    {
+        "gardiner": "S5",
+        "glyph": "𓋖",
+        "description": "Combination of red and white crown\tDet. or Ideo. in sḫmty “double crown.”",
+        "details": "S6"
+    },
+    {
+        "gardiner": "S5",
+        "glyph": "𓋖",
+        "description": "Combination of red and white crown\tDet. or Ideo. in sḫmty “double crown.”",
+        "details": "S6"
+    },
+    {
+        "gardiner": "S5",
+        "glyph": "𓋖",
+        "description": "Combination of red and white crown\tDet. or Ideo. in sḫmty “double crown.”",
+        "details": "S6"
+    },
+    {
+        "gardiner": "S5",
+        "glyph": "𓋖",
+        "description": "Combination of red and white crown\tDet. or Ideo. in sḫmty “double crown.”",
+        "details": "S6"
+    },
+    {
+        "gardiner": "S7",
+        "glyph": "𓋙",
+        "description": "Blue Crown\tDet. or Ideo. in ḫprš “blue crown.”",
+        "details": "S8"
+    },
+    {
+        "gardiner": "S7",
+        "glyph": "𓋙",
+        "description": "Blue Crown\tDet. or Ideo. in ḫprš “blue crown.”",
+        "details": "S8"
+    },
+    {
+        "gardiner": "S7",
+        "glyph": "𓋙",
+        "description": "Blue Crown\tDet. or Ideo. in ḫprš “blue crown.”",
+        "details": "S8"
+    },
+    {
+        "gardiner": "S7",
+        "glyph": "𓋙",
+        "description": "Blue Crown\tDet. or Ideo. in ḫprš “blue crown.”",
+        "details": "S8"
+    },
+    {
+        "gardiner": "S9",
+        "glyph": "𓋛",
+        "description": "Double plumes\tDet. or Ideo. in šwty “double plumes.”",
+        "details": "S10"
+    },
+    {
+        "gardiner": "S9",
+        "glyph": "𓋛",
+        "description": "Double plumes\tDet. or Ideo. in šwty “double plumes.”",
+        "details": "S10"
+    },
+    {
+        "gardiner": "S9",
+        "glyph": "𓋛",
+        "description": "Double plumes\tDet. or Ideo. in šwty “double plumes.”",
+        "details": "S10"
+    },
+    {
+        "gardiner": "S9",
+        "glyph": "𓋛",
+        "description": "Double plumes\tDet. or Ideo. in šwty “double plumes.”",
+        "details": "S10"
+    },
+    {
+        "gardiner": "T1",
+        "glyph": "𓌇",
+        "description": "Angular headed mace\tPhono. mn. In mnw “mace.”",
+        "details": "T2"
+    },
+    {
+        "gardiner": "T1",
+        "glyph": "𓌇",
+        "description": "Angular headed mace\tPhono. mn. In mnw “mace.”",
+        "details": "T2"
+    },
+    {
+        "gardiner": "T1",
+        "glyph": "𓌇",
+        "description": "Angular headed mace\tPhono. mn. In mnw “mace.”",
+        "details": "T2"
+    },
+    {
+        "gardiner": "T1",
+        "glyph": "𓌇",
+        "description": "Angular headed mace\tPhono. mn. In mnw “mace.”",
+        "details": "T2"
+    },
+    {
+        "gardiner": "T10",
+        "glyph": "𓌔",
+        "description": "Composite bow\tUse as T9",
+        "details": "T11"
+    },
+    {
+        "gardiner": "T10",
+        "glyph": "𓌔",
+        "description": "Composite bow\tUse as T9",
+        "details": "T11"
+    },
+    {
+        "gardiner": "T10",
+        "glyph": "𓌔",
+        "description": "Composite bow\tUse as T9",
+        "details": "T11"
+    },
+    {
+        "gardiner": "T10",
+        "glyph": "𓌔",
+        "description": "Composite bow\tUse as T9",
+        "details": "T11"
+    },
+    {
+        "gardiner": "T12",
+        "glyph": "𓌗",
+        "description": "Bowstring\tPhono. rwd/rwḏ. In rwd “hard, firm.” Ideo. in d3r “subdue.”",
+        "details": "T13"
+    },
+    {
+        "gardiner": "T12",
+        "glyph": "𓌗",
+        "description": "Bowstring\tPhono. rwd/rwḏ. In rwd “hard, firm.” Ideo. in d3r “subdue.”",
+        "details": "T13"
+    },
+    {
+        "gardiner": "T12",
+        "glyph": "𓌗",
+        "description": "Bowstring\tPhono. rwd/rwḏ. In rwd “hard, firm.” Ideo. in d3r “subdue.”",
+        "details": "T13"
+    },
+    {
+        "gardiner": "T12",
+        "glyph": "𓌗",
+        "description": "Bowstring\tPhono. rwd/rwḏ. In rwd “hard, firm.” Ideo. in d3r “subdue.”",
+        "details": "T13"
+    },
+    {
+        "gardiner": "T14",
+        "glyph": "𓌙",
+        "description": "Throw stick\tDet. of “foreign.” Ideo. in ʿ3m “Asiatics,” ṯḥnw “Libya.” Det. in qm3 “create,” qm3i “create.”",
+        "details": "T15"
+    },
+    {
+        "gardiner": "T14",
+        "glyph": "𓌙",
+        "description": "Throw stick\tDet. of “foreign.” Ideo. in ʿ3m “Asiatics,” ṯḥnw “Libya.” Det. in qm3 “create,” qm3i “create.”",
+        "details": "T15"
+    },
+    {
+        "gardiner": "T14",
+        "glyph": "𓌙",
+        "description": "Throw stick\tDet. of “foreign.” Ideo. in ʿ3m “Asiatics,” ṯḥnw “Libya.” Det. in qm3 “create,” qm3i “create.”",
+        "details": "T15"
+    },
+    {
+        "gardiner": "T14",
+        "glyph": "𓌙",
+        "description": "Throw stick\tDet. of “foreign.” Ideo. in ʿ3m “Asiatics,” ṯḥnw “Libya.” Det. in qm3 “create,” qm3i “create.”",
+        "details": "T15"
+    },
+    {
+        "gardiner": "T16",
+        "glyph": "𓌛",
+        "description": "Scimitar\tDet. in ḫpš “scimitar.”",
+        "details": "T17"
+    },
+    {
+        "gardiner": "T16",
+        "glyph": "𓌛",
+        "description": "Scimitar\tDet. in ḫpš “scimitar.”",
+        "details": "T17"
+    },
+    {
+        "gardiner": "T16",
+        "glyph": "𓌛",
+        "description": "Scimitar\tDet. in ḫpš “scimitar.”",
+        "details": "T17"
+    },
+    {
+        "gardiner": "T16",
+        "glyph": "𓌛",
+        "description": "Scimitar\tDet. in ḫpš “scimitar.”",
+        "details": "T17"
+    },
+    {
+        "gardiner": "T18",
+        "glyph": "𓌞",
+        "description": "Crook with package\tPhono. šms. In šms “follow, accompany.”",
+        "details": "T19"
+    },
+    {
+        "gardiner": "T18",
+        "glyph": "𓌞",
+        "description": "Crook with package\tPhono. šms. In šms “follow, accompany.”",
+        "details": "T19"
+    },
+    {
+        "gardiner": "T18",
+        "glyph": "𓌞",
+        "description": "Crook with package\tPhono. šms. In šms “follow, accompany.”",
+        "details": "T19"
+    },
+    {
+        "gardiner": "T18",
+        "glyph": "𓌞",
+        "description": "Crook with package\tPhono. šms. In šms “follow, accompany.”",
+        "details": "T19"
+    },
+    {
+        "gardiner": "T20",
+        "glyph": "𓌠",
+        "description": "Var. of T19\tUse as T19",
+        "details": "T21"
+    },
+    {
+        "gardiner": "T20",
+        "glyph": "𓌠",
+        "description": "Var. of T19\tUse as T19",
+        "details": "T21"
+    },
+    {
+        "gardiner": "T20",
+        "glyph": "𓌠",
+        "description": "Var. of T19\tUse as T19",
+        "details": "T21"
+    },
+    {
+        "gardiner": "T20",
+        "glyph": "𓌠",
+        "description": "Var. of T19\tUse as T19",
+        "details": "T21"
+    },
+    {
+        "gardiner": "T22",
+        "glyph": "𓌢",
+        "description": "Arrowhead\tPhono. sn. In sn “brother,” sn “smell.”",
+        "details": "T23"
+    },
+    {
+        "gardiner": "T22",
+        "glyph": "𓌢",
+        "description": "Arrowhead\tPhono. sn. In sn “brother,” sn “smell.”",
+        "details": "T23"
+    },
+    {
+        "gardiner": "T22",
+        "glyph": "𓌢",
+        "description": "Arrowhead\tPhono. sn. In sn “brother,” sn “smell.”",
+        "details": "T23"
+    },
+    {
+        "gardiner": "T22",
+        "glyph": "𓌢",
+        "description": "Arrowhead\tPhono. sn. In sn “brother,” sn “smell.”",
+        "details": "T23"
+    },
+    {
+        "gardiner": "T24",
+        "glyph": "𓌤",
+        "description": "Fishing net\tPhono. ʿḥ/iḥ . In iḥ “net.”",
+        "details": "T25"
+    },
+    {
+        "gardiner": "T24",
+        "glyph": "𓌤",
+        "description": "Fishing net\tPhono. ʿḥ/iḥ . In iḥ “net.”",
+        "details": "T25"
+    },
+    {
+        "gardiner": "T24",
+        "glyph": "𓌤",
+        "description": "Fishing net\tPhono. ʿḥ/iḥ . In iḥ “net.”",
+        "details": "T25"
+    },
+    {
+        "gardiner": "T24",
+        "glyph": "𓌤",
+        "description": "Fishing net\tPhono. ʿḥ/iḥ . In iḥ “net.”",
+        "details": "T25"
+    },
+    {
+        "gardiner": "T26",
+        "glyph": "𓌦",
+        "description": "Bird Trap\tDet. or Ideo. in sḫt “trap, snare.”",
+        "details": "T27"
+    },
+    {
+        "gardiner": "T26",
+        "glyph": "𓌦",
+        "description": "Bird Trap\tDet. or Ideo. in sḫt “trap, snare.”",
+        "details": "T27"
+    },
+    {
+        "gardiner": "T26",
+        "glyph": "𓌦",
+        "description": "Bird Trap\tDet. or Ideo. in sḫt “trap, snare.”",
+        "details": "T27"
+    },
+    {
+        "gardiner": "T26",
+        "glyph": "𓌦",
+        "description": "Bird Trap\tDet. or Ideo. in sḫt “trap, snare.”",
+        "details": "T27"
+    },
+    {
+        "gardiner": "T28",
+        "glyph": "𓌨",
+        "description": "Butcher’s block\tPhono. ẖr. In ẖr “under,” ẖrt “portion.”",
+        "details": "T29"
+    },
+    {
+        "gardiner": "T28",
+        "glyph": "𓌨",
+        "description": "Butcher’s block\tPhono. ẖr. In ẖr “under,” ẖrt “portion.”",
+        "details": "T29"
+    },
+    {
+        "gardiner": "T28",
+        "glyph": "𓌨",
+        "description": "Butcher’s block\tPhono. ẖr. In ẖr “under,” ẖrt “portion.”",
+        "details": "T29"
+    },
+    {
+        "gardiner": "T28",
+        "glyph": "𓌨",
+        "description": "Butcher’s block\tPhono. ẖr. In ẖr “under,” ẖrt “portion.”",
+        "details": "T29"
+    },
+    {
+        "gardiner": "T3",
+        "glyph": "𓌉",
+        "description": "Pear shaped mace\tPhono. ḥḏ. In ḥḏ “mace,” ḥḏ “white, bright,” ḥḏi “damage.”",
+        "details": "T4"
+    },
+    {
+        "gardiner": "T3",
+        "glyph": "𓌉",
+        "description": "Pear shaped mace\tPhono. ḥḏ. In ḥḏ “mace,” ḥḏ “white, bright,” ḥḏi “damage.”",
+        "details": "T4"
+    },
+    {
+        "gardiner": "T3",
+        "glyph": "𓌉",
+        "description": "Pear shaped mace\tPhono. ḥḏ. In ḥḏ “mace,” ḥḏ “white, bright,” ḥḏi “damage.”",
+        "details": "T4"
+    },
+    {
+        "gardiner": "T3",
+        "glyph": "𓌉",
+        "description": "Pear shaped mace\tPhono. ḥḏ. In ḥḏ “mace,” ḥḏ “white, bright,” ḥḏi “damage.”",
+        "details": "T4"
+    },
+    {
+        "gardiner": "T30",
+        "glyph": "𓌪",
+        "description": "Knife\tIdeo. for dmt “knife.” Det. in dm “be sharp.”",
+        "details": "T31"
+    },
+    {
+        "gardiner": "T30",
+        "glyph": "𓌪",
+        "description": "Knife\tIdeo. for dmt “knife.” Det. in dm “be sharp.”",
+        "details": "T31"
+    },
+    {
+        "gardiner": "T30",
+        "glyph": "𓌪",
+        "description": "Knife\tIdeo. for dmt “knife.” Det. in dm “be sharp.”",
+        "details": "T31"
+    },
+    {
+        "gardiner": "T30",
+        "glyph": "𓌪",
+        "description": "Knife\tIdeo. for dmt “knife.” Det. in dm “be sharp.”",
+        "details": "T31"
+    },
+    {
+        "gardiner": "T32",
+        "glyph": "𓌬",
+        "description": "Combination of T31 + D54\tPhono sšm. In sšm “guide, lead.”",
+        "details": "T33"
+    },
+    {
+        "gardiner": "T32",
+        "glyph": "𓌬",
+        "description": "Combination of T31 + D54\tPhono sšm. In sšm “guide, lead.”",
+        "details": "T33"
+    },
+    {
+        "gardiner": "T32",
+        "glyph": "𓌬",
+        "description": "Combination of T31 + D54\tPhono sšm. In sšm “guide, lead.”",
+        "details": "T33"
+    },
+    {
+        "gardiner": "T32",
+        "glyph": "𓌬",
+        "description": "Combination of T31 + D54\tPhono sšm. In sšm “guide, lead.”",
+        "details": "T33"
+    },
+    {
+        "gardiner": "T34",
+        "glyph": "𓌰",
+        "description": "Butcher’s knife\tPhono. nm. In nm “knife,” ḫnms “friend.”",
+        "details": "T35"
+    },
+    {
+        "gardiner": "T34",
+        "glyph": "𓌰",
+        "description": "Butcher’s knife\tPhono. nm. In nm “knife,” ḫnms “friend.”",
+        "details": "T35"
+    },
+    {
+        "gardiner": "T34",
+        "glyph": "𓌰",
+        "description": "Butcher’s knife\tPhono. nm. In nm “knife,” ḫnms “friend.”",
+        "details": "T35"
+    },
+    {
+        "gardiner": "T34",
+        "glyph": "𓌰",
+        "description": "Butcher’s knife\tPhono. nm. In nm “knife,” ḫnms “friend.”",
+        "details": "T35"
+    },
+    {
+        "gardiner": "T5",
+        "glyph": "𓌌",
+        "description": "Combination of T3 + I10\tPhono. ḥḏ.",
+        "details": "T6"
+    },
+    {
+        "gardiner": "T5",
+        "glyph": "𓌌",
+        "description": "Combination of T3 + I10\tPhono. ḥḏ.",
+        "details": "T6"
+    },
+    {
+        "gardiner": "T5",
+        "glyph": "𓌌",
+        "description": "Combination of T3 + I10\tPhono. ḥḏ.",
+        "details": "T6"
+    },
+    {
+        "gardiner": "T5",
+        "glyph": "𓌌",
+        "description": "Combination of T3 + I10\tPhono. ḥḏ.",
+        "details": "T6"
+    },
+    {
+        "gardiner": "T7",
+        "glyph": "𓌎",
+        "description": "Axe\tDet. in mibt, minb “axe,” mdḥ “hew.”",
+        "details": "T7a"
+    },
+    {
+        "gardiner": "T7",
+        "glyph": "𓌎",
+        "description": "Axe\tDet. in mibt, minb “axe,” mdḥ “hew.”",
+        "details": "T7a"
+    },
+    {
+        "gardiner": "T7",
+        "glyph": "𓌎",
+        "description": "Axe\tDet. in mibt, minb “axe,” mdḥ “hew.”",
+        "details": "T7a"
+    },
+    {
+        "gardiner": "T7",
+        "glyph": "𓌎",
+        "description": "Axe\tDet. in mibt, minb “axe,” mdḥ “hew.”",
+        "details": "T7a"
+    },
+    {
+        "gardiner": "T8",
+        "glyph": "𓌐",
+        "description": "Dagger\tPhono. tp. In tpy “first, chief, upon.”",
+        "details": "T8a"
+    },
+    {
+        "gardiner": "T8",
+        "glyph": "𓌐",
+        "description": "Dagger\tPhono. tp. In tpy “first, chief, upon.”",
+        "details": "T8a"
+    },
+    {
+        "gardiner": "T8",
+        "glyph": "𓌐",
+        "description": "Dagger\tPhono. tp. In tpy “first, chief, upon.”",
+        "details": "T8a"
+    },
+    {
+        "gardiner": "T8",
+        "glyph": "𓌐",
+        "description": "Dagger\tPhono. tp. In tpy “first, chief, upon.”",
+        "details": "T8a"
+    },
+    {
+        "gardiner": "T9",
+        "glyph": "𓌒",
+        "description": "Bow\tPhono. pd/pḏ, in pd “stretch,” pḏt “bow.”",
+        "details": "T9a"
+    },
+    {
+        "gardiner": "T9",
+        "glyph": "𓌒",
+        "description": "Bow\tPhono. pd/pḏ, in pd “stretch,” pḏt “bow.”",
+        "details": "T9a"
+    },
+    {
+        "gardiner": "T9",
+        "glyph": "𓌒",
+        "description": "Bow\tPhono. pd/pḏ, in pd “stretch,” pḏt “bow.”",
+        "details": "T9a"
+    },
+    {
+        "gardiner": "T9",
+        "glyph": "𓌒",
+        "description": "Bow\tPhono. pd/pḏ, in pd “stretch,” pḏt “bow.”",
+        "details": "T9a"
+    },
+    {
+        "gardiner": "U1",
+        "glyph": "𓌳",
+        "description": "Sickle\tPhono. m3. In m33 “see,” 3sḫ “reap.”",
+        "details": "U2"
+    },
+    {
+        "gardiner": "U1",
+        "glyph": "𓌳",
+        "description": "Sickle\tPhono. m3. In m33 “see,” 3sḫ “reap.”",
+        "details": "U2"
+    },
+    {
+        "gardiner": "U1",
+        "glyph": "𓌳",
+        "description": "Sickle\tPhono. m3. In m33 “see,” 3sḫ “reap.”",
+        "details": "U2"
+    },
+    {
+        "gardiner": "U1",
+        "glyph": "𓌳",
+        "description": "Sickle\tPhono. m3. In m33 “see,” 3sḫ “reap.”",
+        "details": "U2"
+    },
+    {
+        "gardiner": "U11",
+        "glyph": "𓌿",
+        "description": "Combination of S38 + U9\tIdeo. in ḥq3t “hekat measure.”",
+        "details": "U12"
+    },
+    {
+        "gardiner": "U11",
+        "glyph": "𓌿",
+        "description": "Combination of S38 + U9\tIdeo. in ḥq3t “hekat measure.”",
+        "details": "U12"
+    },
+    {
+        "gardiner": "U11",
+        "glyph": "𓌿",
+        "description": "Combination of S38 + U9\tIdeo. in ḥq3t “hekat measure.”",
+        "details": "U12"
+    },
+    {
+        "gardiner": "U11",
+        "glyph": "𓌿",
+        "description": "Combination of S38 + U9\tIdeo. in ḥq3t “hekat measure.”",
+        "details": "U12"
+    },
+    {
+        "gardiner": "U13",
+        "glyph": "𓍁",
+        "description": "Plow\tPhono. šnʿ. In šnʿ “repel.” Phono hb. In hb “plow.”",
+        "details": "U14"
+    },
+    {
+        "gardiner": "U13",
+        "glyph": "𓍁",
+        "description": "Plow\tPhono. šnʿ. In šnʿ “repel.” Phono hb. In hb “plow.”",
+        "details": "U14"
+    },
+    {
+        "gardiner": "U13",
+        "glyph": "𓍁",
+        "description": "Plow\tPhono. šnʿ. In šnʿ “repel.” Phono hb. In hb “plow.”",
+        "details": "U14"
+    },
+    {
+        "gardiner": "U13",
+        "glyph": "𓍁",
+        "description": "Plow\tPhono. šnʿ. In šnʿ “repel.” Phono hb. In hb “plow.”",
+        "details": "U14"
+    },
+    {
+        "gardiner": "U15",
+        "glyph": "𓍃",
+        "description": "Sled\tPhono. tm. In tm “be complete,” ḥtm “perish.”",
+        "details": "U16"
+    },
+    {
+        "gardiner": "U15",
+        "glyph": "𓍃",
+        "description": "Sled\tPhono. tm. In tm “be complete,” ḥtm “perish.”",
+        "details": "U16"
+    },
+    {
+        "gardiner": "U15",
+        "glyph": "𓍃",
+        "description": "Sled\tPhono. tm. In tm “be complete,” ḥtm “perish.”",
+        "details": "U16"
+    },
+    {
+        "gardiner": "U15",
+        "glyph": "𓍃",
+        "description": "Sled\tPhono. tm. In tm “be complete,” ḥtm “perish.”",
+        "details": "U16"
+    },
+    {
+        "gardiner": "U17",
+        "glyph": "𓍅",
+        "description": "Pick with pool\tPhono. grg. In grg “establish, snare,” grg “falshood, lie.”",
+        "details": "U18"
+    },
+    {
+        "gardiner": "U17",
+        "glyph": "𓍅",
+        "description": "Pick with pool\tPhono. grg. In grg “establish, snare,” grg “falshood, lie.”",
+        "details": "U18"
+    },
+    {
+        "gardiner": "U17",
+        "glyph": "𓍅",
+        "description": "Pick with pool\tPhono. grg. In grg “establish, snare,” grg “falshood, lie.”",
+        "details": "U18"
+    },
+    {
+        "gardiner": "U17",
+        "glyph": "𓍅",
+        "description": "Pick with pool\tPhono. grg. In grg “establish, snare,” grg “falshood, lie.”",
+        "details": "U18"
+    },
+    {
+        "gardiner": "U19",
+        "glyph": "𓍇",
+        "description": "Adze\tPhono. nw. In nw “this.”",
+        "details": "U20"
+    },
+    {
+        "gardiner": "U19",
+        "glyph": "𓍇",
+        "description": "Adze\tPhono. nw. In nw “this.”",
+        "details": "U20"
+    },
+    {
+        "gardiner": "U19",
+        "glyph": "𓍇",
+        "description": "Adze\tPhono. nw. In nw “this.”",
+        "details": "U20"
+    },
+    {
+        "gardiner": "U19",
+        "glyph": "𓍇",
+        "description": "Adze\tPhono. nw. In nw “this.”",
+        "details": "U20"
+    },
+    {
+        "gardiner": "U21",
+        "glyph": "𓍉",
+        "description": "Adze with wood block\tPhono. stp/sṯp. In stp “choose.”",
+        "details": "U22"
+    },
+    {
+        "gardiner": "U21",
+        "glyph": "𓍉",
+        "description": "Adze with wood block\tPhono. stp/sṯp. In stp “choose.”",
+        "details": "U22"
+    },
+    {
+        "gardiner": "U21",
+        "glyph": "𓍉",
+        "description": "Adze with wood block\tPhono. stp/sṯp. In stp “choose.”",
+        "details": "U22"
+    },
+    {
+        "gardiner": "U21",
+        "glyph": "𓍉",
+        "description": "Adze with wood block\tPhono. stp/sṯp. In stp “choose.”",
+        "details": "U22"
+    },
+    {
+        "gardiner": "U23",
+        "glyph": "𓍋",
+        "description": "Chisel\tPhono. mr. In mr “ill,” smr “friend.” Phono. 3b. In 3bi “desire.”",
+        "details": "U24"
+    },
+    {
+        "gardiner": "U23",
+        "glyph": "𓍋",
+        "description": "Chisel\tPhono. mr. In mr “ill,” smr “friend.” Phono. 3b. In 3bi “desire.”",
+        "details": "U24"
+    },
+    {
+        "gardiner": "U23",
+        "glyph": "𓍋",
+        "description": "Chisel\tPhono. mr. In mr “ill,” smr “friend.” Phono. 3b. In 3bi “desire.”",
+        "details": "U24"
+    },
+    {
+        "gardiner": "U23",
+        "glyph": "𓍋",
+        "description": "Chisel\tPhono. mr. In mr “ill,” smr “friend.” Phono. 3b. In 3bi “desire.”",
+        "details": "U24"
+    },
+    {
+        "gardiner": "U25",
+        "glyph": "𓍎",
+        "description": "Var. of U24\tUse as U24.",
+        "details": "U26"
+    },
+    {
+        "gardiner": "U25",
+        "glyph": "𓍎",
+        "description": "Var. of U24\tUse as U24.",
+        "details": "U26"
+    },
+    {
+        "gardiner": "U25",
+        "glyph": "𓍎",
+        "description": "Var. of U24\tUse as U24.",
+        "details": "U26"
+    },
+    {
+        "gardiner": "U25",
+        "glyph": "𓍎",
+        "description": "Var. of U24\tUse as U24.",
+        "details": "U26"
+    },
+    {
+        "gardiner": "U27",
+        "glyph": "𓍐",
+        "description": "Var. of U26\tUse as U26.",
+        "details": "U28"
+    },
+    {
+        "gardiner": "U27",
+        "glyph": "𓍐",
+        "description": "Var. of U26\tUse as U26.",
+        "details": "U28"
+    },
+    {
+        "gardiner": "U27",
+        "glyph": "𓍐",
+        "description": "Var. of U26\tUse as U26.",
+        "details": "U28"
+    },
+    {
+        "gardiner": "U27",
+        "glyph": "𓍐",
+        "description": "Var. of U26\tUse as U26.",
+        "details": "U28"
+    },
+    {
+        "gardiner": "U29",
+        "glyph": "𓍒",
+        "description": "Var. of U28\tUse as U28.",
+        "details": "U30"
+    },
+    {
+        "gardiner": "U29",
+        "glyph": "𓍒",
+        "description": "Var. of U28\tUse as U28.",
+        "details": "U30"
+    },
+    {
+        "gardiner": "U29",
+        "glyph": "𓍒",
+        "description": "Var. of U28\tUse as U28.",
+        "details": "U30"
+    },
+    {
+        "gardiner": "U29",
+        "glyph": "𓍒",
+        "description": "Var. of U28\tUse as U28.",
+        "details": "U30"
+    },
+    {
+        "gardiner": "U3",
+        "glyph": "𓌵",
+        "description": "Combination of U1 + D4\tPhono. m3. In m33 “see.”",
+        "details": "U4"
+    },
+    {
+        "gardiner": "U3",
+        "glyph": "𓌵",
+        "description": "Combination of U1 + D4\tPhono. m3. In m33 “see.”",
+        "details": "U4"
+    },
+    {
+        "gardiner": "U3",
+        "glyph": "𓌵",
+        "description": "Combination of U1 + D4\tPhono. m3. In m33 “see.”",
+        "details": "U4"
+    },
+    {
+        "gardiner": "U3",
+        "glyph": "𓌵",
+        "description": "Combination of U1 + D4\tPhono. m3. In m33 “see.”",
+        "details": "U4"
+    },
+    {
+        "gardiner": "U31",
+        "glyph": "𓍕",
+        "description": "Baker’s rake\tDet. or Ideo. in rtḥty “baker,” rtḥ “restrain.”",
+        "details": "U32"
+    },
+    {
+        "gardiner": "U31",
+        "glyph": "𓍕",
+        "description": "Baker’s rake\tDet. or Ideo. in rtḥty “baker,” rtḥ “restrain.”",
+        "details": "U32"
+    },
+    {
+        "gardiner": "U31",
+        "glyph": "𓍕",
+        "description": "Baker’s rake\tDet. or Ideo. in rtḥty “baker,” rtḥ “restrain.”",
+        "details": "U32"
+    },
+    {
+        "gardiner": "U31",
+        "glyph": "𓍕",
+        "description": "Baker’s rake\tDet. or Ideo. in rtḥty “baker,” rtḥ “restrain.”",
+        "details": "U32"
+    },
+    {
+        "gardiner": "U33",
+        "glyph": "𓍘",
+        "description": "Pestle\tPhono. ti.",
+        "details": "U34"
+    },
+    {
+        "gardiner": "U33",
+        "glyph": "𓍘",
+        "description": "Pestle\tPhono. ti.",
+        "details": "U34"
+    },
+    {
+        "gardiner": "U33",
+        "glyph": "𓍘",
+        "description": "Pestle\tPhono. ti.",
+        "details": "U34"
+    },
+    {
+        "gardiner": "U33",
+        "glyph": "𓍘",
+        "description": "Pestle\tPhono. ti.",
+        "details": "U34"
+    },
+    {
+        "gardiner": "U35",
+        "glyph": "𓍚",
+        "description": "Combination of U34 + I9\tPhono. ḫsf.",
+        "details": "U36"
+    },
+    {
+        "gardiner": "U35",
+        "glyph": "𓍚",
+        "description": "Combination of U34 + I9\tPhono. ḫsf.",
+        "details": "U36"
+    },
+    {
+        "gardiner": "U35",
+        "glyph": "𓍚",
+        "description": "Combination of U34 + I9\tPhono. ḫsf.",
+        "details": "U36"
+    },
+    {
+        "gardiner": "U35",
+        "glyph": "𓍚",
+        "description": "Combination of U34 + I9\tPhono. ḫsf.",
+        "details": "U36"
+    },
+    {
+        "gardiner": "U37",
+        "glyph": "𓍜",
+        "description": "Razor\tDet. in ẖʿq “shave.”",
+        "details": "U38"
+    },
+    {
+        "gardiner": "U37",
+        "glyph": "𓍜",
+        "description": "Razor\tDet. in ẖʿq “shave.”",
+        "details": "U38"
+    },
+    {
+        "gardiner": "U37",
+        "glyph": "𓍜",
+        "description": "Razor\tDet. in ẖʿq “shave.”",
+        "details": "U38"
+    },
+    {
+        "gardiner": "U37",
+        "glyph": "𓍜",
+        "description": "Razor\tDet. in ẖʿq “shave.”",
+        "details": "U38"
+    },
+    {
+        "gardiner": "U39",
+        "glyph": "𓍞",
+        "description": "Scale post\tDet. in wsṯt “post,” wṯs, ṯsi “raise, lift.”",
+        "details": "U40"
+    },
+    {
+        "gardiner": "U39",
+        "glyph": "𓍞",
+        "description": "Scale post\tDet. in wsṯt “post,” wṯs, ṯsi “raise, lift.”",
+        "details": "U40"
+    },
+    {
+        "gardiner": "U39",
+        "glyph": "𓍞",
+        "description": "Scale post\tDet. in wsṯt “post,” wṯs, ṯsi “raise, lift.”",
+        "details": "U40"
+    },
+    {
+        "gardiner": "U39",
+        "glyph": "𓍞",
+        "description": "Scale post\tDet. in wsṯt “post,” wṯs, ṯsi “raise, lift.”",
+        "details": "U40"
+    },
+    {
+        "gardiner": "U41",
+        "glyph": "𓍠",
+        "description": "Plumb bob\tDet. in tḫ “plumb bob.”",
+        "details": "V. Rope, Fiber, Baskets, Bags, etc."
+    },
+    {
+        "gardiner": "U41",
+        "glyph": "𓍠",
+        "description": "Plumb bob\tDet. in tḫ “plumb bob.”",
+        "details": "V. Rope, Fiber, Baskets, Bags, etc."
+    },
+    {
+        "gardiner": "U41",
+        "glyph": "𓍠",
+        "description": "Plumb bob\tDet. in tḫ “plumb bob.”",
+        "details": "V. Rope, Fiber, Baskets, Bags, etc."
+    },
+    {
+        "gardiner": "U41",
+        "glyph": "𓍠",
+        "description": "Plumb bob\tDet. in tḫ “plumb bob.”",
+        "details": "V. Rope, Fiber, Baskets, Bags, etc."
+    },
+    {
+        "gardiner": "U5",
+        "glyph": "𓌷",
+        "description": "Var. of U4\tUse as U4.",
+        "details": "U6"
+    },
+    {
+        "gardiner": "U5",
+        "glyph": "𓌷",
+        "description": "Var. of U4\tUse as U4.",
+        "details": "U6"
+    },
+    {
+        "gardiner": "U5",
+        "glyph": "𓌷",
+        "description": "Var. of U4\tUse as U4.",
+        "details": "U6"
+    },
+    {
+        "gardiner": "U5",
+        "glyph": "𓌷",
+        "description": "Var. of U4\tUse as U4.",
+        "details": "U6"
+    },
+    {
+        "gardiner": "U7",
+        "glyph": "𓌻",
+        "description": "Var. of U6\tUse as U6.",
+        "details": "U8"
+    },
+    {
+        "gardiner": "U7",
+        "glyph": "𓌻",
+        "description": "Var. of U6\tUse as U6.",
+        "details": "U8"
+    },
+    {
+        "gardiner": "U7",
+        "glyph": "𓌻",
+        "description": "Var. of U6\tUse as U6.",
+        "details": "U8"
+    },
+    {
+        "gardiner": "U7",
+        "glyph": "𓌻",
+        "description": "Var. of U6\tUse as U6.",
+        "details": "U8"
+    },
+    {
+        "gardiner": "U9",
+        "glyph": "𓌽",
+        "description": "Grain measure with grain streaming outwards\tDet. in bdt “emmer,” ḫ3i “measure,” ḥq3t “hekat measure.”",
+        "details": "U10"
+    },
+    {
+        "gardiner": "U9",
+        "glyph": "𓌽",
+        "description": "Grain measure with grain streaming outwards\tDet. in bdt “emmer,” ḫ3i “measure,” ḥq3t “hekat measure.”",
+        "details": "U10"
+    },
+    {
+        "gardiner": "U9",
+        "glyph": "𓌽",
+        "description": "Grain measure with grain streaming outwards\tDet. in bdt “emmer,” ḫ3i “measure,” ḥq3t “hekat measure.”",
+        "details": "U10"
+    },
+    {
+        "gardiner": "U9",
+        "glyph": "𓌽",
+        "description": "Grain measure with grain streaming outwards\tDet. in bdt “emmer,” ḫ3i “measure,” ḥq3t “hekat measure.”",
+        "details": "U10"
+    },
+    {
+        "gardiner": "V1",
+        "glyph": "𓍢",
+        "description": "Rope coil\tPhono. šn. In šnt “dispute,” šni “litigate,” št “hundred.”",
+        "details": "V2"
+    },
+    {
+        "gardiner": "V1",
+        "glyph": "𓍢",
+        "description": "Rope coil\tPhono. šn. In šnt “dispute,” šni “litigate,” št “hundred.”",
+        "details": "V2"
+    },
+    {
+        "gardiner": "V1",
+        "glyph": "𓍢",
+        "description": "Rope coil\tPhono. šn. In šnt “dispute,” šni “litigate,” št “hundred.”",
+        "details": "V2"
+    },
+    {
+        "gardiner": "V1",
+        "glyph": "𓍢",
+        "description": "Rope coil\tPhono. šn. In šnt “dispute,” šni “litigate,” št “hundred.”",
+        "details": "V2"
+    },
+    {
+        "gardiner": "V11",
+        "glyph": "𓍸",
+        "description": "End of cartouche\tDet. in dni “restrain, dam,” pḫ3 “split.",
+        "details": "V12"
+    },
+    {
+        "gardiner": "V11",
+        "glyph": "𓍸",
+        "description": "End of cartouche\tDet. in dni “restrain, dam,” pḫ3 “split.",
+        "details": "V12"
+    },
+    {
+        "gardiner": "V11",
+        "glyph": "𓍸",
+        "description": "End of cartouche\tDet. in dni “restrain, dam,” pḫ3 “split.",
+        "details": "V12"
+    },
+    {
+        "gardiner": "V11",
+        "glyph": "𓍸",
+        "description": "End of cartouche\tDet. in dni “restrain, dam,” pḫ3 “split.",
+        "details": "V12"
+    },
+    {
+        "gardiner": "V13",
+        "glyph": "𓍿",
+        "description": "Tethering rope\tPhono. ṯ.",
+        "details": "V14"
+    },
+    {
+        "gardiner": "V13",
+        "glyph": "𓍿",
+        "description": "Tethering rope\tPhono. ṯ.",
+        "details": "V14"
+    },
+    {
+        "gardiner": "V13",
+        "glyph": "𓍿",
+        "description": "Tethering rope\tPhono. ṯ.",
+        "details": "V14"
+    },
+    {
+        "gardiner": "V13",
+        "glyph": "𓍿",
+        "description": "Tethering rope\tPhono. ṯ.",
+        "details": "V14"
+    },
+    {
+        "gardiner": "V15",
+        "glyph": "𓎁",
+        "description": "Combination of V13 and D54\tPhono. iṯ. In iṯi “seize.”",
+        "details": "V16"
+    },
+    {
+        "gardiner": "V15",
+        "glyph": "𓎁",
+        "description": "Combination of V13 and D54\tPhono. iṯ. In iṯi “seize.”",
+        "details": "V16"
+    },
+    {
+        "gardiner": "V15",
+        "glyph": "𓎁",
+        "description": "Combination of V13 and D54\tPhono. iṯ. In iṯi “seize.”",
+        "details": "V16"
+    },
+    {
+        "gardiner": "V15",
+        "glyph": "𓎁",
+        "description": "Combination of V13 and D54\tPhono. iṯ. In iṯi “seize.”",
+        "details": "V16"
+    },
+    {
+        "gardiner": "V17",
+        "glyph": "𓎃",
+        "description": "Herdsman’s shelter\tIdeo. in s3 “protection.”",
+        "details": "V18"
+    },
+    {
+        "gardiner": "V17",
+        "glyph": "𓎃",
+        "description": "Herdsman’s shelter\tIdeo. in s3 “protection.”",
+        "details": "V18"
+    },
+    {
+        "gardiner": "V17",
+        "glyph": "𓎃",
+        "description": "Herdsman’s shelter\tIdeo. in s3 “protection.”",
+        "details": "V18"
+    },
+    {
+        "gardiner": "V17",
+        "glyph": "𓎃",
+        "description": "Herdsman’s shelter\tIdeo. in s3 “protection.”",
+        "details": "V18"
+    },
+    {
+        "gardiner": "V19",
+        "glyph": "𓎅",
+        "description": "Hobble for cattle\tDet. in mḏt “stable,” k3r “shrine,” tm3 “mat.”",
+        "details": "V20"
+    },
+    {
+        "gardiner": "V19",
+        "glyph": "𓎅",
+        "description": "Hobble for cattle\tDet. in mḏt “stable,” k3r “shrine,” tm3 “mat.”",
+        "details": "V20"
+    },
+    {
+        "gardiner": "V19",
+        "glyph": "𓎅",
+        "description": "Hobble for cattle\tDet. in mḏt “stable,” k3r “shrine,” tm3 “mat.”",
+        "details": "V20"
+    },
+    {
+        "gardiner": "V19",
+        "glyph": "𓎅",
+        "description": "Hobble for cattle\tDet. in mḏt “stable,” k3r “shrine,” tm3 “mat.”",
+        "details": "V20"
+    },
+    {
+        "gardiner": "V21",
+        "glyph": "𓎓",
+        "description": "Combination of V20 + I10\tPhono. mḏ.",
+        "details": "V22"
+    },
+    {
+        "gardiner": "V21",
+        "glyph": "𓎓",
+        "description": "Combination of V20 + I10\tPhono. mḏ.",
+        "details": "V22"
+    },
+    {
+        "gardiner": "V21",
+        "glyph": "𓎓",
+        "description": "Combination of V20 + I10\tPhono. mḏ.",
+        "details": "V22"
+    },
+    {
+        "gardiner": "V21",
+        "glyph": "𓎓",
+        "description": "Combination of V20 + I10\tPhono. mḏ.",
+        "details": "V22"
+    },
+    {
+        "gardiner": "V23",
+        "glyph": "𓎕",
+        "description": "Var. of V22\tUse as V22.",
+        "details": "V24"
+    },
+    {
+        "gardiner": "V23",
+        "glyph": "𓎕",
+        "description": "Var. of V22\tUse as V22.",
+        "details": "V24"
+    },
+    {
+        "gardiner": "V23",
+        "glyph": "𓎕",
+        "description": "Var. of V22\tUse as V22.",
+        "details": "V24"
+    },
+    {
+        "gardiner": "V23",
+        "glyph": "𓎕",
+        "description": "Var. of V22\tUse as V22.",
+        "details": "V24"
+    },
+    {
+        "gardiner": "V25",
+        "glyph": "𓎘",
+        "description": "Var. of V24\tUse as V24",
+        "details": "V26"
+    },
+    {
+        "gardiner": "V25",
+        "glyph": "𓎘",
+        "description": "Var. of V24\tUse as V24",
+        "details": "V26"
+    },
+    {
+        "gardiner": "V25",
+        "glyph": "𓎘",
+        "description": "Var. of V24\tUse as V24",
+        "details": "V26"
+    },
+    {
+        "gardiner": "V25",
+        "glyph": "𓎘",
+        "description": "Var. of V24\tUse as V24",
+        "details": "V26"
+    },
+    {
+        "gardiner": "V27",
+        "glyph": "𓎚",
+        "description": "Var. of V26\tUse as V26.",
+        "details": "V28"
+    },
+    {
+        "gardiner": "V27",
+        "glyph": "𓎚",
+        "description": "Var. of V26\tUse as V26.",
+        "details": "V28"
+    },
+    {
+        "gardiner": "V27",
+        "glyph": "𓎚",
+        "description": "Var. of V26\tUse as V26.",
+        "details": "V28"
+    },
+    {
+        "gardiner": "V27",
+        "glyph": "𓎚",
+        "description": "Var. of V26\tUse as V26.",
+        "details": "V28"
+    },
+    {
+        "gardiner": "V29",
+        "glyph": "𓎝",
+        "description": "Swab\tPhono. w3ḥ, sk.",
+        "details": "V30"
+    },
+    {
+        "gardiner": "V29",
+        "glyph": "𓎝",
+        "description": "Swab\tPhono. w3ḥ, sk.",
+        "details": "V30"
+    },
+    {
+        "gardiner": "V29",
+        "glyph": "𓎝",
+        "description": "Swab\tPhono. w3ḥ, sk.",
+        "details": "V30"
+    },
+    {
+        "gardiner": "V29",
+        "glyph": "𓎝",
+        "description": "Swab\tPhono. w3ḥ, sk.",
+        "details": "V30"
+    },
+    {
+        "gardiner": "V3",
+        "glyph": "𓍮",
+        "description": "Same as V2, but with two additional coils\tIdeo. in r-sṯ3w “necropolis.”",
+        "details": "V4"
+    },
+    {
+        "gardiner": "V3",
+        "glyph": "𓍮",
+        "description": "Same as V2, but with two additional coils\tIdeo. in r-sṯ3w “necropolis.”",
+        "details": "V4"
+    },
+    {
+        "gardiner": "V3",
+        "glyph": "𓍮",
+        "description": "Same as V2, but with two additional coils\tIdeo. in r-sṯ3w “necropolis.”",
+        "details": "V4"
+    },
+    {
+        "gardiner": "V3",
+        "glyph": "𓍮",
+        "description": "Same as V2, but with two additional coils\tIdeo. in r-sṯ3w “necropolis.”",
+        "details": "V4"
+    },
+    {
+        "gardiner": "V31",
+        "glyph": "𓎡",
+        "description": "Basket with handle\tPhono k.",
+        "details": "V31a"
+    },
+    {
+        "gardiner": "V31",
+        "glyph": "𓎡",
+        "description": "Basket with handle\tPhono k.",
+        "details": "V31a"
+    },
+    {
+        "gardiner": "V31",
+        "glyph": "𓎡",
+        "description": "Basket with handle\tPhono k.",
+        "details": "V31a"
+    },
+    {
+        "gardiner": "V31",
+        "glyph": "𓎡",
+        "description": "Basket with handle\tPhono k.",
+        "details": "V31a"
+    },
+    {
+        "gardiner": "V32",
+        "glyph": "𓎣",
+        "description": "Wicker satchel\tPhono. msn. In msn “Mesen.” Det. in g3wt “bundles,” g3w “absence, lack.”",
+        "details": "V33"
+    },
+    {
+        "gardiner": "V32",
+        "glyph": "𓎣",
+        "description": "Wicker satchel\tPhono. msn. In msn “Mesen.” Det. in g3wt “bundles,” g3w “absence, lack.”",
+        "details": "V33"
+    },
+    {
+        "gardiner": "V32",
+        "glyph": "𓎣",
+        "description": "Wicker satchel\tPhono. msn. In msn “Mesen.” Det. in g3wt “bundles,” g3w “absence, lack.”",
+        "details": "V33"
+    },
+    {
+        "gardiner": "V32",
+        "glyph": "𓎣",
+        "description": "Wicker satchel\tPhono. msn. In msn “Mesen.” Det. in g3wt “bundles,” g3w “absence, lack.”",
+        "details": "V33"
+    },
+    {
+        "gardiner": "V34",
+        "glyph": "𓎥",
+        "description": "Var. of V33\tUse as V33.",
+        "details": "V35"
+    },
+    {
+        "gardiner": "V34",
+        "glyph": "𓎥",
+        "description": "Var. of V33\tUse as V33.",
+        "details": "V35"
+    },
+    {
+        "gardiner": "V34",
+        "glyph": "𓎥",
+        "description": "Var. of V33\tUse as V33.",
+        "details": "V35"
+    },
+    {
+        "gardiner": "V34",
+        "glyph": "𓎥",
+        "description": "Var. of V33\tUse as V33.",
+        "details": "V35"
+    },
+    {
+        "gardiner": "V36",
+        "glyph": "𓎨",
+        "description": "Receptacle\tPhono. ḥn. In ḥnt “occupation.”",
+        "details": "V37"
+    },
+    {
+        "gardiner": "V36",
+        "glyph": "𓎨",
+        "description": "Receptacle\tPhono. ḥn. In ḥnt “occupation.”",
+        "details": "V37"
+    },
+    {
+        "gardiner": "V36",
+        "glyph": "𓎨",
+        "description": "Receptacle\tPhono. ḥn. In ḥnt “occupation.”",
+        "details": "V37"
+    },
+    {
+        "gardiner": "V36",
+        "glyph": "𓎨",
+        "description": "Receptacle\tPhono. ḥn. In ḥnt “occupation.”",
+        "details": "V37"
+    },
+    {
+        "gardiner": "V38",
+        "glyph": "𓎫",
+        "description": "Bandage\tDet. in wt “bandage.”",
+        "details": "V39"
+    },
+    {
+        "gardiner": "V38",
+        "glyph": "𓎫",
+        "description": "Bandage\tDet. in wt “bandage.”",
+        "details": "V39"
+    },
+    {
+        "gardiner": "V38",
+        "glyph": "𓎫",
+        "description": "Bandage\tDet. in wt “bandage.”",
+        "details": "V39"
+    },
+    {
+        "gardiner": "V38",
+        "glyph": "𓎫",
+        "description": "Bandage\tDet. in wt “bandage.”",
+        "details": "V39"
+    },
+    {
+        "gardiner": "V5",
+        "glyph": "𓍰",
+        "description": "Looped rope\tDet. or Ideo. in snṯ “plot.”",
+        "details": "V6"
+    },
+    {
+        "gardiner": "V5",
+        "glyph": "𓍰",
+        "description": "Looped rope\tDet. or Ideo. in snṯ “plot.”",
+        "details": "V6"
+    },
+    {
+        "gardiner": "V5",
+        "glyph": "𓍰",
+        "description": "Looped rope\tDet. or Ideo. in snṯ “plot.”",
+        "details": "V6"
+    },
+    {
+        "gardiner": "V5",
+        "glyph": "𓍰",
+        "description": "Looped rope\tDet. or Ideo. in snṯ “plot.”",
+        "details": "V6"
+    },
+    {
+        "gardiner": "V7",
+        "glyph": "𓍲",
+        "description": "Cord with loop facing upwards\tPhono. šn.",
+        "details": "V8"
+    },
+    {
+        "gardiner": "V7",
+        "glyph": "𓍲",
+        "description": "Cord with loop facing upwards\tPhono. šn.",
+        "details": "V8"
+    },
+    {
+        "gardiner": "V7",
+        "glyph": "𓍲",
+        "description": "Cord with loop facing upwards\tPhono. šn.",
+        "details": "V8"
+    },
+    {
+        "gardiner": "V7",
+        "glyph": "𓍲",
+        "description": "Cord with loop facing upwards\tPhono. šn.",
+        "details": "V8"
+    },
+    {
+        "gardiner": "V9",
+        "glyph": "𓍶",
+        "description": "Round cartouche\tDet. in šnw “cartouche.”",
+        "details": "V10"
+    },
+    {
+        "gardiner": "V9",
+        "glyph": "𓍶",
+        "description": "Round cartouche\tDet. in šnw “cartouche.”",
+        "details": "V10"
+    },
+    {
+        "gardiner": "V9",
+        "glyph": "𓍶",
+        "description": "Round cartouche\tDet. in šnw “cartouche.”",
+        "details": "V10"
+    },
+    {
+        "gardiner": "V9",
+        "glyph": "𓍶",
+        "description": "Round cartouche\tDet. in šnw “cartouche.”",
+        "details": "V10"
+    },
+    {
+        "gardiner": "W1",
+        "glyph": "𓎯",
+        "description": "Oil jar\tDet. in mḏt “ointment,” mrḥt “oil.”",
+        "details": "W2"
+    },
+    {
+        "gardiner": "W1",
+        "glyph": "𓎯",
+        "description": "Oil jar\tDet. in mḏt “ointment,” mrḥt “oil.”",
+        "details": "W2"
+    },
+    {
+        "gardiner": "W1",
+        "glyph": "𓎯",
+        "description": "Oil jar\tDet. in mḏt “ointment,” mrḥt “oil.”",
+        "details": "W2"
+    },
+    {
+        "gardiner": "W1",
+        "glyph": "𓎯",
+        "description": "Oil jar\tDet. in mḏt “ointment,” mrḥt “oil.”",
+        "details": "W2"
+    },
+    {
+        "gardiner": "W11",
+        "glyph": "𓎼",
+        "description": "Ring stand\tPhono. g. Det. or Ideo. in nst “throne.”",
+        "details": "W12"
+    },
+    {
+        "gardiner": "W11",
+        "glyph": "𓎼",
+        "description": "Ring stand\tPhono. g. Det. or Ideo. in nst “throne.”",
+        "details": "W12"
+    },
+    {
+        "gardiner": "W11",
+        "glyph": "𓎼",
+        "description": "Ring stand\tPhono. g. Det. or Ideo. in nst “throne.”",
+        "details": "W12"
+    },
+    {
+        "gardiner": "W11",
+        "glyph": "𓎼",
+        "description": "Ring stand\tPhono. g. Det. or Ideo. in nst “throne.”",
+        "details": "W12"
+    },
+    {
+        "gardiner": "W13",
+        "glyph": "𓎾",
+        "description": "Pot\tDet. or Ideo. in dšrt “red pot.”",
+        "details": "W14"
+    },
+    {
+        "gardiner": "W13",
+        "glyph": "𓎾",
+        "description": "Pot\tDet. or Ideo. in dšrt “red pot.”",
+        "details": "W14"
+    },
+    {
+        "gardiner": "W13",
+        "glyph": "𓎾",
+        "description": "Pot\tDet. or Ideo. in dšrt “red pot.”",
+        "details": "W14"
+    },
+    {
+        "gardiner": "W13",
+        "glyph": "𓎾",
+        "description": "Pot\tDet. or Ideo. in dšrt “red pot.”",
+        "details": "W14"
+    },
+    {
+        "gardiner": "W15",
+        "glyph": "𓏁",
+        "description": "Tall jar with water\tDet. or Ideo. in qbb, qbḥ “cool, water.”",
+        "details": "W16"
+    },
+    {
+        "gardiner": "W15",
+        "glyph": "𓏁",
+        "description": "Tall jar with water\tDet. or Ideo. in qbb, qbḥ “cool, water.”",
+        "details": "W16"
+    },
+    {
+        "gardiner": "W15",
+        "glyph": "𓏁",
+        "description": "Tall jar with water\tDet. or Ideo. in qbb, qbḥ “cool, water.”",
+        "details": "W16"
+    },
+    {
+        "gardiner": "W15",
+        "glyph": "𓏁",
+        "description": "Tall jar with water\tDet. or Ideo. in qbb, qbḥ “cool, water.”",
+        "details": "W16"
+    },
+    {
+        "gardiner": "W17",
+        "glyph": "𓏃",
+        "description": "Tall jars in rack.\tPhono. ḫnt. In ḫntw “jar rack.”",
+        "details": "W18"
+    },
+    {
+        "gardiner": "W17",
+        "glyph": "𓏃",
+        "description": "Tall jars in rack.\tPhono. ḫnt. In ḫntw “jar rack.”",
+        "details": "W18"
+    },
+    {
+        "gardiner": "W17",
+        "glyph": "𓏃",
+        "description": "Tall jars in rack.\tPhono. ḫnt. In ḫntw “jar rack.”",
+        "details": "W18"
+    },
+    {
+        "gardiner": "W17",
+        "glyph": "𓏃",
+        "description": "Tall jars in rack.\tPhono. ḫnt. In ḫntw “jar rack.”",
+        "details": "W18"
+    },
+    {
+        "gardiner": "W19",
+        "glyph": "𓏇",
+        "description": "Milk jug\tPhono. mi. In mi “likeness.”",
+        "details": "W20"
+    },
+    {
+        "gardiner": "W19",
+        "glyph": "𓏇",
+        "description": "Milk jug\tPhono. mi. In mi “likeness.”",
+        "details": "W20"
+    },
+    {
+        "gardiner": "W19",
+        "glyph": "𓏇",
+        "description": "Milk jug\tPhono. mi. In mi “likeness.”",
+        "details": "W20"
+    },
+    {
+        "gardiner": "W19",
+        "glyph": "𓏇",
+        "description": "Milk jug\tPhono. mi. In mi “likeness.”",
+        "details": "W20"
+    },
+    {
+        "gardiner": "W21",
+        "glyph": "𓏉",
+        "description": "Wine jars\tDet. in irp “wine.”",
+        "details": "W22"
+    },
+    {
+        "gardiner": "W21",
+        "glyph": "𓏉",
+        "description": "Wine jars\tDet. in irp “wine.”",
+        "details": "W22"
+    },
+    {
+        "gardiner": "W21",
+        "glyph": "𓏉",
+        "description": "Wine jars\tDet. in irp “wine.”",
+        "details": "W22"
+    },
+    {
+        "gardiner": "W21",
+        "glyph": "𓏉",
+        "description": "Wine jars\tDet. in irp “wine.”",
+        "details": "W22"
+    },
+    {
+        "gardiner": "W23",
+        "glyph": "𓏋",
+        "description": "Jug with handles\tUse as W22.",
+        "details": "W24"
+    },
+    {
+        "gardiner": "W23",
+        "glyph": "𓏋",
+        "description": "Jug with handles\tUse as W22.",
+        "details": "W24"
+    },
+    {
+        "gardiner": "W23",
+        "glyph": "𓏋",
+        "description": "Jug with handles\tUse as W22.",
+        "details": "W24"
+    },
+    {
+        "gardiner": "W23",
+        "glyph": "𓏋",
+        "description": "Jug with handles\tUse as W22.",
+        "details": "W24"
+    },
+    {
+        "gardiner": "W25",
+        "glyph": "𓏎",
+        "description": "Combination of W24 + legs\tPhono. in. In ini “fetch, bring.”",
+        "details": "W. Vessels of Stone and Earthenware"
+    },
+    {
+        "gardiner": "W25",
+        "glyph": "𓏎",
+        "description": "Combination of W24 + legs\tPhono. in. In ini “fetch, bring.”",
+        "details": "W. Vessels of Stone and Earthenware"
+    },
+    {
+        "gardiner": "W25",
+        "glyph": "𓏎",
+        "description": "Combination of W24 + legs\tPhono. in. In ini “fetch, bring.”",
+        "details": "W. Vessels of Stone and Earthenware"
+    },
+    {
+        "gardiner": "W25",
+        "glyph": "𓏎",
+        "description": "Combination of W24 + legs\tPhono. in. In ini “fetch, bring.”",
+        "details": "W. Vessels of Stone and Earthenware"
+    },
+    {
+        "gardiner": "W3",
+        "glyph": "𓎱",
+        "description": "Alabaster basin\tDet. or Ideo. in ḥb “feast,” ḥb “mourn.”",
+        "details": "W4"
+    },
+    {
+        "gardiner": "W3",
+        "glyph": "𓎱",
+        "description": "Alabaster basin\tDet. or Ideo. in ḥb “feast,” ḥb “mourn.”",
+        "details": "W4"
+    },
+    {
+        "gardiner": "W3",
+        "glyph": "𓎱",
+        "description": "Alabaster basin\tDet. or Ideo. in ḥb “feast,” ḥb “mourn.”",
+        "details": "W4"
+    },
+    {
+        "gardiner": "W3",
+        "glyph": "𓎱",
+        "description": "Alabaster basin\tDet. or Ideo. in ḥb “feast,” ḥb “mourn.”",
+        "details": "W4"
+    },
+    {
+        "gardiner": "W5",
+        "glyph": "𓎴",
+        "description": "Combination of W3 + T28\tIdeo in ẖry-ḥbt “lector priest.”",
+        "details": "W6"
+    },
+    {
+        "gardiner": "W5",
+        "glyph": "𓎴",
+        "description": "Combination of W3 + T28\tIdeo in ẖry-ḥbt “lector priest.”",
+        "details": "W6"
+    },
+    {
+        "gardiner": "W5",
+        "glyph": "𓎴",
+        "description": "Combination of W3 + T28\tIdeo in ẖry-ḥbt “lector priest.”",
+        "details": "W6"
+    },
+    {
+        "gardiner": "W5",
+        "glyph": "𓎴",
+        "description": "Combination of W3 + T28\tIdeo in ẖry-ḥbt “lector priest.”",
+        "details": "W6"
+    },
+    {
+        "gardiner": "W7",
+        "glyph": "𓎶",
+        "description": "Granite bowl\tDet. in 3bt “family,” m3ṯ “proclaim.”",
+        "details": "W8"
+    },
+    {
+        "gardiner": "W7",
+        "glyph": "𓎶",
+        "description": "Granite bowl\tDet. in 3bt “family,” m3ṯ “proclaim.”",
+        "details": "W8"
+    },
+    {
+        "gardiner": "W7",
+        "glyph": "𓎶",
+        "description": "Granite bowl\tDet. in 3bt “family,” m3ṯ “proclaim.”",
+        "details": "W8"
+    },
+    {
+        "gardiner": "W7",
+        "glyph": "𓎶",
+        "description": "Granite bowl\tDet. in 3bt “family,” m3ṯ “proclaim.”",
+        "details": "W8"
+    },
+    {
+        "gardiner": "W9",
+        "glyph": "𓎸",
+        "description": "Stone jug\tPhono. ẖnm.",
+        "details": "W10"
+    },
+    {
+        "gardiner": "W9",
+        "glyph": "𓎸",
+        "description": "Stone jug\tPhono. ẖnm.",
+        "details": "W10"
+    },
+    {
+        "gardiner": "W9",
+        "glyph": "𓎸",
+        "description": "Stone jug\tPhono. ẖnm.",
+        "details": "W10"
+    },
+    {
+        "gardiner": "W9",
+        "glyph": "𓎸",
+        "description": "Stone jug\tPhono. ẖnm.",
+        "details": "W10"
+    },
+    {
+        "gardiner": "X1",
+        "glyph": "𓏏",
+        "description": "Small bread loaf\tPhono. t. Ideo. in t “bread.”",
+        "details": "X2"
+    },
+    {
+        "gardiner": "X1",
+        "glyph": "𓏏",
+        "description": "Small bread loaf\tPhono. t. Ideo. in t “bread.”",
+        "details": "X2"
+    },
+    {
+        "gardiner": "X1",
+        "glyph": "𓏏",
+        "description": "Small bread loaf\tPhono. t. Ideo. in t “bread.”",
+        "details": "X2"
+    },
+    {
+        "gardiner": "X1",
+        "glyph": "𓏏",
+        "description": "Small bread loaf\tPhono. t. Ideo. in t “bread.”",
+        "details": "X2"
+    },
+    {
+        "gardiner": "X3",
+        "glyph": "𓏑",
+        "description": "Var. of X2\tUse as X2",
+        "details": "X4"
+    },
+    {
+        "gardiner": "X3",
+        "glyph": "𓏑",
+        "description": "Var. of X2\tUse as X2",
+        "details": "X4"
+    },
+    {
+        "gardiner": "X3",
+        "glyph": "𓏑",
+        "description": "Var. of X2\tUse as X2",
+        "details": "X4"
+    },
+    {
+        "gardiner": "X3",
+        "glyph": "𓏑",
+        "description": "Var. of X2\tUse as X2",
+        "details": "X4"
+    },
+    {
+        "gardiner": "X5",
+        "glyph": "𓏕",
+        "description": "Var. of X4\tDet. in ʿqw “provisions.”",
+        "details": "X6"
+    },
+    {
+        "gardiner": "X5",
+        "glyph": "𓏕",
+        "description": "Var. of X4\tDet. in ʿqw “provisions.”",
+        "details": "X6"
+    },
+    {
+        "gardiner": "X5",
+        "glyph": "𓏕",
+        "description": "Var. of X4\tDet. in ʿqw “provisions.”",
+        "details": "X6"
+    },
+    {
+        "gardiner": "X5",
+        "glyph": "𓏕",
+        "description": "Var. of X4\tDet. in ʿqw “provisions.”",
+        "details": "X6"
+    },
+    {
+        "gardiner": "X7",
+        "glyph": "𓏘",
+        "description": "Half loaf of bread\tDet. in snw “offerings.” When doubled, wnm “eat.”",
+        "details": "X8"
+    },
+    {
+        "gardiner": "X7",
+        "glyph": "𓏘",
+        "description": "Half loaf of bread\tDet. in snw “offerings.” When doubled, wnm “eat.”",
+        "details": "X8"
+    },
+    {
+        "gardiner": "X7",
+        "glyph": "𓏘",
+        "description": "Half loaf of bread\tDet. in snw “offerings.” When doubled, wnm “eat.”",
+        "details": "X8"
+    },
+    {
+        "gardiner": "X7",
+        "glyph": "𓏘",
+        "description": "Half loaf of bread\tDet. in snw “offerings.” When doubled, wnm “eat.”",
+        "details": "X8"
+    },
+    {
+        "gardiner": "Y1",
+        "glyph": "𓏛",
+        "description": "Papyrus scroll\tPhono. mḏ3t. Ideo. in mḏ3t “paypyrus roll, book.” Det. in rḫ “know.”",
+        "details": "Y1v"
+    },
+    {
+        "gardiner": "Y1",
+        "glyph": "𓏛",
+        "description": "Papyrus scroll\tPhono. mḏ3t. Ideo. in mḏ3t “paypyrus roll, book.” Det. in rḫ “know.”",
+        "details": "Y1v"
+    },
+    {
+        "gardiner": "Y1",
+        "glyph": "𓏛",
+        "description": "Papyrus scroll\tPhono. mḏ3t. Ideo. in mḏ3t “paypyrus roll, book.” Det. in rḫ “know.”",
+        "details": "Y1v"
+    },
+    {
+        "gardiner": "Y1",
+        "glyph": "𓏛",
+        "description": "Papyrus scroll\tPhono. mḏ3t. Ideo. in mḏ3t “paypyrus roll, book.” Det. in rḫ “know.”",
+        "details": "Y1v"
+    },
+    {
+        "gardiner": "Y2",
+        "glyph": "𓏝",
+        "description": "Var. of Y1\tUse as Y1",
+        "details": "Y3"
+    },
+    {
+        "gardiner": "Y2",
+        "glyph": "𓏝",
+        "description": "Var. of Y1\tUse as Y1",
+        "details": "Y3"
+    },
+    {
+        "gardiner": "Y2",
+        "glyph": "𓏝",
+        "description": "Var. of Y1\tUse as Y1",
+        "details": "Y3"
+    },
+    {
+        "gardiner": "Y2",
+        "glyph": "𓏝",
+        "description": "Var. of Y1\tUse as Y1",
+        "details": "Y3"
+    },
+    {
+        "gardiner": "Y4",
+        "glyph": "𓏟",
+        "description": "Y4 reversed\tUse as Y3",
+        "details": "Y5"
+    },
+    {
+        "gardiner": "Y4",
+        "glyph": "𓏟",
+        "description": "Y4 reversed\tUse as Y3",
+        "details": "Y5"
+    },
+    {
+        "gardiner": "Y4",
+        "glyph": "𓏟",
+        "description": "Y4 reversed\tUse as Y3",
+        "details": "Y5"
+    },
+    {
+        "gardiner": "Y4",
+        "glyph": "𓏟",
+        "description": "Y4 reversed\tUse as Y3",
+        "details": "Y5"
+    },
+    {
+        "gardiner": "Y6",
+        "glyph": "𓏡",
+        "description": "Game piece\tDet. or Ideo. in ib3 “game piece,” “dance.”",
+        "details": "Y7"
+    },
+    {
+        "gardiner": "Y6",
+        "glyph": "𓏡",
+        "description": "Game piece\tDet. or Ideo. in ib3 “game piece,” “dance.”",
+        "details": "Y7"
+    },
+    {
+        "gardiner": "Y6",
+        "glyph": "𓏡",
+        "description": "Game piece\tDet. or Ideo. in ib3 “game piece,” “dance.”",
+        "details": "Y7"
+    },
+    {
+        "gardiner": "Y6",
+        "glyph": "𓏡",
+        "description": "Game piece\tDet. or Ideo. in ib3 “game piece,” “dance.”",
+        "details": "Y7"
+    },
+    {
+        "gardiner": "Y8",
+        "glyph": "𓏣",
+        "description": "Sistrum\tDet. in sššt “sistrum.”",
+        "details": "Z. Strokes"
+    },
+    {
+        "gardiner": "Y8",
+        "glyph": "𓏣",
+        "description": "Sistrum\tDet. in sššt “sistrum.”",
+        "details": "Z. Strokes"
+    },
+    {
+        "gardiner": "Y8",
+        "glyph": "𓏣",
+        "description": "Sistrum\tDet. in sššt “sistrum.”",
+        "details": "Z. Strokes"
+    },
+    {
+        "gardiner": "Y8",
+        "glyph": "𓏣",
+        "description": "Sistrum\tDet. in sššt “sistrum.”",
+        "details": "Z. Strokes"
+    },
+    {
+        "gardiner": "Z1",
+        "glyph": "𓏤",
+        "description": "Stroke\tFollows Ideograms. Det. wʿ “one.” Ideo. numerals 1-9.",
+        "details": "Z2"
+    },
+    {
+        "gardiner": "Z1",
+        "glyph": "𓏤",
+        "description": "Stroke\tFollows Ideograms. Det. wʿ “one.” Ideo. numerals 1-9.",
+        "details": "Z2"
+    },
+    {
+        "gardiner": "Z1",
+        "glyph": "𓏤",
+        "description": "Stroke\tFollows Ideograms. Det. wʿ “one.” Ideo. numerals 1-9.",
+        "details": "Z2"
+    },
+    {
+        "gardiner": "Z1",
+        "glyph": "𓏤",
+        "description": "Stroke\tFollows Ideograms. Det. wʿ “one.” Ideo. numerals 1-9.",
+        "details": "Z2"
+    },
+    {
+        "gardiner": "Z11",
+        "glyph": "𓏶",
+        "description": "Crossed planks\tPhono. im. In imy “who is in.”",
+        "details": "Aa. Unclassified"
+    },
+    {
+        "gardiner": "Z11",
+        "glyph": "𓏶",
+        "description": "Crossed planks\tPhono. im. In imy “who is in.”",
+        "details": "Aa. Unclassified"
+    },
+    {
+        "gardiner": "Z11",
+        "glyph": "𓏶",
+        "description": "Crossed planks\tPhono. im. In imy “who is in.”",
+        "details": "Aa. Unclassified"
+    },
+    {
+        "gardiner": "Z11",
+        "glyph": "𓏶",
+        "description": "Crossed planks\tPhono. im. In imy “who is in.”",
+        "details": "Aa. Unclassified"
+    },
+    {
+        "gardiner": "Z3",
+        "glyph": "𓏪",
+        "description": "Three Z1 vertical strokes\tSame as Z2.",
+        "details": "Z3a"
+    },
+    {
+        "gardiner": "Z3",
+        "glyph": "𓏪",
+        "description": "Three Z1 vertical strokes\tSame as Z2.",
+        "details": "Z3a"
+    },
+    {
+        "gardiner": "Z3",
+        "glyph": "𓏪",
+        "description": "Three Z1 vertical strokes\tSame as Z2.",
+        "details": "Z3a"
+    },
+    {
+        "gardiner": "Z3",
+        "glyph": "𓏪",
+        "description": "Three Z1 vertical strokes\tSame as Z2.",
+        "details": "Z3a"
+    },
+    {
+        "gardiner": "Z4",
+        "glyph": "𓏭",
+        "description": "Two diagonal strokes\tDet. Duality",
+        "details": "Z4a"
+    },
+    {
+        "gardiner": "Z4",
+        "glyph": "𓏭",
+        "description": "Two diagonal strokes\tDet. Duality",
+        "details": "Z4a"
+    },
+    {
+        "gardiner": "Z4",
+        "glyph": "𓏭",
+        "description": "Two diagonal strokes\tDet. Duality",
+        "details": "Z4a"
+    },
+    {
+        "gardiner": "Z4",
+        "glyph": "𓏭",
+        "description": "Two diagonal strokes\tDet. Duality",
+        "details": "Z4a"
+    },
+    {
+        "gardiner": "Z5",
+        "glyph": "𓏯",
+        "description": "Diagonal stroke in hieratic\tReplacement for complex or dangerous signs, human figures.",
+        "details": "Z6"
+    },
+    {
+        "gardiner": "Z5",
+        "glyph": "𓏯",
+        "description": "Diagonal stroke in hieratic\tReplacement for complex or dangerous signs, human figures.",
+        "details": "Z6"
+    },
+    {
+        "gardiner": "Z5",
+        "glyph": "𓏯",
+        "description": "Diagonal stroke in hieratic\tReplacement for complex or dangerous signs, human figures.",
+        "details": "Z6"
+    },
+    {
+        "gardiner": "Z5",
+        "glyph": "𓏯",
+        "description": "Diagonal stroke in hieratic\tReplacement for complex or dangerous signs, human figures.",
+        "details": "Z6"
+    },
+    {
+        "gardiner": "Z7",
+        "glyph": "𓏲",
+        "description": "From hieratic var. of G43.\tPhono. w.",
+        "details": "Z8"
+    },
+    {
+        "gardiner": "Z7",
+        "glyph": "𓏲",
+        "description": "From hieratic var. of G43.\tPhono. w.",
+        "details": "Z8"
+    },
+    {
+        "gardiner": "Z7",
+        "glyph": "𓏲",
+        "description": "From hieratic var. of G43.\tPhono. w.",
+        "details": "Z8"
+    },
+    {
+        "gardiner": "Z7",
+        "glyph": "𓏲",
+        "description": "From hieratic var. of G43.\tPhono. w.",
+        "details": "Z8"
+    },
+    {
+        "gardiner": "Z9",
+        "glyph": "𓏴",
+        "description": "Crossed sticks\tPhono. sw3. In sw3 “pass.”",
+        "details": "Z10"
+    },
+    {
+        "gardiner": "Z9",
+        "glyph": "𓏴",
+        "description": "Crossed sticks\tPhono. sw3. In sw3 “pass.”",
+        "details": "Z10"
+    },
+    {
+        "gardiner": "Z9",
+        "glyph": "𓏴",
+        "description": "Crossed sticks\tPhono. sw3. In sw3 “pass.”",
+        "details": "Z10"
+    },
+    {
+        "gardiner": "Z9",
+        "glyph": "𓏴",
+        "description": "Crossed sticks\tPhono. sw3. In sw3 “pass.”",
+        "details": "Z10"
+    }
+]

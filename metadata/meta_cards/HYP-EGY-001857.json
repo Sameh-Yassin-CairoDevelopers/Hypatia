@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-001857",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:35.317685Z"
+    },
+    "layer1_core": {
+        "transliteration": "wDb",
+        "hieroglyph": "𓎗𓃀𓄲𓂻𓍢𓂧𓃀𓄲𓂻𓎗𓃀𓈆𓂽𓅱𓆓𓃀𓈆",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "يطوي، يبتعد (عن)، يرجع، يعود، يحيل (قرابين)، يرجع مرة اخرى (مرض)",
+        "english": "fold over turn back, direct, revert, divert (offerings), direct (action), recur (of illness), fold over, turn (away from), turn (the head), turn back, revert (to), divert (offerings), direct (action to a purpose), recur (of illness)",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+13397",
+        "gardiner_code": "unknown",
+        "gardiner_description": "unknown",
+        "gardiner_details": "unknown"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

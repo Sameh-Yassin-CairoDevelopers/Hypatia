@@ -1,0 +1,505 @@
+ممتاز.
+
+وأعتقد أن هذه الوثيقة من أهم وثائق المرحلة السابعة، لأنها تجسد مبدأ كنت نردده منذ أول يوم:
+
+> **الثقة لا تأتى من الكود... بل من إمكانية إثبات صحة الكود.**
+
+فى هيباتيا لا نختبر "البرنامج" فقط.
+
+بل نختبر:
+
+* المعرفة.
+* العلاقات.
+* الـ Builders.
+* الـ AI.
+* الـ Repository.
+* وحتى المواصفات نفسها.
+
+ولهذا سيكون دليل الاختبارات مختلفًا عن أى Testing Guide تقليدى.
+
+---
+
+# HYP-SPEC-060600
+
+# Testing Guide
+
+**Project:** Hypatia Knowledge Platform
+
+**Document ID:** HYP-SPEC-060600
+
+**Version:** 1.0 Founder Edition
+
+**Status:** Official
+
+**Classification:** Engineering Manual
+
+**Parent Specification:** HYP-SPEC-060000 — Engineering Overview
+
+---
+
+# Purpose
+
+This guide defines the testing philosophy, quality assurance strategy, validation procedures, and engineering standards governing all verification activities within the Hypatia Platform.
+
+Testing is considered a continuous scientific validation process rather than a final engineering stage.
+
+Every component of the platform must be demonstrably correct before becoming part of the institutional knowledge infrastructure.
+
+---
+
+# Philosophy
+
+Everything built must be testable.
+
+Everything tested must be reproducible.
+
+Everything reproducible becomes trustworthy.
+
+---
+
+# Fundamental Principle
+
+No engineering artifact becomes official until its correctness has been verified through automated and documented testing.
+
+---
+
+# Scientific Position
+
+Testing verifies
+
+* engineering correctness
+* architectural compliance
+* Repository integrity
+* Builder determinism
+* AI behavior
+* scientific consistency
+
+Testing is therefore both an engineering and scientific responsibility.
+
+---
+
+# Testing Architecture
+
+```text id="testing_architecture"
+Specifications
+
+↓
+
+Implementation
+
+↓
+
+Automated Tests
+
+↓
+
+Validation
+
+↓
+
+Quality Report
+
+↓
+
+Deployment
+```
+
+Deployment without validation is prohibited.
+
+---
+
+# Testing Pyramid
+
+Hypatia follows a layered testing strategy.
+
+```text id="testing_pyramid"
+Acceptance Tests
+
+──────────────
+
+Integration Tests
+
+──────────────
+
+Component Tests
+
+──────────────
+
+Unit Tests
+```
+
+Each higher layer depends upon the correctness of the previous layer.
+
+---
+
+# Testing Categories
+
+---
+
+## Unit Testing
+
+Verifies individual functions and components.
+
+Examples
+
+* utility functions
+* validators
+* parsers
+* algorithms
+
+Every module requires unit tests.
+
+---
+
+## Component Testing
+
+Verifies individual platform components.
+
+Examples
+
+* Resolver
+* Search Engine
+* Repository Service
+* Graph Engine
+
+Each component is tested independently.
+
+---
+
+## Integration Testing
+
+Verifies communication between components.
+
+Examples
+
+* Resolver ↔ Repository
+* Builder ↔ Repository
+* API ↔ Core Services
+* Graph ↔ AI
+
+Integration failures must be isolated.
+
+---
+
+## Builder Testing
+
+Every Builder must verify
+
+* input validation
+* deterministic execution
+* output consistency
+* manifest compliance
+
+Builders are first-class testing targets.
+
+---
+
+## Repository Testing
+
+Repository validation includes
+
+* identifier uniqueness
+* reference integrity
+* graph consistency
+* metadata completeness
+
+Repository corruption is unacceptable.
+
+---
+
+## Knowledge Testing
+
+Scientific verification includes
+
+* canonical consistency
+* duplicate detection
+* semantic integrity
+* provenance preservation
+
+Knowledge quality is continuously monitored.
+
+---
+
+## AI Testing
+
+The Hypatia Intelligence Engine is evaluated using
+
+* translation accuracy
+* transliteration accuracy
+* grammatical consistency
+* semantic consistency
+* reasoning quality
+* evidence alignment
+
+AI evaluation is Repository-aware.
+
+---
+
+## API Testing
+
+Every endpoint verifies
+
+* request validation
+* response structure
+* permissions
+* performance
+* version compatibility
+
+APIs remain contract-compliant.
+
+---
+
+## Performance Testing
+
+Measures
+
+* latency
+* throughput
+* scalability
+* memory usage
+* Builder execution time
+
+Performance optimization never compromises correctness.
+
+---
+
+## Security Testing
+
+Includes
+
+* authentication
+* authorization
+* input sanitization
+* injection resistance
+* privilege verification
+
+Security tests are mandatory.
+
+---
+
+## Regression Testing
+
+Whenever a component changes,
+
+previous functionality must remain intact.
+
+Regression tests prevent accidental knowledge loss.
+
+---
+
+# Test Data
+
+Testing datasets remain versioned.
+
+Every test references
+
+```text id="test_dataset"
+repository_revision
+
+dataset_revision
+
+builder_revision
+
+test_revision
+```
+
+Results remain reproducible.
+
+---
+
+# Test Reports
+
+Every execution generates
+
+```text id="testing_report"
+test_suite
+
+tests_run
+
+tests_passed
+
+tests_failed
+
+coverage
+
+duration
+
+revision
+```
+
+Reports become permanent engineering records.
+
+---
+
+# Coverage
+
+Coverage targets
+
+* Repository
+* Builders
+* APIs
+* Core Services
+* AI
+* Documentation
+
+Documentation itself may be validated.
+
+---
+
+# Automated Testing
+
+The platform supports continuous testing through HBF.
+
+Every Builder may trigger
+
+* unit tests
+* integration tests
+* validation tests
+* regression tests
+
+Testing becomes part of every engineering pipeline.
+
+---
+
+# Failure Policy
+
+Failed tests
+
+* block deployment
+* generate diagnostics
+* preserve logs
+* require correction
+
+Failures must never be ignored.
+
+---
+
+# Quality Gates
+
+Deployment requires
+
+✓ Unit Tests
+
+✓ Integration Tests
+
+✓ Repository Validation
+
+✓ Builder Validation
+
+✓ API Validation
+
+✓ Regression Tests
+
+Only then may deployment proceed.
+
+---
+
+# Metrics
+
+Automatically collected
+
+```text id="testing_metrics"
+coverage
+
+pass_rate
+
+failure_rate
+
+average_duration
+
+performance_score
+
+repository_integrity
+
+builder_reliability
+```
+
+Quality is continuously measurable.
+
+---
+
+# Long-Term Objective
+
+To establish an engineering culture in which every scientific artifact, software component, Builder, and AI capability is continuously verified through automated, deterministic, and reproducible testing.
+
+Testing becomes an institutional guarantee rather than a development phase.
+
+---
+
+# Scientific Law
+
+Build.
+
+Verify.
+
+Trust.
+
+Deploy.
+
+---
+
+# Testing Motto
+
+> **Nothing is Trusted Until It Is Tested.**
+
+---
+
+# Founder Statement
+
+Within Hypatia, testing is not performed to discover whether software works.
+
+It is performed to demonstrate that the platform remains worthy of preserving one of humanity's greatest historical knowledge repositories.
+
+Every successful test reinforces institutional confidence.
+
+Every failed test protects the Repository from silent corruption.
+
+Testing therefore becomes an act of scientific preservation rather than merely software quality assurance.
+
+---
+
+# Academic Notes
+
+The Hypatia Testing Strategy adopts a **Knowledge-Centered Verification Framework (KCVF)**.
+
+Unlike conventional software testing methodologies that focus primarily on functional correctness, KCVF simultaneously validates engineering behavior, Repository integrity, semantic consistency, Builder determinism, AI reasoning quality, and scientific provenance.
+
+This integrated verification model ensures that the platform evolves without compromising its scholarly reliability, reproducibility, or institutional credibility.
+
+---
+
+# ✦ Founder Insight
+
+أرى أن هيباتيا يجب أن تضيف طبقة اختبار لا أذكر أنها موجودة فى أى منصة مشابهة، وهى:
+
+## **Specification Testing**
+
+بمعنى أن الاختبار لا يبدأ من الكود، بل من الوثيقة نفسها.
+
+كل HYP-SPEC يجب أن يكون مرتبطًا بمجموعة **Specification Tests** تتحقق أن:
+
+* الكود يحقق ما تنص عليه الوثيقة.
+* الـ API يطابق المواصفات.
+* الـ Builder يلتزم بالعقد (Contract).
+* الـ Repository يحقق القيود المذكورة.
+* النتائج الفعلية لا تنحرف عن التصميم الأصلى.
+
+وبذلك يصبح لدينا سلسلة كاملة قابلة للتتبع:
+
+```text
+HYP-SPEC
+      ↓
+Implementation
+      ↓
+Specification Tests
+      ↓
+Unit Tests
+      ↓
+Integration Tests
+      ↓
+Deployment
+```
+
+وهذا يحقق الرؤية التى بنينا عليها المشروع منذ الوثيقة الأولى:
+
+> **المواصفات ليست وثائق للقراءة فقط... بل وثائق قابلة للاختبار والتنفيذ.**

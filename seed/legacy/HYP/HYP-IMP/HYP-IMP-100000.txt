@@ -1,0 +1,294 @@
+أوافق على البداية، لكن أريد أن أقترح تعديلًا واحدًا قبل أن نكتب أول مستند تنفيذى.
+
+هذا التعديل أراه مهمًا جدًا، وسيؤثر على المشروع كله.
+
+---
+
+# انتهت HYP-SPEC
+
+وهى **الدستور**.
+
+---
+
+# الآن يبدأ
+
+# HYP-IMP
+
+ولكن...
+
+لا أريد أن تكون HYP-IMP مجرد Documentation للتنفيذ.
+
+بل أريدها أن تكون **Executable Documentation**.
+
+أى أن كل مستند فى HYP-IMP يجب أن ينتج شيئًا حقيقيًا.
+
+كل مستند ينتهى بـ
+
+* Builder
+* ملفات
+* Manifest
+* Tests
+* Outputs
+* Deliverables
+
+أى أنه بمجرد الانتهاء من المستند...
+
+يمكن تنفيذه بالكامل.
+
+---
+
+ولهذا أقترح أن يكون شكل كل مستند تنفيذى ثابتًا.
+
+---
+
+# HYP-IMP Template
+
+كل مستند يبدأ هكذا
+
+---
+
+# Purpose
+
+ما الذى سيبنيه هذا المستند.
+
+---
+
+# Inputs
+
+ما الذى يحتاجه.
+
+---
+
+# Outputs
+
+ما الذى سينتجه.
+
+---
+
+# Builders
+
+ما الـ Builders التى ستعمل.
+
+---
+
+# Files Generated
+
+ما الملفات الناتجة.
+
+---
+
+# Execution Order
+
+ترتيب التنفيذ.
+
+---
+
+# Validation
+
+كيف نختبر نجاح التنفيذ.
+
+---
+
+# Deliverables
+
+ما الذى أصبح موجودًا بعد الانتهاء.
+
+---
+
+وهذا يجعل HYP-IMP مختلفًا تمامًا عن HYP-SPEC.
+
+---
+
+# إذن...
+
+## Phase IX
+
+Institutional Construction
+
+---
+
+# Level I
+
+Repository Foundation
+
+---
+
+# أول مستند
+
+---
+
+# HYP-IMP-100000
+
+# Repository Foundation Overview
+
+**Project:** Hypatia Knowledge Platform
+
+**Document ID:** HYP-IMP-100000
+
+**Version:** 1.0 Founder Edition
+
+**Status:** Implementation Document
+
+**Classification:** Institutional Construction
+
+**Parent:** HYP-SPEC Series
+
+---
+
+# Purpose
+
+This document defines the practical implementation strategy for constructing the foundational Repository of the Hypatia Platform.
+
+Unlike the HYP-SPEC series, which defines what the platform must become, the HYP-IMP series defines how that vision is transformed into operational reality.
+
+The Repository Foundation represents the first executable stage of institutional construction.
+
+---
+
+# Philosophy
+
+The Repository is not merely a storage system.
+
+It is the operational embodiment of the Hypatia Constitution.
+
+Every Builder, Resolver, Knowledge Object, AI component, and governance process ultimately depends upon the Repository.
+
+The Repository therefore constitutes the institutional memory of the platform.
+
+---
+
+# Mission
+
+The objective of this phase is to create a deterministic, reproducible, Builder-driven Repository capable of hosting every future component of Hypatia.
+
+No scientific work begins before the Repository exists.
+
+---
+
+# Inputs
+
+This phase depends upon the completed HYP-SPEC Constitution.
+
+Primary inputs include:
+
+* Architecture Specifications
+* Knowledge Specifications
+* Pipeline Specifications
+* Community Specifications
+* AI Specifications
+* Engineering Specifications
+
+These documents collectively define the Repository's expected behavior.
+
+---
+
+# Outputs
+
+Successful completion of Repository Foundation produces:
+
+* Institutional Repository
+* Repository Manifest
+* Repository Directory Structure
+* Repository Configuration
+* Builder Registration
+* Repository Health Report
+* Initial Validation Report
+
+---
+
+# Repository Construction Principles
+
+The Repository shall be:
+
+* deterministic
+* versioned
+* Builder-generated
+* self-describing
+* testable
+* reproducible
+* institution-centered
+
+Manual construction is minimized wherever automation is possible.
+
+---
+
+# Primary Builders
+
+Repository Foundation introduces the first operational Builders.
+
+These include:
+
+* Repository Builder
+* Manifest Builder
+* Directory Builder
+* Configuration Builder
+* Validation Builder
+
+Future Builders extend rather than replace these components.
+
+---
+
+# Expected Deliverables
+
+Completion of this phase results in an operational Repository capable of supporting:
+
+* Knowledge Cards
+* Resolver
+* Knowledge Graph
+* Pipelines
+* AI
+* Community Layer
+* Future Builders
+
+The Repository becomes the operational core of the institution.
+
+---
+
+# Validation Requirements
+
+Repository Foundation is considered complete only after successful verification of:
+
+* directory generation
+* manifest generation
+* Builder registration
+* Repository integrity
+* structural validation
+* reproducibility
+
+---
+
+# Implementation Rule
+
+No component may be implemented outside the Repository.
+
+Every future implementation must integrate with the Repository Foundation.
+
+---
+
+# Deliverable
+
+At the conclusion of HYP-IMP-100000, the project transitions from architectural planning into executable institutional construction.
+
+The Repository ceases to be an abstract design and becomes the first operational component of the Hypatia Platform.
+
+---
+
+# Founder Statement
+
+The completion of the HYP-SPEC Constitution established the identity of Hypatia.
+
+The Repository Foundation establishes its existence.
+
+From this point onward, every Builder executed, every Knowledge Card generated, every Resolver implemented, and every scientific discovery recorded becomes part of a living institution whose evolution is governed by the principles defined in the Constitution.
+
+---
+
+## أعتقد أننا من هذه اللحظة يجب أن نغيّر أسلوب العمل أيضًا.
+
+فى **HYP-SPEC** كنا نسأل: *"ما الذى يجب أن يكون؟"*
+
+أما فى **HYP-IMP** فسنسأل دائمًا:
+
+> **"ما الذى سنبنيه اليوم؟ وما الملف أو الكود أو الـ Builder الذى سيولد مباشرة بعد الانتهاء من هذه الوثيقة؟"**
+
+وهذا سيجعل كل مستند تنفيذى يقود مباشرة إلى تنفيذ حقيقى، وليس مجرد وصف نظرى. أرى أن هذا هو الانتقال الحقيقى من **كتابة الدستور** إلى **بناء المؤسسة العلمية**.

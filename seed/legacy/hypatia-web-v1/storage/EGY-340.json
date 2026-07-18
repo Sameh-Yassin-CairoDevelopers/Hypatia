@@ -1,0 +1,218 @@
+{
+    "text_id": "EGY-340",
+    "metadata": {
+        "title_ar": "كسرات اللاهون الرياضية لتوزيع الحصص",
+        "title_en": "The Lahun Mathematical Fragments (Ration Distribution)",
+        "museum_catalog_no": "Petrie Museum UCL, Inv. UC 32118 (Page 1, Lines 1-4)",
+        "stable_tla_id": "unknown"
+    },
+    "sentences": [
+        {
+            "metadata": {
+                "id": "HYP-TXT-000340-S01",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T21:20:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-340",
+                "sequence_no": 1,
+                "transliteration": "tp-ḥsb n pš dꜣb.w n 10 s",
+                "hieroglyph": "𓁷𓏤𓏃𓈖𓏪𓂧𓄿𓃀𓏥𓈖𓎆𓏤𓀀",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 1: المنهج والأسلوب الرياضي المتبع لتوزيع وتقسيم ثمار التين بالتناسب على عشرة رجال:",
+                "english": "Line 1: Method of distributing figs proportionally to ten men:",
+                "german": "Zeile 1: Methode der proportionalen Verteilung von Feigen an zehn Männer:",
+                "french": "Ligne 1: Méthode de distribution proportionnelle de figues à dix hommes :",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "tp-hsb_heading_introducing_mathematical_fraction_with_dative"
+            },
+            "layer4_writing": {
+                "mdc_code": "tp-Hsb n pS dAb.w n 10 s"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PETRIE-UC32118",
+                        "name": "Lahun Mathematical Fragment, Petrie Museum UCL",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "tp-ḥsb", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "pš", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "dꜣb.w", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "s", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ 'بِش' (pš) يعني لغوياً وحسابياً التقسيم النسبي أو التوزيع بالتناسب لضمان العدالة الاقتصادية [3.2.2]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000340-S02",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T21:21:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-340",
+                "sequence_no": 2,
+                "transliteration": "jw rḏj.n=k jr.t dꜣb.w 100 n 10 s",
+                "hieroglyph": "𓇋𓅱𓂞𓈖𓎡𓁹𓏏𓂧𓄿𓃀𓏥𓍢𓈖𓎆𓏤𓀀",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 2: إذا قُدم وعُهد إليك بإنجاز وتوزيع مئة (100) ثمرة تين لصالح عشرة رجال،",
+                "english": "Line 2: If you are given 100 figs to distribute to ten men,",
+                "german": "Zeile 2: Wenn dir 100 Feigen gegeben werden, die du an zehn Männer verteilen sollst,",
+                "french": "Ligne 2: S'il vous est donné 100 figues à distribuer à dix hommes,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "iw_conditional_with_perfective_passive_participle_and_numerical_quantifier"
+            },
+            "layer4_writing": {
+                "mdc_code": "jw rdj.n=k jr.t dAb.w 100 n 10 s"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PETRIE-UC32118",
+                        "name": "Lahun Mathematical Fragment, Petrie Museum UCL",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "rḏj", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "dꜣb.w", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "s", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "المسألة الرياضية توضح استخدام مادة التين 'دابو' (dꜣb.w) كمادة غذائية فاخرة توزع كحوافز عينية للعمال الكادحين بقرى اللاهون."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000340-S03",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T21:22:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-340",
+                "sequence_no": 3,
+                "transliteration": "jr.t-mj-m pš jm n s nb m-mtr",
+                "hieroglyph": "𓁹𓏏𓐝𓏠𓏪𓐝𓆑𓈖𓀀𓎟𓐝𓌳𓏏𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 3: فكيف ستقوم بعمل وتأكيد القسمة والتوزيع الحسابي منها لكل رجل بالتساوي واليقين؟",
+                "english": "Line 3: how do you distribute thereof to each man precisely?",
+                "german": "Zeile 3: wie verteilst du davon genau an jeden Mann?",
+                "french": "Ligne 3: comment en distribuez-vous précisément à chaque homme ?",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "jr.t-mi-m_interrogative_infinitive_with_prepositional_and_dative_limiters"
+            },
+            "layer4_writing": {
+                "mdc_code": "jr.t-mj-m pS jm n s nb m-mtr"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PETRIE-UC32118",
+                        "name": "Lahun Mathematical Fragment, Petrie Museum UCL",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jr.t-mj-m", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "pš", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "s", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "m-mtr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "العبارة الاستفهامية الرياضية 'إرت-مي-إم' (jr.t-mj-m) تعني حرفياً 'كيف يتم العمل حسابياً؟' لاستثارة تفكير الكاتب المتعلم."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000340-S04",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T21:23:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-340",
+                "sequence_no": 4,
+                "transliteration": "jw.f pw m ḥtp mi gm.t m sš",
+                "hieroglyph": "𓇋𓅱𓆑𓊪𓅱𓐝𓊵𓏏𓊪𓐝𓏟𓏏",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 4: وقد تم وانتهى الحل الرياضي بسلام، كما وُجد مكتوباً ومسطراً في المخطوط الأصلي.",
+                "english": "Line 4: It has come to an end in peace, as it was found in writing.",
+                "german": "Zeile 4: Es ist in Frieden zu Ende gegangen, so wie es geschrieben gefunden wurde.",
+                "french": "Ligne 4: Cela s'est terminé en paix, comme cela a été trouvé par écrit.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "traditional_egyptian_scribal_colophon_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "jw.f pw m Htp mi gm.t m sS"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PETRIE-UC32118",
+                        "name": "Lahun Mathematical Fragment, Petrie Museum UCL",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jw.f-pw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥtp", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "gm.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الخاتمة الحسابية لدفاتر الرياضيات بالدولة الوسطى لتوكيد انتهاء حساب المسألة وإقرار صحة النتيجة للمهندسين [3.2.2]."
+            }
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-005308",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:39.827737Z"
+    },
+    "layer1_core": {
+        "transliteration": "sDAwtyw",
+        "hieroglyph": "𓋨𓅱𓅂𓀀𓏪𓋩𓏏𓅂𓏥",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "كنوز",
+        "english": "treasurers",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+132E8",
+        "gardiner_code": "S19",
+        "gardiner_description": "Necklace and cylinder seal\tIdeo. in sḏ3wty “treasurer,” sḏ3w “precious.” Det. or Ideo. in ḫtm “seal.”",
+        "gardiner_details": "S20"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

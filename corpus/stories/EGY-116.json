@@ -1,0 +1,1671 @@
+{
+    "text_id": "EGY-116",
+    "metadata": {
+        "title_ar": "لوحة الجرد بالجيزة - معبد إيزيس (الدفعة 1 من 3)",
+        "title_en": "The Inventory Stela - Temple of Isis at Giza (Batch 1 of 3)",
+        "museum_catalog_no": "Cairo Museum JE 2091 (Page 1, Lines L01-L11)",
+        "stable_tla_id": "unknown"
+    },
+    "sentences": [
+        {
+            "metadata": {
+                "id": "HYP-TXT-000116-L01",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T01:30:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-116",
+                "sequence_no": 1,
+                "transliteration": "ˁnḫ ḥr mḏd-w nsw-bỉty ḫwfw dỉ ˁnḫ",
+                "hieroglyph": "𓋹𓅃𓎛𓎛𓎆𓇓𓏏𓆤𓏏𓐍𓅱𓆄𓅱𓂞𓋹",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L01: عاش حورس مِجِدو، ملك مصر العليا والسفلى خوفو، المعطى الحياة.",
+                "english": "Line L01: Live the Horus Medjedu, King of Upper and Lower Egypt, Khufu, given life.",
+                "german": "Zeile L01: Es lebe der Horus Medjedu, der König von Ober- und Unterägypten, Cheops, dem Leben gegeben ist.",
+                "french": "Ligne L01: Vive l'Horus Medjedu, le Roi de Haute et Basse-Égypte, Khéops, doué de vie.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "royal_titulary_with_optative_epithet_and_corrected_horus_name"
+            },
+            "layer4_writing": {
+                "mdc_code": "anx Hr mDd-w nsw-bity xwfw di anx"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE2091",
+                        "name": "The Inventory Stela, Egyptian Museum Cairo",
+                        "type": "stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ˁnḫ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥr", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "mḏd-w", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "ḫwfw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "تم تصحيح اسم حورس الخاص بخوفو إلى اللفظ الحقيقي الصحيح 'مِجِدو' (Medjedu / `mḏd-w`) بدلاً من الخلط الإملائي السابق لنسّاخ العصر المتأخر [3.2.1]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000116-L02",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T01:31:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-116",
+                "sequence_no": 2,
+                "transliteration": "jr.n=f n mwt=f Ꜣst mwt-nṯr ḥnwt mr",
+                "hieroglyph": "𓁹𓈖𓆑𓈖𓅨𓏏𓆑𓊨𓏏𓁐𓊹𓅨𓏏𓎟𓏏𓌸𓂋𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L02: لقد صنع هذا من أجل أمه إيزيس، الأم الإلهية، سيدة الهرم،",
+                "english": "Line L02: He made it for his mother Isis, the Divine Mother, Mistress of the Pyramid,",
+                "german": "Zeile L02: Er machte es für seine Mutter Isis, die Gottesmutter, die Herrin der Pyramide,",
+                "french": "Ligne L02: Il l'a fait pour sa mère Isis, la Mère divine, Maîtresse de la Pyramide,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n=f_transitive_with_dative_beneficiary"
+            },
+            "layer4_writing": {
+                "mdc_code": "jr.n=f n mwt=f Ast mwt-nTr hnwt mr"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE2091",
+                        "name": "The Inventory Stela, Egyptian Museum Cairo",
+                        "type": "stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jr.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "Ꜣst", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḥnwt", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللقب 'حنوت مر' (ḥnwt mr) يعني حرفياً 'سيدة الهرم'، وهو لقب كهنوتي لاهوتي لإيزيس بعصر الأسرة 26."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000116-L03",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T01:32:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-116",
+                "sequence_no": 3,
+                "transliteration": "gm.n=f ḥwt Ꜣst r-gsw ḥwt ḥr-m-Ꜣḫt",
+                "hieroglyph": "𓂓𓏠𓈖𓆑𓉐𓊨𓏏𓁐𓎼𓋴𓅱𓉐𓅃𓐝𓈃",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L03: حيث وجد وعثر جلالته على معبد إيزيس بجانب معبد أبو الهُول (حر-إم-آخت)،",
+                "english": "Line L03: He found the temple of Isis beside the temple of the Sphinx (Harmakhis),",
+                "german": "Er fand das Haus der Isis neben dem Haus des Sphinx (Harmachis),",
+                "french": "Il trouva le temple d'Isis à côté du temple du Sphinx (Harmakhis),",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n=f_transitive_with_prepositional_adjunct"
+            },
+            "layer4_writing": {
+                "mdc_code": "gm.n=f hwt Ast r-gsw hwt hr-m-Axt"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE2091",
+                        "name": "The Inventory Stela, Egyptian Museum Cairo",
+                        "type": "stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "gm.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥwt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḥr-m-Ꜣḫt", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ 'حر-إم-آخت' (ḥr-m-Ꜣḫt) يعني حورس في الأفق وهو اللقب اللاهوتي لأبو الهول."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000116-L04",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T01:33:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-116",
+                "sequence_no": 4,
+                "transliteration": "m mḥty-jmnt n ḥwt wsjr nb rꜣ-stꜣ",
+                "hieroglyph": "𓐝𓎛𓏏𓏭𓊹𓏠𓈖𓏏𓈖𓉐𓊨𓁹𓎟𓂋𓏤𓍘𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L04: في الشمال الغربي لمعبد أوزيريس، سيد روجاو (را-ستاو)،",
+                "english": "Line L04: on the northwest of the temple of Osiris, Lord of Rasetau,",
+                "german": "Zeile L04: im Nordwesten des Tempels des Osiris, des Herrn von Rasetau,",
+                "french": "Ligne L04: au nord-ouest du temple d'Osiris, Seigneur de Rasetau,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "adverbial_phrase",
+                "syntax_structure": "locative_prepositional_phrase"
+            },
+            "layer4_writing": {
+                "mdc_code": "m mHty-jmnt n hwt wsjr nb rA-stA"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE2091",
+                        "name": "The Inventory Stela, Egyptian Museum Cairo",
+                        "type": "stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "mḥty-jmnt", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "wsjr", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "rꜣ-stꜣ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "تحديد الإحداثيات الجغرافية لمعبد أوزيريس برا-ستاو (الهضبة الجنائزية للجيزة)."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000116-L05",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T01:34:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-116",
+                "sequence_no": 5,
+                "transliteration": "qd.n=f ḥwt=s m jnr",
+                "hieroglyph": "𓇋𓏏𓈖𓆑𓉐𓏤𓋴𓐝𓊛𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L05: وقام ببناء معبدها وتشييده بالكامل من الحجر الصخري المنيع،",
+                "english": "Line L05: He built her temple of stone,",
+                "german": "Zeile L05: Er baute ihren Tempel aus Stein,",
+                "french": "Ligne L05: Il bâtit son temple en pierre,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n=f_transitive_with_instrumental_preposition"
+            },
+            "layer4_writing": {
+                "mdc_code": "qd.n=f hwt=s m jnr"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE2091",
+                        "name": "The Inventory Stela, Egyptian Museum Cairo",
+                        "type": "stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "qd.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "jnr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الالتزام بنوع البناء الصخري 'ينر' (jnr) لتأكيد الإعمار الحجري للمعبد."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000116-L06",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T01:35:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-116",
+                "sequence_no": 6,
+                "transliteration": "jp.t nṯrw pr-Ꜣst nṯr.t-ˁꜢt ḥnwt mr",
+                "hieroglyph": "𓇋𓏪𓊹𓊹𓊹𓉐𓊨𓏏𓊹𓏏𓏏𓅨𓏏𓎟𓏏𓌸𓂋𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L06: هذا جرد وتعداد لتماثيل معبد إيزيس، الإلهة العظمى وسيدة الهرم:",
+                "english": "Line L06: Inventory of the divine statues of the temple of Isis, the Great Goddess, Mistress of the Pyramid:",
+                "german": "Zeile L06: Inventar der Götterstatuen des Tempels der Isis, der großen Göttin, der Herrin der Pyramide:",
+                "french": "Ligne L06: Inventaire des statues divines du temple d'Isis, la Grande Déesse, Maîtresse de la Pyramide :",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "heading_noun_with_indirect_genitive"
+            },
+            "layer4_writing": {
+                "mdc_code": "jp.t nTrw pr-Ast nTr.t-aAt hnwt mr"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE2091",
+                        "name": "The Inventory Stela, Egyptian Museum Cairo",
+                        "type": "stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jp.t", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "nṯrw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "nṯr.t-ˁꜢt", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ 'يبت' (jp.t) يعني جرد أو حساب وهو تبرير لتأسيس قائمة الأثريات الكلية بالمستودع."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000116-L07",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T01:36:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-116",
+                "sequence_no": 7,
+                "transliteration": "[1] wsjr nb rꜣ-stꜣ m ḫt nbw jr.ty m ḫsbḏ",
+                "hieroglyph": "𓊨𓁹𓎟𓂋𓏤𓍘𓏤𓐝𓆱𓏤𓋞𓏪𓁹𓏮𓐝𓆼𓄿𓏲𓏴𓈓",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L07: 1. تمثال أوزيريس، سيد را-ستاو: مصنوع من الخشب المذهب، والعيون مطعمة باللازورد الكوني الحقيقي،",
+                "english": "Line L07: 1. Osiris, Lord of Rasetau: made of gilded wood, with eyes inlaid with lapis lazuli,",
+                "german": "Zeile L07: 1. Osiris, der Herr von Rasetau: aus vergoldetem Holz, die Augen mit Lapislazuli eingelegt,",
+                "french": "Ligne L07: 1. Osiris, Seigneur de Rasetau : en bois doré, les yeux incrustés de lapis-lazuli,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "noun_entry_with_material_and_inlay_attributes"
+            },
+            "layer4_writing": {
+                "mdc_code": "[1] wsjr nb rA-stA m xt nbw jr.ty m xsbd"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE2091",
+                        "name": "The Inventory Stela, Egyptian Museum Cairo",
+                        "type": "stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "wsjr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḫt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḫsbḏ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التمثال الأول يخص أوزيريس، واللازورد 'خسبر' (ḫsbḏ) يمثل الصبغة الزرقاء المخصصة للمظهر الإلهي للعينين."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000116-L08",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T01:37:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-116",
+                "sequence_no": 8,
+                "transliteration": "[2] Ꜣst ḥnwt mr m ḫt nbw jr.ty m msdm.t",
+                "hieroglyph": "𓊨𓏏𓁐𓎟𓏏𓌸𓂋𓂋𓐝𓆱𓏤𓋞𓏪𓁹𓏮𓐝𓁿𓏴",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L08: 2. تمثال إيزيس، سيدة الهرم: مصنوع من الخشب المذهب، والعيون مطعمة ومكحلة بالكحل الأسود،",
+                "english": "Line L08: 2. Isis, Mistress of the Pyramid: made of gilded wood, with eyes inlaid with kohl,",
+                "german": "Zeile L08: 2. Isis, die Herrin der Pyramide: aus vergoldetem Holz, die Augen mit Augenschminke eingelegt,",
+                "french": "Ligne L08: 2. Isis, Maîtresse de la Pyramide : en bois doré, les yeux incrustés de fard noir (khôl),",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "noun_entry_with_material_and_inlay_attributes"
+            },
+            "layer4_writing": {
+                "mdc_code": "[2] Ast hnwt mr m xt nbw jr.ty m msdm.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE2091",
+                        "name": "The Inventory Stela, Egyptian Museum Cairo",
+                        "type": "stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "Ꜣst", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "msdm.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التمثال الثاني يمثل إيزيس؛ والعيون المحددة بـ 'مسدمت' (msdm.t) تفيد الحماية المادية الكيميائية للوجه من التعرية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000116-L09",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T01:38:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-116",
+                "sequence_no": 9,
+                "transliteration": "[3] ḥr nḏ-jt=f m bỉꜣ km jr.ty m nbw",
+                "hieroglyph": "𓅃𓐍𓂋𓇋𓏏𓆑𓐝𓃀𓇋𓄿𓆱𓆓𓅓𓁹𓏮𓐝𓋞𓏪",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L09: 3. تمثال حورس، منقذ ومسترد حق أبيه: مصنوع من النحاس/البرونز الأسود، والعيون مطعمة بالذهب الخالص،",
+                "english": "Line L09: 3. Horus, avenger of his father: made of black bronze, with eyes inlaid with gold,",
+                "german": "Zeile L09: 3. Horus, der Rächer seines Vaters: aus schwarzer Bronze, die Augen mit Gold eingelegt,",
+                "french": "Ligne L09: 3. Horus, vengeur de son père : en bronze noir, les yeux incrustés d'or,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "noun_entry_with_metal_and_gold_attributes"
+            },
+            "layer4_writing": {
+                "mdc_code": "[3] hr nD-jt=f m biA km jr.ty m nbw"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE2091",
+                        "name": "The Inventory Stela, Egyptian Museum Cairo",
+                        "type": "stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḥr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "bỉꜣ-km", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "nbw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التمثال الثالث يخص حورس؛ وسبيكة البرونز الداكنة 'بيا كم' (bỉꜣ-km) مع تطعيم الذهب تعزز من وقار ومقاومة الأثر الكيميائي لعوامل التآكل."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000116-L10",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T01:39:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-116",
+                "sequence_no": 10,
+                "transliteration": "[4] nbt-ḥwt m ḫt nbw jr.ty m ḫsbḏ",
+                "hieroglyph": "𓉡𓏏𓐝𓆱𓏤𓋞𓏪𓁹𓏮𓐝𓆼𓄿𓏲𓏴𓈓",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L10: 4. تمثال نفتيس: مصنوع من الخشب المذهب، والعيون مطعمة باللازورد الحقيقي،",
+                "english": "Line L10: 4. Nephthys: made of gilded wood, with eyes inlaid with lapis lazuli,",
+                "german": "Zeile L10: 4. Nephthys: aus vergoldetem Holz, die Augen mit Lapislazuli eingelegt,",
+                "french": "Ligne L10: 4. Nephthys : en bois doré, les yeux incrustés de lapis-lazuli,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "noun_entry_material_specification"
+            },
+            "layer4_writing": {
+                "mdc_code": "[4] nbt-Hwt m xt nbw jr.ty m xsbd"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE2091",
+                        "name": "The Inventory Stela, Egyptian Museum Cairo",
+                        "type": "stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "nbt-ḥwt", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "nbw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التمثال الرابع لنفتيس الحامية؛ مطابقة تامة لمواد الصياغة اللاهوتية المحددة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000116-L11",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T01:40:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-116",
+                "sequence_no": 11,
+                "transliteration": "[5] jnpw ḫnty nṯr-ḥd m ḫt nbw",
+                "hieroglyph": "𓃡𓏃𓊹𓎛𓂓𓏤𓐝𓆱𓏤𓋞𓏪",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L11: 5. تمثال أنوبيس، القائم والرقيب على مقصورة الإله الطاهرة: مصنوع من الخشب المذهب.",
+                "english": "Line L11: 5. Anubis, who is before the divine shrine (white chapel): made of gilded wood.",
+                "german": "Zeile L11: 5. Anubis, der vor der Gotteskapelle ist: aus vergoldetem Holz.",
+                "french": "Ligne L11: 5. Anubis, qui est devant la chapelle blanche : en bois doré.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "noun_entry_with_epithet_and_material"
+            },
+            "layer4_writing": {
+                "mdc_code": "[5] jnpw xnty nTr-Hd m xt nbw"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE2091",
+                        "name": "The Inventory Stela, Egyptian Museum Cairo",
+                        "type": "stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jnpw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ẖnty", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التمثال الخامس لأنوبيس حارس المقبرة 'خنتي نثر-حد' (ẖnty nṯr-ḥd) القائم على المقبرة أو الخيمة الطاهرة البيضاء."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000116-L12",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T01:45:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-116",
+                "sequence_no": 12,
+                "transliteration": "[6] ptḥ-skr m ḫt nbw jr.ty m ḫsbḏ",
+                "hieroglyph": "𓅈𓐝𓆱𓏤𓋞𓏪𓁹𓏮𓐝𓆼𓄿𓏲𓏴𓈓",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L12: 6. تمثال بتاح-سوكر: مصنوع من الخشب المذهب، والعيون مطعمة باللازورد الحقيقي،",
+                "english": "Line L12: 6. Ptah-Sokar: made of gilded wood, with eyes inlaid with lapis lazuli,",
+                "german": "Zeile L12: 6. Ptah-Sokar: aus vergoldetem Holz, die Augen mit Lapislazuli eingelegt,",
+                "french": "Ligne L12: 6. Ptah-Sokar : en bois doré, les yeux incrustés de lapis-lazuli,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "noun_entry_material_specification"
+            },
+            "layer4_writing": {
+                "mdc_code": "[6] ptH-skr m xt nbw jr.ty m xsbd"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE2091",
+                        "name": "The Inventory Stela, Egyptian Museum Cairo",
+                        "type": "stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ptḥ-skr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḫsbḏ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التمثال السادس يخص بتاح-سوكر الحامي الأوزيري للجبانة الأرضية وتجديد البعث والخلود."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000116-L13",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T01:46:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-116",
+                "sequence_no": 13,
+                "transliteration": "[7] ṯt n Ꜣst m bỉꜣ km r-ḥꜣ.t m nbw",
+                "hieroglyph": "𓎬𓈖𓊨𓏏𓁐𓐝𓃀𓇋𓄿𓆱𓆓𓅓𓄂𓏤𓐝𓋞𓏪",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L13: 7. تمثال عقدة إيزيس (التيت): مصنوع من النحاس/البرونز الأسود، والوجه مطلي ومزين بالذهب،",
+                "english": "Line L13: 7. The Knot of Isis (Tyet): made of black bronze, with its face covered in gold,",
+                "german": "Zeile L13: 7. Der Isisknoten (Tyet): aus schwarzer Bronze, die Vorderseite mit Gold überzogen,",
+                "french": "Ligne L13: 7. Le Nœud d'Isis (Tyet) : en bronze noir, la face recouverte d'or,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "noun_entry_with_sacred_symbol_attributes"
+            },
+            "layer4_writing": {
+                "mdc_code": "[7] Tt n Ast m biA km r-HA.t m nbw"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE2091",
+                        "name": "The Inventory Stela, Egyptian Museum Cairo",
+                        "type": "stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ṯt", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "Ꜣst", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التمثال السابع لعقدة 'تيت' (tyet) الرمز المقدس لحماية وقوة إيزيس، والمصاغة هنا من النحاس والذهب."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000116-L14",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T01:47:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-116",
+                "sequence_no": 14,
+                "transliteration": "[8] ḥwt-ḥr ḥnwt nḥt m ḫt nbw jr.ty m ḫsbḏ",
+                "hieroglyph": "𓉡𓎟𓏏𓆱𓏤𓐝𓆱𓏤𓋞𓏪𓁹𓏮𓐝𓆼𓄿𓏲𓏴𓈓",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L14: 8. تمثال حتحور، سيدة الجميزة: مصنوع من الخشب المذهب، والعيون مطعمة باللازورد الحقيقي،",
+                "english": "Line L14: 8. Hathor, Mistress of the Sycamore: made of gilded wood, with eyes inlaid with lapis lazuli,",
+                "german": "Zeile L14: 8. Hathor, die Herrin der Sykomore: aus vergoldetem Holz, die Augen mit Lapislazuli eingelegt,",
+                "french": "Ligne L14: 8. Hathor, Maîtresse du Sycomore : en bois doré, les yeux incrustés de lapis-lazuli,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "noun_entry_with_sacred_epithet"
+            },
+            "layer4_writing": {
+                "mdc_code": "[8] hwt-Hr hnwt nht m xt nbw jr.ty m xsbd"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE2091",
+                        "name": "The Inventory Stela, Egyptian Museum Cairo",
+                        "type": "stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḥwt-ḥr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "nḥt", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التمثال الثامن لحتحور سيدة الجميزة المقدسة 'حنوت نخت' (ḥnwt nḥt) الحامية للأشجار والجبانة بمنف والجيزة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000116-L15",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T01:48:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-116",
+                "sequence_no": 15,
+                "transliteration": "[9] shmt nṯr.t-ˁꜢt m ḫt nbw jr.ty m ḫsbḏ",
+                "hieroglyph": "𓌡𓏏𓏏𓊹𓏏𓏏𓅨𓏏𓐝𓆱𓏤𓋞𓏪𓁹𓏮𓐝𓆼𓄿𓏲𓏴𓈓",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L15: 9. تمثال سخمت، الإلهة العظمى: مصنوع من الخشب المذهب، والعيون مطعمة باللازورد الحقيقي،",
+                "english": "Line L15: 9. Sekhmet, the Great Goddess: made of gilded wood, with eyes inlaid with lapis lazuli,",
+                "german": "Zeile L15: 9. Sachmet, die große Göttin: aus vergoldetem Holz, die Augen mit Lapislazuli eingelegt,",
+                "french": "Ligne L15: 9. Sekhmet, la Grande Déesse : en bois doré, les yeux incrustés de lapis-lazuli,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "noun_entry_material_specification"
+            },
+            "layer4_writing": {
+                "mdc_code": "[9] shmt nTr.t-aAt m xt nbw jr.ty m xsbd"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE2091",
+                        "name": "The Inventory Stela, Egyptian Museum Cairo",
+                        "type": "stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "shmt", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "nṯr.t-ˁꜢt", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التمثال التاسع للإلهة اللبؤة المحاربة سخمت حامية المعبد والملك بقواها الرادعة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000116-L16",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T01:49:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-116",
+                "sequence_no": 16,
+                "transliteration": "[10] mnw nb jpw m ḫt nbw",
+                "hieroglyph": "𓋊𓎟𓄿𓐝𓆱𓏤𓋞𓏪",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L16: 10. تمثال مين، سيد أخميم (إيبو): مصنوع من الخشب المذهب،",
+                "english": "Line L16: 10. Min, Lord of Ipu: made of gilded wood,",
+                "german": "Zeile L16: 10. Min, der Herr von Ipu: aus vergoldetem Holz,",
+                "french": "Ligne L16: 10. Min, Seigneur d'Ipu : en bois doré,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "noun_entry_material_specification"
+            },
+            "layer4_writing": {
+                "mdc_code": "[10] mnw nb jpw m xt nbw"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE2091",
+                        "name": "The Inventory Stela, Egyptian Museum Cairo",
+                        "type": "stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "mnw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "jpw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التمثال العاشر لمعبود الخصوبة والصحراء الشرقية مين سيد أخميم 'إيبو'."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000116-L17",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T01:50:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-116",
+                "sequence_no": 17,
+                "transliteration": "[11] wp-wꜣwt ḫnty sꜣwt m ḫt nbw",
+                "hieroglyph": "𓃧𓏃𓊃𓄿𓏲𓏏𓊖𓐝𓆱𓏤𓋞𓏪",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L17: 11. تمثال وبواوت، فاتح الطرق القائم أمام أسيوط: مصنوع من الخشب المذهب،",
+                "english": "Line L17: 11. Wepwawet, who is before Asyut: made of gilded wood,",
+                "german": "Zeile L17: 11. Wepwawet, der vor Asyut ist: aus vergoldetem Holz,",
+                "french": "Ligne L17: 11. Oupouaout, qui est devant Assiout : en bois doré,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "noun_entry_with_locative_epithet"
+            },
+            "layer4_writing": {
+                "mdc_code": "[11] wp-w3wt xnty s3wt m xt nbw"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE2091",
+                        "name": "The Inventory Stela, Egyptian Museum Cairo",
+                        "type": "stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "wp-wꜣwt", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sꜣwt", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التمثال الحادي عشر للإله الذئب فاتح الطرق وبواوت أسيوط 'ساوت'."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000116-L18",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T01:51:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-116",
+                "sequence_no": 18,
+                "transliteration": "[12] ḏḥwty nb ḫmnw m ḫt nbw",
+                "hieroglyph": "𓅡𓎟𓋴𓏠𓈖𓏲𓊖𓐝𓆱𓏤𓋞𓏪",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L18: 12. تمثال تحوت، سيد الأشمونين (خمنو): مصنوع من الخشب المذهب،",
+                "english": "Line L18: 12. Thoth, Lord of Hermopolis (Khemenu): made of gilded wood,",
+                "german": "Zeile L18: 12. Thoth, der Herr von Hermopolis: aus vergoldetem Holz,",
+                "french": "Ligne L18: 12. Thot, Seigneur d'Hermopolis : en bois doré,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "noun_entry_material_specification"
+            },
+            "layer4_writing": {
+                "mdc_code": "[12] dHwty nb xmnw m xt nbw"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE2091",
+                        "name": "The Inventory Stela, Egyptian Museum Cairo",
+                        "type": "stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḏḥwty", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḫmnw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التمثال الثاني عشر لمعبود الحكمة والكتابة والعلوم تحوت سيد الأشمونين 'خمنو'."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000116-L19",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T01:52:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-116",
+                "sequence_no": 19,
+                "transliteration": "[13] srq.t m bỉꜣ km jr.ty m nbw",
+                "hieroglyph": "𓵆𓐝𓃀𓇋𓄿𓆱𓆓𓅓𓁹𓏮𓐝𓋞𓏪",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L19: 13. تمثال سرقت: مصنوع من النحاس/البرونز الأسود، والعيون مطعمة بالذهب الحقيقي،",
+                "english": "Line L19: 13. Serqet: made of black bronze, with eyes inlaid with gold,",
+                "german": "Zeile L19: 13. Serqet: aus schwarzer Bronze, die Augen mit Gold eingelegt,",
+                "french": "Ligne L19: 13. Serqet : en bronze noir, les yeux incrustés d'or,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "noun_entry_with_metal_and_gold_attributes"
+            },
+            "layer4_writing": {
+                "mdc_code": "[13] srq.t m biA km jr.ty m nbw"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE2091",
+                        "name": "The Inventory Stela, Egyptian Museum Cairo",
+                        "type": "stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "srq.t", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "nbw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التمثال الثالث عشر للإلهة العقرب سرقت الحامية للأحشاء والتنفس في المعبد."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000116-L20",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T01:53:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-116",
+                "sequence_no": 20,
+                "transliteration": "[14] nfr-tm m ḫt nbw jr.ty m msdm.t",
+                "hieroglyph": "𓄤𓏠𓐝𓆱𓏤𓋞𓏪𓁹𓏮𓐝𓁿𓏴",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L20: 14. تمثال نفرتوم: مصنوع من الخشب المذهب، والعيون مطعمة ومكحلة بالكحل الأسود،",
+                "english": "Line L20: 14. Nefertum: made of gilded wood, with eyes inlaid with kohl,",
+                "german": "Zeile L20: 14. Nefertum: aus vergoldetem Holz, die Augen mit Augenschminke eingelegt,",
+                "french": "Ligne L20: 14. Néfertoum : en bois doré, les yeux incrustés de fard noir,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "noun_entry_material_specification"
+            },
+            "layer4_writing": {
+                "mdc_code": "[14] nfr-tm m xt nbw jr.ty m msdm.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE2091",
+                        "name": "The Inventory Stela, Egyptian Museum Cairo",
+                        "type": "stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "nfr-tm", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "msdm.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التمثال الرابع عشر لمعبود زهرة اللوتس الزرقاء العطرية والتجدد الصباحي نفرتوم."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000116-L21",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T01:54:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-116",
+                "sequence_no": 21,
+                "transliteration": "[15] ḥp m ḫt km",
+                "hieroglyph": "𓃎𓐝𓆱𓏤𓆓𓅓",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L21: 15. تمثال العجل المقدس أبيس: مصنوع من خشب الأبنوس الأسود،",
+                "english": "Line L21: 15. Apis: made of black wood (ebony),",
+                "german": "Zeile L21: 15. Apis: aus schwarzem Holz (Ebenholz),",
+                "french": "Ligne L21: 15. Apis : en bois noir (ébène),",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "noun_entry_simple_material"
+            },
+            "layer4_writing": {
+                "mdc_code": "[15] hp m xt km"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE2091",
+                        "name": "The Inventory Stela, Egyptian Museum Cairo",
+                        "type": "stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḥp", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḫt", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التمثال الخامس عشر لعجل منف المقدس أبيس؛ والمصاغ من خشب الأبنوس الأسود 'خت كم'."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000116-L22",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T01:55:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-116",
+                "sequence_no": 22,
+                "transliteration": "[16] Ꜣst ḥms ḥr nst=s m bỉꜣ km",
+                "hieroglyph": "𓊨𓏏𓁐𓄿𓊨𓏏𓐝𓃀𓇋𓄿𓆱𓆓𓅓",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L22: 16. تمثال إيزيس جالسة ومستقرة على عرشها: مصنوع من النحاس/البرونز الأسود.",
+                "english": "Line L22: 16. Isis seated upon her throne: made of black bronze.",
+                "german": "Zeile L22: 16. Isis, sitzend auf ihrem Thron: aus schwarzer Bronze.",
+                "french": "Ligne L22: 16. Isis assise sur son trône : en bronze noir.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "noun_entry_with_participial_postmodification"
+            },
+            "layer4_writing": {
+                "mdc_code": "[16] Ast hms Hr nst=s m biA km"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE2091",
+                        "name": "The Inventory Stela, Egyptian Museum Cairo",
+                        "type": "stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "Ꜣst", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "nst", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التمثال السادس عشر لإيزيس الجالسة على عرشها؛ وهو يبرز طابع الحماية والشرعية السياسية الحاضنة للمعبد."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000116-L23",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T01:45:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-116",
+                "sequence_no": 23,
+                "transliteration": "[17] ḥr-pꜣ-ẖrd m nbw jr.ty m ḫsbḏ",
+                "hieroglyph": "𓅃𓐝𓎡𓄡𓂞𓐝𓋞𓏪𓁹𓏮𓐝𓆼𓄿𓏲𓏴𓈓",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L23: 17. تمثال حورباقراط (حورس الطفل): مصنوع من الذهب الخالص، والعيون مطعمة باللازورد الحقيقي،",
+                "english": "Line L23: 17. Harpocrates (Horus the Child): made of gold, with eyes inlaid with lapis lazuli,",
+                "german": "Zeile L23: 17. Harpokrates (Horus das Kind): aus Gold, die Augen mit Lapislazuli eingelegt,",
+                "french": "Ligne L23: 17. Harpocrate (Horus l'Enfant) : en or, les yeux incrustés de lapis-lazuli,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "noun_entry_precious_materials"
+            },
+            "layer4_writing": {
+                "mdc_code": "[17] hr-pA-Xrd m nbw jr.ty m xsbd"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE2091",
+                        "name": "The Inventory Stela, Egyptian Museum Cairo",
+                        "type": "stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḥr-pꜣ-ẖrd", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "nbw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التمثال السابع عشر لحور-با-خرد (Harpocrates) المصنوع من الذهب واللازورد الحقيقي."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000116-L24",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T01:46:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-116",
+                "sequence_no": 24,
+                "transliteration": "[18] jˁr.t m nbw jr.ty m ḫsbḏ",
+                "hieroglyph": "𓆗𓐝𓋞𓏪𓁹𓏮𓐝𓆼𓄿𓏲𓏴𓈓",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L24: 18. تمثال الكوبرا المقدسة (الورايوس): مصنوع من الذهب الخالص، والعيون مطعمة باللازورد الحقيقي،",
+                "english": "Line L24: 18. The Sacred Uraeus: made of gold, with eyes inlaid with lapis lazuli,",
+                "german": "Zeile L24: 18. Die Uräusschlange: aus Gold, die Augen mit Lapislazuli eingelegt,",
+                "french": "Ligne L24: 18. L'Uraeus sacré : en or, les yeux incrustés de lapis-lazuli,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "noun_entry_precious_materials"
+            },
+            "layer4_writing": {
+                "mdc_code": "[18] j_at m nbw jr.ty m xsbd"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE2091",
+                        "name": "The Inventory Stela, Egyptian Museum Cairo",
+                        "type": "stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jˁr.t", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "xsbd", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التمثال الثامن عشر لرمز الحماية الملكية الورايوس 'يعرت' (jˁr.t) المصنوع من الذهب واللازورد."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000116-L25",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T01:47:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-116",
+                "sequence_no": 25,
+                "transliteration": "[19] ḥr-m-Ꜣḫt wr m jnr wr n ḫnd",
+                "hieroglyph": "𓅃𓐝𓈃𓅨𓂋𓐝𓊛𓂋𓅨𓂋𓈖𓏴",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L25: 19-22. تمثال أبو الهول العظيم (حر-إم-آخت): مصنوع ومحفور من الصخر الطبيعي الكبير للقاعدة بالموقع.",
+                "english": "Line L25: 19-22. The Great Sphinx (Harmakhis): made of the great natural rock base at this place.",
+                "german": "Zeile L25: 19-22. Der große Sphinx (Harmachis): gehauen aus dem großen natürlichen Felsgestein an diesem Ort.",
+                "french": "Ligne L25: 19-22. Le Grand Sphinx (Harmakhis) : taillé dans le grand rocher naturel à cet endroit.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "noun_entry_monumental_rock"
+            },
+            "layer4_writing": {
+                "mdc_code": "[19] hr-m-Axt wr m jnr wr n xnd"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE2091",
+                        "name": "The Inventory Stela, Egyptian Museum Cairo",
+                        "type": "stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḥr-m-Ꜣḫt", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "jnr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التمثيل الفيزيائي النهائي للجرد يوثق نحت أبو الهول بالكامل من صخر الهضبة الأصلي 'ينر ور'."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000116-L26",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T01:48:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-116",
+                "sequence_no": 26,
+                "transliteration": "gm.n=f ḥwt Ꜣst ḥnwt mr r-gsw pꜣ š n ḥr-m-Ꜣḫt",
+                "hieroglyph": "𓂓𓏠𓈖𓆑𓉐𓊨𓏏𓁐𓎟𓏏𓌸𓂋𓂋𓎼𓋴𓅱𓊪𓄿𓈗𓈖𓅃𓐝𓈃",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L26: وقد وجد وعثر جلالته على معبد إيزيس، سيدة الهرم، بجانب حفرة وتجويف أبو الهول (حر-إم-آخت)،",
+                "english": "Line L26: He found the temple of Isis, Mistress of the Pyramid, beside the cavity of the Sphinx (Harmakhis),",
+                "german": "Zeile L26: Er fand das Haus der Isis, der Herrin der Pyramide, neben der Grube des Sphinx (Harmachis),",
+                "french": "Ligne L26: Il trouva le temple d'Isis, Maîtresse de la Pyramide, à côté de la cavité du Sphinx (Harmakhis),",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n=f_transitive_with_prepositional_objects"
+            },
+            "layer4_writing": {
+                "mdc_code": "gm.n=f hwt Ast hnwt mr r-gsw pA s n hr-m-Axt"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE2091",
+                        "name": "The Inventory Stela, Egyptian Museum Cairo",
+                        "type": "stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "gm.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "š", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ 'ش' (š) يعني خندق أو حفرة؛ ويشير جيولوجياً للتجويف الصخري العميق المحيط بأبو الهول."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000116-L27",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T01:49:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-116",
+                "sequence_no": 27,
+                "transliteration": "m mḥty-jmnt n ḥwt wsjr nb rꜣ-stꜣ",
+                "hieroglyph": "𓐝𓎛𓏏𓏭𓊹𓏠𓈖𓏏𓈖𓉐𓊨𓁹𓎟𓂋𓏤𓍘𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L27: في الشمال الغربي لمعبد أوزيريس، سيد روجاو (را-ستاو)،",
+                "english": "Line L27: on the northwest of the temple of Osiris, Lord of Rasetau,",
+                "german": "Zeile L27: im Nordwesten des Tempels des Osiris, des Herrn von Rasetau,",
+                "french": "Ligne L27: au nord-ouest du temple d'Osiris, Seigneur de Rasetau,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "adverbial_phrase",
+                "syntax_structure": "locative_prepositional_direction"
+            },
+            "layer4_writing": {
+                "mdc_code": "m mHty-jmnt n hwt wsjr nb rA-stA"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE2091",
+                        "name": "The Inventory Stela, Egyptian Museum Cairo",
+                        "type": "stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "mḥty-jmnt", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "wsjr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "تكرار التحديد الفلكي الجغرافي 'م مأحتي-يمنت' (m mḥty-jmnt) للتوجيه الدقيق لمعبد أوزيريس."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000116-L28",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T01:50:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-116",
+                "sequence_no": 28,
+                "transliteration": "qd.n=f mr=f r-gsw ḥwt nṯr.t tn",
+                "hieroglyph": "𓇋𓏏𓈖𓆑𓉐𓌸𓂋𓆑𓎼𓋴𓅱𓉐𓊹𓏏𓏏𓈖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L28: وقام ببناء وتشييد هرمه بجوار معبد هذه الإلهة العظيمة،",
+                "english": "Line L28: and he built his pyramid beside the temple of this Goddess,",
+                "german": "Zeile L28: und er baute seine Pyramide neben dem Tempel dieser Göttin,",
+                "french": "Ligne L28: et il bâtit sa pyramide à côté du temple de cette déesse,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n=f_transitive_with_prepositional_adjunct"
+            },
+            "layer4_writing": {
+                "mdc_code": "qd.n=f mr=f r-gsw hwt nTr.t tn"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE2091",
+                        "name": "The Inventory Stela, Egyptian Museum Cairo",
+                        "type": "stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "qd.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ 'مر' (mr) يعبر لاهوتياً ومعمارياً عن الصرح الهرمي لجبانة الجيزة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000116-L29",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T01:51:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-116",
+                "sequence_no": 29,
+                "transliteration": "qd.n=f mr n sꜣ.t-nsw ḥnwt-sn r-gsw ḥwt tn",
+                "hieroglyph": "𓇋𓏏𓈖𓆑𓉐𓌸𓂋𓈖𓅭𓏤𓇓𓏏𓎛𓈖𓏲𓏏𓋴𓈖𓎼𓋴𓅱𓉐𓈖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L29: كما بنى هرمًا آخر لابنة الملك (حنوت سن) بجوار هذا المعبد.",
+                "english": "Line L29: and he built a pyramid for the King's daughter Henutsen beside this temple.",
+                "german": "Zeile L29: und er baute eine Pyramide für die Königstochter Henutsen neben diesem Tempel,",
+                "french": "Ligne L29: et il bâtit une pyramide pour la fille du roi, Henoutsen, à côté de ce temple.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n=f_transitive_with_indirect_beneficiary"
+            },
+            "layer4_writing": {
+                "mdc_code": "qd.n=f mr n s3.t-nsw Hnwt-sn r-gsw hwt tn"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE2091",
+                        "name": "The Inventory Stela, Egyptian Museum Cairo",
+                        "type": "stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "sꜣ.t-nsw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥnwt-sn", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الأميرة 'حنوت سن' (Henutsen) هي صاحبة الهرم الصغير الثالث (G1-c) الواقع بالطرف الجنوبي الشرقي للهرم الأكبر."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000116-L30",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T01:52:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-116",
+                "sequence_no": 30,
+                "transliteration": "st n ḥwrn-ḥr-m-Ꜣḫt m rsy n ḥwt Ꜣst",
+                "hieroglyph": "𓊨𓏏𓏤𓈖𓅃𓐝𓈃𓐝single_rsy𓈖𓉐𓊨𓏏𓁐",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L30: إن موضع ومكان تمثال أبو الهول (حورن-حر-إم-آخت) يقع في جنوب معبد إيزيس،",
+                "english": "Line L30: The place of Hauron-Harmakhis is on the south of the house of Isis,",
+                "german": "Zeile L30: Der Ort des Hauron-Harmachis ist im Süden des Hauses der Isis,",
+                "french": "Ligne L30: La place d'Hauron-Harmakhis est au sud du temple d'Isis,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "noun_subject_with_locative_adverbial_modifier"
+            },
+            "layer4_writing": {
+                "mdc_code": "st n Hwrn-Hr-m-Axt m rsy n hwt Ast"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE2091",
+                        "name": "The Inventory Stela, Egyptian Museum Cairo",
+                        "type": "stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḥwrn", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "rsy", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الربط الجغرافي واللاهوتي اللاحق باسم المعبود الكنعاني 'حورن' (ḥwrn) الموحد مع حورس الأفق بعهد الدولة الحديثة والعصور اللاحقة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000116-L31",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T01:53:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-116",
+                "sequence_no": 31,
+                "transliteration": "ḥnˁ m mḥty n wsjr nb rꜣ-stꜣ",
+                "hieroglyph": "𓎛𓈖𓂝𓐝𓎛𓏏𓏭𓈖𓊨𓁹𓎟𓂋𓏤𓍘𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L31: وفي شمال معبد أوزيريس، سيد روجاو (را-ستاو).",
+                "english": "Line L31: and on the north of Osiris, Lord of Rasetau.",
+                "german": "Zeile L31: und im Norden des Osiris, des Herrn von Rasetau.",
+                "french": "Ligne L31: et au nord d'Osiris, Seigneur de Rasetau.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "coordinated_locative_adverbial_phrase"
+            },
+            "layer4_writing": {
+                "mdc_code": "Hna m mHty n wsjr nb rA-stA"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE2091",
+                        "name": "The Inventory Stela, Egyptian Museum Cairo",
+                        "type": "stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḥnˁ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mḥty", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ 'مأحتي' (mḥty) يصف التوجيه الفلكي الشمالي المعتمد للمقاصير."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000116-L32",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T01:54:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-116",
+                "sequence_no": 32,
+                "transliteration": "srwd.n=f twt pn m sš nb sꜣw ṯꜣw m mꜣw=f",
+                "hieroglyph": "𓋴𓂋𓏲𓂧𓈖𓆑𓏏𓅱𓏏𓊪𓈖𓐝𓏟𓏛𓎟𓋴𓄿𓏲𓊡𓏥𓐝𓌳𓏲𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L32: وقد أعاد ترميم وتثبيت هذا التمثال بالطلاء الملون الزاهي، حارس الغلاف الجوي الذي يوجه الرياح بنظراته بسلام،",
+                "english": "Line L32: He restored this statue all covered in painting, of the Guardian of the Atmosphere, who guides the winds with his gaze,",
+                "german": "Zeile L32: Er stellte diese Statue wieder her, ganz mit Farbe bedeckt, des Wächters der Atmosphäre, der die Winde mit seinem Blick lenkt,",
+                "french": "Ligne L32: Il restaura cette statue tout couverte de peinture, du Gardien de l'Atmosphère, qui guide les vents de son regard,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n=f_transitive_with_descriptive_attributes"
+            },
+            "layer4_writing": {
+                "mdc_code": "srwd.n=f twt pn m sS nb s3w t3w m mAw=f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE2091",
+                        "name": "The Inventory Stela, Egyptian Museum Cairo",
+                        "type": "stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "srwd.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sꜣw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ṯꜣw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللقب اللاهوتي الفرعوني لتمثال أبو الهول كحامٍ ومسيطر على حركة رياح الغلاف الجوي والأنواء 'ساو طاو' (sꜣw ṯꜣw)."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000116-L33",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-13T01:55:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-116",
+                "sequence_no": 33,
+                "transliteration": "jr.n=f šꜥt n pẖr n nms jw km.n m jnr wr",
+                "hieroglyph": "𓁹𓈖𓆑𓍷𓏏𓈖𓊪𓄡𓂋𓈖𓈖𓅓𓋴𓇋𓏱𓐝𓊛𓂋𓅨𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L33: وقام بقطع وتجهيز الجزء الخلفي المفقود من غطاء الرأس (النمش)، وقد تم إكماله وصياغته من الحجر الثمين المذهب بسلام تامات.",
+                "english": "Line L33: He made to quarry the hind part of the nemes headdress, which was lacking, from gilded stone.",
+                "german": "Zeile L33: Er ließ den hinteren Teil des Nemes-Kopftuches, der fehlte, aus vergoldetem Stein hauen.",
+                "french": "Ligne L33: Il fit tailler la partie arrière de la coiffe némès, qui manquait, dans de la pierre dorée.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n=f_causative_transitive_with_adjectival_modifier"
+            },
+            "layer4_writing": {
+                "mdc_code": "jr.n=f s_at n pxr n nms jw km.n m jnr wr"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE2091",
+                        "name": "The Inventory Stela, Egyptian Museum Cairo",
+                        "type": "stela",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jr.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "nms", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "km.n", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الخاتمة التاريخية الاستثنائية للوحة؛ حيث يسجل الكاتب صيانة الأجزاء التالفة من غطاء الرأس الملكي النمش (nms) لأبو الهول لضمان هيبته الكلية [3.2.1]."
+            }
+        }
+    ]
+}

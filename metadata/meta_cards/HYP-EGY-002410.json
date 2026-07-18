@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-002410",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:35.891624Z"
+    },
+    "layer1_core": {
+        "transliteration": "mAr",
+        "hieroglyph": "𓌳𓄿𓂋𓌗𓅪𓀀𓌴𓁹𓄿𓂋𓌗𓅪𓀀𓌳𓄿𓇋𓂋𓌗𓅪𓀀𓌳𓄿𓇋𓂋𓌗𓇌𓅪𓀀𓌳𓇋𓂋𓌗𓅪𓇋𓌳𓂋𓌗",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "رجل بائس، فقير",
+        "english": "wretched man, pauper",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+13333",
+        "gardiner_code": "U1",
+        "gardiner_description": "Sickle\tPhono. m3. In m33 “see,” 3sḫ “reap.”",
+        "gardiner_details": "U2"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-003824",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:37.643022Z"
+    },
+    "layer1_core": {
+        "transliteration": "Hnmmt",
+        "hieroglyph": "𓎛𓆰𓈖𓅓𓅓𓏏𓀀𓁐𓏥𓇶𓅓𓅓𓏏𓀀𓁐𓏥𓇶𓀀𓁐𓏥𓇶𓏏𓏥𓎛𓅓𓅓𓏏𓇶𓏥",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "رعايا الشمس بهليوبلس، البشرية",
+        "english": "the sun-folk of Heliopolis, mankind",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+1339B",
+        "gardiner_code": "unknown",
+        "gardiner_description": "unknown",
+        "gardiner_details": "unknown"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

@@ -1,0 +1,738 @@
+{
+    "text_id": "EGY-040",
+    "metadata": {
+        "title_ar": "تعاليم الحكيم كاجمني ببردية بريس (النسخة النهائية المصححة)",
+        "title_en": "The Instructions of Kagemni (Papyrus Prisse - Final Corrected Version)",
+        "museum_catalog_no": "Bibliotheque Nationale de France, Paris, P. Prisse I (Col. 1-2, Lines 1-14)",
+        "stable_tla_id": "unknown"
+    },
+    "sentences": [
+        {
+            "metadata": {
+                "id": "HYP-TXT-000040-L01",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:00:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-040",
+                "sequence_no": 1,
+                "transliteration": "wḏꜣ snḏw ḥz mtr wn ẖn n grw",
+                "hieroglyph": "𓋹𓍘𓏤𓅓𓋴𓈖𓂧𓏲𓎛𓋴𓏭𓏏𓌳𓏏𓂋𓅱𓈖𓉐𓄡𓈖𓏤𓈖𓎼𓂋𓅱𓀁",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L01: الرجل الحذر ينجو ويسلم، والمستقيم المحتشم يُمتدح، والخيمة مفتوحة ومرحبة بالرجل الهادئ،",
+                "english": "Line L01: The cautious man prospers, the scrupulous man is praised, and the tent is open to the quiet man,",
+                "german": "Zeile L01: Der vorsichtige Mann gedeiht, der gewissenhafte Mann wird gelobt, und das Zelt steht dem Stillen offen,",
+                "french": "Ligne L01: L'homme prudent prospère, l'homme scrupuleux est loué, et la tente est ouverte à l'homme calme,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "multiple_coordinate_nominal_sentences_with_adjectival_predicates"
+            },
+            "layer4_writing": {
+                "mdc_code": "wDa snDw Hz mtr wn Xn n grw"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BNF-PRISSE",
+                        "name": "Papyrus Prisse I, Bibliotheque Nationale de France",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "w\u1e0f\ua725", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sn\u1e0fw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "\u1e25z", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "grw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الجملة الافتتاحية للمخطوط وتدعو لفضائل الهدوء والتحفظ؛ واللفظ 'جرّو' (grw) يعني الصامت أو الهادئ المتزن في كلامه."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000040-L02",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:01:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-040",
+                "sequence_no": 2,
+                "transliteration": "wsḫ st nt grw spd dsw r th-mtn",
+                "hieroglyph": "𓅨𓋴𓐍𓊨𓏏𓏤𓈖𓏏𓎼𓂋𓅱𓀁𓋴𓊪𓂧𓍔𓏥𓂋𓍿𓄿𓎛𓐝𓍿𓈖𓈉",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L02: ومكان ومقام المتزن بالحديث فسيح وواسع، والسكاكين حادة وجاهزة ضد من يتعدى ويحيد عن الدرب،",
+                "english": "Line L02: the seat of the silent man is broad, and knives are sharp against him who deviates from the path,",
+                "german": "Zeile L02: der Platz des Schweigsamen ist geräumig, und scharf sind die Messer gegen den, der vom Weg abweicht,",
+                "french": "Ligne L02: la place de l'homme silencieux est large, et les couteaux sont aiguisés contre celui qui dévie du chemin,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "nominal_sentence_with_possessive_predicate_and_coordinate_adjectival_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "wsx st nt grw spd dsw r th-mtn"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BNF-PRISSE",
+                        "name": "Papyrus Prisse I, Bibliotheque Nationale de France",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ws\u1e83", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "spd", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "dsw", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "th-mtn", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الاستعارة اللفظية 'سِبد دسو' (spd dsw) وتعني 'السكاكين حادة' هي تحذير مجازي صارم ضد من يخالف معايير السلوك والأعراف العامة للمجتمع."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000040-L03",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:02:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-040",
+                "sequence_no": 3,
+                "transliteration": "nn ḥn nj js ḥr zp.f jr ḥms=k ḥnˁ ꜥšꜣt msd t mrr=k",
+                "hieroglyph": "𓈖𓈖𓎛𓈖𓈖𓇋𓏠𓈖𓇋𓋴𓁷𓏤𓊗𓆑𓇋𓂋𓎛𓅓𓋴𓎡𓎛𓈖𓂝𓃝𓏥𓅓𓋴𓂧𓏏𓏑𓌻𓂋𓎡",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L03: فلا تسير بعجلة أو تندفع إلا عند زلتك وعثرتك؛ وإذا جلستَ للطعام مع جمع كبير، فاكره وارفض الخبز والزاد الذي تشتهيه وتدركه نفسك،",
+                "english": "Line L03: not rushing forward except upon his misdeeds. If you sit with a multitude, hate the bread you love.",
+                "german": "Zeile L03: stürze dich nicht vorwärts, außer bei deinen Fehltritten. Wenn du mit einer Menge zusammensitzt, hasse das Brot, das du liebst.",
+                "french": "Ligne L03: ne te précipite pas, sauf sur tes faux pas. Si tu es assis avec une multitude, hais le pain que tu aimes.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "negated_infinitive_Hn_introducing_conditional_jr_with_active_subjunctive"
+            },
+            "layer4_writing": {
+                "mdc_code": "nn Hn nj js Hr zp.f jr Hms=k Hna aSAt msd t mrr=k"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BNF-PRISSE",
+                        "name": "Papyrus Prisse I, Bibliotheque Nationale de France",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "\u1e25n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "\u1e25ms", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "msd", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "mrr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الالتزام الحقيقي بالنص؛ ويبدأ هنا الجزء الخاص بآداب المائدة والسلوك عند الطعام المشترك 'إم مسدت ت' (hate the bread) لتهذيب الشهوة [3.1.1، 4.4.5]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000040-L04",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:03:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-040",
+                "sequence_no": 4,
+                "transliteration": "ꜣt pw ktt dꜣjr jb ḫw.y pw ꜣfˁ jw ḏbꜥ.tw jm",
+                "hieroglyph": "𓄿𓏏𓏤𓊪𓅱𓎡𓏏𓏏𓂧𓄿𓇋𓂋𓄣𓏤𓐍𓅱𓅱𓊪𓅱𓄿𓆑𓂝𓇋𓅱𓂧𓍑𓂝𓏏𓅱𓐝𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L04: فإن ترويض النفس وإخضاع الهوى والقلب هو أمر لبرهة ولحظة قصيرة، بينما الشره والشراب هو مسلك بغيض مذموم يُشار إليه بالبنان واللوم،",
+                "english": "Line L04: Controlling oneself is a brief moment; gluttony is something to be precluded, as it is pointed to in reproach.",
+                "german": "Zeile L04: Selbstbeherrschung ist ein kurzer Augenblick; Gefräßigkeit ist etwas, das man meiden sollte, da mit Vorwurf darauf gewiesen wird.",
+                "french": "Ligne L04: Se maîtriser est un court instant; la gloutonnerie est une chose à proscrire, car elle est montrée du doigt avec reproche.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "nominal_sentences_with_pw_copulas_and_consecutive_passive_participle"
+            },
+            "layer4_writing": {
+                "mdc_code": "At pw ktt dAjr jb xw.y pw afa jw Dba.tw jm"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BNF-PRISSE",
+                        "name": "Papyrus Prisse I, Bibliotheque Nationale de France",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "\ua725t", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "d\ua725jr", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "\ua725f\u02e4", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "\u1e0fb\u02e4", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ المجازي 'داير إيب' (dꜣjr jb) يعني حرفياً 'إخضاع أو ترويض القلب/النفس'، والشره 'أفعَع' (ꜣfˁ) يمثل الرذيلة الأولى التي تم ذمها [3.1.1، 5.2.4]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000040-L05",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:04:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-040",
+                "sequence_no": 5,
+                "transliteration": "jw n ktt jdn wr šww-ḥr mḥ jb",
+                "hieroglyph": "𓇋𓅱𓈖𓎡𓏏𓏏𓇋𓂧𓈖𓅨𓂋𓆄𓏲𓏥𓁷𓏤𓎔𓄣𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L05: فإن شربة ماء صغيرة تقضي على العطش وتكفي، ولقمة من البقول العشبية تقوي وتغذي الفؤاد،",
+                "english": "Line L05: For a cup of water quenches thirst, and a mouthful of herbs fortifies the mind.",
+                "german": "Zeile L05: Denn ein Becher Wasser löscht den Durst, und ein Bissen Kräuter stärkt den Sinn.",
+                "french": "Ligne L05: Car une coupe d'eau apaise la soif, et une bouchée d'herbes fortifie l'esprit.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "nominal_prose_with_existential_jw_and_coordinated_metaphorical_predicates"
+            },
+            "layer4_writing": {
+                "mdc_code": "jw n ktt jdn wr Sww-Hr mH jb"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BNF-PRISSE",
+                        "name": "Papyrus Prisse I, Bibliotheque Nationale de France",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ktt", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "jdn", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "m\u1e25", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "jb", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الاستعارة الروحية 'مَح إيب' (mḥ jb) تعني حرفياً 'ملء أو تقوية القلب/العقل'، وهو توجيه للرضا باليسير [4.1.5، 6.1.7]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000040-L06",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:05:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-040",
+                "sequence_no": 6,
+                "transliteration": "jw nfr.t jdn bw nfr jw nhj n ktt jdn wr",
+                "hieroglyph": "𓇋𓅱𓄤𓏤𓏏𓇋𓂧𓈖𓃀𓅱𓄤𓇋𓅱𓈖𓎛𓇋𓏠𓈖𓈖𓎡𓏏𓏏𓇋𓂧𓈖𓅨𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L06: فإن الفضيلة واليسير يحل محل الجمال والوفرة، والشيء الصغير القليل يكفي ليحل محل الشيء العظيم الكبير،",
+                "english": "Line L06: For a good thing serves for goodness, and a bit of a little thing serves for a big thing.",
+                "german": "Zeile L06: Denn eine gute Sache dient der Güte, und ein wenig von einer kleinen Sache dient einer großen Sache.",
+                "french": "Ligne L06: Car une bonne chose sert à la bonté, et un peu d'une petite chose sert à une grande chose.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "coordinate_nominal_sentences_with_substitutive_preposition_jdn"
+            },
+            "layer4_writing": {
+                "mdc_code": "jw nfr.t jdn bw nfr jw nhj n ktt jdn wr"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BNF-PRISSE",
+                        "name": "Papyrus Prisse I, Bibliotheque Nationale de France",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "nfr.t", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "jdn", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "nhj", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "wr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ النادر 'إيدن' (jdn) يعني قواعدياً ولغوياً 'يحل محل أو يعوض'، وهو يصف لاهوتياً تكافؤ القيمة بين القليل والوفير بالرضا."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000040-L07",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:06:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-040",
+                "sequence_no": 7,
+                "transliteration": "wnm r-f jm n ˁqy jmy rꜣ=f",
+                "hieroglyph": "𓅱𓈖𓐝𓂋𓆑𓐝𓆑𓈖𓂝𓈎𓏭𓐝𓂋𓏤𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L07: وإن الذي ينساق وراء بطنه ويشره للطعام عندما يمضي الميقات المناسب، هو رجل بائس مسكين،",
+                "english": "Line L07: He who is greedy for the sake of his belly when the proper time passes is a wretch.",
+                "german": "Zeile L07: Wer gierig ist um seines Bauches willen, wenn die rechte Zeit vergeht, ist ein Elender.",
+                "french": "Ligne L07: Celui qui est cupide pour son ventre quand le temps convenable passe est un misérable.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "participial_subject_wnm_with_limiting_temporal_adverbial_and_nominal_predicate"
+            },
+            "layer4_writing": {
+                "mdc_code": "wnm r-f jm n aqy jmy r3=f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BNF-PRISSE",
+                        "name": "Papyrus Prisse I, Bibliotheque Nationale de France",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "wnm", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "\u02e4qy", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "r\ua725", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ 'عقي' (ˁqy) يفيد العجلة أو تجاوز الميقات والحدود؛ وهو يصف الرذيلة الإنسانية المتمثلة في فقدان السيطرة على شهوة الطعام."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000040-L08",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:07:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-040",
+                "sequence_no": 8,
+                "transliteration": "jr ḥms=k ḥnˁ fˁ wnm=k ḫft swꜣ ꜣt=f",
+                "hieroglyph": "𓇋𓂋𓎛𓅓𓋴𓎡𓎛𓈖𓂝𓆑𓂝𓀁𓅱𓈖𓐝𓎡𓐍𓆑𓏏𓋴𓍯𓄿𓄿𓏏𓏤𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L08: فإذا جلستَ لتناول الطعام مع رجل شره ونهم، فتناول طعامك بعد أن تتبدد وتزول حدة شهوته ونهمه للصحن،",
+                "english": "Line L08: If you sit with a glutton, you should eat when his burning appetite has passed.",
+                "german": "Zeile L08: Wenn du mit einem Gefräßigen zusammensitzt, sollst du essen, wenn seine brennende Gier vergangen ist.",
+                "french": "Ligne L08: Si tu es assis avec un glouton, tu mangeras lorsque son appétit brûlant sera passé.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "conditional_jr_with_subjunctive_hms_and_injunctive_wnm_with_temporal_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "jr Hms=k Hna f_a wnm=k xft swa At=f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BNF-PRISSE",
+                        "name": "Papyrus Prisse I, Bibliothèque Nationale de France",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "\u1e25ms", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "f\u02e4", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "wnm", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "\ua725t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "آداب السلوك الاجتماعي؛ واللفظ 'فَع' (fˁ) يعني النهم أو الأكول الذي لا يراعي الحاضرين."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000040-L09",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:08:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-040",
+                "sequence_no": 9,
+                "transliteration": "jr swrj=k ḥnˁ tḫw šzp=k jw jb=f ḥtp.w",
+                "hieroglyph": "𓇋𓂋𓋴𓅱𓂋𓇋𓏠𓈖𓎡𓎛𓈖𓂝𓍿𓐍𓏲𓏥𓏎𓏏𓏲𓎡𓇋𓅱𓄣𓏤𓆑𓊵𓏏𓊪𓏲",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L09: وإذا شربتَ وتناولت الشراب مع ثمل سكير، فتناول حصتك بعد أن يرتوي ويهدأ ويرتاح قلبه وفؤاده،",
+                "english": "Line L09: If you drink with a drunkard, you should partake when his heart is satisfied.",
+                "german": "Zeile L09: Wenn du mit einem Trunkenbold trinkst, sollst du teilnehmen, wenn sein Herz zufriedengestellt ist.",
+                "french": "Ligne L09: Si tu bois avec un ivrogne, tu prendras ta part lorsque son cœur sera satisfait.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "conditional_jr_with_subjunctive_swrj_and_injunctive_Szp_with_circumstantial_stative"
+            },
+            "layer4_writing": {
+                "mdc_code": "jr swrj=k Hna txw Szp=k jw jb=f Htp.w"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BNF-PRISSE",
+                        "name": "Papyrus Prisse I, Bibliothèque Nationale de France",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "swrj", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "t\u1e83w", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "\u0161zp", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "\u1e25tp", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ 'ثخو' (tḫw) يعني لغوياً الثمل أو السكران؛ ويوصي الكاتب بحفظ الرصانة وتجنب تتبع أفعال السكارى [4.1.6، 6.1.7]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000040-L10",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:09:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-040",
+                "sequence_no": 10,
+                "transliteration": "m ꜣt.w r jwf r-gs skn šzp dj=f n=k",
+                "hieroglyph": "𓐝𓄿𓏏𓏲𓂋𓇋𓏲𓆑𓏥𓂋𓎼𓋴𓋴𓎡𓈖𓏎𓏏𓏲𓂞𓆑𓈖𓎡",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L10: فلا تشره أو تندفع أو تطمع بلحم الصيد بجوار رجل جشع، بل خذ وتناول حصتك فقط عندما يقدمها ويهبها لك بنفسه،",
+                "english": "Line L10: Don't raven after meat next to a greedy man; partake when he gives to you.",
+                "german": "Zeile L10: Gier nicht nach Fleisch neben einem Gefräßigen; nimm teil, wenn er dir gibt.",
+                "french": "Ligne L10: Ne convoite pas la viande à côté d'un homme vorace ; prends-en lorsqu'il te la donne.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "prohibitive_m_with_active_infinitive_At_and_coordinated_injunctive_Szp_with_subjunctive_rdi"
+            },
+            "layer4_writing": {
+                "mdc_code": "m At.w r jwf r-gs skn Szp dj=f n=k"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BENF-PRISSE",
+                        "name": "Papyrus Prisse I, Bibliothèque Nationale de France",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "\ua725t", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "jwf", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "skn", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "\u0161zp", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ 'سِكن' (skn) يعني الجشع أو الشره للقمة؛ واللحم 'يوف' (jwf) كان يمثل طعاماً نادراً ومرموقاً بالدولة القديمة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000040-L11",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:10:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-040",
+                "sequence_no": 11,
+                "transliteration": "jr šww m srḫ n t nj sḫm.n mdt nbt jm=f",
+                "hieroglyph": "𓇋𓂋𓆄𓏲𓏥𓐝𓋴𓂋𓐍𓏛𓈖𓏑𓈖𓋴𓐍𓐝𓈖𓐝𓂧𓏏𓏤𓎟𓏏𓐝𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L11: فإن الشخص والعبد الخالي من السمعة السيئة أو الشبهة في لقمة خبزه وزاده، لا يمكن لأي كلمة أو قول أن يتسلط عليه أو يقهره،",
+                "english": "Line L11: As for one who is free of notoriety regarding bread, no words can take control of him.",
+                "german": "Zeile L11: Was den betrifft, der frei von schlechtem Ruf bezüglich des Brotes ist, so kann kein Wort Macht über ihn gewinnen.",
+                "french": "Ligne L11: Quant à celui qui est exempt de mauvaise réputation concernant le pain, aucune parole ne peut prendre le contrôle de lui.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "topicalized_noun_subject_with_negated_perfective_sDmw.n_sXm_predicate"
+            },
+            "layer4_writing": {
+                "mdc_code": "jr Sww m srx n t nj sxm.n mdt nbt jm=f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BNF-PRISSE",
+                        "name": "Papyrus Prisse I, Bibliothèque Nationale de France",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "\u0161ww", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sr\u1e83", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "s\u1e83m", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "mdt", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ 'سِخم' (sḫm) يعني لغوياً يسيطر أو يتسلط أو يمتلك القوة القهرية؛ والخبز 'ت' (t) هو كناية عن مصادر الرزق الحلال الشريفة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000040-L12",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:11:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-040",
+                "sequence_no": 12,
+                "transliteration": "m ˁꜣ jb=k ḥr ḫpš m-ḥry-jb ḏꜣmw=k zꜣw jtn=k jm",
+                "hieroglyph": "𓐝𓂝𓄿𓄣𓏤𓎡𓁷𓏤𓐍𓊪𓈙𓂘𓐝𓁷𓏤𓄣𓏤𓍑𓄿𓅓𓏲𓏥𓎡𓊃𓄿𓏲𓇋𓏏𓈖𓎡𓐝𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L12: ولا تكبّر وتنفخ قلبك وتتكبر بفضل قوتك العضلية وبأسك وسط أقرانك وجنودك، حذار أن تقع في الخصومة والعداء بينهم بسبب ذلك،",
+                "english": "Line L12: Don't grow arrogant on account of strength in the midst of your cohort, lest you be challenged.",
+                "german": "Zeile L12: Werde nicht stolz wegen der Kraft inmitten deiner Altersgenossen, damit du nicht herausgefordert wirst.",
+                "french": "Ligne L12: Ne deviens pas arrogant en raison de ta force au milieu de tes compagnons, de peur d'être défié.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "prohibitive_m_with_subjunctive_aa_jb_and_preventive_zAw_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "m aa jb=k Hr xpS m-Hry-jb Damw=k zAw jtn=k jm"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BNF-PRISSE",
+                        "name": "Papyrus Prisse I, Bibliothèque Nationale de France",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "\u02e4\ua725", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "\u1e83p\u0161", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "\u1e0f\ua725mw", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "jtn", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "النهي البلاغي 'إم عأ إيب-ك' (m ˁꜣ jb=k) يعني حرفياً 'لا تجعل قلبك كبيراً' وهي الكناية الفرعونية العتيقة لوصف الكبر والغرور الأجوف؛ والخصومة 'إيتن' (jtn) تعني التعرض للتحدي والعداء [6.2.1، 3.4.9]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000040-L13",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:12:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-040",
+                "sequence_no": 13,
+                "transliteration": "nj rḫ.n.tw ḫpr.t jr.t nṯr ḫft ḫsf=f",
+                "hieroglyph": "𓈖𓂋𓐍𓈖𓏏𓏲𓐍𓊪𓂋𓏏𓁹𓏏𓊹𓏤𓐍𓑅𓏏𓐍𓋴𓆑𓆑𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L13: فليس بمقدور أحد أبداً أن يعرف ويتوقع ما قد يحدث غداً، أو ماذا يصنع ويفعل المعبود عندما يحل غضبه وعقابه،",
+                "english": "Line L13: One cannot know what might come to be, or what the god might do when he punishes.",
+                "german": "Zeile L13: Man kann nicht wissen, was geschehen mag, oder was Gott tun wird, wenn er straft.",
+                "french": "Ligne L13: On ne peut savoir ce qui peut arriver, ni ce que le dieu peut faire lorsqu'il punit.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "impersonal_negated_nj_rX.n.tw_with_multiple_objective_relative_clauses"
+            },
+            "layer4_writing": {
+                "mdc_code": "nj rX.n.tw xpr.t jr.t nTr xft xsf=f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BNF-PRISSE",
+                        "name": "Papyrus Prisse I, Bibliothèque Nationale de France",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "r\u1e83", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "\u1e83pr.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "n\u1e6f r", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "\u1e83sf", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "البيت الفلسفي والكوني البديع؛ ويقر بوقوع الغيب تحت إرادة ومشيئة المعبود المطلقة 'إرت نثر' (jr.t nṯr) بعيداً عن حسابات القوى البشرية [4.3.2، 6.2.1]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000040-L14",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:13:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-040",
+                "sequence_no": 14,
+                "transliteration": "aHa.n mny.n Hm nsw-bity hwny aHa.n saHa.n Hm nsw-bity snfrw m nsw mnx r-rdj.t k3-gm-n.j r jmy-r njwt t3yty s3b tAty",
+                "hieroglyph": "𓊢𓂝𓈖𓏠𓈖𓏭𓈖𓍛𓏤𓇓𓏏𓆤𓏏𓎛𓅱𓈖𓏭𓊢𓂝𓈖𓋴𓊢𓂝𓈖𓍛𓏤𓇓𓏏𓆤𓏏𓋴𓄤𓆑𓂋𓏲𓐝𓇓𓏏𓄤𓂋𓂞𓏏𓂓𓐝𓎼𓅓𓈖𓇋𓂋𓅓𓂋𓊖𓋲𓋳𓊃𓄿𓃀𓍿𓄿𓏏𓏭",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L14: ثم توفي الملك حوني؛ واعتلى وظهر جلالة الملك سنفرو كملك عظيم وصالح لعموم هذه الأرض، وعندها تم تعيين وترقية كاجمني لمنصب عمدة المدينة وقاضي القضاة والوزير الأعظم للدولة.",
+                "english": "Line L14: Then the majesty of Huni, king of Upper and Lower Egypt, died; then was established the majesty of Sneferu as a beneficent king; and Kagemni was appointed mayor of the city and vizier.",
+                "german": "Zeile L14: Da verstarb die Majestät des Huni, des Königs von Ober- und Unterägypten; dann erstand die Majestät des Snofru als gütiger König; und Kagemni wurde zum Bürgermeister der Stadt und Wesir ernannt.",
+                "french": "Ligne L14: Alors la majesté de Houni, roi de Haute et Basse-Égypte, s'éteignit ; puis apparut la majesté de Snéfrou comme un roi bienfaisant ; et Kagemni fut nommé maire de la ville et vizir.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "consecutive_aha.n_with_stative_motion_describing_royal_transition_and_subsequent_appointment"
+            },
+            "layer4_writing": {
+                "mdc_code": "aHa.n mny.n Hm nsw-bity hwny aHa.n saHa.n Hm nsw-bity snfrw m nsw mnx r-rdj.t k3-gm-n.j r jmy-r njwt t3yty s3b tAty"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BNF-PRISSE",
+                        "name": "Papyrus Prisse I, Bibliothèque Nationale de France",
+                        "type": "hieratic_papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "hwny", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "snfrw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "k3-gm-n.j", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "t3yty-s3b-tAty", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الخاتمة التاريخية الحقيقية والفريدة الناجية بالبردية؛ وتسجل انتقال السلطة السلس بين الملك حوني (الأسرة 3) وسنفرو (الأسرة 4) وتعيين كاجمني وزيراً وقاضياً للعدالة 'ثايتي ساب ثاتي' (tꜣyty sꜣb ṯꜣty) [1.2.7، 2.3.2]."
+            }
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-001298",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:34.552819Z"
+    },
+    "layer1_core": {
+        "transliteration": "aqyt",
+        "hieroglyph": "𓅧𓇌𓏏𓅧𓏏",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "خادمة",
+        "english": "female servant",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+13167",
+        "gardiner_code": "G35",
+        "gardiner_description": "Cormorant\tPhono. ʿq. In ʿq “enter.”",
+        "gardiner_details": "G36"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

@@ -1,0 +1,320 @@
+{
+    "text_id": "EGY-469",
+    "metadata": {
+        "title_ar": "خطاب شُقفة براغ الاجتماعي (النسخة المصححة بالكامل)",
+        "title_en": "The Hieratic Letter of Ostracon Prague 1826 (Corrected & Complete)",
+        "museum_catalog_no": "National Museum Prague, Inv. 1826 (HO 70,2)",
+        "stable_tla_id": "unknown"
+    },
+    "sentences": [
+        {
+            "metadata": {
+                "id": "HYP-TXT-000469-L01",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:00:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-469",
+                "sequence_no": 1,
+                "transliteration": "ḥr nḏ-ḫr.t n sn.t=j m-bꜣḥ jty",
+                "hieroglyph": "𓁷𓏤𓄔𓈖𓆑𓂋𓏏𓈖𓊃𓈖𓏏𓁐𓇋𓏠𓈖𓐝𓄂𓏤𓇋𓏏𓏭𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L01: أرسل وافر السلام والتحية لأختي الكريمة أمام جلالة وسلطان الملك سيدي،",
+                "english": "Line L01: Sending greetings of welfare to my sister before the majesty of my lord,",
+                "german": "Zeile L01: Senden von Grüßen des Wohlergehens an meine Schwester vor der Majestät meines Herrn,",
+                "french": "Ligne L01: Envoi de salutations de bien-être à ma sœur devant la majesté de mon seigneur,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "epistolary_greeting_formula_with_dative"
+            },
+            "layer4_writing": {
+                "mdc_code": "Hr nD-xr.t n sn.t=j m-bAH jty"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PRAGUE-1826",
+                        "name": "Ostracon Prague 1826, National Museum Prague",
+                        "type": "pottery_ostracon",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḥr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "nḏ-ḫr.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "sn.t", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "jty", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "صيغة السؤال عن الأحوال 'حر ندج-خرت' (ḥr nḏ-ḫr.t) تفتتح هذا الخطاب الشخصي والاجتماعي المكتوب بالخط الهيراطيقي لعهد الرعامسة بدير المدينة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000469-L02",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:01:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-469",
+                "sequence_no": 2,
+                "transliteration": "jw r-f wn m-dỉ.t sn.w ḥnˁ sn.wt jm",
+                "hieroglyph": "𓇋𓅱𓂋𓆑𓅱𓈖𓐝𓂞𓏏𓊃𓈖𓏲𓏪𓎛𓈖𓂝𓊃𓈖𓏲𓏏𓏪𓐝𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L02: وتأكدي أنه لا يزال لديكِ إخوة وأخوات كرام يرعونك ويسألون عنك هناك،",
+                "english": "Line L02: and indeed, you still have brothers and sisters with you there,",
+                "german": "Zeile L02: und in der Tat, du hast dort immer noch Brüder und Schwestern bei dir,",
+                "french": "Ligne L02: et en effet, tu as toujours des frères et sœurs avec toi là-bas,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "existential_jw_wn_with_dative_possessor"
+            },
+            "layer4_writing": {
+                "mdc_code": "jw r-f wn m-di.t sn.w Hna sn.wt jm"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PRAGUE-1826",
+                        "name": "Ostracon Prague 1826, National Museum Prague",
+                        "type": "pottery_ostracon",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "wn", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "sn.w", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "sn.wt", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التركيب اللغوي المتأخر 'إم-دي-ت' (m-dỉ.t) يعبر قواعدياً في لغة الرعامسة عن حيازة الأشخاص والعلاقات العائلية المقربة [2.1.7]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000469-L03",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:02:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-469",
+                "sequence_no": 3,
+                "transliteration": "m-dy jr.y=j ṯtṯt jrm=k ḥr jḫt nb.t",
+                "hieroglyph": "𓐝𓂞𓁹𓇋𓏠𓈖𓍿𓍿𓏏𓇋𓏠𓈖𓐝𓇋𓂋𓏠𓎡𓁷𓏤𓐍𓏏𓎟𓏏",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L03: فلا تجعليني أدخل في شقاق أو شجار معك بسبب أي شيء مادي زائل بالدنيا،",
+                "english": "Line L03: Do not make me quarrel with you on account of anything,",
+                "german": "Zeile L03: Lass mich nicht wegen irgendetwas mit dir streiten,",
+                "french": "Ligne L03: Ne me fais pas me quereller avec toi à cause de quoi que ce soit,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "prohibitive_m-dy_with_subjunctive_action_and_prepositional_irm"
+            },
+            "layer4_writing": {
+                "mdc_code": "m-dy jr.y=j TtTt jrm=k Hr jXt nb.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PRAGUE-1826",
+                        "name": "Ostracon Prague 1826, National Museum Prague",
+                        "type": "pottery_ostracon",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "m-dy", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ṯtṯt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "jrm", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "jḫt", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ العامي الدارج 'ثِتثِت' (ṯtṯt) يعني الخصومة أو الشجار اللفظي، وظهور حرف الجر 'إيرم' (jrm) بدلاً من 'حنَع' يمثل قمة التطور اللغوي للمصرية الحديثة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000469-L04",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:03:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-469",
+                "sequence_no": 4,
+                "transliteration": "jw jty.w ḥr rḏj.t mhr.t n pꜣ-swnw",
+                "hieroglyph": "𓇋𓅱𓇋𓏏𓏭𓏪𓁷𓏤𓂞𓏏𓅓𓎛𓂋𓏏𓈖𓊪𓄿𓏃𓄡𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L04: وحيث أن السادة والمسؤولين قد وافقوا على صرف حصة الدهون والزيت المخصصة للطبيب،",
+                "english": "Line L04: while the lords are giving the oil ration for the physician,",
+                "german": "Zeile L04: während die Herren die Ölration für den Arzt geben,",
+                "french": "Ligne L04: alors que les seigneurs donnent la ration d'huile pour le médecin,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "iw_subject_plural_with_progressive_Hr_infinitive_rdi.t"
+            },
+            "layer4_writing": {
+                "mdc_code": "jw jty.w Hr rdj.t mhr.t n pA-swnw"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PRAGUE-1826",
+                        "name": "Ostracon Prague 1826, National Museum Prague",
+                        "type": "pottery_ostracon",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jty.w", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mhr.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "swnw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ 'مهرت' (mhr.t) يشير للحصص والزيوت العطرية المرطبة التي كانت تصرفها الدولة لعمال وحرفيي دير المدينة لتسهيل العمل بالمقابر الحاكمة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000469-L05",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:04:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-469",
+                "sequence_no": 5,
+                "transliteration": "... r ḏd n=f m-sp snwj jm",
+                "hieroglyph": "𓂋𓂧𓂧𓈖𓆑𓐝𓊗𓏤𓏭𓐝𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L05: فتحدثي وقولي له في مواجهته هناك لتكرري كلامك مرتين بكل تأكيد،",
+                "english": "Line L05: ... to tell him there twice precisely,",
+                "german": "Zeile L05: ... um es ihm dort genau zweimal zu sagen,",
+                "french": "Ligne L05: ... pour lui dire là-bas deux fois précisément,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "infinitive_r_purpose_with_pronoun_and_numerical_adverbial"
+            },
+            "layer4_writing": {
+                "mdc_code": "... r Dd n=f m-sp snwj jm"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PRAGUE-1826",
+                        "name": "Ostracon Prague 1826, National Museum Prague",
+                        "type": "pottery_ostracon",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḏd", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sp-snwj", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "jm", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللازمة التأكيدية 'إم-سب سنوي' (m-sp snwj) تعني حرفياً 'مرتين' وتستخدم بكثرة في المراسلات الهيراتية اليومية لحث المخاطب على تكرار الأمر بجدية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000469-L06",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-14T12:05:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-469",
+                "sequence_no": 6,
+                "transliteration": "jw.f pw m ḥtp mi gm.t m sš",
+                "hieroglyph": "𓇋𓅱𓆑𓊪𓅱𓐝𓊵𓏏𓊪𓐝𓏟𓏏",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر L06: وقد تم وانتهى الخطاب بسلام، كما وُجد مكتوباً ومسطراً على الشُقفة في الأصل.",
+                "english": "Line L06: It has come to an end in peace, as it was found in writing.",
+                "german": "Zeile L06: Es ist in Frieden zu Ende gegangen, so wie es geschrieben gefunden wurde.",
+                "french": "Ligne L06: Cela s'est terminé en paix, comme cela a été trouvé par écrit.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "traditional_egyptian_scribal_colophon_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "jw.f pw m Htp mi gm.t m sS"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-PRAGUE-1826",
+                        "name": "Ostracon Prague 1826, National Museum Prague",
+                        "type": "pottery_ostracon",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jw.f-pw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥtp", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "gm.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الخاتمة الحسابية والأدبية المعتمدة للرسائل لتأكيد مطابقة النص المنقول بالكامل للأصل دون بتر."
+            }
+        }
+    ]
+}

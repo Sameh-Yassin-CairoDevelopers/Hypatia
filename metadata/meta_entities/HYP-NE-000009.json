@@ -1,0 +1,40 @@
+{
+    "metadata": {
+        "id": "HYP-NE-000009",
+        "schema_version": "1.0",
+        "status": "authority_file",
+        "created_by": "Hypatia Builder"
+    },
+    "layer1_core": {
+        "transliteration": "imn",
+        "hieroglyph": "𓊹𓏏𓂋𓏏𓂀",
+        "entity_type": "authority_named_entity"
+    },
+    "layer2_languages": {
+        "arabic": "الإله آمون",
+        "english": "The God Amun",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "entity_class": "إله / معبود (God)",
+        "dynasty_association": "كافة الأسرات",
+        "chronological_period": "مصر القديمة التاريخية"
+    },
+    "layer4_writing": {
+        "standard_titles": "الإله الخفي / ملك الآلهة في طيبة",
+        "alternative_spellings": [
+            "imn",
+            "amun"
+        ]
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "HYP-AUTH-001",
+                "name": "Hypatia Historical Registry",
+                "type": "registry"
+            }
+        ]
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "text_id": "EGY-126",
+    "metadata": {
+        "title_ar": "اللوحة الخشبية لحسي-رع",
+        "title_en": "The Wooden Panel of Hesy-Re",
+        "museum_catalog_no": "Egyptian Museum Cairo CG 1426",
+        "stable_tla_id": "unknown"
+    },
+    "sentences": [
+        {
+            "metadata": {
+                "id": "HYP-TXT-000126-S01",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-10T12:00:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-126",
+                "sequence_no": 1,
+                "transliteration": "wr mḏ šmˁ.w wr jbḥ.ty swnw ẖry-tp nsw.t sm rḫ nsw.t ḥsj-rˁ",
+                "hieroglyph": "𓅨𓎆𓆰𓅨𓁿𓏥𓏃𓄡𓂋𓇓𓏏𓋳𓇓𓏏𓂋𓐍𓎛𓋴𓇳𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "كبير عشرة الجنوب (مصر العليا)، وكبير أطباء الأسنان، والطبيب الملكي، وحاجب الملك، وكاهن السم، والسمير المقرب من الملك: حسي-رع.",
+                "english": "Chief of the Ten of Upper Egypt, chief of dentists and physicians, royal chamberlain, Sem-priest, King's acquaintance: Hesy-Re.",
+                "german": "Größter der Zehn von Oberägypten, Oberster der Zahnärzte und Ärzte, königlicher Kammerherr, Sem-Priester, Vertrauter des Königs: Hesy-Re.",
+                "french": "Chef des Dix de Haute-Égypte, chef des dentistes et médecins, chambellan royal, prêtre-Sem, connaissance du roi : Hézi-Rê.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "sequence_of_honorific_and_professional_titles_ending_in_proper_name"
+            },
+            "layer4_writing": {
+                "mdc_code": "wr mD Sm_a.w wr jbH.ty swnw Xry-tp nsw.t sm rX nsw.t hsj-ra"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-CG1426",
+                        "name": "Wooden Panel of Hesy-Re, Cairo Museum",
+                        "type": "wooden_panel",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "wr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mḏ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "šmˁ.w", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "jbḥ.ty", "lemma_ref": null},
+                    {"token_no": 5, "transliteration": "swnw", "lemma_ref": null},
+                    {"token_no": 6, "transliteration": "ẖry-tp", "lemma_ref": null},
+                    {"token_no": 7, "transliteration": "sm", "lemma_ref": null},
+                    {"token_no": 8, "transliteration": "rḫ", "lemma_ref": null},
+                    {"token_no": 9, "transliteration": "ḥsj-rˁ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "تمثل هذه اللوحة الخشبية أقدم توثيق تاريخي مسجل للقب طبيب الأسنان (wr jbḥ.ty swnw) في تاريخ البشرية، وهي تعبر بوضوح عن عراقة الممارسة الطبية المنهجية بمصر القديمة منذ عصر الأسرة الثالثة [1.2.6]."
+            }
+        }
+    ]
+}

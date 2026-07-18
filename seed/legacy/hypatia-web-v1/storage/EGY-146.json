@@ -1,0 +1,778 @@
+{
+    "text_id": "EGY-146",
+    "metadata": {
+        "title_ar": "لوحة كونوسو العسكرية لـ تحتمس الرابع",
+        "title_en": "The Konosso Stela of Thutmose IV",
+        "museum_catalog_no": "Rock Inscription, Konosso Island, Aswan",
+        "stable_tla_id": "Urk-IV-1545-1548"
+    },
+    "sentences": [
+        {
+            "metadata": {
+                "id": "HYP-TXT-000146-S01",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T01:30:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-146",
+                "sequence_no": 1,
+                "transliteration": "ˁnḫ ḥr kꜣ-nḫt tpt-ḫˁ.w",
+                "hieroglyph": "𓋹𓅃𓃦𓈖Selection𓏏𓁶𓏤𓈍𓏥",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "عاش حورس، الثور القوي، ذو التيجان الكاملة المثالية؛",
+                "english": "Live the Horus, Mighty Bull, perfect of diadems;",
+                "german": "Es lebe der Horus, Starker Stier, vollkommen an Kronen;",
+                "french": "Vive l'Horus, Taureau puissant, parfait de diadèmes ;",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "royal_horus_title"
+            },
+            "layer4_writing": {
+                "mdc_code": "anx Hr k3-nXt tpt-xa.w"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "ROCK-INSCRIPTION-KONOSSO-01",
+                        "name": "Konosso Rock Inscription of Thutmose IV",
+                        "type": "rock_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ˁnḫ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥr", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "kꜣ-nḫt", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "العمود الأول؛ اللقب الحوري القياسي للملك تحتمس الرابع."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000146-S02",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T01:30:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-146",
+                "sequence_no": 2,
+                "transliteration": "nbty wꜣḥ-nsy.t mi jtm",
+                "hieroglyph": "𓎟𓏏𓏭𓍯𓄿𓎛𓇓𓏏𓏭𓐝𓇋𓏏𓐝",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "المنتسب للسيدتين (نبتي)، الراسخ في الملكية والعرش مثل الإله آتوم؛",
+                "english": "the Two Ladies, enduring of kingship like Atum;",
+                "german": "die beiden Herrinnen, dauernd an Königtum wie Atum;",
+                "french": "les Deux Maîtresses, durable de royauté comme Atum ;",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "royal_nebty_title"
+            },
+            "layer4_writing": {
+                "mdc_code": "nbty waH-nsy.t mi jtm"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "ROCK-INSCRIPTION-KONOSSO-01",
+                        "name": "Konosso Rock Inscription of Thutmose IV",
+                        "type": "rock_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "nbty", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "wꜣḥ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "jtm", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "العمود الثاني؛ اللقب النبتي الموائم لملكية الإله الخالق آتوم."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000146-S03",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T01:30:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-146",
+                "sequence_no": 3,
+                "transliteration": "ḥr-nwb qn-pḥty dr pḏ.t 9",
+                "hieroglyph": "𓅃𓋨𓎡𓈖𓄖𓏏𓏭𓂧𓂋𓌙𓏥𓏤𓏤𓏤𓏤𓏤𓏤𓏤𓏤𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "حورس الذهبي، القوي والشديد البأس، طارد وقاهر الأقواس التسعة (أعداء مصر التقليديين)؛",
+                "english": "Golden Horus, strong of power, who drives away the Nine Bows;",
+                "german": "Goldhorus, stark an Kraft, der die Neunbogen vertreibt;",
+                "french": "Horus d'or, puissant de force, qui repousse les Neuf Arcs ;",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "royal_golden_horus_title"
+            },
+            "layer4_writing": {
+                "mdc_code": "Hr-nwb qn pHty dr pDt 9"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "ROCK-INSCRIPTION-KOROSKO",
+                        "name": "Korosko Rock Inscription",
+                        "type": "rock_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḥr-nwb", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "qn", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "pḏ.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "العمود الثالث؛ الأقواس التسعة 'بديتيو' هم الرمز التقليدي لأعداء وجيران مصر التقليديين."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000086-S04",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-04T14:27:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-086",
+                "sequence_no": 4,
+                "transliteration": "nsw-bỉty mn-ḫpr.w-rˁ di ˁnḫ mi rˁ",
+                "hieroglyph": "𓇓𓏏𓆤𓏏𓏠𓈖𓆄𓏥𓇳𓂞𓋹𓐝𓇳𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "ملك مصر العليا والسفلى (من-خبرو-رع)، المعطى الحياة مثل رع إلى الأبد،",
+                "english": "King of Upper and Lower Egypt, Menkheperure, given life like Re forever,",
+                "german": "König von Ober- und Unterägypten, Menkheperure, dem Leben gegeben werde wie Re ewiglich,",
+                "french": "Roi de Haute et Basse-Égypte, Menkheperourê, doué de vie comme Rê éternellement,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "royal_throne_name"
+            },
+            "layer4_writing": {
+                "mdc_code": "nsw-bity mn-xpr.w-ra di anx mi ra"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "ROCK-INSCRIPTION-KONOSSO-01",
+                        "name": "Konosso Rock Inscription of Thutmose IV",
+                        "type": "rock_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "nsw-bỉty", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mn-ḫpr.w-rˁ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ˁnḫ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "العمود الرابع؛ من-خبرو-رع هو اسم التتويج لتحتمس الرابع ويعني 'ثابتة هي تجليات رع'."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000146-S05",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T01:30:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-146",
+                "sequence_no": 5,
+                "transliteration": "rnpt-sp 8, ꜣbd 3 n pr.t, sw 2",
+                "hieroglyph": "𓆳𓏏𓊗𓏤𓏤𓏤𓏤𓏤𓏤𓏤𓏤𓇹𓏤𓏤𓏤𓇳𓏤𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "العام الثامن من الحكم، الشهر الثالث من فصل الشتاء (برت)، اليوم الثاني،",
+                "english": "Regnal year 8, third month of the winter season, day 2,",
+                "german": "Regierungsjahr 8, dritter Monat der Winterzeit (Peret), Tag 2,",
+                "french": "L'an 8, troisième mois de la saison de l'hiver, jour 2,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "temporal_clause",
+                "syntax_structure": "date_formula"
+            },
+            "layer4_writing": {
+                "mdc_code": "rnpt-sp 8, Abd 3 n pr.t, sw 2"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "ROCK-INSCRIPTION-KONOSSO-01",
+                        "name": "Konosso Rock Inscription of Thutmose IV",
+                        "type": "rock_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "rnpt-sp", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "pr.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "sw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "العمود الخامس؛ يوثق التاريخ الدقيق لبداية الأحداث وسفر الحملة العسكرية جنوباً."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000146-S06",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "2026-07-05T01:30:50.000000": null
+            },
+            "layer1_core": {
+                "text_id": "EGY-146",
+                "sequence_no": 6,
+                "transliteration": "ỉst Hm=f m niw.t rsy.t m dmj n wꜣs.t",
+                "hieroglyph": "𓇋𓋴𓏏𓍛𓏤𓆑𓐝𓊖𓏤𓆰𓏥𓐝𓂧𓏠𓏭𓈖𓅨𓏏𓊖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "بينما كان جلالته مستقراً في المدينة الجنوبية (طيبة)، وتحديداً في بلدة الكرنك،",
+                "english": "Now His Majesty was in the Southern City (Thebes), at the town of Karnak,",
+                "german": "Nun war Seine Majestät in der südlichen Stadt (Theben), im Ort Karnak,",
+                "french": "Or sa Majesté était dans la ville du Sud (Thèbes), dans la localité de Karnak,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "ist_with_subject_and_locative_adverbial"
+            },
+            "layer4_writing": {
+                "mdc_code": "ist Hm=f m niw.t rsy.t m dmj n w3s.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "ROCK-INSCRIPTION-KONOSSO-01",
+                        "name": "Konosso Rock Inscription of Thutmose IV",
+                        "type": "rock_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ỉst", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥm", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "niw.t", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "wꜣs.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "العمود السادس؛ يحدد المقر الجغرافي للملك تحتمس الرابع قبل تحركه جنوباً."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000146-S07",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T01:31:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-146",
+                "sequence_no": 7,
+                "transliteration": "Hr rdi.t ḥknw n jmn-rˁ",
+                "hieroglyph": "𓁷𓏤𓂞𓏏𓎛𓎡𓈖𓅱𓈖𓇋𓏠𓈖𓇳𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "مقدماً القرابين والتبجيل والحمد للإله (آمون-رع)،",
+                "english": "giving praise to Amun-Re,",
+                "german": "um Amun-Re Lobpreis darzubringen,",
+                "french": "rendant grâce à Amon-Rê,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "subject_with_Hr_infinitive_activity"
+            },
+            "layer4_writing": {
+                "mdc_code": "Hr rdi.t Hknw n jmn-ra"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "ROCK-INSCRIPTION-KONOSSO-01",
+                        "name": "Konosso Rock Inscription of Thutmose IV",
+                        "type": "rock_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "rdi.t", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥknw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "jmn-rˁ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "العمود السابع؛ القيام بالواجبات الطقسية للإله آمون رب الدولة الحديثة قبل اتخاذ القرارات المصيرية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000146-S08",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T01:31:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-146",
+                "sequence_no": 8,
+                "transliteration": "r- ntt iwt n.y m-sA iwt r Dd",
+                "hieroglyph": "𓂋𓈖𓏏𓏭𓇋𓅱𓏏𓈖𓇋𓏠𓈖𓐝𓋴𓄿𓇋𓅱𓏏𓂋𓆓𓂧",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وحضر وجاء إليه مرسل ومبعوث رسمي، لينقل خبراً ويقول:",
+                "english": "when there came a messenger to say:",
+                "german": "als ein Bote kam, um zu sagen:",
+                "french": "lorsqu'un messager vint dire :",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "r-ntt_conjunction_with_noun_subject_and_infinitive_speech"
+            },
+            "layer4_writing": {
+                "mdc_code": "r ntt iwt n.y m-sA iwt r Dd"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "ROCK-INSCRIPTION-KONOSSO-01",
+                        "name": "Konosso Rock Inscription of Thutmose IV",
+                        "type": "rock_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "iwt", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mdt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḏd", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "العمود الثامن؛ الصيغة التقليدية لتلقي التقارير الحدودية العاجلة بالقصر."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000146-S09",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T01:31:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-146",
+                "sequence_no": 9,
+                "transliteration": "pꜣ-ẖry n kꜣš Hr bst Hr tꜣ-sty",
+                "hieroglyph": "𓊪𓄿𓎛𓎎𓄿𓈖𓎡𓄿𓋴𓈉𓁷𓏤𓋴𓃀𓍿𓁷𓏤𓇾𓋴𓏏𓏭𓈉",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "إن العدو المتمرد الخبيث في بلاد كوش (النوبة) قد أعلن الثورة والعصيان على أراضينا،",
+                "english": "The vile enemy of Kush has rebelled against your land,",
+                "german": "Der elende Feind von Kusch hat sich gegen dein Land erhoben,",
+                "french": "L'ennemi vil de Kouch s'est révolté contre ton pays,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "noun_subject_with_Hr_infinitive_hostility"
+            },
+            "layer4_writing": {
+                "mdc_code": "p3-Xry n k3S Hr bst Hr t3-sty"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "ROCK-INSCRIPTION-KONOSSO-01",
+                        "name": "Konosso Rock Inscription of Thutmose IV",
+                        "type": "rock_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "pꜣ-ẖry", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "kꜣš", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "bst", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "tꜣ-sty", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "العمود التاسع؛ كوش هو الاسم الجغرافي للنوبة العليا، وبست تعني الثورة أو العصيان السياسي."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000146-S10",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T01:31:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-146",
+                "sequence_no": 10,
+                "transliteration": "ỉw sḫr.n-st m-r-ˁ nb.t r mšˁ=k",
+                "hieroglyph": "𓇋𓅱𓋴𓐍𓂋𓈖𓋴𓏏𓐝𓂋𓂝𓎆𓂋𓌯𓏥𓎡",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وقد خططوا ودبروا جميعاً للاعتداء على قواتك وحاميتك ومصالحك الحدودية هناك.",
+                "english": "they having planned to attack your army.",
+                "german": "indem sie planten, dein Heer anzugreifen.",
+                "french": "ils ayant planifié d'attaquer ton armée.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "circumstantial_iw_with_sDmw.n-st_and_infinitive"
+            },
+            "layer4_writing": {
+                "mdc_code": "iw sXr.n-st m-r-a nb.t r mS_a=k"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "ROCK-INSCRIPTION-KONOSSO-01",
+                        "name": "Konosso Rock Inscription of Thutmose IV",
+                        "type": "rock_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "sḫr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mšˁ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "العمود العاشر؛ سخر تعني التخطيط التآمري أو التدبير العدائي الخفي."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000146-S11",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T01:31:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-146",
+                "sequence_no": 11,
+                "transliteration": "ḥd.n tꜣ rsw Hm=f r-HA.t",
+                "hieroglyph": "𓄔𓈖𓇾𓂋𓋴𓅱𓍛𓏤𓆑𓂋𓄂𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وعندما أشرق الصباح وبزغ الضوء، انطلق جلالته متوجهاً للمواجهة وحسم التمرد،",
+                "english": "When the land brightened, His Majesty proceeded forward,",
+                "german": "Als das Land hell wurde, zog Seine Majestät vorwärts,",
+                "french": "Quand la terre devint claire, sa Majesté se dirigea vers l'avant,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n_temporal_with_noun_subject_and_directional"
+            },
+            "layer4_writing": {
+                "mdc_code": "hd.n t3 rsw Hm=f r-HA.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "ROCK-INSCRIPTION-KONOSSO-01",
+                        "name": "Konosso Rock Inscription of Thutmose IV",
+                        "type": "rock_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "hd.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "tꜣ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "rsw", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "ḥm", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "العمود الحادي عشر؛ الصيغة الزمنية الكلاسيكية 'هد-إن تا' لبدء التحرك العسكري الملكي السريع."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000146-S12",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T01:31:50.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-146",
+                "sequence_no": 12,
+                "transliteration": "ỉw mnṯw wꜣs.t ḥnˁ=f r sšm=f",
+                "hieroglyph": "𓇋𓅱𓏠𓈖𓍿𓅱𓅨𓂋𓏏𓎛𓈖𓂝𓆑𓂋𓋴𓋴𓐝𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وكان الإله (منتو) رب طيبة يرافقه ويسير معه ليوجهه ويرشده،",
+                "english": "Montu of Thebes being with him to guide him,",
+                "german": "indem Month von Theben bei ihm war, um ihn zu führen,",
+                "french": "Monthou de Thèbes étant avec lui pour le guider,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "iw_subject_with_comitative_and_infinitive_purpose"
+            },
+            "layer4_writing": {
+                "mdc_code": "iw mntw wAst Hna=f r sSm=f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "ROCK-INSCRIPTION-KONOSSO-01",
+                        "name": "Konosso Rock Inscription of Thutmose IV",
+                        "type": "rock_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "iw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mnṯw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "wꜣs.t", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "sšm", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "العمود الثاني عشر؛ منتو هو معبود الجسارة والقتال والحرب والملكية المنتصرة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000146-S13",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T01:32:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-146",
+                "sequence_no": 13,
+                "transliteration": "wd.n=f sbt r-gsw nby.t",
+                "hieroglyph": "𓎘𓈖𓆑𓋴𓃀𓏏𓂻𓂋𓎼𓋴𓅱𓋨𓇋𓏏𓈉",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وقد أمر ووجه الحملة العسكرية لشق الصحراء بجوار مناجم الذهب (منطقة النبيت)،",
+                "english": "he ordered the expedition to cross near the gold-mines (Nebyt),",
+                "german": "er befahl der Expedition, nahe den Goldminen (Nebyt) zu kreuzen,",
+                "french": "il ordonna à l'expédition de traverser près des mines d'or (Nebyt),",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_with_locative_object_noun"
+            },
+            "layer4_writing": {
+                "mdc_code": "wd.n=f sbt r-gsw nby.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "ROCK-INSCRIPTION-KONOSSO-01",
+                        "name": "Konosso Rock Inscription of Thutmose IV",
+                        "type": "rock_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "wd.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sbt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "nby.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "العمود الثالث عشر؛ نبيت هي التسمية الجغرافية القديمة لأودية التعدين الغنية بالذهب بالصحراء الشرقية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000146-S14",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T01:32:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-146",
+                "sequence_no": 14,
+                "transliteration": "r dr bst-sn Hr tA pn",
+                "hieroglyph": "𓂋𓂧𓂋𓋴𓃀𓍿𓋴𓈖𓁷𓏤𓇾𓏤𓏏𓈖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "لقمع ودحر وإنهاء عصيانهم وثورتهم على هذه الأرض تماماً،",
+                "english": "to completely suppress their rebellion on this land,",
+                "german": "um ihren Aufstand in diesem Land vollständig niederzuschlagen,",
+                "french": "pour supprimer complètement leur rébellion sur cette terre,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "infinitive_r_purpose_transitive_with_suffix"
+            },
+            "layer4_writing": {
+                "mdc_code": "r dr bst-sn Hr t3 pn"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "ROCK-INSCRIPTION-KONOSSO-01",
+                        "name": "Konosso Rock Inscription of Thutmose IV",
+                        "type": "rock_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "dr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "bst", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "tꜣ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "العمود الرابع عشر؛ در تفيد القمع والإنهاء والتطهير الشامل للحدود."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000146-S15",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-05T01:32:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-146",
+                "sequence_no": 15,
+                "transliteration": "ỉw.f pw m ḥtp",
+                "hieroglyph": "𓇋𓅱𓆑𓊪𓅱𓐝𓊵𓏏𓊪",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وقد تم الأمر والفتح والنصر بسلام كامل.",
+                "english": "It is finished in peace.",
+                "german": "Es ist in Frieden vollendet.",
+                "french": "Cela s'est terminé en paix.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "traditional_egyptian_scribal_colophon_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "iw.f pw m Htp"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "ROCK-INSCRIPTION-KONOSSO-01",
+                        "name": "Konosso Rock Inscription of Thutmose IV",
+                        "type": "rock_inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "iw.f-pw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥt_p", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "العمود الخامس عشر والأخير؛ الخاتمة الرسمية للنقش الصخري لإثبات نجاح عمليات التأمين واستقرار طرق التعدين."
+            }
+        }
+    ]
+}

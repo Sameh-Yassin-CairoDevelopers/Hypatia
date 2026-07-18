@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-004576",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:38.768793Z"
+    },
+    "layer1_core": {
+        "transliteration": "swAS",
+        "hieroglyph": "𓋴𓍯𓈙𓀢𓋴𓍯𓄿𓈙𓀠𓋴𓍯𓈙𓏛𓊃𓍯𓄿𓈙𓀠𓏛",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "يُحَي، يهتف لـ، يصفق لـ",
+        "english": "pay honour to, applaud",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+132F4",
+        "gardiner_code": "S29",
+        "gardiner_description": "Folded cloth\tPhono. s. In ʿnḫ.(w) (w)ḏ3 snb “may he live, be prosperous, be healthy.” (L.P.H.)",
+        "gardiner_details": "S30"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

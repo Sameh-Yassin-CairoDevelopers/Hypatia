@@ -1,0 +1,39 @@
+{
+    "metadata": {
+        "id": "HYP-NE-000053",
+        "schema_version": "1.0",
+        "status": "authority_file",
+        "created_by": "Hypatia Builder"
+    },
+    "layer1_core": {
+        "transliteration": "entity-form-53",
+        "hieroglyph": "𓊹𓏏𓂋𓏏𓂀",
+        "entity_type": "authority_named_entity"
+    },
+    "layer2_languages": {
+        "arabic": "كيان تاريخي رقم 53",
+        "english": "Historical Entity 53",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "entity_class": "كيان استنادي (Authority Entity)",
+        "dynasty_association": "غير محدد",
+        "chronological_period": "غير محدد"
+    },
+    "layer4_writing": {
+        "standard_titles": "بيانات استنادية مؤرشفة محلياً في مجلد meta_entities",
+        "alternative_spellings": [
+            "entity-form-53"
+        ]
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "HYP-AUTH-001",
+                "name": "Hypatia Historical Registry",
+                "type": "registry"
+            }
+        ]
+    }
+}

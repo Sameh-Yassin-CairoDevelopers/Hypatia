@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-002567",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:36.066690Z"
+    },
+    "layer1_core": {
+        "transliteration": "mnx",
+        "hieroglyph": "𓏠𓇤𓐍𓍊𓏛𓏠𓈖𓐍𓏛𓍊",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "قوي (مَلِك، ....الخ)، موضع ثقة (موَظَّفون)، مؤثرة (أوامر، نصيحة، ...الخ)، ميال لـ، مُكرَّس، رائع (للمباني، جودة العمل)، نفيس (للمواد)، ممتاز (للأفعال)، مُترَف (للعبادة)، راسخة، بصورة تامة",
+        "english": "potent (of king), trusty (of officials), efficacious (of commands, councel, etc), well disposed, devoted, splendid (of buildings, of workmanship), costly (of material), lavish (of worship), excellent (of occasions), excellent (of deeds), well-famed, well-established (of endowment), thoroughly",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+133E0",
+        "gardiner_code": "unknown",
+        "gardiner_description": "unknown",
+        "gardiner_details": "unknown"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

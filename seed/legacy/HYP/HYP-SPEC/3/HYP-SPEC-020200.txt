@@ -1,0 +1,594 @@
+هنا سأختلف مع الاسم **Dictionary Card**.
+
+وليس اختلافًا شكليًا.
+
+بل لأن هذه البطاقة أصبحت أكبر بكثير من فكرة "القاموس".
+
+هى تمثل **الوحدة المعجمية (Lexical Unit)** التى تدور حولها:
+
+* الـ Lemma
+* الـ Senses
+* الـ Occurrences
+* الـ Grammar
+* الـ Morphology
+* الـ Relations
+* الـ Stories
+* الـ Entities
+
+إذن الاسم الأكاديمى الأدق هو:
+
+# **Lexical Card**
+
+وهذا الاسم مستخدم فى اللسانيات الحديثة، وواسع بما يكفى ليستوعب كل التطويرات المستقبلية.
+
+---
+
+# HYP-SPEC-020200
+
+# Lexical Card Specification
+
+**Project:** Hypatia Knowledge Platform
+
+**Document ID:** HYP-SPEC-020200
+
+**Version:** 1.0 Founder Edition
+
+**Status:** Official
+
+**Classification:** Core Knowledge Model
+
+**Inherits:** HYP-SPEC-020000 — Knowledge Object
+
+---
+
+# Purpose
+
+The Lexical Card represents a single lexical concept within the Hypatia Repository.
+
+It is the central linguistic object around which translation, grammar, occurrences, meanings, and semantic relationships are organized.
+
+Every lexical item is represented by exactly one Lexical Card.
+
+---
+
+# Philosophy
+
+One Lexical Concept
+
+↓
+
+One Lexical Card
+
+↓
+
+Many Meanings
+
+Many Occurrences
+
+Many Relations
+
+One Identity
+
+---
+
+# Definition
+
+A Lexical Card describes a lexical unit independently from any particular text.
+
+It does not represent one occurrence.
+
+It represents the concept shared by all occurrences.
+
+---
+
+# Universal Structure
+
+The Lexical Card inherits every field defined in
+
+HYP-SPEC-020000
+
+and additionally defines the following sections.
+
+---
+
+# Section 1
+
+## Lexical Identity
+
+```text
+lemma
+
+canonical_form
+
+normalized_form
+
+primary_reading
+
+writing_system
+```
+
+---
+
+### lemma
+
+The canonical lookup form.
+
+This is the primary access key of the lexical system.
+
+Example
+
+```text
+nfr
+```
+
+---
+
+### canonical_form
+
+Official normalized representation.
+
+May differ from historical spellings.
+
+---
+
+### normalized_form
+
+Machine-normalized form.
+
+Used for indexing.
+
+Searching.
+
+Comparison.
+
+---
+
+### primary_reading
+
+Preferred scholarly reading.
+
+---
+
+### writing_system
+
+Hieroglyphic
+
+Hieratic
+
+Demotic
+
+Coptic
+
+Future writing systems
+
+Referenced through Meta Cards.
+
+---
+
+# Section 2
+
+## Orthography
+
+Contains every writing variant.
+
+```text
+glyph_forms
+
+orthographic_variants
+
+historical_spellings
+
+ligatures
+```
+
+---
+
+One Lexical Card
+
+↓
+
+Many spellings
+
+---
+
+# Section 3
+
+## Pronunciation
+
+Contains
+
+```text
+transliteration
+
+phonetic_value
+
+phonological_notes
+
+pronunciation_confidence
+```
+
+---
+
+The pronunciation may evolve.
+
+The Lexical Card remains identical.
+
+---
+
+# Section 4
+
+## Grammar
+
+Contains
+
+```text
+part_of_speech
+
+gender
+
+number
+
+verb_class
+
+morphological_pattern
+
+grammatical_features
+```
+
+All values reference Meta Cards.
+
+---
+
+# Section 5
+
+## Meaning
+
+Contains
+
+```text
+primary_meaning
+
+secondary_meanings
+
+semantic_notes
+
+usage_notes
+```
+
+These are summaries.
+
+Individual senses are stored separately.
+
+---
+
+# Section 6
+
+## Senses
+
+The Lexical Card owns multiple Senses.
+
+```text
+sense_ids
+```
+
+Each Sense possesses
+
+Meaning
+
+Context
+
+Confidence
+
+Examples
+
+Period
+
+---
+
+The Lexical Card itself never stores complete semantic descriptions.
+
+---
+
+# Section 7
+
+## Occurrences
+
+Contains
+
+```text
+occurrence_count
+
+occurrence_ids
+```
+
+Occurrences belong to Stories.
+
+Not to the Lexical Card.
+
+---
+
+# Section 8
+
+## Relationships
+
+Lexical relationships.
+
+Examples
+
+```text
+synonym
+
+antonym
+
+derived_from
+
+derived_into
+
+variant_of
+
+related_to
+
+see_also
+```
+
+All reference Lexical IDs.
+
+---
+
+# Section 9
+
+## Domains
+
+Scientific domains.
+
+Examples
+
+Medicine
+
+Astronomy
+
+Military
+
+Administration
+
+Religion
+
+Architecture
+
+Agriculture
+
+Referenced through Domain Cards.
+
+---
+
+# Section 10
+
+## Historical Distribution
+
+Contains
+
+```text
+first_attestation
+
+last_attestation
+
+historical_periods
+
+dynasties
+```
+
+Referenced through Meta Cards.
+
+---
+
+# Section 11
+
+## Statistics
+
+Automatically generated.
+
+```text
+story_count
+
+entity_count
+
+occurrence_count
+
+sense_count
+
+relation_count
+```
+
+Never edited manually.
+
+---
+
+# Section 12
+
+## Sources
+
+Scientific references.
+
+Contains
+
+```text
+dictionary_sources
+
+academic_sources
+
+museum_sources
+
+publication_sources
+```
+
+Referenced through Source Cards.
+
+---
+
+# Section 13
+
+## Confidence
+
+Contains
+
+```text
+lexical_confidence
+
+grammar_confidence
+
+semantic_confidence
+
+overall_confidence
+```
+
+Scientific review continuously improves these values.
+
+---
+
+# Scientific Rule
+
+A Lexical Card never belongs to one Story.
+
+Stories reference Lexical Cards.
+
+Never the opposite.
+
+---
+
+# Repository Location
+
+```text
+repository/
+
+lexicon/
+```
+
+Every Lexical Card is stored independently.
+
+---
+
+# Identity Example
+
+```text
+HYP-LEM-000214
+```
+
+---
+
+# Community Evolution
+
+Researchers may propose
+
+New meanings
+
+Grammar corrections
+
+New spellings
+
+New attestations
+
+New sources
+
+Additional relations
+
+Every modification produces a new revision.
+
+---
+
+# AI Usage
+
+Lexical Cards become
+
+Vocabulary
+
+Token Anchors
+
+Lexical Graph
+
+Translation Units
+
+Morphological Knowledge
+
+Semantic Context
+
+---
+
+# Long-Term Objective
+
+The Lexical Layer becomes the universal lexical memory of Hypatia.
+
+Every future civilization.
+
+Every future language.
+
+Every future model.
+
+Will reference this layer.
+
+---
+
+# Scientific Law
+
+One lexical concept.
+
+One identity.
+
+Infinite evolution.
+
+---
+
+# Lexical Motto
+
+> **One Lemma. Many Meanings. One Scientific Identity.**
+
+---
+
+# Founder Statement
+
+The Lexical Card is the linguistic heart of Hypatia.
+
+Texts come and go.
+
+Spellings evolve.
+
+Interpretations improve.
+
+But the lexical concept endures.
+
+By preserving that concept as a stable Knowledge Object, Hypatia transforms scattered words into a structured scientific lexicon capable of serving researchers, dictionaries, knowledge graphs, and future language models alike.
+
+---
+
+# Academic Notes
+
+Unlike traditional dictionaries, the Lexical Card is **not** a dictionary entry.
+
+It is a **linguistic knowledge node**.
+
+The dictionary is merely one way of displaying it.
+
+The website is another.
+
+The knowledge graph is another.
+
+The AI model is another.
+
+This separation between **knowledge** and **representation** is what allows Hypatia to become simultaneously:
+
+* a digital lexicon,
+* a scholarly corpus,
+* a semantic graph,
+* and a long-term training foundation for future language models.
+
+---
+
+## ✦ تعليق أخير
+
+أعتقد أن تغيير الاسم من **Dictionary Card** إلى **Lexical Card** سيكون من أفضل القرارات المعمارية في المشروع. فهو يحرر البطاقة من كونها "مدخل قاموس" ويجعلها تمثل ما هي عليه فعلًا: **العقدة المركزية لكل المعرفة اللغوية** داخل هيباتيا. بل وأقترح أن يسمى المجلد أيضًا:
+
+```text
+repository/
+└── lexicon/
+```
+
+بدلًا من `dictionary/`، لأن **Lexicon** هو المصطلح الأكاديمي المستخدم لوصف البنية المعجمية الكاملة للغة، وهو يعكس طموح المشروع بدقة أكبر.

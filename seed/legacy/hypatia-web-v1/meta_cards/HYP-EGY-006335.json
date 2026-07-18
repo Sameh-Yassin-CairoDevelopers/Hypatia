@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-006335",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:41.384278Z"
+    },
+    "layer1_core": {
+        "transliteration": "dnit",
+        "hieroglyph": "𓂧𓈖𓇋𓏏𓍸𓈇𓏤𓆓𓈖𓇋𓏏𓌼𓈇𓏤",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "سد",
+        "english": "dam (n.)",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+130A7",
+        "gardiner_code": "unknown",
+        "gardiner_description": "unknown",
+        "gardiner_details": "unknown"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

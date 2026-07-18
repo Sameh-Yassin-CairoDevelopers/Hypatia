@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-002556",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:36.055906Z"
+    },
+    "layer1_core": {
+        "transliteration": "mnfAt",
+        "hieroglyph": "𓏠𓈖𓆑𓄿𓏏𓀎𓏪𓏠𓈖𓆑𓄿𓏏𓀀𓏥𓏠𓈖𓆑𓇋𓏏𓇋𓀎𓏪𓏠𓈖𓆑𓇌𓏏𓀙𓏪𓏠𓈖𓆑𓏏𓀙𓏪𓏠𓈖𓆑𓏏𓀀𓏪",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "جنود مدربين، قوات هجومية، مشاة، الجندية (بشكل عام)",
+        "english": "trained soldiers, assault troops, infantry, soldiery (in general)",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+133E0",
+        "gardiner_code": "unknown",
+        "gardiner_description": "unknown",
+        "gardiner_details": "unknown"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

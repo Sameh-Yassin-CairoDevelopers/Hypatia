@@ -1,0 +1,673 @@
+{
+    "text_id": "EGY-013",
+    "metadata": {
+        "title_ar": "متع صيد الأسماك والطيور",
+        "title_en": "The Pleasures of Fishing and Fowling",
+        "museum_catalog_no": "Moscow Papyrus o.Nr. (Pleasures of Fishing)",
+        "stable_tla_id": "NWU7AQNNVNAWFEYW2VLYBFO5LU"
+    },
+    "sentences": [
+        {
+            "metadata": {
+                "id": "HYP-TXT-000013-S01",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-01T14:30:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-013",
+                "sequence_no": 1,
+                "transliteration": "hrw nfr m r-a nb",
+                "hieroglyph": "𓇳𓏤𓄤𓂋𓐝𓂋𓂝𓎆",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "إنه لليوم الجميل والبهيج من كل الأيام،",
+                "english": "A beautiful day, on which we give to everyone,",
+                "german": "Ein schöner Tag, an dem wir jedermann geben,",
+                "french": "Un beau jour, où l'on donne à chacun,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "noun_adjective_with_temporal_rate"
+            },
+            "layer4_writing": {
+                "mdc_code": "hrw nfr m r-a nb"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-MOSCOW-03",
+                        "name": "Moscow Papyrus o.Nr.",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "hrw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "nfr", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "nb", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التركيب 'هرو نفر' هو المصطلح المصري القياسي للأعياد والمناسبات الترفيهية السعيدة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000013-S02",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-01T14:30:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-013",
+                "sequence_no": 2,
+                "transliteration": "rdi.n=n r t3 n sS n p3-mn.t",
+                "hieroglyph": "𓂞𓈖𓈖𓂋𓇾𓏤𓈖𓋴𓍯𓈉𓊖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "حيث نزلنا وارتحلنا لليابسة في مستنقعات وأحراش هذا المرعى الخصيب،",
+                "english": "We went down to the land of the marsh of this pasture,",
+                "german": "Wir gingen hinab zum Land des Sumpfes dieser Weide,",
+                "french": "Nous descendîmes vers la terre du marais de ce pâturage,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_motion_with_locative_genitive"
+            },
+            "layer4_writing": {
+                "mdc_code": "rdi.n=n r t3 n sS n p3-mn.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-MOSCOW-03",
+                        "name": "Moscow Papyrus o.Nr.",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "rdi.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sS", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "mn.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "المستنقع 'سش' والمراعي 'منت' تشير لأحراش بحيرة الفيوم خصبة النمو."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000013-S03",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-01T14:30:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-013",
+                "sequence_no": 3,
+                "transliteration": "iri.n.i im3-Hwt m-Hnw f",
+                "hieroglyph": "𓁹𓈖𓇋𓏠𓈖𓇋𓐝𓄿𓉐𓐝𓄡𓈖𓏤𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وقمتُ ببناء وتشييد خيمتي الميدانية بداخل هذا الموضع،",
+                "english": "I built a field tent inside it,",
+                "german": "Ich baute eine Feldhütte in ihr,",
+                "french": "Je construisis une tente de campagne à l'intérieur,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_with_locative_suffix"
+            },
+            "layer4_writing": {
+                "mdc_code": "iri.n.i im3-Hwt m-Hnw f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-MOSCOW-03",
+                        "name": "Moscow Papyrus o.Nr.",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "iri.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "im3-Hwt", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "إيما-حوت تعني خيمة الصيد أو نزل الضيافة الميداني المتنقل للنبلاء."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000013-S04",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-01T14:30:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-013",
+                "sequence_no": 4,
+                "transliteration": "m.k r-f r=j m-Xt spr=j",
+                "hieroglyph": "𓐝𓎡𓂋𓆑𓇋𓏠𓈖𓐝𓄡𓈖𓏤𓋴𓊪𓂋𓇋𓏠𓈖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وانظر إليّ وتأمل حالي بعد أن بلغتُ ووصلتُ إلى هذا الموضع،",
+                "english": "See me after I have arrived,",
+                "german": "Siehe mich an, nachdem ich angekommen bin,",
+                "french": "Regarde-moi après que je sois arrivé,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "presentation_m-k_with_temporal_infinitive_destination"
+            },
+            "layer4_writing": {
+                "mdc_code": "m.k r-f r=j m-Xt spr=j"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-MOSCOW-03",
+                        "name": "Moscow Papyrus o.Nr.",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "m-k", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "spr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الالتزام البلاغي بالالتفات لضمير المتكلم لتوكيد السرد العفوي."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000013-S05",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-01T14:30:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-013",
+                "sequence_no": 5,
+                "transliteration": "sqd.n=n r pA-iw n Htp",
+                "hieroglyph": "𓋴𓎡𓂧𓈖𓈖𓂋𓊪𓄿𓇋𓅱𓈉𓐝𓊵𓏏𓊪",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وحين أبحرنا وارتحلنا بسلام تام نحو الجزيرة،",
+                "english": "We sailed in peace to the island,",
+                "german": "Wir fuhren in Frieden zu der Insel,",
+                "french": "Nous avons navigué en paix vers l'île,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_with_locative_and_adverbial_Htp"
+            },
+            "layer4_writing": {
+                "mdc_code": "sqd.n=n r pA-iw n Htp"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-MOSCOW-03",
+                        "name": "Moscow Papyrus o.Nr.",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "sqd.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "pA-iw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "Htp", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الجزيرة 'إيو' هنا تشير إلى إحدى جزر بحيرة قارون بالفيوم المخصصة لصيد التاج."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000013-S06",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-01T14:30:50.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-013",
+                "sequence_no": 6,
+                "transliteration": "sb-n-sd n nTr.w iry m mtr",
+                "hieroglyph": "𓋴𓃀𓈖𓋴𓂧𓊹𓏥𓁹𓐝𓌳𓏏𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وقُدّمت القرابين المشوية والمحرقات طقسياً للآلهة والآرباب الحامية،",
+                "english": "A burnt offering was indeed made for the gods,",
+                "german": "Ein Brandopfer wurde in der Tat für die Götter dargebracht,",
+                "french": "Un holocauste fut en vérité offert aux dieux,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "passive_sDmw.f_with_adverbial_specification"
+            },
+            "layer4_writing": {
+                "mdc_code": "sb-n-sd n nTr.w iry m mtr"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-MOSCOW-03",
+                        "name": "Moscow Papyrus o.Nr.",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "sb-n-sd", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "nTr.w", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "mtr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "سِب-إن-سد تعني القربان المحروق لشكر الآلهة نثرو على الصيد الوفير."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000013-S07",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-01T14:31:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-013",
+                "sequence_no": 7,
+                "transliteration": "wn.in Hm=f Hr h3.t r-f",
+                "hieroglyph": "𓅱𓈖𓇋𓈖𓍛𓏤𓆑𓁷𓏤𓄡𓄿𓂋𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "ثم نزل وتوجه جلالة الملك بنفسه إلى ميدان الصيد،",
+                "english": "Then His Majesty went down himself,",
+                "german": "Da ging Seine Majestät selbst hinab,",
+                "french": "Alors Sa Majesté descendit elle-même,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "wn.in.f_consecutive_with_noun_subject_and_stative_motion"
+            },
+            "layer4_writing": {
+                "mdc_code": "wn.in Hm=f Hr h3.t r-f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-MOSCOW-03",
+                        "name": "Moscow Papyrus o.Nr.",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "wn.in", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "Hm", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "h3.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "النزول للميدان 'حر هات' يشير للبدء العملي للصيد الملكي."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000013-S08",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-01T14:31:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-013",
+                "sequence_no": 8,
+                "transliteration": "r kAw Hna nqA.wt m sS.w",
+                "hieroglyph": "𓂋𓎡𓄿𓅱𓏥𓎛𓈖𓂝𓈖𓎡𓄿𓅱𓏏𓆭𓐝𓋴𓍯𓈉",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "لاقتناص وصيد الثيران البرية والجميز المشقوق والمحاصيل بالأحراش،",
+                "english": "for wild bulls as well as notched ones in the marshes,",
+                "german": "wegen der wilden Stiere und eingekerbten Feigen in den Sümpfen,",
+                "french": "pour les taureaux sauvages ainsi que les figues incisées dans les marais,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "coordination_of_exotic_hunts_with_locative_scope"
+            },
+            "layer4_writing": {
+                "mdc_code": "r kAw Hna nqA.wt m sS.w"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-MOSCOW-03",
+                        "name": "Moscow Papyrus o.Nr.",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "kAw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "nqA.wt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "sS.w", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الربط غير المعتاد بين صيد الثيران البرية 'كاو' وجمع الجميز 'نقاوت' كأهم ممتلكات المستنقع."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000013-S09",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-01T14:31:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-013",
+                "sequence_no": 9,
+                "transliteration": "Xnm swHt Hr bit n anx",
+                "hieroglyph": "𓎛𓈖𓐝𓋴𓅱𓎛𓏏𓁷𓏤𓆤𓏏𓈖𓋹",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "مستمتعين بالحياة على أكل البيض والعسل البري اللذيذ،",
+                "english": "living on egg and honey for life,",
+                "german": "lebend von Ei und Honig des Lebens,",
+                "french": "vivant d'œuf et de miel de vie,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "passive_participle_Xnm_with_coordinated_nouns_and_genitive_anx"
+            },
+            "layer4_writing": {
+                "mdc_code": "Xnm swHt Hr bit n anx"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-MOSCOW-03",
+                        "name": "Moscow Papyrus o.Nr.",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "Xnm", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "swHt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "bit", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "البيض 'سوحت' والعسل 'بيت' هي الأطعمة الفاخرة للنبلاء في رحلات الصيد البري."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000013-S10",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-01T14:31:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-013",
+                "sequence_no": 10,
+                "transliteration": "iw Dd.n Hm=f n smrw nty m-s3=f",
+                "hieroglyph": "𓇋𓅱𓂧𓂧𓈖𓍛𓏤𓆑𓈖𓋴𓍋𓎛𓂝𓏤𓏥𓈖𓏏𓏭𓐝𓋴𓄿𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "ثم وجه وتحدث جلالة الملك بحديثه للنبلاء والسمراء المرافقين له:",
+                "english": "Then His Majesty said to the courtiers who were behind him:",
+                "german": "Da sagte Seine Majestät zu den Höflingen, die hinter ihm waren:",
+                "french": "Alors Sa Majesté dit aux courtisans qui étaient derrière elle :",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n_subject_noun_with_relative_locative_adverbial"
+            },
+            "layer4_writing": {
+                "mdc_code": "iw Dd.n Hm=f n smrw nty m-s3=f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-MOSCOW-03",
+                        "name": "Moscow Papyrus o.Nr.",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "Dd.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "smrw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "nty", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الحديث الملكي المباشر لحث الحاشية على المشاركة في الصيد الجماعي."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000013-S11",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-01T14:31:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-013",
+                "sequence_no": 11,
+                "transliteration": "m-ir iqr r-f nDs",
+                "hieroglyph": "𓐝𓇋𓂋𓄤𓂋𓈖𓆓𓋴𓀀",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "لا تدّعِ المهارة والفطنة الزائدة يا صاحبي الصغير المغمور في صيدك!",
+                "english": "Do not play the clever one, my little friend!",
+                "german": "Tu nicht so schlau, mein kleiner Freund!",
+                "french": "Ne fais pas le malin, mon petit ami !",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "negative_imperative_m-ir_with_limiting_noun_vocative"
+            },
+            "layer4_writing": {
+                "mdc_code": "m-ir iqr r-f nDs"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-MOSCOW-03",
+                        "name": "Moscow Papyrus o.Nr.",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "m-ir", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "iqr", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "nDs", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللقب نجس يعني التابع المغمور، وإقر تفيد التذاكي في الرماية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000013-S12",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-01T14:31:50.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-013",
+                "sequence_no": 12,
+                "transliteration": "wn.kw r-f r-Xm m mtr",
+                "hieroglyph": "𓅱𓈖𓎡𓅱𓂋𓆑𓂋𓐍𓅓𓐝𓌳𓏏𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "تحدث إذن! وليُعلم ويُعرف صيدك ومهارتك أمام الجميع!",
+                "english": "Speak then! Let your skill be known as a witness!",
+                "german": "Sprich nun! Lass dein Geschick als Zeugnis kundtun!",
+                "french": "Parle donc ! Que ton habileté soit connue comme un témoignage !",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "imperative_wn.kw_with_subjunctive_and_adverbial_witness"
+            },
+            "layer4_writing": {
+                "mdc_code": "wn.kw r-f r-Xm m mtr"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-MOSCOW-03",
+                        "name": "Moscow Papyrus o.Nr.",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "wn.kw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "r-Xm", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "mtr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "صيغة لحث التابعين على إبراز شجاعتهم وبراعتهم البدنية أمام فرعون."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000013-S13",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-01T14:32:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-013",
+                "sequence_no": 13,
+                "transliteration": "iw.f pw m Htp mi gm.t m sS n t3-mri",
+                "hieroglyph": "𓇋𓅱𓆑𓊪𓅱𓐝𓊵𓏏𓊪𓐝𓏟𓏏𓈖𓇾𓌻",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "لقد تم النص وانتهى بسلام كامل، كما وُجد مكتوباً ومسطراً في المخطوط الأصلي للبردية بمصر القديمة.",
+                "english": "It has come to an end in peace, as it was found in writing of Egypt.",
+                "german": "Es ist in Frieden zu Ende gegangen, so wie es geschrieben gefunden wurde im Ägypten.",
+                "french": "Cela s'est terminé en paix, comme cela a été trouvé par écrit d'Égypte.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "traditional_egyptian_scribal_colophon_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "iw.f pw m Htp mi gm.t m sS n t3-mri"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-MOSCOW-03",
+                        "name": "Moscow Papyrus o.Nr.",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "iw.f-pw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "Htp", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "gm.t", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "sS", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الخاتمة الكلاسيكية لبرديات الدولة الوسطى لتوكيد مطابقة النص للأصل المكتوب."
+            }
+        }
+    ]
+}

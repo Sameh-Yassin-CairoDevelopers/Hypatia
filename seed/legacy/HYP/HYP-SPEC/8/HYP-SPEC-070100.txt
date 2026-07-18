@@ -1,0 +1,431 @@
+ممتاز.
+
+وأعتقد أن هذه ستكون من أكثر الوثائق التى سنعود إليها باستمرار.
+
+لكن لا أريدها أن تكون مجرد **Roadmap**.
+
+بل أريدها أن تكون **Scientific Backlog**.
+
+كل فكرة...
+كل سؤال...
+كل مشروع...
+كل Builder...
+كل ورقة بحثية...
+
+مكانها هنا.
+
+وهذا المستند لن ينتهى أبدًا.
+
+---
+
+# HYP-SPEC-070100
+
+# Research Roadmap
+
+**Project:** Hypatia Knowledge Platform
+
+**Document ID:** HYP-SPEC-070100
+
+**Version:** 1.0 Founder Edition
+
+**Status:** Living Document
+
+**Classification:** Scientific Roadmap
+
+**Parent Specification:** HYP-SPEC-070000 — Research Framework
+
+---
+
+# Document Status
+
+This is a continuously evolving research roadmap.
+
+Its purpose is not to define completed work, but to organize future scientific, engineering, and institutional research efforts.
+
+Items may be added, reordered, merged, postponed, completed, or archived throughout the lifetime of the project.
+
+---
+
+# Purpose
+
+This roadmap records the future scientific direction of Hypatia.
+
+It provides a structured view of
+
+* current research
+* planned research
+* experimental ideas
+* engineering challenges
+* AI evolution
+* long-term institutional goals
+
+The roadmap connects everyday engineering work with long-term scientific vision.
+
+---
+
+# Philosophy
+
+Today's implementation becomes tomorrow's research.
+
+Today's research becomes tomorrow's architecture.
+
+---
+
+# Roadmap Structure
+
+Research items are grouped into thematic domains.
+
+Each item receives
+
+* Research ID
+* priority
+* status
+* related specifications
+* expected impact
+
+---
+
+# Research Status
+
+Every roadmap item belongs to one status.
+
+```text id="research_status"
+Idea
+
+Candidate
+
+Planned
+
+Active
+
+Experimental
+
+Validated
+
+Published
+
+Archived
+```
+
+Research evolves through these stages.
+
+---
+
+# Priority Levels
+
+```text id="research_priority"
+Critical
+
+High
+
+Medium
+
+Low
+
+Exploratory
+```
+
+Priority may change as the platform evolves.
+
+---
+
+# Major Research Domains
+
+---
+
+## Domain A
+
+Ancient Egyptian Linguistics
+
+Future work may include
+
+* Grammar Genome
+* Verb Classification
+* Semantic Roles
+* Determinative Intelligence
+* Temporal Expressions
+* Dialect Evolution
+* Hieroglyphic Syntax
+* Pragmatics
+
+---
+
+## Domain B
+
+Knowledge Engineering
+
+Future work
+
+* Resolver Evolution
+* Entity Resolution
+* Meta Architecture
+* Canonical Identity
+* Repository Optimization
+* Semantic Indexing
+
+---
+
+## Domain C
+
+Knowledge Graph
+
+Future work
+
+* Dynamic Graph Expansion
+* Automatic Relation Discovery
+* Graph Reasoning
+* Graph Quality Metrics
+* Historical Relationship Modeling
+
+---
+
+## Domain D
+
+Artificial Intelligence
+
+Future work
+
+* Hypatia LLM
+* Retrieval-Augmented Reasoning
+* Knowledge-Aware Generation
+* Explainable AI
+* Context Preservation
+* Autonomous Research Assistants
+
+---
+
+## Domain E
+
+Builders
+
+Future Builders may include
+
+* API Builder
+* Graph Builder
+* Testing Builder
+* Deployment Builder
+* Preservation Builder
+* Documentation Builder
+* Security Builder
+* Migration Builder
+* Research Builder
+
+Additional Builders may emerge naturally.
+
+---
+
+## Domain F
+
+Corpus Engineering
+
+Future work
+
+* Dynamic Corpus Generation
+* Adaptive Training Corpora
+* Domain Corpora
+* Historical Corpora
+* Grammar Corpora
+
+---
+
+## Domain G
+
+Scientific Infrastructure
+
+Potential topics
+
+* Digital Philology
+* Ancient Knowledge Representation
+* Cultural Knowledge Preservation
+* Historical Data Standards
+
+---
+
+## Domain H
+
+Community Research
+
+Topics include
+
+* collaborative review
+* distributed scholarship
+* community validation
+* contribution quality metrics
+
+---
+
+# Experimental Ideas
+
+This section intentionally accepts incomplete ideas.
+
+Ideas may be
+
+* immature
+* speculative
+* unverified
+
+Their inclusion does not imply approval.
+
+They are preserved to encourage future investigation.
+
+---
+
+# Open Scientific Questions
+
+The roadmap maintains a list of unresolved questions.
+
+Examples
+
+* unresolved linguistic problems
+* unresolved Resolver behavior
+* historical ambiguity
+* AI limitations
+
+Questions often become future research projects.
+
+---
+
+# Engineering Challenges
+
+Engineering itself generates research.
+
+Examples
+
+* Repository scaling
+* graph performance
+* Builder orchestration
+* deterministic AI
+* long-term reproducibility
+
+---
+
+# Research Dependencies
+
+Many roadmap items depend upon
+
+* Repository maturity
+* Corpus size
+* Resolver accuracy
+* Builder ecosystem
+* AI evolution
+
+Research sequencing therefore remains dynamic.
+
+---
+
+# Review Cycle
+
+The roadmap should be reviewed regularly.
+
+Suggested cadence
+
+```text id="review_cycle"
+Weekly
+
+Monthly
+
+Quarterly
+
+Annual
+```
+
+Completed items transition to published research or implementation history.
+
+---
+
+# Living Backlog
+
+This roadmap intentionally serves as the permanent scientific backlog of the Hypatia Platform.
+
+No item is ever permanently deleted.
+
+Ideas may be archived but remain historically accessible.
+
+---
+
+# Long-Term Objective
+
+To maintain a continuously evolving scientific roadmap capable of guiding Hypatia across decades of engineering development, academic research, artificial intelligence, and institutional growth.
+
+---
+
+# Scientific Law
+
+Ideas become Experiments.
+
+Experiments become Knowledge.
+
+Knowledge creates New Ideas.
+
+---
+
+# Research Motto
+
+> **Every solved question reveals a deeper one.**
+
+---
+
+# Founder Statement
+
+This roadmap is intentionally incomplete.
+
+Its incompleteness is evidence that Hypatia remains alive.
+
+A finished roadmap would imply that research has ended.
+
+Hypatia is designed so that every implementation generates new questions, every new question becomes a future experiment, and every experiment expands humanity's understanding of Ancient Egyptian civilization.
+
+---
+
+# Academic Notes
+
+The Hypatia Research Roadmap functions as a **Living Scientific Backlog (LSB)**.
+
+Unlike conventional software roadmaps that conclude with feature completion, LSB continuously accumulates unanswered questions, engineering discoveries, AI opportunities, scholarly collaborations, and methodological improvements.
+
+The roadmap therefore becomes a historical record of the intellectual evolution of the project itself.
+
+---
+
+# ✦ Founder Research Registry (Initial Topics)
+
+هذا القسم سيظل دائم التحديث، وهو يمثل "سجل الأفكار الكبرى" للمشروع. فى الإصدار الأول تُسجل الموضوعات دون تفصيل كامل:
+
+### Linguistics
+
+* Grammar Genome
+* Determinative Intelligence
+* Semantic Reconstruction
+* Historical Language Evolution
+
+### Knowledge Engineering
+
+* Universal Meta Card Model
+* Canonical Knowledge Objects
+* Resolver Intelligence
+* Self-Healing Knowledge Graph
+
+### Artificial Intelligence
+
+* Hypatia Foundation Model
+* Explainable Hieroglyphic Translation
+* Knowledge-Aware Reasoning
+* Autonomous Research Agents
+
+### Infrastructure
+
+* Full Hypatia Builder Framework
+* Repository Automation
+* Living Specifications
+* Self-Documenting Platform
+
+### Future Integration
+
+* Context-aware AI architectures
+* Distributed academic collaboration
+* External knowledge standards
+* **UCP-LLM evaluation for advanced contextual reasoning** *(Research Candidate — evaluation pending practical implementation)*
+
+---
+
+هذه آخر نقطة وضعتها بهذه الصيغة عمدًا. لم أقل إن **UCP-LLM** جزء من هيباتيا، بل سجلته كـ **Research Candidate** يخضع للتقييم العملى عندما نصل إلى مرحلة تدريب النماذج. فإذا أثبت فائدته سيدخل رسميًا، وإذا لم يضف قيمة حقيقية فسيظل مجرد تجربة موثقة. وهذا يحافظ على حياد المنهج العلمى الذى بنيناه للمشروع منذ البداية.

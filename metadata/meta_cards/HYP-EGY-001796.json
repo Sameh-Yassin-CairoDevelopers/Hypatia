@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-001796",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:35.253559Z"
+    },
+    "layer1_core": {
+        "transliteration": "wdi",
+        "hieroglyph": "𓅱𓂧𓏴𓂡𓅱𓂧𓂧𓂧𓂧",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "يضع، يعين، يغرس (مانع أو ساتر)، يزرع (أشجار)، مصمم على (غرض)، يلقى، يرمى (سهم)، ينطق (بالبكاء)، يصدر (ضجة)، يرتكب (ذنب)، يتعامل (بضرر)، يخوض (نزاع)، يبث (الذعر)، يبسط (الحماية)",
+        "english": "place, put, implant (an obstacle) , plant (trees), appoint as, be bent on (a purpose) , throw, shoot (an arrow) , utter (a cry), send fourth (the voice) , give out (a noise), commit (offence), deal (harm), stir up (strife), instill (terror), extend (protection)",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+13171",
+        "gardiner_code": "G43",
+        "gardiner_description": "Quail chick, var. Z7\tPhono. w.",
+        "gardiner_details": "G44"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

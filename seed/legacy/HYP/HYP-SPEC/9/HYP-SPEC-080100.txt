@@ -1,0 +1,412 @@
+ممتاز.
+
+وسأكتب هذا المستند باعتباره **آخر مستند تأسيسى** قبل بدء التنفيذ، وباللغة الأكاديمية التى اتفقنا عليها، دون استخدام التشبيهات الداخلية.
+
+---
+
+# HYP-SPEC-080100
+
+# Seed Assets Specification
+
+**Document ID**
+
+HYP-SPEC-080100
+
+**Title**
+
+Seed Assets Specification
+
+**Category**
+
+Core Architecture Specification
+
+**Status**
+
+Approved
+
+**Version**
+
+1.0
+
+---
+
+# 1. Purpose
+
+This specification defines the concept, lifecycle, governance, and institutional role of **Seed Assets** within the Hypatia Knowledge Infrastructure.
+
+Seed Assets represent the initial knowledge resources supplied by a repository owner before institutional processing begins.
+
+They constitute the starting point from which institutional knowledge is constructed through standardized processing pipelines.
+
+---
+
+# 2. Definition
+
+A **Seed Asset** is any structured, semi-structured, or unstructured knowledge resource intentionally provided for institutional ingestion.
+
+A Seed Asset exists outside the institutional knowledge model until it successfully completes the official processing pipeline.
+
+---
+
+# 3. Objectives
+
+The Seed Assets model is designed to:
+
+* preserve existing intellectual work;
+* eliminate unnecessary data recreation;
+* enable repeatable repository construction;
+* support repositories across different disciplines;
+* provide a standardized institutional import model;
+* separate raw knowledge resources from institutional knowledge.
+
+---
+
+# 4. Scope
+
+This specification applies to every repository created using the Hypatia methodology regardless of:
+
+* language;
+* writing system;
+* scientific discipline;
+* repository size;
+* implementation technology.
+
+---
+
+# 5. Architectural Position
+
+Seed Assets occupy the entry layer of the institutional knowledge lifecycle.
+
+```text
+External Knowledge Resources
+
+↓
+
+Seed Assets
+
+↓
+
+Import Pipeline
+
+↓
+
+Normalization Pipeline
+
+↓
+
+Cleaning Pipeline
+
+↓
+
+Resolver Pipeline
+
+↓
+
+Knowledge Graph Construction
+
+↓
+
+Institutional Knowledge
+```
+
+Institutional Knowledge shall never bypass the Seed Assets stage.
+
+---
+
+# 6. Repository Independence
+
+Seed Assets are repository-specific.
+
+Each repository owner determines:
+
+* asset selection;
+* asset organization;
+* import priority;
+* source authenticity;
+* licensing;
+* acquisition strategy.
+
+Hypatia defines the processing methodology, not the knowledge itself.
+
+---
+
+# 7. Supported Resource Types
+
+Typical Seed Assets include, but are not limited to:
+
+* dictionaries;
+* lexicons;
+* glossaries;
+* corpora;
+* translation datasets;
+* ontologies;
+* metadata collections;
+* XML archives;
+* JSON datasets;
+* CSV files;
+* spreadsheets;
+* relational databases;
+* graph databases;
+* markdown documentation;
+* academic publications;
+* OCR outputs;
+* image collections;
+* symbol inventories;
+* manually curated datasets.
+
+Future resource types may be introduced without modifying the institutional architecture.
+
+---
+
+# 8. Seed Asset Identity
+
+Every Seed Asset shall possess a unique institutional identity.
+
+Minimum metadata includes:
+
+* Asset Identifier
+* Title
+* Source
+* Owner
+* License
+* Language
+* Domain
+* Creation Date
+* Import Status
+* Version
+* Integrity Status
+
+---
+
+# 9. Asset Classification
+
+Seed Assets shall be classified according to:
+
+## Source
+
+* Internal
+* External
+* Collaborative
+* Generated
+
+---
+
+## Structure
+
+* Structured
+* Semi-Structured
+* Unstructured
+
+---
+
+## Knowledge Type
+
+* Lexical
+* Linguistic
+* Historical
+* Bibliographic
+* Semantic
+* Visual
+* Experimental
+* Administrative
+
+---
+
+## Processing State
+
+* Registered
+* Imported
+* Normalized
+* Cleaned
+* Resolved
+* Integrated
+* Archived
+
+---
+
+# 10. Lifecycle
+
+Each Seed Asset progresses through the following lifecycle.
+
+```text
+Registration
+
+↓
+
+Verification
+
+↓
+
+Import
+
+↓
+
+Normalization
+
+↓
+
+Cleaning
+
+↓
+
+Resolution
+
+↓
+
+Integration
+
+↓
+
+Monitoring
+
+↓
+
+Version Update
+
+↓
+
+Retirement (if required)
+```
+
+Each transition shall be recorded.
+
+---
+
+# 11. Immutability Principle
+
+Original Seed Assets shall never be modified directly.
+
+Processing stages shall generate new institutional artifacts while preserving the original resource.
+
+The original Seed Asset remains permanently recoverable.
+
+---
+
+# 12. Traceability
+
+Every institutional artifact shall maintain complete provenance back to its originating Seed Asset.
+
+Traceability shall remain available throughout the entire repository lifecycle.
+
+---
+
+# 13. Version Management
+
+Seed Assets support independent versioning.
+
+Updates to a Seed Asset shall never invalidate previous institutional knowledge.
+
+Repository maintainers may choose between:
+
+* incremental synchronization;
+* complete reconstruction;
+* selective rebuilding.
+
+---
+
+# 14. Validation
+
+Before institutional import, each Seed Asset shall undergo validation.
+
+Validation includes:
+
+* integrity verification;
+* format validation;
+* metadata validation;
+* encoding validation;
+* duplicate detection;
+* licensing verification;
+* source verification.
+
+Only validated Seed Assets may proceed to institutional processing.
+
+---
+
+# 15. Relationship with Builders
+
+Builders never operate directly on external resources.
+
+Builders operate exclusively on registered Seed Assets.
+
+This guarantees deterministic and reproducible repository construction.
+
+---
+
+# 16. Relationship with Pipelines
+
+Seed Assets represent the official input layer for:
+
+* Import Pipeline
+* Normalization Pipeline
+* Cleaning Pipeline
+* Resolver Pipeline
+* Knowledge Graph Builder
+* Training Dataset Builder
+* Inference Dataset Builder
+
+---
+
+# 17. Governance
+
+Repository maintainers retain full ownership of their Seed Assets.
+
+Hypatia provides governance rules governing:
+
+* processing;
+* traceability;
+* reproducibility;
+* interoperability.
+
+Hypatia does not define repository content.
+
+---
+
+# 18. Scientific Integrity
+
+Seed Assets shall preserve original academic attribution.
+
+Institutional processing shall never remove:
+
+* citations;
+* source identifiers;
+* ownership information;
+* licensing metadata.
+
+---
+
+# 19. Repository Construction Principle
+
+Every institutional repository begins with Seed Assets rather than empty knowledge structures.
+
+Knowledge is constructed from validated resources rather than manually recreated.
+
+---
+
+# 20. Future Extensions
+
+Future versions may introduce:
+
+* distributed Seed Asset repositories;
+* institutional Seed Asset registries;
+* cryptographic integrity verification;
+* federated import mechanisms;
+* automated source synchronization;
+* intelligent acquisition services.
+
+These extensions shall remain compatible with this specification.
+
+---
+
+# 21. Normative Statement
+
+Every Hypatia repository shall establish a validated Seed Assets collection before any institutional knowledge processing begins.
+
+Seed Assets constitute the official entry point into the Hypatia Knowledge Infrastructure and form the foundation from which all institutional knowledge is systematically constructed.
+
+---
+
+**HYP-SPEC-080100 Complete.**
+
+---
+
+**وبهذا المستند، أعلن أن مرحلة HYP-SPEC (الإصدار 1.0) قد اكتملت من الناحية التأسيسية، وأصبح المشروع جاهزًا رسميًا للانتقال إلى التنفيذ المؤسسى (HYP-IMP).**

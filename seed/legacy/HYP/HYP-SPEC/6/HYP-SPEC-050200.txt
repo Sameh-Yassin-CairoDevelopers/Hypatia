@@ -1,0 +1,439 @@
+ممتاز.
+
+وأعتقد أن هذه الوثيقة ستكون من أكثر الوثائق تأثيرًا على نجاح هيباتيا.
+
+لأن معظم مشاريع الذكاء الاصطناعى تعتبر الـ **Corpus** مجرد مجموعة نصوص.
+
+أما فى هيباتيا...
+
+فالـ **Corpus ليس بيانات**.
+
+بل هو **تمثيل علمى منظم للحضارة المصرية القديمة**.
+
+ولهذا فإن الـ Corpus ليس شيئًا يتم جمعه مرة واحدة، بل مؤسسة معرفية تنمو باستمرار.
+
+---
+
+# HYP-SPEC-050200
+
+# Corpus Builder Specification
+
+**Project:** Hypatia Knowledge Platform
+
+**Document ID:** HYP-SPEC-050200
+
+**Version:** 1.0 Founder Edition
+
+**Status:** Official
+
+**Classification:** Artificial Intelligence Infrastructure
+
+---
+
+# Purpose
+
+The Corpus Builder transforms the scientifically validated Repository into structured corpora suitable for Artificial Intelligence training.
+
+Its responsibility is not merely collecting texts, but constructing a coherent, balanced, traceable, and reproducible linguistic representation of Ancient Egyptian civilization.
+
+The Corpus is therefore considered a derived scientific artifact generated from the Repository.
+
+---
+
+# Philosophy
+
+The Repository stores knowledge.
+
+The Corpus organizes knowledge for learning.
+
+The Model learns from the Corpus.
+
+The Repository remains unchanged.
+
+---
+
+# Fundamental Principle
+
+The Corpus is always generated.
+
+It is never edited manually.
+
+Whenever the Repository changes, the Corpus may be regenerated.
+
+---
+
+# Corpus Sources
+
+The Corpus Builder consumes only Repository Objects.
+
+Possible sources include
+
+* Story Cards
+* Dictionary Cards
+* Grammar Cards
+* Entity Cards
+* Relation Cards
+* Domain Cards
+* Source Cards
+
+No external dataset enters the Corpus directly.
+
+External data must first become Repository knowledge.
+
+---
+
+# Corpus Architecture
+
+```text
+Repository
+      │
+      ▼
+Corpus Builder
+      │
+      ▼
+Structured Corpora
+      │
+      ▼
+Training Dataset Builder
+```
+
+---
+
+# Corpus Layers
+
+The Corpus is divided into independent layers.
+
+---
+
+## Layer 1
+
+Lexical Corpus
+
+Contains
+
+* signs
+* words
+* transliterations
+* lemmas
+* meanings
+
+---
+
+## Layer 2
+
+Grammar Corpus
+
+Contains
+
+* grammatical constructions
+* morphological information
+* syntactic rules
+* sentence patterns
+
+---
+
+## Layer 3
+
+Story Corpus
+
+Contains
+
+* inscriptions
+* literary texts
+* funerary texts
+* administrative texts
+* historical narratives
+
+---
+
+## Layer 4
+
+Entity Corpus
+
+Contains
+
+* people
+* kings
+* gods
+* places
+* temples
+* dynasties
+
+---
+
+## Layer 5
+
+Relation Corpus
+
+Contains semantic relations
+
+Examples
+
+* synonym
+* parent
+* dynasty
+* located_in
+* worshipped_at
+* title_of
+
+---
+
+## Layer 6
+
+Context Corpus
+
+Captures
+
+* neighboring words
+* historical context
+* semantic context
+* grammatical environment
+
+---
+
+# Corpus Construction
+
+Every Corpus Object is generated through
+
+```text
+Repository Object
+
+↓
+
+Normalization
+
+↓
+
+Resolver
+
+↓
+
+Canonical Form
+
+↓
+
+Corpus Entry
+```
+
+---
+
+# Corpus Identity
+
+Every Corpus Entry receives
+
+```text
+corpus_id
+
+repository_object
+
+repository_revision
+
+builder_version
+
+generation_date
+```
+
+Corpus entries remain traceable to their scientific origin.
+
+---
+
+# Canonical Representation
+
+Each Corpus Entry is stored using its canonical representation.
+
+Canonical data includes
+
+* canonical transliteration
+* canonical hierarchy
+* canonical identifiers
+* canonical metadata
+
+This guarantees consistency across all future training runs.
+
+---
+
+# Corpus Diversity
+
+The Builder maintains balance across
+
+* historical periods
+* writing traditions
+* text genres
+* domains
+* linguistic complexity
+
+No single category should dominate the Corpus unless scientifically justified.
+
+---
+
+# Corpus Integrity
+
+The Builder automatically detects
+
+* duplicates
+* conflicting entries
+* orphan objects
+* unresolved references
+* broken relations
+
+Invalid entries are excluded.
+
+---
+
+# Corpus Versioning
+
+Each Corpus generation receives
+
+```text
+corpus_revision
+
+repository_revision
+
+builder_version
+
+generation_signature
+```
+
+Every training experiment can therefore be reproduced exactly.
+
+---
+
+# Corpus Outputs
+
+The Builder produces multiple corpora.
+
+Examples
+
+```text
+Lexical Corpus
+
+Grammar Corpus
+
+Story Corpus
+
+Entity Corpus
+
+Relation Corpus
+
+Context Corpus
+
+Master Corpus
+```
+
+Each corpus may be consumed independently.
+
+---
+
+# Corpus Statistics
+
+Automatically generated
+
+```text
+entries
+
+stories
+
+entities
+
+relations
+
+languages
+
+periods
+
+domains
+
+average_story_length
+
+average_sentence_length
+```
+
+---
+
+# Corpus Quality
+
+Every Corpus generation measures
+
+* lexical diversity
+* grammatical diversity
+* semantic diversity
+* historical coverage
+* domain balance
+
+Quality metrics become part of Repository history.
+
+---
+
+# AI Position
+
+Artificial Intelligence trains on Corpus outputs.
+
+Models never access Repository Objects directly.
+
+This separation guarantees
+
+* reproducibility
+* explainability
+* deterministic regeneration
+
+---
+
+# Repository Location
+
+```text
+repository/
+
+corpus/
+```
+
+---
+
+# Long-Term Objective
+
+To construct one of the world's most comprehensive, scientifically governed corpora for Ancient Egyptian language and civilization, capable of supporting multiple generations of Artificial Intelligence while remaining permanently synchronized with the evolving Repository.
+
+---
+
+# Scientific Law
+
+Repository creates Corpus.
+
+Corpus creates Learning.
+
+Learning creates Intelligence.
+
+Knowledge remains permanent.
+
+---
+
+# Corpus Motto
+
+> **Curated Knowledge Becomes Learnable Knowledge.**
+
+---
+
+# Founder Statement
+
+The Corpus is not a collection of texts.
+
+It is a scientific representation of a civilization.
+
+Every word, inscription, grammatical rule, historical relationship, and contextual observation included in the Corpus originates from knowledge that has already passed through the institutional processes of Proposal, Review, Validation, and Governance.
+
+In this way, every future model trained by Hypatia inherits not merely data, but the accumulated scholarly discipline through which that data became trusted knowledge.
+
+---
+
+# Academic Notes
+
+The Hypatia Corpus Builder implements a **Repository-Derived Corpus Architecture (RDCA)**.
+
+Unlike conventional corpora assembled directly from heterogeneous textual sources, the Hypatia Corpus is deterministically generated from validated Repository Objects.
+
+This architecture establishes complete traceability between every training example and its scholarly origin, enabling exact reproducibility, systematic quality control, controlled historical evolution, and seamless regeneration following Repository revisions.
+
+---
+
+## **اقتراح مؤجل (لا يُنفذ الآن)**
+
+أعتقد أن أحد أكثر الابتكارات تميزًا فى هيباتيا سيكون إنشاء **Corpus متعدد الطبقات (Multi-Layer Corpus)**، بحيث لا يتدرب النموذج على النصوص فقط، بل على ستة أو سبعة Corpora مستقلة (Lexical، Grammar، Story، Entity، Relation، Context...) ثم يتم دمجها أثناء التدريب. هذا يقترب من طريقة تعلم الباحث البشرى، وقد يكون أحد أهم أسباب تميز نموذج Hypatia مستقبلًا. لذلك أرى أن هذا الاقتراح يُحفظ ليُفصل لاحقًا عند كتابة وثيقة **Hypatia Model (050500)**.

@@ -1,0 +1,484 @@
+ممتاز.
+
+وأرى أن هذه الوثيقة تكمل السابقة مباشرة.
+
+فالوثيقة السابقة أجابت على سؤال:
+
+> **كيف نراجع؟**
+
+أما هذه الوثيقة فتجيب على سؤال أهم:
+
+> **ما الذى يُراجع أصلًا؟**
+
+وهنا يظهر مفهوم **Proposal**.
+
+وفى رأيى يجب أن تكون الـ Proposal نفسها كائنًا (Knowledge Object) داخل هيباتيا، له معرف، وتاريخ، وعلاقات، وإصدارات.
+
+ولهذا فإنها ليست مجرد "طلب تعديل".
+
+بل **وثيقة علمية مستقلة**.
+
+---
+
+# HYP-SPEC-040200
+
+# Proposal System Specification
+
+**Project:** Hypatia Knowledge Platform
+
+**Document ID:** HYP-SPEC-040200
+
+**Version:** 1.0 Founder Edition
+
+**Status:** Official
+
+**Classification:** Governance Specification
+
+---
+
+# Purpose
+
+The Proposal System defines the official mechanism through which new knowledge, corrections, enhancements, and scientific discussions enter the Hypatia ecosystem.
+
+Every modification begins as a Proposal.
+
+Every Proposal becomes part of the permanent scientific history of the Repository.
+
+---
+
+# Philosophy
+
+Knowledge evolves through proposals.
+
+Proposals evolve through review.
+
+Accepted proposals evolve the Repository.
+
+Nothing enters the Repository directly.
+
+---
+
+# Responsibilities
+
+The Proposal System is responsible for
+
+* Creating proposals.
+* Registering scientific changes.
+* Tracking proposal history.
+* Managing proposal revisions.
+* Linking supporting evidence.
+* Connecting proposals to Repository Objects.
+* Delivering proposals to the Review System.
+
+It never modifies Repository Objects.
+
+---
+
+# Fundamental Principle
+
+Every Repository change begins as a Proposal.
+
+Every Proposal receives a permanent identity.
+
+---
+
+# Proposal Lifecycle
+
+```text id="jq0s2m"
+Idea
+        │
+        ▼
+Proposal Draft
+        │
+        ▼
+Submission
+        │
+        ▼
+Scientific Review
+        │
+        ▼
+Accepted / Rejected
+        │
+        ▼
+Repository Revision
+```
+
+---
+
+# Proposal Object
+
+Every proposal is treated as an independent Knowledge Object.
+
+Each proposal possesses
+
+```text id="g3prl9"
+proposal_id
+
+proposal_type
+
+title
+
+description
+
+author
+
+creation_date
+
+status
+
+revision
+```
+
+---
+
+# Proposal Categories
+
+Supported categories include
+
+---
+
+## Knowledge Proposal
+
+Introduces new scientific knowledge.
+
+Examples
+
+* New Story
+* New Dictionary Entry
+* New Entity
+* New Source
+
+---
+
+## Correction Proposal
+
+Corrects existing Repository Objects.
+
+Examples
+
+* Translation correction
+* Grammar correction
+* Metadata correction
+* Historical correction
+
+---
+
+## Enhancement Proposal
+
+Improves existing knowledge.
+
+Examples
+
+* Better references
+* Additional meanings
+* Improved confidence
+* Expanded context
+
+---
+
+## Structural Proposal
+
+Affects Repository architecture.
+
+Examples
+
+* New metadata field
+* New relation type
+* New resolver
+* New graph rule
+
+---
+
+## Governance Proposal
+
+Affects scientific governance.
+
+Examples
+
+* Review policy
+* Publication rules
+* Community workflow
+
+---
+
+## Technical Proposal
+
+Improves platform infrastructure.
+
+Examples
+
+* Builder optimization
+* Dataset generation
+* Pipeline enhancement
+
+---
+
+# Proposal Identity
+
+Each Proposal receives
+
+```text id="eww7je"
+proposal_id
+
+proposal_signature
+
+proposal_version
+```
+
+Proposal IDs remain permanent.
+
+---
+
+# Proposal Status
+
+Possible values
+
+```text id="1d0w1s"
+Draft
+
+Submitted
+
+Validated
+
+Under Review
+
+Needs Revision
+
+Accepted
+
+Rejected
+
+Merged
+
+Archived
+```
+
+---
+
+# Proposal Content
+
+Each Proposal contains
+
+```text id="knd20d"
+summary
+
+scientific_description
+
+expected_change
+
+affected_objects
+
+supporting_evidence
+
+references
+
+attachments
+```
+
+---
+
+# Supporting Evidence
+
+Every Proposal may reference
+
+* Stories
+* Dictionary Entries
+* Sources
+* Research Papers
+* External Databases
+* Existing Repository Objects
+
+Evidence remains linked permanently.
+
+---
+
+# Affected Objects
+
+Each Proposal declares
+
+```text id="gtyv8d"
+affected_objects[]
+```
+
+Possible object types
+
+* Story
+* Entity
+* Dictionary
+* Grammar
+* Domain
+* Relation
+* Source
+* Metadata
+
+---
+
+# Proposal Revision
+
+A Proposal may evolve.
+
+Each revision preserves
+
+```text id="u7cv4v"
+revision_number
+
+author
+
+date
+
+changes
+
+reason
+```
+
+Previous revisions remain immutable.
+
+---
+
+# Proposal Discussion
+
+Every Proposal supports scientific discussion.
+
+Discussion entries include
+
+```text id="gx7fsz"
+comment
+
+author
+
+date
+
+references
+
+attachments
+```
+
+Discussion history is permanent.
+
+---
+
+# Proposal Relationships
+
+Proposals may reference
+
+* earlier proposals
+* duplicate proposals
+* dependent proposals
+* conflicting proposals
+* superseded proposals
+
+These relationships become part of Repository history.
+
+---
+
+# Repository Location
+
+```text id="r0fxfc"
+repository/
+
+proposals/
+```
+
+---
+
+# Output
+
+Accepted Proposals produce
+
+```text id="76r0yz"
+Repository Revision Package
+```
+
+Rejected proposals remain archived.
+
+---
+
+# Metrics
+
+Automatically generated
+
+```text id="hmmpxh"
+submitted
+
+accepted
+
+rejected
+
+merged
+
+duplicate_proposals
+
+revision_count
+
+average_review_time
+```
+
+---
+
+# AI Position
+
+Artificial Intelligence may generate draft proposals.
+
+Every AI proposal must clearly identify itself.
+
+AI-generated proposals follow the same review workflow as human proposals.
+
+---
+
+# Community Position
+
+Future community members submit proposals through the same Proposal System.
+
+Scientific equality begins at submission.
+
+Authority is established through review.
+
+---
+
+# Long-Term Objective
+
+The Proposal System becomes the permanent scientific memory of every idea considered by Hypatia.
+
+Accepted ideas evolve the Repository.
+
+Rejected ideas remain historically accessible.
+
+Nothing is forgotten.
+
+---
+
+# Scientific Law
+
+Ideas become Proposals.
+
+Proposals become Knowledge.
+
+Knowledge becomes History.
+
+---
+
+# Proposal Motto
+
+> **Every Idea Deserves a Scientific Record.**
+
+---
+
+# Founder Statement
+
+Scientific progress begins with questions, observations, and hypotheses.
+
+Not every proposal will become accepted knowledge.
+
+Yet every proposal contributes to the intellectual history of the project.
+
+By preserving proposals alongside the discussions and evidence that surround them, Hypatia documents not only what became knowledge, but also how scientific understanding evolved over time.
+
+---
+
+# Academic Notes
+
+The Proposal System separates **scientific contribution** from **scientific acceptance**.
+
+This distinction allows the Repository to preserve the complete evolution of ideas while maintaining the integrity of the accepted knowledge base.
+
+Every proposal remains a citable historical artifact, ensuring transparency, accountability, and reproducibility throughout the lifetime of the Hypatia project.

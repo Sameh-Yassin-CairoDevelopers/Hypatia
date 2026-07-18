@@ -1,0 +1,564 @@
+ممتاز.
+
+الآن نبدأ فى أخطر وثيقة بعد **Knowledge Object**.
+
+بل أعتبرها الوثيقة التى ستميز هيباتيا عن أى مشروع آخر.
+
+لأن الـ **Meta** عندنا ليست مجرد Metadata.
+
+بل هى **كائن معرفى (Knowledge Object)** قائم بذاته.
+
+وهذا ما كنا نتحدث عنه منذ أسابيع.
+
+---
+
+# HYP-SPEC-020100
+
+# Meta Card Specification
+
+**Project:** Hypatia Knowledge Platform
+
+**Document ID:** HYP-SPEC-020100
+
+**Version:** 1.0 Founder Edition
+
+**Status:** Official
+
+**Classification:** Core Knowledge Model
+
+**Inherits:** HYP-SPEC-020000 — Knowledge Object
+
+---
+
+# Purpose
+
+This specification defines the Meta Card.
+
+A Meta Card represents any reusable concept used to classify, describe, normalize, organize, or connect Knowledge Objects.
+
+Meta Cards are first-class Knowledge Objects.
+
+They are not auxiliary metadata.
+
+---
+
+# Philosophy
+
+Everything that repeats should become Meta.
+
+Every classification should become Meta.
+
+Every controlled vocabulary should become Meta.
+
+Knowledge should never duplicate descriptive information.
+
+---
+
+# Definition
+
+A Meta Card represents a reusable scientific concept.
+
+It does not describe one object.
+
+It describes many objects.
+
+---
+
+Example
+
+Instead of
+
+```text id="v1"
+Language = Middle Egyptian
+```
+
+written inside 500,000 cards
+
+Hypatia stores
+
+```text id="v2"
+META-LANGUAGE-000001
+
+Middle Egyptian
+```
+
+Then every object references it.
+
+---
+
+# Meta Architecture
+
+```text id="v3"
+Knowledge Object
+
+↓
+
+Meta Card
+
+↓
+
+Meta Type
+
+↓
+
+Meta Value
+```
+
+---
+
+# Meta Categories
+
+Every Meta Card belongs to exactly one Meta Category.
+
+---
+
+Current Categories
+
+```text id="v4"
+Language
+
+Script
+
+Writing Direction
+
+Historical Period
+
+Dynasty
+
+Kingdom
+
+Region
+
+Country
+
+City
+
+Nome
+
+Site
+
+Museum
+
+Collection
+
+Material
+
+Object Type
+
+Genre
+
+Domain
+
+Topic
+
+Profession
+
+Occupation
+
+Religion
+
+Deity Class
+
+Grammar Category
+
+Part of Speech
+
+Morphological Pattern
+
+Verb Class
+
+Text Type
+
+Writing Medium
+
+Discovery Location
+
+Publication
+
+Research Method
+
+Difficulty Level
+
+Confidence Level
+
+Status
+
+License
+```
+
+Future categories may be added.
+
+---
+
+# Universal Structure
+
+Every Meta Card inherits the Knowledge Object.
+
+Additionally it contains
+
+```text id="v5"
+meta_category
+
+canonical_value
+
+aliases
+
+abbreviations
+
+translations
+
+description
+
+parent
+
+children
+
+equivalent_meta
+
+usage_statistics
+```
+
+---
+
+# meta_category
+
+Defines what kind of Meta this card represents.
+
+Example
+
+```text id="v6"
+Language
+
+Dynasty
+
+Material
+```
+
+---
+
+# canonical_value
+
+The official value.
+
+Example
+
+```text id="v7"
+Middle Egyptian
+```
+
+---
+
+# aliases
+
+Alternative spellings.
+
+Example
+
+```text id="v8"
+Middle Egyptian
+
+↓
+
+Egyptian Middle
+
+↓
+
+Classical Egyptian
+```
+
+---
+
+# abbreviations
+
+Official abbreviations.
+
+Example
+
+```text id="v9"
+ME
+
+OE
+
+NK
+```
+
+---
+
+# translations
+
+Localized names.
+
+Example
+
+```text id="v10"
+Arabic
+
+English
+
+German
+
+French
+```
+
+---
+
+# description
+
+Scientific definition.
+
+Not a translation.
+
+---
+
+# Parent Hierarchy
+
+Meta Cards may inherit from another Meta.
+
+Example
+
+```text id="v11"
+Religion
+
+↓
+
+Egyptian Religion
+
+↓
+
+Solar Cult
+```
+
+---
+
+# Children
+
+Stores immediate descendants.
+
+Never duplicates ancestry.
+
+---
+
+# Equivalent Meta
+
+Maps equivalent concepts.
+
+Example
+
+```text id="v12"
+Late Egyptian
+
+≈
+
+Neo-Egyptian
+```
+
+---
+
+# Usage Statistics
+
+Automatically generated.
+
+Contains
+
+```text id="v13"
+reference_count
+
+story_count
+
+entity_count
+
+lemma_count
+```
+
+---
+
+# Relationships
+
+Meta Cards participate in the Knowledge Graph.
+
+Examples
+
+```text id="v14"
+Language
+
+contains
+
+Grammar
+
+Dynasty
+
+belongs_to
+
+Kingdom
+
+Temple
+
+located_in
+
+City
+```
+
+---
+
+# Scientific Rule
+
+Meta never stores actual knowledge.
+
+It stores reusable classifications.
+
+---
+
+# Normalization
+
+Whenever identical values appear repeatedly,
+
+they must be converted into Meta.
+
+---
+
+# Repository Location
+
+```text id="v15"
+repository/
+
+metadata/
+```
+
+Each Meta Category owns its own collection.
+
+Example
+
+```text id="v16"
+languages/
+
+dynasties/
+
+materials/
+
+domains/
+```
+
+---
+
+# Identity
+
+Example
+
+```text id="v17"
+HYP-META-000041
+```
+
+Object identity remains permanent.
+
+---
+
+# Scientific Integrity
+
+Objects never contain duplicated classifications.
+
+Objects reference Meta IDs.
+
+Example
+
+Instead of
+
+```json id="v18"
+"language":
+
+"Middle Egyptian"
+```
+
+Use
+
+```json id="v19"
+"language":
+
+"HYP-META-000041"
+```
+
+---
+
+# Community Evolution
+
+Researchers may
+
+Suggest aliases
+
+Suggest translations
+
+Improve descriptions
+
+Add references
+
+Propose hierarchy changes
+
+Changes require scientific review.
+
+---
+
+# AI Usage
+
+Meta Cards are exported to AI training.
+
+They become
+
+Controlled Vocabulary
+
+Ontology
+
+Knowledge Anchors
+
+Semantic Labels
+
+---
+
+# Future Expansion
+
+New civilizations
+
+New languages
+
+New domains
+
+Never require redesign.
+
+Only new Meta Cards.
+
+---
+
+# Scientific Law
+
+If a concept is reused,
+
+it should become Meta.
+
+---
+
+# Meta Motto
+
+> **Classify Once. Reference Forever.**
+
+---
+
+# Founder Statement
+
+Meta Cards are the vocabulary through which Hypatia understands its own knowledge.
+
+By elevating classifications into independent Knowledge Objects, the platform eliminates duplication, strengthens consistency, and allows every future addition to connect naturally with the existing knowledge graph.
+
+---
+
+# Academic Notes
+
+Unlike traditional systems where metadata is merely attached to records, Hypatia treats Meta as a **scientific entity with its own identity, history, relationships, and evolution**.
+
+This design transforms metadata into a reusable semantic layer that supports:
+
+* consistent classification,
+* ontology construction,
+* multilingual normalization,
+* resolver accuracy,
+* knowledge graph expansion,
+* and future AI reasoning.
+
+The Meta Layer is therefore not an accessory to the repository—it is one of the foundational pillars upon which the entire Hypatia ecosystem is built.

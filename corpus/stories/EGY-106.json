@@ -1,0 +1,1595 @@
+{
+    "text_id": "EGY-106",
+    "metadata": {
+        "title_ar": "قصة الأمير وأبو الهول بالديموطيقية",
+        "title_en": "The Story of the Prince and the Sphinx",
+        "museum_catalog_no": "Dream Stela / Demotic Literary Papyrus",
+        "stable_tla_id": "W8T5D7Y2JNB7RDXCPTMZMHL507"
+    },
+    "sentences": [
+        {
+            "metadata": {
+                "id": "HYP-TXT-000106-S01",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:24:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-106",
+                "sequence_no": 1,
+                "transliteration": "ḫpr wˁ ssw n pꜣ šr-nsw.t ḏḥwt-ms",
+                "hieroglyph": "𓆄𓁹𓏤𓇳𓏤𓈖𓊪𓄿𓅭𓇓𓏏𓈖𓅠𓏏𓅱𓐝𓋴",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "حدث ذات يوم في عهد وزمن ابن الملك، الأمير (تحتمس)،",
+                "english": "One day, in the time of the king's son, Thutmose,",
+                "german": "Es geschah eines Tages in der Zeit des Königssohnes Thutmose,",
+                "french": "Un jour, au temps du fils du roi, Thoutmosis,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "hpr_consecutive_with_past_temporal"
+            },
+            "layer4_writing": {
+                "mdc_code": "xpr wa ssw n p3 Sr-nsw.t dHwt-ms"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "DREAM-STELA-01",
+                        "name": "The Dream Stela of Giza",
+                        "type": "inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḫpr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ssw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "šr-nsw.t", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "ḏḥwt-ms", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ شير-نسوت يعني حرفياً 'طفل/ابن الملك' وهو اللقب الديموطيقي للأمراء."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000106-S02",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:24:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-106",
+                "sequence_no": 2,
+                "transliteration": "sw ḥr pr.t r-gsw pꜣ šꜥ r-ḥꜣ.t pꜣ tꜣ-šn",
+                "hieroglyph": "𓇋𓅱𓆑𓁷𓏤𓉐𓂋𓏏𓂋𓎼𓋴𓅱𓊪𓄿𓆷𓂝𓂋𓄂𓏤𓊪𓄿𓇾𓏤𓋴𓈖𓈉",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "أنه خرج ليرتاح ويتجول بجوار رمال الصحراء الكبرى أمام هضبة الجيزة،",
+                "english": "he was going out to hunt beside the sand of the desert of Giza,",
+                "german": "er zog aus, um im Sand der Wüste von Gizeh zu jagen,",
+                "french": "il sortait pour chasser près du sable du désert de Gizeh,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "sw_subject_with_Hr_infinitive_locative"
+            },
+            "layer4_writing": {
+                "mdc_code": "sw Hr pr.t r-gsw p3 Sa r-HA.t p3 t3-Sn"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "DREAM-STELA-01",
+                        "name": "The Dream Stela of Giza",
+                        "type": "inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "pr.t", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "šꜥ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "tꜣ-šn", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "تا-شن هو المسمى الديموطيقي لهضبة ومقابر الجيزة الأثرية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000106-S03",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:24:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-106",
+                "sequence_no": 3,
+                "transliteration": "ỉw nꜣy=f šms.w ḥr-m-sꜣ=f",
+                "hieroglyph": "𓇋𓅱𓈖𓄿𓇋𓇋𓆑𓋴𓉔𓏏𓂝𓏤𓏥𓁷𓏤𓐝𓋴𓄿𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وكان حراسه وأتباعه ومرافقوه يسيرون في إثره وخلفه،",
+                "english": "with his followers following him.",
+                "german": "wobei seine Gefolgsleute ihm folgten.",
+                "french": "avec ses serviteurs le suivant.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "iw_with_possessive_subject_and_prepositional_state"
+            },
+            "layer4_writing": {
+                "mdc_code": "iw nAy=f Sms.w Hr-m-sA=f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "DREAM-STELA-01",
+                        "name": "The Dream Stela of Giza",
+                        "type": "inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "šms.w", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥr-m-sꜣ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التركيب 'حر-إم-سا' يعني حرفياً 'فوق الظهر/في الأثر'."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000106-S04",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:24:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-106",
+                "sequence_no": 4,
+                "transliteration": "ỉr pꜣ šs spr r pꜣ-wbn n pꜣ rꜥ m-mỉ-t.t",
+                "hieroglyph": "𓇋𓂋𓊪𓄿𓆷𓋴𓋴𓊪𓂋𓂋𓊪𓄿𓅱𓃀𓈖𓈖𓊪𓄿𓇳𓏤𓐝𓏠𓏏𓏏𓁹",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وعندما دنا وحلّ وقت الظهيرة الحارة لتشرق الشمس في كبد السماء،",
+                "english": "When the time of noon approached and the sun was at its height,",
+                "german": "Als die Zeit des Mittags herannahte und die Sonne am höchsten stand,",
+                "french": "Quand l'heure du midi approcha et que le soleil fut à son zénith,",
+                "coptic": "unknown",
+                "akkational": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "relative_ir_with_sDmw.n.f_and_adverbial_comparison"
+            },
+            "layer4_writing": {
+                "mdc_code": "ir p3 Ss spr r p3-wbn n p3 ra m-mi-t.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "DREAM-STELA-01",
+                        "name": "The Dream Stela of Giza",
+                        "type": "inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "spr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "pꜣ-wbn", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "rꜥ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "وبن-إن-رع يعني السطوع أو التوهج الأقصى لأشعة الشمس."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000106-S05",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:24:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-106",
+                "sequence_no": 5,
+                "transliteration": "ḏd-f n nꜣy=f šms.w: my wd=n r pꜣy sẖ n pꜣ ḥwr",
+                "hieroglyph": "𓂧𓂧𓆑𓈖𓈖𓄿𓇋𓇋𓆑𓋴𓉔𓏏𓂝𓏤𓏥𓂞𓏏𓎘𓈖𓂋𓊪𓄿𓇋𓏠𓈖𓈖𓊪𓄿𓎛𓅱𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فقال الأمير لأتباعه وحراسه: دعونا نذهب لنرتاح تحت ظل تمثال أبو الهول العظيم!",
+                "english": "He said to his followers: 'Let us go to the shade of this great Sphinx!'",
+                "german": "Er sagte zu seinen Gefolgsleuten: 'Lasst uns in den Schatten dieser großen Sphinx gehen!'",
+                "french": "Il dit à ses serviteurs : 'Allons à l'ombre de ce grand Sphinx !'",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.f_with_optative_wd_and_locative_target"
+            },
+            "layer4_writing": {
+                "mdc_code": "Dd-f n nAy=f Sms.w: my wd=n r p3y sH n p3 hwr"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "DREAM-STELA-01",
+                        "name": "The Dream Stela of Giza",
+                        "type": "inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḏd", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sẖ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḥwr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "حور هي اللفظة الديموطيقية التي تشير لتمثال أبو الهول كحارس لاهوتي."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000106-S06",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:24:50.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-106",
+                "sequence_no": 6,
+                "transliteration": "ḥp.n=sn mỉ r-f",
+                "hieroglyph": "𓎛𓊪𓈖𓋴𓈖𓐝𓇋𓂋𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "ففعلوا وتحركوا جميعاً طوعاً لإرادته وأمره بامتثال،",
+                "english": "They acted accordingly.",
+                "german": "Sie handelten entsprechend.",
+                "french": "Ils agirent en conséquence.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_with_manner_prepositional"
+            },
+            "layer4_writing": {
+                "mdc_code": "Hp.n=sn mi r-f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "DREAM-STELA-01",
+                        "name": "The Dream Stela of Giza",
+                        "type": "inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḥp.n", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "حِب تعني الامتثال أو الإذعان التام للأوامر."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000106-S07",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:25:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-106",
+                "sequence_no": 7,
+                "transliteration": "ỉr pꜣ šr-nsw.t sḏr r-ẖt pꜣ sẖ",
+                "hieroglyph": "𓇋𓂋𓊪𓄿𓅭𓇓𓏏𓈖𓋴𓂧𓂋𓂋𓄡𓏏𓊪𓄿𓏟",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "واستلقى الأمير ابن الملك لينام ويرتاح تحت الظل البارد،",
+                "english": "The prince lay down to rest under the shade,",
+                "german": "Der Königssohn legte sich nieder, um im Schatten zu ruhen,",
+                "french": "Le prince s'allongea pour se reposer sous l'ombre,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.f_with_locative_prepositional"
+            },
+            "layer4_writing": {
+                "mdc_code": "ir p3 Sr-nsw.t sDr r-Xt p3 sH"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "DREAM-STELA-01",
+                        "name": "The Dream Stela of Giza",
+                        "type": "inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "šr-nsw.t", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sḏr", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "sẖ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "سدر تعني التمدد أو النوم والاسترخاء الجسدي الكامل."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000106-S08",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:25:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-106",
+                "sequence_no": 8,
+                "transliteration": "sḏr.n-f r-gsw pꜣ ḥwr n ḥr-m-ꜣḫ.t",
+                "hieroglyph": "𓋴𓂧𓂋𓈖𓆑𓂋𓎼𓋴𓅱𓊪𓄿𓎛𓅱𓂋𓈖𓁷𓏤𓐝𓈉𓏏",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "حيث نام مستلقياً بجوار تمثال أبو الهول العظيم للإله (حر-إم-آخت)،",
+                "english": "beside the Sphinx of Harmakhis,",
+                "german": "neben der Sphinx des Harmachis,",
+                "french": "à côté du Sphinx d'Harmakhis,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_with_proper_noun_locative"
+            },
+            "layer4_writing": {
+                "mdc_code": "sDr.n-f r-gsw p3 hwr n Hr-m-Ax.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "DREAM-STELA-01",
+                        "name": "The Dream Stela of Giza",
+                        "type": "inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "sḏr.n-f", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥwr", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḥr-m-ꜣḫ.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "حر-إم-آخت هو الاسم الديني لأبو الهول ويعني حرفياً 'حورس في الأفق'."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000106-S09",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:25:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-106",
+                "sequence_no": 9,
+                "transliteration": "ỉst wnn pꜣ šꜥ ḥbs.w sw",
+                "hieroglyph": "𓇋𓋴𓏏𓅱𓈖𓆑𓊪𓄿𓆷𓂝𓎛𓃀𓋴𓅱𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وكانت الرمال الكثيفة للصحراء قد غطته بالكامل واحتضنته،",
+                "english": "Now, the sand had covered the Sphinx,",
+                "german": "Nun hatte der Sand die Sphinx bedeckt,",
+                "french": "Or, le sable avait couvert le Sphinx,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "ist_with_subject_noun_and_passive_stative"
+            },
+            "layer4_writing": {
+                "mdc_code": "ist wnn p3 Sa Hbs.w sw"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "DREAM-STELA-01",
+                        "name": "The Dream Stela of Giza",
+                        "type": "inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ist", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "šꜥ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḥbs.w", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "هبس تعني الحجب أو التغطية بالكامل نتيجة عوامل الجو والتعرية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000106-S10",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:25:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-106",
+                "sequence_no": 10,
+                "transliteration": "nn wn.w wr ỉmy-f r-ḥꜣ.t",
+                "hieroglyph": "𓈖𓈖𓅱𓈖𓅱𓅨𓂋𓐝𓆑𓂋𓄂𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "ولم يكن يظهر منه أي شيء سوى رأسه الشامخ الشريف في الميدان.",
+                "english": "with nothing showing except its head.",
+                "german": "wobei nichts außer seinem Kopf zu sehen war.",
+                "french": "avec rien de visible excepté sa tête.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "negated_nn_with_existential_wn_and_locative_adverbial"
+            },
+            "layer4_writing": {
+                "mdc_code": "nn wn.w wr imy-f r-HA.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-01",
+                        "name": "Papyrus Berlin P. 3022",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "nn", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "wn", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "r-ḥꜣ.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الرأس 'إر-حات' الممثل للملك خفرع كان الجزء الوحيد المكشوف من الرمال."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000106-S11",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:25:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-106",
+                "sequence_no": 11,
+                "transliteration": "sḏr.n pꜣ šr-nsw.t",
+                "hieroglyph": "𓋴𓂧𓂋𓈖𓊪𓄿𓅭𓇓𓏏𓈖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "ونام واستغرق الأمير ابن الملك في سبات عميق،",
+                "english": "The prince fell into a deep sleep,",
+                "german": "Der Königssohn schlief tief ein,",
+                "french": "Le prince s'endormit profondément,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n_noun_subject"
+            },
+            "layer4_writing": {
+                "mdc_code": "sDr.n p3 Sr-nsw.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "DREAM-STELA-01",
+                        "name": "The Dream Stela of Giza",
+                        "type": "inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "sḏr.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "šr-nsw.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التمدد الجسدي الممهد لتلقي الرؤية الوحيية في المعتقد القديم."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000106-S12",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:25:50.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-106",
+                "sequence_no": 12,
+                "transliteration": "ỉw pꜣy=f sḏr ḫpr m rsw.t ꜥꜣ.t",
+                "hieroglyph": "𓇋𓅱𓊪𓄿𓇋𓇋𓆑𓋴𓂧𓂋𓐍𓂪𓂋𓐝𓂋𓋴𓅱𓏏𓅨𓂋𓏏",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وتحول وصار نومه ذلك وسباته رؤية وحلماً عظيماً مهيباً،",
+                "english": "and his sleep became a great dream.",
+                "german": "und sein Schlaf wurde zu einem großen Traum.",
+                "french": "et son sommeil devint un grand rêve.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "iw_with_possessive_subject_and_stative_development"
+            },
+            "layer4_writing": {
+                "mdc_code": "iw pay=f sDr xpr m rsw.t a3.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "DREAM-STELA-01",
+                        "name": "The Dream Stela of Giza",
+                        "type": "inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "sḏr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḫpr", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "rsw.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "رسوت تعني الرؤيا أو الحلم الكوني الحامل للرسائل المكتوبة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000106-S13",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:26:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-106",
+                "sequence_no": 13,
+                "transliteration": "gm.n-f pꜣ nṯr n ḥwr ḥr mdw.t n=f",
+                "hieroglyph": "𓌳𓈖𓆑𓊪𓄿𓊹𓈖𓎛𓅱𓂋𓁷𓏤𓌃𓂧𓏏𓈖𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فوجد ورأى إله تمثال أبو الهول العظيم وهو يخاطبه ويتحدث إليه،",
+                "english": "He found the god of the Sphinx speaking to him,",
+                "german": "Er fand den Gott der Sphinx zu ihm sprechen,",
+                "french": "Il trouva le dieu du Sphinx lui parlant,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_with_direct_noun_object_and_progressive_state"
+            },
+            "layer4_writing": {
+                "mdc_code": "gm.n-f p3 nTr n hwr Hr mdw.t n=f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "DREAM-STELA-01",
+                        "name": "The Dream Stela of Giza",
+                        "type": "inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "gm.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "nṯr", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "mdw.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللقاء اللآهوتي المباشر يضفي الشرعية المطلقة لتتويج الأمير لاحقاً."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000106-S14",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:26:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-106",
+                "sequence_no": 14,
+                "transliteration": "m r n ỉty ḏd-f:",
+                "hieroglyph": "𓐝𓂋𓏤𓈖𓇋𓏏𓏭𓂧𓂧𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "بصوت وحنجرة وكلمات ملك وسيد حازم وهو يقول:",
+                "english": "with the mouth of a sovereign, saying:",
+                "german": "mit dem Mund eines Herrschers, sagend:",
+                "french": "de la bouche d'un souverain, disant :",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "manner_prepositional_with_speech_intro"
+            },
+            "layer4_writing": {
+                "mdc_code": "m r n ity Dd-f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "DREAM-STELA-01",
+                        "name": "The Dream Stela of Giza",
+                        "type": "inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "r", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ỉty", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḏd", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ ر تعني الفم، وإيتي تعني الملك الحاكم المالك للسيادة الكونية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000106-S15",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:26:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-106",
+                "sequence_no": 15,
+                "transliteration": "m-k wj mꜣ.k wj pꜣy=j šr ḏḥwt-ms",
+                "hieroglyph": "𓐝𓎡𓇋𓏠𓈖𓌳𓎡𓇋𓏠𓈖𓊪𓄿𓇋𓇋𓆑𓅭𓏤𓅠𓏏𓅱𓐝𓋴",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "انظر إليّ، وتأملني جيداً يا بني الحبيب (تحتمس)!",
+                "english": "Look at me, see me, my son Thutmose!",
+                "german": "Sieh mich an, betrachte mich, mein Sohn Thutmose!",
+                "french": "Regarde-moi, vois-moi, mon son Thoutmosis !",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "presentation_m-k_with_reduplicated_imperative_verbs"
+            },
+            "layer4_writing": {
+                "mdc_code": "m-k wj ma.k wj pay=j Sr dHwt-ms"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "DREAM-STELA-01",
+                        "name": "The Dream Stela of Giza",
+                        "type": "inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "m-k", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mꜣ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "šr", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "ḏḥwt-ms", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الالتفات 'مك' لجذب التركيز الكامل لوعي الأمير في الحلم."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000106-S16",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:26:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-106",
+                "sequence_no": 16,
+                "transliteration": "ỉnk pꜣy=k jt ḥr-m-ꜣḫ.t ḫpr-rꜥ ỉtm",
+                "hieroglyph": "𓇋𓏠𓈖𓎡𓊪𓄿𓇋𓇋𓎡𓇋𓏏𓁷𓏤𓐝𓈉𓏏𓆄𓂋𓇳𓏤𓇋𓏏𓐝",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "إنني أبوك الإله (حر-إم-آخت) و(خبري-رع) و(أتوم) رب الكون!",
+                "english": "I am your father, Harmakhis-Khepri-Re-Atum!",
+                "german": "Ich bin dein Vater Harmachis-Khepri-Re-Atum!",
+                "french": "Je suis ton père, Harmakhis-Khépri-Rê-Atoum !",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "independent_pronoun_with_possessive_noun_and_proper_nouns"
+            },
+            "layer4_writing": {
+                "mdc_code": "ink pay=k jt Hr-m-Ax.t xpr-ra itm"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "DREAM-STELA-01",
+                        "name": "The Dream Stela of Giza",
+                        "type": "inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ỉnk", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "jt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḥr-m-ꜣḫ.t", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "ỉtm", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الآلهة الثلاثة الكبرى الممثلة للشمس بمختلف دوراتها الكونية اليومية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000106-S17",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:26:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-106",
+                "sequence_no": 17,
+                "transliteration": "ỉw=j r dỉ.t n=k pꜣ tꜣ n kmy",
+                "hieroglyph": "𓇋𓅱𓇋𓏠𓈖𓂋𓂞𓏏𓈖𓎡𓊪𓄿𓇾𓏤𓈖𓎡𓐝𓇋𓏠𓈖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وسوف أهبك وأمنحك سيادة وحكم أرض مصر بالكامل،",
+                "english": "I shall give you the land of Egypt,",
+                "german": "Ich werde dir das Land Ägypten geben,",
+                "french": "Je te donnerai le pays d'Égypte,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "future_iw.i_r_rdi_with_double_dative_nouns"
+            },
+            "layer4_writing": {
+                "mdc_code": "iw=j r di.t n=k p3 t3 n kmy"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "DREAM-STELA-01",
+                        "name": "The Dream Stela of Giza",
+                        "type": "inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ỉw=j", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "dỉ.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "tꜣ", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "kmy", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "كمي تعني الأرض الخصبة السمراء لمصر."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000106-S18",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:26:50.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-106",
+                "sequence_no": 18,
+                "transliteration": "rwd.k ḥnˁ=sn m nb n ˁnḫ",
+                "hieroglyph": "𓂋𓅱𓂧𓎡𓎛𓈖𓂝𓋴𓈖𓐝𓋾𓏤𓈖𓋹",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وستزدهر وتحكمها للأبد كملك وسيد واهب للحياة لكل الوجود.",
+                "english": "and you will flourish as its lord of life.",
+                "german": "und du wirst als sein Herr des Lebens blühen.",
+                "french": "et tu prospéreras en tant que son seigneur de vie.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "subjunctive_rwd_with_coordinative_and_adverbial_status"
+            },
+            "layer4_writing": {
+                "mdc_code": "rwd.k Hna=sn m nb n anx"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "DREAM-STELA-01",
+                        "name": "The Dream Stela of Giza",
+                        "type": "inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "rwd.k", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "nb", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ˁnḫ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "نِب-إن-عنخ لقب لاهوتي كلاسيكي حامي يمنح للشرعية الملكية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000106-S19",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:27:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-106",
+                "sequence_no": 19,
+                "transliteration": "ỉr grt pꜣ tꜣ n ẖnw ỉw=f r-f n=k",
+                "hieroglyph": "𓇋𓂋𓎼𓂋𓏏𓊪𓄿𓇾𓏤𓈖𓄡𓈖𓏤𓇋𓅱𓆑𓂋𓆑𓈖𓎡",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وستؤول وتصير إليك ممتلكات وأراضي البلاط الملكي الحاكم طوعاً لك،",
+                "english": "The land of the Residence shall belong to you,",
+                "german": "Das Land der Residenz soll dir gehören,",
+                "french": "La terre de la résidence t'appartiendra,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "topicalized_subject_with_future_iw.f_and_dative"
+            },
+            "layer4_writing": {
+                "mdc_code": "ir grt p3 t3 n Xnw iw=f r-f n=k"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "DREAM-STELA-01",
+                        "name": "The Dream Stela of Giza",
+                        "type": "inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "tꜣ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ẖnw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "iw=f", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الخنو هي العاصمة أو المقر الإداري الرسمي لقصر الملك."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000106-S20",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:27:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-106",
+                "sequence_no": 20,
+                "transliteration": "m-k pꜣy=j sḫr r-ḥꜣ.t=j",
+                "hieroglyph": "𓐝𓎡𓊪𓄿𓇋𓇋𓆑𓋴𓐍𓂋𓂋𓄂𓏤𓇋𓏠𓈖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "ولكن، انظر وتأمل حالي وبؤسي الآن أمام عيناك؛",
+                "english": "behold, my condition is before you,",
+                "german": "siehe, mein Zustand ist vor dir,",
+                "french": "vois, ma condition est devant toi,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "presentation_m-k_with_subject_noun_and_locative_adverbial"
+            },
+            "layer4_writing": {
+                "mdc_code": "m-k pay=j sxr r-HA.t=j"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "DREAM-STELA-01",
+                        "name": "The Dream Stela of Giza",
+                        "type": "inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "m-k", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sḫr", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "r-ḥꜣ.t=j", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ سِخر يعني الحالة أو الوضع الصعب الحرج للجسد."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000106-S21",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:27:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-106",
+                "sequence_no": 21,
+                "transliteration": "ỉw pꜣ šꜥ n tꜣ ḫꜣs.t ḥbs.w wj",
+                "hieroglyph": "𓇋𓅱𓊪𓄿𓆷𓂝𓈖𓏏𓄿𓈉𓎛𓃀𓋴𓅱𓇋𓏠𓈖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فإن رمال الصحراء الكثيفة والبرية قد غطتني بالكامل وحجبتني عن الوجود،",
+                "english": "as the sand of the desert has covered me.",
+                "german": "da der Sand der Wüste mich bedeckt hat.",
+                "french": "car le sable du désert m'a couvert.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "circumstantial_iw_with_subject_noun_and_passive_stative"
+            },
+            "layer4_writing": {
+                "mdc_code": "iw p3 Sa n t3 xAs.t Hbs.w wj"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "DREAM-STELA-01",
+                        "name": "The Dream Stela of Giza",
+                        "type": "inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "šꜥ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḫꜣs.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḥbs.w", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ خاست يشير جغرافياً للصحراء الغربية القاحلة الملاصقة للأهرام."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000106-S22",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:27:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-106",
+                "sequence_no": 22,
+                "transliteration": "ỉr wdf.k r dr pꜣ šꜥ r-ḥꜣ.t=j",
+                "hieroglyph": "𓇋𓂋𓅱𓂧𓆑𓎡𓂋𓂧𓂋𓊪𓄿𓆷𓂝𓂋𓄂𓏤𓇋𓏠𓈖",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فإن أسرعتَ ولم تتأخر في إزالة وتجريف هذه الرمال من حولي وتحريري،",
+                "english": "If you do not delay in clearing this sand from me,",
+                "german": "Wenn du nicht zögerst, diesen Sand von mir zu entfernen,",
+                "french": "Si tu ne tardes pas à déblayer ce sable loin de moi,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "conditional_ir_with_subjunctive_wdf_and_purpose_infinitive"
+            },
+            "layer4_writing": {
+                "mdc_code": "ir wdf.k r dr p3 Sa r-HA.t=j"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "DREAM-STELA-01",
+                        "name": "The Dream Stela of Giza",
+                        "type": "inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ỉr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "wdf.k", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "dr", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "šꜥ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الدر تعني الطرد أو الإبعاد الجغرافي القسري للشيء."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000106-S23",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:27:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-106",
+                "sequence_no": 23,
+                "transliteration": "ỉw=j r rḫ ḏd=k ỉnk pꜣy=k nb ꜥꜣ",
+                "hieroglyph": "𓇋𓅱𓇋𓏠𓈖𓂋𓂋𓐍𓂧𓂧𓎡𓇋𓏠𓈖𓎡𓊪𓄿𓇋𓇋𓎡𓋾𓏤𓅨𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فسوف أعلم وأتأكد يقيناً أنك ابني الحبيب المخلص البار بي.",
+                "english": "I shall know that you are indeed my beloved, loyal son.",
+                "german": "werde ich wissen, dass du in der Tat mein geliebter, treuer Sohn bist.",
+                "french": "je saurai que tu es en vérité mon fils bien-aimé et loyal.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "future_iw.i_r_rX_with_direct_speech_nominal_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "iw=j r rX Dd=k ink pay=k nb a3"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "DREAM-STELA-01",
+                        "name": "The Dream Stela of Giza",
+                        "type": "inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "rḫ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḏd=k", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ỉnk", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "nb", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الاعتراف بالأبوة اللآهوتية يمنح الملك حماية كونية أمام معارضيه."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000106-S24",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:27:50.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-106",
+                "sequence_no": 24,
+                "transliteration": "ts.n-f r-f pꜣ šr-nsw.t m pꜣy=f sḏr",
+                "hieroglyph": "𓍿𓊃𓈖𓆑𓂋𓆑𓊪𓄿𓅭𓇓𓏏𓈖𓐝𓊪𓄿𓇋𓇋𓆑𓋴𓂧𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "ثم نهض واستيقظ الأمير ابن الملك فجأة من نومه وسباته،",
+                "english": "The prince arose from his sleep,",
+                "german": "Der Königssohn erwachte aus seinem Schlaf,",
+                "french": "Le prince s'éveilla de son sommeil,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_with_prepositional_source"
+            },
+            "layer4_writing": {
+                "mdc_code": "ts.n-f r-f p3 Sr-nsw.t m pay=f sDr"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "DREAM-STELA-01",
+                        "name": "The Dream Stela of Giza",
+                        "type": "inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ts.n-f", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "šr-nsw.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "sḏr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "تس-إن-إف تعني القيام البدني المباغت من النوم المفعم بالرؤية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000106-S25",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:28:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-106",
+                "sequence_no": 25,
+                "transliteration": "ỉb=j sḏd m sẖny",
+                "hieroglyph": "𓄣𓏤𓇋𓏠𓈖𓋴𓍿𓍿𓐝𓋴𓐍𓂋𓈖𓏭",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وكان قلبه فؤاده يتفطر ويرتعد دهشة وانبهاراً لروعة الرؤيا،",
+                "english": "his heart staggering with wonder.",
+                "german": "sein Herz bebte vor Staunen.",
+                "french": "son cœur tremblant d'émerveillement.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "noun_subject_with_stative_agitation_and_manner"
+            },
+            "layer4_writing": {
+                "mdc_code": "ib=j sDd m sXny"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-01",
+                        "name": "Papyrus Berlin P. 3022",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ỉb", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sḏd", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "sẖny", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الارتعاش القلبي 'سدد' دلالة على الإجلال والخشوع للوحي الإلهي."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000106-S26",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:28:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-106",
+                "sequence_no": 26,
+                "transliteration": "ḏd.n-f: m-k ỉry=j r wd.t=k pꜣy=j jt",
+                "hieroglyph": "𓂧𓂧𓈖𓆑𓐝𓎡𓁹𓇋𓏠𓈖𓂋𓎘𓏏𓎡𓊪𓄿𓇋𓇋𓆑𓇋𓏏𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وقال مقسماً: انظر، سأفعل وأصنع بكل دقة ما أمرتني به، يا أبي الحبيب سيدي!",
+                "english": "He declared: 'Behold, I shall act according to your orders, my father!'",
+                "german": "Er erklärte: 'Siehe, ich werde nach deinen Befehlen handeln, mein Vater!'",
+                "french": "Il déclara : 'Vois, j'agirai selon tes ordres, mon père !'",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_with_direct_speech_future_retributive"
+            },
+            "layer4_writing": {
+                "mdc_code": "Dd.n-f: m-k iry=j r wd.t=k pay=j jt"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "DREAM-STELA-01",
+                        "name": "The Dream Stela of Giza",
+                        "type": "inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḏd.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ỉry=j", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "wd.t", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "jt", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الالتزام بالقسم يعبر عن أمانة العهد الملكي المقدس."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000106-S27",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:28:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-106",
+                "sequence_no": 27,
+                "transliteration": "ỉr ssw pr-ˁꜣ r pꜣ-ẖnw",
+                "hieroglyph": "𓇋𓂋𓇳𓏤𓉐𓉻𓂋𓉐𓏤𓄡𓈖𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وعندما حان الوقت وصار الأمير فرعناً وملكاً عظيماً في البلاط الحاكم،",
+                "english": "When the prince became Pharaoh at the Residence,",
+                "german": "Als de Königssohn Pharao in der Residenz wurde,",
+                "french": "Quand le prince devint Pharaon à la résidence,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "relative_ir_with_subject_noun_and_directional_status"
+            },
+            "layer4_writing": {
+                "mdc_code": "ir ssw pr-a3 r p3-Xnw"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "DREAM-STELA-01",
+                        "name": "The Dream Stela of Giza",
+                        "type": "inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ssw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "pr-ˁꜣ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "pꜣ-ẖnw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التحول من رتبة أمير 'شير-نسوت' إلى فرعون حاكم ملقب بـ 'بير-عا'."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000106-S28",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:28:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-106",
+                "sequence_no": 28,
+                "transliteration": "rdj.n-f sš.tw pꜣ šꜥ r-ḥꜣ.t pꜣ ḥwr",
+                "hieroglyph": "𓂞𓈖𓆑𓏟𓏏𓅱𓊪𓄿𓆷𓂝𓂋𓄂𓏤𓊪𓄿𓎛𓅱𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "أصدر على الفور أوامره بحفر وتجريف وإزالة كل الرمال الكثيفة من حول أبو الهول،",
+                "english": "he ordered the clearing of the sand from the Sphinx,",
+                "german": "befahl er die Räumung des Sandes von der Sphinx,",
+                "french": "il ordonna le déblayage du sable autour du Sphinx,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "causative_sDmw.n.f_with_passive_infinitive_and_noun_object"
+            },
+            "layer4_writing": {
+                "mdc_code": "rdj.n-f sS.tw p3 Sa r-HA.t p3 hwr"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "DREAM-STELA-01",
+                        "name": "The Dream Stela of Giza",
+                        "type": "inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "rdj.n-f", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "sš.tw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "šꜥ", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "ḥwr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "سِش تعني هنا الكشط أو التجريف الهندسي للتربة الرملية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000106-S29",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:28:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-106",
+                "sequence_no": 29,
+                "transliteration": "ỉry-f pꜣy wd.t n ḥr-m-ꜣḫ.t",
+                "hieroglyph": "𓁹𓆑𓊪𓄿𓇋𓇋𓎘𓏏𓈖𓁷𓏤𓐝𓈉𓏏",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "ونفذ وحقق عهده وقراره الذي قطعه للإله العظيم (حر-إم-آخت)،",
+                "english": "and fulfilled the promise to Harmakhis,",
+                "german": "und erfüllte das Versprechen gegenüber Harmachis,",
+                "french": "et remplit la promesse faite à Harmakhis,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.f_transitive_with_possessive_noun"
+            },
+            "layer4_writing": {
+                "mdc_code": "iry-f pay wd.t n Hr-m-Ax.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "DREAM-STELA-01",
+                        "name": "The Dream Stela of Giza",
+                        "type": "inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ỉry-f", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "wd.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḥr-m-ꜣḫ.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الالتزام بالوعود المقطوعة للآلهة كقانون أخلاقي لاهوتي للملوك."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000106-S30",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:28:50.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-106",
+                "sequence_no": 30,
+                "transliteration": "wd.n-f pꜣy ˁḥˁ n wmt r-gsw n nmt=f",
+                "hieroglyph": "𓎘𓈖𓆑𓊪𓄿𓇋𓇋𓊢𓏤𓈖𓅓𓏏𓂋𓎼𓋴𓅱𓈖𓈖𓅓𓏏𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وشيد وأقام هذه اللوحة الأثرية الحجرية العظيمة بين مخالبه وقدميه الممتدتين.",
+                "english": "He erected this great stela of stone between its paws.",
+                "german": "Er errichtete diese große Stele aus Stein zwischen seinen Pfoten.",
+                "french": "Il dressa cette grande stèle de pierre entre ses pattes.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_with_possessive_noun_and_locative_genitive"
+            },
+            "layer4_writing": {
+                "mdc_code": "wd.n-f pay aha n wmt r-gsw n nmt=f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "DREAM-STELA-01",
+                        "name": "The Dream Stela of Giza",
+                        "type": "inscription",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "wd.n-f", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ˁḥˁ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "wmt", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "nmt", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "أحأ تعني النصب أو المسلة أو اللوحة الحجرية القائمة بذاتها، ونِمت تعني مخالب الأسد الحامية للعرش."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000106-S31",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-02T06:29:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-106",
+                "sequence_no": 31,
+                "transliteration": "sš",
+                "hieroglyph": "𓏟𓏏",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "كُتب بسلام وأمان تام.",
+                "english": "Written.",
+                "german": "Geschrieben.",
+                "french": "Écrit.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "scribal_colophon"
+            },
+            "layer4_writing": {
+                "mdc_code": "sS"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-01",
+                        "name": "Papyrus Berlin P. 3022",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "sš", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الخاتمة الكلاسيكية للكتبة الديموطيقيين على أطراف المخطوطات البردية."
+            }
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-005417",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:40.041159Z"
+    },
+    "layer1_core": {
+        "transliteration": "Sps",
+        "hieroglyph": "𓀻𓋴𓀀",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "رجل نبيل، رجل ثري",
+        "english": "nobleman, wealthy man",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+1303B",
+        "gardiner_code": "A50",
+        "gardiner_description": "Noble seated on chair\tDet. revered person, deceased. Var. A1 for 1st sing. pronoun.",
+        "gardiner_details": "A51"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

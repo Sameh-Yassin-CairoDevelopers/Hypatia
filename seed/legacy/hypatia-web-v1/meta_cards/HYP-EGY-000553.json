@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-000553",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:33.692693Z"
+    },
+    "layer1_core": {
+        "transliteration": "imAxyw",
+        "hieroglyph": "𓄪𓇌𓅱𓀼𓏪𓇋𓌴𓐍𓇌𓄪𓏴𓏛𓀀",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "المبجَّلين (الموتى المباركين)، المبجَّلين (الأحياء المتقدمين في العمر)",
+        "english": "revered ones (of the blessed deads)",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+1312A",
+        "gardiner_code": "F39",
+        "gardiner_description": "Backbone and spinal cord\tDet. and Ideo. in im3ḫ “spine” and “honor.”",
+        "gardiner_details": "F40"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

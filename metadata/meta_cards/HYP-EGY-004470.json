@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-004470",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:38.624714Z"
+    },
+    "layer1_core": {
+        "transliteration": "sAb r-nxn",
+        "hieroglyph": "𓃥𓂋𓊕𓀀",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "sAbمأمور سجن نخن",
+        "english": "sAbwarden of Nekhen",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+130E5",
+        "gardiner_code": "E17",
+        "gardiner_description": "Jackal\tDet. or Ideo. in s3b “jackal” and “dignitary.”",
+        "gardiner_details": "E18"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

@@ -1,0 +1,479 @@
+ممتاز.
+
+الآن بعد أن أصبح لدينا **HBF (الإطار الذى يدير جميع الـ Builders)**، فإن وثيقة **Builder Guide** لم تعد تشرح "ما هو الـ Builder Framework"، بل تشرح **كيف يكتب المهندس Builder جديدًا داخل هذا الإطار**.
+
+وهذا يجعلها أوضح بكثير من النسخة الأولى.
+
+---
+
+# HYP-SPEC-060100
+
+# Builder Guide
+
+**Project:** Hypatia Knowledge Platform
+
+**Document ID:** HYP-SPEC-060100
+
+**Version:** 1.1 Founder Edition
+
+**Status:** Official
+
+**Classification:** Engineering Manual
+
+**Parent Specification:** HYP-SPEC-060010 — Hypatia Builder Framework (HBF)
+
+---
+
+# Purpose
+
+This guide defines the engineering principles, standards, responsibilities, and implementation requirements for developing Builders inside the Hypatia Builder Framework (HBF).
+
+Every Builder must conform to this guide in order to participate in the automated engineering ecosystem.
+
+---
+
+# Philosophy
+
+A Builder is not a script.
+
+A Builder is an engineering component.
+
+Every Builder performs one clearly defined responsibility.
+
+Builders cooperate.
+
+Builders do not overlap.
+
+---
+
+# Fundamental Principle
+
+One Builder
+
+↓
+
+One Responsibility
+
+↓
+
+One Contract
+
+↓
+
+One Output
+
+Builders never perform unrelated tasks.
+
+---
+
+# Builder Definition
+
+A Builder is a deterministic engineering module responsible for generating one class of artifacts from well-defined inputs.
+
+A Builder must always be executable, testable, reproducible, and replaceable.
+
+---
+
+# Builder Responsibilities
+
+A Builder may
+
+* generate artifacts
+* validate artifacts
+* transform artifacts
+* publish artifacts
+* report metrics
+
+A Builder may not
+
+* bypass Repository rules
+* alter scientific knowledge
+* violate Builder Contracts
+* directly manipulate another Builder
+
+---
+
+# Builder Lifecycle
+
+Every Builder follows the HBF lifecycle.
+
+```text id="builder_flow"
+Initialize
+
+↓
+
+Load Manifest
+
+↓
+
+Validate Inputs
+
+↓
+
+Execute
+
+↓
+
+Validate Outputs
+
+↓
+
+Publish
+
+↓
+
+Log Execution
+
+↓
+
+Exit
+```
+
+---
+
+# Builder Structure
+
+Each Builder consists of six logical components.
+
+```text id="builder_structure"
+Manifest
+
+Configuration
+
+Execution Engine
+
+Validator
+
+Publisher
+
+Logger
+```
+
+No component may be omitted.
+
+---
+
+# Builder Manifest
+
+Every Builder must expose a Builder Manifest.
+
+Minimum fields
+
+```yaml id="builder_manifest"
+builder_id:
+
+builder_name:
+
+version:
+
+description:
+
+owner:
+
+specification:
+
+inputs:
+
+outputs:
+
+depends_on:
+
+status:
+```
+
+The Manifest is mandatory.
+
+---
+
+# Builder Inputs
+
+Every input must be explicitly declared.
+
+Examples
+
+* Repository
+* Corpus
+* Knowledge Graph
+* Metadata
+* Configuration
+* Builder Output
+
+Implicit dependencies are prohibited.
+
+---
+
+# Builder Outputs
+
+Every output must
+
+* be deterministic
+* be versioned
+* include provenance
+* be reproducible
+
+Generated artifacts become official engineering products.
+
+---
+
+# Builder Dependencies
+
+Dependencies are declared explicitly.
+
+Example
+
+```text id="builder_dependency_example"
+Repository Builder
+
+↓
+
+Knowledge Graph Builder
+
+↓
+
+Corpus Builder
+
+↓
+
+Dataset Builder
+```
+
+Execution order is determined automatically by HBF.
+
+---
+
+# Builder Execution Rules
+
+Builders shall
+
+* execute independently
+* avoid hidden state
+* avoid global side effects
+* produce identical results from identical inputs
+
+Determinism is mandatory.
+
+---
+
+# Error Handling
+
+Every Builder must
+
+* detect failures
+* stop safely
+* preserve Repository integrity
+* generate diagnostic logs
+
+Silent failures are prohibited.
+
+---
+
+# Logging
+
+Each execution records
+
+```text id="builder_logging"
+builder_id
+
+execution_id
+
+start_time
+
+end_time
+
+duration
+
+inputs
+
+outputs
+
+status
+
+repository_revision
+```
+
+Logs remain permanent.
+
+---
+
+# Validation
+
+Every Builder implements
+
+Input Validation
+
+↓
+
+Execution Validation
+
+↓
+
+Output Validation
+
+↓
+
+Specification Validation
+
+Validation failure prevents publication.
+
+---
+
+# Builder Communication
+
+Builders exchange artifacts.
+
+Builders never exchange internal memory.
+
+Loose coupling is mandatory.
+
+---
+
+# Configuration
+
+All configurable values must exist outside Builder code.
+
+Builders read configuration.
+
+Builders never hardcode environment-specific values.
+
+---
+
+# Testing Requirements
+
+Every Builder must include
+
+* Unit Tests
+* Integration Tests
+* Determinism Tests
+* Regression Tests
+
+Testing is required before publication.
+
+---
+
+# Documentation
+
+Every Builder must document
+
+* purpose
+* inputs
+* outputs
+* dependencies
+* execution
+* limitations
+
+Documentation evolves with the Builder.
+
+---
+
+# Builder Versioning
+
+Every Builder maintains
+
+```text id="builder_versioning"
+builder_version
+
+manifest_version
+
+specification_version
+
+compatibility_version
+```
+
+Builder evolution remains traceable.
+
+---
+
+# Builder Categories
+
+Builders belong to one category.
+
+Examples
+
+* Repository
+* Import
+* Metadata
+* Graph
+* Corpus
+* AI
+* Documentation
+* Deployment
+* Operations
+
+Categories simplify orchestration.
+
+---
+
+# Security
+
+Builders operate using the minimum required permissions.
+
+Access to Repository modifications is restricted.
+
+All privileged actions are audited.
+
+---
+
+# Quality Criteria
+
+A Builder is considered production-ready only if it is
+
+* deterministic
+* reproducible
+* specification-compliant
+* documented
+* tested
+* monitored
+
+---
+
+# Long-Term Objective
+
+To establish a reusable Builder ecosystem in which every engineering capability of the Hypatia Platform is implemented as a modular Builder governed by common contracts, automated orchestration, and scientific specifications.
+
+---
+
+# Scientific Law
+
+Every Builder serves the Framework.
+
+The Framework serves the Specifications.
+
+The Specifications serve Knowledge.
+
+---
+
+# Builder Motto
+
+> **Small Builders. Clear Contracts. Deterministic Results.**
+
+---
+
+# Founder Statement
+
+Within Hypatia, a Builder is treated as a professional engineering role embodied in software.
+
+It is expected to perform one responsibility with precision, discipline, and complete traceability.
+
+The long-term success of the platform depends not upon individual Builders, but upon the consistency with which every Builder adheres to the shared engineering philosophy defined by the Hypatia Builder Framework.
+
+---
+
+# Academic Notes
+
+The Builder Guide formalizes the implementation standards of the **Builder-Oriented Engineering Architecture (BOEA)**.
+
+Each Builder is regarded as a deterministic engineering agent operating under explicit contracts, governed by centralized orchestration, and validated through reproducible execution.
+
+This design enables the platform to scale by adding new Builders rather than increasing the complexity of existing ones, preserving modularity, maintainability, and long-term institutional evolution.
+
+---
+
+## ✦ Founder Insight
+
+فى معظم الأنظمة البرمجية، يكون الـ Builder مجرد أداة داخلية.
+
+أما فى هيباتيا، فإن **الـ Builder هو وحدة هندسية من الدرجة الأولى (First-Class Engineering Object)**.
+
+أى أن إضافة قدرة جديدة إلى المنصة لا تعنى تعديل النظام القائم، بل تعنى **إضافة Builder جديد** يلتزم بعقد HBF.
+
+وبهذه الفلسفة، يمكن أن تنمو المنصة لعشرات أو مئات الـ Builders دون أن تتحول إلى نظام متشابك أو يصعب صيانته، لأن **النمو يكون أفقيًا (Horizontal Growth)** وليس بتضخم المكونات الأساسية.

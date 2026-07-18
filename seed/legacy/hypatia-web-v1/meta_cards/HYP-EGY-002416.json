@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-002416",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:35.898381Z"
+    },
+    "layer1_core": {
+        "transliteration": "mAa",
+        "hieroglyph": "𓐙𓌳𓂝𓂻𓐙𓂻",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "يرشد، يقدم، يُرسل، يَفدِ، يبعث، يرمي (حبل من السفينة)، يقود (سفينة)، يَبسِط (أطرافه)، يحرك يديه وقدميه في الماء، يبدأ رحلة",
+        "english": "present, guide, lead, send, despatch, throw out (rope from ship), steer (ship), extend (limbs), paddle (water), set out (on journey)",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+13419",
+        "gardiner_code": "unknown",
+        "gardiner_description": "unknown",
+        "gardiner_details": "unknown"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

@@ -1,0 +1,440 @@
+{
+    "text_id": "EGY-103",
+    "metadata": {
+        "title_ar": "برديات المفتش ميرير بوادي الجرف",
+        "title_en": "The Diary of Inspector Merer (Wadi al-Jarf Papyrus B)",
+        "museum_catalog_no": "Egyptian Museum Cairo JE 99015",
+        "stable_tla_id": "unknown"
+    },
+    "sentences": [
+        {
+            "metadata": {
+                "id": "HYP-TXT-000103-S01",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-10T13:00:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-103",
+                "sequence_no": 1,
+                "transliteration": "sw 25 jmy-r sꜣ mr-r sḏr m r-ꜣ-ꜣw ḥr fꜣ.t jnr m r-ꜣ-ꜣw",
+                "hieroglyph": "𓇳𓎆𓎆𓏤𓏤𓏤𓏤𓏤𓅓𓋴𓍛𓏤𓂓𓏏𓏥𓌻𓂋𓂋𓋴𓂧𓂋𓐝𓂋𓏤𓄿𓄿𓏲𓁷𓏤𓏎𓏏𓊛𓂋𓐝𓂋𓏤𓄿𓄿𓏲",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "اليوم 25: قضى المفتش ميرير ليلته في طرة (رأ-آو)، معبئاً ومحمّلاً الحجارة في طرة.",
+                "english": "Day 25: Inspector Merer spent the night at Tura (Ro-Au), loading stone at Tura.",
+                "german": "Tag 25: Der Inspektor Merer verbrachte die Nacht in Tura (Ro-Au), während er Steine in Tura lud.",
+                "french": "Jour 25: L'inspecteur Merer a passé la nuit à Tourah (Ro-Au), chargeant des pierres à Tourah.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "ledger_entry_date_subject_action_with_locative"
+            },
+            "layer4_writing": {
+                "mdc_code": "sw 25 jmy-r s3 mr-r sDr m r-3-3w Hr fa.t jnr m r-3-3w"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE99015",
+                        "name": "Papyrus Jarf B, Section 1, Cairo Museum",
+                        "type": "papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "sw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "jmy-r-sꜣ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "mr-r", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "sḏr", "lemma_ref": null},
+                    {"token_no": 5, "transliteration": "r-ꜣ-ꜣw", "lemma_ref": null},
+                    {"token_no": 6, "transliteration": "fꜣ.t", "lemma_ref": null},
+                    {"token_no": 7, "transliteration": "jnr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر المالي الأول الذي يفتتح دورة شحن الأحجار؛ يظهر فيه اسم طرة كأصل ومصدر للجلب 'رأ-آو' (r-ꜣ-ꜣw) وتعني حرفياً 'فم أو مدخل المحاجر الممتدة' [1.1.1، 1.3.1]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000103-S02",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-10T13:01:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-103",
+                "sequence_no": 2,
+                "transliteration": "smꜣ wꜣ.t r Ꜣḫt-ḫwfw m jnp.t ḥr sḏr m š-ḫwfw",
+                "hieroglyph": "𓋴𓌳𓄿𓍯𓏤𓏥𓂋𓐍𓏏𓐍𓅱𓆄𓅱𓐝𓏎𓏏𓏥𓁷𓏤𓋴𓂧𓂋𓐝𓈙𓐍𓅱𓆄𓅱",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "مبحراً في مسلكه إلى أفق خوفو (الهرم الأكبر) بالحمولة، وقضى ليلته في بحيرة/ميناء خوفو (شِ-خوفو).",
+                "english": "sailing on his way to Akhet-Khufu (the Horizon of Khufu) with a load, spent the night at the Pool of Khufu (She-Khufu).",
+                "german": "segelnd auf seinem Weg nach Achet-Chufu (Horizont des Cheops) mit einer Ladung, verbrachte die Nacht am See des Cheops (Sche-Chufu).",
+                "french": "naviguant en route vers Akhet-Khéops (l'Horizon de Khéops) avec une cargaison, a passé la nuit au Lac de Khéops (She-Khéops).",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "progressive_infinitive_with_prepositional_and_temporal_clauses"
+            },
+            "layer4_writing": {
+                "mdc_code": "sm3 wa.t r Axt-xwfw m jnp.t Hr sDr m S-xwfw"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE99015",
+                        "name": "Papyrus Jarf B, Section 1, Cairo Museum",
+                        "type": "papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "smꜣ-wꜣ.t", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "Ꜣḫt-ḫwfw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "jnp.t", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "sḏr", "lemma_ref": null},
+                    {"token_no": 5, "transliteration": "š-ḫwfw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الثاني يوثق الوصول لميناء الجيزة الحاضن لأعمال البناء 'شِ-خوفو' (š-ḫwfw) وتعني بحيرة أو حوض مياه الملك خوفو المتصل بقنوات النيل لنقل الأحجار الثقيلة [1.1.1، 1.3.1]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000103-S03",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-10T13:02:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-103",
+                "sequence_no": 3,
+                "transliteration": "sw 26 wdꜣ m š-ḫwfw sḫs.t r r-ꜣ-ꜣw sḏr m r-ꜣ-ꜣw",
+                "hieroglyph": "𓇳𓎆𓎆𓏤𓏤𓏤𓏤𓏤𓏤𓎘𓄿𓐝𓈙𓐍𓅱𓆄𓅱𓋴𓐍𓋴𓏏𓂻𓂋𓂋𓏤𓄿𓄿𓏲𓋴𓂧𓂋𓐝𓂋𓏤𓄿𓄿𓏲",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "اليوم 26: انطلق من ميناء خوفو (شِ-خوفو)، مبحراً عائداً إلى طرة، وقضى ليلته في طرة.",
+                "english": "Day 26: Set out from the Pool of Khufu (She-Khufu), sailing back to Tura, spent the night at Tura.",
+                "german": "Tag 26: Brach auf vom See des Cheops (Sche-Chufu), zurücksegelnd nach Tura, verbrachte die Nacht in Tura.",
+                "french": "Jour 26: Départ du Lac de Khéops (She-Khéops), naviguant de retour vers Tourah, a passé la nuit à Tourah.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "ledger_entry_date_motion_verb_with_source_and_destination"
+            },
+            "layer4_writing": {
+                "mdc_code": "sw 26 wda m S-xwfw sxs.t r r-3-3w sDr m r-3-3w"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE99015",
+                        "name": "Papyrus Jarf B, Section 1, Cairo Museum",
+                        "type": "papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "sw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "wdꜣ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "š-ḫwfw", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "sḫs.t", "lemma_ref": null},
+                    {"token_no": 5, "transliteration": "r-ꜣ-ꜣw", "lemma_ref": null},
+                    {"token_no": 6, "transliteration": "sḏr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الثالث يوضح حركة السفينة الفارغة وهي تبحر عائدة ومسرعة 'سخست' (sḫs.t) عكس تيار النيل متوجهة للمحاجر لجلب دفعة جديدة من الصخور [1.1.1، 1.3.1]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000103-S04",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-10T13:03:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-103",
+                "sequence_no": 4,
+                "transliteration": "ḥr jrt ḫt nbt n fꜣ.t jnr jm",
+                "hieroglyph": "𓁷𓏤𓁹𓏏𓐍𓏏𓎟𓏏𓈖𓏎𓏏𓊛𓂋𓐝𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "مؤدياً كافة الأعمال والتحضيرات المتعلقة بشحن وتحميل الحجارة هناك.",
+                "english": "carrying out all works of loading stone there.",
+                "german": "alle Arbeiten zum Laden von Steinen dort ausführend.",
+                "french": "effectuant tous les travaux de chargement de pierre là-bas.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "adverbial_phrase",
+                "syntax_structure": "progressive_Hr_infinitive_with_objective_nouns"
+            },
+            "layer4_writing": {
+                "mdc_code": "Hr jrt xt nbt n fa.t jnr jm"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE99015",
+                        "name": "Papyrus Jarf B, Section 1, Cairo Museum",
+                        "type": "papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jrt", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḫt-nbt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "fꜣ.t", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "jnr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الرابع يوضح الأعمال الشاقة للتحضير والشحن والقطع الداخلي داخل أنفاق محاجر طرة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000103-S05",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-10T13:04:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-103",
+                "sequence_no": 5,
+                "transliteration": "sw 27 jmy-r sꜣ mr-r sḏr m r-ꜣ-ꜣw ḥr fꜣ.t jnr m r-ꜣ-ꜣw",
+                "hieroglyph": "𓇳𓎆𓎆𓏤𓏤𓏤𓏤𓏤𓏤𓏤𓅓𓋴𓍛𓏤𓂓𓏏𓏥𓌻𓂋𓂋𓋴𓂧𓂋𓐝𓂋𓏤𓄿𓄿𓏲𓁷𓏤𓏎𓏏𓊛𓂋𓐝𓂋𓏤𓄿𓄿𓏲",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "اليوم 27: قضى المفتش ميرير ليلته في طرة، معبئاً ومحمّلاً الحجارة في طرة.",
+                "english": "Day 27: Inspector Merer spent the night at Tura, loading stone at Tura.",
+                "german": "Tag 27: Der Inspektor Merer verbrachte die Nacht in Tura, während er Steine in Tura lud.",
+                "french": "Jour 27: L'inspecteur Merer a passé la nuit à Tourah, chargeant des pierres à Tourah.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "ledger_entry_date_subject_action_with_locative"
+            },
+            "layer4_writing": {
+                "mdc_code": "sw 27 jmy-r s3 mr-r sDr m r-3-3w Hr fa.t jnr m r-3-3w"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE99015",
+                        "name": "Papyrus Jarf B, Section 1, Cairo Museum",
+                        "type": "papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "sw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "jmy-r-sꜣ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "mr-r", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "sḏr", "lemma_ref": null},
+                    {"token_no": 5, "transliteration": "r-ꜣ-ꜣw", "lemma_ref": null},
+                    {"token_no": 6, "transliteration": "fꜣ.t", "lemma_ref": null},
+                    {"token_no": 7, "transliteration": "jnr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الخامس يكرر صيغة الشحن والمبيت لتأكيد انتظام الدورة العملياتية اليومية للعمال [1.1.1، 1.3.1]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000103-S06",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-10T13:05:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-103",
+                "sequence_no": 6,
+                "transliteration": "smꜣ wꜣ.t r Ꜣḫt-ḫwfw m jnp.t ḥr sḏr m š-ḫwfw",
+                "hieroglyph": "𓋴𓌳𓄿𓍯𓏤𓏥𓂋𓐍𓏏𓐍𓅱𓆄𓅱𓐝𓏎𓏏𓏥𓁷𓏤𓋴𓂧𓂋𓐝𓈙𓐍𓅱𓆄𓅱",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "مبحراً في مسلكه إلى أفق خوفو (الهرم الأكبر) بالحمولة، وقضى ليلته في بحيرة/ميناء خوفو.",
+                "english": "sailing on his way to Akhet-Khufu with a load, spent the night at the Pool of Khufu.",
+                "german": "segelnd auf seinem Weg nach Achet-Chufu mit einer Ladung, verbrachte die Nacht am See des Cheops.",
+                "french": "naviguant en route vers Akhet-Khéops avec une cargaison, a passé la nuit au Lac de Khéops.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "progressive_infinitive_with_prepositional_and_temporal_clauses"
+            },
+            "layer4_writing": {
+                "mdc_code": "sm3 wa.t r Axt-xwfw m jnp.t Hr sDr m S-xwfw"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE99015",
+                        "name": "Papyrus Jarf B, Section 1, Cairo Museum",
+                        "type": "papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "smꜣ-wꜣ.t", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "Ꜣḫt-ḫwfw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "jnp.t", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "sḏr", "lemma_ref": null},
+                    {"token_no": 5, "transliteration": "š-ḫwfw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر السادس يوضح عودة السفينة بالحمولة الثقيلة 'ينبت' (jnp.t) المكونة من حجر الجير الطري المخصص لكسوة الهرم الخارجية الفاخرة [1.1.1، 1.3.1]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000103-S07",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-10T13:06:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-103",
+                "sequence_no": 7,
+                "transliteration": "sw 28 wdꜣ m š-ḫwfw sḫs.t r r-ꜣ-ꜣw sḏr m r-ꜣ-ꜣw",
+                "hieroglyph": "𓇳𓎆𓎆𓏤𓏤𓏤𓏤𓏤𓏤𓏤𓏤𓎘𓄿𓐝𓈙𓐍𓅱𓆄𓅱𓋴𓐍𓋴𓏏𓂻𓂋𓂋𓏤𓄿𓄿𓏲𓋴𓂧𓂋𓐝𓂋𓏤𓄿𓄿𓏲",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "اليوم 28: انطلق من ميناء خوفو، مبحراً عائداً إلى طرة، وقضى ليلته في طرة.",
+                "english": "Day 28: Set out from the Pool of Khufu, sailing back to Tura, spent the night at Tura.",
+                "german": "Tag 28: Brach auf vom See des Cheops, zurücksegelnd nach Tura, verbrachte die Nacht in Tura.",
+                "french": "Jour 28: Départ du Lac de Khéops, naviguant de retour vers Tourah, a passé la nuit à Tourah.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "ledger_entry_date_motion_verb_with_source_and_destination"
+            },
+            "layer4_writing": {
+                "mdc_code": "sw 28 wda m S-xwfw sxs.t r r-3-3w sDr m r-3-3w"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE99015",
+                        "name": "Papyrus Jarf B, Section 1, Cairo Museum",
+                        "type": "papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "sw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "wdꜣ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "š-ḫwfw", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "sḫs.t", "lemma_ref": null},
+                    {"token_no": 5, "transliteration": "r-ꜣ-ꜣw", "lemma_ref": null},
+                    {"token_no": 6, "transliteration": "sḏr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر السابع يوثق بداية الأسبوع الحسابي الثاني للشحن [1.1.1]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000103-S08",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-10T13:07:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-103",
+                "sequence_no": 8,
+                "transliteration": "ḥr fꜣ.t jnr m r-ꜣ-ꜣw m-bꜣḥ sꜣ mr-r",
+                "hieroglyph": "𓁷𓏤𓏎𓏏𓊛𓂋𓐝𓂋𓏤𓄿𓄿𓏲𓐝𓄂𓏤𓅓𓋴𓍛𓏤𓂓𓏏𓏥𓌻𓂋𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "مستمراً في تعبئة وتحميل الحجارة في طرة تحت القيادة المباشرة للمفتش ميرير وطاقمه.",
+                "english": "continuing to load stone at Tura under the direction of Inspector Merer.",
+                "german": "weiterhin Steine in Tura ladend unter der Leitung von Inspektor Merer.",
+                "french": "continuant à charger de la pierre à Tourah sous la direction de l'inspecteur Merer.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "adverbial_phrase",
+                "syntax_structure": "progressive_Hr_infinitive_with_directional_agent"
+            },
+            "layer4_writing": {
+                "mdc_code": "Hr fa.t jnr m r-3-3w m-bAH s3 mr-r"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE99015",
+                        "name": "Papyrus Jarf B, Section 1, Cairo Museum",
+                        "type": "papyrus",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "fꜣ.t", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "jnr", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "r-ꜣ-ꜣw", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "m-bꜣḥ", "lemma_ref": null},
+                    {"token_no": 5, "transliteration": "mr-r", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "السطر الثامن يؤكد على الإشراف الشخصي والميداني للمفتش ميرير على طاقم العمال 'سا' (sꜣ) المسؤولين عن الإبحار والنقل [1.1.1، 1.3.1]."
+            }
+        }
+    ]
+}

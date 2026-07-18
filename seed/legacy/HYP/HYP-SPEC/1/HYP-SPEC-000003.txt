@@ -1,0 +1,490 @@
+يسعدني ذلك. وهذه الوثيقة ستكون مختلفة عن سابقتيها.
+
+الوثيقة الأولى عرفت **المشروع**.
+
+الثانية شرحت **الفلسفة**.
+
+أما الثالثة فستجيب على سؤال واحد:
+
+> **ما هو داخل هيباتيا... وما هو خارجها؟**
+
+وهذا أهم قرار هندسي سنأخذه قبل كتابة أي كود.
+
+---
+
+# HYP-SPEC-000003
+
+# Project Scope
+
+**Project:** Hypatia Knowledge Platform
+
+**Document ID:** HYP-SPEC-000003
+
+**Version:** 1.0
+
+**Status:** Foundation Document
+
+**Classification:** Core Specification
+
+---
+
+# 1. Purpose
+
+This document defines the official scope of the Hypatia Knowledge Platform.
+
+It specifies what belongs to Hypatia.
+
+It also specifies what does **not** belong to Hypatia.
+
+Maintaining this boundary is essential to preserve architectural clarity and scientific consistency.
+
+---
+
+# 2. Definition
+
+Hypatia is a structured Knowledge Platform.
+
+Its primary purpose is to preserve, organize, validate, relate, and expose knowledge about ancient civilizations in a machine-readable and human-readable form.
+
+Hypatia is **not** designed as an application.
+
+Applications are consumers of Hypatia.
+
+---
+
+# 3. Primary Domain
+
+The first supported civilization is:
+
+**Ancient Egypt**
+
+Primary writing systems:
+
+* Hieroglyphic
+* Hieratic
+* Demotic
+* Coptic (future stage)
+
+---
+
+# 4. Future Domains
+
+The architecture intentionally supports future civilizations.
+
+Examples include:
+
+* Mesopotamia
+* Sumer
+* Akkad
+* Babylon
+* Assyria
+* Hittites
+* Phoenicia
+* Ancient Greece
+* Ancient Rome
+
+No architectural redesign should be required to support future civilizations.
+
+---
+
+# 5. Core Objects
+
+The following objects are considered first-class citizens inside Hypatia.
+
+---
+
+## Lemma
+
+The linguistic identity of a word.
+
+---
+
+## Story
+
+A complete textual document.
+
+Examples:
+
+Papyrus
+
+Stela
+
+Temple inscription
+
+Letter
+
+Administrative record
+
+Literary text
+
+Medical text
+
+Mathematical text
+
+---
+
+## Source
+
+The physical origin of knowledge.
+
+Examples:
+
+Museum
+
+Publication
+
+Excavation
+
+Papyrus
+
+Book
+
+Journal
+
+---
+
+## Entity
+
+Named objects.
+
+Including:
+
+Kings
+
+Queens
+
+Gods
+
+People
+
+Places
+
+Cities
+
+Regions
+
+Temples
+
+Objects
+
+Ships
+
+Festivals
+
+Documents
+
+Dynasties
+
+Titles
+
+---
+
+## Grammar
+
+Grammar rules.
+
+Morphology.
+
+Syntax.
+
+Writing conventions.
+
+---
+
+## Domain
+
+Knowledge classification.
+
+Examples:
+
+Religion
+
+Medicine
+
+Astronomy
+
+Mathematics
+
+Administration
+
+Military
+
+Architecture
+
+Law
+
+Agriculture
+
+Literature
+
+---
+
+## Relationship
+
+Scientific links between every object.
+
+---
+
+# 6. Secondary Objects
+
+Objects generated automatically.
+
+Examples:
+
+Resolver Results
+
+Search Index
+
+Embeddings
+
+Training Samples
+
+Knowledge Graph Nodes
+
+AI Predictions
+
+Review History
+
+Proposal History
+
+These are system objects.
+
+They never replace the original knowledge.
+
+---
+
+# 7. External Systems
+
+The following are considered external systems.
+
+---
+
+Website
+
+User Interface
+
+Mobile Applications
+
+REST APIs
+
+LLM Assistant
+
+Training Models
+
+Search Engines
+
+Analytics
+
+Visualization Tools
+
+These consume Hypatia.
+
+They are not Hypatia.
+
+---
+
+# 8. Repository Layers
+
+The repository contains multiple logical layers.
+
+Layer 0
+
+Raw Sources
+
+---
+
+Layer 1
+
+Normalized Data
+
+---
+
+Layer 2
+
+Knowledge Cards
+
+---
+
+Layer 3
+
+Resolvers
+
+---
+
+Layer 4
+
+Relationships
+
+---
+
+Layer 5
+
+Knowledge Graph
+
+---
+
+Layer 6
+
+Academic Review
+
+---
+
+Layer 7
+
+Training Pipeline
+
+---
+
+Layer 8
+
+Public Services
+
+---
+
+# 9. What Hypatia Will Never Store
+
+Hypatia intentionally excludes:
+
+Executable programs
+
+Compiled models
+
+Flutter applications
+
+NodeJS services
+
+Temporary cache
+
+Logs
+
+Binary AI weights
+
+Generated responses
+
+Runtime sessions
+
+User preferences
+
+These belong to software repositories.
+
+Not to the knowledge repository.
+
+---
+
+# 10. Scientific Boundary
+
+Hypatia stores knowledge.
+
+It does not publish conclusions.
+
+It does not create historical theories.
+
+It does not resolve scholarly debates.
+
+It documents evidence.
+
+---
+
+# 11. AI Boundary
+
+Artificial Intelligence is a consumer.
+
+It may:
+
+Search.
+
+Summarize.
+
+Translate.
+
+Infer.
+
+Predict.
+
+Suggest.
+
+It may never overwrite the repository.
+
+---
+
+# 12. Community Boundary
+
+Researchers may propose.
+
+Editors may validate.
+
+Reviewers may approve.
+
+Only accepted knowledge becomes canonical.
+
+---
+
+# 13. Scalability Boundary
+
+Every object added to Hypatia must satisfy three conditions.
+
+It must:
+
+be identifiable
+
+be versioned
+
+be relational
+
+If an object cannot satisfy these three conditions,
+
+it does not belong to Hypatia.
+
+---
+
+# 14. Canonical Principle
+
+Every scientific fact stored inside Hypatia must have exactly one canonical identity.
+
+That identity never changes.
+
+Its interpretation may evolve.
+
+Its identifier never does.
+
+---
+
+# 15. Repository Goal
+
+The repository is expected to become the authoritative structured knowledge source from which:
+
+Websites are built.
+
+Search engines operate.
+
+Researchers work.
+
+Artificial Intelligence learns.
+
+Future generations preserve knowledge.
+
+---
+
+# 16. Scope Statement
+
+Hypatia does not aim to become the largest collection of ancient texts.
+
+It aims to become the **best organized scientific knowledge repository** for ancient civilizations.
+
+Quality takes precedence over quantity.
+
+Structure takes precedence over accumulation.
+
+Relationships take precedence over isolated records.
+
+---
+
+# 17. Scope Motto
+
+> **If knowledge cannot be connected, it is not yet complete.**
+
+---
+
+## ملاحظتي الأكاديمية
+
+هذه الوثيقة تغلق بابًا خطيرًا يقع فيه كثير من المشاريع: **تمدد النطاق (Scope Creep)**. منذ اليوم، إذا جاء أحد بعد خمس سنوات وقال: "لنضع ملفات Flutter داخل المستودع" أو "لنخزن النموذج المدرب هنا"، فسيكون الرد بسيطًا: **هذا خارج نطاق هيباتيا وفق HYP-SPEC-000003**. هذه الوثيقة ستوفر عليكم مئات القرارات العشوائية مستقبلًا، وستحافظ على أن يبقى مستودع هيباتيا مستودع معرفة، لا مستودع برمجيات مختلط.

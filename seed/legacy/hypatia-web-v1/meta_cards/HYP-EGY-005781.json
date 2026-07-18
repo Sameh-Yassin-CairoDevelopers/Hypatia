@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-005781",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:40.597141Z"
+    },
+    "layer1_core": {
+        "transliteration": "kAt-Swt",
+        "hieroglyph": "𓂓𓏏𓀋𓆄𓍢𓏏𓈒𓏥",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "نبات الأشنة (طحلب أصفر)",
+        "english": "a lichen",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+13093",
+        "gardiner_code": "D28",
+        "gardiner_description": "Two arms\tPhono. k3. Ideo. for k3 “soul.”",
+        "gardiner_details": "D29"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

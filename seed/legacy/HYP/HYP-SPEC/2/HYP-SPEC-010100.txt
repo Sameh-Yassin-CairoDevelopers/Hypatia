@@ -1,0 +1,602 @@
+ممتاز.
+
+هذه الوثيقة فى رأيي هى أول وثيقة ستؤثر مباشرة على الكود الذى سنكتبه بعد ذلك.
+
+لأنها ستحدد أين يعيش كل شيء داخل المستودع.
+
+وسأكتبها بحيث تكون صالحة حتى بعد عشر سنوات إذا تغيرت لغة البرمجة بالكامل.
+
+---
+
+# HYP-SPEC-010100
+
+# Repository Structure
+
+**Project:** Hypatia Knowledge Platform
+
+**Document ID:** HYP-SPEC-010100
+
+**Version:** 1.0 Founder Edition
+
+**Status:** Official
+
+**Classification:** Architecture
+
+---
+
+# Purpose
+
+This document defines the official structure of the Hypatia Repository.
+
+The Repository is the permanent scientific storage of all structured knowledge.
+
+It is independent from:
+
+* Programming language
+* Database engine
+* Website
+* AI models
+
+The Repository exists to preserve knowledge.
+
+---
+
+# Repository Philosophy
+
+The Repository is organized according to knowledge responsibilities rather than software responsibilities.
+
+Folders represent scientific concepts.
+
+Not programming modules.
+
+---
+
+# Repository Root
+
+```text
+Hypatia/
+```
+
+Everything belongs under one root.
+
+No parallel repositories.
+
+No duplicated structures.
+
+---
+
+# Top-Level Structure
+
+```text
+Hypatia/
+
+├── documentation/
+├── specifications/
+├── repository/
+├── resolvers/
+├── builders/
+├── knowledge_graph/
+├── training/
+├── website/
+├── community/
+├── tools/
+├── tests/
+├── archives/
+└── resources/
+```
+
+---
+
+# documentation/
+
+Contains human-readable documentation.
+
+Examples
+
+Project Guide
+
+Architecture Notes
+
+Research Notes
+
+Developer Guide
+
+User Guide
+
+No executable code.
+
+---
+
+# specifications/
+
+Contains every official specification.
+
+Examples
+
+HYP-SPEC-000001
+
+HYP-SPEC-010000
+
+Future RFC documents
+
+These files define the project.
+
+---
+
+# repository/
+
+The scientific heart of Hypatia.
+
+Contains only canonical knowledge.
+
+---
+
+Structure
+
+```text
+repository/
+
+├── lemmas/
+├── entities/
+├── stories/
+├── sources/
+├── grammar/
+├── domains/
+├── metadata/
+├── relationships/
+├── ontology/
+├── indexes/
+└── revisions/
+```
+
+---
+
+## repository/lemmas/
+
+Stores all Lemma Cards.
+
+Each file represents one Lemma.
+
+---
+
+## repository/entities/
+
+Stores Entity Cards.
+
+Examples
+
+Kings
+
+Queens
+
+Cities
+
+Gods
+
+People
+
+Temples
+
+Objects
+
+Festivals
+
+Ships
+
+Dynasties
+
+---
+
+## repository/stories/
+
+Stores Story Cards.
+
+Examples
+
+Papyrus
+
+Letters
+
+Medical Texts
+
+Literary Works
+
+Administrative Records
+
+---
+
+## repository/sources/
+
+Stores scientific sources.
+
+Museum
+
+Dictionary
+
+Publication
+
+Corpus
+
+Paper
+
+Website
+
+Archive
+
+---
+
+## repository/grammar/
+
+Grammar knowledge.
+
+Morphology
+
+Syntax
+
+Writing Rules
+
+Particles
+
+Verb Classes
+
+Nominal Patterns
+
+---
+
+## repository/domains/
+
+Scientific classifications.
+
+Medicine
+
+Astronomy
+
+Administration
+
+Religion
+
+Military
+
+Mathematics
+
+Architecture
+
+---
+
+## repository/metadata/
+
+Contains Meta Cards.
+
+Not knowledge itself.
+
+Describes knowledge.
+
+---
+
+## repository/relationships/
+
+Stores explicit relationships.
+
+Nothing else.
+
+---
+
+## repository/ontology/
+
+Contains ontology definitions.
+
+Object Models
+
+Class Definitions
+
+Controlled Vocabulary
+
+Semantic Models
+
+---
+
+## repository/indexes/
+
+Generated search indexes.
+
+Never manually edited.
+
+---
+
+## repository/revisions/
+
+Historical revisions.
+
+Every accepted modification becomes a revision.
+
+Nothing is deleted.
+
+---
+
+# resolvers/
+
+Contains every Resolver.
+
+Examples
+
+Lemma Resolver
+
+Entity Resolver
+
+Grammar Resolver
+
+Source Resolver
+
+Domain Resolver
+
+Meta Resolver
+
+Future Resolvers
+
+---
+
+# builders/
+
+Contains every Builder.
+
+Examples
+
+Hypatia Builder
+
+Dataset Builder
+
+Knowledge Builder
+
+Relationship Builder
+
+Meta Builder
+
+Corpus Builder
+
+Training Builder
+
+---
+
+# knowledge_graph/
+
+Graph generation.
+
+Node generation.
+
+Edge generation.
+
+Traversal.
+
+Semantic expansion.
+
+---
+
+# training/
+
+Everything related to AI preparation.
+
+Contains
+
+Curriculum
+
+Datasets
+
+Exports
+
+Tokenizer
+
+Evaluation
+
+Training Configurations
+
+Never stores repository knowledge.
+
+Only generated material.
+
+---
+
+# website/
+
+Public platform.
+
+Contains
+
+Frontend
+
+Backend
+
+API
+
+Search
+
+Dictionary
+
+Story Viewer
+
+Visualization
+
+---
+
+# community/
+
+Everything related to academic participation.
+
+Proposal System
+
+Review System
+
+Voting
+
+Moderation
+
+Scientific Validation
+
+---
+
+# tools/
+
+Internal utilities.
+
+Migration
+
+Import
+
+Repair
+
+Normalization
+
+Statistics
+
+Maintenance
+
+---
+
+# tests/
+
+Every validation.
+
+Unit Tests
+
+Repository Validation
+
+Relationship Validation
+
+Grammar Validation
+
+Consistency Tests
+
+Performance Tests
+
+---
+
+# archives/
+
+Historical snapshots.
+
+Old exports.
+
+Legacy formats.
+
+Migration backups.
+
+Never active knowledge.
+
+---
+
+# resources/
+
+Static resources.
+
+Icons
+
+Images
+
+Fonts
+
+Templates
+
+Logos
+
+Reference Files
+
+---
+
+# Repository Ownership
+
+Each folder has exactly one responsibility.
+
+No folder may duplicate another folder.
+
+---
+
+# Scientific Rule
+
+Knowledge lives only inside:
+
+```text
+repository/
+```
+
+Everything else either:
+
+Consumes knowledge
+
+Produces knowledge
+
+Indexes knowledge
+
+Reviews knowledge
+
+Displays knowledge
+
+Trains from knowledge
+
+But only the Repository owns knowledge.
+
+---
+
+# Data Ownership
+
+| Folder          | Owns Data |
+| --------------- | --------- |
+| repository      | YES       |
+| resolvers       | NO        |
+| builders        | NO        |
+| knowledge_graph | NO        |
+| training        | NO        |
+| website         | NO        |
+| community       | NO        |
+| tests           | NO        |
+| tools           | NO        |
+
+---
+
+# Repository Principle
+
+If a file cannot be classified into one of these folders...
+
+It probably should not exist.
+
+---
+
+# Long-Term Goal
+
+The Repository must remain understandable even if every surrounding technology changes.
+
+It is expected to survive:
+
+Programming languages.
+
+Databases.
+
+AI models.
+
+Operating systems.
+
+Frameworks.
+
+Future generations should still understand where every scientific object belongs.
+
+---
+
+# Repository Motto
+
+> **One Repository. One Truth. One Home For Knowledge.**
+
+---
+
+# Founder Statement
+
+The Repository is not the storage of files.
+
+It is the memory of Hypatia.
+
+Everything else is replaceable.
+
+The Repository is not.
+
+---
+
+## تقييمي الأكاديمي
+
+أرى أن هذه الوثيقة تؤسس لفكرة مهمة جدًا: **التمييز بين "امتلاك المعرفة" و"استخدام المعرفة"**. كثير من المشاريع تخلط بين البيانات، والخدمات، والنماذج، والواجهات في مستودع واحد. أما هنا، فالمعرفة لها منزل واحد فقط هو `repository/`، وكل ما حوله يعمل لخدمته. هذا القرار سيجعل المشروع أكثر قابلية للصيانة، وأسهل في المراجعة الأكاديمية، وأوضح لأي باحث أو مطور ينضم إليه مستقبلًا.

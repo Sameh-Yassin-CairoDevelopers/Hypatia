@@ -1,0 +1,473 @@
+ممتاز.
+
+فى رأيى هذه الوثيقة هى **قلب هيباتيا**.
+
+لأن كل ما سبق كان تجهيز المعرفة.
+
+أما هنا...
+
+فتتحول المعرفة إلى **شبكة**.
+
+وهنا يبدأ الفرق الحقيقى بين قاعدة بيانات وقاعدة معرفة (Knowledge Base).
+
+---
+
+# HYP-SPEC-030500
+
+# Knowledge Graph Builder Specification
+
+**Project:** Hypatia Knowledge Platform
+
+**Document ID:** HYP-SPEC-030500
+
+**Version:** 1.0 Founder Edition
+
+**Status:** Official
+
+**Classification:** Core Pipeline
+
+---
+
+# Purpose
+
+The Knowledge Graph Builder constructs the semantic network of Hypatia by transforming resolved Knowledge Objects into an interconnected Knowledge Graph.
+
+Its purpose is to represent not only knowledge itself, but also the relationships, evidence, hierarchy, and contextual links between every object.
+
+---
+
+# Philosophy
+
+Knowledge does not exist as isolated records.
+
+Knowledge exists through relationships.
+
+The Knowledge Graph is therefore the living structure of Hypatia.
+
+---
+
+# Responsibilities
+
+The Knowledge Graph Builder is responsible for
+
+* Creating graph nodes.
+* Creating graph edges.
+* Assigning relationship types.
+* Computing graph connectivity.
+* Recording evidence.
+* Updating graph indexes.
+* Preserving graph history.
+
+It never changes Repository Objects.
+
+---
+
+# Pipeline Position
+
+```text
+Resolved Knowledge
+        │
+        ▼
+Knowledge Graph Builder
+        │
+        ▼
+Knowledge Graph
+        │
+        ▼
+Repository Services
+```
+
+---
+
+# Fundamental Principle
+
+Every Knowledge Object becomes a Node.
+
+Every scientifically justified relationship becomes an Edge.
+
+---
+
+# Graph Components
+
+## Nodes
+
+Every official Knowledge Object is represented as a graph node.
+
+Examples
+
+* Dictionary Card
+* Entity Card
+* Story Card
+* Grammar Card
+* Domain Card
+* Source Card
+* Meta Card
+
+---
+
+## Edges
+
+Edges represent relationships.
+
+Every edge contains scientific evidence.
+
+---
+
+# Node Identity
+
+Each node contains
+
+```text
+node_id
+
+object_type
+
+object_id
+
+canonical_name
+
+revision
+
+status
+```
+
+---
+
+# Edge Identity
+
+Each edge contains
+
+```text
+edge_id
+
+source_node
+
+target_node
+
+relation_type
+
+confidence
+
+evidence
+
+revision
+```
+
+---
+
+# Relationship Categories
+
+The graph supports multiple relationship families.
+
+---
+
+## Lexical Relations
+
+Examples
+
+* synonym
+* variant
+* derived_from
+* belongs_to_lemma
+* orthographic_variant
+
+---
+
+## Semantic Relations
+
+Examples
+
+* means
+* refers_to
+* equivalent
+* broader_than
+* narrower_than
+
+---
+
+## Historical Relations
+
+Examples
+
+* ruled
+* built
+* discovered
+* located_at
+* belongs_to_period
+
+---
+
+## Grammatical Relations
+
+Examples
+
+* modifies
+* governs
+* precedes
+* follows
+* agrees_with
+
+---
+
+## Narrative Relations
+
+Examples
+
+* appears_in_story
+* mentioned_with
+* quotation_of
+* continuation_of
+
+---
+
+## Source Relations
+
+Examples
+
+* documented_by
+* translated_by
+* cited_by
+* verified_by
+
+---
+
+## Domain Relations
+
+Examples
+
+* belongs_to_domain
+* overlaps_domain
+* interdisciplinary_with
+
+---
+
+# Graph Construction Process
+
+```text
+Resolved Object
+
+↓
+
+Extract Nodes
+
+↓
+
+Extract Edges
+
+↓
+
+Validate Evidence
+
+↓
+
+Compute Confidence
+
+↓
+
+Insert Graph
+
+↓
+
+Update Indexes
+```
+
+---
+
+# Evidence Requirement
+
+Every Edge must contain
+
+* Evidence
+* Origin
+* Resolver Trace
+* Confidence
+
+Edges without evidence are rejected.
+
+---
+
+# Confidence Model
+
+Every relationship receives
+
+```text
+confidence_score
+```
+
+Confidence is derived from
+
+* Resolver agreement
+* Source quality
+* Grammar consistency
+* Historical evidence
+* Community verification
+
+---
+
+# Graph Integrity
+
+Before insertion
+
+The Builder verifies
+
+* Node existence
+* Edge validity
+* Circular dependency rules
+* Duplicate edges
+* Broken references
+
+---
+
+# Graph Versioning
+
+Every graph modification creates
+
+```text
+graph_revision
+```
+
+Previous graph states remain reproducible.
+
+---
+
+# Graph Indexes
+
+Automatically generated indexes include
+
+* Entity Index
+* Lemma Index
+* Story Index
+* Domain Index
+* Relation Index
+* Source Index
+
+Indexes accelerate navigation without modifying the graph itself.
+
+---
+
+# Repository Location
+
+```text
+repository/
+
+knowledge_graph/
+```
+
+---
+
+# Output
+
+Produces
+
+```text
+Knowledge Graph
+```
+
+Ready for
+
+* Website navigation
+* Research queries
+* AI training
+* Semantic exploration
+* Future reasoning
+
+---
+
+# Graph Services
+
+The Knowledge Graph supports
+
+* Neighbor discovery
+* Path finding
+* Context expansion
+* Semantic traversal
+* Similarity search
+* Relationship ranking
+
+---
+
+# AI Position
+
+Artificial Intelligence consumes the Knowledge Graph.
+
+It never rebuilds it.
+
+Future reasoning engines operate above the graph.
+
+---
+
+# Community Position
+
+Community proposals never alter the graph directly.
+
+Accepted revisions regenerate affected graph segments.
+
+---
+
+# Metrics
+
+Automatically generated
+
+```text
+nodes_created
+
+edges_created
+
+relation_types
+
+average_degree
+
+graph_density
+
+isolated_nodes
+
+execution_time
+```
+
+---
+
+# Long-Term Objective
+
+The Knowledge Graph becomes the semantic backbone of Hypatia.
+
+Every application—including the website, APIs, search engine, AI models, and future reasoning systems—interacts with knowledge through this graph.
+
+---
+
+# Scientific Law
+
+Objects preserve knowledge.
+
+Relations preserve meaning.
+
+The graph preserves understanding.
+
+---
+
+# Pipeline Motto
+
+> **Knowledge Lives Between Nodes.**
+
+---
+
+# Founder Statement
+
+Civilizations are remembered not only through their words, but through the invisible connections between people, places, texts, beliefs, languages, and time.
+
+The Knowledge Graph is the structure that reveals these connections.
+
+It transforms isolated discoveries into an interconnected scientific universe where every object becomes meaningful through its relationships.
+
+Hypatia therefore preserves not only knowledge, but the architecture of knowledge itself.
+
+---
+
+# Academic Notes
+
+The Knowledge Graph Builder intentionally separates semantic connectivity from Repository storage.
+
+Repository Objects remain immutable scientific records.
+
+The graph provides a dynamic semantic representation that can evolve independently through new evidence, improved resolution algorithms, and future reasoning engines.
+
+This separation guarantees reproducibility, explainability, and long-term scalability while preserving the integrity of the underlying scientific archive.

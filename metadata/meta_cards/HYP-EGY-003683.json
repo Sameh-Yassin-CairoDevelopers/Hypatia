@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-003683",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:37.426770Z"
+    },
+    "layer1_core": {
+        "transliteration": "Hapy",
+        "hieroglyph": "𓎛𓂝𓊪𓈗𓎛𓊪𓈘𓎛𓂝𓊪𓏭𓈘𓎛𓂝𓊪𓏭𓈘𓈗𓀭𓎛𓂝𓊪𓂋𓈗𓈙𓏥𓎛𓂋𓊪𓈙𓀭𓁷𓊪",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "الإله حعبي (النيل)",
+        "english": "nile (as god)",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+1339B",
+        "gardiner_code": "unknown",
+        "gardiner_description": "unknown",
+        "gardiner_details": "unknown"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

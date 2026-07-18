@@ -1,0 +1,168 @@
+{
+    "text_id": "EGY-324",
+    "metadata": {
+        "title_ar": "نص الساعة المائية بالكرنك لأمنحتب الثالث",
+        "title_en": "The Karnak Clepsydra Text of Amenhotep III",
+        "museum_catalog_no": "Egyptian Museum Cairo JE 37525 (Outer Vessel Inscriptions)",
+        "stable_tla_id": "unknown"
+    },
+    "sentences": [
+        {
+            "metadata": {
+                "id": "HYP-TXT-000324-S01",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T21:49:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-324",
+                "sequence_no": 1,
+                "transliteration": "jr.n=f m mnw=f n jt=f jmn-rˁ nb nst.t tꜣwy",
+                "hieroglyph": "𓁹𓈖𓆑𓐝𓏠𓈖𓏲𓆑𓈖𓇋𓏏𓏤𓆑𓇋𓏠𓈖𓇳𓎟𓊨𓏏𓏥𓇾𓇾",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 1: لقد صنع وشيّد جلالته هذا الصرح والأثر الفلكي العظيم لوالده الإله (آمون-رع)، سيد عروش الأرضين،",
+                "english": "Line 1: He made it as his monument for his father Amun-Re, Lord of the Thrones of the Two Lands,",
+                "german": "Zeile 1: Er machte es als sein Denkmal für seinen Vater Amun-Re, den Herrn der Throne der Beiden Länder,",
+                "french": "Ligne 1: Il l'a fait comme son monument pour son père Amon-Rê, Seigneur des Trônes des Deux Terres,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n=f_transitive_introducing_royal_dedication_monument"
+            },
+            "layer4_writing": {
+                "mdc_code": "jr.n=f m mnw=f n jt=f jmn-ra nb nst.t t3wy"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE37525",
+                        "name": "Karnak Alabaster Clepsydra Vessel, Cairo Museum",
+                        "type": "alabaster_clock",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jr.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mnw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "jmn-rˁ", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "nb-nst.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "صيغة الإهداء الملكية التقليدية لإنشاء الأثر 'إر-ن-إف إم منو-إف' (jr.n=f m mnw=f) وتظهر هنا مخصصة لمعبد الكرنك بـ طيبة [1.2.7]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000324-S02",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T21:50:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-324",
+                "sequence_no": 2,
+                "transliteration": "ḥr jrt wn.wt n.t grḥ m-mtr",
+                "hieroglyph": "𓁷𓏤𓁹𓏏𓅱𓈖𓏏𓏤𓈖𓏏𓎼𓋋𓐝𓌳𓏏𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 2: المنوط به حساب وصناعة وتدفق الساعات الليلية الاثني عشر بدقة هندسية تامة ويقين،",
+                "english": "Line 2: which is for making and calculating the hours of the night precisely,",
+                "german": "Zeile 2: welches der genauen Erfassung und Berechnung der Nachtstunden dient,",
+                "french": "Ligne 2: qui sert à faire et calculer les heures de la nuit précisément,",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "adverbial_phrase",
+                "syntax_structure": "progressive_Hr_infinitive_with_objective_hours_genitive"
+            },
+            "layer4_writing": {
+                "mdc_code": "Hr jrt wn.wt n.t grh m-mtr"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE37525",
+                        "name": "Karnak Alabaster Clepsydra Vessel, Cairo Museum",
+                        "type": "alabaster_clock",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "jrt", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "wn.wt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "grḥ", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "m-mtr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ 'ونوت' (wn.wt) يعني ساعة زمنية، وتعتمد الآلة فيزيائياً على تدفق مياه الإناء من ثقب سفلي صغير لحساب الساعات الـ 12 بدقة 'م-متر' (m-mtr) [3.1.5]."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-000324-S03",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-11T21:51:00.000000Z"
+            },
+            "layer1_core": {
+                "text_id": "EGY-324",
+                "sequence_no": 3,
+                "transliteration": "r rḏj.t rḫ=sn sštꜣ n p.t m-bꜣḥ nsw-bỉty nb-mꜣˁ.t-rˁ dỉ ˁnḫ",
+                "hieroglyph": "𓂋𓂞𓏏𓂋𓐍𓋴𓈖𓋴𓍷𓏏𓄿𓈖𓇯𓐝𓄂𓏤𓇓𓏏𓆤𓏏𓎟𓐙𓂝𓏏𓇳𓂞𓋹",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "السطر 3: لكي يتعرف الكهنة والمرصدة على أسرار وحركة نجوم السماء أمام جلالة ملك مصر العليا والسفلى (نب-ماعت-رع) [أمنحتب الثالث]، المعطى الحياة.",
+                "english": "Line 3: to let them know the secrets of heaven before the King of Upper and Lower Egypt: Nebmaatre (Amenhotep III), given life.",
+                "german": "Zeile 3: um ihnen die Geheimnisse des Himmels vor dem König von Ober- und Unterägypten: Nebmaatre (Amenhotep III.), dem Leben gegeben ist, kundzutun.",
+                "french": "Ligne 3: pour leur faire connaître les secrets du ciel devant le Roi de Haute et Basse-Égypte : Nebmaâtrê (Amenhotep III), doué de vie.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "infinitive_r_purpose_clause_with_royal_serekh_beneficiary"
+            },
+            "layer4_writing": {
+                "mdc_code": "r rdj.t rX=sn sSt3 n p.t m-bAH nsw-bity nb-ma_at-ra di anx"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-CAIRO-JE37525",
+                        "name": "Karnak Alabaster Clepsydra Vessel, Cairo Museum",
+                        "type": "alabaster_clock",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "rḏj", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "rḫ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "sštꜣ", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "p.t", "lemma_ref": null},
+                    {"token_no": 5, "transliteration": "nb-mꜣˁ.t-rˁ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ 'سشتا ن بت' (sštꜣ n p.t) يعني 'أسرار أو خبايا السماء'، وهو يعكس استخدام الساعة المائية الفلكية في الكرنك لضبط مواقيت الصلوات والقرابين الليلية الدقيقة للكهنة والملك [1.2.7، 3.1.5]."
+            }
+        }
+    ]
+}

@@ -1,0 +1,1185 @@
+{
+    "text_id": "EGY-009",
+    "metadata": {
+        "title_ar": "الملك نيفركارع والقائد ساسينيت",
+        "title_en": "King Neferkare and General Sasenet",
+        "museum_catalog_no": "Berlin Papyrus fragments",
+        "stable_tla_id": "text-neferkare-sasenet"
+    },
+    "sentences": [
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-009-0001",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:40:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-009",
+                "sequence_no": 1,
+                "transliteration": "wn.in-f m-ẖt r-f",
+                "hieroglyph": "𓅱𓈖𓇋𓈖𓆑𓐝𓄡𓈖𓏤𓂋𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وقد حدث بعد ذلك",
+                "english": "Now, it happened that",
+                "german": "Nun geschah es danach",
+                "french": "Or, il arriva que",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "wn.in_circumstantial_past"
+            },
+            "layer4_writing": {
+                "mdc_code": "wn.in-f m-Xnw r-f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-09",
+                        "name": "Berlin Papyrus fragments",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "wn.in", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "m-ẖt", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التركيب 'ون-إن' يفيد التتابع السردي للأحداث التاريخية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-009-0002",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:40:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-009",
+                "sequence_no": 2,
+                "transliteration": "ḥm n nsw.t-bỉty nfr-kꜣ-rˁ mꜣˁ-ḫrw",
+                "hieroglyph": "𓍛𓏤𓇓𓏏𓆤𓏏𓄤𓎡𓄿𓇳𓐙𓊵𓏏𓊪",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "أن جلالة ملك مصر العليا والسفلى (نيفركارع)، مبرأ الصالح",
+                "english": "the majesty of King Neferkare, justified",
+                "german": "die Majestät des Königs von Ober- und Unterägypten Neferkare, gerechtfertigt",
+                "french": "la majesté du roi de Haute et Basse-Égypte Neferkare, juste de voix",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "royal_titulary"
+            },
+            "layer4_writing": {
+                "mdc_code": "Hm n nsw.t-bity nfr-k3-ra ma_at-xrw"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-09",
+                        "name": "Berlin Papyrus fragments",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḥm", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "nsw.t-bỉty", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "nfr-kꜣ-rˁ", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "mꜣˁ-ḫrw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الملك نيفركارع هو الملك بيبي الثاني من الأسرة السادسة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-009-0003",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:40:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-009",
+                "sequence_no": 3,
+                "transliteration": "ỉw.t r-f pr.w m-ẖnw",
+                "hieroglyph": "𓇋𓅱𓏏𓂋𓆑𓉐𓏤𓄡𓈖𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "خرج من داخل القصر الملكي الداخلي",
+                "english": "went forth from the palace",
+                "german": "aus dem inneren Palast herausging",
+                "french": "sortit de l'intérieur du palais",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw_motion_from_locative"
+            },
+            "layer4_writing": {
+                "mdc_code": "iw.t r-f pr.w m-Xnw"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-09",
+                        "name": "Berlin Papyrus fragments",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ỉw.t", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "pr.w", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "m-ẖnw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "بر تعني القصر المادي أو المسكن الخاص للعائلة المالكة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-009-0004",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:40:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-009",
+                "sequence_no": 4,
+                "transliteration": "nn s nb ḥnˁ=f",
+                "hieroglyph": "𓈖𓈖𓊃𓏤𓎆𓎛𓈖𓂝𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "دون أن يكون هناك أي شخص معه",
+                "english": "without anyone with him",
+                "german": "ohne dass jemand bei ihm war",
+                "french": "sans que personne fût avec lui",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "nn_negation_of_existence_with_prepositional"
+            },
+            "layer4_writing": {
+                "mdc_code": "nn s nb Hna=f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-09",
+                        "name": "Berlin Papyrus fragments",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "nn", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "s", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḥnˁ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الخروج الفردي السري للملك لإخفاء تحركاته عن الحراسة."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-009-0005",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:40:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-009",
+                "sequence_no": 5,
+                "transliteration": "ỉst r-f z r-gsw n pꜣ-ẖnw",
+                "hieroglyph": "𓇋𓋴𓏏𓂋𓆑𓊃𓏤𓂋𓎼𓋴𓅱𓈖𓉐𓏤𓄡𓈖𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وكان هناك رجل واقفاً بالقرب من القصر الملكي الحاكم",
+                "english": "Now, a man was near the palace",
+                "german": "Nun war ein Mann nahe der Residenz",
+                "french": "Or, un homme se trouvait près du palais",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "ist_subject_noun_with_locative_adverbial"
+            },
+            "layer4_writing": {
+                "mdc_code": "ist r-f z r-gsw n p3-Xnw"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-09",
+                        "name": "Berlin Papyrus fragments",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ỉst", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "z", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "r-gsw", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "pꜣ-ẖnw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "اللفظ ز تعني الرجل أو المواطن العادي."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-009-0006",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:40:50.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-009",
+                "sequence_no": 6,
+                "transliteration": "rn=f pw tpy-nfr",
+                "hieroglyph": "𓋴𓂋𓈖𓆑𓊪𓅱𓏏𓊪𓏭𓄤𓆑𓂋",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وكان اسمه (تبي-نفر)",
+                "english": "his name was Tepy-nefer",
+                "german": "sein Name war Tepy-nefer",
+                "french": "son nom était Tepy-nefer",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "noun_subject_with_pw_and_proper_name"
+            },
+            "layer4_writing": {
+                "mdc_code": "rn=f pw tpy-nfr"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-09",
+                        "name": "Berlin Papyrus fragments",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "rn", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "pw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "tpy-nfr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الاسم يعني حرفياً 'الأول الصالح' أو 'الطليعة الطيبة'."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-009-0007",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:41:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-009",
+                "sequence_no": 7,
+                "transliteration": "sꜣ.n-f spr n ḥm=f",
+                "hieroglyph": "𓋴𓄿𓈖𓆑𓋴𓊪𓂋𓈖𓍛𓏤𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فراقب ورصد حركة واقتراب جلالته",
+                "english": "He watched the approach of his majesty",
+                "german": "Er beobachtهte das Nahen Seiner Majestät",
+                "french": "Il observa l'approche de sa majesté",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_with_infinitive_object"
+            },
+            "layer4_writing": {
+                "mdc_code": "s3.n-f spr n Hm=f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-09",
+                        "name": "Berlin Papyrus fragments",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "sꜣ.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "spr", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḥm", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "سأ تعني المراقبة البصرية اللإرادية أو الرصد."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-009-0008",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:41:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-009",
+                "sequence_no": 8,
+                "transliteration": "m-ẖt ỉw.t=f r-f pr.w m grḥ",
+                "hieroglyph": "𓐝𓄡𓈖𓏤𓇋𓅱𓏏𓆑𓂋𓆑𓉐𓏤𓐝𓎼𓂋𓎛",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "عندما خرج في جنح وميقات الليل",
+                "english": "when he went forth in the night",
+                "german": "als er in der Nacht herausging",
+                "french": "quand il sortit de nuit",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_phrase",
+                "syntax_structure": "m-Xt_temporal_infinitive_with_adverbial_night"
+            },
+            "layer4_writing": {
+                "mdc_code": "m-Xt iw.t=f r-f pr.w m grh"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-09",
+                        "name": "Berlin Papyrus fragments",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "m-ẖt", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ỉw.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "grḥ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "غرح تعني الليل أو عتمة الليل."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-009-0009",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:41:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-009",
+                "sequence_no": 9,
+                "transliteration": "nn rd.t rḫ=sn s nb",
+                "hieroglyph": "𓈖𓈖𓂞𓏏𓂋𓐍𓋴𓈖𓊃𓏤𓎆",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "دون أن يسمح لأي شخص بالمعرفة أو الرصد",
+                "english": "without letting anyone know",
+                "german": "ohne jemanden wissen zu lassen",
+                "french": "sans laisser personne savoir",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "nn_negated_infinitive_with_subjunctive_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "nn rd.t rX=sn s nb"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-09",
+                        "name": "Berlin Papyrus fragments",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "nn", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "rd.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "rḫ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التأكيد على سرية التحركات الليلية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-009-0010",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:41:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-009",
+                "sequence_no": 10,
+                "transliteration": "wd.n-f r-f r pr n ỉmy-r mšˁ sꜣsnt",
+                "hieroglyph": "𓎘𓈖𓆑𓂋𓆑𓂋𓉐𓈖𓅓𓂋𓌯𓏥𓋴𓄿𓋴𓈖𓏏",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وتوجه ومضى إلى منزل قائد الجيش (ساسينيت)",
+                "english": "He proceeded to the house of the general Sasenet",
+                "german": "Er begab sich zum Haus des Heerführers Sasenet",
+                "french": "Il se rendit à la maison du général Sasenet",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_motion_with_indirect_noun"
+            },
+            "layer4_writing": {
+                "mdc_code": "wd.n-f r-f r pr n imy-r mS_a s3snt"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-09",
+                        "name": "Berlin Papyrus fragments",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "wd.n-f", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "pr", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ỉmy-r", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "mšˁ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "إيمي-ر مشع تعني حرفياً 'قائد/مدير الجيش'."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-009-0011",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:41:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-009",
+                "sequence_no": 11,
+                "transliteration": "ỉw=f ḥr ḫwḫw n ỉrt dnj.t",
+                "hieroglyph": "𓇋𓅱𓆑𓁷𓏤𓐍𓅱𓐍𓅱𓈖𓁹𓏏𓂧𓈖𓇋𓏏",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وألقى بحصاة صغيرة ليُحدث صوتاً خفيفاً",
+                "english": "He threw a pebble to make a sound",
+                "german": "Er warf einen Kieselstein, um ein Geräusch zu machen",
+                "french": "Il jeta un caillou pour faire du bruit",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "subject_with_Hr_infinitive_progressive"
+            },
+            "layer4_writing": {
+                "mdc_code": "iw=f Hr xwXw n irt dnj.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-09",
+                        "name": "Berlin Papyrus fragments",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ỉw=f", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḫwḫw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "dnj.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "خوخو تعني إلقاء الحصى الخفيف المخصص لإعطاء الإشارة السرية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-009-0012",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:41:50.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-009",
+                "sequence_no": 12,
+                "transliteration": "hꜣ.t-tꜣ rdi.t(w) n=f ỉn sꜣsnt",
+                "hieroglyph": "𓄂𓏤𓇾𓂞𓏏𓅱𓈖𓆑𓇋𓈖𓋴𓄿𓋴𓈖𓏏",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فأنزلت له حبال السلّم المرن بواسطة (ساسينيت)",
+                "english": "and a ladder was let down to him by Sasenet",
+                "german": "und eine Strickleiter wurde ihm von Sasenet herabgelassen",
+                "french": "et une échelle de corde lui fut descendue par Sasenet",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "passive_rdi_with_noun_subject_and_agent_in"
+            },
+            "layer4_writing": {
+                "mdc_code": "h3.t-t3 rdi.t(w) n=f in s3snt"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-09",
+                        "name": "Berlin Papyrus fragments",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "hꜣ.t-tꜣ", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "rdi.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "sꜣsnt", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "حات-تا تشير هنا لحبال السلم المتدلي."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-009-0013",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:42:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-009",
+                "sequence_no": 13,
+                "transliteration": "ts.n-f spr r-f",
+                "hieroglyph": "𓍿𓊃𓈖𓆑𓋴𓊪𓂋𓂋𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "فتسلق وصعد ودخل إليه",
+                "english": "He ascended",
+                "german": "Er stieg hinauf",
+                "french": "Il monta",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_motion_ascent"
+            },
+            "layer4_writing": {
+                "mdc_code": "ts.n-f spr r-f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-09",
+                        "name": "Berlin Papyrus fragments",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ts.n-f", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "spr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "تس تعني الصعود البدني للارتفاعات."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-009-0014",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:42:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-009",
+                "sequence_no": 14,
+                "transliteration": "ỉry.n Hm=f nty m-ẖnw=f",
+                "hieroglyph": "𓁹𓈖𓍛𓏤𓆑𓈖𓏏𓏭𓐝𓄡𓈖𓏤𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وصنع جلالته ما كان يرغب فيه معه داخل بيته",
+                "english": "His majesty did what he desired with him",
+                "german": "Seine Majestät tat, was sie begehrte, mit ihm",
+                "french": "Sa majesté fit ce qu'elle désirait avec lui",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n_subject_noun_with_relative_object"
+            },
+            "layer4_writing": {
+                "mdc_code": "iry.n Hm=f nty m-Xnw=f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-09",
+                        "name": "Berlin Papyrus fragments",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ỉry.n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḥm", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "nty", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "التعبير التقليدي لصياغة الأسرار أو الزيارات الخاصة جداً للملوك."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-009-0015",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:42:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-009",
+                "sequence_no": 15,
+                "transliteration": "m-ẖt ỉry.n-f sḫr.w",
+                "hieroglyph": "𓐝𓄡𓈖𓏤𓁹𓈖𓆑𓋴𓐍𓂋𓅱𓏥",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وبعد أن قضى وأنجز مآربه وتدابيره ورغباته",
+                "english": "after he had done his wishes",
+                "german": "nachdem er seine Pläne ausgeführt hatte",
+                "french": "après qu'il eut accompli ses désirs",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "prepositional_phrase",
+                "syntax_structure": "m-Xt_temporal_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "m-Xnw iry.n-f sxr.w"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-09",
+                        "name": "Berlin Papyrus fragments",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "m-ẖt", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ỉry.n-f", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "sḫr.w", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "سخرو تعني التدابير أو الخطط العاطفية أو الشخصية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-009-0016",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:42:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-009",
+                "sequence_no": 16,
+                "transliteration": "hꜣ.n-f spr r tꜣ",
+                "hieroglyph": "𓄡𓄿𓈖𓆑𓋴𓊪𓂋𓂋𓇾𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "نزل وهبط عائداً إلى الأرض",
+                "english": "he descended to the ground",
+                "german": "stieg er zum Boden hinab",
+                "french": "il descendit à terre",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_motion_descent"
+            },
+            "layer4_writing": {
+                "mdc_code": "h3.n-f spr r t3"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-09",
+                        "name": "Berlin Papyrus fragments",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "hꜣ.n-f", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "spr", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "tꜣ", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "النزول السري المعاكس للصعود."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-009-0017",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:42:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-009",
+                "sequence_no": 17,
+                "transliteration": "wd.n-f r-f r pꜣ-ẖnw",
+                "hieroglyph": "𓎘𓈖𓆑𓂋𓆑𓂋𓉐𓏤𓄡𓈖𓏤",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "ثم مضى وتوجه عائداً إلى القصر الملكي الحاكم",
+                "english": "and he proceeded back to the Residence",
+                "german": "und er begab sich zurück zur Residenz",
+                "french": "et il retourna à la résidence",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "sDmw.n.f_motion_return"
+            },
+            "layer4_writing": {
+                "mdc_code": "wd.n-f r-f r p3-Xnw"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-09",
+                        "name": "Berlin Papyrus fragments",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "wd.n-f", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "pꜣ-ẖnw", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "العودة الآمنة لتفادي كشف الهوية عند الصباح."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-009-0018",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:42:50.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-009",
+                "sequence_no": 18,
+                "transliteration": "tpy-nfr ḥr mꜣ.t ḫpr.t nb.t",
+                "hieroglyph": "𓏏𓊪𓏭𓄤𓆑𓂋𓁷𓏤𓌳𓏏𓐍𓂪𓏏𓎆",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وكان (تبي-نفر) يراقب ويرصد كل ما حدث ويجري",
+                "english": "Tepy-nefer was watching everything that happened",
+                "german": "Tepy-nefer beobachtete alles, was geschah",
+                "french": "Tepy-nefer observait tout ce qui se passait",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "noun_subject_with_Hr_infinitive"
+            },
+            "layer4_writing": {
+                "mdc_code": "tpy-nfr Hr ma.t xpr.t nb.t"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-09",
+                        "name": "Berlin Papyrus fragments",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "tpy-nfr", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "mꜣ.t", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ḫpr.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الشهادة البصرية غير المعلنة للمواطن تبي-نفر."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-009-0019",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:43:00.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-009",
+                "sequence_no": 19,
+                "transliteration": "n ḏd.n-f mdt r s nb",
+                "hieroglyph": "𓈖𓂧𓂧𓈖𓆑𓌃𓏏𓂋𓊃𓏤𓎆",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "ولم ينطق بكلمة أو حوار لأي إنسان في المدينة",
+                "english": "He did not speak a word to anyone",
+                "german": "Er sprach zu niemandem ein Wort",
+                "french": "Il ne dit mot à personne",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "verbal_sentence",
+                "syntax_structure": "n_sDmw.n.f_negation"
+            },
+            "layer4_writing": {
+                "mdc_code": "n Dd.n-f mdt r s nb"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-09",
+                        "name": "Berlin Papyrus fragments",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "n", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "ḏd.n-f", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "mdt", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الالتزام بالسرية خوفاً من العقاب الملكي الصارم لحاملي الأسرار."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-009-0020",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:43:10.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-009",
+                "sequence_no": 20,
+                "transliteration": "ỉw grḥ r-f ḥr spr nb",
+                "hieroglyph": "𓇋𓅱𓎼𓂋𓎛𓂋𓆑𓁷𓏤𓋴𓊪𓂋𓎆",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وليلة بعد ليلة، كان هذا التحرك يحدث دائماً بالتكرار",
+                "english": "Night after night, this happened",
+                "german": "Nacht für Nacht geschah dies",
+                "french": "Nuit après nuit, cela se produisait",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "iw_noun_subject_with_Hr_infinitive"
+            },
+            "layer4_writing": {
+                "mdc_code": "iw grH r-f Hr spr nb"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-09",
+                        "name": "Berlin Papyrus fragments",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "iw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "grḥ", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "spr", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الاعتياد على نمط السلوك الليلي غير المألوف للملك."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-009-0021",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:43:20.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-009",
+                "sequence_no": 21,
+                "transliteration": "ḥm n nsw.t ḥr ỉry.t r-f",
+                "hieroglyph": "𓍛𓏤𓈖𓇓𓏏𓁷𓏤𓁹𓏏𓂋𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "وكان جلالة الملك يفعل ويصنع هذا التحرك سراً",
+                "english": "The majesty of the king was doing this",
+                "german": "Die Majestät des Königs tat dies",
+                "french": "La majesté du roi faisait cela",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "noun_subject_with_Hr_infinitive_progress"
+            },
+            "layer4_writing": {
+                "mdc_code": "Hm n nsw Hr iry.t r-f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-09",
+                        "name": "Berlin Papyrus fragments",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "ḥm", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "nswt", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "ỉry.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "استمرار السلوك الشخصي السري للملك."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-009-0022",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:43:30.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-009",
+                "sequence_no": 22,
+                "transliteration": "nn nhw n wd.t=f",
+                "hieroglyph": "𓈖𓈖𓈖𓎛𓅱𓈖𓎘𓏏𓆑",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "دون أن يكون هناك أي نقص أو تقصير في واجباته وقراراته الرسمية نهاراً",
+                "english": "without any decrease in his duties",
+                "german": "ohne jede Minderung seiner Pflichten",
+                "french": "sans aucune diminution de ses devoirs",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "nn_negated_noun_with_genitive"
+            },
+            "layer4_writing": {
+                "mdc_code": "nn nhw n wd.t=f"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-09",
+                        "name": "Berlin Papyrus fragments",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "nn", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "nhw", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "wd.t", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "ودت تعني التكليفات أو الأوامر الرسمية للمملكة، لبيان التوازن بين حياته الخاصة والرسمية."
+            }
+        },
+        {
+            "metadata": {
+                "id": "HYP-TXT-EGY-009-0023",
+                "schema_version": "1.0",
+                "status": "verified_translation",
+                "created_by": "Hypatia Builder",
+                "created_at": "2026-07-03T13:43:40.000000"
+            },
+            "layer1_core": {
+                "text_id": "EGY-009",
+                "sequence_no": 23,
+                "transliteration": "iw.f pw m Htp mi gm.t m sS",
+                "hieroglyph": "𓇋𓅱𓆑𓊪𓅱𓐝𓊵𓏏𓊪𓐝𓏟𓏏",
+                "entity_type": "sentence"
+            },
+            "layer2_languages": {
+                "arabic": "لقد تم النص وانتهى بسلام كامل، كما وُجد مكتوباً ومسطراً في المخطوط الأصلي للبردية.",
+                "english": "It has come to an end in peace, as it was found in writing.",
+                "german": "Es ist in Frieden zu Ende gegangen, so wie es geschrieben gefunden wurde.",
+                "french": "Cela s'est terminé en paix, comme cela a été trouvé par écrit.",
+                "coptic": "unknown",
+                "akkadian": "unknown"
+            },
+            "layer3_grammar": {
+                "sentence_type": "nominal_sentence",
+                "syntax_structure": "traditional_egyptian_scribal_colophon_clause"
+            },
+            "layer4_writing": {
+                "mdc_code": "iw.f pw m Htp mi gm.t m sS"
+            },
+            "layer5_sources": {
+                "sources": [
+                    {
+                        "id": "MUSEUM-BERLIN-09",
+                        "name": "Berlin Papyrus fragments",
+                        "type": "manuscript",
+                        "status": "verified"
+                    }
+                ]
+            },
+            "layer6_relationships": {
+                "word_tokens": [
+                    {"token_no": 1, "transliteration": "iw.f-pw", "lemma_ref": null},
+                    {"token_no": 2, "transliteration": "Htp", "lemma_ref": null},
+                    {"token_no": 3, "transliteration": "gm.t", "lemma_ref": null},
+                    {"token_no": 4, "transliteration": "sS", "lemma_ref": null}
+                ]
+            },
+            "layer7_research": {
+                "notes": "الخاتمة القياسية لنسخ البرديات من الكَتَبة المصريين لتوكيد الدقة والمطابقة للأصل."
+            }
+        }
+    ]
+}

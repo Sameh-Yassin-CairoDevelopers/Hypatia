@@ -1,0 +1,348 @@
+بكل سرور. وأعتقد أن هذه ستكون أهم وثيقة في المشروع كله، لأنها ستصبح المرجع الذي سنعود إليه كلما اختلفنا في قرار هندسي أو أكاديمي.
+
+---
+
+# HYP-SPEC-000002
+
+# Vision & Philosophy
+
+**Project:** Hypatia
+
+**Document ID:** HYP-SPEC-000002
+
+**Version:** 1.0
+
+**Status:** Foundation Document
+
+**Classification:** Core Specification
+
+---
+
+# 1. Vision
+
+## Hypatia is not a website.
+
+Hypatia is not a dictionary.
+
+Hypatia is not a corpus.
+
+Hypatia is not an AI model.
+
+Hypatia is not a digital library.
+
+Hypatia is not a translation engine.
+
+Hypatia is not a knowledge graph.
+
+Hypatia is the infrastructure that allows all of them to exist together.
+
+Its purpose is to become the permanent scientific repository of ancient languages, preserving every verified linguistic fact, every historical relationship, every textual occurrence, and every scholarly revision in a single coherent system.
+
+---
+
+# 2. Mission
+
+The mission of Hypatia is to construct the first academically structured Knowledge Infrastructure dedicated to ancient languages.
+
+Its objectives are:
+
+* Preserve linguistic heritage.
+* Organize historical knowledge.
+* Reduce duplicated scholarly effort.
+* Allow continuous scientific refinement.
+* Produce machine-readable knowledge.
+* Produce human-readable knowledge.
+* Produce AI-ready knowledge.
+
+---
+
+# 3. Core Philosophy
+
+Knowledge should never be rewritten.
+
+Knowledge should be accumulated.
+
+Every correction must preserve history.
+
+Every interpretation must remain traceable.
+
+Every relation must remain explainable.
+
+Every statement must be attributable to evidence.
+
+Nothing should become a "black box."
+
+---
+
+# 4. The Hypatia Principle
+
+Data comes before software.
+
+Structure comes before algorithms.
+
+Knowledge comes before intelligence.
+
+Relationships come before prediction.
+
+Evidence comes before conclusions.
+
+---
+
+# 5. The Builder Philosophy
+
+Hypatia does not attempt to teach the computer language.
+
+Hypatia teaches the computer knowledge.
+
+Language emerges naturally from structured knowledge.
+
+---
+
+# 6. Scientific Neutrality
+
+Hypatia never decides historical truth.
+
+It records scholarly evidence.
+
+Multiple hypotheses may coexist.
+
+Conflicting interpretations remain preserved.
+
+Consensus is documented.
+
+Minority opinions are documented.
+
+The repository never destroys historical debate.
+
+---
+
+# 7. Knowledge Preservation
+
+Original data is sacred.
+
+Original sources are immutable.
+
+Corrections create new revisions.
+
+Nothing is silently overwritten.
+
+Every change becomes part of scientific history.
+
+---
+
+# 8. The Knowledge Pyramid
+
+Hypatia organizes knowledge into layers.
+
+```
+Raw Sources
+
+↓
+
+Verified Sources
+
+↓
+
+Structured Knowledge
+
+↓
+
+Relationships
+
+↓
+
+Semantic Network
+
+↓
+
+Knowledge Graph
+
+↓
+
+Training Dataset
+
+↓
+
+Artificial Intelligence
+
+↓
+
+Human Interaction
+```
+
+Each layer depends on the previous one.
+
+Higher layers never modify lower layers.
+
+---
+
+# 9. Relationship First
+
+The true value of knowledge is not stored inside individual records.
+
+It emerges from the relationships between them.
+
+A single word has limited value.
+
+A connected word becomes knowledge.
+
+A connected knowledge base becomes intelligence.
+
+---
+
+# 10. Human First
+
+Artificial Intelligence is not the owner of Hypatia.
+
+Researchers are.
+
+Every AI model trained using Hypatia is a consumer of knowledge.
+
+The repository remains the authoritative source.
+
+---
+
+# 11. Continuous Evolution
+
+Hypatia is designed as a living scientific organism.
+
+Every day it may receive:
+
+* new texts
+* new discoveries
+* new translations
+* new grammatical studies
+* new archaeological findings
+* new scholarly proposals
+
+Knowledge is expected to evolve indefinitely.
+
+---
+
+# 12. Community Philosophy
+
+Scientific communities improve knowledge.
+
+They never replace it.
+
+Every proposal passes through review.
+
+Every accepted proposal becomes a documented revision.
+
+Every rejected proposal remains archived.
+
+Nothing disappears.
+
+---
+
+# 13. Training Philosophy
+
+The AI model is not trained directly from historical documents.
+
+It is trained from curated knowledge extracted from those documents.
+
+The repository acts as the scientific teacher.
+
+The model acts as the scientific student.
+
+---
+
+# 14. Separation of Responsibilities
+
+Hypatia deliberately separates responsibilities.
+
+Repository
+
+↓
+
+Knowledge Graph
+
+↓
+
+Resolvers
+
+↓
+
+Training Builder
+
+↓
+
+Language Model
+
+↓
+
+Public Website
+
+Each component evolves independently.
+
+---
+
+# 15. Long-Term Vision
+
+Hypatia begins with Egyptian Hieroglyphs.
+
+Its architecture is intentionally language-independent.
+
+Future supported civilizations include:
+
+* Hieratic
+* Demotic
+* Coptic
+* Cuneiform
+* Akkadian
+* Sumerian
+* Hittite
+* Ugaritic
+* Ancient South Arabian
+* Phoenician
+* Aramaic
+* Ancient Greek
+* Latin
+
+The repository is intended to become a universal infrastructure for extinct languages.
+
+---
+
+# 16. Why "Hypatia"
+
+Hypatia of Alexandria represented the union of mathematics, philosophy, astronomy, and rational inquiry.
+
+She symbolized the preservation and transmission of knowledge without ideological boundaries.
+
+The project bears her name not as a memorial alone, but as a commitment to continue the unfinished mission of organizing human knowledge for future generations.
+
+---
+
+# 17. Motto
+
+> **Knowledge before Intelligence.**
+
+> **Relationships before Prediction.**
+
+> **Evidence before Belief.**
+
+> **Preserve Everything. Explain Everything. Connect Everything.**
+
+---
+
+# 18. Founder Statement
+
+Hypatia is built upon a simple conviction:
+
+> The future of Artificial Intelligence does not begin with larger models.
+
+It begins with better knowledge.
+
+The greatest language model cannot exceed the quality of the knowledge from which it learns.
+
+Therefore, the true foundation of future intelligence is not computation.
+
+It is the careful preservation, organization, validation, and interconnection of human knowledge.
+
+Hypatia exists to build that foundation.
+
+---
+
+## تقييمي الأكاديمي
+
+هذه الوثيقة ليست مجرد "Vision". بل هي **الوثيقة الدستورية (Constitution)** للمشروع. إذا حافظنا على هذا المستوى في بقية المواصفات، فسيصبح مستودع Hypatia قابلًا لأن يفهمه أي باحث أو مطور بعد عشر سنوات دون الحاجة إلى شرح شفهي. وهي ستكون المرجع الذي سنعود إليه عند تصميم كل Resolver، وكل Meta Card، وكل Dataset Builder، وحتى عند تدريب نموذج هيباتيا نفسه.

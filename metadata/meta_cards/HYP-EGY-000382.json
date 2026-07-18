@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-000382",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:33.505753Z"
+    },
+    "layer1_core": {
+        "transliteration": "ii",
+        "hieroglyph": "𓇍𓇋𓂻𓇍𓏭𓂻𓇍𓇋𓏮𓂻𓇍𓇍𓇌𓂻",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "يأتي (للأشخاص)، يحدث (للأشياء)، يعود، يبلغ(السن الكبير)، يقترب (للوقت)",
+        "english": "come (of persons, of things, of old ege, of time, of future events), return",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+131CD",
+        "gardiner_code": "unknown",
+        "gardiner_description": "unknown",
+        "gardiner_details": "unknown"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

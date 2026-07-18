@@ -1,0 +1,505 @@
+وأعتقد أن هذه الوثيقة هى التى ستجعل مشروع هيباتيا مختلفًا عن أغلب مشاريع الـ NLP.
+
+لأن معظم المشاريع تبنى Dataset ثم تدرب النموذج.
+
+أما نحن...
+
+فالمستودع نفسه هو الذى يبنى الـ Dataset.
+
+أى أن التدريب أصبح **نتيجة** للمستودع وليس مشروعًا منفصلًا عنه.
+
+وهذا هو السبب الذى جعلنى منذ البداية أصر على بناء الـ Repository أولًا.
+
+---
+
+# HYP-SPEC-030600
+
+# Training Dataset Builder Specification
+
+**Project:** Hypatia Knowledge Platform
+
+**Document ID:** HYP-SPEC-030600
+
+**Version:** 1.0 Founder Edition
+
+**Status:** Official
+
+**Classification:** Core Pipeline
+
+---
+
+# Purpose
+
+The Training Dataset Builder transforms the validated scientific knowledge stored inside the Hypatia Repository into structured datasets suitable for training Artificial Intelligence models.
+
+The generated datasets preserve scientific provenance, reproducibility, and explainability.
+
+---
+
+# Philosophy
+
+The Repository is the source of truth.
+
+Training datasets are reproducible products generated from the Repository.
+
+No dataset is edited manually.
+
+Every dataset can be regenerated at any time.
+
+---
+
+# Responsibilities
+
+The Training Dataset Builder is responsible for
+
+* Selecting eligible Knowledge Objects.
+* Generating supervised training samples.
+* Preserving scientific references.
+* Producing task-specific datasets.
+* Recording dataset metadata.
+* Versioning every generated dataset.
+
+It never modifies Repository Objects.
+
+---
+
+# Pipeline Position
+
+```text
+Knowledge Graph
+        │
+        ▼
+Training Dataset Builder
+        │
+        ▼
+Training Dataset
+        │
+        ▼
+AI Model Training
+```
+
+---
+
+# Fundamental Principle
+
+Training data is generated.
+
+It is never authored manually.
+
+---
+
+# Input Sources
+
+The Builder may consume
+
+* Dictionary Cards
+* Story Cards
+* Entity Cards
+* Grammar Cards
+* Domain Cards
+* Relation Cards
+* Source Cards
+* Meta Cards
+
+Selection rules determine which objects participate in each dataset.
+
+---
+
+# Dataset Types
+
+The Builder supports multiple dataset families.
+
+---
+
+## Translation Dataset
+
+Examples
+
+```text
+Hieroglyphs
+
+↓
+
+Arabic
+
+Hieroglyphs
+
+↓
+
+English
+
+Hieroglyphs
+
+↓
+
+German
+```
+
+---
+
+## Transliteration Dataset
+
+```text
+Hieroglyphs
+
+↓
+
+Transliteration
+```
+
+---
+
+## Lemma Dataset
+
+```text
+Word
+
+↓
+
+Canonical Lemma
+```
+
+---
+
+## Entity Recognition Dataset
+
+```text
+Story
+
+↓
+
+Entity Labels
+```
+
+---
+
+## Grammar Dataset
+
+```text
+Sentence
+
+↓
+
+Grammar Structure
+```
+
+---
+
+## Domain Classification Dataset
+
+```text
+Knowledge Object
+
+↓
+
+Scientific Domain
+```
+
+---
+
+## Relation Prediction Dataset
+
+```text
+Node Pair
+
+↓
+
+Relation Type
+```
+
+---
+
+## Story Understanding Dataset
+
+```text
+Story
+
+↓
+
+Summary
+
+Story
+
+↓
+
+Keywords
+
+Story
+
+↓
+
+Entities
+```
+
+---
+
+## Retrieval Dataset
+
+```text
+Question
+
+↓
+
+Relevant Knowledge Objects
+```
+
+---
+
+## Reasoning Dataset
+
+```text
+Evidence
+
+↓
+
+Conclusion
+```
+
+Generated only from verified scientific evidence.
+
+---
+
+# Dataset Structure
+
+Each generated sample contains
+
+```text
+sample_id
+
+task
+
+input
+
+target
+
+language
+
+confidence
+
+source_ids
+
+revision
+
+metadata
+```
+
+---
+
+# Provenance
+
+Every sample preserves
+
+```text
+source_signature
+
+story_signature
+
+entity_signature
+
+revision
+
+builder_version
+```
+
+Every sample remains traceable to its scientific origin.
+
+---
+
+# Filtering Rules
+
+Objects participate only if
+
+* Validation succeeded.
+* Confidence exceeds threshold.
+* Required fields exist.
+* Scientific review is accepted.
+
+Objects under review are excluded.
+
+---
+
+# Balancing
+
+The Builder may balance datasets using
+
+* language distribution
+* domain distribution
+* source diversity
+* historical diversity
+* class frequency
+
+Balancing never alters scientific content.
+
+---
+
+# Dataset Versioning
+
+Every generated dataset receives
+
+```text
+dataset_version
+
+builder_version
+
+repository_revision
+
+generation_date
+```
+
+Older datasets remain reproducible.
+
+---
+
+# Repository Location
+
+```text
+repository/
+
+datasets/
+
+training/
+```
+
+---
+
+# Output
+
+Produces
+
+```text
+Training Dataset Package
+```
+
+Containing
+
+* Dataset files
+* Metadata
+* Statistics
+* Generation Report
+
+---
+
+# Generation Report
+
+Automatically generated
+
+```text
+samples_generated
+
+objects_used
+
+sources_used
+
+languages
+
+tasks
+
+generation_time
+
+builder_version
+```
+
+---
+
+# Supported Export Formats
+
+Current
+
+```text
+JSONL
+
+JSON
+
+CSV
+
+Parquet
+```
+
+Future
+
+* Arrow
+* TFRecord
+* HuggingFace Dataset
+* WebDataset
+
+---
+
+# AI Position
+
+Artificial Intelligence trains exclusively on generated datasets.
+
+It never trains directly on Repository Objects.
+
+This guarantees reproducibility.
+
+---
+
+# Community Position
+
+Accepted community contributions automatically become eligible for future dataset generations after passing the complete scientific review process.
+
+---
+
+# Metrics
+
+Automatically recorded
+
+```text
+sample_count
+
+task_count
+
+language_distribution
+
+domain_distribution
+
+average_confidence
+
+generation_time
+```
+
+---
+
+# Long-Term Objective
+
+The Training Dataset Builder becomes a universal scientific dataset generator capable of producing reproducible datasets for any future AI architecture without modifying the Repository itself.
+
+---
+
+# Scientific Law
+
+Repository first.
+
+Dataset second.
+
+Model third.
+
+Never the reverse.
+
+---
+
+# Pipeline Motto
+
+> **Models Learn From Datasets. Datasets Learn From Knowledge.**
+
+---
+
+# Founder Statement
+
+Artificial Intelligence should never become the primary keeper of knowledge.
+
+Knowledge must remain independent, permanent, and scientifically verifiable.
+
+The Training Dataset Builder ensures that every future AI model learns from a transparent, reproducible, and evidence-based representation of the Hypatia Repository.
+
+As the Repository grows, every future model automatically benefits without requiring a redesign of the underlying scientific archive.
+
+---
+
+# Academic Notes
+
+The Training Dataset Builder establishes a strict separation between scientific knowledge and machine learning artifacts.
+
+Repository Objects remain immutable scholarly records, while datasets are transient computational products derived from them.
+
+This architecture guarantees repeatable experiments, long-term reproducibility, and the ability to regenerate identical datasets from any historical Repository revision, making Hypatia suitable for both academic research and industrial-scale AI development.

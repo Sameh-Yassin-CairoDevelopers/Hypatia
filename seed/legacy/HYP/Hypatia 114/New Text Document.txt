@@ -1,0 +1,154 @@
+وأعتقد أن هذه ليست مجرد موافقة على اسم.
+
+هذه لحظة اعتمدنا فيها **مفهومًا (Concept)** سيصبح جزءًا من منهج هيباتيا.
+
+وأنا أقترح أن نتعامل معه بنفس الطريقة التى تعاملنا بها مع:
+
+* Knowledge Object
+* Resolver
+* Builder
+* Domain
+
+أى أنه لم يعد "مصطلحًا"، بل أصبح **كيانًا معماريًا رسميًا**.
+
+---
+
+# اعتماد رسمى
+
+## Architectural Concept
+
+# Seed Assets
+
+### Definition
+
+> **Seed Assets are the pre-existing knowledge resources supplied by a repository owner before institutional processing begins. They represent the initial corpus from which the institutional knowledge ecosystem is constructed.**
+
+---
+
+## Characteristics
+
+* Repository-independent.
+* Language-independent.
+* Domain-independent.
+* Builder-independent.
+* Technology-independent.
+
+---
+
+## Typical Examples
+
+* Dictionaries
+* Lexicons
+* Corpora
+* Research notes
+* Metadata collections
+* Translation tables
+* Sign inventories
+* Existing databases
+* CSV datasets
+* JSON collections
+* XML archives
+* Markdown documentation
+* OCR outputs
+* Images prepared for import
+* Any structured or semi-structured knowledge resource
+
+---
+
+## Processing Lifecycle
+
+```text
+Seed Assets
+
+↓
+
+Import
+
+↓
+
+Normalization
+
+↓
+
+Cleaning
+
+↓
+
+Resolution
+
+↓
+
+Knowledge Graph Construction
+
+↓
+
+Institutional Knowledge
+```
+
+---
+
+## Architectural Position
+
+Seed Assets are **outside** the institutional repository lifecycle until they successfully complete the institutional import pipeline.
+
+---
+
+## Important Principle
+
+Institutional Knowledge shall **never** be created directly.
+
+It shall always originate from one or more validated Seed Assets.
+
+---
+
+## Repository Independence
+
+Every repository created using Hypatia may provide its own Seed Assets.
+
+The framework shall never assume:
+
+* language;
+* writing system;
+* ontology;
+* schema;
+* academic discipline.
+
+Only the processing pipeline is standardized.
+
+---
+
+# لماذا أعتبر هذه الفكرة كبيرة؟
+
+لأنها تجعل هيباتيا **منصة** وليست مشروعًا.
+
+فبدلاً من أن نقول:
+
+> هيباتيا = مشروع للهيروغليفية.
+
+نصبح نقول:
+
+> هيباتيا = مؤسسة تستطيع استقبال أى Seed Assets وتحويلها إلى Knowledge Repository.
+
+وهذا فرق فلسفى ومعمارى كبير.
+
+---
+
+# وأريد أن أسجل شيئًا سأعتبره من المبادئ المؤسسة
+
+## Seed First Principle (SFP)
+
+> **Every institutional repository begins with Seed Assets rather than empty structures.**
+
+هذا المبدأ بسيط، لكنه يغير طريقة التفكير بالكامل.
+
+---
+
+## اقتراح تنفيذى
+
+أرى أن هذا المفهوم لم يعد مجرد تعليق فى المحادثة، بل يستحق أن يكون **مستندًا رسميًا** ضمن HYP-SPEC، لأن كل الـ Builders والـ Pipelines والـ Import Guide ستعتمد عليه.
+
+وأقترح أن يكون له مستند مستقل مثل:
+
+**HYP-SPEC-080100 — Seed Assets Specification**
+
+وليس داخل مرحلة التنفيذ، بل ضمن مواصفات المؤسسة نفسها، لأنه أصبح جزءًا من لغة هيباتيا الرسمية، وسيحتاج إليه كل من سيبنى مستودعًا باستخدام المنهج بعدنا. أعتقد أن هذه واحدة من الأفكار التى ستبقى فى هيباتيا لسنوات، لأنها لا تخص الهيروغليفية، بل تخص **كيفية ولادة أى مستودع معرفى**.

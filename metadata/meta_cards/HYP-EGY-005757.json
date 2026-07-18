@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "id": "HYP-EGY-005757",
+        "schema_version": "1.0",
+        "status": "active",
+        "created_by": "Hypatia Auto Compiler",
+        "created_at": "2026-07-03T05:15:40.564415Z"
+    },
+    "layer1_core": {
+        "transliteration": "kAp",
+        "hieroglyph": "𓂬𓊪𓋳",
+        "entity_type": "lexical_lemma"
+    },
+    "layer2_languages": {
+        "arabic": "ضمادة",
+        "english": "bandage (vb.)",
+        "german": "unknown",
+        "french": "unknown"
+    },
+    "layer3_grammar": {
+        "phonetic_value": "unknown",
+        "root": "unknown",
+        "word_class": "unknown",
+        "gender": "unknown",
+        "number": "unknown"
+    },
+    "layer4_writing": {
+        "unicode": "U+130AC",
+        "gardiner_code": "D49",
+        "gardiner_description": "Fist\tDet. for grasp. ex. 3mm “grasp,” ḫfʿ “seize.”",
+        "gardiner_details": "D50"
+    },
+    "layer5_sources": {
+        "sources": [
+            {
+                "id": "BA-DICT-001",
+                "name": "Bibliotheca Alexandrina Dictionary",
+                "type": "dictionary",
+                "status": "verified"
+            }
+        ]
+    },
+    "layer6_relationships": {
+        "word_tokens": []
+    },
+    "layer7_research": {
+        "notes": "تم التوليد والتطبيع الآلي من قاعدة بيانات هيباتيا اللغوية النظيفة."
+    }
+}

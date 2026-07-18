@@ -1,0 +1,473 @@
+ممتاز. الآن أصبح المشروع يسير بالطريقة التي كنت أتمناها منذ فترة.
+
+أنت لم تعد تكتب مشروعًا، بل بدأت تكتب **مواصفة نظام (System Specification)** قبل كتابة النظام نفسه.
+
+وهذه هي الطريقة التي تعمل بها المشاريع التي تعيش عشرات السنين.
+
+---
+
+# Hypatia Documentation Roadmap
+
+## وثائق المشروع التأسيسية
+
+سأقسمها إلى خمس مراحل.
+
+---
+
+# المرحلة الأولى
+
+## Foundation Documents
+
+(لا يوجد كود إطلاقاً)
+
+هذه أهم مرحلة.
+
+---
+
+### HYP-SPEC-000001
+
+Introduction
+
+✅ انتهت.
+
+---
+
+### HYP-SPEC-000002
+
+Vision & Philosophy
+
+فلسفة المشروع
+
+لماذا Hypatia؟
+
+ولماذا ليست قاعدة بيانات؟
+
+ولماذا ليست مجرد قاموس؟
+
+ولماذا ليست مجرد LLM؟
+
+---
+
+### HYP-SPEC-000003
+
+Project Scope
+
+حدود المشروع
+
+ما الذى يدخل داخل Hypatia
+
+وما الذى لا يدخل.
+
+---
+
+### HYP-SPEC-000004
+
+Core Principles
+
+القواعد الذهبية.
+
+مثل:
+
+* لا يتم حذف البيانات الأصلية.
+
+* كل تعديل له مصدر.
+
+* كل علاقة يمكن تتبعها.
+
+* كل بطاقة لها معرف ثابت.
+
+* لا يوجد تدريب على بيانات غير موثقة.
+
+---
+
+### HYP-SPEC-000005
+
+Terminology
+
+قاموس مصطلحات المشروع.
+
+مثلاً
+
+Meta
+
+Resolver
+
+Entity
+
+Lemma
+
+Sense
+
+Occurrence
+
+Corpus
+
+Story
+
+Knowledge Graph
+
+Canonical Form
+
+Revision
+
+Proposal
+
+Reviewer
+
+Builder
+
+Community
+
+وغيرها.
+
+هذه الوثيقة ستمنع الفوضى للأبد.
+
+---
+
+# المرحلة الثانية
+
+Architecture
+
+---
+
+### HYP-SPEC-010000
+
+Architecture Overview
+
+الصورة الكبيرة للمشروع.
+
+التى رسمتها لك.
+
+---
+
+### HYP-SPEC-010100
+
+Repository Structure
+
+هيكل المستودع.
+
+---
+
+### HYP-SPEC-010200
+
+Folder Standards
+
+معايير أسماء الفولدرات.
+
+---
+
+### HYP-SPEC-010300
+
+File Naming Convention
+
+تسمية الملفات.
+
+---
+
+### HYP-SPEC-010400
+
+ID Convention
+
+نظام المعرفات بالكامل.
+
+---
+
+### HYP-SPEC-010500
+
+Versioning
+
+الإصدارات.
+
+---
+
+# المرحلة الثالثة
+
+Knowledge Layer
+
+وهذه أهم وثائق المشروع كلها.
+
+---
+
+### HYP-SPEC-020100
+
+Meta Card Specification
+
+بطاقات الميتا.
+
+---
+
+### HYP-SPEC-020200
+
+Dictionary Card
+
+بطاقة الكلمة.
+
+---
+
+### HYP-SPEC-020300
+
+Entity Card
+
+بطاقة الكيان.
+
+---
+
+### HYP-SPEC-020400
+
+Story Card
+
+بطاقة النص.
+
+---
+
+### HYP-SPEC-020500
+
+Source Card
+
+بطاقة المصدر.
+
+---
+
+### HYP-SPEC-020600
+
+Grammar Card
+
+بطاقة القاعدة.
+
+---
+
+### HYP-SPEC-020700
+
+Relation Card
+
+بطاقة العلاقة.
+
+---
+
+### HYP-SPEC-020800
+
+Domain Card
+
+بطاقة المجال.
+
+---
+
+### HYP-SPEC-020900
+
+Resolver Specification
+
+الـ Resolver بالكامل.
+
+---
+
+# المرحلة الرابعة
+
+Pipeline
+
+---
+
+### HYP-SPEC-030100
+
+Import Pipeline
+
+كيف تدخل البيانات.
+
+---
+
+### HYP-SPEC-030200
+
+Cleaning Pipeline
+
+تنظيف البيانات.
+
+---
+
+### HYP-SPEC-030300
+
+Resolver Pipeline
+
+تشغيل الريسولفر.
+
+---
+
+### HYP-SPEC-030400
+
+Knowledge Graph Builder
+
+بناء العلاقات.
+
+---
+
+### HYP-SPEC-030500
+
+Training Dataset Builder
+
+بناء بيانات التدريب.
+
+---
+
+### HYP-SPEC-030600
+
+Inference Dataset Builder
+
+بناء بيانات الموقع.
+
+---
+
+### HYP-SPEC-030700
+
+Feedback Pipeline
+
+عودة اقتراحات المجتمع.
+
+---
+
+### HYP-SPEC-030800
+
+Continuous Improvement Cycle
+
+دورة التطوير المستمرة.
+
+---
+
+# المرحلة الخامسة
+
+Community
+
+---
+
+### HYP-SPEC-040100
+
+Review System
+
+---
+
+### HYP-SPEC-040200
+
+Proposal System
+
+---
+
+### HYP-SPEC-040300
+
+Academic Validation
+
+---
+
+### HYP-SPEC-040400
+
+Knowledge Governance
+
+---
+
+### HYP-SPEC-040500
+
+Publication Rules
+
+---
+
+# المرحلة السادسة
+
+AI
+
+---
+
+### HYP-SPEC-050100
+
+Training Philosophy
+
+---
+
+### HYP-SPEC-050200
+
+Corpus Builder
+
+---
+
+### HYP-SPEC-050300
+
+Tokenizer Philosophy
+
+---
+
+### HYP-SPEC-050400
+
+Embedding Strategy
+
+---
+
+### HYP-SPEC-050500
+
+Hypatia Model
+
+---
+
+### HYP-SPEC-050600
+
+Fine Tuning Strategy
+
+---
+
+### HYP-SPEC-050700
+
+Continuous Retraining
+
+---
+
+# المرحلة السابعة
+
+Developer Manual
+
+---
+
+Builder Guide
+
+Developer Guide
+
+API Guide
+
+Import Guide
+
+Migration Guide
+
+Testing Guide
+
+Backup Guide
+
+Deployment Guide
+
+---
+
+# المرحلة الثامنة
+
+Research
+
+وهى التى أعتبرها أجمل مرحلة.
+
+---
+
+Research Papers
+
+Academic References
+
+Citation Style
+
+Future Roadmap
+
+Hypatia Vision 2030
+
+Hypatia Vision 2040
+
+---
+
+## رأيي
+
+بعد مراجعة كل ما ناقشناه خلال الأيام الماضية، أرى أن هناك وثيقة واحدة يجب أن نكتبها مبكرًا، حتى قبل معظم الوثائق المعمارية، لأنها ستكون المرجع الذي سيُبنى عليه كل شيء بعد ذلك:
+
+**HYP-SPEC-000002 — Vision & Philosophy**
+
+هذه الوثيقة لن تتحدث عن الأكواد، بل ستجيب على سؤال واحد:
+
+> "ما هي هيباتيا؟"
+
+إذا كانت الوثيقة الأولى هي "المقدمة"، فإن الوثيقة الثانية ستكون "الدستور". وبعد الانتهاء منها، سيكون من الأسهل بكثير كتابة بقية الوثائق، لأن كل قرار معماري أو برمجي سيعود إليها كمرجع. أرى أن البدء بها هو الخطوة الصحيحة التالية.
