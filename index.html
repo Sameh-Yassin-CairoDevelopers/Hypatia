@@ -3,142 +3,358 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>بوابة هيباتيا الرقمية الكبرى - لعلوم وتراث اللغة المصرية القديمة</title>
-    
-    <!-- استدعاء ملف التنسيقات المشترك الموحد من مجلد css -->
-    <link rel="stylesheet" href="css/main.css">
-    
-    <!-- جلب مكتبة سوبابيز الرسمية مباشرة من خوادم الـ CDN العالمية لتخطي التثبيت محلياً وأوفلاين -->
+    <title>بوابة هيباتيا الرقمية - تصفح المخطوطات والبرديات</title>
+    <!-- جلب مكتبة سوبابيز الرسمية للاتصال المباشر بقاعدة البيانات سحابياً -->
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    
     <style>
-        /* التنسيق الجمالي الحصري للبوابة الرئيسية الكبرى (Landing Hub) */
-        .portal-container {
+        /* التنسيق الجمالي لثيمات هيباتيا الثلاثة */
+        :root[data-theme="papyrus"] {
+            --bg-color: #f6ecd0;
+            --text-color: #2c2512;
+            --accent-color: #8c6239;
+            --card-bg: #eddcb9;
+            --border-color: #dac7a3;
+            --muted-text: #6d5b3d;
+            --success-color: #2f855a;
+        }
+        :root[data-theme="light"] {
+            --bg-color: #fdfdfd;
+            --text-color: #1a1a1a;
+            --accent-color: #3182ce;
+            --card-bg: #f7fafc;
+            --border-color: #e2e8f0;
+            --muted-text: #718096;
+        }
+        :root[data-theme="dark"] {
+            --bg-color: #121212;
+            --text-color: #e2e8f0;
+            --accent-color: #63b3ed;
+            --card-bg: #1d1d1d;
+            --border-color: #2d3748;
+            --muted-text: #a0aec0;
+        }
+
+        * {
+            box-sizing: border-box;
+            transition: background-color 0.2s, color 0.2s;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            overflow: hidden;
+            direction: rtl;
+            text-align: right;
+        }
+
+        /* ------------------------------------------------------------------------
+           1. بوابة الدخول الكبرى (Portal View)
+           ------------------------------------------------------------------------ */
+        .portal-view {
             flex: 1;
             display: flex;
             flex-direction: column;
-            overflow-y: auto;
             align-items: center;
+            justify-content: center;
             padding: 40px 20px;
+            overflow-y: auto;
         }
 
-        .portal-header-section {
-            text-align: center;
-            max-width: 800px;
-            margin-bottom: 40px;
-        }
-
-        .portal-header-section h1 {
-            font-family: 'Amiri', serif;
-            font-size: 2.2rem;
-            color: var(--accent-color);
-            margin: 0 0 15px 0;
-            line-height: 1.4;
-        }
-
-        .portal-header-section p {
-            font-size: 1.1rem;
-            line-height: 1.6;
-            color: var(--muted-text);
-            margin: 0;
-        }
-
-        /* شبكة عرض البوابات المعرفية السبعة */
-        .gateway-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 25px;
-            width: 100%;
-            max-width: 1200px;
-            margin-bottom: 40px;
-        }
-
-        /* كارت البوابة الفردية بنمطه التفاعلي الأثري الدافئ */
-        .gateway-card {
+        .portal-card {
             background-color: var(--card-bg);
             border: 1px solid var(--border-color);
             border-radius: 8px;
-            padding: 25px;
+            padding: 40px;
+            max-width: 650px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        .portal-card h1 {
+            font-family: 'Amiri', serif;
+            font-size: 2.2rem;
+            color: var(--accent-color);
+            margin: 0 0 20px 0;
+            line-height: 1.4;
+        }
+
+        .portal-card p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: var(--muted-text);
+            margin: 0 0 30px 0;
+        }
+
+        .portal-btn {
+            background-color: var(--accent-color);
+            border: 1px solid var(--accent-color);
+            color: #fff;
+            padding: 12px 30px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-family: 'Amiri', serif;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-decoration: none;
+            transition: opacity 0.2s;
+            display: inline-block;
+        }
+
+        .portal-btn:hover {
+            opacity: 0.9;
+        }
+
+        /* ------------------------------------------------------------------------
+           2. واجهة تصفح وقراءة البرديات (Reader View)
+           ------------------------------------------------------------------------ */
+        .reader-view {
+            display: none; /* مخفية افتراضياً وتفتح بنقرة الزر */
+            flex: 1;
+            flex-direction: column;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .reader-workspace {
+            flex: 1;
+            display: flex;
+            overflow: hidden;
+        }
+
+        /* القائمة الجانبية لتصفح البرديات */
+        .sidebar {
+            width: 280px;
+            min-width: 150px;
+            max-width: 450px;
+            background-color: var(--card-bg);
+            border-left: 1px solid var(--border-color);
             display: flex;
             flex-direction: column;
-            gap: 15px;
-            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.02);
-            position: relative;
-            transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+            padding: 15px;
+            overflow-y: auto;
+            flex: none;
         }
 
-        .gateway-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 15px -3px rgba(0,0,0,0.05);
-            border-color: var(--accent-color);
-        }
-
-        .gateway-card-header {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            border-bottom: 2px solid var(--border-color);
+        .sidebar h2 {
+            font-family: 'Amiri', serif;
+            margin-top: 0;
+            font-size: 1.4rem;
+            border-bottom: 2px solid var(--accent-color);
             padding-bottom: 10px;
         }
 
-        .gateway-icon {
-            font-size: 2rem;
+        .story-link {
+            padding: 10px;
+            margin: 4px 0;
+            border-radius: 6px;
+            cursor: pointer;
+            border: 1px solid transparent;
+            font-family: 'Amiri', serif;
+            font-size: 1.05rem;
         }
 
-        .gateway-card-header h3 {
-            margin: 0;
+        .story-link:hover {
+            background-color: var(--border-color);
+        }
+
+        .story-link.active {
+            background-color: var(--accent-color);
+            color: #fff;
+            font-weight: bold;
+        }
+
+        /* فاصل السحب بالماوس لتغيير عرض القائمة الجانبية */
+        .resize-splitter {
+            width: 6px;
+            background-color: var(--border-color);
+            cursor: col-resize;
+            transition: background-color 0.15s;
+            z-index: 50;
+        }
+        .resize-splitter:hover {
+            background-color: var(--accent-color);
+        }
+
+        .reader-pane {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        /* هيدر القراءة النحيف والثابت في الأعلى */
+        .control-bar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            display: flex;
+            flex-direction: column;
+            background-color: var(--card-bg);
+            padding: 6px 20px;
+            border-bottom: 2px solid var(--border-color);
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+        }
+
+        .control-bar-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        .active-story-title {
             font-family: 'Amiri', serif;
-            font-size: 1.35rem;
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+
+        .header-toggle-btn {
+            background: none;
+            border: none;
+            color: var(--accent-color);
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: bold;
+            padding: 4px;
+        }
+
+        .control-bar-settings {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 10px;
+            border-top: 1px dashed var(--border-color);
+            padding-top: 8px;
+        }
+
+        .control-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .display-filters {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            align-items: center;
+            background-color: var(--bg-color);
+            padding: 5px 12px;
+            border-radius: 6px;
+            border: 1px solid var(--border-color);
+        }
+
+        .filter-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 0.85rem;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .scrollable-content {
+            flex: 1;
+            overflow-y: auto;
+            padding: 20px;
+        }
+
+        .font-sizer {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.85rem;
+        }
+
+        /* كارت الجملة وقراءة السطور - خفيف ومنظم وبخطوط مصغرة لتسهيل القراءة */
+        .sentence-card {
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            padding: 15px 20px;
+            margin-bottom: 25px;
+            border: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .glyphs-display {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            line-height: 1.5;
+            letter-spacing: 1px;
             color: var(--text-color);
         }
 
-        .gateway-description {
-            font-size: 0.95rem;
-            line-height: 1.5;
+        .arabic-display {
+            font-family: 'Amiri', serif;
+            font-size: 1.65rem;
+            font-weight: bold;
+            line-height: 1.4;
+            color: var(--text-color);
+            margin-bottom: 10px;
+        }
+
+        .details-section {
+            border-top: 1px dashed var(--border-color);
+            padding-top: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .detail-row {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            font-size: 0.88rem;
+            line-height: 1.35;
+        }
+
+        .detail-row strong {
+            min-width: 80px;
+            color: var(--text-color);
+            display: inline-block;
+        }
+
+        .detail-row span {
             color: var(--muted-text);
             flex: 1;
         }
 
-        .gateway-action-btn {
-            align-self: stretch;
-            background-color: var(--accent-color);
-            border: 1px solid var(--accent-color);
-            color: #fff;
-            padding: 10px;
+        .theme-btn {
+            background-color: var(--border-color);
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 4px 10px;
             border-radius: 4px;
             cursor: pointer;
-            font-family: 'Amiri', serif;
-            font-size: 1.05rem;
-            font-weight: bold;
-            text-align: center;
-            text-decoration: none;
-            transition: opacity 0.2s;
-        }
-
-        .gateway-action-btn:hover {
-            opacity: 0.9;
-        }
-
-        /* تذييل البوابة */
-        .portal-footer {
-            margin-top: auto;
-            text-align: center;
             font-size: 0.85rem;
-            color: var(--muted-text);
-            border-top: 1px dashed var(--border-color);
-            padding-top: 20px;
-            width: 100%;
-            max-width: 1200px;
+            font-family: 'Amiri', serif;
+            font-weight: bold;
+        }
+
+        .theme-btn:hover {
+            background-color: var(--accent-color);
+            color: #fff;
         }
     </style>
 </head>
 <body>
 
-    <!-- حاوية البوابة الكبرى الموحدة -->
-    <div class="portal-container">
-        
-        <!-- شريط تحويل السمات البصرية العلوي للبوابة الكبرى -->
-        <div class="control-row" style="width: 100%; max-width: 1200px; justify-content: flex-end; margin-bottom: 20px;">
+    <!-- ========================================================================
+       البوابة الأولى والواجهة الرئيسية (Portal View)
+       ======================================================================== -->
+    <div class="portal-view" id="portalView">
+        <div class="control-row" style="width: 100%; max-width: 650px; justify-content: flex-end; margin-bottom: 20px;">
             <div>
                 <button class="theme-btn" onclick="setTheme('papyrus')">ورق بردي 📜</button>
                 <button class="theme-btn" onclick="setTheme('light')">نهاري ☀️</button>
@@ -146,111 +362,306 @@
             </div>
         </div>
 
-        <!-- مقدمة ووصف البوابة الكبرى للمشروع -->
-        <section class="portal-header-section">
-            <h1>بوابة هيباتيا الرقمية الكبرى لعلوم وتراث اللغة المصرية القديمة ✒️</h1>
+        <div class="portal-card">
+            <h1>بوابة هيباتيا للأدب والعلوم المصرية القديمة ✒️</h1>
             <p>
-                مستودع معرفي كلي استنادي وبحثي متكامل يهدف إلى حماية وتحقيق وتدقيق النصوص والمخطوطات الفرعونية الكلاسيكية، 
-                وربطها بقاموس مفردات الـ 6,541 والجراف الدلالي للأعلام والملوك، لتأسيس البنية المعرفية الأرقى لبحوث التراث وموديلات الذكاء الاصطناعي.
+                مستودع معرفي مخصص لعرض وقراءة المخطوطات والبرديات الفرعونية الكلاسيكية، 
+                المتصلة بقاعدة البيانات السحابية سوبابيز، لتقديم أفضل تجربة قراءة ودراسة أكاديمية للنصوص والترجمات المتوازية والملاحظات الأثرية.
             </p>
-        </section>
-
-        <!-- شبكة عرض البوابات والاتجاهات السبعة المحدثة والمعتمدة للمشروع -->
-        <main class="gateway-grid">
-            
-            <!-- 1. بوابة مستكشف المستودع اللغوي (محدثة للإحصاء الحي المباشر من سوبابيز) -->
-            <div class="gateway-card">
-                <div class="gateway-card-header">
-                    <span class="gateway-icon">🔍</span>
-                    <h3>1. مستكشف المستودع اللغوي</h3>
-                </div>
-                <p class="gateway-description" id="statsDisplay">
-                    جاري فحص وقراءة معطيات سحابة Supabase وبناء الإحصاءات المعرفية الحية...
-                </p>
-                <a href="#/explorer" class="gateway-action-btn">استكشف المستودع الفعلي</a>
-            </div>
-
-            <!-- 2. بوابة مستودع المخطوطات والبرديات -->
-            <div class="gateway-card">
-                <div class="gateway-card-header">
-                    <span class="gateway-icon">📖</span>
-                    <h3>2. مستودع المخطوطات والقصص</h3>
-                </div>
-                <p class="gateway-description">
-                    البيئة الأكاديمية التفاعلية الغامرة لتصفح وقراءة البرديات الـ 500، المجهزة بالتحليل اللغوي الموازي، والترجمة المتعددة، وتصدير النصوص المفلترة.
-                </p>
-                <a href="stories.html" class="gateway-action-btn">ابدأ بالقراءة والتحقيق</a>
-            </div>
-
-            <!-- 3. بوابة مرسم تحقيق المخطوطات وتوليد الجيسون -->
-            <div class="gateway-card">
-                <div class="gateway-card-header">
-                    <span class="gateway-icon">✒️</span>
-                    <h3>3. مرسم ومحرر النصوص الكلاسيكية</h3>
-                </div>
-                <p class="gateway-description">
-                    الاستوديو الرقمي المتكامل والمبوب والمحمي لإنشاء وتحرير وتدقيق كروت وجمل المخطوطات سباعية الطبقات وتنزيلها كملفات سليمة 100% محلياً.
-                </p>
-                <a href="studio.html" class="gateway-action-btn">افتح مرسم تحقيق النصوص</a>
-            </div>
-
-            <!-- 4. بوابة المعجم التفاعلي للجذور -->
-            <div class="gateway-card">
-                <div class="gateway-card-header">
-                    <span class="gateway-icon">𓏠</span>
-                    <h3>4. معجم المفردات التفاعلي</h3>
-                </div>
-                <p class="gateway-description">
-                    محرك بحث لغوي مستقل يبحث في قاموس الـ 6,541 مفردة، ويعرض رسوم جاردنر وسياقات ومواضع ظهور الكلمات ومصاحباتها اللفظية في نصوصك.
-                </p>
-                <a href="#/dictionary" class="gateway-action-btn">تصفح معجم المفردات</a>
-            </div>
-
-            <!-- 5. بوابة مختبر الذكاء الاصطناعي للترجمة والتحليل -->
-            <div class="gateway-card">
-                <div class="gateway-card-header">
-                    <span class="gateway-icon">🧪</span>
-                    <h3>5. مختبر الترجمة والتحليل بالذكاء الاصطناعي</h3>
-                </div>
-                <p class="gateway-description">
-                    بيئة تفاعلية لاختبار ترجمة الموديل اللغوي (LLM) للجمل العشوائية، وحل قواعدها نحوياً وصرفياً عبر الأوزان المدربة والمصقولة لمشروع هيباتيا.
-                </p>
-                <a href="#/ai_lab" class="gateway-action-btn">افتح مختبر الذكاء الاصطناعي</a>
-            </div>
-
-            <!-- 6. بوابة الجراف المعرفي المرئي للروابط دلالياً -->
-            <div class="gateway-card">
-                <div class="gateway-card-header">
-                    <span class="gateway-icon">🕸️</span>
-                    <h3>6. جراف العلاقات المعرفية المرئي</h3>
-                </div>
-                <p class="gateway-description">
-                    الرسم البياني الديناميكي والمتحرك لرصد العلاقات الدلالية (الكيان إلى الكيان) عِبر المخطوطات والملوك والآلهة والمدن لربط شبكة المعرفة الكلية.
-                </p>
-                <a href="#/knowledge_graph" class="gateway-action-btn">تصفح جراف العلاقات المعرفية</a>
-            </div>
-
-            <!-- 7. بوابة مركز النموذج والتدريب والمعايرة -->
-            <div class="gateway-card">
-                <div class="gateway-card-header">
-                    <span class="gateway-icon">💾</span>
-                    <h3>7. مركز النموذج اللغوي والتدريب</h3>
-                </div>
-                <p class="gateway-description">
-                    بوابة أرشفة أوزان التدريب المعتمدة، وتصدير مصفوفات البيانات المنقحة والمصححة (JSONL)، ومراقبة مؤشرات دقة النموذج والمصنفات اللغوية.
-                </p>
-                <a href="#/model_center" class="gateway-action-btn">افتح مركز النموذج والتدريب</a>
-            </div>
-
-        </main>
-
-        <!-- تذييل المنصة الاستنادية الكبرى -->
-        <footer class="portal-footer">
-            <p>جميع الحقوق محفوظة © مشروع هيباتيا الرقمي لعلوم وتراث اللغة المصرية القديمة - 2026</p>
-        </footer>
+            <button class="portal-btn" onclick="switchToReaderMode()">📖 مستودع القراءة (تصفح المخطوطات)</button>
+        </div>
     </div>
 
-    <!-- استدعاء سكريبت البوابة للتوجيه وحفظ تفضيلات السمات -->
-    <script src="js/portal.js"></script>
+    <!-- ========================================================================
+       البوابة الثانية وواجهة القراءة والتحقيق (Reader View)
+       ======================================================================== -->
+    <div class="reader-view" id="readerView">
+        <div class="reader-workspace">
+            
+            <!-- القائمة الجانبية لتصفح البرديات من السحابة -->
+            <div class="sidebar" id="sidebar">
+                <h2>برديات هيباتيا</h2>
+                <div id="storiesList">
+                    <p style="font-size: 0.85rem; color: var(--muted-text);">جاري فحص قاعدة البيانات السحابية...</p>
+                </div>
+            </div>
+
+            <!-- فاصل السحب وتغيير حجم القائمة بالماوس -->
+            <div class="resize-splitter" id="splitter1"></div>
+
+            <!-- لوحة القراءة والسطور المصفاة -->
+            <div class="reader-pane">
+                <div class="control-bar">
+                    <div class="control-bar-header">
+                        <div class="active-story-title">
+                            <span id="activeStoryLabel">📖 جاري جلب المخطوط...</span>
+                        </div>
+                        <button class="header-toggle-btn" onclick="toggleHeaderSettings(this)">خيارات العرض ▲</button>
+                    </div>
+
+                    <!-- حاوية الإعدادات والفلاتر القابلة للطي لقفل 75% من الهيدر لتوفير مساحة قراءة واسعة -->
+                    <div class="control-bar-settings" id="headerSettings">
+                        <div class="control-row">
+                            <div>
+                                <button class="theme-btn" onclick="setTheme('papyrus')">ورق بردي 📜</button>
+                                <button class="theme-btn" onclick="setTheme('light')">نهاري ☀️</button>
+                                <button class="theme-btn" onclick="setTheme('dark')">ليلي 🌙</button>
+                            </div>
+                            <div class="font-sizer">
+                                <span>حجم الخط:</span>
+                                <input type="range" min="14" max="36" value="26" oninput="changeFontSize(this.value)">
+                            </div>
+                        </div>
+
+                        <div class="control-row">
+                            <div class="display-filters">
+                                <span style="font-weight: bold; font-size: 0.85rem; margin-left: 5px;">طبقات العرض النشطة:</span>
+                                <label class="filter-item"><input type="checkbox" id="showGlyphs" checked onchange="updateVisibility()"> الرسم الفرعوني</label>
+                                <label class="filter-item"><input type="checkbox" id="showArabic" checked onchange="updateVisibility()"> الترجمة العربية</label>
+                                <label class="filter-item"><input type="checkbox" id="showId" checked onchange="updateVisibility()"> معرّف السطر</label>
+                                <label class="filter-item"><input type="checkbox" id="showTranslit" checked onchange="updateVisibility()"> النقل الصوتي</label>
+                                <label class="filter-item"><input type="checkbox" id="showEnglish" checked onchange="updateVisibility()"> الإنجليزية</label>
+                                <label class="filter-item"><input type="checkbox" id="showGerman" checked onchange="updateVisibility()"> الألمانية</label>
+                                <label class="filter-item"><input type="checkbox" id="showFrench" checked onchange="updateVisibility()"> الفرنسية</label>
+                                <label class="filter-item"><input type="checkbox" id="showNotes" checked onchange="updateVisibility()"> الملاحظات الأثرية</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- وعاء سرد وقراءة سطور البردية -->
+                <div class="scrollable-content" id="storyContainer">
+                    <p>يرجى اختيار قصة من القائمة الجانبية للبدء بالقراءة.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        // معطيات اتصال مشروع سوبابيز السحابي الموحد والممتلئ بالبيانات
+        const SUPABASE_URL = "https://nhkwdbhbmgnnzilrxulx.supabase.co";
+        const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5oa3dkYmhibWdubnppbHJ4dWx4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQ3NTc4NjksImV4cCI6MjEwMDMzMzg2OX0.d73X1zt-l48N5RCCJwxubFe_EZloUCs9_M3Pu2sIpTQ";
+
+        let _supabase = null;
+        let currentFontSize = 26;
+
+        function setTheme(themeName) {
+            document.documentElement.setAttribute('data-theme', themeName);
+            localStorage.setItem('hypatia_theme_v2', themeName);
+        }
+
+        function initTheme() {
+            const savedTheme = localStorage.getItem('hypatia_theme_v2') || 'papyrus';
+            setTheme(savedTheme);
+        }
+
+        function changeFontSize(size) {
+            currentFontSize = parseInt(size);
+            const glyphs = document.querySelectorAll('.glyphs-display');
+            const arTranslations = document.querySelectorAll('.arabic-display');
+            glyphs.forEach(el => el.style.fontSize = size + 'px');
+            arTranslations.forEach(el => el.style.fontSize = (size - 6) + 'px');
+        }
+
+        function toggleHeaderSettings(btn) {
+            const settings = document.getElementById('headerSettings');
+            if (settings.style.display === 'none') {
+                settings.style.display = 'flex';
+                btn.innerText = "خيارات العرض ▲";
+            } else {
+                settings.style.display = 'none';
+                btn.innerText = "خيارات العرض ▼";
+            }
+        }
+
+        // دالة التبديل المعماري أحادي الصفحة (SPA Switcher) لفتح واجهة القراءة وجلب البيانات
+        function switchToReaderMode() {
+            document.getElementById('portalView').style.display = 'none';
+            document.getElementById('readerView').style.display = 'flex';
+            fetchStoriesList();
+        }
+
+        // برمجة فواصل السحب وتوسيع الألواح بالماوس (Resizable Panels) مع قفل الأبعاد لضمان السحب التام
+        function initResize(splitterId, targetId, isRightToLeft) {
+            const splitter = document.getElementById(splitterId);
+            const target = document.getElementById(targetId);
+            
+            splitter.onmousedown = function(e) {
+                e.preventDefault();
+                document.onmousemove = function(moveEvent) {
+                    let newWidth;
+                    if (isRightToLeft) {
+                        newWidth = window.innerWidth - moveEvent.clientX;
+                    } else {
+                        newWidth = moveEvent.clientX;
+                    }
+                    if (newWidth > 150 && newWidth < 450) {
+                        target.style.width = newWidth + 'px';
+                        target.style.minWidth = newWidth + 'px';
+                        target.style.maxWidth = newWidth + 'px';
+                        target.style.flex = 'none';
+                    }
+                };
+                document.onmouseup = function() {
+                    document.onmousemove = null;
+                    document.onmouseup = null;
+                };
+            };
+        }
+        initResize('splitter1', 'sidebar', false);
+
+        function updateVisibility() {
+            const configs = [
+                { id: 'showGlyphs', selector: '.glyphs-display' },
+                { id: 'showArabic', selector: '.arabic-display' },
+                { id: 'showId', selector: '.metadata-row' },
+                { id: 'showTranslit', selector: '.translit-row' },
+                { id: 'showEnglish', selector: '.english-row' },
+                { id: 'showGerman', selector: '.german-row' },
+                { id: 'showFrench', selector: '.french-row' },
+                { id: 'showNotes', selector: '.notes-row' }
+            ];
+
+            configs.forEach(cfg => {
+                const isChecked = document.getElementById(cfg.id).checked;
+                const elements = document.querySelectorAll(cfg.selector);
+                elements.forEach(el => {
+                    el.style.display = isChecked ? '' : 'none';
+                });
+            });
+        }
+
+        // تهيئة اتصال Supabase سحابياً بسلام
+        function initSupabase() {
+            if (!_supabase && typeof supabase !== 'undefined') {
+                const { createClient } = supabase;
+                _supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+            }
+        }
+
+        // دالة جلب وعرض القصص حياً من جدول stories السحابي
+        async function fetchStoriesList() {
+            const listContainer = document.getElementById('storiesList');
+            try {
+                initSupabase();
+                if (!_supabase) throw new Error("مكتبة سوبابيز غير مهيأة.");
+
+                const { data: stories, error } = await _supabase
+                    .from('stories')
+                    .select('id, title_ar')
+                    .order('id', { ascending: true });
+
+                if (error) throw error;
+
+                if (stories.length === 0) {
+                    listContainer.innerHTML = `<p style="font-size: 0.9rem; color: red;">لم يتم العثور على برديات مؤرشفة.</p>`;
+                    return;
+                }
+
+                listContainer.innerHTML = ""; 
+                
+                stories.forEach((story, index) => {
+                    const link = document.createElement('div');
+                    link.className = `story-link ${index === 0 ? 'active' : ''}`;
+                    link.id = `link-${story.id}`;
+                    link.innerText = `${story.id}: ${story.title_ar}`;
+                    link.onclick = () => {
+                        document.querySelectorAll('.story-link').forEach(el => el.classList.remove('active'));
+                        link.classList.add('active');
+                        loadStory(story.id);
+                    };
+                    listContainer.appendChild(link);
+                });
+
+                loadStory(stories[0].id);
+
+            } catch (err) {
+                listContainer.innerHTML = `<p style="color:red; font-size:0.85rem;">فشل الاتصال بـ Supabase: ${err.message}</p>`;
+            }
+        }
+
+        // دالة جلب البردية وسطورها من جدول sentences السحابي بطلب مباشر وسريع
+        async function loadStory(storyId) {
+            const container = document.getElementById('storyContainer');
+            container.innerHTML = "<p>جاري تحميل المخطوط حياً من سحابة سوبابيز...</p>";
+            
+            try {
+                initSupabase();
+
+                // 1. جلب اسم البردية وعنوانها الأثري
+                const { data: story, error: err1 } = await _supabase
+                    .from('stories')
+                    .select('title_ar')
+                    .eq('id', storyId)
+                    .single();
+
+                if (err1) throw err1;
+
+                // 2. جلب أسطر البردية كاملة ومرتبة
+                const { data: sentences, error: err2 } = await _supabase
+                    .from('sentences')
+                    .select('*')
+                    .eq('story_id', storyId)
+                    .order('sequence_no', { ascending: true });
+
+                if (err2) throw err2;
+
+                container.innerHTML = ""; 
+                document.getElementById('activeStoryLabel').innerText = `📖 المخطوط الحالي: ${story.title_ar || storyId}`;
+
+                sentences.forEach(s => {
+                    const card = document.createElement('div');
+                    card.className = 'sentence-card';
+                    
+                    const frenchText = s.translation_fr || 'unknown';
+                    const sentenceNotes = s.notes || 'unknown';
+
+                    let frenchHTML = "";
+                    if (frenchText !== 'unknown' && frenchText !== '') {
+                        frenchHTML = `<div class="detail-row french-row"><strong>الفرنسية:</strong> <span>${frenchText}</span></div>`;
+                    }
+
+                    let notesHTML = "";
+                    if (sentenceNotes !== 'unknown' && sentenceNotes !== '') {
+                        notesHTML = `<div class="detail-row notes-row" style="color:var(--accent-color); font-style:italic;"><strong>الملاحظة الأثرية:</strong> <span>${sentenceNotes}</span></div>`;
+                    }
+
+                    // عرض السطر مسطحاً وخفيفاً بدون أي مفردات أو معجم لاهوتي أو أعلام (عرض خالص مصفى)
+                    card.innerHTML = `
+                        <div class="glyphs-display" style="font-size: ${currentFontSize}px;">${s.hieroglyph}</div>
+                        <div class="arabic-display" style="font-size: ${currentFontSize - 6}px;">${s.translation_ar}</div>
+                        
+                        <div class="details-section">
+                            <div class="detail-row metadata-row">
+                                <strong>المعرّف:</strong> <span>${s.id}</span>
+                            </div>
+                            <div class="detail-row translit-row">
+                                <strong>النقل الصوتي:</strong> <span>${s.transliteration}</span>
+                            </div>
+                            <div class="detail-row english-row">
+                                <strong>الإنجليزية:</strong> <span>${s.translation_en || 'N/A'}</span>
+                            </div>
+                            <div class="detail-row german-row">
+                                <strong>الألمانية:</strong> <span>${s.translation_de || 'N/A'}</span>
+                            </div>
+                            ${frenchHTML}
+                            ${notesHTML}
+                        </div>
+                    `;
+                    container.appendChild(card);
+                });
+
+                updateVisibility();
+
+            } catch (err) {
+                container.innerHTML = `<p style="color:red">فشل جلب المخطوط من السحابة: {${err.message}}</p>`;
+            }
+        }
+
+        window.onload = () => {
+            initTheme();
+        };
+    </script>
 </body>
 </html>
