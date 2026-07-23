@@ -1,9 +1,21 @@
 // ========================================================================
-// Hypatia Project - Scriptorium Authoring Studio Controller (v2.1)
-// Dedicated to serving studio.html locally & on GitHub Pages
+// Hypatia Project - Scriptorium Studio Cloud Controller (v2.3)
+// Dedicated to serving studio.html with Live Supabase Seeding & Editing
 // ========================================================================
 
+const SUPABASE_URL = "https://nhkwdbhbmgnnzilrxulx.supabase.co";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5oa3dkYmhibWdubnppbHJ4dWx4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQ3NTc4NjksImV4cCI6MjEwMDMzMzg2OX0.d73X1zt-l48N5RCCJwxubFe_EZloUCs9_M3Pu2sIpTQ";
+
 let sentenceCount = 0;
+let _supabase = null;
+
+// دالة تهيئة عميل سوبابيز محلياً وسحابياً بسلام
+function initSupabase() {
+    if (!_supabase && typeof supabase !== 'undefined') {
+        const { createClient } = supabase;
+        _supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+    }
+}
 
 function triggerFileInput() {
     document.getElementById('fileInput').click();
@@ -17,37 +29,11 @@ function closeExportModal() {
     document.getElementById('exportModal').style.display = 'none';
 }
 
-function toggleExportOptions() {
-    // دالة فارغة ممهدة لأي خيارات تصفية مستقبلية
-}
-
 function closePreviewModal() {
     document.getElementById('previewModal').style.display = 'none';
 }
 
-// دالة تصفية الطبقات المرئية للسطور داخل نافذة المعاينة الكبرى
-function updatePreviewVisibility() {
-    const configs = [
-        { id: 'prevGlyphs', selector: '.preview-glyphs' },
-        { id: 'prevArabic', selector: '.preview-arabic' },
-        { id: 'prevId', selector: '.metadata-row' },
-        { id: 'prevTranslit', selector: '.preview-row:nth-child(2)' },
-        { id: 'prevEnglish', selector: '.preview-row:nth-child(3)' },
-        { id: 'prevGerman', selector: '.preview-row:nth-child(4)' },
-        { id: 'prevFrench', selector: '.french-row' },
-        { id: 'prevNotes', selector: '.notes-row' }
-    ];
-
-    configs.forEach(cfg => {
-        const isChecked = document.getElementById(cfg.id).checked;
-        const elements = document.getElementById('previewScrollArea').querySelectorAll(cfg.selector);
-        elements.forEach(el => {
-            el.style.display = isChecked ? '' : 'none';
-        });
-    });
-}
-
-// دالة إنشاء مخطوط فارغ وتصفية البيانات القديمة
+// دالة تصفير وإنشاء مخطوط فارغ جديد من الصفر
 function createNewStory() {
     if (confirm("هل أنت متأكد من إنشاء مخطوط فارغ؟ سيتم مسح أي تعديلات غير محفوظة حالياً.")) {
         document.getElementById('textId').value = "EGY-XXX";
@@ -65,7 +51,7 @@ function createNewStory() {
     }
 }
 
-// دالة قراءة وتحليل ملف جيسون هيباتيا القياسي المستورد وتوزيعه في المحرر
+// دالة قراءة وتوزيع ملف الجيسون المستورد محلياً في المحرر
 function loadJSONFile(event) {
     const file = event.target.files[0];
     if (!file) return;
@@ -104,7 +90,7 @@ function loadJSONFile(event) {
     reader.readAsText(file);
 }
 
-// دالة تبديل التبويبات الداخلية لكل كارت سطر لعزل ومنع التداخل وتوفير المساحة
+// دالة تبديل التبويبات الداخلية لكل كارت سطر
 function switchCardTab(button, tabName) {
     const card = button.closest('.sentence-editor-card');
     card.querySelectorAll('.card-tab').forEach(t => t.classList.remove('active'));
@@ -114,7 +100,7 @@ function switchCardTab(button, tabName) {
     card.querySelector(`.tab-${tabName}`).style.display = 'block';
 }
 
-// دالة تفاعلية لإضافة خلية مفردة مستقلة لربط الليما يدوياً
+// دالة تفاعلية لإضافة خلية مفردة مستقلة لربط الليما يدوياً بالـ ID
 function addTokenRow(cardId, tokenData = null) {
     const grid = document.querySelector(`#card-${cardId} .tokens-grid-container`);
     const row = document.createElement('div');
@@ -482,7 +468,7 @@ function runCustomExport() {
 
     } else {
         let outputTxt = `========================================================================\n`;
-        outputTxt += `              مستودع هيباتيا للأدب المصري القديم - تقرير أثري مصفى\n`;
+        outputTxt += `              مستودع هيباتيا للأدب المصري القديم - تقريب أثري مصفى\n`;
         outputTxt += `========================================================================\n\n`;
         outputTxt += `المخطوط بالعربية : ${document.getElementById('titleAr').value.trim()}\n`;
         outputTxt += `المخطوط بالإنجليزية: ${document.getElementById('titleEn').value.trim()}\n`;
@@ -514,6 +500,135 @@ function runCustomExport() {
     closeExportModal();
 }
 
+// دالة التصدير والتأصيل السحابي الفوري والمباشر لجداول سوبابيز بالـ SQL من المتصفح
+async function saveStoryToSupabase() {
+    initSupabase();
+    if (!_supabase) {
+        alert("خطأ: مكتبة سوبابيز غير مهيأة بالمتصفح حالياً.");
+        return;
+    }
+
+    const textId = document.getElementById('textId').value.trim();
+    const titleAr = document.getElementById('titleAr').value.trim();
+    const titleEn = document.getElementById('titleEn').value.trim();
+    const museumCatalog = document.getElementById('museumCatalog').value.trim();
+    const stableTlaId = document.getElementById('stableTlaId').value.trim();
+    const origLang = document.getElementById('origLang').value;
+    const scholarlyEditor = document.getElementById('scholarlyEditor').value.trim();
+    const descriptionAr = document.getElementById('descriptionAr').value.trim();
+
+    if (!textId || !titleAr) {
+        alert("يرجى إدخال معرّف المخطوط وعنوانه العربي أولاً.");
+        return;
+    }
+
+    if (!confirm(`هل أنت متأكد من حفظ وتأصيل مخطوط [${textId}] حياً وسحابياً في جداول سوبابيز؟`)) {
+        return;
+    }
+
+    try {
+        // 1. ترحيل وضخ رأس المخطوط (stories)
+        const storyPayload = {
+            id: textId,
+            source_id: "BA-DICT-001",
+            title_ar: titleAr,
+            title_en: titleEn,
+            museum_catalog_no: museumCatalog || null,
+            stable_tla_id: stableTlaId || null,
+            original_translation_language: origLang,
+            scholarly_editor: scholarlyEditor,
+            description_ar: descriptionAr
+        };
+
+        const { error: errStory } = await _supabase
+            .from('stories')
+            .upsert([storyPayload], { onConflict: 'id' });
+
+        if (errStory) throw errStory;
+
+        // 2. تفكيك وبناء جمل المخطوط (sentences)
+        const cards = document.querySelectorAll('.sentence-editor-card');
+        const sentencesPayload = [];
+        const tokensPayload = [];
+
+        cards.forEach((card, index) => {
+            const seq = index + 1;
+            const sId = card.querySelector('.sentence-id').value.trim();
+            const glyphs = card.querySelector('.hieroglyph-val').value.trim();
+            const translit = card.querySelector('.translit-val').value.trim();
+            const mdc = card.querySelector('.mdc-code').value.trim();
+            const arabic = card.querySelector('.arabic-val').value.trim();
+            const english = card.querySelector('.english-val').value.trim();
+            const german = card.querySelector('.german-val').value.trim();
+            const french = card.querySelector('.french-val').value.trim();
+            const sType = card.querySelector('.sentence-type').value.trim();
+            const syntax = card.querySelector('.syntax-structure').value.trim();
+            const sourceId = card.querySelector('.source-id').value.trim();
+            const sourceName = card.querySelector('.source-name').value.trim();
+            const notes = card.querySelector('.notes-val').value.trim();
+
+            sentencesPayload.push({
+                id: sId,
+                story_id: textId,
+                sequence_no: seq,
+                hieroglyph: glyphs,
+                transliteration: translit,
+                mdc_code: mdc || null,
+                translation_ar: arabic,
+                translation_en: english,
+                translation_de: german,
+                translation_fr: french,
+                sentence_type: sType,
+                syntax_structure: syntax,
+                notes: notes || null
+            });
+
+            // تفكيك المفردات وربط الليما سحابياً
+            const tokenRows = card.querySelectorAll('.token-input-row');
+            tokenRows.forEach((row, t_idx) => {
+                const translitVal = row.querySelector('.token-translit').value.trim();
+                const lemmaRefVal = row.querySelector('.token-lemma').value.trim();
+                if (translitVal) {
+                    const isNe = lemmaRefVal.startsWith('HYP-NE-');
+                    tokensPayload.push({
+                        sentence_id: sId,
+                        token_no: t_idx + 1,
+                        transliteration: translitVal,
+                        lemma_id: (!isNe && lemmaRefVal) ? lemmaRefVal : null,
+                        entity_id: (isNe && lemmaRefVal) ? lemmaRefVal : null
+                    });
+                }
+            });
+        });
+
+        // ضخ الجمل
+        if (sentencesPayload.length > 0) {
+            const { error: errSentences } = await _supabase
+                .from('sentences')
+                .upsert(sentencesPayload, { onConflict: 'id' });
+            if (errSentences) throw errSentences;
+        }
+
+        // ضخ مفردات التوكنز بعد مسح التوكنز القديمة لتفادي التكرار
+        if (sentencesPayload.length > 0) {
+            const sentenceIds = sentencesPayload.map(s => s.id);
+            await _supabase.from('word_tokens').delete().in('sentence_id', sentenceIds);
+        }
+
+        if (tokensPayload.length > 0) {
+            const { error: errTokens } = await _supabase
+                .from('word_tokens')
+                .insert(tokensPayload);
+            if (errTokens) throw errTokens;
+        }
+
+        alert(`[تم بنجاح]: تم حفظ وتأصيل مخطوط [${textId}] بالكامل حياً وسحابياً في جداول سوبابيز بنجاح لاهوتي وتوافقي كامل!`);
+
+    } catch (err) {
+        alert("فشل الحفظ السحابي: " + err.message);
+    }
+}
+
 function downloadFile(content, fileName, contentType) {
     const blob = new Blob([content], { type: contentType });
     const url = URL.createObjectURL(blob);
@@ -524,6 +639,15 @@ function downloadFile(content, fileName, contentType) {
     URL.revokeObjectURL(url);
 }
 
+// دالة تهيئة الاتصال بسوبابيز سحابياً
+function initSupabase() {
+    if (!_supabase && typeof supabase !== 'undefined') {
+        const { createClient } = supabase;
+        _supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+    }
+}
+
 window.onload = () => {
+    initSupabase();
     addNewSentence();
 };
