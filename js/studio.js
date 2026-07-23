@@ -1,6 +1,7 @@
 // ========================================================================
-// Hypatia Project - Scriptorium Studio Cloud Controller (v2.3)
+// Hypatia Project - Scriptorium Studio Cloud Controller (v2.4)
 // Dedicated to serving studio.html with Live Supabase Seeding & Editing
+// Corrected and Cleaned from Deprecated Keyboard Codes
 // ========================================================================
 
 const SUPABASE_URL = "https://nhkwdbhbmgnnzilrxulx.supabase.co";
@@ -9,7 +10,7 @@ const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZ
 let sentenceCount = 0;
 let _supabase = null;
 
-// دالة تهيئة عميل سوبابيز محلياً وسحابياً بسلام
+// دالة تهيئة الاتصال بسوبابيز سحابياً
 function initSupabase() {
     if (!_supabase && typeof supabase !== 'undefined') {
         const { createClient } = supabase;
@@ -247,23 +248,6 @@ function addNewSentence(data = null) {
     }
 
     reorderSequenceNumbers();
-}
-
-function deleteSentenceCard(id) {
-    if (confirm("هل أنت متأكد من حذف هذا السطر بالكامل؟")) {
-        const card = document.getElementById(`card-${id}`);
-        if (card) {
-            card.remove();
-            reorderSequenceNumbers();
-        }
-    }
-}
-
-function reorderSequenceNumbers() {
-    const cards = document.querySelectorAll('.sentence-editor-card');
-    cards.forEach((card, index) => {
-        card.querySelector('.seq-no-display').innerText = index + 1;
-    });
 }
 
 // دالة عرض ومعاينة قراءة البردية الكبرى التفاعلية المصححة بنسبة 100% وخالية من عوائق الكونسول
@@ -590,7 +574,7 @@ async function saveStoryToSupabase() {
                 const lemmaRefVal = row.querySelector('.token-lemma').value.trim();
                 if (translitVal) {
                     const isNe = lemmaRefVal.startsWith('HYP-NE-');
-                    tokensPayload.push({
+                    wordTokensArray.push({
                         sentence_id: sId,
                         token_no: t_idx + 1,
                         transliteration: translitVal,
