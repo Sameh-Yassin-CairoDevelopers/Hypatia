@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ar" data-theme="papyrus">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بوابة هيباتيا الرقمية الكبرى - لعلوم وتراث اللغة المصرية القديمة</title>
+    
+    <!-- استدعاء ملف التنسيقات المشترك الموحد من مجلد css -->
+    <link rel="stylesheet" href="css/main.css">
+    
+    <!-- جلب مكتبة سوبابيز الرسمية مباشرة من خوادم الـ CDN العالمية لتخطي التثبيت محلياً وأوفلاين -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    
+    <style>
+        /* التنسيق الجمالي الحصري للبوابة الرئيسية الكبرى (Landing Hub) */
+        .portal-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        .portal-header-section {
+            text-align: center;
+            max-width: 800px;
+            margin-bottom: 40px;
+        }
+
+        .portal-header-section h1 {
+            font-family: 'Amiri', serif;
+            font-size: 2.2rem;
+            color: var(--accent-color);
+            margin: 0 0 15px 0;
+            line-height: 1.4;
+        }
+
+        .portal-header-section p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: var(--muted-text);
+            margin: 0;
+        }
+
+        /* شبكة عرض البوابات المعرفية السبعة */
+        .gateway-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            width: 100%;
+            max-width: 1200px;
+            margin-bottom: 40px;
+        }
+
+        /* كارت البوابة الفردية بنمطه التفاعلي الأثري الدافئ */
+        .gateway-card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.02);
+            position: relative;
+            transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+        }
+
+        .gateway-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0,0,0,0.05);
+            border-color: var(--accent-color);
+        }
+
+        .gateway-card-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 10px;
+        }
+
+        .gateway-icon {
+            font-size: 2rem;
+        }
+
+        .gateway-card-header h3 {
+            margin: 0;
+            font-family: 'Amiri', serif;
+            font-size: 1.35rem;
+            color: var(--text-color);
+        }
+
+        .gateway-description {
+            font-size: 0.95rem;
+            line-height: 1.5;
+            color: var(--muted-text);
+            flex: 1;
+        }
+
+        .gateway-action-btn {
+            align-self: stretch;
+            background-color: var(--accent-color);
+            border: 1px solid var(--accent-color);
+            color: #fff;
+            padding: 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-family: 'Amiri', serif;
+            font-size: 1.05rem;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            transition: opacity 0.2s;
+        }
+
+        .gateway-action-btn:hover {
+            opacity: 0.9;
+        }
+
+        /* تذييل البوابة */
+        .portal-footer {
+            margin-top: auto;
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--muted-text);
+            border-top: 1px dashed var(--border-color);
+            padding-top: 20px;
+            width: 100%;
+            max-width: 1200px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- حاوية البوابة الكبرى الموحدة -->
+    <div class="portal-container">
+        
+        <!-- شريط تحويل السمات البصرية العلوي للبوابة الكبرى -->
+        <div class="control-row" style="width: 100%; max-width: 1200px; justify-content: flex-end; margin-bottom: 20px;">
+            <div>
+                <button class="theme-btn" onclick="setTheme('papyrus')">ورق بردي 📜</button>
+                <button class="theme-btn" onclick="setTheme('light')">نهاري ☀️</button>
+                <button class="theme-btn" onclick="setTheme('dark')">ليلي 🌙</button>
+            </div>
+        </div>
+
+        <!-- مقدمة ووصف البوابة الكبرى للمشروع -->
+        <section class="portal-header-section">
+            <h1>بوابة هيباتيا الرقمية الكبرى لعلوم وتراث اللغة المصرية القديمة ✒️</h1>
+            <p>
+                مستودع معرفي كلي استنادي وبحثي متكامل يهدف إلى حماية وتحقيق وتدقيق النصوص والمخطوطات الفرعونية الكلاسيكية، 
+                وربطها بقاموس مفردات الـ 6,541 والجراف الدلالي للأعلام والملوك، لتأسيس البنية المعرفية الأرقى لبحوث التراث وموديلات الذكاء الاصطناعي.
+            </p>
+        </section>
+
+        <!-- شبكة عرض البوابات والاتجاهات السبعة المحدثة والمعتمدة للمشروع -->
+        <main class="gateway-grid">
+            
+            <!-- 1. بوابة مستكشف المستودع اللغوي (محدثة للإحصاء الحي المباشر من سوبابيز) -->
+            <div class="gateway-card">
+                <div class="gateway-card-header">
+                    <span class="gateway-icon">🔍</span>
+                    <h3>1. مستكشف المستودع اللغوي</h3>
+                </div>
+                <p class="gateway-description" id="statsDisplay">
+                    جاري فحص وقراءة معطيات سحابة Supabase وبناء الإحصاءات المعرفية الحية...
+                </p>
+                <a href="#/explorer" class="gateway-action-btn">استكشف المستودع الفعلي</a>
+            </div>
+
+            <!-- 2. بوابة مستودع المخطوطات والبرديات -->
+            <div class="gateway-card">
+                <div class="gateway-card-header">
+                    <span class="gateway-icon">📖</span>
+                    <h3>2. مستودع المخطوطات والقصص</h3>
+                </div>
+                <p class="gateway-description">
+                    البيئة الأكاديمية التفاعلية الغامرة لتصفح وقراءة البرديات الـ 500، المجهزة بالتحليل اللغوي الموازي، والترجمة المتعددة، وتصدير النصوص المفلترة.
+                </p>
+                <a href="stories.html" class="gateway-action-btn">ابدأ بالقراءة والتحقيق</a>
+            </div>
+
+            <!-- 3. بوابة مرسم تحقيق المخطوطات وتوليد الجيسون -->
+            <div class="gateway-card">
+                <div class="gateway-card-header">
+                    <span class="gateway-icon">✒️</span>
+                    <h3>3. مرسم ومحرر النصوص الكلاسيكية</h3>
+                </div>
+                <p class="gateway-description">
+                    الاستوديو الرقمي المتكامل والمبوب والمحمي لإنشاء وتحرير وتدقيق كروت وجمل المخطوطات سباعية الطبقات وتنزيلها كملفات سليمة 100% محلياً.
+                </p>
+                <a href="studio.html" class="gateway-action-btn">افتح مرسم تحقيق النصوص</a>
+            </div>
+
+            <!-- 4. بوابة المعجم التفاعلي للجذور -->
+            <div class="gateway-card">
+                <div class="gateway-card-header">
+                    <span class="gateway-icon">𓏠</span>
+                    <h3>4. معجم المفردات التفاعلي</h3>
+                </div>
+                <p class="gateway-description">
+                    محرك بحث لغوي مستقل يبحث في قاموس الـ 6,541 مفردة، ويعرض رسوم جاردنر وسياقات ومواضع ظهور الكلمات ومصاحباتها اللفظية في نصوصك.
+                </p>
+                <a href="#/dictionary" class="gateway-action-btn">تصفح معجم المفردات</a>
+            </div>
+
+            <!-- 5. بوابة مختبر الذكاء الاصطناعي للترجمة والتحليل -->
+            <div class="gateway-card">
+                <div class="gateway-card-header">
+                    <span class="gateway-icon">🧪</span>
+                    <h3>5. مختبر الترجمة والتحليل بالذكاء الاصطناعي</h3>
+                </div>
+                <p class="gateway-description">
+                    بيئة تفاعلية لاختبار ترجمة الموديل اللغوي (LLM) للجمل العشوائية، وحل قواعدها نحوياً وصرفياً عبر الأوزان المدربة والمصقولة لمشروع هيباتيا.
+                </p>
+                <a href="#/ai_lab" class="gateway-action-btn">افتح مختبر الذكاء الاصطناعي</a>
+            </div>
+
+            <!-- 6. بوابة الجراف المعرفي المرئي للروابط دلالياً -->
+            <div class="gateway-card">
+                <div class="gateway-card-header">
+                    <span class="gateway-icon">🕸️</span>
+                    <h3>6. جراف العلاقات المعرفية المرئي</h3>
+                </div>
+                <p class="gateway-description">
+                    الرسم البياني الديناميكي والمتحرك لرصد العلاقات الدلالية (الكيان إلى الكيان) عِبر المخطوطات والملوك والآلهة والمدن لربط شبكة المعرفة الكلية.
+                </p>
+                <a href="#/knowledge_graph" class="gateway-action-btn">تصفح جراف العلاقات المعرفية</a>
+            </div>
+
+            <!-- 7. بوابة مركز النموذج والتدريب والمعايرة -->
+            <div class="gateway-card">
+                <div class="gateway-card-header">
+                    <span class="gateway-icon">💾</span>
+                    <h3>7. مركز النموذج اللغوي والتدريب</h3>
+                </div>
+                <p class="gateway-description">
+                    بوابة أرشفة أوزان التدريب المعتمدة، وتصدير مصفوفات البيانات المنقحة والمصححة (JSONL)، ومراقبة مؤشرات دقة النموذج والمصنفات اللغوية.
+                </p>
+                <a href="#/model_center" class="gateway-action-btn">افتح مركز النموذج والتدريب</a>
+            </div>
+
+        </main>
+
+        <!-- تذييل المنصة الاستنادية الكبرى -->
+        <footer class="portal-footer">
+            <p>جميع الحقوق محفوظة © مشروع هيباتيا الرقمي لعلوم وتراث اللغة المصرية القديمة - 2026</p>
+        </footer>
+    </div>
+
+    <!-- استدعاء سكريبت البوابة للتوجيه وحفظ تفضيلات السمات -->
+    <script src="js/portal.js"></script>
+</body>
+</html>
