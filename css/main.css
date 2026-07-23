@@ -730,7 +730,7 @@ input::placeholder, textarea::placeholder {
     user-select: none;
 }
 
-/* تنسيق كارت المعاينة الكبرى لورق البردي */
+/* تنسيق كارت المعاينة الكبرى  البردي */
 .preview-sentence-card {
     background-color: var(--card-bg);
     border: 1px solid var(--border-color);
