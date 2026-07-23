@@ -1,654 +1,161 @@
-// ========================================================================
-// Hypatia Project - Scriptorium Studio Cloud Controller (v2.4)
-// Dedicated to serving studio.html with Live Supabase Seeding & Editing
-// Corrected and Cleaned from Deprecated Keyboard Codes
-// ========================================================================
+<!DOCTYPE html>
+<html lang="ar" data-theme="papyrus">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مرسم هيباتيا الرقمي - Authoring Studio Cloud</title>
+    
+    <!-- استدعاء ملف التنسيقات المشترك الموحد من مجلد css -->
+    <link rel="stylesheet" href="css/main.css">
 
-const SUPABASE_URL = "https://nhkwdbhbmgnnzilrxulx.supabase.co";
-const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5oa3dkYmhibWdubnppbHJ4dWx4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQ3NTc4NjksImV4cCI6MjEwMDMzMzg2OX0.d73X1zt-l48N5RCCJwxubFe_EZloUCs9_M3Pu2sIpTQ";
+    <!-- جلب مكتبة Supabase SDK الرسمية من خوادم الـ CDN لتفعيل الحفظ والتأصيل السحابي الفوري -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
 
-let sentenceCount = 0;
-let _supabase = null;
-
-// دالة تهيئة الاتصال بسوبابيز سحابياً
-function initSupabase() {
-    if (!_supabase && typeof supabase !== 'undefined') {
-        const { createClient } = supabase;
-        _supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
-    }
-}
-
-function triggerFileInput() {
-    document.getElementById('fileInput').click();
-}
-
-function openExportModal() {
-    document.getElementById('exportModal').style.display = 'flex';
-}
-
-function closeExportModal() {
-    document.getElementById('exportModal').style.display = 'none';
-}
-
-function closePreviewModal() {
-    document.getElementById('previewModal').style.display = 'none';
-}
-
-// دالة تصفير وإنشاء مخطوط فارغ جديد من الصفر
-function createNewStory() {
-    if (confirm("هل أنت متأكد من إنشاء مخطوط فارغ؟ سيتم مسح أي تعديلات غير محفوظة حالياً.")) {
-        document.getElementById('textId').value = "EGY-XXX";
-        document.getElementById('titleAr').value = "";
-        document.getElementById('titleEn').value = "";
-        document.getElementById('museumCatalog').value = "";
-        document.getElementById('stableTlaId').value = "";
-        document.getElementById('origLang').value = "unknown";
-        document.getElementById('scholarlyEditor').value = "Hypatia Builder";
-        document.getElementById('descriptionAr').value = "";
-        
-        document.getElementById('sentencesContainer').innerHTML = "";
-        sentenceCount = 0;
-        addNewSentence();
-    }
-}
-
-// دالة قراءة وتوزيع ملف الجيسون المستورد محلياً في المحرر
-function loadJSONFile(event) {
-    const file = event.target.files[0];
-    if (!file) return;
-
-    const reader = new FileReader();
-    reader.onload = function(e) {
-        try {
-            const data = JSON.parse(e.target.result);
+    <!-- 1. شريط التحكم والعمليات الرئيسي للمرسم -->
+    <header class="studio-header">
+        <a href="index.html" style="text-decoration: none; display: inline-flex; align-items: center; gap: 5px; color: var(--accent-color); font-family: 'Amiri', serif; font-size: 1.1rem; font-weight: bold;">↩️ عودة للبوابة الرئيسية</a>
+        <h1>مرسم تحقيق المخطوطات والقصص سباعية الطبقات ✒️</h1>
+        <div class="btn-group">
+            <button class="btn" onclick="triggerFileInput()">📂 رفع ملف قصة JSON</button>
+            <input type="file" id="fileInput" accept=".json" style="display: none;" onchange="loadJSONFile(event)">
             
-            document.getElementById('textId').value = data.text_id || "EGY-XXX";
-            const meta = data.metadata || {};
-            document.getElementById('titleAr').value = meta.title_ar || "";
-            document.getElementById('titleEn').value = meta.title_en || "";
-            document.getElementById('museumCatalog').value = meta.museum_catalog_no || "";
-            document.getElementById('stableTlaId').value = meta.stable_tla_id || "";
-            document.getElementById('origLang').value = meta.original_translation_language || "unknown";
-            document.getElementById('scholarlyEditor').value = meta.scholarly_editor || "Hypatia Builder";
-            document.getElementById('descriptionAr').value = meta.description_ar || "";
-
-            const container = document.getElementById('sentencesContainer');
-            container.innerHTML = "";
-            sentenceCount = 0;
-
-            if (data.sentences && data.sentences.length > 0) {
-                data.sentences.forEach(sentence => {
-                    addNewSentence(sentence);
-                });
-            } else {
-                addNewSentence();
-            }
-
-        } catch (err) {
-            alert("خطأ في قراءة وتحليل ملف جيسون: " + err.message);
-        }
-    };
-    reader.readAsText(file);
-}
-
-// دالة تبديل التبويبات الداخلية لكل كارت سطر
-function switchCardTab(button, tabName) {
-    const card = button.closest('.sentence-editor-card');
-    card.querySelectorAll('.card-tab').forEach(t => t.classList.remove('active'));
-    button.classList.add('active');
-    
-    card.querySelectorAll('.tab-content').forEach(c => c.style.display = 'none');
-    card.querySelector(`.tab-${tabName}`).style.display = 'block';
-}
-
-// دالة تفاعلية لإضافة خلية مفردة مستقلة لربط الليما يدوياً بالـ ID
-function addTokenRow(cardId, tokenData = null) {
-    const grid = document.querySelector(`#card-${cardId} .tokens-grid-container`);
-    const row = document.createElement('div');
-    row.className = 'token-input-row';
-    
-    const translit = tokenData ? tokenData.transliteration : '';
-    const lemmaRef = tokenData ? (tokenData.lemma_ref || '') : '';
-
-    row.innerHTML = `
-        <input type="text" class="token-field token-translit" value="${translit}" placeholder="المفردة (مثال: Dd)" required style="direction:ltr; text-align:left;">
-        <input type="text" class="token-field token-lemma" value="${lemmaRef}" placeholder="معرّف الليما (مثال: HYP-EGY-006527)" style="direction:ltr; text-align:left;">
-        <button type="button" class="btn btn-danger" style="padding: 2px 6px; font-size: 0.8rem;" onclick="this.closest('.token-input-row').remove()">✕</button>
-    `;
-    grid.appendChild(row);
-}
-
-// دالة إنشاء كارت إدخال جملة جديدة مبوب بالكامل (Tabs) مع التنسيق الرأسي المنظم والتحويل اللغوي الصحيح للحقول
-function addNewSentence(data = null) {
-    sentenceCount++;
-    const container = document.getElementById('sentencesContainer');
-    
-    const card = document.createElement('div');
-    card.className = 'sentence-editor-card';
-    card.id = `card-${sentenceCount}`;
-
-    const meta = data ? (data.metadata || {}) : {};
-    const core = data ? (data.layer1_core || {}) : {};
-    const lang = data ? (data.layer2_languages || {}) : {};
-    const grammar = data ? (data.layer3_grammar || {}) : {};
-    const writing = data ? (data.layer4_writing || {}) : {};
-    const sourceItem = data ? (data.layer5_sources?.sources?.[0] || {}) : {};
-    const research = data ? (data.layer7_research || {}) : {};
-
-    card.innerHTML = `
-        <div class="card-header">
-            <h4>السطر اللغوي رقم #<span class="seq-no-display">${sentenceCount}</span></h4>
-            <button class="btn btn-danger" style="padding: 2px 8px; font-size:0.8rem;" onclick="deleteSentenceCard(${sentenceCount})">✕ حذف السطر</button>
+            <button class="btn" onclick="createNewStory()">➕ إنشاء مخطوط فارغ</button>
+            <button class="btn btn-primary" onclick="openPreviewModal()">👁️ معاينة قراءة البردية</button>
+            <button class="btn btn-success" onclick="saveStoryToSupabase()">💾 حفظ وتأصيل سحابي فوري</button>
+            <button class="btn" style="background-color: var(--border-color);" onclick="openExportModal()">📥 تصدير مخصص وتصفية المخرجات</button>
         </div>
+    </header>
+
+    <!-- 2. مساحة العمل الكلية للمحرر -->
+    <div class="studio-workspace">
         
-        <div class="card-tabs">
-            <button type="button" class="card-tab active" onclick="switchCardTab(this, 'core')">1. النواة الأساسية</button>
-            <button type="button" class="card-tab" onclick="switchCardTab(this, 'lang')">2. التراجم واللغات</button>
-            <button type="button" class="card-tab" onclick="switchCardTab(this, 'grammar')">3. النحو والمفردات</button>
-            <button type="button" class="card-tab" onclick="switchCardTab(this, 'sources')">4. التوثيق والملاحظات</button>
-        </div>
-        
-        <!-- التبويب الأول: نواة النص هيروغليفي (رأسي بالكامل ومعرّف السطر) -->
-        <div class="tab-content tab-core" style="display: block;">
-            <div class="vertical-inputs-stack">
-                <div class="form-group">
-                    <label>معرّف السطر الفريد (Sentence ID):</label>
-                    <input type="text" class="sentence-id" value="${meta.id || 'HYP-TXT-XXXXXX-S' + String(sentenceCount).padStart(2, '0')}" required style="direction:ltr; text-align:left;">
-                </div>
-                <div class="form-group">
-                    <label>الرسم الهيروغليفي (اليونيكود):</label>
-                    <input type="text" class="hieroglyph-val" value="${core.hieroglyph || ''}" placeholder="𓊹𓏏𓂋𓏏𓂀" required style="font-size: 1.4rem;">
-                </div>
-            </div>
-        </div>
-
-        <!-- التبويب الثاني: الترجمات الأربعة مصفوفة رأسياً أسفل بعضها مع كبر الحجم لتسهيل الكتابة -->
-        <div class="tab-content tab-lang">
-            <div class="vertical-inputs-stack">
-                <div class="form-group">
-                    <label>الترجمة العربية للسطر الكامل:</label>
-                    <textarea class="arabic-val" required placeholder="اكتب الترجمة العربية للسطر هنا..." style="height: 60px;">${lang.arabic || ''}</textarea>
-                </div>
-                <div class="form-group">
-                    <label>الترجمة الإنجليزية للسطر الكامل:</label>
-                    <textarea class="english-val" required placeholder="Write English translation here..." style="height: 60px;">${lang.english || ''}</textarea>
-                </div>
-                <div class="form-group">
-                    <label>الترجمة الألمانية للسطر الكامل:</label>
-                    <textarea class="german-val" placeholder="Schreiben Sie die deutsche Übersetzung hier..." style="height: 60px;">${lang.german || 'unknown'}</textarea>
-                </div>
-                <div class="form-group">
-                    <label>الترجمة الفرنسية للسطر الكامل:</label>
-                    <textarea class="french-val" placeholder="Écrivez la traduction française ici..." style="height: 60px;">${lang.french || 'unknown'}</textarea>
-                </div>
-            </div>
-        </div>
-
-        <!-- التبويب الثالث: النحو والمفردات اللغوية مع النقل الصوتي وكود مانشيل لراحة المستخدم الأكاديمية -->
-        <div class="tab-content tab-grammar">
-            <div class="vertical-inputs-stack">
-                <div class="form-group">
-                    <label>النقل الصوتي (Transliteration):</label>
-                    <input type="text" class="translit-val" value="${core.transliteration || ''}" placeholder="ky Dd n=k" required style="direction:ltr; text-align:left;">
-                </div>
-                <div class="form-group">
-                    <label>كود المانشيل (Mdc Code):</label>
-                    <input type="text" class="mdc-code" value="${writing.mdc_code || ''}" placeholder="ky Dd n=k" style="direction:ltr; text-align:left;">
-                </div>
-                <div class="form-group">
-                    <label>نوع الجملة (Sentence Type):</label>
-                    <input type="text" class="sentence-type" value="${grammar.sentence_type || 'unknown'}" placeholder="nominal_sentence">
-                </div>
-                <div class="form-group">
-                    <label>البنية اللغوية (Syntax Structure):</label>
-                    <input type="text" class="syntax-structure" value="${grammar.syntax_structure || 'unknown'}">
-                </div>
-                <div class="form-group">
-                    <label style="display: flex; justify-content: space-between; align-items: center;">
-                        <span>مفردات السطر وربط الـ Leema الفردية:</span>
-                        <button type="button" class="btn btn-primary" style="padding: 2px 8px; font-size: 0.8rem;" onclick="addTokenRow(${sentenceCount})">➕ أضف مفردة جديدة</button>
-                    </label>
-                    <div class="tokens-editor-area">
-                        <div class="tokens-grid-container">
-                            <!-- المفردات الخلايا تضاف ديناميكياً هنا -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- التبويب الرابع: مراجع المخطوطات والتعليقات والتحليل اللغوي -->
-        <div class="tab-content tab-sources">
-            <div class="vertical-inputs-stack">
-                <div class="form-group">
-                    <label>معرّف المخطوط الأثري:</label>
-                    <input type="text" class="source-id" value="${sourceItem.id || 'MUSEUM-BERLIN-XXXX'}" placeholder="معرّف الأثر بالعام...">
-                </div>
-                <div class="form-group">
-                    <label>اسم المخطوط المعتمد بالكامل:</label>
-                    <input type="text" class="source-name" value="${sourceItem.name || ''}" placeholder="اسم البردية الرسمي...">
-                </div>
-                <div class="form-group">
-                    <label>الملاحظة والتعليق الأثري والبحثي للجملة:</label>
-                    <textarea class="notes-val" placeholder="اكتب هنا الملاحظات النحوية أو التاريخية الهامة للسطر..." style="height: 80px;">${research.notes || ''}</textarea>
-                </div>
-            </div>
-        </div>
-    `;
-    container.appendChild(card);
-    
-    // توزيع وخلق خلايا المفردات الفردية للربط من الـ word_tokens المستوردة
-    const targetCardId = sentenceCount;
-    if (data && data.layer6_relationships && data.layer6_relationships.word_tokens) {
-        data.layer6_relationships.word_tokens.forEach(tok => {
-            addTokenRow(targetCardId, tok);
-        });
-    } else {
-        addTokenRow(targetCardId); // إنشاء خلية فارغة أولى افتراضية لراحة الإدخال
-    }
-
-    reorderSequenceNumbers();
-}
-
-function deleteSentenceCard(id) {
-    if (confirm("هل أنت متأكد من حذف هذا السطر بالكامل؟")) {
-        const card = document.getElementById(`card-${id}`);
-        if (card) {
-            card.remove();
-            reorderSequenceNumbers();
-        }
-    }
-}
-
-function reorderSequenceNumbers() {
-    const cards = document.querySelectorAll('.sentence-editor-card');
-    cards.forEach((card, index) => {
-        card.querySelector('.seq-no-display').innerText = index + 1;
-    });
-}
-
-// دالة عرض ومعاينة قراءة البردية الكبرى التفاعلية المصححة بنسبة 100% وخالية من عوائق الكونسول
-function openPreviewModal() {
-    const modal = document.getElementById('previewModal');
-    const scrollArea = document.getElementById('previewScrollArea');
-    const titleLabel = document.getElementById('previewStoryTitle');
-    
-    const titleAr = document.getElementById('titleAr').value.trim() || "مخطوط غير معنون";
-    const textId = document.getElementById('textId').value.trim() || "EGY-XXX";
-    
-    titleLabel.innerText = `📖 معاينة قراءة المخطوط: ${titleAr} (${textId})`;
-    modal.style.display = 'flex';
-    scrollArea.innerHTML = ""; // تصفية الساحة
-
-    const cards = document.querySelectorAll('.sentence-editor-card');
-    if (cards.length === 0) {
-        scrollArea.innerHTML = "<p>لا توجد أسطر مكتوبة لمعاينتها حالياً.</p>";
-        return;
-    }
-
-    // بناء وعرض أسطر البردية بشكل مباشر في المعاينة تماثل الويب الرئيسي تماماً
-    cards.forEach((card, index) => {
-        const seq = index + 1;
-        const sId = card.querySelector('.sentence-id').value.trim();
-        const glyphs = card.querySelector('.hieroglyph-val').value.trim();
-        const arabic = card.querySelector('.arabic-val').value.trim();
-        const translit = card.querySelector('.translit-val').value.trim();
-        const english = card.querySelector('.english-val').value.trim();
-        const german = card.querySelector('.german-val').value.trim();
-        const french = card.querySelector('.french-val').value.trim();
-        const notes = card.querySelector('.notes-val').value.trim();
-
-        const previewCard = document.createElement('div');
-        previewCard.className = 'preview-sentence-card';
-        
-        // تفكيك المفردات المسجلة لعرضها ككبسولات في المعاينة
-        const tokenRows = card.querySelectorAll('.token-input-row');
-        let tokensHTML = "";
-        tokenRows.forEach(row => {
-            const translitVal = row.querySelector('.token-translit').value.trim();
-            if (translitVal) {
-                tokensHTML += `<span class="word-token">${translitVal}</span>`;
-            }
-        });
-
-        // تصحيح فك التراجم الفرنسية والملاحظات لتلافي خطأ التوقف في الـ Console
-        let frenchHTML = "";
-        if (french && french !== 'unknown' && french !== '') {
-            frenchHTML = `<div class="preview-row french-row"><strong>الفرنسية:</strong> <span>${french}</span></div>`;
-        }
-
-        let notesHTML = "";
-        if (notes && notes !== 'unknown' && notes !== '') {
-            notesHTML = `<div class="preview-row notes-row" style="color:var(--accent-color); font-style:italic;"><strong>الملاحظة الأثرية:</strong> <span>${notes}</span></div>`;
-        }
-
-        previewCard.innerHTML = `
-            <div class="preview-glyphs">${glyphs}</div>
-            <div class="preview-arabic">${arabic}</div>
+        <!-- اللوحة اليمنى للبيانات التعريفية للمخطوط لتكون من اليمين دائماً وبدقة كاملة -->
+        <aside class="meta-panel" id="metaPanel">
+            <h2>البيانات التعريفية للمخطوط</h2>
             
-            <div class="preview-details">
-                <div class="preview-row metadata-row"><strong>المعرّف:</strong> <span>${sId}</span></div>
-                <div class="preview-row translit-row"><strong>النقل الصوتي:</strong> <span>${tokensHTML || 'لا يوجد'}</span></div>
-                <div class="preview-row english-row"><strong>الإنجليزية:</strong> <span>${english || 'N/A'}</span></div>
-                <div class="preview-row german-row"><strong>الألمانية:</strong> <span>${german || 'N/A'}</span></div>
-                ${frenchHTML}
-                ${notesHTML}
+            <div class="form-group">
+                <label>معرّف المخطوط الكلي (Text ID):</label>
+                <input type="text" id="textId" placeholder="مثال: EGY-501" required>
             </div>
-        `;
-        scrollArea.appendChild(previewCard);
-    });
 
-    updatePreviewVisibility();
-}
+            <div class="form-group">
+                <label>عنوان المخطوط بالعربية:</label>
+                <input type="text" id="titleAr" placeholder="عنوان البردية بالعربية..." required>
+            </div>
 
-// دالة تصفية الطبقات المرئية للسطور داخل نافذة المعاينة التفاعلية المصححة للحدث prevFrench
-function updatePreviewVisibility() {
-    const configs = [
-        { id: 'prevGlyphs', selector: '.preview-glyphs' },
-        { id: 'prevArabic', selector: '.preview-arabic' },
-        { id: 'prevId', selector: '.metadata-row' },
-        { id: 'prevTranslit', selector: '.preview-row:nth-child(2)' },
-        { id: 'prevEnglish', selector: '.preview-row:nth-child(3)' },
-        { id: 'prevGerman', selector: '.preview-row:nth-child(4)' },
-        { id: 'prevFrench', selector: '.french-row' },
-        { id: 'prevNotes', selector: '.notes-row' }
-    ];
+            <div class="form-group">
+                <label>عنوان المخطوط بالإنجليزية:</label>
+                <input type="text" id="titleEn" placeholder="عنوان البردية بالإنجليزية..." required>
+            </div>
 
-    configs.forEach(cfg => {
-        const isChecked = document.getElementById(cfg.id).checked;
-        const elements = document.getElementById('previewScrollArea').querySelectorAll(cfg.selector);
-        elements.forEach(el => {
-            el.style.display = isChecked ? '' : 'none';
-        });
-    });
-}
+            <div class="form-group">
+                <label>أصل البردية بالمتاحف (Catalog No):</label>
+                <input type="text" id="museumCatalog" placeholder="مثال: Papyrus Berlin P. 6619 Recto">
+            </div>
 
-// دالة التصدير والتصفية المخصصة والمستقلة الفائقة القوة (JSON أو TXT)
-function runCustomExport() {
-    const fileType = document.getElementById('exportFileType').value;
-    const textId = document.getElementById('textId').value.trim();
-    
-    const incGlyphs = document.getElementById('incGlyphs').checked;
-    const incTranslit = document.getElementById('incTranslit').checked;
-    const incArabic = document.getElementById('incArabic').checked;
-    const incEnglish = document.getElementById('incEnglish').checked;
-    const incGerman = document.getElementById('incGerman').checked;
-    const incFrench = document.getElementById('incFrench').checked;
-    const incNotes = document.getElementById('incNotes').checked;
+            <div class="form-group">
+                <label>معرّف الـ TLA المستقر (TLA ID):</label>
+                <input type="text" id="stableTlaId" placeholder="مثال: TM-124057">
+            </div>
 
-    if (!textId) {
-        alert("يرجى ملء معرّف المخطوط الكلي أولاً للتصدير.");
-        return;
-    }
+            <div class="form-group">
+                <label>لغة الترجمة الأصلية المرافقة:</label>
+                <select id="origLang">
+                    <option value="German">الألمانية (German) 🇩🇪</option>
+                    <option value="English">الإنجليزية (English) 🇬🇧</option>
+                    <option value="French">الفرنسية (French) 🇫🇷</option>
+                    <option value="unknown">غير محدد (unknown)</option>
+                </select>
+            </div>
 
-    if (fileType === 'json') {
-        const output = {
-            "text_id": textId,
-            "metadata": {
-                "title_ar": document.getElementById('titleAr').value.trim(),
-                "title_en": document.getElementById('titleEn').value.trim(),
-                "museum_catalog_no": document.getElementById('museumCatalog').value.trim(),
-                "stable_tla_id": document.getElementById('stableTlaId').value.trim(),
-                "original_translation_language": document.getElementById('origLang').value,
-                "scholarly_editor": document.getElementById('scholarlyEditor').value.trim(),
-                "description_ar": document.getElementById('descriptionAr').value.trim()
-            },
-            "sentences": []
-        };
+            <div class="form-group">
+                <label>العالم والمراجع الأثري:</label>
+                <input type="text" id="scholarlyEditor" value="Hypatia Builder" placeholder="اسم العالم المحقق...">
+            </div>
 
-        const cards = document.querySelectorAll('.sentence-editor-card');
-        cards.forEach((card, index) => {
-            const sentence = {
-                "metadata": {
-                    "id": card.querySelector('.sentence-id').value.trim(),
-                    "schema_version": "1.0",
-                    "status": "verified_translation",
-                    "created_by": document.getElementById('scholarlyEditor').value.trim(),
-                    "created_at": new Date().toISOString()
-                },
-                "layer1_core": {
-                    "text_id": textId,
-                    "sequence_no": index + 1,
-                    "entity_type": "sentence"
-                }
-            };
+            <div class="form-group">
+                <label>وصف وخلفية تاريخية عن البردية:</label>
+                <textarea id="descriptionAr" placeholder="اكتب هنا تاريخ المخطوط ومحتواه العلمي والأثري بالتفصيل..."></textarea>
+            </div>
+        </aside>
 
-            if (incTranslit) sentence["layer1_core"]["transliteration"] = card.querySelector('.translit-val').value.trim();
-            if (incGlyphs) sentence["layer1_core"]["hieroglyph"] = card.querySelector('.hieroglyph-val').value.trim();
+        <!-- فاصل السحب والتحجيم الرأسي لخدمة اللوحة اليمنى -->
+        <div class="resize-splitter" id="splitter1"></div>
 
-            sentence["layer2_languages"] = {};
-            if (incArabic) sentence["layer2_languages"]["arabic"] = card.querySelector('.arabic-val').value.trim();
-            if (incEnglish) sentence["layer2_languages"]["english"] = card.querySelector('.english-val').value.trim();
-            if (incGerman) sentence["layer2_languages"]["german"] = card.querySelector('.german-val').value.trim();
-            if (incFrench) sentence["layer2_languages"]["french"] = card.querySelector('.french-val').value.trim();
+        <!-- اللوحة اليسرى العريضة لسرد أسطر المخطوط -->
+        <main class="editor-panel">
+            <h2>
+                <span>الأسطر والجمل المضافة للمخطوط</span>
+                <button class="btn btn-primary" onclick="addNewSentence()">➕ أضف جملة جديدة للبردية</button>
+            </h2>
+            <div id="sentencesContainer" style="display: flex; flex-direction: column; gap: 15px;">
+                <!-- كروت الأسطر تضاف تلقائياً هنا من الـ JS الفعّال -->
+            </div>
+        </main>
+    </div>
 
-            sentence["layer3_grammar"] = {
-                "sentence_type": card.querySelector('.sentence-type').value.trim(),
-                "syntax_structure": card.querySelector('.syntax-structure').value.trim()
-            };
-
-            sentence["layer4_writing"] = {
-                "mdc_code": card.querySelector('.mdc-code').value.trim()
-            };
-
-            sentence["layer5_sources"] = {
-                "sources": [
-                    {
-                        "id": card.querySelector('.source-id').value.trim(),
-                        "name": card.querySelector('.source-name').value.trim(),
-                        "type": "manuscript",
-                        "status": "verified"
-                    }
-                ]
-            };
-
-            // تجميع وحفظ المفردات الفردية وربط الليما (الطبقة السادسة) بشكل أوتوماتيكي دقيق
-            const tokenRows = card.querySelectorAll('.token-input-row');
-            const wordTokensArray = [];
-            tokenRows.forEach((row, t_idx) => {
-                const translitVal = row.querySelector('.token-translit').value.trim();
-                const lemmaRefVal = row.querySelector('.token-lemma').value.trim();
-                if (translitVal) {
-                    wordTokensArray.push({
-                        "token_no": t_idx + 1,
-                        "transliteration": translitVal,
-                        "lemma_ref": lemmaRefVal || null
-                    });
-                }
-            });
-            sentence["layer6_relationships"] = { "word_tokens": wordTokensArray };
-
-            if (incNotes) {
-                sentence["layer7_research"] = { "notes": card.querySelector('.notes-val').value.trim() };
-            }
-
-            output.sentences.push(sentence);
-        });
-
-        downloadFile(JSON.stringify(output, null, 4), `${textId}.json`, "application/json");
-
-    } else {
-        let outputTxt = `========================================================================\n`;
-        outputTxt += `              مستودع هيباتيا للأدب المصري القديم - تقريب أثري مصفى\n`;
-        outputTxt += `========================================================================\n\n`;
-        outputTxt += `المخطوط بالعربية : ${document.getElementById('titleAr').value.trim()}\n`;
-        outputTxt += `المخطوط بالإنجليزية: ${document.getElementById('titleEn').value.trim()}\n`;
-        outputTxt += `المعرّف الكلي     : ${textId}\n`;
-        outputTxt += `المتحف / البردية   : ${document.getElementById('museumCatalog').value.trim()}\n`;
-        outputTxt += `المحرر الأكاديمي   : ${document.getElementById('scholarlyEditor').value.trim()}\n`;
-        outputTxt += `تاريخ التصدير     : ${new Date().toLocaleDateString('ar-EG')}\n`;
-        outputTxt += `------------------------------------------------------------------------\n\n`;
-
-        const cards = document.querySelectorAll('.sentence-editor-card');
-        cards.forEach((card, index) => {
-            const seq = index + 1;
-            const id = card.querySelector('.sentence-id').value.trim();
-            outputTxt += `[جملة ${seq} - المعرّف: ${id}]\n`;
+    <!-- 3. شاشة التصدير والتصفية المستقلة والتفصيلية (Advanced Export Modal) -->
+    <div id="exportModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>تصدير مخصص وتصفية طبقات الملف</h3>
+                <button class="modal-close" onclick="closeExportModal()">✕</button>
+            </div>
             
-            if (incGlyphs) outputTxt += `الرسم الفرعوني : ${card.querySelector('.hieroglyph-val').value.trim()}\n`;
-            if (incTranslit) outputTxt += `النقل الصوتي   : ${card.querySelector('.translit-val').value.trim()}\n`;
-            if (incArabic) outputTxt += `الترجمة العربية : ${card.querySelector('.arabic-val').value.trim()}\n`;
-            if (incEnglish) outputTxt += `الترجمة الإنجليزية: ${card.querySelector('.english-val').value.trim()}\n`;
-            if (incGerman) outputTxt += `الترجمة الألمانية : ${card.querySelector('.german-val').value.trim()}\n`;
-            if (incFrench) outputTxt += `الترجمة الفرنسية  : ${card.querySelector('.french-val').value.trim()}\n`;
-            if (incNotes) outputTxt += `الملاحظة الأثرية : ${card.querySelector('.notes-val').value.trim()}\n`;
-            
-            outputTxt += `\n------------------------------------------------------------------------\n\n`;
-        });
+            <div class="form-group">
+                <label for="exportFileType">صيغة الملف المطلوب تصديره:</label>
+                <select id="exportFileType">
+                    <option value="json">ملف هيباتيا سباعي الطبقات القياسي (JSON)</option>
+                    <option value="txt">ملف تقرير دراسي للباحثين مبوب (TXT)</option>
+                </select>
+            </div>
 
-        downloadFile(outputTxt, `${textId}_audit_report.txt`, "text/plain;charset=utf-8");
-    }
-    closeExportModal();
-}
+            <div class="form-group">
+                <label>حدد الحقول والطبقات المراد دمجها وحقنها في الملف المصدر:</label>
+                <div class="checkbox-group">
+                    <label class="checkbox-item"><input type="checkbox" id="incGlyphs" checked> الرسم الفرعوني (الهيروغليفي)</label>
+                    <label class="checkbox-item"><input type="checkbox" id="incTranslit" checked> النقل الصوتي (Transliteration)</label>
+                    <label class="checkbox-item"><input type="checkbox" id="incArabic" checked> الترجمة العربية</label>
+                    <label class="checkbox-item"><input type="checkbox" id="incEnglish" checked> الترجمة الإنجليزية</label>
+                    <label class="checkbox-item"><input type="checkbox" id="incGerman" checked> الترجمة الألمانية</label>
+                    <label class="checkbox-item"><input type="checkbox" id="incFrench" checked> الترجمة الفرنسية</label>
+                    <label class="checkbox-item"><input type="checkbox" id="incNotes" checked> الملاحظات والتعليقات الأثرية للسطر</label>
+                </div>
+            </div>
 
-// دالة التصدير والتأصيل السحابي الفوري والمباشر لجداول سوبابيز بالـ SQL من المتصفح
-async function saveStoryToSupabase() {
-    initSupabase();
-    if (!_supabase) {
-        alert("خطأ: مكتبة سوبابيز غير مهيأة بالمتصفح حالياً.");
-        return;
-    }
+            <button class="btn btn-success" style="width: 100%; font-size:1rem; padding: 12px;" onclick="runCustomExport()">إتمام التصدير والتحميل الفوري</button>
+        </div>
+    </div>
 
-    const textId = document.getElementById('textId').value.trim();
-    const titleAr = document.getElementById('titleAr').value.trim();
-    const titleEn = document.getElementById('titleEn').value.trim();
-    const museumCatalog = document.getElementById('museumCatalog').value.trim();
-    const stableTlaId = document.getElementById('stableTlaId').value.trim();
-    const origLang = document.getElementById('origLang').value;
-    const scholarlyEditor = document.getElementById('scholarlyEditor').value.trim();
-    const descriptionAr = document.getElementById('descriptionAr').value.trim();
+    <!-- 4. شاشة عرض ومعاينة قراءة البردية الكبرى التفاعلية (Zen Preview Modal) -->
+    <div id="previewModal" class="modal">
+        <div class="preview-modal-content">
+            <div class="modal-header">
+                <h3 id="previewStoryTitle">📖 معاينة قراءة البردية - نمط العرض الأكاديمي</h3>
+                <button class="modal-close" onclick="closePreviewModal()">✕ أغلق المعاينة</button>
+            </div>
 
-    if (!textId || !titleAr) {
-        alert("يرجى إدخال معرّف المخطوط وعنوانه العربي أولاً.");
-        return;
-    }
+            <div class="display-filters">
+                <span style="font-weight: bold; font-size: 0.85rem; margin-left: 5px;">طبقات العرض النشطة في المعاينة:</span>
+                <label class="filter-item"><input type="checkbox" id="prevGlyphs" checked onchange="updatePreviewVisibility()"> الرسم الفرعوني</label>
+                <label class="filter-item"><input type="checkbox" id="prevArabic" checked onchange="updatePreviewVisibility()"> الترجمة العربية</label>
+                <label class="filter-item"><input type="checkbox" id="prevId" checked onchange="updatePreviewVisibility()"> معرّف السطر</label>
+                <label class="filter-item"><input type="checkbox" id="prevTranslit" checked onchange="updatePreviewVisibility()"> النقل الصوتي</label>
+                <label class="filter-item"><input type="checkbox" id="prevEnglish" checked onchange="updateVisibility()"> الإنجليزية</label>
+                <label class="filter-item"><input type="checkbox" id="prevGerman" checked onchange="updateVisibility()"> الألمانية</label>
+                <label class="filter-item"><input type="checkbox" id="prevFrench" checked onchange="updateVisibility()"> الفرنسية</label>
+                <label class="filter-item"><input type="checkbox" id="prevNotes" checked onchange="updatePreviewVisibility()"> الملاحظات الأثرية</label>
+            </div>
 
-    if (!confirm(`هل أنت متأكد من حفظ وتأصيل مخطوط [${textId}] حياً وسحابياً في جداول سوبابيز؟`)) {
-        return;
-    }
+            <div class="preview-scroll-area" id="previewScrollArea">
+                <!-- تعبأ ديناميكياً من مدخلات المحرر الحالية -->
+            </div>
+        </div>
+    </div>
 
-    try {
-        // 1. ترحيل وضخ رأس المخطوط (stories)
-        const storyPayload = {
-            id: textId,
-            source_id: "BA-DICT-001",
-            title_ar: titleAr,
-            title_en: titleEn,
-            museum_catalog_no: museumCatalog || null,
-            stable_tla_id: stableTlaId || null,
-            original_translation_language: origLang,
-            scholarly_editor: scholarlyEditor,
-            description_ar: descriptionAr
-        };
-
-        const { error: errStory } = await _supabase
-            .from('stories')
-            .upsert([storyPayload], { onConflict: 'id' });
-
-        if (errStory) throw errStory;
-
-        // 2. تفكيك وبناء جمل المخطوط (sentences)
-        const cards = document.querySelectorAll('.sentence-editor-card');
-        const sentencesPayload = [];
-        const tokensPayload = [];
-
-        cards.forEach((card, index) => {
-            const seq = index + 1;
-            const sId = card.querySelector('.sentence-id').value.trim();
-            const glyphs = card.querySelector('.hieroglyph-val').value.trim();
-            const translit = card.querySelector('.translit-val').value.trim();
-            const mdc = card.querySelector('.mdc-code').value.trim();
-            const arabic = card.querySelector('.arabic-val').value.trim();
-            const english = card.querySelector('.english-val').value.trim();
-            const german = card.querySelector('.german-val').value.trim();
-            const french = card.querySelector('.french-val').value.trim();
-            const sType = card.querySelector('.sentence-type').value.trim();
-            const syntax = card.querySelector('.syntax-structure').value.trim();
-            const sourceId = card.querySelector('.source-id').value.trim();
-            const sourceName = card.querySelector('.source-name').value.trim();
-            const notes = card.querySelector('.notes-val').value.trim();
-
-            sentencesPayload.push({
-                id: sId,
-                story_id: textId,
-                sequence_no: seq,
-                hieroglyph: glyphs,
-                transliteration: translit,
-                mdc_code: mdc || null,
-                translation_ar: arabic,
-                translation_en: english,
-                translation_de: german,
-                translation_fr: french,
-                sentence_type: sType,
-                syntax_structure: syntax,
-                notes: notes || null
-            });
-
-            // تفكيك المفردات وربط الليما سحابياً
-            const tokenRows = card.querySelectorAll('.token-input-row');
-            tokenRows.forEach((row, t_idx) => {
-                const translitVal = row.querySelector('.token-translit').value.trim();
-                const lemmaRefVal = row.querySelector('.token-lemma').value.trim();
-                if (translitVal) {
-                    const isNe = lemmaRefVal.startsWith('HYP-NE-');
-                    tokensPayload.push({
-                        sentence_id: sId,
-                        token_no: t_idx + 1,
-                        transliteration: translitVal,
-                        lemma_id: (!isNe && lemmaRefVal) ? lemmaRefVal : null,
-                        entity_id: (isNe && lemmaRefVal) ? lemmaRefVal : null
-                    });
-                }
-            });
-        });
-
-        // ضخ الجمل
-        if (sentencesPayload.length > 0) {
-            const { error: errSentences } = await _supabase
-                .from('sentences')
-                .upsert(sentencesPayload, { onConflict: 'id' });
-            if (errSentences) throw errSentences;
-        }
-
-        // ضخ مفردات التوكنز بعد مسح التوكنز القديمة لتفادي التكرار
-        if (sentencesPayload.length > 0) {
-            const sentenceIds = sentencesPayload.map(s => s.id);
-            await _supabase.from('word_tokens').delete().in('sentence_id', sentenceIds);
-        }
-
-        if (tokensPayload.length > 0) {
-            const { error: errTokens } = await _supabase
-                .from('word_tokens')
-                .insert(tokensPayload);
-            if (errTokens) throw errTokens;
-        }
-
-        alert(`[تم بنجاح]: تم حفظ وتأصيل مخطوط [${textId}] بالكامل حياً وسحابياً في جداول سوبابيز بنجاح لاهوتي وتوافقي كامل!`);
-
-    } catch (err) {
-        alert("فشل الحفظ السحابي: " + err.message);
-    }
-}
-
-function downloadFile(content, fileName, contentType) {
-    const blob = new Blob([content], { type: contentType });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = fileName;
-    a.click();
-    URL.revokeObjectURL(url);
-}
-
-// دالة تهيئة الاتصال بسوبابيز سحابياً
-function initSupabase() {
-    if (!_supabase && typeof supabase !== 'undefined') {
-        const { createClient } = supabase;
-        _supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
-    }
-}
-
-window.onload = () => {
-    initSupabase();
-    addNewSentence();
-};
+    <!-- استدعاء ملف التشغيل السحابي والتحقيقي المستقر لمرسم هيباتيا -->
+    <script src="js/studio.js"></script>
+</body>
+</html>
