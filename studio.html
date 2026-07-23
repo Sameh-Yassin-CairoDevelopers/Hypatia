@@ -31,8 +31,8 @@
     <!-- 2. مساحة العمل الكلية للمحرر -->
     <div class="studio-workspace">
         
-        <!-- اللوحة اليمنى: البيانات التعريفية للمخطوط بأكمله -->
-        <aside class="meta-panel">
+        <!-- اللوحة اليمنى للبيانات التعريفية للمخطوط لتكون من اليمين دائماً وبدقة كاملة -->
+        <aside class="meta-panel" id="metaPanel">
             <h2>البيانات التعريفية للمخطوط</h2>
             
             <div class="form-group">
@@ -81,14 +81,17 @@
             </div>
         </aside>
 
-        <!-- اللوحة اليسرى: مساحة سرد وتحرير أسطر وجمل المخطوط -->
+        <!-- فاصل السحب والتحجيم الرأسي لخدمة اللوحة اليمنى -->
+        <div class="resize-splitter" id="splitter1"></div>
+
+        <!-- اللوحة اليسرى العريضة لسرد أسطر المخطوط -->
         <main class="editor-panel">
             <h2>
                 <span>الأسطر والجمل المضافة للمخطوط</span>
                 <button class="btn btn-primary" onclick="addNewSentence()">➕ أضف جملة جديدة للبردية</button>
             </h2>
             <div id="sentencesContainer" style="display: flex; flex-direction: column; gap: 15px;">
-                <!-- كروت الأسطر تضاف تلقائياً هنا -->
+                <!-- كروت الأسطر تضاف تلقائياً هنا من الـ JS الفعّال -->
             </div>
         </main>
     </div>
@@ -140,9 +143,9 @@
                 <label class="filter-item"><input type="checkbox" id="prevArabic" checked onchange="updatePreviewVisibility()"> الترجمة العربية</label>
                 <label class="filter-item"><input type="checkbox" id="prevId" checked onchange="updatePreviewVisibility()"> معرّف السطر</label>
                 <label class="filter-item"><input type="checkbox" id="prevTranslit" checked onchange="updatePreviewVisibility()"> النقل الصوتي</label>
-                <label class="filter-item"><input type="checkbox" id="prevEnglish" checked onchange="updatePreviewVisibility()"> الإنجليزية</label>
-                <label class="filter-item"><input type="checkbox" id="prevGerman" checked onchange="updatePreviewVisibility()"> الألمانية</label>
-                <label class="filter-item"><input type="checkbox" id="prevFrench" checked onchange="updatePreviewVisibility()"> الفرنسية</label>
+                <label class="filter-item"><input type="checkbox" id="prevEnglish" checked onchange="updateVisibility()"> الإنجليزية</label>
+                <label class="filter-item"><input type="checkbox" id="prevGerman" checked onchange="updateVisibility()"> الألمانية</label>
+                <label class="filter-item"><input type="checkbox" id="prevFrench" checked onchange="updateVisibility()"> الفرنسية</label>
                 <label class="filter-item"><input type="checkbox" id="prevNotes" checked onchange="updatePreviewVisibility()"> الملاحظات الأثرية</label>
             </div>
 
@@ -152,7 +155,7 @@
         </div>
     </div>
 
-    <!-- استدعاء ملف التشغيل والمنطق البرمجي السحابي الخاص بالمرسم -->
+    <!-- استدعاء ملف التشغيل السحابي والتحقيقي المستقر لمرسم هيباتيا -->
     <script src="js/studio.js"></script>
 </body>
 </html>
