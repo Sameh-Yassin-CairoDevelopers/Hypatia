@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>بوابة هيباتيا الرقمية - تصفح المخطوطات والبرديات</title>
+    <title>منصة هيباتيا الرقمية للأدب المصري القديم</title>
     <!-- جلب مكتبة سوبابيز الرسمية للاتصال المباشر بقاعدة البيانات سحابياً -->
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <style>
-        /* التنسيق الجمالي لثيمات هيباتيا الثلاثة */
+        /* تعريف متغيرات الألوان للثيمات الثلاثة */
         :root[data-theme="papyrus"] {
             --bg-color: #f6ecd0;
             --text-color: #2c2512;
@@ -52,8 +52,13 @@
             text-align: right;
         }
 
+        /* تصغير حجوم خطوط وعناصر الواجهة لتتناسب مع شاشات الهواتف المعيارية */
+        html {
+            font-size: 11px;
+        }
+
         /* ------------------------------------------------------------------------
-           1. بوابة الدخول الكبرى (Portal View)
+           1. بوابة الدخول الكبرى والترحيب (Portal View)
            ------------------------------------------------------------------------ */
         .portal-view {
             flex: 1;
@@ -61,7 +66,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            padding: 40px 20px;
+            padding: 30px 15px;
             overflow-y: auto;
         }
 
@@ -69,41 +74,41 @@
             background-color: var(--card-bg);
             border: 1px solid var(--border-color);
             border-radius: 8px;
-            padding: 40px;
-            max-width: 650px;
+            padding: 30px 20px;
+            max-width: 550px;
             width: 100%;
             text-align: center;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.03);
         }
 
         .portal-card h1 {
             font-family: 'Amiri', serif;
-            font-size: 2.2rem;
+            font-size: 1.8rem;
             color: var(--accent-color);
-            margin: 0 0 20px 0;
+            margin: 0 0 15px 0;
             line-height: 1.4;
         }
 
         .portal-card p {
-            font-size: 1.1rem;
-            line-height: 1.6;
+            font-size: 1rem;
+            line-height: 1.5;
             color: var(--muted-text);
-            margin: 0 0 30px 0;
+            margin: 0 0 25px 0;
         }
 
         .portal-btn {
             background-color: var(--accent-color);
             border: 1px solid var(--accent-color);
             color: #fff;
-            padding: 12px 30px;
+            padding: 10px 25px;
             border-radius: 4px;
             cursor: pointer;
             font-family: 'Amiri', serif;
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             font-weight: bold;
-            text-decoration: none;
             transition: opacity 0.2s;
-            display: inline-block;
+            width: 100%;
+            max-width: 300px;
         }
 
         .portal-btn:hover {
@@ -111,76 +116,120 @@
         }
 
         /* ------------------------------------------------------------------------
-           2. واجهة تصفح وقراءة البرديات (Reader View)
+           2. شريط تطبيق الهاتف العلوي والثابت (App Header)
+           ------------------------------------------------------------------------ */
+        .app-header {
+            background-color: var(--card-bg);
+            border-bottom: 2.5px solid var(--border-color);
+            height: 50px;
+            padding: 0 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+            z-index: 100;
+        }
+
+        .app-header h2 {
+            margin: 0;
+            font-family: 'Amiri', serif;
+            font-size: 1.15rem;
+            color: var(--text-color);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 55%;
+        }
+
+        .nav-btn {
+            background-color: var(--border-color);
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 4px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-family: 'Amiri', serif;
+            font-size: 0.85rem;
+            font-weight: bold;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        /* ------------------------------------------------------------------------
+           3. واجهة تصفح وقراءة البرديات المتجاوبة (Reader View)
            ------------------------------------------------------------------------ */
         .reader-view {
-            display: none; /* مخفية افتراضياً وتفتح بنقرة الزر */
+            display: none; /* تفتح فقط بنقرة الباحث */
             flex: 1;
             flex-direction: column;
-            height: 100%;
             overflow: hidden;
+            position: relative;
         }
 
         .reader-workspace {
             flex: 1;
             display: flex;
             overflow: hidden;
+            position: relative;
         }
 
-        /* القائمة الجانبية لتصفح البرديات */
-        .sidebar {
+        /* درج قائمة البرديات المنزلق المتجاوب مع شاشات الهواتف والتابلت */
+        .sidebar-drawer {
+            position: fixed;
+            top: 50px;
+            right: -285px; /* مخفي خارج الشاشة يميناً على الهاتف */
             width: 280px;
-            min-width: 150px;
-            max-width: 450px;
+            height: calc(100vh - 50px);
             background-color: var(--card-bg);
             border-left: 1px solid var(--border-color);
             display: flex;
             flex-direction: column;
             padding: 15px;
             overflow-y: auto;
-            flex: none;
+            z-index: 1000;
+            transition: right 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
-        .sidebar h2 {
+        .sidebar-drawer.open {
+            right: 0 !important; /* انزلاق ودخول ناعم لليمين */
+        }
+
+        /* درج الخيارات والسمات المنزلق من اليسار (Hamburger Menu Drawer) */
+        .settings-drawer {
+            position: fixed;
+            top: 50px;
+            left: -285px; /* مخفي خارج الشاشة يساراً على الهاتف */
+            width: 280px;
+            height: calc(100vh - 50px);
+            background-color: var(--card-bg);
+            border-right: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+            padding: 15px;
+            overflow-y: auto;
+            z-index: 1000;
+            transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            gap: 15px;
+        }
+
+        .settings-drawer.open {
+            left: 0 !important; /* انزلاق ودخول ناعم لليسار */
+        }
+
+        .drawer-header {
             font-family: 'Amiri', serif;
-            margin-top: 0;
-            font-size: 1.4rem;
-            border-bottom: 2px solid var(--accent-color);
-            padding-bottom: 10px;
-        }
-
-        .story-link {
-            padding: 10px;
-            margin: 4px 0;
-            border-radius: 6px;
-            cursor: pointer;
-            border: 1px solid transparent;
-            font-family: 'Amiri', serif;
-            font-size: 1.05rem;
-        }
-
-        .story-link:hover {
-            background-color: var(--border-color);
-        }
-
-        .story-link.active {
-            background-color: var(--accent-color);
-            color: #fff;
+            font-size: 1.25rem;
             font-weight: bold;
+            border-bottom: 2.5px solid var(--accent-color);
+            padding-bottom: 8px;
+            margin-bottom: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
 
-        /* فاصل السحب بالماوس لتغيير عرض القائمة الجانبية */
-        .resize-splitter {
-            width: 6px;
-            background-color: var(--border-color);
-            cursor: col-resize;
-            transition: background-color 0.15s;
-            z-index: 50;
-        }
-        .resize-splitter:hover {
-            background-color: var(--accent-color);
-        }
-
+        /* لوحة القراءة وسرد أسطر البردية ممتدة بالكامل على الهاتف */
         .reader-pane {
             flex: 1;
             display: flex;
@@ -188,84 +237,10 @@
             overflow: hidden;
         }
 
-        /* هيدر القراءة النحيف والثابت في الأعلى */
-        .control-bar {
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            display: flex;
-            flex-direction: column;
-            background-color: var(--card-bg);
-            padding: 6px 20px;
-            border-bottom: 2px solid var(--border-color);
-            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
-        }
-
-        .control-bar-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            width: 100%;
-        }
-
-        .active-story-title {
-            font-family: 'Amiri', serif;
-            font-size: 1.25rem;
-            font-weight: bold;
-        }
-
-        .header-toggle-btn {
-            background: none;
-            border: none;
-            color: var(--accent-color);
-            cursor: pointer;
-            font-size: 1rem;
-            font-weight: bold;
-            padding: 4px;
-        }
-
-        .control-bar-settings {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            margin-top: 10px;
-            border-top: 1px dashed var(--border-color);
-            padding-top: 8px;
-        }
-
-        .control-row {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            width: 100%;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-
-        .display-filters {
-            display: flex;
-            gap: 12px;
-            flex-wrap: wrap;
-            align-items: center;
-            background-color: var(--bg-color);
-            padding: 5px 12px;
-            border-radius: 6px;
-            border: 1px solid var(--border-color);
-        }
-
-        .filter-item {
-            display: flex;
-            align-items: center;
-            gap: 5px;
-            font-size: 0.85rem;
-            cursor: pointer;
-            user-select: none;
-        }
-
         .scrollable-content {
             flex: 1;
             overflow-y: auto;
-            padding: 20px;
+            padding: 15px;
         }
 
         .font-sizer {
@@ -275,28 +250,29 @@
             font-size: 0.85rem;
         }
 
-        /* كارت الجملة وقراءة السطور - خفيف ومنظم وبخطوط مصغرة لتسهيل القراءة */
+        /* كارت الجملة وقراءة السطور - متجاوب تماماً مع الشاشات الصغيرة */
         .sentence-card {
             background-color: var(--card-bg);
             border-radius: 8px;
-            padding: 15px 20px;
-            margin-bottom: 25px;
+            padding: 15px;
+            margin-bottom: 20px;
             border: 1px solid var(--border-color);
             display: flex;
             flex-direction: column;
         }
 
         .glyphs-display {
-            font-size: 2rem;
+            font-size: 1.8rem;
             margin-bottom: 10px;
-            line-height: 1.5;
+            line-height: 1.4;
             letter-spacing: 1px;
             color: var(--text-color);
+            word-wrap: break-word;
         }
 
         .arabic-display {
             font-family: 'Amiri', serif;
-            font-size: 1.65rem;
+            font-size: 1.5rem;
             font-weight: bold;
             line-height: 1.4;
             color: var(--text-color);
@@ -315,12 +291,12 @@
             display: flex;
             align-items: flex-start;
             gap: 8px;
-            font-size: 0.88rem;
-            line-height: 1.35;
+            font-size: 0.85rem;
+            line-height: 1.3;
         }
 
         .detail-row strong {
-            min-width: 80px;
+            min-width: 75px;
             color: var(--text-color);
             display: inline-block;
         }
@@ -346,15 +322,44 @@
             background-color: var(--accent-color);
             color: #fff;
         }
+
+        /* شاشات الإظهار لـ التاب والديسك توب (العرض الجانبي القياسي للـ Sidebar) */
+        @media (min-width: 769px) {
+            html {
+                font-size: 12px;
+            }
+            .app-header h2 {
+                max-width: 70%;
+            }
+            .sidebar-drawer {
+                position: static;
+                width: 280px;
+                height: 100%;
+                border-left: 1px solid var(--border-color);
+            }
+            .resize-splitter {
+                display: block; /* يظهر فاصل السحب على شاشات الديسك توب فقط */
+            }
+            /* إخفاء الأزرار المخصصة للموبايل على الشاشات الكبيرة */
+            #storiesDrawerBtn {
+                display: none !important;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .resize-splitter {
+                display: none !important; /* إلغاء فواصل السحب على شاشات الموبايل لمنع التداخل البصري */
+            }
+        }
     </style>
 </head>
 <body>
 
     <!-- ========================================================================
-       البوابة الأولى والواجهة الرئيسية (Portal View)
+       البوابة الأولى والواجهة الرئيسية للترحيب (Portal View)
        ======================================================================== -->
     <div class="portal-view" id="portalView">
-        <div class="control-row" style="width: 100%; max-width: 650px; justify-content: flex-end; margin-bottom: 20px;">
+        <div class="control-row" style="width: 100%; max-width: 550px; justify-content: flex-end; margin-bottom: 20px;">
             <div>
                 <button class="theme-btn" onclick="setTheme('papyrus')">ورق بردي 📜</button>
                 <button class="theme-btn" onclick="setTheme('light')">نهاري ☀️</button>
@@ -366,72 +371,85 @@
             <h1>بوابة هيباتيا للأدب والعلوم المصرية القديمة ✒️</h1>
             <p>
                 مستودع معرفي مخصص لعرض وقراءة المخطوطات والبرديات الفرعونية الكلاسيكية، 
-                المتصلة بقاعدة البيانات السحابية سوبابيز، لتقديم أفضل تجربة قراءة ودراسة أكاديمية للنصوص والترجمات المتوازية والملاحظات الأثرية.
+                المتصلة مباشرة وبصيغة سيرفرلس بسحابة سوبابيز، لتقديم أرفع تجربة قراءة وتصفح تفاعلية تتجاوب بالكامل مع كافة الشاشات والموبايل.
             </p>
             <button class="portal-btn" onclick="switchToReaderMode()">📖 مستودع القراءة (تصفح المخطوطات)</button>
         </div>
     </div>
 
     <!-- ========================================================================
-       البوابة الثانية وواجهة القراءة والتحقيق (Reader View)
+       البوابة الثانية وواجهة القراءة المتجاوبة كبرنامج متكامل (Reader View)
        ======================================================================== -->
     <div class="reader-view" id="readerView">
+        
+        <!-- شريط التطبيق العلوي والثابت (App Bar) -->
+        <header class="app-header">
+            <button class="nav-btn" onclick="goBackToPortal()">🏠 البوابة</button>
+            <h2 id="activeStoryLabel">📖 اختر مخطوطاً للبدء</h2>
+            
+            <div style="display: flex; gap: 5px;">
+                <!-- أزرار تفاعلية تظهر فقط على شاشات الموبايل والتابلت لفتح الأدراج المنسدلة -->
+                <button class="nav-btn" id="storiesDrawerBtn" onclick="toggleStoriesDrawer()">📜 القائمة</button>
+                <button class="nav-btn" onclick="toggleSettingsDrawer()">☰ خيارات</button>
+            </div>
+        </header>
+
         <div class="reader-workspace">
             
-            <!-- القائمة الجانبية لتصفح البرديات من السحابة -->
-            <div class="sidebar" id="sidebar">
-                <h2>برديات هيباتيا</h2>
+            <!-- 1. درج قائمة البرديات والمخطوطات السحابية (RTL Sidebar) -->
+            <div class="sidebar-drawer" id="sidebar">
+                <div class="drawer-header" style="margin-top: 20px;">
+                    <span>📜 البرديات المتاحة</span>
+                    <button class="modal-close" id="sidebarCloseBtn" onclick="toggleStoriesDrawer()" style="display: none;">✕</button>
+                </div>
                 <div id="storiesList">
                     <p style="font-size: 0.85rem; color: var(--muted-text);">جاري فحص قاعدة البيانات السحابية...</p>
                 </div>
             </div>
 
-            <!-- فاصل السحب وتغيير حجم القائمة بالماوس -->
+            <!-- فاصل السحب والتحجيم الرأسي (يظهر فقط على الديسكتوب) -->
             <div class="resize-splitter" id="splitter1"></div>
 
-            <!-- لوحة القراءة والسطور المصفاة -->
+            <!-- 2. لوحة القراءة وسرد أسطر البردية المتجاوبة تماماً -->
             <div class="reader-pane">
-                <div class="control-bar">
-                    <div class="control-bar-header">
-                        <div class="active-story-title">
-                            <span id="activeStoryLabel">📖 جاري جلب المخطوط...</span>
-                        </div>
-                        <button class="header-toggle-btn" onclick="toggleHeaderSettings(this)">خيارات العرض ▲</button>
-                    </div>
+                <div class="scrollable-content" id="storyContainer">
+                    <p>يرجى اختيار قصة من القائمة الجانبية للبدء بالقراءة.</p>
+                </div>
+            </div>
 
-                    <!-- حاوية الإعدادات والفلاتر القابلة للطي لقفل 75% من الهيدر لتوفير مساحة قراءة واسعة -->
-                    <div class="control-bar-settings" id="headerSettings">
-                        <div class="control-row">
-                            <div>
-                                <button class="theme-btn" onclick="setTheme('papyrus')">ورق بردي 📜</button>
-                                <button class="theme-btn" onclick="setTheme('light')">نهاري ☀️</button>
-                                <button class="theme-btn" onclick="setTheme('dark')">ليلي 🌙</button>
-                            </div>
-                            <div class="font-sizer">
-                                <span>حجم الخط:</span>
-                                <input type="range" min="14" max="36" value="26" oninput="changeFontSize(this.value)">
-                            </div>
-                        </div>
-
-                        <div class="control-row">
-                            <div class="display-filters">
-                                <span style="font-weight: bold; font-size: 0.85rem; margin-left: 5px;">طبقات العرض النشطة:</span>
-                                <label class="filter-item"><input type="checkbox" id="showGlyphs" checked onchange="updateVisibility()"> الرسم الفرعوني</label>
-                                <label class="filter-item"><input type="checkbox" id="showArabic" checked onchange="updateVisibility()"> الترجمة العربية</label>
-                                <label class="filter-item"><input type="checkbox" id="showId" checked onchange="updateVisibility()"> معرّف السطر</label>
-                                <label class="filter-item"><input type="checkbox" id="showTranslit" checked onchange="updateVisibility()"> النقل الصوتي</label>
-                                <label class="filter-item"><input type="checkbox" id="showEnglish" checked onchange="updateVisibility()"> الإنجليزية</label>
-                                <label class="filter-item"><input type="checkbox" id="showGerman" checked onchange="updateVisibility()"> الألمانية</label>
-                                <label class="filter-item"><input type="checkbox" id="showFrench" checked onchange="updateVisibility()"> الفرنسية</label>
-                                <label class="filter-item"><input type="checkbox" id="showNotes" checked onchange="updateVisibility()"> الملاحظات الأثرية</label>
-                            </div>
-                        </div>
+            <!-- 3. درج الخيارات والسمات والطبقات المنزلق من اليسار (LTL Settings Drawer) -->
+            <div class="settings-drawer" id="settingsDrawer">
+                <div class="drawer-header">
+                    <span>⚙️ خيارات العرض والسمات</span>
+                    <button class="modal-close" onclick="toggleSettingsDrawer()">✕</button>
+                </div>
+                
+                <div class="form-group">
+                    <label>السمة البصرية:</label>
+                    <div style="display: flex; gap: 4px; margin-top: 5px;">
+                        <button class="theme-btn" onclick="setTheme('papyrus')">بردي 📜</button>
+                        <button class="theme-btn" onclick="setTheme('light')">نهاري ☀️</button>
+                        <button class="theme-btn" onclick="setTheme('dark')">ليلي 🌙</button>
                     </div>
                 </div>
 
-                <!-- وعاء سرد وقراءة سطور البردية -->
-                <div class="scrollable-content" id="storyContainer">
-                    <p>يرجى اختيار قصة من القائمة الجانبية للبدء بالقراءة.</p>
+                <div class="form-group" style="margin-top: 10px;">
+                    <label>حجم الخط للسطور:</label>
+                    <input type="range" min="14" max="36" value="26" oninput="changeFontSize(this.value)" style="margin-top: 5px;">
+                </div>
+
+                <div class="form-group" style="margin-top: 10px; border-top: 1px dashed var(--border-color); padding-top: 10px;">
+                    <label style="margin-bottom: 8px; display: block;">حدد طبقات العرض النشطة:</label>
+                    <div class="checkbox-group" style="grid-template-columns: 1fr;">
+                        <label class="checkbox-item"><input type="checkbox" id="showGlyphs" checked onchange="updateVisibility()"> الرسم الفرعوني</label>
+                        <label class="checkbox-item"><input type="checkbox" id="showArabic" checked onchange="updateVisibility()"> الترجمة العربية</label>
+                        <label class="checkbox-item"><input type="checkbox" id="showId" checked onchange="updateVisibility()"> معرّف السطر</label>
+                        <label class="checkbox-item"><input type="checkbox" id="showTranslit" checked onchange="updateVisibility()"> النقل الصوتي</label>
+                        <label class="checkbox-item"><input type="checkbox" id="showEnglish" checked onchange="updateVisibility()"> الإنجليزية</label>
+                        <label class="checkbox-item"><input type="checkbox" id="showGerman" checked onchange="updateVisibility()"> الألمانية</label>
+                        <label class="filter-item"><input type="checkbox" id="showFrench" checked onchange="updateVisibility()"> الفرنسية</label>
+                        <label class="filter-item"><input type="checkbox" id="showNotes" checked onchange="updateVisibility()"> الملاحظات الأثرية</label>
+                    </div>
                 </div>
             </div>
 
@@ -439,7 +457,6 @@
     </div>
 
     <script>
-        // معطيات اتصال مشروع سوبابيز السحابي الموحد والممتلئ بالبيانات
         const SUPABASE_URL = "https://nhkwdbhbmgnnzilrxulx.supabase.co";
         const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5oa3dkYmhibWdubnppbHJ4dWx4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQ3NTc4NjksImV4cCI6MjEwMDMzMzg2OX0.d73X1zt-l48N5RCCJwxubFe_EZloUCs9_M3Pu2sIpTQ";
 
@@ -464,30 +481,46 @@
             arTranslations.forEach(el => el.style.fontSize = (size - 6) + 'px');
         }
 
-        function toggleHeaderSettings(btn) {
-            const settings = document.getElementById('headerSettings');
-            if (settings.style.display === 'none') {
-                settings.style.display = 'flex';
-                btn.innerText = "خيارات العرض ▲";
-            } else {
-                settings.style.display = 'none';
-                btn.innerText = "خيارات العرض ▼";
-            }
-        }
-
-        // دالة التبديل المعماري أحادي الصفحة (SPA Switcher) لفتح واجهة القراءة وجلب البيانات
+        // دالة التبديل المعماري أحادي الصفحة لفتح واجهة القراءة
         function switchToReaderMode() {
             document.getElementById('portalView').style.display = 'none';
             document.getElementById('readerView').style.display = 'flex';
             fetchStoriesList();
         }
 
-        // برمجة فواصل السحب وتوسيع الألواح بالماوس (Resizable Panels) مع قفل الأبعاد لضمان السحب التام
+        // دالة العودة للبوابة الرئيسية الموحدة
+        function goBackToPortal() {
+            // إغلاق الأدراج المنسدلة المفتوحة تلقائياً لمنع أي تضارب بصري
+            document.getElementById('sidebar').classList.remove('open');
+            document.getElementById('settingsDrawer').classList.remove('open');
+            
+            document.getElementById('readerView').style.display = 'none';
+            document.getElementById('portalView').style.display = 'flex';
+        }
+
+        // دالة فتح/إغلاق درج قائمة البرديات الجانبي للموبايل
+        function toggleStoriesDrawer() {
+            const sidebar = document.getElementById('sidebar');
+            sidebar.classList.toggle('open');
+            // إغلاق درج الخيارات الأخر تلقائياً لتنظيف الشاشة
+            document.getElementById('settingsDrawer').classList.remove('open');
+        }
+
+        // دالة فتح/إغلاق درج الخيارات والسمات والطبقات للموبايل
+        function toggleSettingsDrawer() {
+            const drawer = document.getElementById('settingsDrawer');
+            drawer.classList.toggle('open');
+            // إغلاق درج البرديات الأخر تلقائياً
+            document.getElementById('sidebar').classList.remove('open');
+        }
+
+        // برمجة فواصل السحب وتوسيع الألواح بالماوس (تتفعل فقط على الشاشات الكبيرة)
         function initResize(splitterId, targetId, isRightToLeft) {
             const splitter = document.getElementById(splitterId);
             const target = document.getElementById(targetId);
             
             splitter.onmousedown = function(e) {
+                if (window.innerWidth <= 768) return; // تعطيل السحب بالماوس على الموبايل
                 e.preventDefault();
                 document.onmousemove = function(moveEvent) {
                     let newWidth;
@@ -532,7 +565,6 @@
             });
         }
 
-        // تهيئة اتصال Supabase سحابياً بسلام
         function initSupabase() {
             if (!_supabase && typeof supabase !== 'undefined') {
                 const { createClient } = supabase;
@@ -540,7 +572,6 @@
             }
         }
 
-        // دالة جلب وعرض القصص حياً من جدول stories السحابي
         async function fetchStoriesList() {
             const listContainer = document.getElementById('storiesList');
             try {
@@ -569,6 +600,12 @@
                     link.onclick = () => {
                         document.querySelectorAll('.story-link').forEach(el => el.classList.remove('active'));
                         link.classList.add('active');
+                        
+                        // إغلاق درج البرديات تلقائياً على الموبايل بمجرد النقر لتسهيل القراءة الفورية
+                        if (window.innerWidth <= 768) {
+                            document.getElementById('sidebar').classList.remove('open');
+                        }
+                        
                         loadStory(story.id);
                     };
                     listContainer.appendChild(link);
@@ -581,7 +618,6 @@
             }
         }
 
-        // دالة جلب البردية وسطورها من جدول sentences السحابي بطلب مباشر وسريع
         async function loadStory(storyId) {
             const container = document.getElementById('storyContainer');
             container.innerHTML = "<p>جاري تحميل المخطوط حياً من سحابة سوبابيز...</p>";
@@ -589,7 +625,6 @@
             try {
                 initSupabase();
 
-                // 1. جلب اسم البردية وعنوانها الأثري
                 const { data: story, error: err1 } = await _supabase
                     .from('stories')
                     .select('title_ar')
@@ -598,7 +633,6 @@
 
                 if (err1) throw err1;
 
-                // 2. جلب أسطر البردية كاملة ومرتبة
                 const { data: sentences, error: err2 } = await _supabase
                     .from('sentences')
                     .select('*')
@@ -608,7 +642,7 @@
                 if (err2) throw err2;
 
                 container.innerHTML = ""; 
-                document.getElementById('activeStoryLabel').innerText = `📖 المخطوط الحالي: ${story.title_ar || storyId}`;
+                document.getElementById('activeStoryLabel').innerText = `📖 ${story.title_ar || storyId}`;
 
                 sentences.forEach(s => {
                     const card = document.createElement('div');
@@ -627,7 +661,6 @@
                         notesHTML = `<div class="detail-row notes-row" style="color:var(--accent-color); font-style:italic;"><strong>الملاحظة الأثرية:</strong> <span>${sentenceNotes}</span></div>`;
                     }
 
-                    // عرض السطر مسطحاً وخفيفاً بدون أي مفردات أو معجم لاهوتي أو أعلام (عرض خالص مصفى)
                     card.innerHTML = `
                         <div class="glyphs-display" style="font-size: ${currentFontSize}px;">${s.hieroglyph}</div>
                         <div class="arabic-display" style="font-size: ${currentFontSize - 6}px;">${s.translation_ar}</div>
@@ -659,8 +692,35 @@
             }
         }
 
+        // آلية التكيف والمواءمة البصرية لأزرار الأدراج بناءً على حجم شاشة العرض (Responsive Initializer)
+        function handleResize() {
+            const sidebar = document.getElementById('sidebar');
+            const storiesBtn = document.getElementById('storiesDrawerBtn');
+            const sidebarClose = document.getElementById('sidebarCloseBtn');
+
+            if (window.innerWidth <= 768) {
+                storiesBtn.style.display = 'inline-flex';
+                sidebarClose.style.display = 'block';
+                sidebar.classList.remove('open');
+                sidebar.style.width = '280px';
+                sidebar.style.minWidth = '0';
+                sidebar.style.maxWidth = 'none';
+            } else {
+                storiesBtn.style.display = 'none';
+                sidebarClose.style.display = 'none';
+                sidebar.classList.remove('open');
+                sidebar.style.width = '280px';
+                sidebar.style.minWidth = '150px';
+                sidebar.style.maxWidth = '450px';
+                sidebar.style.flex = 'none';
+            }
+        }
+
+        window.addEventListener('resize', handleResize);
+
         window.onload = () => {
             initTheme();
+            handleResize();
         };
     </script>
 </body>
