@@ -214,7 +214,7 @@
         }
 
         .settings-drawer.open {
-            left: 0 !important; /* انزلاق ودخول ناعم لليسار */
+            left: 0 !important; /* انزلاق ودخول ناعم لليصار */
         }
 
         .drawer-header {
@@ -229,7 +229,7 @@
             align-items: center;
         }
 
-        /* لوحة القراءة وسرد أسطر البردية ممتدة بالكامل على الهاتف */
+        /* لوحة القراءة وسرد أسطر البردية المتجاوبة تماماً */
         .reader-pane {
             flex: 1;
             display: flex;
@@ -262,7 +262,7 @@
         }
 
         .glyphs-display {
-            font-size: 1.8rem;
+            font-size: 2rem;
             margin-bottom: 10px;
             line-height: 1.4;
             letter-spacing: 1px;
@@ -270,13 +270,14 @@
             word-wrap: break-word;
         }
 
-        .arabic-display {
-            font-family: 'Amiri', serif;
-            font-size: 1.5rem;
+        /* حاوية الترجمة الرئيسية العريضة والمكبرة للسطر النشط (تتغير لغتها ديناميكياً) */
+        .primary-translation-display {
+            font-size: 1.65rem;
             font-weight: bold;
             line-height: 1.4;
             color: var(--text-color);
             margin-bottom: 10px;
+            word-wrap: break-word;
         }
 
         .details-section {
@@ -433,13 +434,24 @@
                     </div>
                 </div>
 
+                <!-- زر تفاعلي جديد ومبتكر لاختيار وتخصيص لغة القراءة الكبرى والأساسية تحت الهيروغليفية -->
+                <div class="form-group" style="margin-top: 10px;">
+                    <label for="primaryLangSelect">لغة القراءة الرئيسية (تحت الهيروغليفية):</label>
+                    <select id="primaryLangSelect" onchange="applyPrimaryLanguage(this.value)" style="margin-top: 5px;">
+                        <option value="arabic">العربية 🇪🇬</option>
+                        <option value="english">الإنجليزية 🇬🇧</option>
+                        <option value="german">الألمانية 🇩🇪</option>
+                        <option value="french">الفرنسية 🇫🇷</option>
+                    </select>
+                </div>
+
                 <div class="form-group" style="margin-top: 10px;">
                     <label>حجم الخط للسطور:</label>
                     <input type="range" min="14" max="36" value="26" oninput="changeFontSize(this.value)" style="margin-top: 5px;">
                 </div>
 
                 <div class="form-group" style="margin-top: 10px; border-top: 1px dashed var(--border-color); padding-top: 10px;">
-                    <label style="margin-bottom: 8px; display: block;">حدد طبقات العرض النشطة:</label>
+                    <label style="margin-bottom: 8px; display: block;">حدد طبقات العرض النشطة في التفاصيل:</label>
                     <div class="checkbox-group" style="grid-template-columns: 1fr;">
                         <label class="checkbox-item"><input type="checkbox" id="showGlyphs" checked onchange="updateVisibility()"> الرسم الفرعوني</label>
                         <label class="checkbox-item"><input type="checkbox" id="showArabic" checked onchange="updateVisibility()"> الترجمة العربية</label>
@@ -462,6 +474,7 @@
 
         let _supabase = null;
         let currentFontSize = 26;
+        let activeLang = "arabic"; // القيمة الافتراضية للغة القراءة الكبرى
 
         function setTheme(themeName) {
             document.documentElement.setAttribute('data-theme', themeName);
@@ -473,12 +486,24 @@
             setTheme(savedTheme);
         }
 
+        // دالة التحكم بـ حجم الخطوط مع مواءمتها للغة الترجيب الكبرى الديناميكية
         function changeFontSize(size) {
             currentFontSize = parseInt(size);
             const glyphs = document.querySelectorAll('.glyphs-display');
-            const arTranslations = document.querySelectorAll('.arabic-display');
+            const primaryDisplays = document.querySelectorAll('.primary-translation-display');
             glyphs.forEach(el => el.style.fontSize = size + 'px');
-            arTranslations.forEach(el => el.style.fontSize = (size - 6) + 'px');
+            primaryDisplays.forEach(el => el.style.fontSize = (size - 6) + 'px');
+        }
+
+        function toggleHeaderSettings(btn) {
+            const settings = document.getElementById('headerSettings');
+            if (settings.style.display === 'none') {
+                settings.style.display = 'flex';
+                btn.innerText = "خيارات العرض ▲";
+            } else {
+                settings.style.display = 'none';
+                btn.innerText = "خيارات العرض ▼";
+            }
         }
 
         // دالة التبديل المعماري أحادي الصفحة لفتح واجهة القراءة
@@ -490,7 +515,6 @@
 
         // دالة العودة للبوابة الرئيسية الموحدة
         function goBackToPortal() {
-            // إغلاق الأدراج المنسدلة المفتوحة تلقائياً لمنع أي تضارب بصري
             document.getElementById('sidebar').classList.remove('open');
             document.getElementById('settingsDrawer').classList.remove('open');
             
@@ -502,7 +526,6 @@
         function toggleStoriesDrawer() {
             const sidebar = document.getElementById('sidebar');
             sidebar.classList.toggle('open');
-            // إغلاق درج الخيارات الأخر تلقائياً لتنظيف الشاشة
             document.getElementById('settingsDrawer').classList.remove('open');
         }
 
@@ -510,8 +533,39 @@
         function toggleSettingsDrawer() {
             const drawer = document.getElementById('settingsDrawer');
             drawer.classList.toggle('open');
-            // إغلاق درج البرديات الأخر تلقائياً
             document.getElementById('sidebar').classList.remove('open');
+        }
+
+        // دالة تبديل لغة القراءة الكبرى والأساسية تحت السطور الهيروغليفية ديناميكياً وبصرياً
+        function applyPrimaryLanguage(langCode) {
+            activeLang = langCode;
+            const displays = document.querySelectorAll('.primary-translation-display');
+            
+            displays.forEach(el => {
+                const ar = el.getAttribute('data-ar') || '';
+                const en = el.getAttribute('data-en') || '';
+                const de = el.getAttribute('data-de') || '';
+                const fr = el.getAttribute('data-fr') || '';
+                
+                if (langCode === 'arabic') {
+                    el.innerText = ar;
+                    el.style.fontFamily = "'Amiri', serif";
+                    el.style.direction = "rtl";
+                } else if (langCode === 'english') {
+                    el.innerText = en;
+                    el.style.fontFamily = "'Inter', sans-serif";
+                    el.style.direction = "ltr";
+                } else if (langCode === 'german') {
+                    el.innerText = de;
+                    el.style.fontFamily = "'Inter', sans-serif";
+                    el.style.direction = "ltr";
+                } else if (langCode === 'french') {
+                    el.innerText = fr;
+                    el.style.fontFamily = "'Inter', sans-serif";
+                    el.style.direction = "ltr";
+                }
+            });
+            changeFontSize(currentFontSize); // إعادة المواءمة للحجم بعد التبديل لعدم حدوث خلل
         }
 
         // برمجة فواصل السحب وتوسيع الألواح بالماوس (تتفعل فقط على الشاشات الكبيرة)
@@ -520,7 +574,7 @@
             const target = document.getElementById(targetId);
             
             splitter.onmousedown = function(e) {
-                if (window.innerWidth <= 768) return; // تعطيل السحب بالماوس على الموبايل
+                if (window.innerWidth <= 768) return; 
                 e.preventDefault();
                 document.onmousemove = function(moveEvent) {
                     let newWidth;
@@ -547,7 +601,7 @@
         function updateVisibility() {
             const configs = [
                 { id: 'showGlyphs', selector: '.glyphs-display' },
-                { id: 'showArabic', selector: '.arabic-display' },
+                { id: 'showArabic', selector: '.primary-translation-display' }, // ربط التحكم بالإظهار للحاوية الأساسية الكبرى أيضاً
                 { id: 'showId', selector: '.metadata-row' },
                 { id: 'showTranslit', selector: '.translit-row' },
                 { id: 'showEnglish', selector: '.english-row' },
@@ -572,6 +626,7 @@
             }
         }
 
+        // دالة جلب وعرض القصص حياً من جدول stories السحابي
         async function fetchStoriesList() {
             const listContainer = document.getElementById('storiesList');
             try {
@@ -601,7 +656,6 @@
                         document.querySelectorAll('.story-link').forEach(el => el.classList.remove('active'));
                         link.classList.add('active');
                         
-                        // إغلاق درج البرديات تلقائياً على الموبايل بمجرد النقر لتسهيل القراءة الفورية
                         if (window.innerWidth <= 768) {
                             document.getElementById('sidebar').classList.remove('open');
                         }
@@ -618,6 +672,7 @@
             }
         }
 
+        // دالة جلب البردية وسطورها من جدول sentences السحابي بطلب مباشر وسريع
         async function loadStory(storyId) {
             const container = document.getElementById('storyContainer');
             container.innerHTML = "<p>جاري تحميل المخطوط حياً من سحابة سوبابيز...</p>";
@@ -661,9 +716,37 @@
                         notesHTML = `<div class="detail-row notes-row" style="color:var(--accent-color); font-style:italic;"><strong>الملاحظة الأثرية:</strong> <span>${sentenceNotes}</span></div>`;
                     }
 
+                    // تجهيز وعرض الترجمة الكبرى والأساسية بناءً على خيار لغة القراءة المختارة للباحث
+                    let initialPrimaryText = s.translation_ar;
+                    let initialDirection = "rtl";
+                    let initialFont = "'Amiri', serif";
+                    
+                    if (activeLang === 'english') {
+                        initialPrimaryText = s.translation_en;
+                        initialDirection = "ltr";
+                        initialFont = "'Inter', sans-serif";
+                    } else if (activeLang === 'german') {
+                        initialPrimaryText = s.translation_de;
+                        initialDirection = "ltr";
+                        initialFont = "'Inter', sans-serif";
+                    } else if (activeLang === 'french') {
+                        initialPrimaryText = s.translation_fr;
+                        initialDirection = "ltr";
+                        initialFont = "'Inter', sans-serif";
+                    }
+
                     card.innerHTML = `
                         <div class="glyphs-display" style="font-size: ${currentFontSize}px;">${s.hieroglyph}</div>
-                        <div class="arabic-display" style="font-size: ${currentFontSize - 6}px;">${s.translation_ar}</div>
+                        
+                        <!-- الحاوية الأساسية الكبرى للترجمة المحددة لغوياً -->
+                        <div class="primary-translation-display" 
+                             data-ar="${s.translation_ar || ''}" 
+                             data-en="${s.translation_en || 'N/A'}" 
+                             data-de="${s.translation_de || 'N/A'}" 
+                             data-fr="${s.translation_fr || 'N/A'}"
+                             style="font-size: ${currentFontSize - 6}px; font-family: ${initialFont}; direction: ${initialDirection};">
+                             ${initialPrimaryText}
+                        </div>
                         
                         <div class="details-section">
                             <div class="detail-row metadata-row">
